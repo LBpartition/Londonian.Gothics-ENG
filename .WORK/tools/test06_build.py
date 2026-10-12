@@ -1,13 +1,13 @@
 import os
 """TEST06: narrow A-Z, gap 1/space 4, UI line step 12, DRESS MODE names+descriptions
-from the GameFAQs guide (ShadowRisae), tables repointed into ITCM.
+from tools-resources/script_en.json, tables repointed into ITCM.
 Descriptions that fail the fit gate are left in Japanese and listed."""
 import re, struct, sys, hashlib
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild, vwf_patch, textfit, font_patch
 import test01_build as t1
-import layout
+import master
 
 W = Path(__file__).resolve().parent.parent
 GAP, SPACE, STEP = 1, 4, 14
@@ -15,29 +15,8 @@ DIALOGUE_VWF = False  # set by later builds (test07+)
 ITEMS = False         # set by full_build
 TITLE = False         # set by full_build (title bottom-screen credits)
 ITEM_DESC_STRIDE = 0x80
-# ids 1-30 in arm9 order == guide lines 303-332 (romanized names match the JP katakana)
-ITEM_ORDER = ["awizu", "akubaru", "rewiza", "dareifu", "wariyagu", "roadesu", "tyuunu", "rudorin",
-              "gurasuto", "irumari", "kuahha", "lisufa", "borodi", "fomoru", "tuuka", "aigizu",
-              "osubiya", "nyukusu", "zoriano", "reshiefu", "seitse", "masaeru", "oreusu", "yeun",
-              "seruti", "sarissa", "eushu", "maanesu", "tareosu", "radokuya"]
-ITEM_EXTRA_NAMES = {31: "Holy Sword", 32: "Bible", 33: "Holy Water"}   # 31: guide "holy sword" (was MTL "Bergen"); guide 1758 "-Bible"; 1702 "Obtained holy water"
-# guide 1758 (Bible shop text); JP descs of 32/33 are identical apart from "part 1"/"part 2"
-ITEM_EXTRA_DESCS = {31: "A holy sword-shaped accessory.",   # user-approved
-                    32: "One of the items necessary for rescuing the professor.",
-                    33: "One of the items necessary for rescuing the professor."}
-
-
-def guide_items():
-    L = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8").split("\n")
-    out = {}
-    for ln in L[295:340]:
-        mm = re.match(r"^-(\w+)\s*: (.*?)(?:\s*\([^)]*\))?\s*$", ln)
-        if mm: out[mm.group(1)] = mm.group(2).strip()
-    return out
-
-
 def item_tables(arm9, m):
-    g = guide_items(); assert set(ITEM_ORDER) <= set(g), set(ITEM_ORDER) - set(g)
+    g = None
     names, descs, rej = b"", b"", []
     for i in range(34):
         o = 0x48144 + 10 * i
@@ -45,7 +24,7 @@ def item_tables(arm9, m):
         o = 0x486E0 + 0x2E * i
         jd = list(struct.unpack("<23H", arm9[o:o + 0x2E])); jd = jd[:jd.index(0)] if 0 in jd else jd
         un, ud = jn, jd
-        en = ITEM_ORDER[i].capitalize() if i < 30 else ITEM_EXTRA_NAMES.get(i + 1)
+        en = item_name(i)
         if en:
             un = textfit.fit(en, textfit.DRESS_NAME_N, m)
         dtxt = item_desc(i, g)
@@ -60,36 +39,23 @@ def item_tables(arm9, m):
     return names, descs, rej
 
 
-ORDER = ["Hystulle", "Tranquille", "Stradia", "Domudia", "Riffcowl", "Dewlit", "Ferminio",
-         "Blizzariel", "Proteus", "Cannelle", "Twincavia", "Survey", "Manaclis", "Epinephre",
-         "Litense", "Iscarpe", "Argus", "Satiend", "Shrake", "Scuart", "Torpedone", "Bekiradin"]
+ORDER = [e["name"] for e in master.EN["dresses"]]   # dress ids 1-22 (arm9 order)
 NAME_STRIDE, DESC_STRIDE = 0x18, 0x100
-# Guide text with words removed only (no new wording) so it fits 3 lines.
-TRIM = {
-    "Scuart": "Knock back enemy a random distance in a straight line via bazooka.",
-    "Dewlit": "Knock back enemy a random distance over walls via bazooka.",
-    "Litense": "Jump over 1 square of distance.",
-    "Iscarpe": "Auto-warp somewhere on map upon enemy touch instead of dying. Drains all DP.",
-}
+_D = {e["name"]: e for e in master.EN["dresses"]}
+_I = {e["id"]: e for e in master.EN["items"]}
 
 
-def guide_dresses():
-    L = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8").split("\n")[233:264]
-    it = re.findall(r'^\d\d\. (\w+)\s*: (.*?)(?=\n\s*\n|\n\d\d\.|\Z)', "\n".join(L), re.S | re.M)
-    return {n: " ".join(d.split()) for n, d in it}
-
-
-def dress_desc(n, g):
-    return layout.OV["dress"].get(n) or TRIM.get(n, g[n])
+def dress_desc(n, g=None):
+    return master.join(_D[n]["desc"])
 
 
 def item_name(i):
-    return ITEM_ORDER[i].capitalize() if i < 30 else ITEM_EXTRA_NAMES.get(i + 1)
+    return _I[i + 1]["name"]
 
 
-def item_desc(i, g):
-    nm = item_name(i)
-    return layout.OV["item"].get(nm) or (g[ITEM_ORDER[i]] if i < 30 else ITEM_EXTRA_DESCS.get(i + 1))
+def item_desc(i, g=None):
+    d = _I[i + 1]["desc"]
+    return master.join(d) if d else None
 
 
 def main(out_dir, diag=False):
@@ -99,7 +65,7 @@ def main(out_dir, diag=False):
     font = font_patch.patch_font(ndsbuild.get_file(rom, fid))
     m = textfit.Metrics(font, GAP, SPACE)
     arm9 = bytearray((W / "extracted" / "arm9.bin").read_bytes())
-    g = guide_dresses(); assert sorted(g) == sorted(ORDER), set(g) ^ set(ORDER)
+    g = None
 
     names, descs, rejected = b"", b"", []
     for k, n in enumerate(ORDER):
@@ -158,13 +124,13 @@ def main(out_dir, diag=False):
     assert name_addr + len(names) + len(descs) < 0x02000000, "extra tables overflow ITCM"
     # OPTION screen: guide line 83/85 "Text Speed", "Backlight"; original full-width caps
     # (A=0xD4.., like BGM/SE/BACK), FFFE = space; fixed 24-byte slots.
-    for off, txt in ((0x4C420, "SFX"), (0x4C438, "TEXT SPEED"), (0x4C450, "BACKLIGHT")):
+    for off, txt in ((0x4C420, master.MENU["option_sfx"]), (0x4C438, master.MENU["option_text_speed"]), (0x4C450, master.MENU["option_backlight"])):
         u = [0xFFFE if c == " " else 0xD4 + ord(c) - 65 for c in txt]
         assert len(u) < 12
         struct.pack_into("<12H", arm9, off, *(u + [0] * (12 - len(u))))
     # Yes/No prompts (save/load/shop etc.): 8-byte slots, full-width caps
     fw = lambda t: [0xD4 + ord(c) - 65 for c in t]
-    yn = {(0x1A, 0x02, 0, 0): "YES", (0x02, 0x02, 0x04, 0): "NO", (0x24, 0x22, 0x29, 0): "END"}
+    yn = {(0x1A, 0x02, 0, 0): master.MENU["yes"], (0x02, 0x02, 0x04, 0): master.MENU["no"], (0x24, 0x22, 0x29, 0): master.MENU["end"]}
     for off in range(0x4B000, 0x4C800, 8):
         t = yn.get(struct.unpack_from("<4H", arm9, off))
         if t and struct.unpack_from("<H", arm9, off - 2)[0] in (0, 0xFF):
@@ -180,7 +146,7 @@ def main(out_dir, diag=False):
         assert struct.unpack_from("<I", arm9, o)[0] == 0xE1A03002
         struct.pack_into("<I", arm9, o, 0xE3A03070)
     assert struct.unpack_from("<8H", arm9, 0x4BF68) == (0x5E, 0xA1, 0x99, 0x0C, 0x1F, 0x0C, 0x10, 0)
-    u = fw("SAVED"); struct.pack_into("<8H", arm9, 0x4BF68, *(u + [0] * (8 - len(u))))
+    u = fw(master.MENU["saved"]); struct.pack_into("<8H", arm9, 0x4BF68, *(u + [0] * (8 - len(u))))
     # repoint dress tables (getName / getDesc ids 0x23..0x3A)
     struct.pack_into("<I", arm9, 0x2E47C, name_addr)
     assert struct.unpack_from("<I", arm9, 0x2E468)[0] == 0xB3A0000E

@@ -1,6 +1,0 @@
-wait 30
-wait 120
-shot a
-press Start 3
-wait 300
-shot b

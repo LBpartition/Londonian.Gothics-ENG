@@ -1,4 +1,4 @@
-"""Build tools-resources/glyph_table.tsv from transcription of the font sheet (0x000-0x246).
+"""Build tools-resources/glyph_table.tsv (original-glyph rows; CUSTOM rows are hand-edited) from transcription of the font sheet (0x000-0x246).
 
 Every row was read from the rendered sheets in phase2/. Special glyphs use {TAGS}.
 """
@@ -56,10 +56,12 @@ def build():
     return table
 
 if __name__ == "__main__":
+    # rewrite the original-glyph rows (0x000-0x246); keep the en column and all CUSTOM rows as edited
     t = build()
     out = Path(__file__).resolve().parents[1] / "tools-resources" / "glyph_table.tsv"
-    with open(out, "w", encoding="utf-8") as f:
-        f.write("id\tchar\tnote\n")
-        for k in sorted(t):
-            f.write(f"0x{k:03X}\t{t[k]}\t{UNSURE.get(k, '')}\n")
-    print(f"{len(t)} glyphs -> {out}")
+    old = [l.rstrip("\n").split("\t") for l in open(out, encoding="utf-8")][1:]
+    en = {int(r[0], 16): r[2] for r in old}
+    custom = ["\t".join(r) for r in old if int(r[0], 16) >= len(t)]
+    rows = ["id\tchar\ten\ttop\tpixels\tnote"] + [f"0x{k:03X}\t{t[k]}\t{en.get(k, '')}\t\t\t{UNSURE.get(k, '')}" for k in sorted(t)]
+    out.write_text("\n".join(rows + custom) + "\n", encoding="utf-8")
+    print(f"{len(t)} original + {len(custom)} custom glyphs -> {out}")

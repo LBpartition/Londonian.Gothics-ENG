@@ -8,6 +8,7 @@ sprite and advance the pen by a fixed 14 px. This patch:
 Hook code and the two byte tables live in an enlarged ITCM autoload section.
 Only English glyphs get proportional metrics; kana/kanji keep left=0, adv=14.
 """
+import font_patch
 import struct
 import keystone
 
@@ -27,12 +28,10 @@ ENGLISH = (
     + list(range(0xD4, 0xEE))    # A-Z
     + [0xA4, 0xA5, 0xA6, 0xA7, 0xAB, 0xAC, 0xAD, 0xAE, 0xAF, 0xB0, 0xB1, 0xB2, 0xB3,
        0xBA, 0xBB, 0xEE, 0xA2, 0x23E, 0x248, 0x249, 0x24A]
-    + list(range(0x24B, 0x265))  # narrow A-Z
-    + [0x265]                    # narrow asterisk (font_patch.ASTER)
-    + list(range(0x266, 0x273))  # narrow 0-9, &, ?, ! (font_patch.DIGIT0, AMP)
+    + [g for g in font_patch.NEW_GLYPHS if g > 0x24A]   # custom glyphs (glyph_table.tsv)
 )
 BLANK_GLYPH = 0x247
-PAD = {0x272: 1}   # extra px each side (narrow "!" is 1px wide)
+PAD = {font_patch.EXCL: 1}   # extra px each side (narrow "!" is 1px wide)
 TABULAR = [list(range(0xC0, 0xCA)), list(range(0xCA, 0xD4)), [0xBA, 0xBB]]
 
 

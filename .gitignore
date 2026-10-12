@@ -31,3 +31,5 @@ pipeline.txt
 .WORK/tools/test03_build.py
 .WORK/tools/test05_build.py
 .WORK/tools/test07_build.py
+.WORK/tools/emu/
+.WORK/legacy/

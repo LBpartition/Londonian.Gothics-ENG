@@ -4,9 +4,10 @@ import struct
 from collections import Counter
 from PIL import Image, ImageFont, ImageDraw
 import intro_patch
+import master
 
 FILE = "data/mode_save.NCGR"
-PROMPTS = {"save": (22, 38, 21, 37, "SAVE ?"), "load": (102, 118, 101, 117, "LOAD ?")}
+PROMPTS = {"save": (22, 38, 21, 37, master.MENU["save_prompt"]), "load": (102, 118, 101, 117, master.MENU["load_prompt"])}
 NT = 9
 CENTER = 22  # px from tile 0 (screen x 96) -> midway between YES and NO
 

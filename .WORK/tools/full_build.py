@@ -1,5 +1,5 @@
 r"""Full dialogue build: TEST06 base (UI VWF + DRESS MODE) + dialogue VWF +
-every reviewed guide line from tools-resources\final\*.json inserted into the .sp scripts.
+all English text from tools-resources\script_en.json (exact in-game lines) inserted into the ROM.
 
   python tools\full_build.py <out_dir> [name]
 
@@ -16,8 +16,7 @@ BOX = textfit.Box("dialogue", 166, 99, 0xFFFE)  # x44 w170; 3 lines/page, game a
 KEEP_JP_CODES = (0xFD00, 0xFC00)  # inserted name / number: English guide text is static
 
 
-from highlight import highlight, JPM
-import layout
+import master
 
 
 def norm(s):
@@ -26,8 +25,6 @@ def norm(s):
     return re.sub(r'[^\S\n]+', ' ', s).strip()
 
 
-GUIDE = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8", errors="replace")
-GUIDE_WS = " ".join(GUIDE.split())
 # Bottom-screen location plate (header name). JP longest = 7 glyphs x 12px; plate ~130px wide.
 LOC_BOX = textfit.Box("location", 140, 1, 0xFFFE)
 
@@ -50,50 +47,28 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     tmp.rmdir()
     ids = ndsbuild.file_ids_by_path(rom)
     m = textfit.Metrics(ndsbuild.get_file(rom, ids["data/font.NCGR"]), t6.GAP, t6.SPACE)
-    APPROVED = {tuple(l.split("\t")[:2]): l.rstrip("\n").split("\t", 2)[2]
-                for l in open(W / "tools-resources" / "approved.tsv", encoding="utf-8")}   # user-approved MTL
     rep = ["file\tidx\tstatus\tlines\ten"]
     changes, n_en, n_jp, n_fail = {}, 0, 0, 0
-    for p in sorted(glob.glob(str(W / "tools-resources" / "final" / "*.json"))):
-        fname = os.path.basename(p)[:-5]
+    files = {}
+    for e in master.EN["dialogue"]: files.setdefault(e["file"], []).append(e)
+    for fname in sorted(files):
         sid = ids["data/" + fname]
         d = ndsbuild.get_file(rom, sid)
         info = sp_tool.parse(d)
         new = [s for _, s in info["strings"]]
-        for e in json.load(open(p, encoding="utf-8")):
-            i, en = e["idx"], e.get("en")
-            note = e.get("note") or ""
-            if en is None and note.lower().startswith("sfx:"):
-                t = note.split(":", 1)[1].strip()
-                if "/" + t + "/" in GUIDE:   # verbatim guide /action/ line only
-                    en = t
-            elif en is None and note.startswith("diary text (guide"):
-                t = note.split("):", 1)[1].strip()
-                if " ".join(t.split()) in GUIDE_WS:   # verbatim guide text only
-                    en = t
-            elif en is None and note.startswith("diary date heading (guide '"):
-                t = note.split("'")[1]
-                if t in GUIDE:
-                    en = t
-            mtl = en is None and (fname, str(i)) in APPROVED
-            if mtl:
-                en = APPROVED[(fname, str(i))]
+        for e in files[fname]:
+            i, mtl = e["idx"], e["source"] == "mtl"
+            en = norm(master.join(e["en"])) if e["en"] else None
             _t = os.environ.get("LG_TEST_LINE", "").split("|", 2)   # diagnostic override: file|idx|text
             if len(_t) == 3 and _t[0] == fname and _t[1] == str(i):
-                en = _t[2]
-            if f"{fname}|{i}" in layout.OV["dialogue"]:
-                en = layout.OV["dialogue"][f"{fname}|{i}"]
-            elif en is not None and "\n" not in en:
-                en = layout.auto_break(norm(en), BOX, m)
-            if en is not None and "{H}" not in en:
-                en = highlight(en, JPM.get((fname, i), ""))
+                en = norm(_t[2])
             if en is None:
-                n_jp += 1; rep.append(f"{fname}\t{i}\tjp:{e.get('note','')}\t\t"); continue
+                n_jp += 1; rep.append(f"{fname}\t{i}\tjp:untranslated\t\t"); continue
             if any(c in KEEP_JP_CODES for c in new[i]):
                 n_jp += 1; rep.append(f"{fname}\t{i}\tjp:has-insert-code\t\t{en}"); continue
             try:
-                lines = textfit.wrap(norm(en), BOX, m)
-                new[i] = textfit.fit(norm(en), BOX, m)
+                lines = textfit.wrap(en, BOX, m)
+                new[i] = textfit.fit(en, BOX, m)
                 n_en += 1
                 rep.append(f"{fname}\t{i}\t{'mtl' if mtl else 'ok' if len(lines) <= 3 else 'ok-multipage'}\t{len(lines)}\t{' / '.join(lines)}")
             except (textfit.FitError, KeyError) as ex:
@@ -102,7 +77,7 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     import intro_patch
     import font_patch as FP, glyph_table
     gt = glyph_table.build()
-    locs = json.load(open(W / "tools-resources" / "locations.json", encoding="utf-8"))
+    locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     n_loc = 0
     for path, sid in ids.items():
         if not path.endswith(".sp"):
@@ -111,11 +86,8 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
         d = changes.get(sid) or ndsbuild.get_file(rom, sid)
         jp = "".join(gt.get(v, "?") for v in sp_tool.get_name(d))
         en = locs.get(fname)
-        if en is None and jp.startswith("\u5730\u4e0b") and jp.endswith("\u968e"):
-            en = "Labyrinth B" + jp[2:-1] + "F"
         if en is None:
-            rep.append(f"{fname}\tname\tjp:location-not-in-guide\t\t{jp}"); continue
-        en = en.replace("|", " ")
+            rep.append(f"{fname}\tname\tjp:location-untranslated\t\t{jp}"); continue
         if m.width(en, LOC_BOX) > LOC_BOX.max_px:
             n_fail += 1; rep.append(f"{fname}\tname\tFAIL:width {m.width(en, LOC_BOX)}px\t\t{en}"); continue
         codes = m.codes(en, LOC_BOX)

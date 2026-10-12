@@ -1,4 +1,0 @@
-wait 30
-press Start 3
-wait 400
-shot boot

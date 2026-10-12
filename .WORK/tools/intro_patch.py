@@ -1,7 +1,7 @@
 """Prologue story roll (bottom screen intro): repaint data/title_roll_full_16.NCGR.
 
 The JP text is a pre-drawn 256x688 4bpp bitmap (tiles stored linearly, 32 per row),
-NOT glyph text. English = guide "[00].Prologue Story Roll", split into the same 7
+NOT glyph text. English = script_en.json "intro" (guide "[00].Prologue Story Roll"), split into the same 7
 blocks as the JP; each block starts on the same pixel row as the original so the
 paragraph spacing/scroll timing is preserved. Tile count and palette are unchanged.
 """
@@ -13,21 +13,9 @@ FILE = "data/title_roll_full_16.NCGR"
 FONT = r"C:\Windows\Fonts\georgia.ttf"
 W, H, X0, X1 = 256, 688, 8, 249
 BLOCK_Y = [1, 93, 209, 324, 440, 555, 671]   # first text row of each JP block
-BLOCKS = [
-    "London, capital of the British Empire, late 1800s.",
-    "Awash in outlandish tales, dastardly deeds by unseen foes, citizens vanishing "
-    "abruptly, and rumbling deep within the earth, a dark malaise permeates "
-    "throughout this city.",
-    "Now, under the silent cloak of darkness in a corner of this misty capital, "
-    "those who crawl the earth begin their clandestine wriggling once again...",
-    "Nabokov, an ingenious scientist, fled from the collapsing Russian Empire and "
-    "resettled with his family here in London.",
-    "He soon noticed London's troubles and determined the source that tied all "
-    "these turbulent trends in the dead of night together.",
-    "Bringing his intellect and talents to bear, along with the help of Mikhail's "
-    "sorcery, he set out to put right what he found wrong in the world.",
-    "Alas....",
-]
+sys.path.insert(0, str(Path(__file__).parent))
+import master
+BLOCKS = [master.join(e["en"]) for e in master.EN["intro"]]   # tools-resources/script_en.json "intro"
 SIZE, PITCH = 12, 16
 LIGHT, DARK = (224, 200, 192), (48, 40, 32)
 
@@ -37,7 +25,7 @@ class FitError(Exception):
 
 
 def wrap(text, font):
-    if "\n" in text:   # forced breaks (layout_overrides.json)
+    if "\n" in text:   # exact lines from script_en.json
         return [l for p in text.split("\n") for l in wrap(p, font)]
     lines, cur = [], ""
     for w in text.split():
@@ -54,9 +42,7 @@ def wrap(text, font):
 def layout():
     font = ImageFont.truetype(FONT, SIZE)
     out = []
-    import layout
     for k, (y, txt) in enumerate(zip(BLOCK_Y, BLOCKS)):
-        txt = layout.OV["intro"].get(str(k), txt)
         lines = wrap(txt, font)
         end = y + (len(lines) - 1) * PITCH + 14
         limit = BLOCK_Y[k + 1] - 8 if k + 1 < len(BLOCK_Y) else H
