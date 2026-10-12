@@ -1,0 +1,862 @@
+[
+{
+"idx": 100,
+"gline": 374,
+"en": "So Father's down here?"
+},
+{
+"idx": 5,
+"gline": 375,
+"en": "Yes."
+},
+{
+"idx": 142,
+"gline": 375,
+"en": "Ghoulish creatures crawled up through that fissure and abducted the professor."
+},
+{
+"idx": 45,
+"gline": 377,
+"en": "Monsters grabbed Father?  But why would they?"
+},
+{
+"idx": 4,
+"gline": 378,
+"en": "Who can say?"
+},
+{
+"idx": 63,
+"gline": 379,
+"en": "Well, Mikhail, what should we do about it?"
+},
+{
+"idx": 81,
+"gline": 380,
+"en": "How do you believe we ought to proceed?"
+},
+{
+"idx": 148,
+"gline": 381,
+"en": "Bleh, you're useless."
+},
+{
+"idx": 167,
+"gline": 382,
+"en": "Huh?  Might you have just said something?"
+},
+{
+"idx": 51,
+"gline": 383,
+"en": "Nope, not a thing."
+},
+{
+"idx": 131,
+"gline": 383,
+"en": "All right, Mikhail, I've made up my mind."
+},
+{
+"idx": 159,
+"gline": 384,
+"en": "Yes, about what?"
+},
+{
+"idx": 170,
+"gline": 385,
+"en": "I'm going to go rescue Father!"
+},
+{
+"idx": 44,
+"gline": 386,
+"en": "Y-you shan't!  That's too dangerous!"
+},
+{
+"idx": 42,
+"gline": 387,
+"en": "Well, what else would you have me do?"
+},
+{
+"idx": 41,
+"gline": 387,
+"en": "Leave him there to rot?"
+},
+{
+"idx": 59,
+"gline": 388,
+"en": "Bestill my heart no!  I wouldn't dream of it."
+},
+{
+"idx": 96,
+"gline": 389,
+"en": "Then I guess our only option is for me to go."
+},
+{
+"idx": 30,
+"gline": 390,
+"en": "But yet!  Milady, I can't allow you to place yourself in harm's way."
+},
+{
+"idx": 155,
+"gline": 391,
+"en": "Oh, I'll be fine. After all, I've got this dress you made for me, don't I."
+},
+{
+"idx": 138,
+"gline": 391,
+"en": "*spin*  This magic dress I'm wearing!"
+},
+{
+"idx": 120,
+"gline": 393,
+"en": "To be sure, with that dress' powers you do at least stand a chance."
+},
+{
+"idx": 113,
+"gline": 394,
+"en": "Right?!"
+},
+{
+"idx": 14,
+"gline": 395,
+"en": "Though that doesn't change the fact that it's hardly safe.  I'm not certain I could allow it in good conscience..."
+},
+{
+"idx": 124,
+"gline": 397,
+"en": "\"It has to be me!\""
+},
+{
+"idx": 102,
+"gline": 398,
+"en": "!"
+},
+{
+"idx": 21,
+"gline": 399,
+"en": "Father must be down there, waiting for me to come help him!"
+},
+{
+"idx": 15,
+"gline": 399,
+"en": "I can't let his hopes be in vain."
+},
+{
+"idx": 146,
+"gline": 401,
+"en": "I..see.  I understand how you feel.  And yet I worry..."
+},
+{
+"idx": 64,
+"gline": 402,
+"en": "Well then, how about you come along with me?"
+},
+{
+"idx": 17,
+"gline": 403,
+"en": "This is a task you are uniquely qualified for, milady."
+},
+{
+"idx": 16,
+"gline": 403,
+"en": "Very well. I'll entrust his fate to you."
+},
+{
+"idx": 122,
+"gline": 405,
+"en": "Whoa, instant flip-flop o_O."
+},
+{
+"idx": 78,
+"gline": 406,
+"en": "What have we here?  You're not already on your way?"
+},
+{
+"idx": 166,
+"gline": 407,
+"en": "You'd have me set off just like this?  Empty-handed?"
+},
+{
+"idx": 80,
+"gline": 408,
+"en": "What would you want to bring, aside from the magic dress?"
+},
+{
+"idx": 140,
+"gline": 409,
+"en": "Food, for starters, would be nice.  And perhaps a lantern and matches..."
+},
+{
+"idx": 91,
+"gline": 411,
+"en": "Understood.  I'll ask our maid to prepare those items for you. Milady, please wait in your room.  Now if you'll excuse me."
+},
+{
+"idx": 117,
+"gline": 474,
+"en": "Sorry I kept you waiting, Mikhail."
+},
+{
+"idx": 168,
+"gline": 475,
+"en": "Milady.  Have you packed all you need?  Do you have your handkerchief?  And some tissues?"
+},
+{
+"idx": 149,
+"gline": 477,
+"en": "Aw give it a rest.  I'm not a kid anymore!"
+},
+{
+"idx": 90,
+"gline": 478,
+"en": "I know, but I am still concerned for your well-being."
+},
+{
+"idx": 129,
+"gline": 479,
+"en": "I'll be fine. As long as I have this magic dress, I needn't worry no matter how perilous the going gets."
+},
+{
+"idx": 24,
+"gline": 479,
+"en": "Isn't that right?"
+},
+{
+"idx": 106,
+"gline": 481,
+"en": "......"
+},
+{
+"idx": 165,
+"gline": 482,
+"en": "What's with that reaction?"
+},
+{
+"idx": 6,
+"gline": 483,
+"en": "Ah, pardon me.  I meant no offense."
+},
+{
+"idx": 50,
+"gline": 484,
+"en": "Mikhail, don't tell me you lack confidence in your own handiwork."
+},
+{
+"idx": 10,
+"gline": 485,
+"en": "N, nothing of the sort!"
+},
+{
+"idx": 154,
+"gline": 485,
+"en": "Surely everything will be fine."
+},
+{
+"idx": 164,
+"gline": 486,
+"en": "Suuuurely?"
+},
+{
+"idx": 7,
+"gline": 487,
+"en": "Ah, no, I mean, everything shall be fine.  I daresay."
+},
+{
+"idx": 157,
+"gline": 488,
+"en": "You daaaaresay?"
+},
+{
+"idx": 54,
+"gline": 489,
+"en": "I e-expect."
+},
+{
+"idx": 25,
+"gline": 490,
+"en": "Oh come on!  Mikhail!"
+},
+{
+"idx": 152,
+"gline": 491,
+"en": "That being the conclusion I've reached --"
+},
+{
+"idx": 40,
+"gline": 495,
+"en": "Kyaa!  H-hey, no pushing!"
+},
+{
+"idx": 71,
+"gline": 496,
+"en": "Take care, and safe journeys."
+},
+{
+"idx": 112,
+"gline": 1226,
+"en": "I hope I can find some sort of clue down here. Let's hurry and investigate."
+},
+{
+"idx": 49,
+"gline": 1231,
+"en": "Hm?  What do we have here?"
+},
+{
+"idx": 28,
+"gline": 1231,
+"en": "It's Father's research report!"
+},
+{
+"idx": 105,
+"gline": 1231,
+"en": "Let's see.. I wonder if there'll be anything in here about it?"
+},
+{
+"idx": 56,
+"gline": 1233,
+"en": "Genomroid. That is..."
+},
+{
+"idx": 58,
+"gline": 1234,
+"en": "Ah! Here it is, right here! He did write about genomroid!"
+},
+{
+"idx": 82,
+"gline": 1234,
+"en": "All right then, again from the top."
+},
+{
+"idx": 85,
+"gline": 1236,
+"en": "Genomroid. That is a brand new being, one brought to life not by the gods but created through the striving of ordinary man."
+},
+{
+"idx": 109,
+"gline": 1236,
+"en": "As such, it is imperfect as a life form."
+},
+{
+"idx": 36,
+"gline": 1236,
+"en": "It must harvest supplemental energy from the outside in order to survive."
+},
+{
+"idx": 127,
+"gline": 1236,
+"en": "Calling the results so far a flop wouldn't be an exaggeration. And yet, it is so close to the ideal that it would be regrettable to discard."
+},
+{
+"idx": 104,
+"gline": 1236,
+"en": "It will be necessary to develop a means to..."
+},
+{
+"idx": 76,
+"gline": 1243,
+"en": "*gulp* That's some weighty stuff."
+},
+{
+"idx": 103,
+"gline": 1243,
+"en": "An artificial human. So that's what a genomroid is, isn't it."
+},
+{
+"idx": 130,
+"gline": 1245,
+"en": "Looks like there's more. Let's read on."
+},
+{
+"idx": 53,
+"gline": 1245,
+"en": "Lessee here..."
+},
+{
+"idx": 86,
+"gline": 1249,
+"en": "Why hello there, Miss."
+},
+{
+"idx": 92,
+"gline": 1250,
+"en": "Eep!?"
+},
+{
+"idx": 46,
+"gline": 1251,
+"en": "Oh, it's you Lucille. You gave me quite the fright."
+},
+{
+"idx": 114,
+"gline": 1252,
+"en": "My, my, are you at it again? Goofing off again, and in a place like this no less?"
+},
+{
+"idx": 145,
+"gline": 1254,
+"en": "As I told you, I. am. not. goofing off!"
+},
+{
+"idx": 87,
+"gline": 1255,
+"en": "*sigh* Good grief. Are you sure you actually feel like rescuing the professor?"
+},
+{
+"idx": 13,
+"gline": 1257,
+"en": "What are you talking about?! It should be obvious that I do!"
+},
+{
+"idx": 158,
+"gline": 1258,
+"en": "Could've fooled me. If you cared, no way would you be wasting time here in the manor, right?"
+},
+{
+"idx": 151,
+"gline": 1260,
+"en": "Rrr! F-fine then! I'm going back down right now!"
+},
+{
+"idx": 110,
+"gline": 1261,
+"en": "Oh, but if you'd rather not bother, how about quitting?"
+},
+{
+"idx": 11,
+"gline": 1262,
+"en": "No way could I drop it; don't be absurd!"
+},
+{
+"idx": 65,
+"gline": 1263,
+"en": "Huhu, is that so? Well then, do as you please."
+},
+{
+"idx": 69,
+"gline": 1263,
+"en": "I couldn't care less which you choose."
+},
+{
+"idx": 137,
+"gline": 1263,
+"en": "Huhuhuhu. Keekekekeke."
+},
+{
+"idx": 75,
+"gline": 1268,
+"en": "I've had it with you, Lucille!"
+},
+{
+"idx": 128,
+"gline": 1268,
+"en": "You've gone beyond sarcastic teasing straight into obnoxious jerk territory! You're lower than a snake's belly in a wagon rut."
+},
+{
+"idx": 119,
+"gline": 1271,
+"en": "Ah well, standing here grumbling about her sure won't solve anything. Back to the labyrinth it is!"
+},
+{
+"idx": 171,
+"gline": 1271,
+"en": "I'll get another earful from Lucille if I don't get a move on."
+},
+{
+"idx": 95,
+"en": null,
+"note": "sfx: rustle, rustle"
+},
+{
+"idx": 74,
+"gline": 1405,
+"en": "Here it is."
+},
+{
+"idx": 47,
+"gline": 1405,
+"en": "Father's research report! I hope reading the rest will clear up all doubt."
+},
+{
+"idx": 48,
+"gline": 1408,
+"en": "I used sometic cells from Anya to create the genomroid base body."
+},
+{
+"idx": 23,
+"gline": 1408,
+"en": "One can never truly bring back someone they've lost, and I understand that full well."
+},
+{
+"idx": 125,
+"gline": 1408,
+"en": "However, just being able to see Anya's visage again would be enough."
+},
+{
+"idx": 52,
+"gline": 1408,
+"en": "The base body that was born was indeed the spitting image of my Anya, my daughter, at least on the outside. Seeing her filled me with joy, as if my daughter had actually been reborn."
+},
+{
+"idx": 153,
+"gline": 1408,
+"en": "Alas, when I think of what came next that joy turns to depression."
+},
+{
+"idx": 93,
+"gline": 1408,
+"en": "I had to incorporate a certain ability into this girl,"
+},
+{
+"idx": 160,
+"gline": 1408,
+"en": "the ability to destroy bordermoon orbs."
+},
+{
+"idx": 150,
+"gline": 1408,
+"en": "Though it had to be done, it pained me to do it."
+},
+{
+"idx": 18,
+"gline": 1408,
+"en": "I had to take such a lovely girl and tailor-make her into something akin to a weapon."
+},
+{
+"idx": 37,
+"gline": 1408,
+"en": "Despite my grief I cannot afford to quit now."
+},
+{
+"idx": 121,
+"gline": 1408,
+"en": "And that being the case, at least I can treat this girl just as I would any daughter of mine,"
+},
+{
+"idx": 99,
+"gline": 1408,
+"en": "with fatherly devotion and sincere affection."
+},
+{
+"idx": 68,
+"gline": 1408,
+"en": "With those feelings in mind I chose to name the girl, and call her Alice."
+},
+{
+"idx": 33,
+"gline": 1424,
+"en": "N-no way!  That can't be!  Me being the genomroid.  I won't believe it.  I'm a person!"
+},
+{
+"idx": 27,
+"gline": 1426,
+"en": "Awww, that's disappointing.  So you finally found out, huh."
+},
+{
+"idx": 162,
+"gline": 1427,
+"en": "L-lucille?!"
+},
+{
+"idx": 22,
+"gline": 1428,
+"en": "Huhhuhhu.  How does it feel to know that you're an imitation, nothing more than a mere figurine?"
+},
+{
+"idx": 88,
+"gline": 1430,
+"en": "Stop it!  Don't call me a figurine!  I am a person!"
+},
+{
+"idx": 161,
+"gline": 1431,
+"en": "Awww, good grief, how unsightly of you.  You read the report, did you not?"
+},
+{
+"idx": 84,
+"gline": 1433,
+"en": "It's fake!  The whole thing is full of downright lies!"
+},
+{
+"idx": 94,
+"gline": 1434,
+"en": "Huhun. What you just said is the real fib."
+},
+{
+"idx": 8,
+"gline": 1434,
+"en": "You know good and well that what's written in that memo is all factual."
+},
+{
+"idx": 83,
+"gline": 1434,
+"en": "I suppose you're at that point where you comprehend what it says but don't want to believe it?"
+},
+{
+"idx": 26,
+"gline": 1438,
+"en": "Th-that is....."
+},
+{
+"idx": 126,
+"gline": 1439,
+"en": "Accept it.  The fact that you're inhuman, you know?"
+},
+{
+"idx": 89,
+"gline": 1440,
+"en": "No! I am a person, an ordinary human I tell you!"
+},
+{
+"idx": 39,
+"gline": 1441,
+"en": "Huhun. Can an ordinary person destroy a bordermoon, hmm?"
+},
+{
+"idx": 29,
+"gline": 1441,
+"en": "Can an ordinary person make use of the magic in your dresses?"
+},
+{
+"idx": 135,
+"gline": 1441,
+"en": "Would an ordinary person be able to survive being hunted by monsters?"
+},
+{
+"idx": 0,
+"gline": 1445,
+"en": "Well?  Do you still feel like insisting that you're human in spite of those points?"
+},
+{
+"idx": 144,
+"gline": 1448,
+"en": "Huhun."
+},
+{
+"idx": 123,
+"gline": 1448,
+"en": "Alice, the little genomroid given new life simply to stomp dark monsters. That's what you are."
+},
+{
+"idx": 31,
+"gline": 1450,
+"en": "Tsk!!"
+},
+{
+"idx": 66,
+"gline": 1454,
+"en": "Running away are we, pitiful miss puppet?  Huhu, huhuhuhu."
+},
+{
+"idx": 38,
+"gline": 1455,
+"en": "---Tsk!!"
+},
+{
+"idx": 73,
+"gline": 1459,
+"en": "Huhu, huhuhuhu.  Aah, hahahahahaha.  Keekkekekeke."
+},
+{
+"idx": 118,
+"gline": 1885,
+"en": "Whew. Looks like we somehow made it back in one piece."
+},
+{
+"idx": 70,
+"gline": 1886,
+"en": "Dr. Nabokov!"
+},
+{
+"idx": 163,
+"gline": 1887,
+"en": "Oh, Mikhail. Sorry I made you worry, too."
+},
+{
+"idx": 147,
+"gline": 1888,
+"en": "I'm so pleased you're unharmed!"
+},
+{
+"idx": 77,
+"gline": 1889,
+"en": "Yes, we narrowly escaped being crushed. That, and everything else too, was all thanks to you, Alice."
+},
+{
+"idx": 132,
+"gline": 1891,
+"en": "Alice, what's wrong?"
+},
+{
+"idx": 156,
+"gline": 1895,
+"en": "W-what? Oh no! Mikhail! Start the preparations!"
+},
+{
+"idx": 55,
+"gline": 1896,
+"en": "F-for that?"
+},
+{
+"idx": 115,
+"gline": 1897,
+"en": "Indeed. For Astulla! Quickly now!"
+},
+{
+"idx": 72,
+"gline": 1898,
+"en": "A-As you wish!"
+},
+{
+"idx": 19,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 141,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 34,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 67,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 108,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 35,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 79,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 143,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 98,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 43,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 61,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 169,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 57,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 139,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 3,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 101,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 2,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 134,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 62,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 107,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 32,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 12,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 20,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 9,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 97,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 111,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 136,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 133,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 1,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 60,
+"en": null,
+"note": "not in guide (wake-up scene)"
+},
+{
+"idx": 116,
+"en": null,
+"note": "not in guide (wake-up scene)"
+}
+]

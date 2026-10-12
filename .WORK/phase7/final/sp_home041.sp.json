@@ -1,0 +1,833 @@
+[
+ {
+  "idx": 17,
+  "gline": 569,
+  "en": "?  A sanctuary?  Why would something like this be inside a labyrinth?"
+ },
+ {
+  "idx": 54,
+  "gline": 570,
+  "en": "Eh?  Mikhail?!"
+ },
+ {
+  "idx": 103,
+  "gline": 571,
+  "en": "Yes, milady.  I'm so pleased to see you doing well."
+ },
+ {
+  "idx": 146,
+  "gline": 572,
+  "en": "What on Earth are you doing here?  Weren't you waiting back at the manor?!"
+ },
+ {
+  "idx": 6,
+  "gline": 574,
+  "en": "I waited here figuring that I might be of some assistance to you."
+ },
+ {
+  "idx": 108,
+  "gline": 575,
+  "en": "You did, huh.  Hmmmmmm?"
+ },
+ {
+  "idx": 81,
+  "gline": 576,
+  "en": "What is it.  Why might you be looking at me like that?"
+ },
+ {
+  "idx": 24,
+  "gline": 577,
+  "en": "No-rea-son."
+ },
+ {
+  "idx": 98,
+  "gline": 578,
+  "en": "......"
+ },
+ {
+  "idx": 2,
+  "gline": 579,
+  "en": "So, what are you here to help me with?"
+ },
+ {
+  "idx": 161,
+  "gline": 580,
+  "en": "Ahem.  Well then, milady.  First, please look over there."
+ },
+ {
+  "idx": 165,
+  "gline": 581,
+  "en": "?  What is that thing?"
+ },
+ {
+  "idx": 140,
+  "gline": 582,
+  "en": "For now, please go stand there."
+ },
+ {
+  "idx": 7,
+  "gline": 583,
+  "en": "Huh?  Why should I?"
+ },
+ {
+  "idx": 83,
+  "gline": 584,
+  "en": "Just go do it!"
+ },
+ {
+  "idx": 61,
+  "gline": 585,
+  "en": "Okay, okay, I'm going.  No need to shout."
+ },
+ {
+  "idx": 47,
+  "gline": 589,
+  "en": "How's this?"
+ },
+ {
+  "idx": 18,
+  "gline": 593,
+  "en": "Huh?  W-wait, what is this?"
+ },
+ {
+  "idx": 117,
+  "gline": 597,
+  "en": "Kyaaaaaaaaaaa!"
+ },
+ {
+  "idx": 152,
+  "gline": 1203,
+  "en": "Mikhail!"
+ },
+ {
+  "idx": 59,
+  "gline": 1204,
+  "en": "W-what is it, all of the sudden?"
+ },
+ {
+  "idx": 84,
+  "gline": 1205,
+  "en": "Do you know anything about something called a genomroid?"
+ },
+ {
+  "idx": 96,
+  "gline": 1206,
+  "en": "!"
+ },
+ {
+  "idx": 128,
+  "gline": 1206,
+  "en": "N-no, unfortunately I don't."
+ },
+ {
+  "idx": 38,
+  "gline": 1207,
+  "en": "Eh?  Are you sure?"
+ },
+ {
+  "idx": 70,
+  "gline": 1208,
+  "en": "Y-yes.  I completely, absolutely, know not even a smidgen."
+ },
+ {
+  "idx": 118,
+  "gline": 1209,
+  "en": "That's odd.  Genomroid was Father's research project.  Being his assistant, there's no way you couldn't know."
+ },
+ {
+  "idx": 105,
+  "gline": 1211,
+  "en": "Although you say that, I, er..."
+ },
+ {
+  "idx": 162,
+  "gline": 1212,
+  "en": "Suspicious."
+ },
+ {
+  "idx": 15,
+  "gline": 1214,
+  "en": "...okay, I get it."
+ },
+ {
+  "idx": 151,
+  "gline": 1215,
+  "en": "Huh?"
+ },
+ {
+  "idx": 120,
+  "gline": 1216,
+  "en": "It's fine!  I'll look into it on my own!"
+ },
+ {
+  "idx": 147,
+  "gline": 1217,
+  "en": "M-milady?!"
+ },
+ {
+  "idx": 127,
+  "gline": 1218,
+  "en": "Mikhail, don't try to stop me!"
+ },
+ {
+  "idx": 37,
+  "gline": 1218,
+  "en": "You don't have to tell me yourself but I am going to find out."
+ },
+ {
+  "idx": 0,
+  "gline": 1220,
+  "en": ".....understood."
+ },
+ {
+  "idx": 39,
+  "gline": 1221,
+  "en": "Welp, where should I start looking?"
+ },
+ {
+  "idx": 67,
+  "gline": 1221,
+  "en": "The basement laboratory seems the most obvious place for clues."
+ },
+ {
+  "idx": 27,
+  "gline": 1221,
+  "en": "Right!  I'll head straight there."
+ },
+ {
+  "idx": 123,
+  "gline": 1345,
+  "en": "Uggh...."
+ },
+ {
+  "idx": 138,
+  "gline": 1346,
+  "en": "Lady Alice?  Has something happened?"
+ },
+ {
+  "idx": 154,
+  "gline": 1347,
+  "en": "Not much.  I'm just feeling dizzy..."
+ },
+ {
+  "idx": 10,
+  "gline": 1348,
+  "en": "A-are you all right?"
+ },
+ {
+  "idx": 121,
+  "gline": 1348,
+  "en": "To be safe, should you not rest up in the manor for a time?"
+ },
+ {
+  "idx": 145,
+  "gline": 1350,
+  "en": "Don't make too big of a deal out of it.  I'm fine.  Just need to take a little break..."
+ },
+ {
+  "idx": 110,
+  "gline": 1352,
+  "en": "Aaaaaaah!"
+ },
+ {
+  "idx": 144,
+  "gline": 1353,
+  "en": "Lady Alice?!"
+ },
+ {
+  "idx": 109,
+  "gline": 1357,
+  "en": "Milady! Lady Alice!!"
+ },
+ {
+  "idx": 99,
+  "gline": 676,
+  "en": "Welcome back.  I am so pleased to see you safe."
+ },
+ {
+  "idx": 22,
+  "gline": 676,
+  "en": "Fear not, for the warp gate is fully operational."
+ },
+ {
+  "idx": 89,
+  "gline": 676,
+  "en": "Take care on your journey."
+ },
+ {
+  "idx": 114,
+  "gline": 1634,
+  "en": "Mikhail!  Do you know how to break a gordalis?"
+ },
+ {
+  "idx": 137,
+  "gline": 1635,
+  "en": "Gordalis!  Milady where did you hear that word?"
+ },
+ {
+  "idx": 158,
+  "gline": 1636,
+  "en": "I found father being held inside one."
+ },
+ {
+  "idx": 133,
+  "gline": 1637,
+  "en": "Is that so."
+ },
+ {
+  "idx": 69,
+  "gline": 1637,
+  "en": "Hmm..  That presents quite the problem."
+ },
+ {
+  "idx": 29,
+  "gline": 1638,
+  "en": "Well, Mikhail.  Isn't there some way to break it?  Well?  Well?"
+ },
+ {
+  "idx": 157,
+  "gline": 1639,
+  "en": "It's not as though we have zero options, but..."
+ },
+ {
+  "idx": 58,
+  "gline": 1640,
+  "en": "Okay, please tell me what needs to be done."
+ },
+ {
+  "idx": 106,
+  "gline": 1641,
+  "en": "This is going to be rather troublesome."
+ },
+ {
+  "idx": 87,
+  "gline": 1642,
+  "en": "Oh sheesh.  Stop beating around the bush and spill it, would you!"
+ },
+ {
+  "idx": 66,
+  "gline": 1642,
+  "en": "I'm willing to try anything I have to if it means being able to save Father."
+ },
+ {
+  "idx": 35,
+  "gline": 1645,
+  "en": "Very well.  In that case there are some things I must ask you to find."
+ },
+ {
+  "idx": 20,
+  "gline": 1647,
+  "en": "What should I be looking for?"
+ },
+ {
+  "idx": 88,
+  "gline": 1648,
+  "en": "Two sacred items are required to free the professor."
+ },
+ {
+  "idx": 36,
+  "gline": 1649,
+  "en": "Sacred items?  Well which ones for heaven's sake?"
+ },
+ {
+  "idx": 60,
+  "gline": 1650,
+  "en": "I do not know.  I suppose they'd have to be ones that could wear down evil power..."
+ },
+ {
+  "idx": 44,
+  "gline": 1652,
+  "en": "All right.  And?  Where are those going to be?"
+ },
+ {
+  "idx": 79,
+  "gline": 1653,
+  "en": "Most likely somewhere inside the labyrinth.  I'm a bit lacking in particulars...."
+ },
+ {
+  "idx": 42,
+  "gline": 1655,
+  "en": "Great.  I'm clueless as to where I should start looking, and I don't know much about what I'm looking for."
+ },
+ {
+  "idx": 72,
+  "gline": 1655,
+  "en": "I agree, that certainly is a pain."
+ },
+ {
+  "idx": 122,
+  "gline": 1655,
+  "en": "But I've got to go through with it!"
+ },
+ {
+  "idx": 3,
+  "gline": 1658,
+  "en": "Can you handle it?"
+ },
+ {
+  "idx": 26,
+  "gline": 1659,
+  "en": "Yep, I'm absolutely going to come back with them!"
+ },
+ {
+  "idx": 71,
+  "gline": 1660,
+  "en": "If you should locate anything, please bring it here at once."
+ },
+ {
+  "idx": 132,
+  "gline": 1661,
+  "en": "All right."
+ },
+ {
+  "idx": 164,
+  "gline": 1665,
+  "en": "It's just like me to talk big even though I've nary a clue to go on.  Better start by gathering some intel."
+ },
+ {
+  "idx": 9,
+  "gline": 1665,
+  "en": "How about I try asking the vampire?  He seems like he might know something about sacred items."
+ },
+ {
+  "idx": 82,
+  "gline": 1772,
+  "en": "Mikhail, I found them!  A bible and holy water!"
+ },
+ {
+  "idx": 50,
+  "gline": 1772,
+  "en": "Look!  These should work for sacred items right?"
+ },
+ {
+  "idx": 113,
+  "gline": 1774,
+  "en": "Oh!  That's it!  Those shall do nicely!"
+ },
+ {
+  "idx": 53,
+  "gline": 1775,
+  "en": "Oh thank goodness!  Now that we have these, we can help Father right?"
+ },
+ {
+  "idx": 41,
+  "gline": 1776,
+  "en": "No, collecting those was just step one.  Please take this."
+ },
+ {
+  "idx": 107,
+  "gline": 1777,
+  "en": "What's this, a pattern?  Hm?  Does that mean step two is sewing a dress from this?"
+ },
+ {
+  "idx": 68,
+  "gline": 1779,
+  "en": "You are correct, milady."
+ },
+ {
+  "idx": 85,
+  "gline": 1779,
+  "en": "And, once you've finished everything, something ought to happen."
+ },
+ {
+  "idx": 149,
+  "gline": 1781,
+  "en": "And what is that something?"
+ },
+ {
+  "idx": 143,
+  "gline": 1782,
+  "en": "You'll see when the time comes.  For now please just trust me."
+ },
+ {
+  "idx": 76,
+  "gline": 1783,
+  "en": "Fair enough, Mikhail.  I'll take your word for it."
+ },
+ {
+  "idx": 134,
+  "gline": 1784,
+  "en": "You have my thanks.  Now, milady.  Hurry to a sewing room!"
+ },
+ {
+  "idx": 31,
+  "gline": 1785,
+  "en": "Right!"
+ },
+ {
+  "idx": 90,
+  "en": null,
+  "note": "sfx: Obtained the pattern for the magic dress Argus"
+ },
+ {
+  "idx": 56,
+  "gline": 1707,
+  "en": "I've got myself some holy water. Better find the other sacred item fast.",
+  "note": "guide (user-edited: clarified \"other one\")"
+ },
+ {
+  "idx": 97,
+  "en": null,
+  "note": "not in guide (bible variant)"
+ },
+ {
+  "idx": 5,
+  "gline": 1768,
+  "en": "I've collected both sacred items."
+ },
+ {
+  "idx": 93,
+  "gline": 1768,
+  "en": "Now, let's show them to Mikhail."
+ },
+ {
+  "idx": 62,
+  "gline": 1791,
+  "en": "In order to craft the dress Argus,"
+ },
+ {
+  "idx": 4,
+  "gline": 1791,
+  "en": "you'll need akubaru, tyuunu, fomoru, and oreusu."
+ },
+ {
+  "idx": 148,
+  "gline": 1791,
+  "en": "These items are frequently carried by monsters on B30F."
+ },
+ {
+  "idx": 155,
+  "gline": 1791,
+  "en": "Good luck, milady."
+ },
+ {
+  "idx": 14,
+  "gline": 1711,
+  "en": "Milady.  Have you gathered the sacred items?"
+ },
+ {
+  "idx": 135,
+  "gline": 1712,
+  "en": "I found holy water, but I'm still working on the other one."
+ },
+ {
+  "idx": 74,
+  "gline": 1713,
+  "en": "Please try to hurry!  We don't have much more time!"
+ },
+ {
+  "idx": 45,
+  "gline": 1714,
+  "en": "I know that already!  But I don't have any other leads..."
+ },
+ {
+  "idx": 34,
+  "gline": 1715,
+  "en": "I-I see."
+ },
+ {
+  "idx": 64,
+  "gline": 1716,
+  "en": "Anything at all no matter how small would help.  Can you think of anything, Mikhail?"
+ },
+ {
+  "idx": 33,
+  "gline": 1718,
+  "en": "I wish I could, but..."
+ },
+ {
+  "idx": 159,
+  "gline": 1718,
+  "en": "Actually, I wonder."
+ },
+ {
+  "idx": 65,
+  "gline": 1720,
+  "en": "The wizards might know something useful."
+ },
+ {
+  "idx": 52,
+  "gline": 1721,
+  "en": "Why's that?"
+ },
+ {
+  "idx": 57,
+  "gline": 1722,
+  "en": "Sacred items and magic are related, or so I've heard.  Thus it stands to reason they ought to..."
+ },
+ {
+  "idx": 32,
+  "gline": 1724,
+  "en": "Makes sense, Mikhail!  I'll try looking for a wizard!"
+ },
+ {
+  "idx": 141,
+  "gline": 1725,
+  "en": "Good luck.  And take care."
+ },
+ {
+  "idx": 150,
+  "gline": 752,
+  "en": "Hi there."
+ },
+ {
+  "idx": 124,
+  "gline": 753,
+  "en": "Milady you must be tired.  Would you take a short break here?"
+ },
+ {
+  "idx": 111,
+  "gline": 754,
+  "en": "Nah, I'm hurrying ahead."
+ },
+ {
+  "idx": 160,
+  "gline": 755,
+  "en": "I see.  You sure are pushing yourself hard, milady."
+ },
+ {
+  "idx": 100,
+  "gline": 756,
+  "en": "Aw, no backseat adventuring, please.  Unless you're asking to take over for me?"
+ },
+ {
+  "idx": 80,
+  "gline": 758,
+  "en": "Eh?!"
+ },
+ {
+  "idx": 78,
+  "gline": 758,
+  "en": "No, I mean..  that is..  well.."
+ },
+ {
+  "idx": 16,
+  "gline": 758,
+  "en": "Oh, speaking of!"
+ },
+ {
+  "idx": 115,
+  "gline": 759,
+  "en": "Dodging the issue, are we?"
+ },
+ {
+  "idx": 21,
+  "gline": 760,
+  "en": "W-well..."
+ },
+ {
+  "idx": 11,
+  "gline": 761,
+  "en": "No matter.  Continue."
+ },
+ {
+  "idx": 25,
+  "gline": 762,
+  "en": "Certainly."
+ },
+ {
+  "idx": 129,
+  "gline": 762,
+  "en": "I had a thought: Your late mother used to be skilled in dressmaking.  There's a pattern that might still be in her room."
+ },
+ {
+  "idx": 75,
+  "gline": 764,
+  "en": "Ohh, my mom was...?"
+ },
+ {
+  "idx": 95,
+  "gline": 765,
+  "en": "How about searching for it?"
+ },
+ {
+  "idx": 86,
+  "gline": 766,
+  "en": "Sure will.  Thank you, Mikhail!"
+ },
+ {
+  "idx": 77,
+  "en": null,
+  "note": "sfx: prayer during revival ritual (not in guide)"
+ },
+ {
+  "idx": 156,
+  "en": null,
+  "note": "sfx: prayer during revival ritual (not in guide)"
+ },
+ {
+  "idx": 163,
+  "en": null,
+  "note": "sfx: prayer during revival ritual (not in guide)"
+ },
+ {
+  "idx": 101,
+  "en": null,
+  "note": "sfx: prayer during revival ritual (not in guide)"
+ },
+ {
+  "idx": 119,
+  "en": null,
+  "note": "sfx: prayer during revival ritual (not in guide)"
+ },
+ {
+  "idx": 28,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 131,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 51,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 1,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 30,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 125,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 23,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 142,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 46,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 63,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 102,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 116,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 49,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 55,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 12,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 13,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 48,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 73,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 153,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 92,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 94,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 8,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 91,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 104,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 19,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 139,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 130,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 136,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 112,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 40,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 126,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 43,
+  "en": null,
+  "note": "not in guide"
+ }
+]

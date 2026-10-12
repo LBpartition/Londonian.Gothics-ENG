@@ -1,0 +1,18 @@
+wait 2
+loadstate C:\GIT\Londonian.Gothics-ENG\.WORK\states\title.State
+press Start
+wait 120
+press A
+wait 240
+shot ng_a
+press A
+wait 120
+shot ng_b
+press A
+wait 120
+shot ng_c
+press A
+wait 120
+shot ng_d
+savestate C:\GIT\Londonian.Gothics-ENG\.WORK\states\newgame_d.State
+exit

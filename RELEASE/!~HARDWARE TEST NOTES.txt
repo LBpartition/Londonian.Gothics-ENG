@@ -1,0 +1,63 @@
+HARDWARE TEST NOTES - Londonian Gothics ENG-RC1
+Build: OUTPUTS\2026.10.11-17.13.41-RC1 (SHA256 CF6E1F10...)
+Phase: hardware playtest (QA). After that: packaging (xdelta patch, readme, shareable docs).
+
+The automated check only confirms each line fits its box. It can't see the screen or follow the story.
+
+============================================================
+CONFIRMED ON 3DS
+============================================================
+[OK] Translated intro video text plays correctly.
+[OK] Credits text on the main menu bottom screen displays correctly.
+[OK] Entering OPTION, LOAD and DRESS MODE does not break anything.
+[OK] Credits text reappears correctly on a black bottom screen after exiting LOAD, OPTION and DRESS MODE.
+[OK] Extended (multi-page) dialogue works correctly. Example tested:
+
+     Lucille:
+         Think about it.
+         What do monsters usually do
+         to someone they take?
+         ---
+         I can't fathom that he'd still
+         be unharmed.
+         The professor's probably
+         ---
+         being greedily devoured right
+         about now, with the monsters
+         leaving nary a trace of him
+         ---
+         for you to find.
+
+============================================================
+STILL TO TEST
+============================================================
+[ ] Shops
+[ ] Sanctuaries
+[ ] Location names (when changing floors)
+[ ] Items (names and descriptions)
+[ ] Dungeon gameplay
+[ ] Dress making / sewing
+[ ] Highlighted terms ({word} in the script docs) show in the expected colour
+
+Also watch for:
+- Crashes or freezes, especially when a scene starts or ends, when you die and get revived,
+  and at the final boss and the ending.
+- Text cut off at the edges, running into the next box, leftover Japanese, garbled characters,
+  or wrong spacing.
+- Lines in the wrong place: wrong speaker, out of order, or not matching the scene. This matters
+  most where one guide paragraph was split across several game lines (Father's diary,
+  Lucille's room, the Wizards).
+- The ending text.
+- Any line that reads awkwardly. Note the file and # from fit_report.tsv if you can, or just
+  describe the scene.
+
+Screenshots or a ramdump let me trace a problem to its exact line.
+
+
+FIXED IN 2026.10.11-17.13.41-RC1 (please re-test on 3DS):
+* In-game Dress menu (X, A): closing with B no longer freezes / garbles location text
+  (English descriptions overflowed a 40-char buffer; buffer relocated).
+* In-game Dress/Item description text moved up 3px from the original.
+* Save/Load screens translated: 'SAVE ?' / 'LOAD ?' prompt (centred over YES/NO, V stroke fixed),
+  YES / NO (spaced apart), END, 'SAVED' (please test).
+* New narrow 0-9, &, ? and ! glyphs matching the English A-Z font (e.g. '2F HALL', 'BY 1 SQUARE').

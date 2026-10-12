@@ -1,0 +1,6 @@
+loadstate C:\GIT\Londonian.Gothics-ENG\.WORK\captures\ingame3.state
+wait 10
+touch 222 70 30
+wait 90
+shot s1
+exit

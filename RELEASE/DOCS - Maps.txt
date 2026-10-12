@@ -1,0 +1,783 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+V. LEVEL MAPS AND ITEM DROPS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* It is important to understand that the item drops noted below are valid, but
+   not necessarily a complete list of what each given monster can drop.
+* Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
+   third item, e)money, or f)nothing at all when defeated. Drops I got are in
+   the maps below, but you might get additional drops not listed. The monster
+   abbreviations used are explained at the very end of this section.
+* Doors to the rooms are shown in their relative positions so you know about
+   where to look for the exits.
+* Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
+* You will need at least 2000L by the end of the game, but otherwise money is
+   optional throughout since the things you can buy are the same items that
+   monsters drop. 9999L is the cap.
+* The sewing room on B7F is a good place to go if you're near a sanctuary but
+   not a sewing room on your floor.  It's quick to go north and destroy the
+   bordermoon that's just inside the door, which then opens up the sewing
+   room to the south.
+
+Legend:
+/// = Bordermoon orb room
+vvv = Exit to next floor down
+;;; = Entry from previous floor up
+~~~ = Safe room
+#   = number of magic circles to step on in that room (upper right corner)
+
+*Manor 2F
+
+   -----------------------------------------------------
+   |Nabokov's|   |     Guest  | Guest  |   |  late     |
+   | Bedroom     |   | Room   | Room   |   _  Madame's |
+   ----------| |--   ----| |------| | --   |  Bedroom  |
+   |             |                         -------------
+   |  Library    -   -------------------   _  Vacant   |
+   ---------------   |                 |   -------------
+   |             _   _   Stairs to 1F  _   -           |
+   |  Vacant     |   |                 |   |  Vacant   |
+   ---------------| |-                 -| |-------------
+   |                 |                 |    Alice's    |
+   | Piano Room      |     2F Hall     |    Bedroom    |
+   -----------------------------------------------------
+
+*Manor 1F
+(warp into labyrinth opens in Pantry, after B2F)
+
+   -----------------------------------------------------
+   | Butler's| Maid's |    Kitchen   | Pantry   |      |
+   | Room    | Room   |              |  *       |------|
+   |         || |-------| |------| |--------| |-|Stairs|
+   |         -                                  -to B1F|
+   ---------------   -------------------   -------------
+   | Bathroom    |   |     Interior    |   |           |
+   |             -   |     Garden      |   _   Dining  |
+   ---------------   |-| |---------| |-|   |   Room    |
+   |             _   _                 _   _           |
+   | Vacant      |   |   Stairs to 2F  |   |           |
+   ---------------| |-                 -| |-------------
+   |                 |                 |               |
+   | Guest Room      -   Genkan Hall   -   Guest Room  |
+   -----------------------------------------------------
+
+*Manor B1F
+(hole to labyrinth B1F)
+
+   -----------------
+   |  *            |
+   | Laboratory    |
+   |            /up/
+   -----------------
+
+
+*Labyrinth B1F                       [dungeon-style rooms]
+(story upon touching bordermoon orb)
+(pattern for Bekiradin)
+
+         ;;;
+    --------------
+    | ZO:roadesu |
+    | ZO:roadesu |
+    --------------
+          |
+   --------------6
+   | BB:radokuya |   *Bekiradin
+   | BB:radokuya |
+   ---------------
+           |
+        ///////////////
+        / ZO:radokuya /
+        / WP:roadesu  /
+        ///////////////
+          vvv
+
+*B2F
+(story upon entry)
+(pattern for Manaclis)
+
+                     ;;;
+   ~~~~~~~~~~~~~    --------------
+   ~ Sanctuary ~ -- | WP:roadesu |
+   ~~~~~~~~~~~~~    | WP:roadesu |
+                    --------------
+                          |
+                    ------------5
+                    | BB:borodi |
+                    | BB:borodi |
+                    -------------
+                          |
+                        ////////////////////////
+                        / ZO:radokuya / kuahha /   *Manaclis
+                        / ZO:kuahha            /
+                        ////////////////////////
+                                           vvv
+
+*B3F
+    ;;;
+   -------------7
+   | SA:roadesu |
+   | SP:lisufa  |
+   --------------
+    |
+   /////////////    --------------
+   / BB:lisufa / -- | SA:roadesu |vvv
+   / BB:lisufa /    | SA:roadesu |
+   /////////////    --------------
+
+
+*B4F
+(patterns for Scuart & Litense)
+(story upon entering bordermoon room)
+
+      -----------------------
+   ;;;| WP:roadesu / lisufa |
+      | WP:roadesu          |
+      -----------------------
+                           |
+                    --------------6
+                    | SA:radokuya |
+                    | SA:kuahha   |
+                    ---------------
+                            |
+                 -------------
+                 | ZP:kuahha |
+                 | ZP:tyuunu |
+                 -------------
+                   |
+    ~~~~~~~~~~    /////////////////////////
+    ~ Sewing ~ -- / ZP:radokuya / osubiya /  *Scuart
+    ~~~~~~~~~~    / WP:awizu / borodi     /
+    *Litense      /////////////////////////
+                                       vvv
+
+
+*B5F
+(story upon entering sanctuary)
+(pattern for Ferminio)
+                                      ;;;
+                                ---------------
+                                | BR:wariyagu |
+                                | BR:masaeru  |
+                                ---------------
+                                        |
+   ~~~~~~~~~~~~~    -----------------------6    ----------------------
+   ~ Sanctuary ~ -- | SA:wariyagu / tyuunu | -- | WA:awizu / osubiya |
+   ~~~~~~~~~~~~~    | AX:tuuka / tyuunu    |    | FG:awizu           |
+                    ------------------------    ----------------------
+                        |
+             ///////////////////////
+          vvv/ BR:irumari / tyuunu /
+             / BR:tyuunu / borodi  / *Ferminio
+             / Vampire             /
+             ///////////////////////
+
+
+*B6F
+
+   -----------------------6
+   | SA:osubiya           |;;;
+   | ZB:tyuunu / wariyagu |
+   ------------------------
+                       |
+           -------------6
+           | PO:tuuka   |
+           | ZO:irumari |
+           --------------
+            |
+         ///////////////////////
+         / FG:tyuunu / irumari /
+         / BR:tuuka            /vvv
+         ///////////////////////
+
+
+*B7F                                        [prison-style rooms]
+(story in safe area)
+
+      ------------------------7    //////////////////////
+   ;;;| SP:wariyagu / masaeru | -- / OG:irumari / awizu /
+      | SP:wariyagu / masaeru |    / OG:irumari / awizu /
+      -------------------------    //////////////////////
+                                                     |
+                               ~~~~~~~~~~~~~    ~~~~~~~~~~
+                               ~ Sanctuary ~ -- ~        ~vvv
+                               ~~~~~~~~~~~~~    ~~~~~~~~~~
+                                                     |
+                                                ~~~~~~~~~~
+                                                ~ Sewing ~
+                                                ~~~~~~~~~~
+
+
+*B8F
+(patterns for Riffcowl & Domudia)
+
+      ---------------
+   ;;;| KR:wariyagu | *Domudia
+      | KR:reshiefu |
+      ---------------
+                   |
+            -------------7    -----------------------
+            | YO:osubiya | -- | IM:awizu / wariyagu |
+            | YO:borodi  |    | OG:tyuunu / borodi  |
+            --------------    -----------------------
+              *Riffcowl                         |
+                                  ///////////////////////
+                                  / SP:wariyagu / awizu /    ~~~~~~~~~~
+                                  / BB:tyuunu           / -- ~ Sewing ~
+                                  ///////////////////////    ~~~~~~~~~~
+                                             vvv
+
+
+*B9F
+(pattern for Stradia)
+(sales of wariyagu, borodi, seruti, irumari, masaeru)
+
+    ;;;
+   ----------------------           
+   | BB:osubiya / awizu |              ~~~~~~~~~~~~~
+   | xx:seruti / aigizu |              ~ Sanctuary ~
+   ----------------------              ~~~~~~~~~~~~~
+                      |                      |
+                -------------7    ////////////////////////
+        *Stradia| SP:rewiza  |    / BB:osubiya / rudorin /
+                | OR:dareifu | -- / Fairy                /vvv
+                --------------    ////////////////////////
+                 |
+                ------------------------
+                | YO:osubiya / formoru |
+                | BB:osubiya / rudorin |
+                ------------------------
+
+
+*B10F
+
+      --------------
+   ;;;| KB:zoriano |    --------------
+      | IM:seruti  | -- | SR:dareifu |
+      --------------    | SR:lisufa  |
+                        --------------
+                                    |
+                -----------------------8
+                | OR:rudorin / osubiya |
+                | BR:rudorin / borodi  |
+                ------------------------
+                                      |
+                     /////////////////////////////////
+                  vvv/ YO:gurasuto / fomoru / kuahha /
+                     / YO:aigizu / gurasuto / fomoru /
+                     /////////////////////////////////
+
+
+*B11F
+(story upon entry)
+(pattern for Proteus)
+
+              ---------------    -----------------------
+           vvv| KB:gurasuto | -- | SR:rewiza / dareifu |;;;
+              | MG:kuahha   |    | IM:aigizu           | *Proteus
+              ---------------    -----------------------
+                    |                        |
+   ///////////////////////              ~~~~~~~~~~~~~
+   / BR:fomoru           /              ~ Sanctuary ~
+   / BR:lisufa           /              ~~~~~~~~~~~~~
+   / SH:masaeru / fomoru /
+   ///////////////////////
+                     |
+                ~~~~~~~~~~
+                ~ Sewing ~
+                ~~~~~~~~~~
+
+
+*B12F
+
+    --------------6
+    | SH: irumari |    -----------------------7
+    | SR: rudorin | -- | YO:rewiza / kuahha   |
+    | BR: irumari |    | IM:osubiya / irumari |;;;
+    ---------------    ------------------------
+                                  |
+            -----------------------7
+            | KB:reshiefu / aigizu |
+            | SR:rewiza / dareifu  |
+
+            ------------------------
+               |
+   ////////////////////////
+   / IM:tyuunu / masaeru  /
+   / BR:tyuunu / borodi   /
+   / OR:aigizu / reshiefu /
+   ////////////////////////
+             vvv
+
+
+*B13F                                             [forest cave rooms]
+(sales of rudorin, kuahha, tuuka, aigizu, osubiya)
+
+                       ;;;
+                 -------------8
+                 | OC:osubiya |
+                 | OC:dareifu |
+                 | OC:formoru |
+                 --------------
+                             |
+      ~~~~~~~~~~    --------------    ~~~~~~~~~~~~~
+      ~ Sewing ~ -- | SH:dareifu | -- ~ Sanctuary ~
+      ~~~~~~~~~~    | SH:zoriano |    ~~~~~~~~~~~~~
+                    --------------
+                             |
+               ------------------------8
+               | LG:gurasuto / roadesu |
+               | LP:dareifu / zoriano  |
+               -------------------------
+                           |
+      ////////////////////////
+   vvv/ FG:rudorin / osubiya /
+      / Fairy                /
+      ////////////////////////
+
+
+*B14F
+(patterns for Blizzariel and Twincavia)
+
+                            -------------8
+                            | WA:dareifu |;;;
+                            | OC:kuahha  | *Blizzariel
+                            | OC:tyuunu  |
+                            --------------
+                                 |               ------------------------
+   ---------------    ///////////////////////    | FG:aigizu            |
+   | FG:wariyagu | -- / WA:dareifu / rewiza / -- | OC:gurasuto / kuahha |
+   | WA:roadesu  |    / Vampire             /    ------------------------
+   | Wizard      |    ///////////////////////
+   ---------------       *Twincavia
+        vvv
+
+
+*B15F
+(story upon entering safe room)
+
+                           ;;;
+                  ---------------
+                  | SH:reshiefu |
+                  | SH:masaeru  |
+                  ---------------  ~~~~~~~~~~
+                   |               ~ Sewing ~
+   -----------------------8        ~~~~~~~~~~
+   | WA:rewiza            |         |
+   | WA:dareifu           |    ~~~~~~~~~~    ~~~~~~~~~~~~~
+   | SH:fomoru / radokuya | -- ~        ~ -- ~ Sanctuary ~
+   ------------------------    ~~~~~~~~~~    ~~~~~~~~~~~~~
+                                    |
+                                -------------7 
+                                | OP:nyukusu |
+                                | OP:aigizu  |
+                                | OP:seitse  |
+                                --------------
+                                          |
+                                       //////////////
+                                       / AX:dareifu /
+                                       / OP:zoriano /
+                                    vvv/ WA:roadesu /
+                                       //////////////
+
+
+*B16F
+(pattern for Epinephre)
+                                     ----------------------9
+                                     | AX:tuuka            |;;;
+                   //////////////    | FG:reshiefu         |
+                   / SH:zoriano / -- | FP:fomoru / nyukusu |
+        *Epinephre / Fairy      /    -----------------------
+                   //////////////
+                           |
+   --------------    -----------------------8
+   | OC:borodi  | -- | WA:roadesu           |
+   | OP:roadesu |    | WA:roadesu           |
+   --------------    | SH:radokuya / fomoru |
+        vvv          ------------------------
+
+
+*B17F
+(sales of roadesu, lisufa, nyukusu, zoriano, seruti)
+
+      ;;;
+   ------------------------6
+   | SH:nyukusu / reshiefu |    ---------------    /////////////
+   | FP:kuahha / tuuka     | -- | SH:radokuya | -- / SB:fomoru /
+   -------------------------    | OP:irumari  |    / Fairy     /
+                                ---------------    /////////////
+                                   vvv
+
+
+*B18F                                               [volcano caves rooms]
+(pattern for Tranquille)
+(story upon entry)
+                                       ;;;
+                ~~~~~~~~~~~~~    --------------
+                ~ Sanctuary ~ -- | PO:zoriano |
+                ~~~~~~~~~~~~~    | PO:lisufa  |
+                                 --------------
+                                        |
+                     ---------------------9    ------------------------
+   -------------8    | SA:lisufa / zoriano|    | CA:zoriano           |
+   | YO:lisufa  |    | GA:rewiza          | -- | CA:akubaru           |
+   | GR:nyukusu | -- | SA:kuahha / lisufa |    | AX:gurasuto / fomoru |
+   --------------    ----------------------    ------------------------
+                                   |
+                  /////////////////////////    ~~~~~~~~~~
+                  / DG:irumari / wariyagu / -- ~ Sewing ~
+                  / DG:seruti             /    ~~~~~~~~~~
+                  /////////////////////////
+                     vvv  *Tranquille
+
+
+*B19F
+(sales of akubaru, rewiza, tyuunu, kuahha, seruti)
+
+                      ;;;
+                -------------
+                | DG:lisufa |
+                | GA:seruti |
+                -------------
+                  |
+              -------------9
+              | PO:seruti  |
+              | CA:zoriano |
+              | CA:lisufa  |
+              --------------
+                        |
+      ----------------------
+      | DG:seruti / fomoru |
+      | SA:tyuunu          |
+   vvv| SA:zoriano         |
+      ----------------------
+                   |
+        //////////////
+        / SA:akubaru /
+        / SA:rudorin /
+        / Wizard     /
+        //////////////
+
+
+*B20F
+(patterns for Dewlit & Iscarpe)
+(story upon entry)
+
+                                    --------------
+                                    | SA:irumari |
+                                    | CA:lisufa  |
+                                    --------------
+                                           |
+                -------------8    //////////////////////    --------------
+                | DR:rudorin |    / GR:aigizu / seitse /    | CA:seitse  |
+                | DR:nyukusu | -- / CA:seitse          / -- | CA:seitse  |;;;
+                --------------    / CA:nyukusu         /    | PI:akubaru |
+                       |          //////////////////////    --------------
+                       |                          *Dewlit
+      ------------------------    ~~~~~~~~~~~~~
+      | CA:fomoru / akubaru  | -- ~ Sanctuary ~
+   vvv| PI:sarissa / formoru |    ~~~~~~~~~~~~~
+      ------------------------
+              *Iscarpe
+
+
+*B21F
+(pattern for Satiend)
+                                   ----------------------
+                                   | GR:seitse / tyuunu |;;;
+                                   | DR:tuuka           |
+           ~~~~~~~~~~              ----------------------
+           ~ Sewing ~                    |
+           ~~~~~~~~~~           -----------------------9    -------------9
+               |                | CA:sarissa / rudorin | -- | CA:seitse  |
+       /////////////////////    | CA:seitse / irumari  |    | CA:nyukusu |
+       / CA:nyukusu        / -- | PO:seitse / irumari  |    | PI:eushu   |
+       / GA:tuuka / seitse /    ------------------------    --------------
+       / PI:radokuya       /             *Satiend
+       /////////////////////
+         |
+   -------------
+   | DR:seruti |
+   | DG:lisufa |
+   -------------
+            vvv
+
+     
+*B22F                                   [stonewall tunnel rooms]
+(story upon entering 3rd room)
+
+                              ;;;
+                      -------------9
+                      | ST:tuuka   |
+                      | ST:irumari |
+                      | FP:tuuka   |
+                      --------------
+                                |
+                      -----------------------9
+                      | MG:akubaru / dareifu |
+                      | MG:akubaru           |
+                      ------------------------
+                                  |
+                     ---------------    ~~~~~~~~~~~~~
+                     | ST:roadesu/L| -- ~ Sanctuary ~
+   --------------    | ST:reshiefu |    ~~~~~~~~~~~~~
+   | LG:dareifu | -- | WB:seitse/L |
+   | LG:irumari |    ---------------
+   --------------       |
+      vvv        ////////////////////////
+                 / ST:tuuka             /
+                 / BB:irumari / akubaru /
+                 / MG:akubaru / dareifu /
+                 ////////////////////////
+
+
+*B23F
+(pattern for Shrake)
+
+                               ;;;
+                         --------------9
+        *Shrake          | SW:dareifu  |    --------------
+      ///////////////    | ST:gurasuto |    | WB:lisufa  |    ~~~~~~~~~~
+      / AX:nyukusu  / -- | WB:lisufa   | -- | WB:akubaru | -- ~ Sewing ~
+      / LG:gurasuto /    ---------------    --------------    ~~~~~~~~~~
+      / IM:tuuka    /
+      ///////////////
+            |
+   -----------------------
+   | IM:aigizu           |
+   | CE:akubaru / aigizu |
+   | ST:fomoru / aigizu  |vvv
+   -----------------------
+
+
+*B24F
+(sales of awizu, irumari, fomoru, nyukusu, sarissa)
+
+      ~~~~~~~~~~~~~
+      ~ Sanctuary ~
+      ~~~~~~~~~~~~~
+            |
+      ------------10
+   ;;;| SW:irumari |
+      | SW:irumari |    ------------------------
+      | WG:dareifu | -- | MG:sarissa / dareifu |
+      --------------    | MG:irumari           |
+                |       ------------------------
+             --------------9         |
+             | ST:dareifu  |  ///////////////
+             | LB:gurasuto |  / IM:reshiefu /
+             | LB:rewiza   |  / Wizard      /
+             ---------------  ///////////////
+                        |              vvv
+                 ---------------
+                 | IM:reshiefu |
+                 | WG:irumari  |
+                 ---------------
+
+
+*B25F
+(pattern for Cannelle)
+                            ;;;
+                          --------------    -----------------------8
+                          | SW:yeun    | -- | MG:lisufa / irumari  |
+        -------------9    | SW:oreusu  |    | WG:maanesu / osubiya |
+        | MG:nyukusu | -- | FP:irumari |    ------------------------
+        | MG:tareosu |    --------------
+        | MG:tareosu |
+        --------------
+          |
+   ---------------------
+   | IM:awizu          |
+   | FP:irumari / yeun |                 ~~~~~~~~~~~~~
+   | SW:irumari        |                 ~ Sanctuary ~
+   ---------------------                 ~~~~~~~~~~~~~
+            |                                  |         *Cannelle
+         ------------------------9    ////////////////////////
+         | LB:tareosu            |    / WG:maanesu / nyukusu /
+         | LG:osubiya / reshiefu | -- / WB:irumari / aigizu  /
+         -------------------------    / SW:oreusu / tuuka    /vvv
+                                      ////////////////////////
+
+
+*B26F                                          [fancy blue temple rooms]
+(pattern for Torpedone)
+(sales of dareifu, lisufa, maanesu, tareosu)
+
+            -------------------8    ------------
+         ;;;| AW:tareosu       |    | AX:tuuka |
+            | ST:yeun / aigizu | -- | AX:awizu |
+            --------------------    | ST:tuuka |
+                       |            ------------
+                      ------------8
+   ~~~~~~~~~~         | AR:eushu  |
+   ~ Sewing ~         | WZ:rewiza | *Torpedone
+   ~~~~~~~~~~         -------------
+      |                          |
+   ///////////////    ---------------------
+   / AW:reshiefu /    | CH:rewiza / awizu |    ------------------------
+   / Vampire     / -- | KB:aigizu         | -- | SA:roadesu / irumari |
+   ///////////////    | ST:yeun / irumari |    | AX:aigizu / nyukusu  |
+                      ---------------------    | CH:nyukusu / tareosu |
+                               |               ------------------------
+                        ~~~~~~~~~~~~~                              vvv
+                        ~ Sanctuary ~
+                        ~~~~~~~~~~~~~
+
+*B27F
+                                             ;;;
+                                 ---------------------
+                                 | ZO:lisufa         |
+                                 | CH:awizu          |
+                                 | LB:oreusu / awizu |
+                                 ---------------------
+                                     |
+   ----------------------8    --------------9    -------------8
+   | YB:tuuka            | -- | YB:gurasuto |    | YB:maanesu |
+   | AX:roadesu / rewiza |    | AX:irumari  | -- | AX:irumari |
+   -----------------------    | ST:aigizu   |    --------------
+                              ---------------
+                                |
+                              /////////////
+                              / ST:aigizu /
+                              / ST:aigizu /
+                              / Wizard    /
+                              /////////////
+                                        |
+   ~~~~~~~~~~~~~    -----------------------    ~~~~~~~~~~
+   ~ Sanctuary ~ -- | IM:lisufa           | -- ~ Sewing ~
+   ~~~~~~~~~~~~~    | AW:eushu / tuuka    |    ~~~~~~~~~~ 
+                    | KR:lisufa / nyukusu |
+                    -----------------------
+                                        vvv
+
+*B28F
+            ;;;
+   -----------------------
+   | CH:akubaru / oreusu |
+   | CH:lisufa           |
+   -----------------------
+                      |
+   ----------------------
+   | CE:fomoru / akubaru|
+   | KR:aigizu          |
+   ----------------------
+     |
+   ----------------------8
+   | CA:rewiza / nyukusu |
+   | IM:lisufa / yeun    |
+   | AX:irumari          |
+   -----------------------
+       |
+      ////////////
+      / AR:eushu /
+      / Vampire  /
+      ////////////
+                |
+    -------------------------    ~~~~~~~~~~~~~
+    | CH:gurasuto / rewiza  | -- ~ Sanctuary ~
+    | AX:awizu / nyukusu    |    ~~~~~~~~~~~~~
+    | YB:maanesu / gurasuto |
+    -------------------------
+                         vvv
+
+
+*B29F                                        [purple cave rooms]
+
+                              ;;;
+   -------------9    ---------------------9    ---------------------8
+   | HO:fomoru  | -- | YO:aigizu / lisufa |    | GO:tyuunu / oreusu |
+   | WA:akubaru |    | GO:oreusu          |    | WA:awizu           |
+   | WA:awizu   |    | BR:akubaru         | -- | WA:awizu           |
+   --------------    ----------------------    ----------------------
+                        |
+                     --------------
+                     | HO:fomoru  |
+                     | HO:(money) |
+                     --------------
+                                 |
+                                ~~~~~~~~
+                                ~      ~
+                                ~~~~~~~~
+                                      |
+                               /////////////    ~~~~~~~~~~~~~
+                               / GS:oreusu / -- ~ Sanctuary ~
+                               / Wizard    /    ~~~~~~~~~~~~~
+                               /////////////
+                                        vvv
+
+
+*B30F
+(sales of akubaru, roadesu, gurasuto, reshiefu, yeun)
+(story upon entry of safe room)
+
+                     ;;;
+               --------------
+               | YO:fomoru  |
+               | VA:aigizu  |
+               --------------
+                      |
+   ------------8    --------------    -------------8
+   | GS:tyuunu |    | CY:akubaru |    | DR:oreusu  |    ~~~~~~~~
+   | GO:tyuunu | -- | CY:tyuunu  | -- | HO:fomoru  |    ~      ~
+   -------------    --------------    --------------    ~~~~~~~~
+       |                                         |        |
+   --------------                     -------------    /////////////
+   | WA:oreusu  |    ~~~~~~~~~~~~~    | WZ:fomoru |    / CY:tyuunu /
+   | WA:akubaru |    ~ Sanctuary ~ -- | Fairy     | -- / Vampire   /
+   | HO:fomoru  |    ~~~~~~~~~~~~~    -------------    /////////////
+   --------------                                                 | 
+                                                          ~~~~~~~~~~
+                                                          ~ Sewing ~
+                                                          ~~~~~~~~~~
+
+
+Monster Abbreviations
+-------------
+AR = red angel
+AW = white angel
+AX = axe-wielding nightcap
+BB = black bat
+BR = red bat
+CA = cannon
+CE = cerberus, white & red
+CY = cerberus, yellow & gray
+CH = chicken
+DG = green dragon
+DR = red dragon
+FG = green frog
+FP = purple frog
+GA = gargoyle
+GO = gorilla and baby, orange
+GR = red gargoyle
+GS = gorilla and baby, silver
+HO = horse
+IM = iron maiden
+KB = blue lance knight
+KR = red lance knight
+LB = blue lamia
+LG = green lamia
+LP = purple lamia
+MG = ghost maid
+OC = octopus
+OP = purple octopus
+OG = green ogre
+OR = red ogre
+PI = ice phoenix
+PO = orange phoenix
+SA = sack
+SB = blue sahagin
+SH = sahagin
+SP = spider
+SR = red spider
+ST = stone golem
+SW = blue stone golem
+VA = vampire
+WA = azure blue worm
+WB = blue wolf
+WG = gray wolf
+WP = purple worm
+WZ = wizard
+YB = blue fairy (yousei)
+YG = green fairy (yousei)
+YO = yokai
+ZO = zombie
+ZP = purple zombie

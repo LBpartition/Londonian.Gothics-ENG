@@ -1,0 +1,282 @@
+[
+ {
+  "idx": 42,
+  "gline": 836,
+  "en": "Whew, I'm a bit worn out."
+ },
+ {
+  "idx": 8,
+  "gline": 840,
+  "en": "Why not, this looks like a decent enough spot for a break."
+ },
+ {
+  "idx": 10,
+  "gline": 841,
+  "en": "Kyahaha (laughs)"
+ },
+ {
+  "idx": 21,
+  "gline": 842,
+  "en": "?! Who's there?"
+ },
+ {
+  "idx": 33,
+  "gline": 846,
+  "en": "!!"
+ },
+ {
+  "idx": 38,
+  "gline": 846,
+  "en": "Eeek!"
+ },
+ {
+  "idx": 30,
+  "gline": 847,
+  "en": "Ah, there you are, you monster!"
+ },
+ {
+  "idx": 45,
+  "gline": 848,
+  "en": "*sniffle* That's mean.  Calling me, adorable little me, a monster, of all things."
+ },
+ {
+  "idx": 34,
+  "gline": 850,
+  "en": "Eh?  Eh?  Eh?"
+ },
+ {
+  "idx": 53,
+  "gline": 851,
+  "en": "*sniffle* Even though I just wanted to talk to you."
+ },
+ {
+  "idx": 48,
+  "gline": 852,
+  "en": "Oh I'm so sorry."
+ },
+ {
+  "idx": 20,
+  "gline": 853,
+  "en": "Okay, I'll forgive you!"
+ },
+ {
+  "idx": 35,
+  "gline": 854,
+  "en": "(somehow, she seems awfully full of herself...)"
+ },
+ {
+  "idx": 3,
+  "gline": 855,
+  "en": "What's the matter?"
+ },
+ {
+  "idx": 49,
+  "gline": 856,
+  "en": "Oh, nothing's wrong."
+ },
+ {
+  "idx": 29,
+  "gline": 857,
+  "en": "?"
+ },
+ {
+  "idx": 7,
+  "gline": 858,
+  "en": "Say, can I ask you something?"
+ },
+ {
+  "idx": 22,
+  "gline": 859,
+  "en": "What is it?"
+ },
+ {
+  "idx": 43,
+  "gline": 860,
+  "en": "Why did the monsters abduct my father?"
+ },
+ {
+  "idx": 24,
+  "gline": 860,
+  "en": "I've been wondering about it this whole time and I haven't come up with any reason why they'd want to."
+ },
+ {
+  "idx": 15,
+  "gline": 863,
+  "en": "The mister's research was a huge inconvenience to some bad guys.  They grabbed him so that he couldn't do it any more."
+ },
+ {
+  "idx": 18,
+  "gline": 865,
+  "en": "Do you know where Father is being kept?"
+ },
+ {
+  "idx": 28,
+  "gline": 866,
+  "en": "I don't know."
+ },
+ {
+  "idx": 25,
+  "gline": 867,
+  "en": "Ah."
+ },
+ {
+  "idx": 14,
+  "gline": 867,
+  "en": "Well how about Father's research topic, then?"
+ },
+ {
+  "idx": 6,
+  "gline": 867,
+  "en": "Was it really something bad enough to be kidnapped over?"
+ },
+ {
+  "idx": 31,
+  "gline": 869,
+  "en": "I'd like you to find that out on your own."
+ },
+ {
+  "idx": 27,
+  "gline": 869,
+  "en": "You rely on others a bit too much, sister."
+ },
+ {
+  "idx": 44,
+  "gline": 871,
+  "en": "(I've just been rebuked by a half-pint.)"
+ },
+ {
+  "idx": 17,
+  "gline": 872,
+  "en": "Well then, I'll be on my way now.  That's bye-bye to you!"
+ },
+ {
+  "idx": 51,
+  "gline": 873,
+  "en": "Ah, hey, wait up!"
+ },
+ {
+  "idx": 12,
+  "gline": 877,
+  "en": "Awww, she left."
+ },
+ {
+  "idx": 36,
+  "gline": 878,
+  "en": "So it was Father's research, huh."
+ },
+ {
+  "idx": 41,
+  "gline": 878,
+  "en": "Racking my brain doesn't help; that just makes it clear how little I really know about him and his work."
+ },
+ {
+  "idx": 11,
+  "gline": 878,
+  "en": "Guess I should try to do some investigating."
+ },
+ {
+  "idx": 13,
+  "gline": 878,
+  "en": "Let's see...  There might be something about this in our study.  Let's head back to the manor."
+ },
+ {
+  "idx": 5,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 52,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 9,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 47,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 1,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 0,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 40,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 23,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 55,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 4,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 26,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 19,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 16,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 50,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 2,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 37,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 32,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 54,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 39,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 46,
+  "en": null,
+  "note": "not in guide"
+ }
+]

@@ -1,0 +1,70 @@
+FILE sp045.sp  (9 strings, dialogue order)
+
+idx=3  spk=Fairy(6)  auto_gline=863
+  JP: よく来てくれましたの。{NL}ゆっくりしていってほしいですの。
+  EN: The mister's research was a huge inconvenience to some bad guys.  They grabbed him so that he couldn't do it any more.
+idx=1  spk=Fairy(6)  auto_gline=866
+  JP: もう終わりですの？
+  EN: I don't know.
+idx=2  spk=Fairy(6)  auto_gline=869
+  JP: わかりましたですの。{NL}また来てくださいですの。
+  EN: I'd like you to find that out on your own.
+idx=6  spk=Fairy(6)  auto_gline=869
+  JP: いらっしゃいませですの。
+  EN: You rely on others a bit too much, sister.
+idx=4  spk=Alice(105)  auto_gline=871
+  JP: えっ？{NL}いらっしゃいませぇ？{NL}なんなの、それ？
+  EN: (I've just been rebuked by a half-pint.)
+idx=5  spk=Fairy(6)  auto_gline=872
+  JP: そうですの。{NL}アタシ、お店をはじめましたの。
+  EN: Well then, I'll be on my way now.  That's bye-bye to you!
+idx=8  spk=Fairy(6)  auto_gline=None
+  JP: なにか買っていってくださいの。
+  EN: -
+idx=0  spk=Fairy(6)  auto_gline=None
+  JP: また来てくださいの。
+  EN: -
+idx=7  spk=None(None)  auto_gline=None
+  JP: 周囲の邪気が浄化された
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  849|        all things.
+  850| Alice: Eh?  Eh?  Eh?
+  851| Fairy: *sniffle* Even though I just wanted to talk to you.
+  852| Alice: Oh I'm so sorry.
+  853| Fairy: Okay, I'll forgive you!
+  854| Alice: (somehow, she seems awfully full of herself...)
+  855| Fairy: What's the matter?
+  856| Alice: Oh, nothing's wrong.
+  857| Fairy: ?
+  858| Alice: Say, can I ask you something?
+  859| Fairy: What is it?
+  860| Alice: Why did the monsters abduct my father?  I've been wondering about it
+  861|        this whole time and I haven't come up with any reason why they'd want
+  862|        to.
+  863| Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+  864|        grabbed him so that he couldn't do it any more.
+  865| Alice: Do you know where Father is being kept?
+  866| Fairy: I don't know.
+  867| Alice: Ah.  Well how about Father's research topic, then?  Was it really
+  868|        something bad enough to be kidnapped over?
+  869| Fairy: I'd like you to find that out on your own.  You rely on others a bit
+  870|        too much, sister.
+  871| Alice: (I've just been rebuked by a half-pint.)
+  872| Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+  873| Alice: Ah, hey, wait up!
+  874| 
+  875|   /Fairy laughs and leaves/
+  876| 
+  877| Alice: Awww, she left.
+  878| Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+  879|        just makes it clear how little I really know about him and his work.
+  880|        Guess I should try to do some investigating.  Let's see...  There might
+  881|        be something about this in our study.  Let's head back to the manor.
+  882| 
+  883| --------> Go through the sanctuary here on B7F, back to the library/study on
+  884|           the left side of Manor 2F.
+  885| 
+  886| Alice: All righty.  Wonder if there'll be anything here.
+  887| 

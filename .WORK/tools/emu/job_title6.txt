@@ -1,0 +1,12 @@
+wait 150
+press Start
+wait 150
+press Start
+wait 100
+press Start
+wait 150
+dump System Bus 0x04001000 0x80 ioB.bin
+dump System Bus 0x06200000 0x10000 vB.bin
+dump System Bus 0x05000400 0x200 palB.bin
+dump System Bus 0x04000240 0x10 vram.bin
+exit

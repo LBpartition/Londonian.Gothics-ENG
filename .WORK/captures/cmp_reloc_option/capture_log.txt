@@ -1,0 +1,4 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\cmp_reloc_option\title_f000283.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\cmp_reloc_option\menu_f000376.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\cmp_reloc_option\option_f000669.png
+exit at frame 669

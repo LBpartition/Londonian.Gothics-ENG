@@ -1,0 +1,24 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 120
+press Start
+wait 120
+touch 50 100 8
+wait 150
+shot t1
+exit

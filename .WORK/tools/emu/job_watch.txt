@@ -1,0 +1,7 @@
+wait 150
+press Start
+wait 120
+watch 0x04001000
+press Start
+wait 150
+exit

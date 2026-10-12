@@ -1,0 +1,252 @@
+FILE sp132.sp  (28 strings, dialogue order)
+
+idx=21  spk=Alice(103)  auto_gline=871
+  JP: う、うぅ……。
+  EN: (I've just been rebuked by a half-pint.)
+idx=5  spk=Alice(104)  auto_gline=873
+  JP: ここ、どこ？
+  EN: Ah, hey, wait up!
+idx=15  spk=None(None)  auto_gline=875
+  JP: グオオオオオッ！
+  EN: Fairy laughs and leaves
+idx=7  spk=Alice(104)  auto_gline=877
+  JP: ！！
+  EN: Awww, she left.
+idx=19  spk=Alice(104)  auto_gline=886
+  JP: ま、まさか！{WAIT}コイツが、{FE02}ヴァルゥーダヌ{FE00}！？
+  EN: All righty.  Wonder if there'll be anything here.
+idx=22  spk=Alice(104)  auto_gline=892
+  JP: じゃあ、ここは{NL}{FE02}ヴァルゥーダヌ{FE00}が作り出した異空間！？
+  EN: Nope, nothing relevant in here...
+idx=20  spk=None(None)  auto_gline=894
+  JP: グガァァァァァッッ！！
+  EN: rummage, rummage
+idx=17  spk=Alice(103)  auto_gline=2098
+  JP: ひぃっ！
+  EN: Huhu, I know.
+idx=13  spk=Alice(103)  auto_gline=2102
+  JP: だ、ダメよ！{NL}あんなのに、かないっこないわ！
+  EN: One month has already passed since the incident.
+idx=6  spk=Alice(103)  auto_gline=2106
+  JP: に、逃げなきゃ！
+  EN: A lot has happened.
+idx=26  spk=Alice(104)  auto_gline=2110
+  JP: あっ！？{NL}{FE02}聖剣{FE00}から光が！？
+  EN: Back then, I was....
+idx=25  spk=None(None)  auto_gline=2114
+  JP: グオッ！？{NL}グ、グオオオオオッ！？
+  EN: Alice!  Alice!  Open your eyes, Alice!
+idx=16  spk=Alice(105)  auto_gline=2115
+  JP: もしかして、この光が効いているの？
+  EN: Mmrmmmnng......
+idx=18  spk=None(None)  auto_gline=2182
+  JP: グ、グオォ……！？
+  EN: Flashback ends
+idx=12  spk=Alice(104)  auto_gline=2184
+  JP: {FE02}ヴァルゥーダヌ{FE00}がひるんでる！
+  EN: The environment around us has changed completely.
+idx=24  spk=Alice(100)  auto_gline=2188
+  JP: やっぱり！{NL}効いてるんだわ！
+  EN: However, Mikhail is serving as our butler just as before.
+idx=27  spk=Alice(102)  auto_gline=2192
+  JP: これなら、いけるかもしれない！{WAIT}この{FE02}聖剣{FE00}ならば、倒せるかもしれない！
+  EN: Father, as usual, is doing nothing but research, research, research. I wish he would spend a bit more time with me.  It's just a smidge, but some days I can feel a little lonely.
+idx=11  spk=Alice(102)  auto_gline=2198
+  JP: {FE02}ヴァルゥーダヌ{FE00}を！
+  EN: But, that's okay.  Because no matter what, now I am.....
+idx=23  spk=None(None)  auto_gline=2200
+  JP: グゥオオォオオォオオ！！
+  EN: Alice enters the library
+idx=2  spk=Alice(102)  auto_gline=2202
+  JP: そうよ、アリス！{NL}逃げるだけじゃダメ！
+  EN: I have been reborn, now as a regular everyday human being.
+idx=1  spk=Alice(103)  auto_gline=2206
+  JP: このままじゃ、お父さまもミヒャエルも死んじゃう！
+  EN: I am no longer a doll.  No longer a genomroid!
+idx=8  spk=Alice(103)  auto_gline=2210
+  JP: 私の大事な人が、みんな、いなくなっちゃう！{NL}ダメよ、そんなの！
+  EN: I will live on as a person, surrounded by those I love....
+idx=10  spk=Alice(100)  auto_gline=2214
+  JP: だから、行くわ！
+  EN: Good morning, Father!
+idx=4  spk=Alice(102)  auto_gline=2214
+  JP: 私がやらなくちゃ！
+  EN: It's time to wake up!
+idx=9  spk=Alice(102)  auto_gline=None
+  JP: 私じゃなきゃダメなのぉ！
+  EN: -
+idx=0  spk=Alice(103)  auto_gline=None
+  JP: ハァッ、ハァッ。
+  EN: -
+idx=14  spk=Alice(101)  auto_gline=None
+  JP: や、やったわ！
+  EN: -
+idx=3  spk=Alice(103)  auto_gline=None
+  JP: で、でも……{NL}私も、限界、みたい……。
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  857| Fairy: ?
+  858| Alice: Say, can I ask you something?
+  859| Fairy: What is it?
+  860| Alice: Why did the monsters abduct my father?  I've been wondering about it
+  861|        this whole time and I haven't come up with any reason why they'd want
+  862|        to.
+  863| Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+  864|        grabbed him so that he couldn't do it any more.
+  865| Alice: Do you know where Father is being kept?
+  866| Fairy: I don't know.
+  867| Alice: Ah.  Well how about Father's research topic, then?  Was it really
+  868|        something bad enough to be kidnapped over?
+  869| Fairy: I'd like you to find that out on your own.  You rely on others a bit
+  870|        too much, sister.
+  871| Alice: (I've just been rebuked by a half-pint.)
+  872| Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+  873| Alice: Ah, hey, wait up!
+  874| 
+  875|   /Fairy laughs and leaves/
+  876| 
+  877| Alice: Awww, she left.
+  878| Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+  879|        just makes it clear how little I really know about him and his work.
+  880|        Guess I should try to do some investigating.  Let's see...  There might
+  881|        be something about this in our study.  Let's head back to the manor.
+  882| 
+  883| --------> Go through the sanctuary here on B7F, back to the library/study on
+  884|           the left side of Manor 2F.
+  885| 
+  886| Alice: All righty.  Wonder if there'll be anything here.
+  887| 
+  888| --------> Walk to the desk and touch it.
+  889| 
+  890|   /rummage, rummage/
+  891| 
+  892| Alice: Nope, nothing relevant in here...
+  893| 
+  894|   /rummage, rummage/
+  895| 
+  896| Alice: Oh, what's this?  Father's diary?
+  897| Alice: Indeed it is.  Invading his privacy would be uncouth, but, should I
+  898|        read a little of it?  Well, I want any kind of clue I can find, so
+  899|        Father, I'm sorry about this.
+  900| Alice: Although if I'm being honest it's exciting to find out what someone else
+  901|        writes in their private diary.  Hehe.  Let's dive in!  Lessee here...
+  902| 
+  903| April 5th:  Today I took my daughter on an outing.  How long has it been since
+  904|             I've seen her so pleased?
+  905| April 13th: Today I played games with my daughter.  Watching her expressions
+  906|             ebb and flow like the tide made me feel happy for some reason.
+  907| April 21st: These enjoyable days quietly pass one after the next.  I hope life
+  908|             can continue to be like this....
+  909| 
+   ...
+ 2084|   /Knock knock knock/
+ 2085| 
+ 2086| Mikhail: Milady.  Good morning.
+ 2087| Alice:   Oh, 'morning.  Nice day, isn't it.
+ 2088| Mikhail: I have finished preparing breakfast, so if you would please make your
+ 2089|          way to the dining room.
+ 2090| Alice:   Okay, I will.  What about Father?
+ 2091| Mikhail: He is still asleep.
+ 2092| Alice:   That figures.  Sheesh.  He's turned into such a lazy bum since he got
+ 2093|          back.
+ 2094| Mikhail: That's certainly an exaggeration.  It must be his research work that
+ 2095|          exhausts him so.
+ 2096| Alice:   Well, either way.  All righty, I'll go wake him up myself.
+ 2097| Mikhail: Gently, please, if you would.
+ 2098| Alice:   Huhu, I know.
+ 2099| 
+ 2100|   /Alice walks out of her room, starting towards Nabokov's room/
+ 2101| 
+ 2102| Alice: One month has already passed since the incident.
+ 2103| 
+ 2104|   /Alice walks/
+ 2105| 
+ 2106| Alice: A lot has happened.
+ 2107| 
+ 2108|   /Alice walks/
+ 2109| 
+ 2110| Alice: Back then, I was....
+ 2111| 
+ 2112|   /Flashback start/
+ 2113| 
+ 2114| Voice:   Alice!  Alice!  Open your eyes, Alice!
+ 2115| Alice:   Mmrmmmnng......
+ 2116| Nabokov: Oh, Alice!  You're awake!
+ 2117| Alice:   F-father....
+ 2118| Nabokov: Well done, Alice.  Varuudanu's resurrection has been halted, and we
+ 2119|          have you to thank for it.
+ 2120| 
+ 2121|   /Alice looks around/
+ 2122| 
+ 2123| Nabokov: What is it, Alice?
+ 2124| Alice:   Where's Mikhail?
+ 2125| Nabokov: ......
+ 2126| Alice:   D-don't tell me he?!
+ 2127| 
+ 2128|   /Slam/
+ 2129| 
+ 2130| Alice:   W-who's there?
+   ...
+ 2168| Nabokov: Of course I did.  Alice, you're my daughter.  You needn't hold back
+ 2169|          your troubles.
+ 2170| Alice:   ......  Okay!
+ 2171| Nabokov: Good.  Then, let's begin.
+ 2172| 
+ 2173|   /Astulla ceremony starts/
+ 2174| 
+ 2175| Mikhail: Hear our prayer.
+ 2176| Nabokov: We command you.
+ 2177| Mikhail: Mother of all life, oh endless land.
+ 2178| Nabokov: How beautiful your flows, wavering water.
+ 2179| Mikhail: Time passing and time lost, we now call for your return!
+ 2180| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 2181| 
+ 2182|   /Flashback ends/
+ 2183| 
+ 2184| Alice: The environment around us has changed completely.
+ 2185| 
+ 2186|   /Alice walks/
+ 2187| 
+ 2188| Alice: However, Mikhail is serving as our butler just as before.
+ 2189| 
+ 2190|   /Alice walks/
+ 2191| 
+ 2192| Alice: Father, as usual, is doing nothing but research, research, research.
+ 2193|        I wish he would spend a bit more time with me.  It's just a smidge,
+ 2194|        but some days I can feel a little lonely.
+ 2195| 
+ 2196|   /Alice walks/
+ 2197| 
+ 2198| Alice: But, that's okay.  Because no matter what, now I am.....
+ 2199| 
+ 2200|   /Alice enters the library/
+ 2201| 
+ 2202| Alice: I have been reborn, now as a regular everyday human being.
+ 2203| 
+ 2204|   /Alice walks/
+ 2205| 
+ 2206| Alice: I am no longer a doll.  No longer a genomroid!
+ 2207| 
+ 2208|   /Alice walks to the bedroom door/
+ 2209| 
+ 2210| Alice: I will live on as a person, surrounded by those I love....
+ 2211| 
+ 2212|   /Knock knock, knock knock knock/
+ 2213| 
+ 2214| Alice: Good morning, Father! It's time to wake up!
+ 2215| 
+ 2216|   {roll credits}
+ 2217| 
+ 2218| 
+ 2219| 
+ 2220| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2221| V. LEVEL MAPS AND ITEM DROPS
+ 2222| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2223| * It is important to understand that the item drops noted below are valid, but
+ 2224|    not necessarily a complete list of what each given monster can drop.
+ 2225| * Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
+ 2226|    third item, e)money, or f)nothing at all when defeated. Drops I got are in
+ 2227|    the maps below, but you might get additional drops not listed. The monster
+ 2228|    abbreviations used are explained at the very end of this section.
+ 2229| * Doors to the rooms are shown in their relative positions so you know about

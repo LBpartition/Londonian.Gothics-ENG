@@ -1,0 +1,241 @@
+FILE sp116.sp  (27 strings, dialogue order)
+
+idx=12  spk=Wizard(4)  auto_gline=1142
+  JP: やあ、お嬢さん。{NL}くくく……。{NL}ゴキゲンはいかがかな？
+  EN: Now, I'm not going to do anything, so come over here.
+idx=14  spk=Alice(105)  auto_gline=1143
+  JP: 今、悪くなったわ。
+  EN: I'm fine where I am. (Who knows whether something would happen if I were to carelessly approach.)
+idx=6  spk=Wizard(4)  auto_gline=1145
+  JP: なに？{NL}わ、私のせいか？
+  EN: I see.  That's too bad.
+idx=10  spk=Alice(100)  auto_gline=1150
+  JP: もちろん。
+  EN: H-hello.
+idx=23  spk=Wizard(4)  auto_gline=1151
+  JP: わ、私のなにが悪いと言うのだ？{WAIT}なにが気に入らないと言うのだ？{NL}これか？{WAIT}このワインがいけないのか？{WAIT}スカした態度が気に入らないのか？{NL}それとも、私のツラが悪いのか？{WAIT}生理的にうけつけないとでも言うのか？{NL}ああ、そうだ。{NL}絶対そうに決まっている！{WAIT}
+  EN: Come, let's have a leisurely chat this time.
+idx=15  spk=Alice(106)  auto_gline=1152
+  JP: そ、そこまでは、言ってないわよ！
+  EN: I-I'm in a bit of a hurry, so maybe next time.
+idx=5  spk=Wizard(4)  auto_gline=1548
+  JP: いいさ、いいのさ。{NL}どうせ、私なんて。
+  EN: Say something already.
+idx=18  spk=Alice(106)  auto_gline=1549
+  JP: おーい。{NL}ちょっとぉー。
+  EN: You first.
+idx=0  spk=Wizard(4)  auto_gline=1550
+  JP: ブツブツ……。
+  EN: I don't have anything to talk about.
+idx=25  spk=Alice(100)  auto_gline=1551
+  JP: ダメだ、こりゃ。
+  EN: Me either.
+idx=19  spk=Alice(100)  auto_gline=1577
+  JP: あ。{NL}まだへこんでる。
+  EN: Ah, he's still depressed.
+idx=2  spk=Alice(105)  auto_gline=1579
+  JP: 放っておきましょ。
+  EN: Think I'll just let him be alone.
+idx=1  spk=Alice(100)  auto_gline=1585
+  JP: ねえ。
+  EN: No, I don't.
+idx=13  spk=Wizard(4)  auto_gline=1587
+  JP: おや、お嬢さん。{NL}くくく……。{NL}私になにか用かね。
+  EN: Oh that's unfortunate.  I was hoping for company to help pass the time.
+idx=22  spk=Alice(100)  auto_gline=1589
+  JP: 聖なるアイテムの事、{NL}あなた、なにか知らない？
+  EN: That's great and all, but I still don't need anything.
+idx=7  spk=Wizard(4)  auto_gline=1736
+  JP: ふむ。{NL}そう言えば、どこかで聞いた覚えがあるな。
+  EN: When I'm not familiar with something all I can say is "I'm unfamiliar".
+idx=17  spk=Alice(104)  auto_gline=1738
+  JP: えっ？{WAIT}知ってるの？
+  EN: Oh please don't leave it at that.
+idx=3  spk=Alice(102)  auto_gline=1738
+  JP: ねえ、おしえて！{NL}それは、どこにあるの！？
+  EN: Any scrap of info would be great. Anything you've overheard?
+idx=9  spk=Wizard(4)  auto_gline=1740
+  JP: ハッキリした場所はわからない。だが、このような話を聞いたことがある。
+  EN: .....Now that you mention it.  I recall hearing that someone has added an unusual book to their shop inventory.
+idx=24  spk=Wizard(4)  auto_gline=1743
+  JP: 「異界の水面にえがかれた{NL}{WAIT}十字の中心において{NL}{WAIT}聖なる水はわき出でる」
+  EN: Probably meaning a holy book, a bible.
+idx=16  spk=Alice(105)  auto_gline=1744
+  JP: 異界の水面にえがかれた、十字の中心？{NL}なんなのよ、それ？
+  EN: A holy book?!  Could that be one of the sacred items I need?!
+idx=11  spk=Wizard(4)  auto_gline=1745
+  JP: 迷宮のどこかに、そのような場所があるのだろう。
+  EN: Most likely.
+idx=21  spk=Alice(100)  auto_gline=1746
+  JP: じゃあ、そこに行けば！？
+  EN: So who is it then?  Who's selling it?
+idx=8  spk=Wizard(4)  auto_gline=1747
+  JP: 聖なる水……つまり{FE02}聖水{FE00}が手に入るだろうな。
+  EN: If I'm not mistaken it was on B26F....
+idx=26  spk=Alice(101)  auto_gline=1748
+  JP: ありがとう。{NL}行ってみるわ！
+  EN: On B26F right?  Got it!
+idx=20  spk=Wizard(4)  auto_gline=1749
+  JP: そうか。せいぜい、がんばるのだな。くくく……。
+  EN: ....I'm not exactly certain about that though.
+idx=4  spk=None(None)  auto_gline=None
+  JP: 周囲の邪気が浄化された
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 1128| ------> (Optional) Talk to him again.
+ 1129| 
+ 1130| Vampire: I don't have any more rewards for you.  Kukuku..  Too bad, isn't it.
+ 1131| 
+ 1132| ------> Continue on adventuring.
+ 1133| 
+ 1134| 
+ 1135| [12].B14F Wizard:
+ 1136| -----------------
+ 1137| Wizard: Yo, Alice.  Huhhuhhuhhu.
+ 1138| Alice:  Eep!  Disgusting!  Don't get too close.
+ 1139| Wizard: Oh, dear Alice.  One shouldn't judge others by their appearance.
+ 1140| Alice:  Sure.  (The disconnect between how he looks and how he acts frightens
+ 1141|         me though).
+ 1142| Wizard: Now, I'm not going to do anything, so come over here.
+ 1143| Alice:  I'm fine where I am. (Who knows whether something would happen if I
+ 1144|         were to carelessly approach.)
+ 1145| Wizard: I see.  That's too bad.
+ 1146| 
+ 1147| ------> (Optional) Talk to the wizard again.
+ 1148| 
+ 1149| Wizard: Yo, Alice.  Hello.
+ 1150| Alice:  H-hello.
+ 1151| Wizard: Come, let's have a leisurely chat this time.
+ 1152| Alice:  I-I'm in a bit of a hurry, so maybe next time.
+ 1153| Wizard: Why's that?  You're refusing again?  Good grief.  Young ladies these
+ 1154|         days simply have no manners.  *mumble mumble....*
+ 1155| Alice:  (As I thought, scary!)
+ 1156| 
+ 1157| --------> Continue on adventuring.
+ 1158| 
+ 1159| 
+ 1160| [13].B15F Safe Room:
+ 1161| --------------------
+ 1162| Alice: Whew.
+ 1163| 
+ 1164|   /Alice walks to the central grove/
+ 1165| 
+ 1166| Alice: I think I've made it to the depths of the forest....  Whew. I'm feeling
+ 1167|        a bit worn out.
+   ...
+ 1534| Vampire: Exactly right.  Today's opening day.
+ 1535| Alice:   By any chance are you hurting for money?
+ 1536| Vampire: ......
+ 1537| Vampire: Anyway please take a look at my wares.
+ 1538| (selling dareifu, lisufa, maanesu, tareosu)
+ 1539| Vampire: Come on back anytime you feel like it.  Kukkukku....
+ 1540| 
+ 1541| 
+ 1542| [20].B27F Wizard:
+ 1543| -----------------
+ 1544| Wizard: .......
+ 1545| Alice:  .......
+ 1546| Wizard: .......
+ 1547| Alice:  .......
+ 1548| Wizard: Say something already.
+ 1549| Alice:  You first.
+ 1550| Wizard: I don't have anything to talk about.
+ 1551| Alice:  Me either.
+ 1552| Wizard: I see.
+ 1553| Alice:  Yup.
+ 1554| 
+ 1555| 
+ 1556| [21].B28F Vampire:
+ 1557| ------------------
+ 1558| Vampire: Yo, Mademoiselle.  Kukuku.  How are things with you?
+ 1559| Alice:   They just took a turn for the worse.
+ 1560| Vampire: What?  Because of me?
+ 1561| Alice:   Bingo.
+ 1562| Vampire: Hold on, what about me is bad?  Which part specifically don't you
+ 1563|          like?  Is it this, this wine, that doesn't work for you?  Or is it
+ 1564|          the way I adorn my behavior with pomp and circumstance?  Or, do I
+ 1565|          have an ugly mug?  Perhaps I'm just innately repulsive?  Ah, I bet
+ 1566|          that's it.  That just has to be it!
+ 1567| Alice:   Whoa, I didn't say all that now!
+ 1568| Vampire: No problem, it's all good.  This is worthless me we're talking
+ 1569|          about after all.
+ 1570| Alice:   Hellooo.  Hold up.
+ 1571| Vampire: *mutter mutter*
+ 1572| Alice:   I give up.  This guy needs professional help.
+ 1573| 
+ 1574| ------> (Optional) Talk to him again.
+ 1575| 
+ 1576| Vampire: *mutter mutter*
+ 1577| Alice:   Ah, he's still depressed.
+ 1578| Vampire: *grumble grumble*
+ 1579| Alice:   Think I'll just let him be alone.
+ 1580| 
+ 1581| 
+ 1582| [22].B29F Wizard:
+ 1583| -----------------
+ 1584| Wizard: Need something from me?
+ 1585| Alice:  No, I don't.
+ 1586| Wizard: ........
+ 1587| Wizard: Oh that's unfortunate.  I was hoping for company to help pass the
+ 1588|         time.
+ 1589| Alice:  That's great and all, but I still don't need anything.
+ 1590| 
+ 1591| 
+ 1592| [23].B30F Vampire:
+ 1593| ------------------
+ 1594| Vampire: Yo, Mademoiselle.  Nice weather we're having today.
+ 1595| Alice:   Nice weather?  You know we're underground, right.
+ 1596| Vampire: ......
+ 1597| Alice:   ......
+ 1598| Vampire: And on that note...
+ 1599| Alice:   I'm so confused.
+ 1600| Vampire: Kukuku.  I bid you farewell!
+ 1601| Alice:   H-hey, hold up!
+ 1602| 
+ 1603| 
+ 1604| [24].B30F Safe Room:
+   ...
+ 1722| Mikhail: Sacred items and magic are related, or so I've heard.  Thus it stands
+ 1723|          to reason they ought to...
+ 1724| Alice:   Makes sense, Mikhail!  I'll try looking for a wizard!
+ 1725| Mikhail: Good luck.  And take care.
+ 1726| 
+ 1727| --------> Go to B29F's bordermoon room (exit the sanctuary) and talk to the
+ 1728|           wizard there.
+ 1729| 
+ 1730| Alice:  Hey, got a sec?
+ 1731| Wizard: Do you need something?
+ 1732| Alice:  Do you know anything about sacred items?
+ 1733| Wizard: I'm unfamiliar.
+ 1734| Alice:  Hey hold on!  Put a little more thought into it than that.  We're
+ 1735|         talking a matter of life and death here.
+ 1736| Wizard: When I'm not familiar with something all I can say is "I'm
+ 1737|         unfamiliar".
+ 1738| Alice:  Oh please don't leave it at that.  Any scrap of info would be great.
+ 1739|         Anything you've overheard?
+ 1740| Wizard: .....Now that you mention it.  I recall hearing that someone has added
+ 1741|         an unusual book to their shop inventory.
+ 1742| Alice:  An unusual book?
+ 1743| Wizard: Probably meaning a holy book, a bible.
+ 1744| Alice:  A holy book?!  Could that be one of the sacred items I need?!
+ 1745| Wizard: Most likely.
+ 1746| Alice:  So who is it then?  Who's selling it?
+ 1747| Wizard: If I'm not mistaken it was on B26F....
+ 1748| Alice:  On B26F right?  Got it!
+ 1749| Wizard: ....I'm not exactly certain about that though.
+ 1750| Alice:  Hey now!  Don't do that!
+ 1751| Wizard: How about you go find out?
+ 1752| Alice:  A-all right.
+ 1753| 
+ 1754| ---------> Go to the bordermoon room on B26F. Talk to the vampire.
+ 1755| 
+ 1756| Vampire: Yo, mademoiselle.  Kukuku.  Welcome in.  Oh, by the way, I've placed
+ 1757|          an unusual item up for sale.  Take a look.
+ 1758|           -Bible, L2000. One of the items necessary for rescuing the
+ 1759|            professor.  Will you buy it?  (yes)(no)
+ 1760| Vampire: If you feel the urge, come on back again.  Kukkukku.
+ 1761| 
+ 1762| ---------> Buy the bible for L2000. If you don't have enough money, some
+ 1763|            monsters that frequently drop pounds are marked in the section V
+ 1764|            maps, or perhaps you already have your favorite earning spot.

@@ -1,0 +1,97 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 120
+press Start
+wait 120
+press Down 4
+wait 20
+press Down 4
+wait 20
+press Down 4
+wait 20
+press A
+wait 150
+shot dress
+wait 60
+shot dress2
+wait 40
+shot 01_hystulle
+press Down 4
+wait 40
+shot 02_bekiradin
+press Down 4
+wait 40
+shot 03_scuart
+press Down 4
+wait 40
+shot 04_litense
+press Down 4
+wait 40
+shot 05_manaclis
+press Down 4
+wait 40
+shot 06_survey
+press Down 4
+wait 40
+shot 07_ferminio
+press Down 4
+wait 40
+shot 08_riffcowl
+press Down 4
+wait 40
+shot 09_domudia
+press Down 4
+wait 40
+shot 10_stradia
+press Down 4
+wait 40
+shot 11_proteus
+press Down 4
+wait 40
+shot 12_blizzariel
+press Down 4
+wait 40
+shot 13_twincavia
+press Down 4
+wait 40
+shot 14_epinephre
+press Down 4
+wait 40
+shot 15_tranquille
+press Down 4
+wait 40
+shot 16_dewlit
+press Down 4
+wait 40
+shot 17_iscarpe
+press Down 4
+wait 40
+shot 18_satiend
+press Down 4
+wait 40
+shot 19_shrake
+press Down 4
+wait 40
+shot 20_cannelle
+press Down 4
+wait 40
+shot 21_torpedone
+press Down 4
+wait 40
+shot 22_argus
+exit

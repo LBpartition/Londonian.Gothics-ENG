@@ -1,0 +1,18 @@
+wait 2
+loadstate C:\GIT\Londonian.Gothics-ENG\.WORK\states\title.State
+press Start
+wait 120
+press Down 4
+wait 30
+press Down 4
+wait 30
+press Down 4
+wait 30
+press Down 4
+wait 30
+shot menu_sel
+press A
+wait 150
+shot option_1
+savestate C:\GIT\Londonian.Gothics-ENG\.WORK\states\option.State
+exit

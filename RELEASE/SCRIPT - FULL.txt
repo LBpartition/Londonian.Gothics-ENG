@@ -1,0 +1,6280 @@
+LONDONIAN GOTHICS - LOLITA IN THE LABYRINTH
+Full Script + Descriptions (English patch)
+Generated from build: 2026.10.11-17.13.41-RC1
+
+Line breaks are exactly as the game wraps them. Dialogue boxes show 3
+lines at a time; '---' marks where the game pages to the next box.
+{word} = shown in red in-game (keyword highlight). *word* = literal asterisks, as shown.
+Dialogue is in approximate playthrough order (following the guide);
+a new --- Location --- header starts whenever the scene changes.
+
+============================================================
+INTRO (PROLOGUE STORY ROLL)
+============================================================
+
+London, capital of the British Empire,
+late 1800s.
+
+Awash in outlandish tales, dastardly deeds by
+unseen foes, citizens vanishing abruptly, and
+rumbling deep within the earth, a dark
+malaise permeates throughout this city.
+
+Now, under the silent cloak of darkness in a
+corner of this misty capital, those who crawl
+the earth begin their clandestine wriggling
+once again...
+
+Nabokov, an ingenious scientist, fled from
+the collapsing Russian Empire and resettled
+with his family here in London.
+
+He soon noticed London's troubles and
+determined the source that tied all these
+turbulent trends in the dead of night
+together.
+
+Bringing his intellect and talents to bear,
+along with the help of Mikhail's sorcery, he
+set out to put right what he found wrong in
+the world.
+
+Alas....
+
+
+============================================================
+DRESSES (DRESS MODE)
+============================================================
+
+01. Hystulle
+    Shoot lightning
+    Forwards by 1 square.
+    Pushback & stuns the enemy.
+
+02. Tranquille
+    Make all enemies turn tail
+    and run for a short time.
+
+03. Stradia
+    Walk over top of blue water.
+
+04. Domudia
+    Slow all enemy movements
+    for a fixed time.
+
+05. Riffcowl
+    Create a temporary barrier
+    against projectile attacks.
+
+06. Dewlit
+    Knock back enemy a random
+    distance over walls via
+    bazooka.
+
+07. Ferminio
+    Teleport a few feet away in
+    a random direction.
+
+08. Blizzariel
+    Walk over top of lava and
+    underworld water of various
+    colors.
+
+09. Proteus
+    DP gauge refills faster.
+
+10. Cannelle
+    Knock enemy completely off
+    the map via bazooka.
+    (Lethal)
+
+11. Twincavia
+    Shoot lightning out all 3
+    squares ahead.
+    Stuns anything hit.
+
+12. Survey
+    Pause action and survey the
+    map as desired.
+
+13. Manaclis
+    Shrink to fit through
+    small cracks in walls.
+
+14. Epinephre
+    Move in straight line at high
+    speed until you hit a wall.
+
+15. Litense
+    Jump over 1 square of
+    distance.
+
+16. Iscarpe
+    Auto-warp somewhere on map
+    upon enemy touch instead of
+    dying. Drains all DP.
+
+17. Argus
+    Usable only in the endgame
+    scenario.
+
+18. Satiend
+    Teleport a long distance
+    away in a random direction.
+
+19. Shrake
+    Pause all enemy movements
+    for a fixed time.
+
+20. Scuart
+    Knock back enemy a random
+    distance in a straight line
+    via bazooka.
+
+21. Torpedone
+    Shoot lightning on all
+    squares immediately
+    surrounding Alice.
+
+22. Bekiradin
+    Show location of remaining
+    magic circles in the room
+
+
+============================================================
+ITEMS
+============================================================
+
+01. Awizu
+    Orange spool of
+    shimmering black silk
+
+02. Akubaru
+    Shiny light gold thread with
+    sparkles on jade spindle
+
+03. Rewiza
+    Light brown spindle
+    with white thread
+
+04. Dareifu
+    Blue spindle
+    with silver thread
+
+05. Wariyagu
+    White yarnball
+
+06. Roadesu
+    Spindle of magic blonde
+    thread
+
+07. Tyuunu
+    Fabric of brown monster hide
+
+08. Rudorin
+    Silver roll of cloth
+
+09. Gurasuto
+    Silver sheer cloth
+
+10. Irumari
+    Red and black checkered
+    roll of cloth
+
+11. Kuahha
+    Fluffy comfy yellow wool
+
+12. Lisufa
+    Magic silver lace
+    floral pattern
+
+13. Borodi
+    Button with emerald gem
+
+14. Fomoru
+    Silver crest with
+    yellow gem
+
+15. Tuuka
+    White crest with
+    large yellow orb
+
+16. Aigizu
+    Gold coin-shape button
+    with goat head
+
+17. Osubiya
+    Spider-like
+    heart-shaped crest
+
+18. Nyukusu
+    Blue-green rose and leaves
+    on silver vine circle
+
+19. Zoriano
+    Silver needle with
+    green swoosh at tip
+
+20. Reshiefu
+    Golden sparkling long needle
+
+21. Seitse
+    Glowing scissors with
+    brown feathers on handle
+
+22. Masaeru
+    Silver disc with maze-like
+    pattern engraved
+
+23. Oreusu
+    White measuring tape with
+    red button in center
+
+24. Yeun
+    Dark purple tongs-like
+    clothespin with red glow
+
+25. Seruti
+    Gold tiara
+
+26. Sarissa
+    Translucent veil with
+    small red bow
+
+27. Eushu
+    Angel wings cape
+
+28. Maanesu
+    Red rose and leaves choker
+    ribbon
+
+29. Tareosu
+    Red ribbon bow with
+    gold leaf on ends
+
+30. Radokuya
+    Black rockinghorse shoes
+    with purple ribbon
+
+31. Holy Sword
+    A holy sword-shaped
+    accessory.
+
+32. Bible
+    One of the items necessary
+    for rescuing the professor.
+
+33. Holy Water
+    One of the items necessary
+    for rescuing the professor.
+
+
+============================================================
+LOCATION NAMES (top of map screen)
+============================================================
+
+2F Guest Room A
+2F Guest Room B
+Late Madame's Bedroom
+Nabokov's Bedroom
+Library
+Alice's Bedroom
+2F Hall
+1F Hall
+1F Genkan Hall
+2F Genkan Hall
+Laboratory
+Stairs to B1F
+1F Guest Room A
+1F Guest Room B
+Vacant Room A
+Butler's Room
+Maid's Room
+Bathroom
+Dining Room
+Kitchen
+Pantry
+Piano Room
+Vacant Room B
+Vacant Room C
+Vacant Room D
+Interior Garden
+Sanctuary
+Sewing Room
+Labyrinth B1F
+Labyrinth B2F
+Labyrinth B3F
+Labyrinth B4F
+Labyrinth B5F
+Labyrinth B6F
+Labyrinth B7F
+Labyrinth B8F
+Labyrinth B9F
+Labyrinth B10F
+Labyrinth B11F
+Labyrinth B12F
+Labyrinth B13F
+Labyrinth B14F
+Labyrinth B15F
+Labyrinth B16F
+Labyrinth B17F
+Labyrinth B18F
+Labyrinth B19F
+Labyrinth B20F
+Labyrinth B21F
+Labyrinth B22F
+Labyrinth B23F
+Labyrinth B24F
+Labyrinth B25F
+Labyrinth B26F
+Labyrinth B27F
+Labyrinth B28F
+Labyrinth B29F
+Labyrinth B30F
+Another World
+
+============================================================
+CHARACTER NAMES
+============================================================
+
+Alice
+Mikhail
+Lucille
+Nabokov
+Vampire
+Wizard
+Fairy
+
+============================================================
+MENU TEXT (OPTION screen)
+============================================================
+
+SFX
+TEXT SPEED
+BACKLIGHT
+
+============================================================
+MENU TEXT (SAVE / LOAD screens)
+============================================================
+
+SAVE ?
+LOAD ?
+YES
+NO
+END
+SAVED
+
+============================================================
+DIALOGUE
+============================================================
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+(narration)
+    Knock, Knock, Knock
+
+Mikhail:
+    Lady Alice!!
+
+Alice:
+    Good morning, Mikhail.
+    What brings you here so
+    bright and early?
+
+Mikhail:
+    W-we've got a problem!
+    It's the professor;
+    it's Nabokov!
+
+Alice:
+    Oh, what has Father done
+    this time?
+
+Mikhail:
+    He's been spirited away by
+    monsters.
+
+Alice:
+    Wait, what?!
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Alice:
+    So Father's down here?
+
+Mikhail:
+    Yes.
+
+Mikhail:
+    Ghoulish creatures crawled
+    up through that fissure and
+    abducted the professor.
+
+Alice:
+    Monsters grabbed Father?
+    But why would they?
+
+Mikhail:
+    Who can say?
+
+Alice:
+    Well, Mikhail, what should
+    we do about it?
+
+Mikhail:
+    How do you believe we ought
+    to proceed?
+
+Alice:
+    Bleh, you're useless.
+
+Mikhail:
+    Huh? Might you have just said
+    something?
+
+Alice:
+    Nope, not a thing.
+
+Alice:
+    All right, Mikhail,
+    I've made up my mind.
+
+Mikhail:
+    Yes, about what?
+
+Alice:
+    I'm going to go rescue Father!
+
+Mikhail:
+    Y-you shan't!
+    That's too dangerous!
+
+Alice:
+    Well, what else would you
+    have me do?
+
+Alice:
+    Leave him there to rot?
+
+Mikhail:
+    Bestill my heart no!
+    I wouldn't dream of it.
+
+Alice:
+    Then I guess our only option
+    is for me to go.
+
+Mikhail:
+    But yet! Milady, I can't allow
+    you to place yourself in
+    harm's way.
+
+Alice:
+    Oh, I'll be fine. After all,
+    I've got this dress you made
+    for me, don't I.
+
+Alice:
+    *spin*
+    This magic dress I'm wearing!
+
+Mikhail:
+    To be sure, with that dress'
+    powers you do at least stand
+    a chance.
+
+Alice:
+    Right?!
+
+Mikhail:
+    Though that doesn't change
+    the fact that it's hardly
+    safe.
+    ---
+    I'm not certain I could allow
+    it in good conscience...
+
+Alice:
+    It has to be me!
+
+Mikhail:
+    !
+
+Alice:
+    Father must be down there,
+    waiting for me to
+    come help him!
+
+Alice:
+    I can't let his hopes
+    be in vain.
+
+Mikhail:
+    I..see. I understand how you
+    feel. And yet I worry...
+
+Alice:
+    Well then, how about you
+    come along with me?
+
+Mikhail:
+    This is a task you are
+    uniquely qualified for,
+    milady.
+
+Mikhail:
+    I'll entrust his fate to you.
+
+Alice:
+    Whoa, instant flip-flop o_O.
+
+Mikhail:
+    What have we here?
+    You're not already on your
+    way?
+
+Alice:
+    You'd have me set off just
+    like this? Empty-handed?
+
+Mikhail:
+    What would you want to bring,
+    aside from the magic dress?
+
+Alice:
+    Food, for starters, would be
+    nice. And perhaps a lantern
+    and matches...
+
+Mikhail:
+    Understood. I'll ask our maid
+    to prepare those items for
+    you.
+    ---
+    Milady, please wait in
+    your room.
+    Now, if you'll excuse me...
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+Lucille:
+    Excuse me, I'm coming in.
+
+Lucille:
+    Miss, I brought the items
+    you requested.
+
+Alice:
+    Thank you, Lucille.
+    And with that, I should be
+    all set to go.
+
+Alice:
+    Let me do one last check to
+    be sure I'm ready.
+
+Alice:
+    Let's see... Food, water,
+    lantern, matches...
+
+Lucille:
+    Heheh, Miss, why not quit now
+    while you're ahead?
+
+Alice:
+    Huh, what? You're saying
+    there's no point in
+    double-checking my
+    ---
+    provisions? It wouldn't do to
+    forget anything important.
+
+Lucille:
+    Nah, that's not it.
+
+Alice:
+    What, then, are you trying to
+    say?
+
+Lucille:
+    It's already too late for the
+    professor.
+
+Alice:
+    Oh geez, talk about blunt!
+    You didn't have to say that.
+
+Lucille:
+    Think about it.
+    What do monsters usually do
+    to someone they take?
+    ---
+    I can't fathom that he'd still
+    be unharmed.
+    ---
+    The professor's probably
+    being greedily devoured right
+    about now,
+    ---
+    with the monsters leaving
+    nary a trace of him for you
+    to find.
+
+Alice:
+    Cut it out; don't say such
+    things!
+    Father is surely still alive!
+
+Lucille:
+    If you ran off to rescue a
+    dead person and then met that
+    same fate yourself,
+    ---
+    it would be pretty idiotic,
+    no?
+
+Alice:
+    Out! Get out of here now,
+    Lucille!
+
+Lucille:
+    Yeah, yeah, I hear you.
+    Very well, mademoiselle.
+
+Lucille:
+    Father and daughter, just a
+    pair of roadkills for the
+    vultures.
+    ---
+    Ah, I do so hope such a
+    terrrrrrible thing doesn't
+    happen.
+
+Lucille:
+    huhuhu, huhuhuhu, kekekekeke.
+
+Alice:
+    What the hell!
+    Stupid Lucille, you're such an
+    inconsiderate jerk!
+
+Alice:
+    Well, setting her aside for
+    now, I better hurry back down
+    to the basement.
+
+Alice:
+    You might not think it, but
+    Mikhail sure can be scary
+    when he gets upset!
+
+(narration)
+    ......
+
+
+--- 2F Hall  (sp_home006.sp) ---
+
+Lucille:
+    How are things, Miss?
+
+Lucille:
+    Could you be looking for
+    Mikhail?
+
+Lucille:
+    If so he just now hurried off
+    somewhere.
+
+Lucille:
+    Maybe he had a date with some
+    young debutante.
+    Keeekkekeke.
+
+Lucille:
+    For heaven's sake why are you
+    dawdling about?
+
+Lucille:
+    Get on with it already.
+
+
+--- 1F Hall  (sp_home007.sp) ---
+
+Lucille:
+    Oh? Miss, what are you doing
+    wandering about out here?
+
+Lucille:
+    Surely you're not, l-lost, in
+    your own manor?!
+
+Lucille:
+    No cause for alarm, right?
+
+Lucille:
+    If you're looking for the
+    basement it's over this way.
+
+Lucille:
+    Ohh, but you didn't need me to
+    tell you that did you.
+    Fefefe.
+
+Lucille:
+    For heaven's sake why are you
+    dawdling about?
+
+Lucille:
+    Get on with it already.
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Alice:
+    Sorry I kept you waiting,
+    Mikhail.
+
+Mikhail:
+    Milady. Have you packed all
+    you need?
+    ---
+    Do you have your
+    handkerchief?
+    And some tissues?
+
+Alice:
+    Aw give it a rest.
+    I'm not a kid anymore!
+
+Mikhail:
+    I know, but I am still
+    concerned for your
+    well-being.
+
+Alice:
+    I'll be fine.
+    As long as I have this magic
+    dress,
+    ---
+    I needn't worry no matter how
+    perilous the going gets.
+
+Alice:
+    Isn't that right?
+
+Mikhail:
+    ......
+
+Alice:
+    What's with that reaction?
+
+Mikhail:
+    Ah, pardon me.
+    I meant no offense.
+
+Alice:
+    Mikhail, don't tell me you
+    lack confidence in your own
+    handiwork.
+
+Mikhail:
+    N, nothing of the sort!
+
+Mikhail:
+    Surely everything will be
+    fine.
+
+Alice:
+    Suuuurely?
+
+Mikhail:
+    Ah, no, I mean, everything
+    shall be fine.
+    I daresay.
+
+Alice:
+    You daaaaresay?
+
+Mikhail:
+    I e-expect.
+
+Alice:
+    Oh come on!
+    Mikhail!
+
+Mikhail:
+    That being the conclusion I've
+    reached --
+
+Alice:
+    Kyaa! H-hey, no pushing!
+
+Mikhail:
+    Take care, and safe journeys.
+
+
+--- Labyrinth B1F  (sp002.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Alice:
+    What on Earth is this..?
+    It's horribly creepy.
+
+Alice:
+    Eh? Eh?
+
+Alice:
+    What's happening?
+
+Alice:
+    .......
+
+Alice:
+    I-it broke?!
+
+Alice:
+    But, I never even touched it,
+    right?
+    Right?
+
+Alice:
+    Erm, well...
+
+Alice:
+    I had nooooothing to do with
+    it!
+
+(narration)
+    ....Alice.
+
+Alice:
+    Eh?!
+
+(narration)
+    Alice!
+
+Alice:
+    That voice. Father?!
+
+(narration)
+    Alice, Alice!
+
+Alice:
+    Father, that's you is it not?!
+
+(narration)
+    Oh, Alice. Has my voice
+    reached you?
+
+Alice:
+    Yes, Father! It really is him!
+
+(narration)
+    Alice, listen closely to what
+    I'm about to say. There's
+    something you need to know.
+
+Alice:
+    Say, Father, where are you
+    now?!
+    How are you doing?
+
+(narration)
+    Pipe down and listen!
+    I don't have much time!
+
+Alice:
+    O-okay, Father.
+
+(narration)
+    That thing you just destroyed
+    is known as a {bordermoon}.
+
+Alice:
+    {Bordermoon}?
+
+(narration)
+    It creates a miasma that
+    makes the labyrinth a
+    hospitable environment for
+    ---
+    the monsters.
+    If you can destroy it, that
+    should make the monsters
+    ---
+    vulnerable enough for you to
+    defeat.
+
+Alice:
+    Oh goodness! I could never do
+    that.
+
+(narration)
+    Yes, you can.
+    Don't worry, since you... after
+    all.
+
+Alice:
+    Huh? What? Father, I couldn't
+    hear you clearly!
+
+Alice:
+    Father?! Hey, Father!
+    Say something!
+    Hey!
+
+Alice:
+    Father.. Father!
+
+Alice:
+    Fatheeeeer!
+
+Alice:
+    Father, I'm going to do this.
+    Hang in there.
+
+(narration)
+    When the {bordermoon}
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B2F  (sp003.sp) ---
+
+Alice:
+    Oh?
+
+Alice:
+    Whaaat's that thing?
+    An arch?
+
+Alice:
+    Does this lead anywhere?
+
+Alice:
+    How about I take a little
+    look-see.
+
+
+--- Labyrinth B2F  (sp005.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B3F  (sp007.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    ? A sanctuary?
+    Why would something like this
+    be inside a labyrinth?
+
+Alice:
+    Eh? Mikhail?!
+
+Mikhail:
+    Yes, milady. I'm so pleased to
+    see you doing well.
+
+Alice:
+    What on Earth are you doing
+    here? Weren't you waiting
+    back at the manor?!
+
+Mikhail:
+    I waited here figuring that I
+    might be of some assistance
+    to you.
+
+Alice:
+    You did, huh.
+    Hmmmmmm?
+
+Mikhail:
+    What is it.
+    Why might you be looking at
+    me like that?
+
+Alice:
+    No-rea-son.
+
+Mikhail:
+    ......
+
+Alice:
+    So, what are you here to help
+    me with?
+
+Mikhail:
+    Ahem. Well then, milady.
+    First, please look over there.
+
+Alice:
+    ? What is that thing?
+
+Mikhail:
+    For now, please go stand
+    there.
+
+Alice:
+    Huh? Why should I?
+
+Mikhail:
+    Just go do it!
+
+Alice:
+    Okay, okay, I'm going.
+    No need to shout.
+
+Alice:
+    How's this?
+
+Alice:
+    Huh? W-wait, what is this?
+
+Alice:
+    Kyaaaaaaaaaaa!
+
+
+--- Pantry  (sp_home026.sp) ---
+
+Alice:
+    Eh? Ehh?!
+
+Alice:
+    What just happened and where
+    am I?
+
+Alice:
+    This room sure does feel
+    familiar somehow...
+
+
+--- 1F Hall  (sp_home007.sp) ---
+
+Alice:
+    I'm in the manor!?
+    Was I just transported back
+    home?
+
+Mikhail:
+    Yes, that is precisely
+    correct.
+
+Alice:
+    Mikhail, what's the meaning
+    of this?
+
+Mikhail:
+    In short, this is what I can do
+    to assist you.
+
+Alice:
+    Wha..?
+
+Mikhail:
+    I have created magic gates
+    that link the manor and the
+    sanctuaries together.
+
+Mikhail:
+    Being able to come and go
+    from the labyrinth as you
+    please should ease your
+    ---
+    journey, I think.
+
+Alice:
+    Wow, that's quite something,
+    Mikhail.
+
+Mikhail:
+    Huhuhu. That isn't the only
+    feature of the sanctuaries,
+    either.
+    ---
+    Have you noticed, milady?
+
+Alice:
+    Noticed what?
+
+Mikhail:
+    Your lives and DP have all
+    been restored.
+
+Alice:
+    Oh!
+
+Alice:
+    Now that you mention it, I do
+    feel... but, how?
+
+Mikhail:
+    The holy power of the
+    sanctuary has rejuvinated
+    your body, milady.
+
+Alice:
+    So I see.
+    Thank you, Mikhail.
+    This will help a ton.
+
+Mikhail:
+    You're welcome. It was the
+    least I could do.
+
+Alice:
+    It will be good to pace
+    myself so I don't run out of
+    steam.
+    ---
+    You should too, Mikhail.
+
+Mikhail:
+    ......
+
+Alice:
+    Oh, what's wrong?
+
+Mikhail:
+    Ah, nothing is.
+
+Mikhail:
+    For safety's sake I'll be
+    standing by in the sanctuary.
+    Who can say what's going to
+    ---
+    happen from here on out.
+
+Alice:
+    Okay. I appreciate it.
+
+Alice:
+    So, what next?
+
+Alice:
+    Hurry back down to the
+    labyrinth?
+    Or perhaps rest for a bit?
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Mikhail:
+    Welcome back. I am so pleased
+    to see you safe.
+
+Mikhail:
+    Fear not, for the warp gate is
+    fully operational.
+
+Mikhail:
+    Take care on your journey.
+
+
+--- Labyrinth B4F  (sp012.sp) ---
+
+Alice:
+    Ick!
+
+Alice:
+    The stench of that miasma is
+    on a whole other level around
+    here.
+
+Alice:
+    Huh?
+
+Alice:
+    What's this door?
+
+Alice:
+    Rrrr, it's stuck fast.
+
+Alice:
+    Nope, doesn't look like I can
+    open it.
+
+Alice:
+    I wonder what I have to do?
+
+Alice:
+    Hmmmm;
+
+Alice:
+    hmmmm;
+
+Alice:
+    hmmmm.....
+
+Alice:
+    Maybe the stench has
+    something to do with it.
+
+Alice:
+    If that's true, the door could
+    open when I destroy the
+    {bordermoon}!
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Alice:
+    Let's see what happens.
+
+(narration)
+    The miasma dissipates,
+    allowing the locked door to
+    open.
+
+Alice:
+    It worked!
+
+
+--- Sewing Room  (sp_home040.sp) ---
+
+Alice:
+    What's this room?
+
+Alice:
+    Oh my, is this a sewing
+    machine?
+
+Alice:
+    What's this doing inside the
+    labyrinth of all places?
+
+Alice:
+    And not just that...
+
+(narration)
+    rustle, rustle
+
+Alice:
+    This is a pattern, isn't it, for
+    another magic dress?
+
+Alice:
+    Ah, I know!
+
+Alice:
+    What do you think, Mikhail?
+
+Mikhail:
+    Yes, indeed. This sewing
+    machine will do just fine for
+    making magic dresses.
+
+Alice:
+    Really? Huzzah!
+
+Mikhail:
+    But do you believe you can
+    handle this? Dressmaking is
+    fairly complicated.
+
+Alice:
+    Are you patronizing me?
+    Of course I know how to make
+    a dress..
+    ---
+    I am a proper lady, don't you
+    know!
+
+Mikhail:
+    Begging your pardon, ma'am.
+
+Alice:
+    Sheesh, I'm going to lose my
+    temper at this rate!
+
+Alice:
+    Anyway, Mikhail, how long do
+    you plan on hanging out here?
+
+Mikhail:
+    Huh?
+
+Alice:
+    You can go back now.
+
+Mikhail:
+    Eh? You mean that was all you
+    wanted to see me about?
+
+Alice:
+    Indeed.
+
+Mikhail:
+    .....
+
+Alice:
+    Okay, 'tis time for all good
+    sorcerers to return home. :)
+
+Alice:
+    Whew, let's get down to
+    business.
+
+Alice:
+    So, self, shall we try
+    crafting from this pattern?
+
+Alice:
+    You mean this one, right?
+
+(narration)
+    Obtained the pattern for the
+    magic dress {Litense}
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    Hi there.
+
+Mikhail:
+    Milady you must be tired.
+    Would you take a short break
+    here?
+
+Alice:
+    Nah, I'm hurrying ahead.
+
+Mikhail:
+    I see. You sure are pushing
+    yourself hard, milady.
+
+Alice:
+    Aw, no backseat adventuring,
+    please. Unless you're asking
+    to take over for me?
+
+Mikhail:
+    Eh?!
+
+Mikhail:
+    No, I mean.. that is.. well..
+
+Mikhail:
+    Oh, speaking of!
+
+Alice:
+    Dodging the issue, are we?
+
+Mikhail:
+    W-well...
+
+Alice:
+    No matter. Continue.
+
+Mikhail:
+    Certainly.
+
+Mikhail:
+    I had a thought: Your late
+    mother used to be skilled in
+    dressmaking.
+    ---
+    There's a pattern that might
+    still be in her room.
+
+Alice:
+    Ohh, my mom was...?
+
+Mikhail:
+    How about searching for it?
+
+Alice:
+    Sure will. Thank you, Mikhail!
+
+(narration)
+    O Lord, have mercy.
+
+(narration)
+    O Lord, grant this girl the
+    strength to live once more.
+
+(narration)
+    O Lord, descend from the
+    heavens and reveal Thy power.
+
+(narration)
+    O Lord, O Heaven, grant this
+    girl the strength to live once
+    more.
+
+(narration)
+    O Lord, O Earth, reveal Thy
+    boundless power here and now.
+
+Alice:
+    But where am I supposed to
+    make a dress?
+
+Mikhail:
+    It seems there are countless
+    sewing rooms throughout the
+    labyrinth.
+
+Alice:
+    Huh? Really? And those sewing
+    machines actually work?
+
+Mikhail:
+    Yes. I checked earlier, they
+    should work just fine...
+
+Alice:
+    Got it. Well, I'm off!
+
+Mikhail:
+    Hurry, milady! Use the
+    {holy sword} to rescue
+    the professor!
+
+Alice:
+    Right, I know!
+    Leave it to me!
+
+Alice:
+    Huh?!
+
+Alice:
+    W-what? What happened?!
+
+Mikhail:
+    Thank goodness. You've come
+    to.
+
+Alice:
+    Mikhail?!
+
+Alice:
+    Wait, did I just...?
+
+Mikhail:
+    I was prepared for the
+    revival ritual this time, but...
+
+Mikhail:
+    There's no guarantee it'll go
+    so well next time!
+
+Alice:
+    I-I'm sorry.
+
+Mikhail:
+    I won't stop you, but please
+    be more careful from now on!
+
+Alice:
+    O-okay.
+
+Mikhail:
+    Now then, take care, milady.
+    And do be careful this time.
+
+Alice:
+    Huh?!
+
+Mikhail:
+    Thank goodness you're awake.
+    You're safe.
+
+Alice:
+    Ah! Is this a sanctuary?
+
+Alice:
+    Oh, I went and did it again,
+    didn't I?
+
+Mikhail:
+    I've told you over and over to
+    be careful, but you still...!
+
+Alice:
+    Ehehe.
+
+Mikhail:
+    Don't you "ehehe" me!
+    Honestly, you!
+
+Alice:
+    Don't shout. I'll be careful
+    next time, so let's drop it,
+    shall we?
+
+Mikhail:
+    Sigh. There's no helping it.
+    Please be careful this time.
+
+Alice:
+    I know, I know!
+    Well, I'm off.
+
+Mikhail:
+    Take care, milady.
+
+Alice:
+    E-ehehe.
+
+Mikhail:
+    Sigh... I give up.
+
+Mikhail:
+    Take care, milady.
+
+
+--- Late Madame's Bedroom  (sp_home002.sp) ---
+
+Alice:
+    Come to think of it, Mikhail
+    mentioned this didn't he.
+
+Alice:
+    That there might be a dress
+    pattern in this room.
+
+(narration)
+    rustle rustle
+
+Alice:
+    Ah!
+
+Alice:
+    It was still here. This is it!
+    Think I'll just take this with
+    me.
+
+(narration)
+    Obtained the pattern for the
+    magic dress {Survey}
+
+
+--- Labyrinth B5F  (sp015.sp) ---
+
+Alice:
+    En garde, you monster!
+
+Vampire:
+    W-wait. Hold your horses
+    there.
+
+Alice:
+    Eh?!
+
+Vampire:
+    Please don't trample me.
+    Let us discuss for a while.
+
+Alice:
+    Talk this out, you say?
+    With you, a monster?
+
+Vampire:
+    Oh I can understand your
+    skepticism.
+
+Vampire:
+    But being able to resolve
+    differences through parley is
+    important.
+
+Vampire:
+    I'm not so quick to settle
+    things by force as you seem
+    to be.
+
+Alice:
+    *grump*!
+
+Alice:
+    Oh, like I have a choice!
+    It's attack or BE attacked out
+    here.
+
+Vampire:
+    There are friendly folks even
+    amongst monsters.
+    Like myself for example.
+
+Alice:
+    How can you say that when you
+    were chasing me mere
+    moments ago?
+
+Vampire:
+    I was a bit out of sorts on
+    account of the miasma.
+    I couldn't help it, could I.
+
+Alice:
+    Well then, you returned to
+    normal when I destroyed the
+    {bordermoon}?
+
+Vampire:
+    Exactly. When the miasma
+    isn't around, some of us are
+    decent folk.
+
+Alice:
+    Hmmm.
+
+Vampire:
+    Once you destroy a
+    {bordermoon},
+
+Vampire:
+    if you see anyone who stands
+    still, you should try talking
+    to them.
+    ---
+    Surely they'll lend you a
+    hand.
+
+Alice:
+    Will do!
+
+Vampire:
+    Kukuku... Then shall you allow
+    me to take my leave?
+
+Vampire:
+    Farewell, young lady.
+
+Vampire:
+    Apologies. I'm fresh out of
+    hints.
+
+Vampire:
+    Kuku, kukuku....
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Vampire:
+    Kukuku... I'll tell you
+    something useful.
+
+Vampire:
+    Are you finding all the
+    materials you need for your
+    dresses?
+
+Vampire:
+    The monsters who drop
+    patterns often also carry the
+    materials required to sew
+    ---
+    them.
+
+Vampire:
+    I can understand your desire
+    to rush ahead,
+
+Vampire:
+    but it would be worthwhile to
+    take time out to collect
+    materials every now and
+    ---
+    again, don't you think?
+
+
+--- Labyrinth B7F  (sp022.sp) ---
+
+Alice:
+    Whew, I'm a bit worn out.
+
+Alice:
+    Why not, this looks like a
+    decent enough spot for a
+    break.
+
+(narration)
+    Kyahaha (laughs)
+
+Alice:
+    ?! Who's there?
+
+Alice:
+    !!
+
+Alice:
+    Eeek!
+
+Alice:
+    Ah, there you are, you
+    monster!
+
+Fairy:
+    *sniffle* That's mean.
+    Calling me, adorable little
+    me, a monster, of all things.
+
+Alice:
+    Eh? Eh? Eh?
+
+Fairy:
+    *sniffle* Even though I just
+    wanted to talk to you.
+
+Alice:
+    Oh I'm so sorry.
+
+Fairy:
+    Okay, I'll forgive you!
+
+Alice:
+    (somehow, she seems awfully
+    full of herself...)
+
+Fairy:
+    What's the matter?
+
+Alice:
+    Oh, nothing's wrong.
+
+Fairy:
+    ?
+
+Alice:
+    Say, can I ask you something?
+
+Fairy:
+    What is it?
+
+Alice:
+    Why did the monsters abduct
+    my father?
+
+Alice:
+    I've been wondering about it
+    this whole time and I haven't
+    come up with any reason why
+    ---
+    they'd want to.
+
+Fairy:
+    The mister's research was a
+    huge inconvenience to some
+    bad guys.
+    ---
+    They grabbed him so that he
+    couldn't do it any more.
+
+Alice:
+    Do you know where Father is
+    being kept?
+
+Fairy:
+    I don't know.
+
+Alice:
+    Ah.
+
+Alice:
+    Well how about Father's
+    research topic, then?
+
+Alice:
+    Was it really something bad
+    enough to be kidnapped over?
+
+Fairy:
+    I'd like you to find that out
+    on your own.
+
+Fairy:
+    You rely on others a bit too
+    much, sister.
+
+Alice:
+    (I've just been rebuked by a
+    half-pint.)
+
+Fairy:
+    Well then, I'll be on my way
+    now.
+    That's bye-bye to you!
+
+Alice:
+    Ah, hey, wait up!
+
+Alice:
+    Awww, she left.
+
+Alice:
+    So it was Father's research,
+    huh.
+
+Alice:
+    Racking my brain doesn't help;
+    that just makes it clear how
+    little I really know about
+    ---
+    him and his work.
+
+Alice:
+    Guess I should try to do some
+    investigating.
+
+Alice:
+    Let's see... There might be
+    something about this in our
+    study.
+    ---
+    Let's head back to the manor.
+
+Fairy:
+    Oh, I almost forgot!
+
+Alice:
+    Eek!
+
+Fairy:
+    You know, not everyone in the
+    labyrinth is an enemy.
+
+Alice:
+    Huh? Not enemies? Are you
+    trying to tell me these
+    monsters are on our side?
+
+Fairy:
+    Yup! Mr. Vampire and Mr.
+    Wizard aren't enemies.
+    And neither are my friends!
+
+Fairy:
+    Once the miasma's gone,
+    they're all really nice
+    people!
+
+Alice:
+    So if I destroy the
+    {bordermoons}...?
+
+Fairy:
+    Then they should calm down
+    and might be willing to help
+    you out.
+
+Alice:
+    Hmm. Help me out how?
+
+Fairy:
+    They'll give you hints and
+    sell you dress materials.
+
+Alice:
+    Oh, that would be handy.
+
+Fairy:
+    That's all I came to say.
+    Bye-bye!
+
+Alice:
+    Friendly monsters, huh?
+
+Alice:
+    But right now, I'm more
+    curious about Father's
+    research.
+
+Alice:
+    Let's see... The study, maybe?
+    I might find something there.
+    I'd better head back to the
+    ---
+    manor.
+
+Alice:
+    I could just keep going, but...
+
+Alice:
+    No, no. It's still bothering
+    me.
+    To the study!
+
+Alice:
+    No. Haste makes waste, as
+    they say.
+
+Alice:
+    Rushing won't help.
+    I should look around more
+    carefully first.
+
+Alice:
+    Right. On to Father's bedroom.
+
+
+--- Labyrinth B8F  (sp026.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Nabokov's Bedroom  (sp_home003.sp) ---
+
+Alice:
+    All right. It'd be nice to find
+    a continuation of that diary.
+
+Alice:
+    Huh?
+
+Alice:
+    There's something under the
+    bed.
+
+(narration)
+    rummage, rummage
+
+Alice:
+    What's this?
+
+Alice:
+    This is it!
+    The diary!
+
+Alice:
+    Let's go ahead and read it.
+
+(narration)
+    January 15th:
+
+(narration)
+    I wonder how much time has
+    passed since we fled from
+    Russia.
+    ---
+    I don't regret having fled in
+    and of itself.
+    And yet....
+
+(narration)
+    January 21st:
+
+(narration)
+    My wife and daughter are
+    suffering in bed again today.
+
+(narration)
+    The wounds inflicted upon
+    them by monsters during our
+    escape aren't healing
+    ---
+    properly.
+
+(narration)
+    January 27th:
+
+(narration)
+    Oh, my dearest wife! And Anya!
+    My adorable daughter!
+    Why did you two have to die?
+    ---
+    Just when we had finally
+    arrived in our safe haven at
+    last.
+
+Alice:
+    Eh? What is this all about?
+    What are you talking about,
+    Father?!
+
+Alice:
+    Anya? Who's that?
+    And, what do you mean, dead?
+
+Alice:
+    Oh come on!
+    This baloney isn't making any
+    sense!
+
+Alice:
+    Hmph. Well. I won't learn
+    anything by whining about it.
+    I gotta try reading further.
+
+(narration)
+    I can never forgive the
+    monsters for what they've
+    taken from me. Their days are
+    ---
+    numbered and I will bring
+    them down. To that end, I must
+    complete this research!
+
+Alice:
+    F-father....
+
+(narration)
+    February 21st:
+
+(narration)
+    Is my research something that
+    defies the gods?
+
+(narration)
+    Will the serial failures keep
+    piling up one after the next?
+
+(narration)
+    March 7th:
+
+(narration)
+    This latest experiment was
+    another failure. But I won't
+    give up. Like hell I would!
+
+(narration)
+    I don't want there to be any
+    more bereaved people like me
+    out there.
+
+(narration)
+    I cannot quit here.
+
+(narration)
+    March 29th:
+
+(narration)
+    The state of the city just
+    keeps on deteriorating.
+    I mustn't let things continue
+    ---
+    this way!
+
+(narration)
+    I've got to hurry up and finish
+    the {genomroid}, even one day
+    sooner!
+
+Alice:
+    {Genomroid}?! So that's what he
+    was researching?
+
+Alice:
+    Okay, Father, what on Earth
+    did you do?
+
+(narration)
+    .......
+
+Lucille:
+    Oh?
+
+Alice:
+    Gyah!!
+
+Lucille:
+    Miss. You've been in here?
+
+Alice:
+    Lu-lucille?!
+
+Lucille:
+    Myyy, my. What a
+    well-mannered young lady we
+    have here.
+
+Lucille:
+    While the professor's life
+    hangs in the balance, you
+    mean to tell me that young
+    ---
+    Miss is up here goofing off?
+
+Alice:
+    In no way am I goofing off!
+
+Lucille:
+    Ohhh, the poor professor,
+    abandoned by his beloved
+    daughter...
+
+Alice:
+    Hey! Listen to what I'm
+    saying!
+
+Lucille:
+    All alone in his final hours,
+    needlessly falling prey to
+    hungry monsters...
+    ---
+    Ohhh, how cruel life can be.
+
+Alice:
+    Fine! I get it.
+    I'm going back down right now!
+    That good enough for you?!
+
+Lucille:
+    I didn't say you had to.
+
+Lucille:
+    Forsaking the professor and
+    living out life on your own is
+    also an option.
+
+Alice:
+    I wouldn't do something like
+    that! I'm definitely going to
+    save Father; you'll see!
+
+Lucille:
+    In that case you had best
+    make haste.
+    Although you're probably
+    ---
+    already too late.
+    Fufufu, fufufufu.
+    Keekkekekeke.
+
+Alice:
+    Sheesh! Lucille, you are such
+    an unpleasant louse!
+
+Alice:
+    In fact, you go beyond just
+    being mean; you're truly
+    toxic. A toxi-maid!
+
+Alice:
+    However, she does have a
+    point that I needn't be so
+    carefree.
+    ---
+    I gotta get back to the
+    labyrinth.
+
+(narration)
+    Knock knock, knock knock
+    knock
+
+
+--- Maid's Room  (sp_home016.sp) ---
+
+Lucille:
+    Ah, young Miss.
+    You look bored.
+
+Alice:
+    I'm not bored.
+
+Lucille:
+    If you've got time, could you
+    help me out a little with the
+    chores?
+
+Alice:
+    As I said I'm not bored!
+
+Lucille:
+    A lot of housework has piled
+    up so I'm a bit overwhelmed.
+
+Alice:
+    Hey! Pay attention when
+    someone's talking to you!
+
+Lucille:
+    Fuffuffu. You'd really be
+    helping me out, young Miss.
+
+Alice:
+    As-I-said, listen to what I'm
+    saying!!
+
+(narration)
+    ......
+
+Alice:
+    *huff puff*
+
+Lucille:
+    Huhun. Thank you very much.
+    That was a big help.
+
+Alice:
+    *pant pant* T-that's all of it
+    right?
+
+Lucille:
+    Huhuhu, Not a chance I'm
+    afraid.
+
+Lucille:
+    Look, there's still plenty
+    left.
+
+Alice:
+    Gack!
+
+Lucille:
+    Come on, Miss.
+    Naturally, you're going to
+    keep helping until we've
+    ---
+    finished it all aren't you?
+
+Alice:
+    You've got to be kidding!
+
+Lucille:
+    Aw, that's too bad.
+
+Lucille:
+    Putting off housework is
+    nothing but a temporary
+    reprieve, and it'll only make
+    ---
+    things harder later.
+    Keeekkekekeke.
+
+Alice:
+    !
+
+
+--- Labyrinth B9F  (sp029.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
+    Welcome in, to you!
+
+Alice:
+    Eh? What the heck is 'welcome
+    in' for?
+
+Fairy:
+    I've opened up a shop.
+
+Fairy:
+    Please buy yourself
+    something!
+
+Fairy:
+    Please come again.
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B13F  (sp045.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
+    Welcome in, to you!
+
+Alice:
+    Eh? What the heck is 'welcome
+    in' for?
+
+Fairy:
+    I've opened up a shop.
+
+Fairy:
+    Please buy yourself
+    something!
+
+Fairy:
+    Please come again.
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B17F  (sp061.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
+    Welcome in, to you!
+
+Alice:
+    Eh? What the heck is 'welcome
+    in' for?
+
+Fairy:
+    I've opened up a shop.
+
+Fairy:
+    Please buy yourself
+    something!
+
+Fairy:
+    Please come again.
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B30F  (sp127.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
+    Welcome in, to you!
+
+Alice:
+    Eh? What the heck is 'welcome
+    in' for?
+
+Fairy:
+    I've opened up a shop.
+
+Fairy:
+    Please buy yourself
+    something!
+
+Fairy:
+    Please come again.
+
+
+--- Labyrinth B10F  (sp034.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B11F  (sp035.sp) ---
+
+Alice:
+    ......
+
+(narration)
+    *tummy rumble*
+
+Alice:
+    I'm famished.....
+
+Alice:
+    But I already ate the food I
+    brought with me.
+
+(narration)
+    *big tummy rumble*
+
+Alice:
+    No getting around it I guess.
+    Shall I go ask Lucille to make
+    me something?
+
+Alice:
+    She should be in the dining
+    room around this hour.
+
+
+--- Labyrinth B11F  (sp037.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B12F  (sp040.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Dining Room  (sp_home018.sp) ---
+
+Alice:
+    Ah, smells good!
+
+Alice:
+    Lucille, have you finished
+    preparing tonight's meal?
+
+Lucille:
+    Hello, Miss. Why are you in
+    here?
+    The food isn't ready yet.
+    ---
+    In fact, you're getting
+    underfoot, so would you mind
+    taking your leave?
+
+Alice:
+    Oh this looks tasty.
+    Think I'll take a sample.
+    *nab*
+
+(narration)
+    *Whoosh*
+
+Lucille:
+    My!
+
+Lucille:
+    Mind your manners, young
+    lady!
+
+Alice:
+    No biggie, no biggie.
+
+Lucille:
+    Huhu. Shameful. You're
+    scavenging like a hyena.
+
+Alice:
+    Huhu, whatever you say.
+    *munch munch*....
+
+Alice:
+    *G, gack.* What is this?!
+
+Alice:
+    My body's going numb.
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+Alice:
+    Uggh....
+
+Alice:
+    Huh?! I'm in my own room?
+
+Alice:
+    Why? What happened?
+
+Lucille:
+    Oh, so you're finally awake.
+
+Alice:
+    Lucille?!
+
+Lucille:
+    You gave me quite the shock,
+    suddenly collapsing like that.
+
+Alice:
+    Eh, I did?
+
+Alice:
+    It's true that while I was
+    eating I did feel sick all of a
+    sudden.
+
+Alice:
+    Lucille?
+
+Lucille:
+    The truth is that, mistaking
+    it for seasonings, cockroach
+    bait went into the food...
+
+Alice:
+    Whaaaaaat?
+
+Lucille:
+    Huhuhu. Anyone at all could
+    have made that mistake.
+
+Alice:
+    I don't want to suffer
+    through that on account of an
+    error!
+
+Lucille:
+    Huhu. Well pardon me, madame.
+
+Alice:
+    Hey! Trying to dodge
+    responsibility?!
+
+Lucille:
+    Huhu. Huhuhuhuhu.
+
+Alice:
+    Oh, Lucille. Surely that
+    couldn't have been on
+    purpose, right?
+
+
+--- Labyrinth B14F  (sp047.sp) ---
+
+Vampire:
+    Kukuku. I'm impressed you
+    made it down this far.
+
+Vampire:
+    I think that's deserving of a
+    reward.
+    Here, take this.
+
+(narration)
+    Obtained the pattern for
+    magic dress Twincavia
+
+Vampire:
+    Keep going as far as you can.
+    Kukuku......
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Vampire:
+    I don't have any more rewards
+    for you.
+
+Vampire:
+    Kukuku.. Too bad, isn't it.
+
+
+--- Labyrinth B14F  (sp048.sp) ---
+
+Wizard:
+    Yo, Alice. Huhhuhhuhhu.
+
+Alice:
+    Eep! Disgusting! Don't get too
+    close.
+
+Wizard:
+    Oh, dear Alice.
+    One shouldn't judge others by
+    their appearance.
+
+Alice:
+    Sure.
+
+Alice:
+    (The disconnect between how
+    he looks and how he acts
+    frightens me though).
+
+Wizard:
+    Now, I'm not going to do
+    anything, so come over here.
+
+Alice:
+    I'm fine where I am.
+
+Alice:
+    (Who knows whether
+    something would happen if I
+    were to carelessly approach.)
+
+Wizard:
+    I see. That's too bad.
+
+Wizard:
+    Yo, Alice. Hello.
+
+Alice:
+    H-hello.
+
+Wizard:
+    Come, let's have a leisurely
+    chat this time.
+
+Alice:
+    I-I'm in a bit of a hurry, so
+    maybe next time.
+
+Wizard:
+    Why's that? You're refusing
+    again?
+
+Wizard:
+    Good grief. Young ladies these
+    days simply have no manners.
+    *mumble mumble....*
+
+Alice:
+    (As I thought, scary!)
+
+
+--- Labyrinth B15F  (sp052.sp) ---
+
+Alice:
+    Whew.
+
+Alice:
+    I think I've made it to the
+    depths of the forest....
+
+Alice:
+    Whew. I'm feeling a bit worn
+    out.
+
+Alice:
+    All right. The miasma seems
+    light in this room.
+
+Alice:
+    Just what I needed!
+    Let me rest for a while.
+
+(narration)
+    Clunk
+
+Alice:
+    Holy..! Who's there?
+
+Vampire:
+    Hi, young lady.
+    Kukkukku.
+    Doing well?
+
+Alice:
+    What, do you need something?
+
+Vampire:
+    My goodness, how unfriendly.
+    And after I took all this
+    trouble to bring you
+    ---
+    information.
+
+Alice:
+    Information? What is it?
+
+Vampire:
+    Perhaps it is closer to gossip
+    than information, but...
+
+Alice:
+    Lose the pompous act and spit
+    it out already!
+
+Vampire:
+    Dear me, so impatient.
+
+Vampire:
+    It seems that in order to
+    rescue the professor, the
+    power of {genomroid} is
+    ---
+    required.
+
+Vampire:
+    Without it, even if you find
+    the professor, you won't be
+    able to free him.
+
+Alice:
+    {Genomroid}?!
+
+Vampire:
+    Yes. That's what I overheard
+    just now at any rate.
+
+Alice:
+    As I recall, that word was
+    mentioned in Father's diary
+    too, wasn't it.
+
+Vampire:
+    I see. I'm afraid I could not
+    say what a {genomroid} is,
+    however...
+
+Alice:
+    You're right. I will.
+    Thank you!
+
+Vampire:
+    Kukkukku... I'm so pleased to
+    have been helpful.
+
+Vampire:
+    Farewell.
+
+Alice:
+    {Genomroid}... I wonder what
+    that actually is?
+
+Alice:
+    Mikhail might know something
+    about it!
+
+Alice:
+    All right. Let's try asking
+    him.
+
+Alice:
+    No. I have to find out what it
+    is.
+    The {genomroid}!
+
+Alice:
+    Right. Let's hurry down to the
+    basement laboratory.
+
+Alice:
+    No. I need to ask Mikhail about
+    the {genomroid}!
+
+
+--- Labyrinth B15F  (sp054.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    Mikhail!
+
+Mikhail:
+    W-what is it, all of the
+    sudden?
+
+Alice:
+    Do you know anything about
+    something called a
+    {genomroid}?
+
+Mikhail:
+    !
+
+Mikhail:
+    N-no, unfortunately I don't.
+
+Alice:
+    Eh? Are you sure?
+
+Mikhail:
+    Y-yes. I completely,
+    absolutely, know not even a
+    smidgen.
+
+Alice:
+    That's odd. Genomroid was
+    Father's research project.
+    Being his assistant, there's
+    ---
+    no way you couldn't know.
+
+Mikhail:
+    Although you say that, I, er...
+
+Alice:
+    Suspicious.
+
+Alice:
+    ...okay, I get it.
+
+Mikhail:
+    Huh?
+
+Alice:
+    It's fine! I'll look into it on
+    my own!
+
+Mikhail:
+    M-milady?!
+
+Alice:
+    Mikhail, don't try to stop me!
+
+Alice:
+    You don't have to tell me
+    yourself but I am going to
+    find out.
+
+Mikhail:
+    .....understood.
+
+Alice:
+    Welp, where should I start
+    looking?
+
+Alice:
+    The basement laboratory
+    seems the most obvious place
+    for clues.
+
+Alice:
+    Right! I'll head straight
+    there.
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Alice:
+    I hope I can find some sort of
+    clue down here.
+    Let's hurry and investigate.
+
+Alice:
+    Hm? What do we have here?
+
+Alice:
+    It's Father's research report!
+
+Alice:
+    Let's see.. I wonder if
+    there'll be anything in here
+    about it?
+
+(narration)
+    {Genomroid}. That is...
+
+Alice:
+    Ah! Here it is, right here!
+    He did write about {genomroid}!
+
+Alice:
+    All right then, again from the
+    top.
+
+(narration)
+    {Genomroid}. That is a brand new
+    being, one brought to life not
+    by the gods but created
+    ---
+    through the striving of
+    ordinary man.
+
+(narration)
+    As such, it is imperfect as a
+    life form.
+
+(narration)
+    It must harvest supplemental
+    energy from the outside in
+    order to survive.
+
+(narration)
+    Calling the results so far a
+    flop wouldn't be an
+    exaggeration.
+    ---
+    And yet, it is so close to the
+    ideal that it would be
+    regrettable to discard.
+
+(narration)
+    It will be necessary to
+    develop a means to...
+
+Alice:
+    *gulp* That's some weighty
+    stuff.
+
+Alice:
+    An artificial human.
+    So that's what a {genomroid} is,
+    isn't it.
+
+Alice:
+    Looks like there's more.
+    Let's read on.
+
+Alice:
+    Lessee here...
+
+Lucille:
+    Why hello there, Miss.
+
+Alice:
+    Eep!?
+
+Alice:
+    Oh, it's you Lucille.
+    You gave me quite the fright.
+
+Lucille:
+    My, my, are you at it again?
+    Goofing off again, and in a
+    place like this no less?
+
+Alice:
+    As I told you, I. am. not.
+    goofing off!
+
+Lucille:
+    *sigh* Good grief. Are you
+    sure you actually feel like
+    rescuing the professor?
+
+Alice:
+    What are you talking about?!
+    It should be obvious that I do!
+
+Lucille:
+    Could've fooled me.
+    If you cared, no way would
+    you be wasting time here in
+    ---
+    the manor, right?
+
+Alice:
+    Rrr! F-fine then!
+    I'm going back down right now!
+
+Lucille:
+    Oh, but if you'd rather not
+    bother, how about quitting?
+
+Alice:
+    No way could I drop it; don't
+    be absurd!
+
+Lucille:
+    Huhu, is that so?
+    Well then, do as you please.
+
+Lucille:
+    I couldn't care less which you
+    choose.
+
+Lucille:
+    Huhuhuhu. Keekekekeke.
+
+Alice:
+    I've had it with you, Lucille!
+
+Alice:
+    You've gone beyond sarcastic
+    teasing straight into
+    obnoxious jerk territory!
+    ---
+    You're lower than a snake's
+    belly in a wagon rut.
+
+Alice:
+    Ah well, standing here
+    grumbling about her sure
+    won't solve anything.
+    ---
+    Back to the labyrinth it is!
+
+Alice:
+    I'll get another earful from
+    Lucille if I don't get a move
+    on.
+
+(narration)
+    rustle, rustle
+
+
+--- Labyrinth B16F  (sp056.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Fairy:
+    Hey sister, have you found
+    that guy you were looking
+    for?
+
+Fairy:
+    Not yet? I'm worried about
+    him.
+
+Fairy:
+    Oh, that's right!
+    I've got something good I can
+    give you.
+
+Fairy:
+    It'll surely come in handy.
+
+(narration)
+    Obtained the pattern for
+    magic dress Epinephre.
+
+Fairy:
+    Best of luck, y'know.
+
+Fairy:
+    I don't have any more
+    presents to give out.
+    Sorry about that, y'know.
+
+
+--- Labyrinth B18F  (sp062.sp) ---
+
+Alice:
+    *pant, pant*.
+
+Alice:
+    *pant, pant*
+
+Alice:
+    You mean there's still more?
+    I've already come such a long
+    way.
+
+Alice:
+    Oh cut it out, I'm exhausted.
+
+Alice:
+    Hmph. No use standing here
+    bellyaching though.
+
+Alice:
+    Let's keep going just a bit
+    further.
+
+
+--- Labyrinth B18F  (sp064.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B19F  (sp070.sp) ---
+
+Wizard:
+    .......
+
+Alice:
+    ? What are you doing?
+
+Wizard:
+    I'm setting up my products.
+
+Alice:
+    Products?
+
+Wizard:
+    I started up a shop.
+    Buy something, will you?
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B24F  (sp092.sp) ---
+
+Wizard:
+    .......
+
+Alice:
+    ? What are you doing?
+
+Wizard:
+    I'm setting up my products.
+
+Alice:
+    Products?
+
+Wizard:
+    I started up a shop.
+    Buy something, will you?
+
+Wizard:
+    I see, come again.
+
+Wizard:
+    Welcome. Buy something.
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B25F  (sp099.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B19F  (sp070.sp) ---
+
+Wizard:
+    Welcome. Buy something.
+
+Wizard:
+    I see, come again.
+
+
+--- Labyrinth B20F  (sp071.sp) ---
+
+Alice:
+    Haah, haah.
+
+Alice:
+    *pant, pant*. *pant,pant*.
+
+Alice:
+    W-what's going on?
+    Why do my feet feel so
+    stubbornly heavy?
+
+Alice:
+    Something's weird! My body
+    hurts so much all of a sudden.
+    It wasn't like this at all
+    ---
+    before.
+
+Alice:
+    *pant, pant*. *pant, pant*.
+
+Alice:
+    .......
+
+Alice:
+    Okay, I've calmed down some.
+    Let's hurry on now.
+
+
+--- Labyrinth B20F  (sp072.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B21F  (sp078.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B22F  (sp083.sp) ---
+
+Alice:
+    Ur!
+
+Alice:
+    Urgh. H-head spinning...
+
+Alice:
+    Something's seriously wrong
+    now...
+
+Alice:
+    A sanctuary?
+
+Alice:
+    Perfect timing. I'll rest up a
+    bit inside.
+
+Alice:
+    Urk...! My strength is failing
+    me...
+
+Alice:
+    Please, at least reach the
+    sanctuary.
+
+
+--- Labyrinth B22F  (sp085.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B23F  (sp087.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    Uggh....
+
+Mikhail:
+    Lady Alice? Has something
+    happened?
+
+Alice:
+    Not much. I'm just feeling
+    dizzy...
+
+Mikhail:
+    A-are you all right?
+
+Mikhail:
+    To be safe, should you not
+    rest up in the manor for a
+    time?
+
+Alice:
+    Don't make too big of a deal
+    out of it. I'm fine. Just need
+    to take a little break...
+
+Alice:
+    Aaaaaaah!
+
+Mikhail:
+    Lady Alice?!
+
+Mikhail:
+    Milady! Lady Alice!!
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+Alice:
+    Urrrr.
+
+Mikhail:
+    Ah, you're back with us.
+
+Alice:
+    Mikhail? Huh? Wait, why am I
+    in my room?
+
+Mikhail:
+    Ah, do you not remember what
+    happened? How you blacked
+    out all of a sudden?
+
+Alice:
+    Now that you mention it, that
+    does sound familiar.
+
+Mikhail:
+    Goodness.
+
+Mikhail:
+    Well, you ought to allow
+    yourself to rest here for a
+    time I think.
+
+Alice:
+    Nah, I'm all good now.
+
+Mikhail:
+    Whatever are you saying!
+    You've only just now awoken!
+
+Alice:
+    But, I really am fine.
+    Look at this.
+    See how energetic I am?
+
+Mikhail:
+    Please desist, Lady Alice!
+
+Mikhail:
+    Your body is in precarious
+    condition right now!
+
+Alice:
+    But, Father needs....
+
+Mikhail:
+    I understand how you feel,
+    but I implore you to give
+    yourself more rest.
+
+Alice:
+    You're being such a
+    worrywart, Mikhail.
+    I truly do feel right as rain.
+
+Alice:
+    There, you see?
+
+Mikhail:
+    P-please stop that!
+    Do you have a death wish?!
+
+Alice:
+    Eh?!
+
+Mikhail:
+    You were finally able to
+    sustain life through the
+    harvesting of outside energy!
+    ---
+    Those magic dresses you've
+    been using are bound to that
+    selfsame life force.
+    ---
+    If you carelessly overuse
+    them then...!
+
+Mikhail:
+    Huh?!
+
+Alice:
+    Tell me, what did you mean by
+    all that?
+
+Mikhail:
+    Sorry, I got carried away.
+    Please forget I said anything.
+
+Alice:
+    Mikhail!!
+
+Alice:
+    (He said I live by absorbing
+    energy from outside?
+
+Alice:
+    My magic dresses are linked
+    to my life force?
+
+Alice:
+    Absurd nonsense!
+
+Alice:
+    He makes it sound as if I'm
+    just like a {genomroid}!)
+
+Alice:
+    N-no way?!
+
+Mikhail:
+    Milady? What happened?
+
+Alice:
+    You've got to be kidding me!
+    That can't be right!!
+
+Mikhail:
+    W-where might you be going?
+
+Alice:
+    I'm going to make certain!
+    About everything!
+
+(narration)
+    Knock, knock
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Alice:
+    Here it is.
+
+Alice:
+    Father's research report!
+    I hope reading the rest will
+    clear up all doubt.
+
+(narration)
+    I used sometic cells from
+    Anya to create the {genomroid}
+    base body.
+
+(narration)
+    One can never truly bring
+    back someone they've lost,
+    and I understand that full
+    ---
+    well.
+
+(narration)
+    However, just being able to
+    see Anya's visage again would
+    be enough.
+
+(narration)
+    The base body that was born
+    was indeed the spitting image
+    of my Anya, my daughter, at
+    ---
+    least on the outside.
+    Seeing her filled me with joy,
+    as if my daughter had
+    ---
+    actually been reborn.
+
+(narration)
+    Alas, when I think of what
+    came next that joy turns to
+    depression.
+
+(narration)
+    I had to incorporate a certain
+    ability into this girl,
+
+(narration)
+    the ability to destroy
+    {bordermoon} orbs.
+
+(narration)
+    Though it had to be done, it
+    pained me to do it.
+
+(narration)
+    I had to take such a lovely
+    girl and tailor-make her into
+    something akin to a weapon.
+
+(narration)
+    Despite my grief I cannot
+    afford to quit now.
+
+(narration)
+    And that being the case, at
+    least I can treat this girl
+    just as I would any daughter
+    ---
+    of mine,
+
+(narration)
+    with fatherly devotion and
+    sincere affection.
+
+(narration)
+    With those feelings in mind I
+    chose to name the girl, and
+    call her Alice.
+
+Alice:
+    N-no way! That can't be!
+    Me being the {genomroid}. I
+    won't believe it. I'm a person!
+
+Lucille:
+    Awww, that's disappointing.
+    So you finally found out, huh.
+
+Alice:
+    L-lucille?!
+
+Lucille:
+    Huhhuhhu. How does it feel to
+    know that you're an imitation,
+    nothing more than a mere
+    ---
+    figurine?
+
+Alice:
+    Stop it! Don't call me a
+    figurine!
+    I am a person!
+
+Lucille:
+    Awww, good grief, how
+    unsightly of you. You read the
+    report, did you not?
+
+Alice:
+    It's fake! The whole thing is
+    full of downright lies!
+
+Lucille:
+    Huhun. What you just said is
+    the real fib.
+
+Lucille:
+    You know good and well that
+    what's written in that memo
+    is all factual.
+
+Lucille:
+    I suppose you're at that point
+    where you comprehend what it
+    says but don't want to
+    ---
+    believe it?
+
+Alice:
+    Th-that is.....
+
+Lucille:
+    Accept it. The fact that
+    you're inhuman, you know?
+
+Alice:
+    No! I am a person, an ordinary
+    human I tell you!
+
+Lucille:
+    Huhun. Can an ordinary person
+    destroy a {bordermoon}, hmm?
+
+Lucille:
+    Can an ordinary person make
+    use of the magic in your
+    dresses?
+
+Lucille:
+    Would an ordinary person be
+    able to survive being hunted
+    by monsters?
+
+Lucille:
+    Well? Do you still feel like
+    insisting that you're human in
+    spite of those points?
+
+Lucille:
+    Huhun.
+
+Lucille:
+    Alice, the little genomroid
+    given new life simply to
+    stomp dark monsters.
+    ---
+    That's what you are.
+
+Alice:
+    Tsk!!
+
+Lucille:
+    Running away are we, pitiful
+    miss puppet?
+    Huhu, huhuhuhu.
+
+Alice:
+    ---Tsk!!
+
+Lucille:
+    Huhu, huhuhuhu. Aah,
+    hahahahahaha.
+    Keekkekekeke.
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+Mikhail:
+    Lady Alice.
+
+Mikhail:
+    Milady.
+
+Alice:
+    Cut that out! You probably
+    knew too, didn't you?
+    That I'm not a human.
+
+Mikhail:
+    Yes, given that I served as
+    the professor's research
+    assistant.
+
+Alice:
+    Well then, don't bother being
+    so kind to a nobody, to a
+    fashion doll like me!
+
+Mikhail:
+    I won't hear of such things.
+    As far as I'm concerned, to me
+    you are none other than Lady
+    ---
+    Alice!
+    I do not think of you as a
+    doll.
+
+Mikhail:
+    And I'm quite certain the
+    professor feels the same.
+
+Alice:
+    Lay off the consoling.
+    It doesn't much matter what
+    happens to me anymore.
+
+Mikhail:
+    Whatever are you talking
+    about!
+    What do expect to accomplish
+    ---
+    with an attitude like that!
+    Just who was it that said
+    they'd rescue the professor!?
+
+Alice:
+    !
+
+Mikhail:
+    The professor must be down
+    there waiting.
+    Waiting for milady to come
+    ---
+    and help break him out!
+    Do you intend to leave him
+    be?!
+
+Alice:
+    !!
+
+Mikhail:
+    The professor treasured you
+    as a daughter.
+
+Mikhail:
+    Will you forsake him in
+    return, milady?!
+
+Alice:
+    You're right. I'm the only one
+    who can break Father out,
+    huh?
+
+Alice:
+    All right, Mikhail.
+    I'm going back down!
+
+Alice:
+    I'll let myself feel
+    depressed, but only after I
+    bring Father back!
+
+Mikhail:
+    Agreed, milady! See you soon!
+
+Mikhail:
+    Milady, please take care out
+    there.
+
+
+--- Maid's Room  (sp_home016.sp) ---
+
+Alice:
+    Huh?
+
+Alice:
+    Lucille's not here?
+
+Alice:
+    Where could she have gotten
+    to now?
+
+Alice:
+    Oh? Could this be Lucille's
+    diary?
+
+Alice:
+    Obviously, I have no choice
+    but to look through it.
+
+Alice:
+    Uhuhuhu. Well then I think I'll
+    open it right up posthaste.
+
+(narration)
+    The world doesn't always go
+    exactly as one hopes.
+
+(narration)
+    That girl is somehow
+    interfering with my plans.
+    Truly an eyesore she is.
+
+(narration)
+    I must remove this obstacle,
+    and preferably by my own
+    hand...
+
+(narration)
+    There are any number of ways
+    to accomplish it.
+
+(narration)
+    For instance, if I were to
+    poison the food, that would
+    take the obstacle right out.
+    ---
+    That girl...
+
+Alice:
+    W-what is this?!
+    Poison the food?!
+
+Alice:
+    It can't be!
+    She was targeting me?
+
+Alice:
+    Lucille! Lucille!! Where'd you
+    go?
+
+Alice:
+    Could she have run away?
+
+Alice:
+    Fine! I'm definitely going to
+    find you and drag the truth
+    out of you if I have to!
+
+Lucille:
+    Oh my, Miss?
+    What do you want?
+
+Lucille:
+    Don't tell me you've elected
+    to abandon the professor
+    after all.
+
+Lucille:
+    Huhuhu! I knew it, protecting
+    your own life is more
+    important than saving his.
+
+Lucille:
+    Oh, am I wrong?
+
+Lucille:
+    If so, how about you get going
+    on the double?
+    Before it's too late?
+
+Lucille:
+    Can't say I'd mind if you gave
+    up on him though.
+    Keeekkekekekeke.
+
+Lucille:
+    Miss, what have you come here
+    for?
+
+Alice:
+    Just visiting.
+
+Lucille:
+    Since you've apparently got
+    the time to dawdle about in
+    my humble little room, how
+    ---
+    about you take your leave?
+
+Lucille:
+    If you don't hurry up the
+    professor's surely going to....
+    kekekeke.
+
+Alice:
+    D-don't say frightening things
+    like that!
+
+Alice:
+    And speaking of, that laugh
+    creeps me out so it'd be great
+    if you could put the kibosh on
+    ---
+    it.
+
+Lucille:
+    Goodness, how rude.
+    What is the matter with you?
+
+Alice:
+    Ah, er, well.
+    I'm sorry.
+
+Lucille:
+    See here! Please stop idling
+    about and make haste to go.
+    The professor's waiting for
+    ---
+    you, no?
+
+Alice:
+    O-okay I will.
+
+
+--- Labyrinth B26F  (sp106.sp) ---
+
+Vampire:
+    Kukuku. Welcome in.
+
+Alice:
+    Welcome in? You started up a
+    shop?
+
+Vampire:
+    Exactly right. Today's opening
+    day.
+
+Alice:
+    By any chance are you hurting
+    for money?
+
+Vampire:
+    ......
+
+Vampire:
+    Anyway please take a look at
+    my wares.
+
+
+--- Labyrinth B28F  (sp116.sp) ---
+
+Vampire:
+    Yo, Mademoiselle. Kukuku.
+    How are things with you?
+
+Alice:
+    They just took a turn for the
+    worse.
+
+Vampire:
+    What? Because of me?
+
+Alice:
+    Bingo.
+
+Vampire:
+    Hold on, what about me is
+    bad? Which part specifically
+    don't you like?
+    ---
+    Is it this, this wine, that
+    doesn't work for you? Or is it
+    the way I adorn my behavior
+    ---
+    with pomp and circumstance?
+    Or, do I have an ugly mug?
+    Perhaps I'm just innately
+    ---
+    repulsive?
+    Ah, I bet that's it.
+    That just has to be it!
+
+Alice:
+    Whoa, I didn't say all that
+    now!
+
+Vampire:
+    No problem, it's all good.
+    This is worthless me we're
+    talking about after all.
+
+Alice:
+    Hellooo. Hold up.
+
+Vampire:
+    *mutter mutter*
+
+Alice:
+    I give up.
+    This guy needs professional
+    help.
+
+Alice:
+    Ah, he's still depressed.
+
+Alice:
+    Think I'll just let him be
+    alone.
+
+
+--- Labyrinth B30F  (sp128.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Vampire:
+    Yo, Mademoiselle. Nice
+    weather we're having today.
+
+Alice:
+    Nice weather? You know we're
+    underground, right.
+
+Vampire:
+    ......
+
+Vampire:
+    And on that note...
+
+Alice:
+    I'm so confused.
+
+Vampire:
+    Kukuku. I bid you farewell!
+
+Alice:
+    H-hey, hold up!
+
+
+--- Labyrinth B30F  (sp129.sp) ---
+
+Alice:
+    Oh, what is that?!
+
+Alice:
+    Father!
+
+Nabokov:
+    A-alice? Ohh, Alice, you made
+    it?!
+
+Alice:
+    Oh I'm so thankful you're
+    okay. Let me get you out of
+    there right now.
+
+Nabokov:
+    Don't bother. No matter how
+    much you beat on it, the
+    {gordalis} will not break.
+
+Alice:
+    {Gordalis}? You mean this thing
+    you're trapped inside?
+
+Nabokov:
+    Yes. This cage was created
+    from formidable magic,
+
+Nabokov:
+    powerful enough that I
+    daresay I won't be able to get
+    out of it.
+
+Alice:
+    Father! Don't give up before
+    we've even tried!
+
+Nabokov:
+    Alice, leave me.
+    Get out of here and save
+    yourself.
+
+Alice:
+    I can't, Father!
+    Are you really sure it's
+    hopeless?
+    ---
+    Isn't there something,
+    anything, we can try?
+
+Nabokov:
+    Oh all right. In that case
+    check with Mikhail.
+    He might have some thoughts.
+
+Alice:
+    Ah, Mikhail, huh...
+
+Alice:
+    Understood, Father. Let me go
+    ask!
+
+Nabokov:
+    Alice, don't wear yourself
+    out...
+
+Alice:
+    Father, are you okay?
+    Still with us?
+
+Nabokov:
+    Ha ha ha ha.
+    Oh, ohhh, Alice!
+
+Alice:
+    Hang on! I'm getting you out
+    of there!
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    Mikhail! Do you know how to
+    break a {gordalis}?
+
+Mikhail:
+    {Gordalis}! Milady where did
+    you hear that word?
+
+Alice:
+    I found father being held
+    inside one.
+
+Mikhail:
+    Is that so.
+
+Mikhail:
+    Hmm.. That presents quite the
+    problem.
+
+Alice:
+    Well, Mikhail. Isn't there
+    some way to break it? Well?
+    Well?
+
+Mikhail:
+    It's not as though we have
+    zero options, but...
+
+Alice:
+    Okay, please tell me what
+    needs to be done.
+
+Mikhail:
+    This is going to be rather
+    troublesome.
+
+Alice:
+    Oh sheesh. Stop beating around
+    the bush and spill it, would
+    you!
+
+Alice:
+    I'm willing to try anything I
+    have to if it means being able
+    to save Father.
+
+Mikhail:
+    Very well. In that case there
+    are some things I must ask
+    you to find.
+
+Alice:
+    What should I be looking for?
+
+Mikhail:
+    Two sacred items are required
+    to free the professor.
+
+Alice:
+    Sacred items? Well which
+    ones for heaven's sake?
+
+Mikhail:
+    I do not know. I suppose they'd
+    have to be ones that could
+    wear down evil power...
+
+Alice:
+    All right. And?
+    Where are those going to be?
+
+Mikhail:
+    Most likely somewhere inside
+    the labyrinth. I'm a bit
+    lacking in particulars....
+
+Alice:
+    Great. I'm clueless as to
+    where I should start looking,
+    and I don't know much about
+    ---
+    what I'm looking for.
+
+Alice:
+    I agree, that certainly is a
+    pain.
+
+Alice:
+    But I've got to go through
+    with it!
+
+Mikhail:
+    Can you handle it?
+
+Alice:
+    Yep, I'm absolutely going to
+    come back with them!
+
+Mikhail:
+    If you should locate anything,
+    please bring it here at once.
+
+Alice:
+    All right.
+
+Alice:
+    It's just like me to talk big
+    even though I've nary a clue
+    to go on.
+    ---
+    Better start by gathering
+    some intel.
+
+Alice:
+    How about I try asking the
+    vampire?
+    ---
+    He seems like he might know
+    something about sacred items.
+
+
+--- Labyrinth B5F  (sp015.sp) ---
+
+Alice:
+    Hey.
+
+Vampire:
+    Oh? Mademoiselle. Kukuku...
+    Have you some business with
+    me?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Vampire:
+    Hm. Now that you mention it I
+    do recall hearing that phrase
+    somewhere.
+
+Alice:
+    Oh? You know something?
+
+Alice:
+    Say, tell me!
+    Where are they?!
+
+Vampire:
+    I couldn't give you a specific
+    location.
+    But, what I heard went a
+    ---
+    little something like this:
+
+Vampire:
+    Stand in the heart of a cross
+    inscribed upon an underworld
+    lake and sacred water shall
+    ---
+    gush forth.
+
+Alice:
+    The heart of a cross inscribed
+    upon an underworld lake?
+    What's that all about?
+
+Vampire:
+    There must be a place
+    matching that description
+    somewhere in the labyrinth.
+
+Alice:
+    Then, if I can make it there?!
+
+Vampire:
+    Sacred water... In other
+    words, {holy water}, is what
+    you'll acquire.
+
+Alice:
+    Thank you. I'm going to check
+    it out!
+
+Vampire:
+    Right. Best of luck to you.
+    Kukuku....
+
+
+--- Labyrinth B14F  (sp047.sp) ---
+
+Alice:
+    Hey.
+
+Vampire:
+    Oh? Mademoiselle. Kukuku...
+    Have you some business with
+    me?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Vampire:
+    Hm. Now that you mention it I
+    do recall hearing that phrase
+    somewhere.
+
+Alice:
+    Oh? You know something?
+
+Alice:
+    Say, tell me!
+    Where are they?!
+
+Vampire:
+    I couldn't give you a specific
+    location.
+    But, what I heard went a
+    ---
+    little something like this:
+
+Vampire:
+    Stand in the heart of a cross
+    inscribed upon an underworld
+    lake and sacred water shall
+    ---
+    gush forth.
+
+Alice:
+    The heart of a cross inscribed
+    upon an underworld lake?
+    What's that all about?
+
+Vampire:
+    There must be a place
+    matching that description
+    somewhere in the labyrinth.
+
+Alice:
+    Then, if I can make it there?!
+
+Vampire:
+    Sacred water... In other
+    words, {holy water}, is what
+    you'll acquire.
+
+Alice:
+    Thank you. I'm going to check
+    it out!
+
+Vampire:
+    Right. Best of luck to you.
+    Kukuku....
+
+
+--- Labyrinth B28F  (sp116.sp) ---
+
+Alice:
+    Hey.
+
+Vampire:
+    Oh? Mademoiselle. Kukuku...
+    Have you some business with
+    me?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Vampire:
+    Hm. Now that you mention it I
+    do recall hearing that phrase
+    somewhere.
+
+Alice:
+    Oh? You know something?
+
+Alice:
+    Say, tell me!
+    Where are they?!
+
+Vampire:
+    I couldn't give you a specific
+    location.
+    But, what I heard went a
+    ---
+    little something like this:
+
+Vampire:
+    Stand in the heart of a cross
+    inscribed upon an underworld
+    lake and sacred water shall
+    ---
+    gush forth.
+
+Alice:
+    The heart of a cross inscribed
+    upon an underworld lake?
+    What's that all about?
+
+Vampire:
+    There must be a place
+    matching that description
+    somewhere in the labyrinth.
+
+Alice:
+    Then, if I can make it there?!
+
+Vampire:
+    Sacred water... In other
+    words, {holy water}, is what
+    you'll acquire.
+
+Alice:
+    Thank you. I'm going to check
+    it out!
+
+Vampire:
+    Right. Best of luck to you.
+    Kukuku....
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B30F  (sp128.sp) ---
+
+Alice:
+    Hey.
+
+Vampire:
+    Oh? Mademoiselle. Kukuku...
+    Have you some business with
+    me?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Vampire:
+    Hm. Now that you mention it I
+    do recall hearing that phrase
+    somewhere.
+
+Alice:
+    Oh? You know something?
+
+Alice:
+    Say, tell me!
+    Where are they?!
+
+Vampire:
+    I couldn't give you a specific
+    location.
+    But, what I heard went a
+    ---
+    little something like this:
+
+Vampire:
+    Stand in the heart of a cross
+    inscribed upon an underworld
+    lake and sacred water shall
+    ---
+    gush forth.
+
+Alice:
+    The heart of a cross inscribed
+    upon an underworld lake?
+    What's that all about?
+
+Vampire:
+    There must be a place
+    matching that description
+    somewhere in the labyrinth.
+
+Alice:
+    Then, if I can make it there?!
+
+Vampire:
+    Sacred water... In other
+    words, {holy water}, is what
+    you'll acquire.
+
+Alice:
+    Thank you. I'm going to check
+    it out!
+
+Vampire:
+    Right. Best of luck to you.
+    Kukuku....
+
+
+--- Labyrinth B6F  (sp019.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B7F  (sp021.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Labyrinth B29F  (sp120.sp) ---
+
+Alice:
+    The heart of a cross inscribed
+    upon an underworld lake...
+    I think this must be it.
+
+Alice:
+    W-what is this?!
+
+Alice:
+    Such beautiful water....
+
+Alice:
+    Surely this must be
+    {holy water} right?!
+    Let's scoop some up.
+
+(narration)
+    Obtained {holy water}
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    I've got myself some
+    {holy water}. I better find
+    the other sacred item fast.
+
+Alice:
+    I've got the {bible}.
+    Better find the other sacred
+    item fast.
+
+Mikhail:
+    Milady. Have you gathered the
+    sacred items?
+
+Alice:
+    I found {holy water},
+    but I'm still working on
+    the other one.
+
+Mikhail:
+    Please try to hurry!
+    We don't have much more time!
+
+Alice:
+    I know that already!
+    But I don't have any other
+    leads...
+
+Mikhail:
+    I-I see.
+
+Alice:
+    Anything at all no matter how
+    small would help. Can you
+    think of anything, Mikhail?
+
+Mikhail:
+    I wish I could, but...
+
+Mikhail:
+    Actually, I wonder.
+
+Mikhail:
+    The wizards might know
+    something useful.
+
+Alice:
+    Why's that?
+
+Mikhail:
+    Sacred items and magic
+    are related,
+    or so I've heard...
+    ---
+    Thus it stands to reason,
+    they ought to...
+
+Alice:
+    Makes sense, Mikhail!
+    I'll try looking for a wizard!
+
+Mikhail:
+    Good luck. And take care.
+
+
+--- Labyrinth B14F  (sp048.sp) ---
+
+Alice:
+    Hey, got a sec?
+
+Wizard:
+    Do you need something?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Wizard:
+    I'm unfamiliar.
+
+Alice:
+    Hey hold on!
+    Put a little more thought
+    into it than that.
+    ---
+    We're talking a matter of
+    life and death here.
+
+Wizard:
+    When I'm not familiar with
+    something all I can say is
+    "I'm unfamiliar".
+
+Alice:
+    Oh please don't leave it at
+    that.
+    Any scrap of info would be
+    ---
+    great.
+    Anything you've overheard?
+
+Wizard:
+    .....Now that you mention it.
+
+Wizard:
+    I recall hearing that someone
+    has added an unusual book to
+    their shop inventory.
+
+Alice:
+    An unusual book?
+
+Wizard:
+    Probably meaning a {holy book},
+    a bible.
+
+Alice:
+    A {holy book}?!
+    Could that be one of the
+    sacred items I need?!
+
+Wizard:
+    Most likely.
+
+Alice:
+    So who is it then?
+    Who's selling it?
+
+Wizard:
+    If I'm not mistaken it was on
+    B26F....
+
+Alice:
+    On B26F right?
+    Got it!
+
+Wizard:
+    ....I'm not exactly certain
+    about that though.
+
+Alice:
+    Hey now! Don't do that!
+
+Wizard:
+    How about you go find out?
+
+Alice:
+    A-all right.
+
+
+--- Labyrinth B27F  (sp109.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Wizard:
+    .......
+
+Wizard:
+    Say something already.
+
+Alice:
+    You first.
+
+Wizard:
+    I don't have anything to talk
+    about.
+
+Alice:
+    Me either.
+
+Wizard:
+    I see.
+
+Alice:
+    Yup.
+
+Alice:
+    Hey, got a sec?
+
+Wizard:
+    Do you need something?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Wizard:
+    I'm unfamiliar.
+
+Alice:
+    Hey hold on!
+    Put a little more thought
+    into it than that.
+    ---
+    We're talking a matter of
+    life and death here.
+
+Wizard:
+    When I'm not familiar with
+    something all I can say is
+    "I'm unfamiliar".
+
+Alice:
+    Oh please don't leave it at
+    that.
+    Any scrap of info would be
+    ---
+    great.
+    Anything you've overheard?
+
+Wizard:
+    .....Now that you mention it.
+
+Wizard:
+    I recall hearing that someone
+    has added an unusual book to
+    their shop inventory.
+
+Alice:
+    An unusual book?
+
+Wizard:
+    Probably meaning a {holy book},
+    a bible.
+
+Alice:
+    A {holy book}?!
+    Could that be one of the
+    sacred items I need?!
+
+Wizard:
+    Most likely.
+
+Alice:
+    So who is it then?
+    Who's selling it?
+
+Wizard:
+    If I'm not mistaken it was on
+    B26F....
+
+Alice:
+    On B26F right?
+    Got it!
+
+Wizard:
+    ....I'm not exactly certain
+    about that though.
+
+Alice:
+    Hey now! Don't do that!
+
+Wizard:
+    How about you go find out?
+
+Alice:
+    A-all right.
+
+
+--- Labyrinth B29F  (sp121.sp) ---
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+Wizard:
+    Need something from me?
+
+Alice:
+    No, I don't.
+
+Wizard:
+    ........
+
+Wizard:
+    Oh that's unfortunate.
+    I was hoping for company to
+    help pass the time.
+
+Alice:
+    That's great and all, but I
+    still don't need anything.
+
+Alice:
+    Hey, got a sec?
+
+Wizard:
+    Do you need something?
+
+Alice:
+    Do you know anything about
+    sacred items?
+
+Wizard:
+    I'm unfamiliar.
+
+Alice:
+    Hey hold on!
+    Put a little more thought
+    into it than that.
+    ---
+    We're talking a matter of
+    life and death here.
+
+Wizard:
+    When I'm not familiar with
+    something all I can say is
+    "I'm unfamiliar".
+
+Alice:
+    Oh please don't leave it at
+    that.
+    Any scrap of info would be
+    ---
+    great.
+    Anything you've overheard?
+
+Wizard:
+    .....Now that you mention it.
+
+Wizard:
+    I recall hearing that someone
+    has added an unusual book to
+    their shop inventory.
+
+Alice:
+    An unusual book?
+
+Wizard:
+    Probably meaning a {holy book},
+    a bible.
+
+Alice:
+    A {holy book}?!
+    Could that be one of the
+    sacred items I need?!
+
+Wizard:
+    Most likely.
+
+Alice:
+    So who is it then?
+    Who's selling it?
+
+Wizard:
+    If I'm not mistaken it was on
+    B26F....
+
+Alice:
+    On B26F right?
+    Got it!
+
+Wizard:
+    ....I'm not exactly certain
+    about that though.
+
+Alice:
+    Hey now! Don't do that!
+
+Wizard:
+    How about you go find out?
+
+Alice:
+    A-all right.
+
+
+--- Labyrinth B26F  (sp106.sp) ---
+
+Vampire:
+    Yo, mademoiselle. Kukuku.
+    Welcome in.
+
+Vampire:
+    If you feel the urge, come on
+    back again.
+    Kukkukku.
+
+Vampire:
+    Oh, by the way, I've placed an
+    unusual item up for sale.
+    Take a look.
+
+Vampire:
+    I've got some rare goods in
+    stock, too.
+    Do have a look.
+
+(narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+
+--- Sanctuary  (sp_home041.sp) ---
+
+Alice:
+    I've collected both sacred
+    items.
+
+Alice:
+    Now, let's show them to
+    Mikhail.
+
+Mikhail:
+    In order to craft the dress
+    {Argus},
+
+Mikhail:
+    you'll need {akubaru}, {tyuunu},
+    {fomoru}, and {oreusu}.
+
+Mikhail:
+    These items are frequently
+    carried by monsters on B30F.
+
+Mikhail:
+    Good luck, milady.
+
+Alice:
+    Mikhail, I found them!
+    A {bible} and {holy water}!
+
+Alice:
+    Look! These should work for
+    sacred items right?
+
+Mikhail:
+    Oh! That's it!
+    Those shall do nicely!
+
+Alice:
+    Oh thank goodness!
+    Now that we have these, we
+    can help Father right?
+
+Mikhail:
+    No, collecting those was just
+    step one.
+    Please take this.
+
+Alice:
+    What's this, a pattern? Hm?
+    Does that mean step two is
+    sewing a dress from this?
+
+Mikhail:
+    You are correct, milady.
+
+Mikhail:
+    And, once you've finished
+    everything, something ought
+    to happen.
+
+Alice:
+    And what is that something?
+
+Mikhail:
+    You'll see when the time
+    comes.
+    For now please just trust me.
+
+Alice:
+    Fair enough, Mikhail.
+    I'll take your word for it.
+
+Mikhail:
+    You have my thanks.
+    Now, milady.
+    Hurry to a sewing room!
+
+Alice:
+    Right!
+
+(narration)
+    Obtained the pattern for the
+    magic dress {Argus}
+
+
+--- Sewing Room  (sp_home040.sp) ---
+
+Alice:
+    A {bible} and {holy water}.
+    And the dress.
+
+Alice:
+    Now I've gathered up
+    everything.
+
+Alice:
+    What's up! Nothing special is
+    happening here!
+
+Alice:
+    Mikhail, you're touched in the
+    head!
+
+Alice:
+    Just trust me on this?
+    Oh come on.
+
+Alice:
+    Something's going to
+    happen?
+    Yeah right.
+
+Alice:
+    Oh for heaven's sake what the
+    heck am I supposed to do now.
+
+Alice:
+    I won't be able to save Father
+    like this!
+
+Alice:
+    Oh, Father....
+
+Alice:
+    Eh? W-what?!
+
+Alice:
+    Ah!
+    The {bible} and {holy water}
+    are glowing?!
+
+Alice:
+    Kyaaa!
+
+Alice:
+    Wait, what? What just
+    happened?
+
+(narration)
+    Daughter.
+
+Alice:
+    Eh?!
+
+(narration)
+    Daughter. Your feelings
+    towards your Father, your
+    wish... I have heard your plea.
+
+Alice:
+    Wait, who? Who are you?
+
+(narration)
+    I bestow power onto you.
+    Onto your soul and into your
+    dress,
+    ---
+    The power necessary for
+    your task.
+
+(narration)
+    It is the power to protect
+    someone important to you.
+    ---
+    Hallowed power to purify
+    the wicked.
+
+(narration)
+    This {holy sword}!!
+
+Alice:
+    Kyaaaaa?!
+
+Alice:
+    Oof.
+
+Alice:
+    Sheesh, what the devil was
+    that!
+
+Alice:
+    Oh, what's this?
+
+Alice:
+    Such a beautiful blade...
+
+Alice:
+    This must be the {holy sword}.
+
+Alice:
+    So this is what Mikhail meant.
+
+Alice:
+    Now that I have this
+    {sacred sword}, I should be
+    able to help Father. Surely!
+
+(narration)
+    Obtained the {holy sword}
+
+Alice:
+    Now, let's hurry on to where
+    Father is!
+
+Alice:
+    But, that voice, I wonder
+    whose it was?
+
+Alice:
+    Surely not God's?!
+
+Alice:
+    Yeah, like that could happen.
+
+
+--- Labyrinth B30F  (sp129.sp) ---
+
+Alice:
+    This should do it. I have to be
+    wearing this dress in order to
+    use the {holy sword}.
+
+Alice:
+    All right, let's go.
+
+Alice:
+    Father!
+
+Nabokov:
+    Ha ha ha ha.
+    Oh, ohhh, Alice!
+
+Alice:
+    Father, are you okay?
+    Still with us?
+
+Nabokov:
+    I'm fine. I can't die yet.
+    I still have work to do
+    after all.
+
+Alice:
+    Hang on! I'm getting you out
+    of there!
+
+Nabokov:
+    Is that even possible?
+    Can you?
+
+Alice:
+    With this {holy sword} I sure
+    ought to be able to!
+
+Nabokov:
+    Oh, ohh!
+
+Alice:
+    Father!
+
+Nabokov:
+    Thanks. Sorry to have worried
+    you, Alice.
+
+Alice:
+    It's no problem.
+    I'm just glad you're all right.
+
+Nabokov:
+    Now, let's head home.
+    Mikhail will be waiting for
+    us.
+
+Alice:
+    Right!
+
+Alice:
+    Kyaa!?
+
+Nabokov:
+    That's not good! Now that the
+    {gordalis} was destroyed, the
+    labyrinth itself has begun to
+    ---
+    collapse! Alice, let's move.
+    We've got to get out of here
+    fast.
+
+Alice:
+    Right!
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Nabokov:
+    Whew. Looks like we somehow
+    made it back in one piece.
+
+Mikhail:
+    Dr. Nabokov!
+
+Nabokov:
+    Oh, Mikhail. Sorry I made you
+    worry, too.
+
+Mikhail:
+    I'm so pleased you're
+    unharmed!
+
+Nabokov:
+    Yes, we narrowly escaped
+    being crushed.
+    ---
+    That, and everything else too,
+    was all thanks to you, Alice.
+
+Nabokov:
+    Alice, what's wrong?
+
+Nabokov:
+    W-what? Oh no!
+    Mikhail!
+    Start the preparations!
+
+Mikhail:
+    F-for that?
+
+Nabokov:
+    Indeed. For {Astulla}!
+    Quickly now!
+
+Mikhail:
+    A-As you wish!
+
+(narration)
+    Milady.
+
+(narration)
+    Please wake up, Lady Alice.
+
+Alice:
+    Huh?! W-what? What happened?
+
+Mikhail:
+    Phew. You're finally awake.
+
+Alice:
+    Mikhail?!
+
+Mikhail:
+    Milady, please don't do be so
+    reckless.
+
+Alice:
+    Oh, that's right.
+    I was attacked by a monster
+    in the labyrinth...
+
+Mikhail:
+    Please don't worry me like
+    that...
+
+Alice:
+    I'm sorry.
+
+Mikhail:
+    Please be more careful from
+    now on.
+
+Alice:
+    I will. By the way, Mikhail...
+
+Mikhail:
+    Yes? What is it?
+
+Alice:
+    Did you just smack me awake?
+
+Mikhail:
+    *gulp*
+
+Alice:
+    I knew it!
+
+Mikhail:
+    W-well, er... You just
+    wouldn't wake up, so...
+
+Alice:
+    Honestly! What a hopeless
+    butler.
+
+Alice:
+    Whatever, I don't have time
+    for this now, But you'll
+    regret it later.
+
+Alice:
+    Well, I'm heading back out.
+
+Mikhail:
+    Very good. Take care, milady.
+
+Alice:
+    Huh!
+
+Mikhail:
+    You're finally awake.
+
+Alice:
+    Huh? Mikhail?! Where am I?
+
+Alice:
+    Oh, right. I got careless
+    again, didn't I?
+
+Mikhail:
+    I told you over and over to be
+    careful, and you still...!
+
+Alice:
+    Ehehe.
+
+Mikhail:
+    Don't you "ehehe" me!
+
+Alice:
+    I-I know, okay?
+    I'll be careful next time, so
+    can you drop it?
+
+Mikhail:
+    Good grief, there's no helping
+    you sometimes.
+    Please try to be careful.
+
+Alice:
+    I know. Well, I'm off.
+
+Mikhail:
+    Take care, milady.
+
+
+--- Sanctuary  (sp_home027.sp) ---
+
+(narration)
+    ......!
+
+(narration)
+    ...Alice!
+
+(narration)
+    Pull yourself together!
+    Alice!
+
+Alice:
+    Ugh... uuh...
+
+Nabokov:
+    Alice!
+
+Alice:
+    F-Father... I...
+
+Nabokov:
+    Don't say a word.
+    I'm just glad you're safe.
+
+Nabokov:
+    This place is dangerous Alice,
+    let's get out of here.
+
+Nabokov:
+    Huh? Where are you going,
+    Alice?
+
+Alice:
+    I'm going to go defeat
+    {Varuudanu} again!
+
+Nabokov:
+    What? You've done enough.
+    There's no need to push
+    yourself any further!
+
+Alice:
+    It has to be me!
+
+Nabokov:
+    !
+
+Alice:
+    Even if we run, we'll never
+    get away! So I'm going!
+    I have to go and beat him!
+
+Nabokov:
+    I see, I cant't stop you.
+    Very well, go Alice.
+
+Alice:
+    Right!
+
+Nabokov:
+    Alice. Wait.
+
+Alice:
+    What is it, Father?
+
+Nabokov:
+    Even with the {holy sword}, a
+    head-on attack won't leave a
+    scratch on him.
+
+Nabokov:
+    His shoulder! Aim for its
+    shoulder!
+    There, surely...!
+
+Alice:
+    His shoulder...?
+
+Alice:
+    Got it Father!
+    I'll remember that!
+
+Nabokov:
+    Don't die on me...
+    Alice...
+
+Alice:
+    Uuurrrrrgh....
+
+Nabokov:
+    Oh, Alice. You've awoken.
+
+Alice:
+    Father? What happened?
+
+Nabokov:
+    I'll explain later.
+    Right now we're going to
+    perform a ceremony.
+
+Alice:
+    Eh?!
+
+Nabokov:
+    Your body has been pushed to
+    its limits.
+    ---
+    Now you're on Death's
+    doorstep, reaching out to
+    knock.
+
+Alice:
+    I see. So I really was nothing
+    more than a mere doll.
+
+Nabokov:
+    Don't be ridiculous!
+    You're nothing of the sort!
+
+Nabokov:
+    To me you are a treasured
+    daughter and I, I, do not want
+    to lose you!
+
+Mikhail:
+    Exactly! I feel that same way
+    too.
+
+Mikhail:
+    So please, do not say such sad
+    things.
+
+Alice:
+    Father... Mikhail....
+
+Nabokov:
+    I would like for you to live
+    life as a human. For you to
+    find happiness as a human!
+
+Alice:
+    As a person?
+    Father.
+    What are you talking about?
+
+Mikhail:
+    The purpose of {Astulla},
+    the ceremony we're about
+    to perform,
+    ---
+    is to turn you into a
+    human being, milady.
+
+Alice:
+    F-father....
+
+Nabokov:
+    Alice. You are simply
+    my daughter.
+    ---
+    And that is why we're holding
+    this ceremony. All right?
+
+Alice:
+    Y-yes!
+
+Nabokov:
+    Good. Mikhail!
+    Let's begin the rite!
+
+Mikhail:
+    As you wish.
+    Leave it to me.
+
+Mikhail:
+    Hear our prayer.
+
+Nabokov:
+    We command you.
+
+Mikhail:
+    Mother of all life,
+    oh endless land.
+
+Nabokov:
+    How beautiful your flows,
+    wavering water.
+
+Mikhail:
+    Time passing and time lost,
+    we now call for your return!
+
+Nabokov:
+    Now show yourself here.
+    In that righteous form,
+    utopia!
+
+Mikhail:
+    Urk, uuugggh?!
+
+Nabokov:
+    Hrm? What's wrong, Mikhail?
+
+Mikhail:
+    Uuggh, gugugugu.
+
+Alice:
+    Hey, are you okay?
+    Are you in pain?
+    Hey?
+
+Mikhail:
+    .........
+
+Nabokov:
+    Earth to Mikhail,
+    get ahold of yourself man!
+
+Mikhail:
+    Huhhuhhu.....
+
+Alice:
+    Mikhail? What happened to
+    you?!
+
+Alice:
+    Kyaa!
+
+Lucille:
+    Huhhuhhu.
+
+Alice:
+    Eh?! Wha? Wha?
+    Whaaaaaaaaaaaaat?!!
+
+Alice:
+    Mikhail became Lucille?!
+
+Lucille:
+    At last, at last I've done it!
+
+Lucille:
+    Huhuhu, huhuhuhuhu.
+    Keeeeekkekekekeke!
+
+Alice:
+    What the heck is this?
+    What just happened?
+
+Nabokov:
+    Thought so. Thought that was
+    the case.
+
+Alice:
+    Huh?
+
+Nabokov:
+    Alice. The two of them live
+    within a single body, as two
+    sides of the same coin.
+
+Nabokov:
+    Although Mikhail himself is
+    likely unaware of that fact.
+
+Lucille:
+    Oh my. Professor, you realized
+    it?
+
+Nabokov:
+    I suspected but wasn't
+    certain of it.
+
+Alice:
+    F-father! Explain it to me!
+    Whatever do you mean?
+
+Nabokov:
+    Mikhail was originally an
+    acolyte in the service of the
+    dark lord {Varuudanu}.
+    ---
+    However, he loved humanity.
+    And so he backstabbed the
+    dark lord and saved us all!
+
+Lucille:
+    Huhun. But that complete idiot
+    failed to realize something.
+
+Lucille:
+    That he had been posessed by
+    "me", living deep inside.
+
+Alice:
+    Then that would mean..
+    No way?!
+
+Lucille:
+    Huhhuhhuhhu. Right. As of now
+    I've fully subverted this
+    vessel and it is mine.
+
+Alice:
+    You gotta be kidding!?
+
+Lucille:
+    And with that, my mission is
+    nearly complete.
+
+Nabokov:
+    A mission, you say?
+    To do what?
+
+Lucille:
+    We are resurrecting Lord
+    {Varuudanu}, our god.
+    Obviously.
+
+Alice:
+    What did you say?!
+
+Lucille:
+    Now that Mikhail is no longer
+    in the way...
+    Huhhuhhuhhu.
+
+Nabokov:
+    S-stop! Stop at once!
+    Why unleash a disaster?!
+
+Nabokov:
+    If {Varuudanu} is reborn, the
+    world will be demolished.
+    Mankind will go extinct!
+
+Alice:
+    N-not that! Don't do it,
+    Lucille!
+
+Lucille:
+    Keekkekekekeke! Oh I had
+    nooo idea such a thing
+    would happen.
+
+Lucille:
+    Now, Lord {Varuudanu}, our god!
+    It is the hour of your rebirth!
+
+Lucille:
+    Obliterate this world with
+    your absolute power!
+    Wipe out all of the people!
+    ---
+    Keeeeekkekekekeke!
+
+Lucille:
+    In fact, how about you start
+    with the pesky brat there?
+    ---
+    and give her an especially
+    brutal demise!
+
+Alice:
+    !? O_O
+
+Alice:
+    Kyaaa!
+
+Nabokov:
+    Watch out!
+    {Varuudanu} is arising!
+
+Lucille:
+    Huhu, huhuhu.
+    Ahhhaha, aahahahahaha.
+    Keeekkekekeke.
+
+Alice:
+    Ugghhh....
+
+Nabokov:
+    Are you all right, Alice?
+
+Nabokov:
+    So you're going after all?
+    To face him once more?
+
+Alice:
+    Yes!
+
+Nabokov:
+    I see. Then go.
+    Just be sure you make it back
+    safely.
+
+
+--- Another World  (sp132.sp) ---
+
+Alice:
+    Ugghhh....
+
+Alice:
+    Where am I?
+
+(narration)
+    Rrooooooooooar!
+
+Alice:
+    !!
+
+Alice:
+    I can't believe it!
+    This is {Varuudanu}?!
+
+Alice:
+    Then, I'm inside a
+    {Varuudanu}-made dimensional
+    pocket?!
+
+(narration)
+    Rroooooooooar!
+
+Alice:
+    Eep!
+
+Alice:
+    I-I can't. I don't stand a
+    chance against that thing!
+
+Alice:
+    I-I've got to get out of here!
+
+Alice:
+    Eh? The {holy sword} is
+    glowing?!
+
+(narration)
+    Roar! Ro-roaaaaaaaaaaaaaar!?
+
+Alice:
+    Wait, is this light affecting
+    it?
+
+(narration)
+    Gu, guooooo?!
+
+Alice:
+    {Varuudanu}'s recoiling!
+
+Alice:
+    It is! The light is having an
+    effect!
+
+Alice:
+    Well now, this fight might
+    just be winnable after all.
+    ---
+    This {holy sword} might be
+    enough to topple that
+    abomination.
+
+Alice:
+    To end {Varuudanu}!
+
+(narration)
+    RoooooooOOoooOOoaaar!!
+
+Alice:
+    That's right, Alice!
+    Running away from this won't
+    do!
+
+Alice:
+    If that's all I do then Father
+    and Mikhail are going to die!
+
+Alice:
+    Everyone I care about will
+    be gone!
+    Unacceptable!
+
+Alice:
+    So, I'm going in.
+
+Alice:
+    I've got to do this.
+
+Alice:
+    It has to be me!
+
+Alice:
+    Haah, haah.
+
+Alice:
+    T-take that!
+
+Alice:
+    But.... My body's.. giving out..
+    and it's really the end of the
+    line for me too, it seems...
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+?:
+    Milady. Good morning.
+
+Alice:
+    Oh, 'morning. Nice day, isn't
+    it.
+
+Mikhail:
+    I have finished preparing
+    breakfast,
+    ---
+    so if you would please
+    make your way to the
+    dining room.
+
+Alice:
+    Okay, I will.
+    What about Father?
+
+Mikhail:
+    He is still asleep.
+
+Alice:
+    That figures. Sheesh.
+
+Alice:
+    He's turned into such a lazy
+    bum since he got back.
+
+Mikhail:
+    That's certainly an
+    exaggeration.
+
+Mikhail:
+    It must be his research work
+    that exhausts him so.
+
+Alice:
+    Well, either way.
+    All righty, I'll go wake him
+    up myself.
+
+Mikhail:
+    Gently, please, if you would.
+
+Alice:
+    Huhu, I know.
+
+
+--- 2F Hall  (sp_home006.sp) ---
+
+Alice:
+    One month has already passed
+    since the incident.
+
+Alice:
+    A lot has happened.
+
+Alice:
+    Back then, I was....
+
+
+--- Sanctuary  (sp_home027.sp) ---
+
+(narration)
+    Alice!
+
+(narration)
+    Alice!
+
+(narration)
+    Open your eyes, Alice!
+
+Alice:
+    Mmrmmmnng......
+
+Nabokov:
+    Oh, Alice! You're awake!
+
+Nabokov:
+    Well done, Alice.
+
+Nabokov:
+    {Varuudanu}'s resurrection has
+    been halted, and we have you
+    to thank for it.
+
+Nabokov:
+    What is it, Alice?
+
+Alice:
+    Where's Mikhail?
+
+(narration)
+    Slam
+
+Alice:
+    W-who's there?
+
+Alice:
+    Lucille?! You survived?!
+
+Nabokov:
+    Lucille, {Varuudanu} is no more.
+
+Nabokov:
+    What you hoped for shall not
+    come to pass!
+
+Alice:
+    Hold on, Father.
+    Something's off here,
+    wouldn't you say?
+
+Alice:
+    Kyaa!?
+
+Alice:
+    Mikhail! Is it really you,
+    Mikhail?!
+
+Mikhail:
+    Huh? Where on Earth have I
+    been all this time?
+
+Alice:
+    Ehhh? You don't remember a
+    thing?
+
+Nabokov:
+    {Varuudanu}'s defeat has broken
+    the hold that a dark power
+    had on you.
+
+Alice:
+    Then did Lucille die?
+
+Nabokov:
+    I told you, right? Mikhail and
+    Lucille are two sides of the
+    same coin.
+    ---
+    She likely still lives on,
+    deep within him.
+    ---
+    Not that she'll be able to
+    assert herself again, though.
+
+Alice:
+    Hmmmm. I wonder if it's okay
+    to leave things that way?
+
+Nabokov:
+    Who can say.
+
+Mikhail:
+    Excuse me. What are you two
+    talking about?
+
+Alice:
+    S-e-cret!
+
+Nabokov:
+    Indeed, it's private.
+
+Mikhail:
+    O-oh, you two....
+
+Alice:
+    Huhuhu.
+
+Nabokov:
+    Well then. How about we get
+    started?
+
+Mikhail:
+    Oh? Started on what?
+
+Nabokov:
+    It's obvious. {Astulla}.
+
+Mikhail:
+    Ah!
+
+Nabokov:
+    Alice has been pushing the
+    limits of her endurance,
+    ---
+    putting up a brave front so
+    that she wouldn't cause us
+    to worry.
+    ---
+    The strain has caught up to
+    her, and her body really has
+    run out of time.
+
+Alice:
+    Father, so you noticed that,
+    huh.
+
+Nabokov:
+    Of course I did. Alice, you're
+    my daughter. You needn't hold
+    back your troubles.
+
+Alice:
+    ...... Okay!
+
+Nabokov:
+    Good. Then, let's begin.
+
+
+--- 2F Hall  (sp_home006.sp) ---
+
+Alice:
+    The environment around us has
+    changed completely.
+
+Alice:
+    However, Mikhail is serving as
+    our butler just as before.
+
+Alice:
+    Father, as usual, is doing
+    nothing but research,
+    research, research.
+
+Alice:
+    I wish he would spend a bit
+    more time with me.
+    It's just a smidge,
+    ---
+    but some days I can feel
+    a little lonely.
+
+Alice:
+    But, that's okay.
+    Because no matter what, now I
+    am.....
+
+
+--- Library  (sp_home004.sp) ---
+
+Alice:
+    All righty. Wonder if there'll
+    be anything here.
+
+(narration)
+    *rummage, rummage*
+
+Alice:
+    Nope, nothing relevant in
+    here...
+
+Alice:
+    Oh, what's this?
+    Father's diary?
+
+Alice:
+    Indeed it is.
+    Invading his privacy would be
+    uncouth,
+    ---
+    but, should I read a little
+    of it?
+
+Alice:
+    Well, I want any kind of clue
+    I can find, so Father, I'm
+    sorry about this.
+
+Alice:
+    Although if I'm being honest
+    it's exciting to find out what
+    someone else writes in their
+    ---
+    private diary.
+
+Alice:
+    Hehe. Let's dive in!
+    Lessee here...
+
+(narration)
+    April 5th:
+
+(narration)
+    Today I took my daughter on
+    an outing.
+
+(narration)
+    How long has it been since
+    I've seen her so pleased?
+
+(narration)
+    April 13th:
+
+(narration)
+    Today I played games with my
+    daughter.
+
+(narration)
+    Watching her expressions
+    ebb and flow like the tide,
+    ---
+    made me feel happy for
+    some reason.
+
+(narration)
+    April 21st:
+
+(narration)
+    These enjoyable days quietly
+    pass one after the next.
+    ---
+    I hope life can continue to be
+    like this....
+
+Alice:
+    Oh Father, you had me in your
+    thoughts that much?
+
+Alice:
+    I feel tears coming on...
+    *sniff*
+
+Alice:
+    Ahem.
+
+Alice:
+    Shall we continue reading?
+
+(narration)
+    August 19th:
+
+(narration)
+    Even after the exile, civil
+    unrest in Russia has not been
+    quelled.
+
+(narration)
+    We remain safe for the time
+    being, but I wonder how long
+    that can last...
+
+(narration)
+    October 23rd:
+
+(narration)
+    The flowing sands of time
+    can't be stopped, nor can the
+    rise and fall of the eras.
+
+(narration)
+    Something serious is bound to
+    happen before long.
+
+(narration)
+    December 2nd:
+
+(narration)
+    A great many more people
+    were killed today.
+
+(narration)
+    If this keeps up I fear that
+    we will be in serious danger.
+    ---
+    I've got to think of
+    some way....
+
+Alice:
+    ......
+
+Alice:
+    Huh? It ends there?!
+
+Alice:
+    Oh phooey, just when it was
+    getting to the good part.
+
+Alice:
+    Sheesh. Isn't there any more?
+
+Alice:
+    Nope, it looks like that's it
+    for the desk.
+
+Alice:
+    If there were more pages,
+    where would they be?
+    Maybe in Father's own room..
+    ---
+    Worth a shot, right?
+
+Alice:
+    But hold on, it said Father
+    was Russian, no?
+
+Alice:
+    How can that be?
+    I don't have any memories of
+    life in Russia myself.
+
+Alice:
+    Did I just forget?
+    Hmm, hmmm...
+
+Alice:
+    Not happening. I can't pull a
+    single one.
+
+Alice:
+    Oh well. I'll have to worry
+    about that later.
+
+Alice:
+    Now back to the task at hand.
+    I need to find out more about
+    Father.
+
+Alice:
+    I have been reborn, now as a
+    regular everyday human being.
+
+Alice:
+    I am no longer a doll.
+    No longer a {genomroid}!
+
+Alice:
+    I will live on as a person,
+
+Alice:
+    surrounded by those I love....
+
+
+--- Nabokov's Bedroom  (sp_home003.sp) ---
+
+Alice:
+    Good morning, Father!
+    It's time to wake up!
+

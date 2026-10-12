@@ -1,0 +1,58 @@
+wait 150
+press Start 3
+wait 200
+press A 3
+wait 120
+press A 3
+wait 600
+shot n1
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+shot n2
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+press A 3
+wait 90
+shot n3

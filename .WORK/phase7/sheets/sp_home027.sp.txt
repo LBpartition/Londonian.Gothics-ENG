@@ -1,0 +1,729 @@
+FILE sp_home027.sp  (136 strings, dialogue order)
+
+idx=125  spk=None(None)  auto_gline=None
+  JP: ……！
+  EN: -
+idx=110  spk=None(None)  auto_gline=None
+  JP: ……アリス！
+  EN: -
+idx=131  spk=None(None)  auto_gline=1608
+  JP: しっかりするのだ！{NL}アリス！
+  EN: Alice walks forward
+idx=76  spk=Alice(105)  auto_gline=1610
+  JP: う、うぅ……。
+  EN: Father!
+idx=95  spk=Nabokov(3)  auto_gline=1611
+  JP: おお、アリス！
+  EN: A-alice?  Ohh, Alice, you made it?!
+idx=12  spk=Alice(100)  auto_gline=1612
+  JP: お、お父さま。{NL}私……。
+  EN: Oh I'm so thankful you're okay.  Let me get you out of there right now.
+idx=81  spk=Nabokov(3)  auto_gline=1614
+  JP: なにも言うな。{NL}お前が無事でよかった。
+  EN: Don't bother.  No matter how much you beat on it, the gordalis will not break.
+idx=10  spk=Nabokov(3)  auto_gline=1617
+  JP: ここは危険だ。{NL}さあ、早くこの場から逃れよう。
+  EN: Yes.  This cage was created from formidable magic, powerful enough that I daresay I won't be able to get out of it.
+idx=120  spk=Nabokov(3)  auto_gline=1620
+  JP: むっ？{NL}どこに行くのだ、アリス？
+  EN: Alice, leave me.  Get out of here and save yourself.
+idx=58  spk=Alice(100)  auto_gline=1621
+  JP: もう一度、{FE02}ヴァルゥーダヌ{FE00}を倒しに行くわ！
+  EN: I can't, Father!  Are you really sure it's hopeless?  Isn't there something, anything, we can try?
+idx=93  spk=Nabokov(3)  auto_gline=1623
+  JP: なにっ？{NL}お前はよくやった。これ以上、無理をする事はない！
+  EN: Oh all right.  In that case check with Mikhail.  He might have some thoughts.
+idx=38  spk=Alice(102)  auto_gline=1625
+  JP: 私じゃなきゃダメなのぉ！
+  EN: Ah, Mikhail, huh...  Understood, Father.  Let me go ask!
+idx=33  spk=Nabokov(3)  auto_gline=1629
+  JP: ！
+  EN: Alice, don't wear yourself out...
+idx=22  spk=Alice(102)  auto_gline=1860
+  JP: どうせ逃げたって、逃げ切れないわ！{NL}だから私の方から行くの！{NL}行って、倒してやるわ！
+  EN: Father, are you okay?  Still with us?
+idx=86  spk=Nabokov(3)  auto_gline=1861
+  JP: そうか。{NL}わかった。もう止めまい。行って来い、アリス。
+  EN: I'm fine.  I can't die yet.  I still have work to do after all.
+idx=39  spk=Alice(100)  auto_gline=1862
+  JP: はい！
+  EN: Hang on!  I'm getting you out of there!
+idx=73  spk=Nabokov(3)  auto_gline=1863
+  JP: アリスよ。{NL}待つのだ。
+  EN: Is that even possible?  Can you?
+idx=27  spk=Alice(100)  auto_gline=1864
+  JP: なに？{NL}お父さま？
+  EN: With this holy sword I sure ought to be able to!
+idx=5  spk=Nabokov(3)  auto_gline=1868
+  JP: いくら{FE02}聖剣{FE00}でも、まともにやっては、傷ひとつ、ヤツにはつけられまい。
+  EN: Oh, ohh!
+idx=70  spk=Nabokov(3)  auto_gline=1870
+  JP: 肩だ！{NL}ヤツの肩をねらえ！{NL}そこならば、きっと……！
+  EN: Thanks.  Sorry to have worried you, Alice.
+idx=134  spk=Alice(105)  auto_gline=1871
+  JP: 肩……？
+  EN: It's no problem.
+idx=32  spk=Alice(100)  auto_gline=1871
+  JP: わかったわ、お父さま！{NL}やってみるわ！
+  EN: I'm just glad you're all right.
+idx=90  spk=Nabokov(3)  auto_gline=1872
+  JP: 死ぬなよ。{NL}アリス……。
+  EN: Now, let's head home.  Mikhail will be waiting for us.
+idx=63  spk=Alice(105)  auto_gline=1902
+  JP: う、うぅっ……。
+  EN: Uuurrrrrgh....
+idx=55  spk=Nabokov(3)  auto_gline=1903
+  JP: おお、アリス。{NL}目を覚ましたか。
+  EN: Oh, Alice. You've awoken.
+idx=61  spk=Alice(100)  auto_gline=1904
+  JP: お父さま？{NL}私は、一体？
+  EN: Father? What happened?
+idx=46  spk=Nabokov(3)  auto_gline=1905
+  JP: 話はあとだ。{NL}今から、儀式を執り行う。
+  EN: I'll explain later.  Right now we're going to perform a ceremony.
+idx=25  spk=Alice(104)  auto_gline=1906
+  JP: えっ！？
+  EN: Eh?!
+idx=49  spk=Nabokov(3)  auto_gline=1907
+  JP: お前の身体はもう限界だ。{NL}間もなく、死がおとずれるだろう。
+  EN: Your body has been pushed to its limits.  Now you're on Death's doorstep, reaching out to knock.
+idx=84  spk=Alice(103)  auto_gline=1909
+  JP: そう。やっぱり、私はただのお人形にすぎないのね。
+  EN: I see.  So I really was nothing more than a mere doll.
+idx=124  spk=Nabokov(3)  auto_gline=1910
+  JP: バカを言うな！！{NL}お前は人形などではない！
+  EN: Don't be ridiculous! You're nothing of the sort!
+idx=59  spk=Nabokov(3)  auto_gline=1910
+  JP: 私にとって、お前は実の娘も同然だ！{WAIT}私は、私は、お前を失いたくはない！
+  EN: To me you are a treasured daughter and I, I, do not want to lose you!
+idx=21  spk=Mikhail(111)  auto_gline=1912
+  JP: その通りです！{NL}わたくしの気持ちも、同じでございます！
+  EN: Exactly! I feel that same way too.
+idx=87  spk=Mikhail(112)  auto_gline=1912
+  JP: ですから、そのようにかなしい事をおっしゃらないでください。
+  EN: So please, do not say such sad things.
+idx=91  spk=Alice(103)  auto_gline=1914
+  JP: お、お父さま……。{NL}ミヒャエル……。
+  EN: Father... Mikhail....
+idx=68  spk=Nabokov(3)  auto_gline=1915
+  JP: お前には人間として生きてほしい。人間としての幸せをつかんでほしいのだ！
+  EN: I would like for you to live life as a human.  For you to find happiness as a human!
+idx=89  spk=Alice(104)  auto_gline=1917
+  JP: 人間として？{NL}お父さま。{NL}なにを言ってるの？
+  EN: As a person?  Father.  What are you talking about?
+idx=102  spk=Mikhail(110)  auto_gline=1918
+  JP: これから行う{FE02}アストゥーラ{FE00}は、お嬢さまを人間にするための儀式なのです。
+  EN: The purpose of Astulla, the ceremony we're about to perform, is to turn you into a human being, milady.
+idx=9  spk=Alice(103)  auto_gline=1921
+  JP: お、お父さま……。
+  EN: F-father....
+idx=71  spk=Nabokov(3)  auto_gline=1922
+  JP: アリス。お前は私の娘だ。だからこそ、この儀式を行うのだ。よいな？
+  EN: Alice.  You are simply my daughter.  And that is why we're holding this ceremony.  All right?
+idx=66  spk=Alice(100)  auto_gline=1924
+  JP: は、はい！
+  EN: Y-yes!
+idx=80  spk=Nabokov(3)  auto_gline=1925
+  JP: よし。ミヒャエル！！{NL}儀式をはじめるぞ！
+  EN: Good.  Mikhail!  Let's begin the rite!
+idx=123  spk=Mikhail(110)  auto_gline=1926
+  JP: かしこまりました。{NL}お任せください。
+  EN: As you wish.  Leave it to me.
+idx=57  spk=Mikhail(110)  auto_gline=1930
+  JP: 我は願う。
+  EN: Hear our prayer.
+idx=0  spk=Nabokov(3)  auto_gline=1931
+  JP: 我らは命じる。
+  EN: We command you.
+idx=44  spk=Mikhail(110)  auto_gline=1932
+  JP: 全ての命を生み出せし、{NL}無限の大地よ。
+  EN: Mother of all life, oh endless land.
+idx=98  spk=Nabokov(3)  auto_gline=1933
+  JP: 美しきそのながれ、{NL}たゆたう水よ。
+  EN: How beautiful your flows, wavering water.
+idx=103  spk=Mikhail(110)  auto_gline=1934
+  JP: 過ぎ去りし時を、{NL}失いし時を、{NL}今、ここに呼び戻せ。
+  EN: Time passing and time lost, we now call for your return!
+idx=79  spk=Nabokov(3)  auto_gline=1935
+  JP: そして、ここに示せ。{NL}ただしき姿、{NL}あるべき、その姿を！
+  EN: Now show yourself here.  In that righteous form, utopia!
+idx=112  spk=Mikhail(113)  auto_gline=1939
+  JP: う、ううっ！？
+  EN: Urk, uuugggh?!
+idx=129  spk=Nabokov(3)  auto_gline=1940
+  JP: む？{WAIT}どうしたのだ？{NL}ミヒャエルよ。
+  EN: Hrm? What's wrong, Mikhail?
+idx=35  spk=Mikhail(112)  auto_gline=1941
+  JP: うう、ぐぐぐぐ。
+  EN: Uuggh, gugugugu.
+idx=1  spk=Alice(103)  auto_gline=1942
+  JP: ねえ、大丈夫？{NL}苦しいの？{WAIT}ねえ？
+  EN: Hey, are you okay?  Are you in pain?  Hey?
+idx=54  spk=Mikhail(110)  auto_gline=1943
+  JP: ……。
+  EN: .........
+idx=127  spk=Nabokov(3)  auto_gline=1944
+  JP: おい！{WAIT}ミヒャエル！{NL}しっかりするのだ！！
+  EN: Earth to Mikhail, get ahold of yourself man!
+idx=82  spk=Mikhail(110)  auto_gline=1945
+  JP: ふっふっふっ……。
+  EN: Huhhuhhu.....
+idx=67  spk=Alice(103)  auto_gline=1946
+  JP: ミヒャエル！？{NL}どうしちゃったのよ！？
+  EN: Mikhail?  What happened to you?!
+idx=45  spk=Alice(104)  auto_gline=1950
+  JP: きゃっ！
+  EN: Kyaa!
+idx=13  spk=Lucille(121)  auto_gline=1954
+  JP: フッフッフッ。
+  EN: Huhhuhhu.
+idx=6  spk=Alice(106)  auto_gline=1955
+  JP: えっ？{WAIT}えっ？{NL}えぇーーーーーーー！？
+  EN: Eh?! Wha? Wha? Whaaaaaaaaaaaaat?!!
+idx=4  spk=Alice(106)  auto_gline=1955
+  JP: ミ、ミヒャエルがルシールに！？
+  EN: Mikhail became Lucille?!
+idx=111  spk=Lucille(121)  auto_gline=1956
+  JP: ついに、ついに、やりましたわ！
+  EN: At last, at last I've done it!
+idx=19  spk=Lucille(121)  auto_gline=1956
+  JP: フフフ、フフフフフ。{NL}ケーッケッケッケー！
+  EN: Huhuhu, huhuhuhuhu. Keeeeekkekekekeke!
+idx=50  spk=Alice(106)  auto_gline=1958
+  JP: なんなの、これ？{NL}なにがおきたの！？
+  EN: What the heck is this?  What just happened?
+idx=53  spk=Nabokov(3)  auto_gline=1959
+  JP: やはり。{NL}やはり、そうであったか。
+  EN: Thought so.  Thought that was the case.
+idx=48  spk=Alice(104)  auto_gline=1960
+  JP: えっ？
+  EN: Huh?
+idx=119  spk=Nabokov(3)  auto_gline=1961
+  JP: アリスよ。彼らは表裏一体の存在だったのだ。
+  EN: Alice. The two of them live within a single body, as two sides of the same coin.
+idx=114  spk=Nabokov(3)  auto_gline=1961
+  JP: もっとも、ミヒャエル自身はその事を知らなかったようだがな。
+  EN: Although Mikhail himself is likely unaware of that fact.
+idx=60  spk=Lucille(122)  auto_gline=1964
+  JP: アラッ？{NL}博士は気づいていらしたのですか？
+  EN: Oh my.  Professor, you realized it?
+idx=26  spk=Nabokov(3)  auto_gline=1965
+  JP: 確信はなかったがな。
+  EN: I suspected but wasn't certain of it.
+idx=24  spk=Alice(105)  auto_gline=1966
+  JP: お、お父さま！{NL}説明して！{NL}どういうことなの！？
+  EN: F-father!  Explain it to me!  Whatever do you mean?
+idx=51  spk=Nabokov(3)  auto_gline=1967
+  JP: ミヒャエルは、本来、邪神{FE02}ヴァルゥーダヌ{FE00}に仕える使徒だった。{NL}だが、彼は人間を愛していた。だから、邪神を裏切って我らを助けてくれた！
+  EN: Mikhail was originally an acolyte in the service of the dark lord Varuudanu.  However, he loved humanity.  And so he backstabbed the dark lord and saved us all!
+idx=99  spk=Lucille(123)  auto_gline=1970
+  JP: フフン。でも、マヌケな彼は気づいてなかった。
+  EN: Huhun. But that complete idiot failed to realize something.
+idx=83  spk=Lucille(120)  auto_gline=1970
+  JP: 自分の内部に存在している「私」に、身体を乗っ取られていった事なんてねぇ。
+  EN: That he had been posessed by "me", living deep inside.
+idx=97  spk=Alice(103)  auto_gline=1972
+  JP: それじゃあ、まさか！？
+  EN: Then that would mean..  No way?!
+idx=14  spk=Lucille(121)  auto_gline=1973
+  JP: フッフッフッ。{NL}そう。今やこの身体は、完全に私の物ですわ。
+  EN: Huhhuhhuhhu.  Right.  As of now I've fully subverted this vessel and it is mine.
+idx=18  spk=Alice(103)  auto_gline=1975
+  JP: そ、そんな！？
+  EN: You gotta be kidding!?
+idx=62  spk=Lucille(120)  auto_gline=1976
+  JP: これでようやく、私の使命が果たせますわ。
+  EN: And with that, my mission is nearly complete.
+idx=42  spk=Nabokov(3)  auto_gline=1977
+  JP: 使命だと？{NL}なんなのだ、それは？
+  EN: A mission, you say?  To do what?
+idx=108  spk=Lucille(123)  auto_gline=1978
+  JP: 決まっているでしょう？{NL}我らが神、{FE02}ヴァルゥーダヌ{FE00}さまの復活ですわ。
+  EN: We are resurrecting Lord Varuudanu, our god.  Obviously.
+idx=133  spk=Alice(104)  auto_gline=1979
+  JP: な、なんですって！？
+  EN: What did you say?!
+idx=17  spk=Lucille(121)  auto_gline=1980
+  JP: 邪魔なミヒャエルがいなくなった、今ならば……。{NL}フッフッフッフッ。
+  EN: Now that Mikhail is no longer in the way...  Huhhuhhuhhu.
+idx=8  spk=Nabokov(3)  auto_gline=1981
+  JP: よ、よせ！{WAIT}よすのだ！{NL}大変な事になるぞ！？
+  EN: S-stop! Stop at once! Why unleash a disaster?!
+idx=105  spk=Nabokov(3)  auto_gline=1981
+  JP: {FE02}ヴァルゥーダヌ{FE00}が復活すれば、世界は破壊される！{NL}人間は死に絶える！
+  EN: If Varuudanu is reborn, the world will be demolished. Mankind will go extinct!
+idx=88  spk=Alice(103)  auto_gline=1983
+  JP: そ、そんなぁ！？{NL}ダメよ、ルシール！{NL}そんな事しちゃ！
+  EN: N-not that!  Don't do it, Lucille!
+idx=72  spk=Lucille(121)  auto_gline=1984
+  JP: ケーッケッケッケッ！{NL}そんなの、私の知った事ではありませんわ。
+  EN: Keekkekekekeke!  Oh I had nooo idea such a thing would happen.
+idx=37  spk=Lucille(120)  auto_gline=1985
+  JP: さあ！{WAIT}我らが神、{FE02}ヴァルゥーダヌ{FE00}さま！{NL}今こそ復活の時ですわ！
+  EN: Now, Lord Varuudanu, our god! It is the hour of your rebirth!
+idx=11  spk=Lucille(121)  auto_gline=1985
+  JP: 絶対なるそのお力で、{NL}この世界に破壊を！{NL}すべての人間どもに死を！
+  EN: Obliterate this world with your absolute power! Wipe out all of the people! Keeeeekkekekekeke!
+idx=43  spk=Lucille(121)  auto_gline=1985
+  JP: ケーッケッケッケッ！{NL}手はじめに、そのうるさい小娘にむごたらしい死を！
+  EN: In fact, how about you start with the pesky brat there and give her an especially brutal demise!
+idx=101  spk=Alice(106)  auto_gline=1989
+  JP: ！？
+  EN: !? O_O
+idx=31  spk=Alice(104)  auto_gline=1993
+  JP: きゃーーっ！？
+  EN: Kyaaa!
+idx=3  spk=Nabokov(3)  auto_gline=1994
+  JP: いかん！{NL}{FE02}ヴァルゥーダヌ{FE00}が復活するぞ！？
+  EN: Watch out!  Varuudanu is arising!
+idx=107  spk=Lucille(121)  auto_gline=1995
+  JP: フフ、フフフフ。{NL}アハハ、アハハハハ。{NL}ケーッケッケッケー。
+  EN: Huhu, huhuhu.  Ahhhaha, aahahahahaha.  Keeekkekekeke.
+idx=2  spk=Alice(105)  auto_gline=1999
+  JP: うぅ……。
+  EN: Ugghhh....
+idx=104  spk=Nabokov(3)  auto_gline=None
+  JP: 大丈夫か、アリス？
+  EN: -
+idx=7  spk=Nabokov(3)  auto_gline=None
+  JP: やはり、行くのか？{NL}もう一度、ヤツを倒しに？
+  EN: -
+idx=121  spk=Alice(102)  auto_gline=2106
+  JP: ええ！
+  EN: A lot has happened.
+idx=29  spk=Nabokov(3)  auto_gline=None
+  JP: そうか。行って来い。{NL}必ず帰って来るのだぞ。
+  EN: -
+idx=52  spk=None(None)  auto_gline=2108
+  JP: アリス！
+  EN: Alice walks
+idx=78  spk=None(None)  auto_gline=2112
+  JP: アリスよ！
+  EN: Flashback start
+idx=20  spk=None(None)  auto_gline=2114
+  JP: 目を開けてくれ！{NL}アリスよ！
+  EN: Alice!  Alice!  Open your eyes, Alice!
+idx=41  spk=Alice(105)  auto_gline=2115
+  JP: んんっ……。
+  EN: Mmrmmmnng......
+idx=132  spk=Nabokov(3)  auto_gline=2116
+  JP: おお、アリス！{NL}目を覚ましたか！
+  EN: Oh, Alice!  You're awake!
+idx=135  spk=Nabokov(3)  auto_gline=2118
+  JP: よくやった、アリスよ。
+  EN: Well done, Alice.
+idx=64  spk=Nabokov(3)  auto_gline=2118
+  JP: お前のおかげで、なんとか{FE02}ヴァルゥーダヌ{FE00}の復活を止める事が出来た。
+  EN: Varuudanu's resurrection has been halted, and we have you to thank for it.
+idx=56  spk=Nabokov(3)  auto_gline=2123
+  JP: どうした、アリスよ？
+  EN: What is it, Alice?
+idx=92  spk=Alice(105)  auto_gline=2124
+  JP: ミヒャエルは？
+  EN: Where's Mikhail?
+idx=116  spk=None(None)  auto_gline=2128
+  JP: ガタッ
+  EN: Slam
+idx=109  spk=Alice(104)  auto_gline=2130
+  JP: だ、だれ！？
+  EN: W-who's there?
+idx=126  spk=Alice(104)  auto_gline=2131
+  JP: ルシール！？{NL}あなた、生きていたの！？
+  EN: Lucille?!  You survived?!
+idx=85  spk=Nabokov(3)  auto_gline=2133
+  JP: ルシールよ。{NL}{FE02}ヴァルゥーダヌ{FE00}は倒れた。
+  EN: Lucille, Varuudanu is no more.
+idx=34  spk=Nabokov(3)  auto_gline=2133
+  JP: もはや、お前の思い通りにはならんぞ！
+  EN: What you hoped for shall not come to pass!
+idx=106  spk=Alice(105)  auto_gline=2136
+  JP: 待って、お父さま。{NL}なにか、変じゃない？
+  EN: Hold on, Father.  Something's off here, wouldn't you say?
+idx=75  spk=Alice(104)  auto_gline=2140
+  JP: きゃっ！？
+  EN: Kyaa!?
+idx=94  spk=Alice(104)  auto_gline=2145
+  JP: ミヒャエル！？{NL}ミヒャエルなのっ！？
+  EN: Mikhail!  Is it really you, Mikhail?!
+idx=100  spk=Mikhail(112)  auto_gline=2146
+  JP: はて？{NL}私は一体、今までなにを？
+  EN: Huh?  Where on Earth have I been all this time?
+idx=23  spk=Alice(106)  auto_gline=2147
+  JP: ええっ！？{NL}なにも覚えてないのぉ！？
+  EN: Ehhh?  You don't remember a thing?
+idx=36  spk=Nabokov(3)  auto_gline=2148
+  JP: {FE02}ヴァルゥーダヌ{FE00}が倒された事により、邪悪な力から解放されたのだろう。
+  EN: Varuudanu's defeat has broken the hold that a dark power had on you.
+idx=118  spk=Alice(103)  auto_gline=2149
+  JP: じゃあ、ルシールは死んじゃったの？
+  EN: Then did Lucille die?
+idx=40  spk=Nabokov(3)  auto_gline=2150
+  JP: 言っただろう？{NL}ミヒャエルとルシールは、表裏一体の存在だと。{NL}彼の内部で、今も生きているはずだ。もう、表には出て来れないだろうがな。
+  EN: I told you, right?  Mikhail and Lucille are two sides of the same coin.  She likely still lives on, deep within him.  Not that she'll be able to assert herself again, though.
+idx=113  spk=Alice(105)  auto_gline=2153
+  JP: ふーん。{NL}それで、よかったのかな？
+  EN: Hmmmm.  I wonder if it's okay to leave things that way?
+idx=122  spk=Nabokov(3)  auto_gline=2154
+  JP: さあな。
+  EN: Who can say.
+idx=74  spk=Mikhail(112)  auto_gline=2155
+  JP: あの。{NL}なんの話ですか？
+  EN: Excuse me.  What are you two talking about?
+idx=15  spk=Alice(101)  auto_gline=2156
+  JP: ナ、イ、ショ。
+  EN: S-e-cret!
+idx=130  spk=Nabokov(3)  auto_gline=2157
+  JP: そうだ。ナイショだ。
+  EN: Indeed, it's private.
+idx=117  spk=Mikhail(112)  auto_gline=2158
+  JP: は、博士まで……。
+  EN: O-oh, you two....
+idx=47  spk=Alice(101)  auto_gline=2159
+  JP: ふふふ。
+  EN: Huhuhu.
+idx=65  spk=Nabokov(3)  auto_gline=2160
+  JP: さて。{NL}では、はじめるか。
+  EN: Well then.  How about we get started?
+idx=77  spk=Mikhail(112)  auto_gline=2161
+  JP: えっ？{NL}なにをですか？
+  EN: Oh?  Started on what?
+idx=28  spk=Nabokov(3)  auto_gline=2162
+  JP: 決まっている。{NL}{FE02}アストゥーラ{FE00}だ。
+  EN: It's obvious.  Astulla.
+idx=96  spk=Mikhail(113)  auto_gline=2163
+  JP: あっ！
+  EN: Ah!
+idx=16  spk=Nabokov(3)  auto_gline=2164
+  JP: 我らに心配をかけないように無理をしているようだがアリスの体はもう限界だ。
+  EN: Alice has been pushing the limits of her endurance, putting up a brave front so that she wouldn't cause us to worry.  The strain has caught up to her, and her body really has run out of time.
+idx=69  spk=Alice(103)  auto_gline=2167
+  JP: お父さま。{NL}やっぱり気づいてたのね。
+  EN: Father, so you noticed that, huh.
+idx=128  spk=Nabokov(3)  auto_gline=2168
+  JP: 当然だ。{NL}アリス。お前は私の娘だ。エンリョなどするな。
+  EN: Of course I did.  Alice, you're my daughter.  You needn't hold back your troubles.
+idx=30  spk=Alice(101)  auto_gline=2170
+  JP: はいっ！
+  EN: ......  Okay!
+idx=115  spk=Nabokov(3)  auto_gline=2171
+  JP: よし。{NL}では、はじめよう。
+  EN: Good.  Then, let's begin.
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 1594| Vampire: Yo, Mademoiselle.  Nice weather we're having today.
+ 1595| Alice:   Nice weather?  You know we're underground, right.
+ 1596| Vampire: ......
+ 1597| Alice:   ......
+ 1598| Vampire: And on that note...
+ 1599| Alice:   I'm so confused.
+ 1600| Vampire: Kukuku.  I bid you farewell!
+ 1601| Alice:   H-hey, hold up!
+ 1602| 
+ 1603| 
+ 1604| [24].B30F Safe Room:
+ 1605| --------------------
+ 1606| Alice: Oh, what is that?!
+ 1607| 
+ 1608|   /Alice walks forward/
+ 1609| 
+ 1610| Alice:   Father!
+ 1611| Nabokov: A-alice?  Ohh, Alice, you made it?!
+ 1612| Alice:   Oh I'm so thankful you're okay.  Let me get you out of there right
+ 1613|          now.
+ 1614| Nabokov: Don't bother.  No matter how much you beat on it, the gordalis will
+ 1615|          not break.
+ 1616| Alice:   Gordalis?  You mean this thing you're trapped inside?
+ 1617| Nabokov: Yes.  This cage was created from formidable magic, powerful enough
+ 1618|          that I daresay I won't be able to get out of it.
+ 1619| Alice:   Father!  Don't give up before we've even tried!
+ 1620| Nabokov: Alice, leave me.  Get out of here and save yourself.
+ 1621| Alice:   I can't, Father!  Are you really sure it's hopeless?  Isn't there
+ 1622|          something, anything, we can try?
+ 1623| Nabokov: Oh all right.  In that case check with Mikhail.  He might have some
+ 1624|          thoughts.
+ 1625| Alice:   Ah, Mikhail, huh...  Understood, Father.  Let me go ask!
+ 1626| 
+ 1627|   /Alice departs/
+ 1628| 
+ 1629| Nabokov: Alice, don't wear yourself out...
+ 1630| 
+ 1631| --------> Go see Mikhail in any sanctuary (one is two rooms to the left of
+ 1632|           the bordermoon, on B30F).
+ 1633| 
+ 1634| Alice:   Mikhail!  Do you know how to break a gordalis?
+ 1635| Mikhail: Gordalis!  Milady where did you hear that word?
+ 1636| Alice:   I found father being held inside one.
+ 1637| Mikhail: Is that so.  Hmm..  That presents quite the problem.
+ 1638| Alice:   Well, Mikhail.  Isn't there some way to break it?  Well?  Well?
+ 1639| Mikhail: It's not as though we have zero options, but...
+ 1640| Alice:   Okay, please tell me what needs to be done.
+ 1641| Mikhail: This is going to be rather troublesome.
+ 1642| Alice:   Oh sheesh.  Stop beating around the bush and spill it, would you!
+ 1643|          I'm willing to try anything I have to if it means being able to save
+ 1644|          Father.
+   ...
+ 1846| --------> Go stand in front of the door to where Nabokov is being held, two
+ 1847|           rooms north.  If you want, SAVE before you go inside, because it's
+ 1848|           the LAST TIME in the game you'll be able to do so.  Enter when
+ 1849|           ready.
+ 1850| 
+ 1851|   /Alice auto-changes clothes into Argus/
+ 1852| 
+ 1853| Alice:   This should do it.  I have to be wearing this dress in order to use
+ 1854|          the holy sword.  All right, let's go.
+ 1855| 
+ 1856|   /Alice walks to Nabokov/
+ 1857| 
+ 1858| Alice:   Father!
+ 1859| Nabokov: Ha ha ha ha. Oh, ohhh, Alice!
+ 1860| Alice:   Father, are you okay?  Still with us?
+ 1861| Nabokov: I'm fine.  I can't die yet.  I still have work to do after all.
+ 1862| Alice:   Hang on!  I'm getting you out of there!
+ 1863| Nabokov: Is that even possible?  Can you?
+ 1864| Alice:   With this holy sword I sure ought to be able to!
+ 1865| 
+ 1866|   /Alice chops him free/
+ 1867| 
+ 1868| Nabokov: Oh, ohh!
+ 1869| Alice:   Father!
+ 1870| Nabokov: Thanks.  Sorry to have worried you, Alice.
+ 1871| Alice:   It's no problem.  I'm just glad you're all right.
+ 1872| Nabokov: Now, let's head home.  Mikhail will be waiting for us.
+ 1873| Alice:   Right!
+ 1874| 
+ 1875|   /The ground shakes/
+ 1876| 
+ 1877| Alice:   Kyaa!?
+ 1878| Nabokov: That's not good!  Now that the gordalis was destroyed, the labyrinth
+ 1879|          itself has begun to collapse!  Alice, let's move.  We've got to get
+ 1880|          out of here fast.
+ 1881| Alice:   Understood!
+ 1882| 
+ 1883|   /They make it back to the manor's basement/
+ 1884| 
+ 1885| Nabokov: Whew.  Looks like we somehow made it back in one piece.
+ 1886| Mikhail: Dr. Nabokov!
+ 1887| Nabokov: Oh, Mikhail.  Sorry I made you worry, too.
+ 1888| Mikhail: I'm so pleased you're unharmed!
+ 1889| Nabokov: Yes, we narrowly escaped being crushed.  That, and everything else
+ 1890|          too, was all thanks to you, Alice.
+ 1891| Nabokov: Alice, what's wrong?
+ 1892| 
+ 1893|   /Alice collapses/
+ 1894| 
+ 1895| Nabokov: W-what?  Oh no!  Mikhail!  Start the preparations!
+ 1896| Mikhail: F-for that?
+ 1897| Nabokov: Indeed.  For Astulla!  Quickly now!
+ 1898| Mikhail: A-As you wish!
+ 1899| 
+ 1900|   /Alice wakes up in a sanctuary/
+ 1901| 
+ 1902| Alice:   Uuurrrrrgh....
+ 1903| Nabokov: Oh, Alice. You've awoken.
+ 1904| Alice:   Father? What happened?
+ 1905| Nabokov: I'll explain later.  Right now we're going to perform a ceremony.
+ 1906| Alice:   Eh?!
+ 1907| Nabokov: Your body has been pushed to its limits.  Now you're on Death's
+ 1908|          doorstep, reaching out to knock.
+ 1909| Alice:   I see.  So I really was nothing more than a mere doll.
+ 1910| Nabokov: Don't be ridiculous!  You're nothing of the sort!  To me you are a
+ 1911|          treasured daughter and I, I, do not want to lose you!
+ 1912| Mikhail: Exactly!  I feel that same way too.  So please, do not say such sad
+ 1913|          things.
+ 1914| Alice:   Father... Mikhail....
+ 1915| Nabokov: I would like for you to live life as a human.  For you to find
+ 1916|          happiness as a human!
+ 1917| Alice:   As a person?  Father.  What are you talking about?
+ 1918| Mikhail: The purpose of Astulla, the ceremony we're about to perform, is to
+ 1919|          turn you into a human being, milady.
+ 1920| Alice:   !
+ 1921| Alice:   F-father....
+ 1922| Nabokov: Alice.  You are simply my daughter.  And that is why we're holding
+ 1923|          this ceremony.  All right?
+ 1924| Alice:   Y-yes!
+ 1925| Nabokov: Good.  Mikhail!  Let's begin the rite!
+ 1926| Mikhail: As you wish.  Leave it to me.
+ 1927| 
+ 1928|   /The Astulla ceremony begins/
+ 1929| 
+ 1930| Mikhail: Hear our prayer.
+ 1931| Nabokov: We command you.
+ 1932| Mikhail: Mother of all life, oh endless land.
+ 1933| Nabokov: How beautiful your flows, wavering water.
+ 1934| Mikhail: Time passing and time lost, we now call for your return!
+ 1935| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 1936| 
+ 1937|   /Flashes/
+ 1938| 
+ 1939| Mikhail: Urk, uuugggh?!
+ 1940| Nabokov: Hrm? What's wrong, Mikhail?
+ 1941| Mikhail: Uuggh, gugugugu.
+ 1942| Alice:   Hey, are you okay?  Are you in pain?  Hey?
+ 1943| Mikhail: .........
+ 1944| Nabokov: Earth to Mikhail, get ahold of yourself man!
+ 1945| Mikhail: Huhhuhhu.....
+ 1946| Alice:   Mikhail?  What happened to you?!
+ 1947| 
+ 1948|   /Flashes/
+ 1949| 
+ 1950| Alice:   Kyaa!
+ 1951| 
+ 1952|   /Mikhail transforms into Lucille/
+ 1953| 
+ 1954| Lucille: Huhhuhhu.
+ 1955| Alice:   Eh?!  Wha?  Wha?  Whaaaaaaaaaaaaat?!!  Mikhail became Lucille?!
+ 1956| Lucille: At last, at last I've done it!  Huhuhu, huhuhuhuhu.
+ 1957|          Keeeeekkekekekeke!
+ 1958| Alice:   What the heck is this?  What just happened?
+ 1959| Nabokov: Thought so.  Thought that was the case.
+ 1960| Alice:   Huh?
+ 1961| Nabokov: Alice.  The two of them live within a single body, as two sides of
+ 1962|          the same coin.  Although Mikhail himself is likely unaware of that
+ 1963|          fact.
+ 1964| Lucille: Oh my.  Professor, you realized it?
+ 1965| Nabokov: I suspected but wasn't certain of it.
+ 1966| Alice:   F-father!  Explain it to me!  Whatever do you mean?
+ 1967| Nabokov: Mikhail was originally an acolyte in the service of the dark lord
+ 1968|          Varuudanu.  However, he loved humanity.  And so he backstabbed the
+ 1969|          dark lord and saved us all!
+ 1970| Lucille: Huhun.  But that complete idiot failed to realize something.  That
+ 1971|          he had been posessed by "me", living deep inside.
+ 1972| Alice:   Then that would mean..  No way?!
+ 1973| Lucille: Huhhuhhuhhu.  Right.  As of now I've fully subverted this vessel and
+ 1974|          it is mine.
+ 1975| Alice:   You gotta be kidding!?
+ 1976| Lucille: And with that, my mission is nearly complete.
+ 1977| Nabokov: A mission, you say?  To do what?
+ 1978| Lucille: We are resurrecting Lord Varuudanu, our god.  Obviously.
+ 1979| Alice:   What did you say?!
+ 1980| Lucille: Now that Mikhail is no longer in the way...  Huhhuhhuhhu.
+ 1981| Nabokov: S-stop!  Stop at once!  Why unleash a disaster?!  If Varuudanu is
+ 1982|          reborn, the world will be demolished.  Mankind will go extinct!
+ 1983| Alice:   N-not that!  Don't do it, Lucille!
+ 1984| Lucille: Keekkekekekeke!  Oh I had nooo idea such a thing would happen.
+ 1985| Lucille: Now, Lord Varuudanu, our god!  It is the hour of your rebirth!
+ 1986|          Obliterate this world with your absolute power!  Wipe out all of the
+ 1987|          people!  Keeeeekkekekekeke!  In fact, how about you start with the
+ 1988|          pesky brat there and give her an especially brutal demise!
+ 1989| Alice:   !? O_O
+ 1990| 
+ 1991|   /Shaking begins/
+ 1992| 
+ 1993| Alice:   Kyaaa!
+ 1994| Nabokov: Watch out!  Varuudanu is arising!
+ 1995| Lucille: Huhu, huhuhu.  Ahhhaha, aahahahahaha.  Keeekkekekeke.
+ 1996| 
+ 1997|   /Screen transforms to a dungeon level/
+ 1998| 
+ 1999| Alice:     Ugghhh....
+ 2000| Alice:     Where am I?
+ 2001| Varuudanu: Rrooooooooooar!
+ 2002| 
+ 2003|   /Alice walks up to the huge creature/
+ 2004| 
+ 2005| Alice:     !!  I can't believe it!  This is Varuudanu?!  Then, I'm inside a
+ 2006|            Varuudanu-made dimensional pocket?!
+ 2007| Varuudanu: Rroooooooooar!
+ 2008| Alice:     Eep!
+ 2009| 
+ 2010|   /Alice slowly walks away/
+ 2011| 
+ 2012| Alice:     I-I can't.  I don't stand a chance against that thing!
+ 2013| Alice:     I-I've got to get out of here!
+ 2014| Alice:     Eh?  The holy sword is glowing?!
+   ...
+ 2092| Alice:   That figures.  Sheesh.  He's turned into such a lazy bum since he got
+ 2093|          back.
+ 2094| Mikhail: That's certainly an exaggeration.  It must be his research work that
+ 2095|          exhausts him so.
+ 2096| Alice:   Well, either way.  All righty, I'll go wake him up myself.
+ 2097| Mikhail: Gently, please, if you would.
+ 2098| Alice:   Huhu, I know.
+ 2099| 
+ 2100|   /Alice walks out of her room, starting towards Nabokov's room/
+ 2101| 
+ 2102| Alice: One month has already passed since the incident.
+ 2103| 
+ 2104|   /Alice walks/
+ 2105| 
+ 2106| Alice: A lot has happened.
+ 2107| 
+ 2108|   /Alice walks/
+ 2109| 
+ 2110| Alice: Back then, I was....
+ 2111| 
+ 2112|   /Flashback start/
+ 2113| 
+ 2114| Voice:   Alice!  Alice!  Open your eyes, Alice!
+ 2115| Alice:   Mmrmmmnng......
+ 2116| Nabokov: Oh, Alice!  You're awake!
+ 2117| Alice:   F-father....
+ 2118| Nabokov: Well done, Alice.  Varuudanu's resurrection has been halted, and we
+ 2119|          have you to thank for it.
+ 2120| 
+ 2121|   /Alice looks around/
+ 2122| 
+ 2123| Nabokov: What is it, Alice?
+ 2124| Alice:   Where's Mikhail?
+ 2125| Nabokov: ......
+ 2126| Alice:   D-don't tell me he?!
+ 2127| 
+ 2128|   /Slam/
+ 2129| 
+ 2130| Alice:   W-who's there?
+ 2131| Alice:   Lucille?!  You survived?!
+ 2132| Lucille: .......
+ 2133| Nabokov: Lucille, Varuudanu is no more.  What you hoped for shall not come to
+ 2134|          pass!
+ 2135| Lucille: .......
+ 2136| Alice:   Hold on, Father.  Something's off here, wouldn't you say?
+ 2137| 
+ 2138|   /Flashes/
+ 2139| 
+ 2140| Alice:   Kyaa!?
+ 2141| 
+ 2142|   /Lucille changes into Mikhail/
+ 2143| 
+ 2144| Mikhail: .......
+ 2145| Alice:   Mikhail!  Is it really you, Mikhail?!
+ 2146| Mikhail: Huh?  Where on Earth have I been all this time?
+ 2147| Alice:   Ehhh?  You don't remember a thing?
+ 2148| Nabokov: Varuudanu's defeat has broken the hold that a dark power had on you.
+ 2149| Alice:   Then did Lucille die?
+ 2150| Nabokov: I told you, right?  Mikhail and Lucille are two sides of the same
+ 2151|          coin.  She likely still lives on, deep within him.  Not that she'll
+ 2152|          be able to assert herself again, though.
+ 2153| Alice:   Hmmmm.  I wonder if it's okay to leave things that way?
+ 2154| Nabokov: Who can say.
+ 2155| Mikhail: Excuse me.  What are you two talking about?
+ 2156| Alice:   S-e-cret!
+ 2157| Nabokov: Indeed, it's private.
+ 2158| Mikhail: O-oh, you two....
+ 2159| Alice:   Huhuhu.
+ 2160| Nabokov: Well then.  How about we get started?
+ 2161| Mikhail: Oh?  Started on what?
+ 2162| Nabokov: It's obvious.  Astulla.
+ 2163| Mikhail: Ah!
+ 2164| Nabokov: Alice has been pushing the limits of her endurance, putting up a
+ 2165|          brave front so that she wouldn't cause us to worry.  The strain has
+ 2166|          caught up to her, and her body really has run out of time.
+ 2167| Alice:   Father, so you noticed that, huh.
+ 2168| Nabokov: Of course I did.  Alice, you're my daughter.  You needn't hold back
+ 2169|          your troubles.
+ 2170| Alice:   ......  Okay!
+ 2171| Nabokov: Good.  Then, let's begin.
+ 2172| 
+ 2173|   /Astulla ceremony starts/
+ 2174| 
+ 2175| Mikhail: Hear our prayer.
+ 2176| Nabokov: We command you.
+ 2177| Mikhail: Mother of all life, oh endless land.
+ 2178| Nabokov: How beautiful your flows, wavering water.
+ 2179| Mikhail: Time passing and time lost, we now call for your return!
+ 2180| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 2181| 
+ 2182|   /Flashback ends/
+ 2183| 
+ 2184| Alice: The environment around us has changed completely.
+ 2185| 
+ 2186|   /Alice walks/

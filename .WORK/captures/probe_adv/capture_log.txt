@@ -1,0 +1,6 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_adv\b1_f006553.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_adv\b2_f007513.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_adv\b3_f008473.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_adv\b4_f009433.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_adv\item_f009527.png
+exit at frame 9527

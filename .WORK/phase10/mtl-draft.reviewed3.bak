@@ -1,0 +1,60 @@
+﻿LONDONIAN GOTHICS - MACHINE TRANSLATION DRAFT
+
+These lines had no English in ShadowRisae's GameFAQs translation guide.
+The English below is a machine-assisted translation using the guide's terms
+(miasma, bordermoon, genomroid, Varuudanu, holy sword, milady, Miss, Father).
+Each line is listed with its original Japanese so you can check or replace it.
+Line IDs (e.g. sp022.sp #0) match Missing-translations-from-guide.txt.
+
+  [ ]  review box: mark Y (approve) or N (reject), or write your own line below
+  fit  checked against the dialogue box using the game's real font
+  (redraft) = you rejected the previous wording; this is a new attempt
+  Approved lines are removed from this file and are already in the ROM.
+
+  Lines left to review ........................... 13
+  Lines already approved ......................... 126
+
+==============================================================================
+MACHINE TRANSLATION DRAFT (grouped by script file)
+==============================================================================
+
+--- sp_home041.sp ---
+[Y] sp_home041.sp #92   Mikhail   fit:ok
+      JP: よかった。{NL}無事にお目覚めになられたようですね。
+      EN: Thank goodness you're awake. You're safe.
+[Y] sp_home041.sp #94   Alice   fit:ok
+      JP: あっ！{WAIT}ここは礼拝堂？
+      EN: Ah! Is this a sanctuary?
+[Y] sp_home041.sp #8   Alice   fit:ok
+      JP: ああ、私ったら、またやっちゃったのね。
+      EN: Oh, I went and did it again, didn't I?
+[Y] sp_home041.sp #91   Mikhail   fit:ok
+      JP: あれほど気をつけてくださいと言いましたのに、あなたときたら！
+      EN: I've told you over and over to be careful, but you still...!
+[Y] sp_home041.sp #104   Alice   fit:ok
+      JP: エヘッ。
+      EN: Ehehe.
+[Y] sp_home041.sp #19   Mikhail   fit:ok
+      JP: 「エヘッ」{NL}じゃ、ありません！{NL}まったく、あなたは！
+      EN: Don't you "ehehe" me! Honestly, you!
+[Y] sp_home041.sp #139   Alice   fit:ok
+      JP: 大きな声を出さないでよ。{NL}次からは気をつけるから、もういいでしょ？
+      EN: Don't shout. I’ll be careful next time, so let’s drop it, shall we?
+[Y] sp_home041.sp #130   Mikhail   fit:ok
+      JP: ふう、仕方ありませんね。今度こそ、気をつけてください。
+      EN: Sigh. There's no helping it. Please be careful this time.
+[Y] sp_home041.sp #136   Alice   fit:ok
+      JP: わかってるって！{NL}じゃあ、行ってくるわね。
+      EN: I know, I know! Well, I'm off.
+[Y] sp_home041.sp #112   Mikhail   fit:ok
+      JP: 行ってらっしゃいませ。
+      EN: Take care, milady.
+[Y] sp_home041.sp #40   Alice   fit:ok
+      JP: エ、エヘッ。
+      EN: E-ehehe.
+[Y] sp_home041.sp #126   Mikhail   fit:ok
+      JP: はぁ……。{NL}もう、なにも言いません。
+      EN: Sigh... I give up.
+[Y] sp_home041.sp #43   Mikhail   fit:ok
+      JP: 行ってらっしゃいませ。{NL}お嬢さま。
+      EN: Take care, milady.

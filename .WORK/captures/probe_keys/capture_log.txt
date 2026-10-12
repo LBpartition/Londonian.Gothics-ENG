@@ -1,0 +1,22 @@
+key Right=false
+key Up=false
+key Select=false
+key Touch X=0
+key LidOpen=false
+key R=false
+key Power=false
+key Start=false
+key Touch Y=0
+key GBA Light Sensor=0
+key Mic Volume=100
+key Y=false
+key Touch=false
+key Microphone=false
+key X=false
+key L=false
+key B=false
+key Left=false
+key LidClose=false
+key A=false
+key Down=false
+exit at frame 6

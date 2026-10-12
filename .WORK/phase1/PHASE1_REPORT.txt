@@ -1,0 +1,43 @@
+﻿PHASE 1 REPORT - ROM BASELINE & FILESYSTEM            Status: PASSED (2026-10-10)
+================================================================================
+ROM
+  SHA-256 3DC0FAF62B3922078532B587C6823A97CA9CE0A893F55CF17F94B3B3FCD861B6
+  CRC32   8622A134     Size 64 MiB (capacity byte 0x09)
+  Title LONDONIAN, code ALGJ, maker MG. Header CRC16 0xCF67 valid.
+  ARM9 @0x4000 size 0x4C8F8 (RAM 0x02000000) + nitrocode footer.
+  ARM7 @0x50A00 size 0x26F24. No overlays (ARM9 or ARM7).
+  FNT @0x77A00, FAT @0x7A800: 841 files, all named, 2 directories.
+  Used data ends 0x2334CA0; remaining ~28.8 MiB is 0xFF padding (free).
+
+FILE TYPES (by extension / magic)
+  245 .ncgr (RGCN graphics)   163 .sp ("LG" magic - custom, likely script/text)
+  128 .nsbmd  120 .nclr  72 .nsbca  46 .nsbma  37 .nscr  16 .nsbtp
+    7 .nsbta    4 .nsbva   2 .ncer   1 .sdat
+  Full list: phase1\manifest.csv (id, path, offsets, size, gap, magic, sha256)
+  Extracted files: extracted\  (data\, arm9.bin, arm7.bin, header.bin, fnt/fat...)
+
+TOOLS
+  tools\phase1_baseline.py  independent header/FNT/FAT parser + extraction;
+                            cross-checked against ndspy (all 841 files match).
+  tools\ndsbuild.py         layout-preserving builder (in-place if fits, else
+                            relocate to end; auto-expands ROM; fixes header CRC).
+  Note: ndspy's own save() re-lays out the whole ROM - not used for builds.
+
+GATES
+  [PASS] No-op rebuild with ndsbuild is byte-identical to the original.
+  [PASS] Stress test: ALL 841 files relocated past 0x2334E00, ROM expanded to
+         128 MB. Scripted routes through title, menu, LOAD, DRESS MODE and the
+         first dialogue produced pixel-identical screenshots vs the original.
+         => Game loads files via the FAT (no hardcoded file offsets on these
+            paths) and a 128 MB ROM works.
+
+EMULATOR HARNESS (BizHawk 2.11.1, unthrottled, sound off)
+  Routes (tools\emu\route_*.txt): skip intro with Start (~frame 223), menu
+  accepts input ~120 frames after Start, first Down only highlights NEW GAME.
+  Saved states (states\): title, menu, option, dress, dialogue1.
+
+OBSERVATIONS FOR LATER PHASES
+  - Font has Latin uppercase + digits (OPTION screen: OPTION/BGM/SE/ON/OFF/BACK).
+  - OPTION Japanese: メッセージスピード (Message Speed), バックライト (Backlight).
+  - DRESS MODE: dress name box (top), list, 2-line description box (bottom).
+  - Dialogue box: 2 lines confirmed visually (to be confirmed in code).

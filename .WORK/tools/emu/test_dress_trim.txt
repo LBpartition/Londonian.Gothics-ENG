@@ -1,0 +1,40 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 120
+press Start
+wait 120
+press Down 4
+wait 20
+press Down 4
+wait 20
+press Down 4
+wait 20
+press A
+wait 150
+shot dress
+wait 60
+shot dress2
+press Down 4
+wait 30
+press Down 4
+wait 40
+shot scuart
+press Down 4
+wait 40
+shot litense
+exit

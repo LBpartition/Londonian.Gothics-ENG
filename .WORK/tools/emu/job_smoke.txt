@@ -1,0 +1,8 @@
+wait 120
+shot boot
+wait 480
+shot title_a
+press A
+wait 180
+shot after_A
+exit

@@ -1,0 +1,225 @@
+FILE sp_home007.sp  (31 strings, dialogue order)
+
+idx=19  spk=Lucille(123)  auto_gline=None
+  JP: アラッ？{WAIT}お嬢さま、ナニをさっきからウロチョロされてるんですか？
+  EN: -
+idx=3  spk=Lucille(122)  auto_gline=None
+  JP: まさかご自分のお屋敷で、マ、マイゴになられてる？
+  EN: -
+idx=5  spk=Lucille(121)  auto_gline=None
+  JP: なんてことはないですわよねぇ？
+  EN: -
+idx=23  spk=Lucille(120)  auto_gline=417
+  JP: 地下室だったらコチラですわよ。
+  EN: Excuse me, I'm coming in.  Miss, I brought the items you requested.
+idx=1  spk=Lucille(121)  auto_gline=421
+  JP: アラ、よけいなお世話でしたわねぇ。{NL}ふぇっふぇっふぇっ。
+  EN: Heheh, Miss, why not quit now while you're ahead?
+idx=0  spk=Lucille(123)  auto_gline=424
+  JP: まったく、なにをモタモタしてますの？
+  EN: Nah, that's not it.
+idx=14  spk=Lucille(120)  auto_gline=426
+  JP: とっとと、行ってらっしゃいませ。
+  EN: It's already too late for the professor.
+idx=29  spk=Alice(104)  auto_gline=427
+  JP: ここは、屋敷だわ！？{NL}もしかして、私、戻ってきちゃったの！？
+  EN: Oh geez, talk about blunt!  You didn't have to say that.
+idx=28  spk=Mikhail(110)  auto_gline=610
+  JP: はい。{NL}その通りでございます。
+  EN: Yes, that is precisely correct.
+idx=9  spk=Alice(104)  auto_gline=611
+  JP: ミヒャエル！？{NL}これって、どういうこと？
+  EN: Mikhail, what's the meaning of this?
+idx=27  spk=Mikhail(110)  auto_gline=612
+  JP: つまり、これがわたくしに出来る、お手伝いでございます。
+  EN: In short, this is what I can do to assist you.
+idx=21  spk=Alice(104)  auto_gline=613
+  JP: えっ？
+  EN: Wha..?
+idx=18  spk=Mikhail(110)  auto_gline=614
+  JP: 屋敷と礼拝堂を、魔力によってつなぎました。
+  EN: I have created magic gates that link the manor and the sanctuaries together.
+idx=2  spk=Mikhail(110)  auto_gline=614
+  JP: これで屋敷と迷宮の行き来が、少しは楽になるかと思います。
+  EN: Being able to come and go from the labyrinth as you please should ease your journey, I think.
+idx=12  spk=Alice(100)  auto_gline=617
+  JP: へえ。{NL}すごいのね、ミヒャエル。
+  EN: Wow, that's quite something, Mikhail.
+idx=7  spk=Mikhail(110)  auto_gline=618
+  JP: フフフ。{NL}礼拝堂の機能は、それだけではございませんよ。{NL}気づきませんか？{NL}お嬢さま？
+  EN: Huhuhu.  That isn't the only feature of the sanctuaries, either.  Have you noticed, milady?
+idx=8  spk=Alice(105)  auto_gline=620
+  JP: え？{WAIT}なにを？
+  EN: Noticed what?
+idx=11  spk=Mikhail(110)  auto_gline=621
+  JP: お嬢さまのライフ、それにDPが回復してはいませんか？
+  EN: Your lives and DP have all been restored.
+idx=13  spk=Alice(104)  auto_gline=622
+  JP: えっ！
+  EN: Oh!
+idx=6  spk=Alice(100)  auto_gline=622
+  JP: 言われてみれば、そんな気が……でも、どうして？
+  EN: Now that you mention it, I do feel... but, how?
+idx=15  spk=Mikhail(110)  auto_gline=623
+  JP: 礼拝堂が持つ聖なる力が、お嬢さまの身体を回復してくれたのです。
+  EN: The holy power of the sanctuary has rejuvinated your body, milady.
+idx=16  spk=Alice(101)  auto_gline=624
+  JP: そうなんだ。{NL}ありがとう、ミヒャエル。{NL}すごく助かるわ。
+  EN: So I see.  Thank you, Mikhail.  This will help a ton.
+idx=17  spk=Mikhail(110)  auto_gline=625
+  JP: いえいえ。{NL}わたくしには、これくらいの事しか出来ませんから。
+  EN: You're welcome.  It was the least I could do.
+idx=10  spk=Alice(101)  auto_gline=626
+  JP: そうね。{NL}私の方は、身体をはってるわけだし。{NL}せめてミヒャエルにもこれくらいは、やってもらわないとね。
+  EN: It will be good to pace myself so I don't run out of steam.  You should too, Mikhail.
+idx=30  spk=Mikhail(112)  auto_gline=628
+  JP: ……。
+  EN: ......
+idx=24  spk=Alice(100)  auto_gline=629
+  JP: あら？{WAIT}どうしたの？
+  EN: Oh, what's wrong?
+idx=25  spk=Mikhail(112)  auto_gline=630
+  JP: いえ。{NL}なんでもありません。
+  EN: Ah, nothing is.
+idx=26  spk=Mikhail(110)  auto_gline=630
+  JP: では、わたくしは、念のため礼拝堂で待機する事にします。{NL}これから、一体なにがおきるか、わかりませんから。
+  EN: For safety's sake I'll be standing by in the sanctuary. Who can say what's going to happen from here on out.
+idx=22  spk=Alice(100)  auto_gline=632
+  JP: そう。ごくろうさま。
+  EN: Okay.  I appreciate it.
+idx=4  spk=Alice(100)  auto_gline=2184
+  JP: さて。{NL}これからどうしよう？
+  EN: The environment around us has changed completely.
+idx=20  spk=Alice(100)  auto_gline=2188
+  JP: すぐに迷宮に戻る？{NL}それとも、少し休んでいこうかしら？
+  EN: However, Mikhail is serving as our butler just as before.
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  403| Mikhail: This is a task you are uniquely qualified for, milady.  Very well.
+  404|          I'll entrust his fate to you.
+  405| Alice:   Whoa, instant flip-flop o_O.
+  406| Mikhail: What have we here?  You're not already on your way?
+  407| Alice:   You'd have me set off just like this?  Empty-handed?
+  408| Mikhail: What would you want to bring, aside from the magic dress?
+  409| Alice:   Food, for starters, would be nice.  And perhaps a lantern and
+  410|          matches...
+  411| Mikhail: Understood.  I'll ask our maid to prepare those items for you.
+  412|          Milady, please wait in your room.  Now if you'll excuse me.
+  413| 
+  414|   /Transistion to Alice's Bedroom/
+  415|   /Knock, knock, knock/
+  416| 
+  417| Lucille: Excuse me, I'm coming in.  Miss, I brought the items you requested.
+  418| Alice:   Thank you, Lucille.  And with that, I should be all set to go.  Let
+  419|          me do one last check to be sure I'm ready.  Let's see...  Food,
+  420|          water, lantern, matches...
+  421| Lucille: Heheh, Miss, why not quit now while you're ahead?
+  422| Alice:   Huh, what?  You're saying there's no point in double-checking my
+  423|          provisions?  It wouldn't do to forget anything important.
+  424| Lucille: Nah, that's not it.
+  425| Alice:   What, then, are you trying to say?
+  426| Lucille: It's already too late for the professor.
+  427| Alice:   Oh geez, talk about blunt!  You didn't have to say that.
+  428| Lucille: Think about it.  What do monsters usually do to someone they take?  I
+  429|          can't fathom that he'd still be unharmed.  The professor's probably
+  430|          being greedily devoured right about now, with the monsters leaving
+  431|          nary a trace of him for you to find.
+  432| Alice:   Cut it out; don't say such things!  Father is surely still alive!
+  433| Lucille: If you ran off to rescue a dead person and then met that same fate
+  434|          yourself, it would be pretty idiotic, no?
+  435| Alice:   Out! Get out of here now, Lucille!
+  436| Lucille: Yeah, yeah, I hear you.  Very well, mademoiselle.  Father and
+  437|          daughter, just a pair of roadkills for the vultures.  Ah, I do so
+  438|          hope such a terrrrrrible thing doesn't happen.  huhuhu, huhuhuhu,
+  439|          kekekekeke.
+  440| 
+  441|   /Lucille leaves/
+  442| 
+   ...
+  596| 
+  597| Alice:   Kyaaaaaaaaaaa!
+  598| 
+  599|   /Alice emerges in another room/
+  600| 
+  601| Alice:   Eh?  Ehh?!  What just happened and where am I?
+  602| Alice:   This room sure does feel familiar somehow...
+  603| 
+  604|   /Alice exits/
+  605| 
+  606| Alice:   I'm in the manor!?  Was I just transported back home?
+  607| 
+  608|   /Mikhail follows/
+  609| 
+  610| Mikhail: Yes, that is precisely correct.
+  611| Alice:   Mikhail, what's the meaning of this?
+  612| Mikhail: In short, this is what I can do to assist you.
+  613| Alice:   Wha..?
+  614| Mikhail: I have created magic gates that link the manor and the sanctuaries
+  615|          together.  Being able to come and go from the labyrinth as you
+  616|          please should ease your journey, I think.
+  617| Alice:   Wow, that's quite something, Mikhail.
+  618| Mikhail: Huhuhu.  That isn't the only feature of the sanctuaries, either.  Have
+  619|          you noticed, milady?
+  620| Alice:   Noticed what?
+  621| Mikhail: Your lives and DP have all been restored.
+  622| Alice:   Oh!  Now that you mention it, I do feel...  but, how?
+  623| Mikhail: The holy power of the sanctuary has rejuvinated your body, milady.
+  624| Alice:   So I see.  Thank you, Mikhail.  This will help a ton.
+  625| Mikhail: You're welcome.  It was the least I could do.
+  626| Alice:   It will be good to pace myself so I don't run out of steam.  You
+  627|          should too, Mikhail.
+  628| Mikhail: ......
+  629| Alice:   Oh, what's wrong?
+  630| Mikhail: Ah, nothing is.  For safety's sake I'll be standing by in the
+  631|          sanctuary.  Who can say what's going to happen from here on out.
+  632| Alice:   Okay.  I appreciate it.
+  633| 
+  634|   /Mikhail leaves/
+  635| 
+  636| Alice:   So, what next?  Hurry back down to the labyrinth? Or perhaps rest for
+  637|          a bit?
+  638| 
+  639| -------> (Optional) Visit Lucille in the Maid's Room.
+  640| 
+  641| Lucille: Miss, what have you come here for?
+  642| Alice:   Just visiting.
+  643| Lucille: Since you've apparently got the time to dawdle about in my humble
+  644|          little room, how about you take your leave?  If you don't hurry up the
+  645|          professor's surely going to.... kekekeke.
+  646| Alice:   D-don't say frightening things like that!  And speaking of, that laugh
+  647|          creeps me out so it'd be great if you could put the kibosh on it.
+   ...
+ 2170| Alice:   ......  Okay!
+ 2171| Nabokov: Good.  Then, let's begin.
+ 2172| 
+ 2173|   /Astulla ceremony starts/
+ 2174| 
+ 2175| Mikhail: Hear our prayer.
+ 2176| Nabokov: We command you.
+ 2177| Mikhail: Mother of all life, oh endless land.
+ 2178| Nabokov: How beautiful your flows, wavering water.
+ 2179| Mikhail: Time passing and time lost, we now call for your return!
+ 2180| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 2181| 
+ 2182|   /Flashback ends/
+ 2183| 
+ 2184| Alice: The environment around us has changed completely.
+ 2185| 
+ 2186|   /Alice walks/
+ 2187| 
+ 2188| Alice: However, Mikhail is serving as our butler just as before.
+ 2189| 
+ 2190|   /Alice walks/
+ 2191| 
+ 2192| Alice: Father, as usual, is doing nothing but research, research, research.
+ 2193|        I wish he would spend a bit more time with me.  It's just a smidge,
+ 2194|        but some days I can feel a little lonely.
+ 2195| 
+ 2196|   /Alice walks/
+ 2197| 
+ 2198| Alice: But, that's okay.  Because no matter what, now I am.....
+ 2199| 
+ 2200|   /Alice enters the library/
+ 2201| 
+ 2202| Alice: I have been reborn, now as a regular everyday human being.
+ 2203| 

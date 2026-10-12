@@ -1,0 +1,62 @@
+[
+ {
+  "idx": 0,
+  "gline": 1071,
+  "en": "Ah, smells good!"
+ },
+ {
+  "idx": 1,
+  "gline": 1075,
+  "en": "Lucille, have you finished preparing tonight's meal?"
+ },
+ {
+  "idx": 11,
+  "gline": 1076,
+  "en": "Hello, Miss.  Why are you in here?  The food isn't ready yet.  In fact, you're getting underfoot, so would you mind taking your leave?"
+ },
+ {
+  "idx": 8,
+  "gline": 1078,
+  "en": "Oh this looks tasty.  Think I'll take a sample.  *nab*"
+ },
+ {
+  "idx": 4,
+  "en": null,
+  "note": "sfx: not in guide (*nab*)"
+ },
+ {
+  "idx": 5,
+  "gline": 1079,
+  "en": "My!"
+ },
+ {
+  "idx": 10,
+  "gline": 1079,
+  "en": "Mind your manners, young lady!"
+ },
+ {
+  "idx": 6,
+  "gline": 1080,
+  "en": "No biggie, no biggie."
+ },
+ {
+  "idx": 3,
+  "gline": 1081,
+  "en": "Huhu.  Shameful.  You're scavenging like a hyena."
+ },
+ {
+  "idx": 7,
+  "gline": 1082,
+  "en": "Huhu, whatever you say. *munch munch*...."
+ },
+ {
+  "idx": 9,
+  "gline": 1083,
+  "en": "*G, gack.* What is this?!"
+ },
+ {
+  "idx": 2,
+  "gline": 1083,
+  "en": "My body's going numb."
+ }
+]

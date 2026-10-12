@@ -1,0 +1,1102 @@
+FILE sp_home041.sp  (166 strings, dialogue order)
+
+idx=17  spk=Alice(105)  auto_gline=387
+  JP: ？{WAIT}礼拝堂？{NL}なんで、迷宮の中にこんなのがあるの？
+  EN: Well, what else would you have me do?  Leave him there to rot?
+idx=54  spk=Alice(104)  auto_gline=389
+  JP: えっ！{NL}ミヒャエル！？
+  EN: Then I guess our only option is for me to go.
+idx=103  spk=Mikhail(110)  auto_gline=390
+  JP: おお、お嬢さま。{NL}よくぞ、ご無事で。
+  EN: But yet!  Milady, I can't allow you to place yourself in harm's way.
+idx=146  spk=Alice(106)  auto_gline=391
+  JP: あなた、なにしてるのよ！{NL}屋敷で待ってるんじゃなかったの！？
+  EN: Oh, I'll be fine.  After all, I've got this dress you made for me, don't I. *spin*  This magic dress I'm wearing!
+idx=6  spk=Mikhail(110)  auto_gline=393
+  JP: お嬢さまのお手伝いをしたく思いまして、ここでお待ちしておりました。
+  EN: To be sure, with that dress' powers you do at least stand a chance.
+idx=108  spk=Alice(105)  auto_gline=394
+  JP: あなたが、ねえ？{NL}へえー？{WAIT}ふーん？
+  EN: Right?!
+idx=81  spk=Mikhail(112)  auto_gline=395
+  JP: な、なんですか。なぜ、そのような目でわたくしを見るのです？
+  EN: Though that doesn't change the fact that it's hardly safe.  I'm not certain I could allow it in good conscience...
+idx=24  spk=Alice(105)  auto_gline=397
+  JP: べーつーにー。
+  EN: "It has to be me!"
+idx=98  spk=Mikhail(112)  auto_gline=398
+  JP: ……。
+  EN: !
+idx=2  spk=Alice(100)  auto_gline=399
+  JP: それでぇ？{WAIT}なにを手伝ってくれるのぉ？
+  EN: Father must be down there, waiting for me to come help him!  I can't let his hopes be in vain.
+idx=161  spk=Mikhail(110)  auto_gline=401
+  JP: コホン。{NL}では、お嬢さま。まず、そちらを見てください。
+  EN: I..see.  I understand how you feel.  And yet I worry...
+idx=165  spk=Alice(105)  auto_gline=402
+  JP: ？{WAIT}なによ、あれ？
+  EN: Well then, how about you come along with me?
+idx=140  spk=Mikhail(110)  auto_gline=403
+  JP: とりあえず、そちらにお立ちになってください。
+  EN: This is a task you are uniquely qualified for, milady.  Very well. I'll entrust his fate to you.
+idx=7  spk=Alice(105)  auto_gline=405
+  JP: え？{WAIT}なんでよ？
+  EN: Whoa, instant flip-flop o_O.
+idx=83  spk=Mikhail(111)  auto_gline=406
+  JP: いいから、早くっ！
+  EN: What have we here?  You're not already on your way?
+idx=61  spk=Alice(103)  auto_gline=407
+  JP: はいはい、わかったわよ。{NL}どならないでよ。
+  EN: You'd have me set off just like this?  Empty-handed?
+idx=47  spk=Alice(100)  auto_gline=409
+  JP: これでいい？
+  EN: Food, for starters, would be nice.
+idx=18  spk=Alice(106)  auto_gline=409
+  JP: えっ？{NL}ちょ、ちょっと！{NL}なによ、これ！？
+  EN: And perhaps a lantern and matches...
+idx=117  spk=Alice(103)  auto_gline=474
+  JP: きゃーーーっ。
+  EN: Sorry I kept you waiting, Mikhail.
+idx=152  spk=Alice(102)  auto_gline=477
+  JP: ミヒャエルっ！
+  EN: Aw give it a rest.  I'm not a kid anymore!
+idx=59  spk=Mikhail(113)  auto_gline=478
+  JP: な、なんですか。{NL}いきなり？
+  EN: I know, but I am still concerned for your well-being.
+idx=84  spk=Alice(102)  auto_gline=479
+  JP: あなた、{FE02}ゲノムロイド{FE00}って知らない？
+  EN: I'll be fine.  As long as I have this magic dress, I needn't worry no matter how perilous the going gets.  Isn't that right?
+idx=96  spk=Mikhail(113)  auto_gline=481
+  JP: ！
+  EN: ......
+idx=128  spk=Mikhail(112)  auto_gline=None
+  JP: い、いえ、残念ながら。
+  EN: -
+idx=38  spk=Alice(105)  auto_gline=482
+  JP: えぇー？{WAIT}本当にぃ？
+  EN: What's with that reaction?
+idx=70  spk=Mikhail(112)  auto_gline=483
+  JP: は、はい。{NL}全然、全く、これっぽっちも知りません。
+  EN: Ah, pardon me.  I meant no offense.
+idx=118  spk=Alice(105)  auto_gline=484
+  JP: おかしいわねぇ。{NL}お父さまが研究してた物らしいんだけどぉ。{NL}助手のあなたが、知らないはずがないのに。
+  EN: Mikhail, don't tell me you lack confidence in your own handiwork.
+idx=105  spk=Mikhail(112)  auto_gline=485
+  JP: そ、そう言われましても、{NL}わたくしは、その……。
+  EN: N, nothing of the sort!  Surely everything will be fine.
+idx=162  spk=Alice(105)  auto_gline=486
+  JP: あやしいわねぇ。
+  EN: Suuuurely?
+idx=15  spk=Alice(100)  auto_gline=488
+  JP: ……わかったわ。
+  EN: You daaaaresay?
+idx=151  spk=Mikhail(113)  auto_gline=489
+  JP: えっ？
+  EN: I e-expect.
+idx=120  spk=Alice(102)  auto_gline=490
+  JP: もう、いいわ！{NL}自分で調べるから！
+  EN: Oh come on!  Mikhail!
+idx=147  spk=Mikhail(113)  auto_gline=491
+  JP: お、お嬢さま！？
+  EN: That being the conclusion I've reached --
+idx=127  spk=Alice(102)  auto_gline=495
+  JP: ミヒャエル、止めないでよね！
+  EN: Kyaa!
+idx=37  spk=Alice(102)  auto_gline=495
+  JP: あなたがおしえてくれないから、いけないんだから！
+  EN: H-hey, no pushing!
+idx=0  spk=Mikhail(112)  auto_gline=496
+  JP: ……わかりました。
+  EN: Take care, and safe journeys.
+idx=39  spk=Alice(100)  auto_gline=507
+  JP: さて、と。{NL}どこから調べましょうか？
+  EN: What on Earth is this..?  It's horribly creepy.
+idx=67  spk=Alice(100)  auto_gline=565
+  JP: 手がかりがありそうなのは地下実験室よね。
+  EN: Does this lead anywhere?  How about I take a little look-see.
+idx=27  spk=Alice(101)  auto_gline=569
+  JP: よし！{NL}早速、行ってみましょ。
+  EN: ?  A sanctuary?  Why would something like this be inside a labyrinth?
+idx=123  spk=Alice(103)  auto_gline=570
+  JP: うっ……。
+  EN: Eh?  Mikhail?!
+idx=138  spk=Mikhail(113)  auto_gline=571
+  JP: アリスお嬢さま？{NL}どうされました？
+  EN: Yes, milady.  I'm so pleased to see you doing well.
+idx=154  spk=Alice(105)  auto_gline=572
+  JP: ちょ、ちょっとね。{NL}めまいがして……。
+  EN: What on Earth are you doing here?  Weren't you waiting back at the manor?!
+idx=10  spk=Mikhail(113)  auto_gline=574
+  JP: だ、大丈夫ですか？
+  EN: I waited here figuring that I might be of some assistance to you.
+idx=121  spk=Mikhail(113)  auto_gline=576
+  JP: 念のために、屋敷に戻って休まれた方がよいのではありませんか？
+  EN: What is it.  Why might you be looking at me like that?
+idx=145  spk=Alice(105)  auto_gline=577
+  JP: 大げさね。大丈夫よ。{NL}ちょっと休めば……。
+  EN: No-rea-son.
+idx=110  spk=Alice(103)  auto_gline=579
+  JP: あ、ああっ！
+  EN: So, what are you here to help me with?
+idx=144  spk=Mikhail(113)  auto_gline=580
+  JP: アリスお嬢さま！？
+  EN: Ahem.  Well then, milady.  First, please look over there.
+idx=109  spk=Mikhail(113)  auto_gline=582
+  JP: お嬢さま！{NL}アリスお嬢さま！！
+  EN: For now, please go stand there.
+idx=99  spk=Mikhail(110)  auto_gline=612
+  JP: お帰りなさいませ。{NL}ご無事でなによりです。
+  EN: In short, this is what I can do to assist you.
+idx=22  spk=Mikhail(110)  auto_gline=614
+  JP: ワープゲートはちゃんと機能しております。ご安心くださいませ。
+  EN: I have created magic gates that link the manor and the sanctuaries together.
+idx=89  spk=Mikhail(110)  auto_gline=614
+  JP: では、気をつけて行ってらっしゃいませ。
+  EN: Being able to come and go from the labyrinth as you please should ease your journey, I think.
+idx=114  spk=Alice(102)  auto_gline=617
+  JP: ミヒャエル！{NL}あなた、{FE02}ゴアダリス{FE00}の壊し方を知ってる？
+  EN: Wow, that's quite something, Mikhail.
+idx=137  spk=Mikhail(113)  auto_gline=618
+  JP: {FE02}ゴアダリス{FE00}！{NL}お嬢さま、どこでそれを？
+  EN: Huhuhu.  That isn't the only feature of the sanctuaries, either.  Have you noticed, milady?
+idx=158  spk=Alice(103)  auto_gline=620
+  JP: お父さまが、それに閉じこめられていたの。
+  EN: Noticed what?
+idx=133  spk=Mikhail(110)  auto_gline=621
+  JP: さようですか。
+  EN: Your lives and DP have all been restored.
+idx=69  spk=Mikhail(112)  auto_gline=621
+  JP: ふむ。{NL}それは、やっかいでございますね。
+  EN: -
+idx=29  spk=Alice(103)  auto_gline=622
+  JP: ねえ、ミヒャエル。{NL}どうにかならないの？{NL}ねえ？{WAIT}ねえ？
+  EN: Oh!  Now that you mention it, I do feel...  but, how?
+idx=157  spk=Mikhail(112)  auto_gline=623
+  JP: 手段が全くないわけではないのですが。
+  EN: The holy power of the sanctuary has rejuvinated your body, milady.
+idx=58  spk=Alice(105)  auto_gline=624
+  JP: じゃあ、とっととおしえなさいよ。
+  EN: So I see.  Thank you, Mikhail.  This will help a ton.
+idx=106  spk=Mikhail(112)  auto_gline=625
+  JP: それは、とても面倒な事でございまして。
+  EN: You're welcome.  It was the least I could do.
+idx=87  spk=Alice(102)  auto_gline=626
+  JP: ああ、もうっ！{NL}ゴチャゴチャ言ってないで早くおしえなさいよ！
+  EN: It will be good to pace myself so I don't run out of steam.
+idx=66  spk=Alice(102)  auto_gline=626
+  JP: お父さまを助けられるのなら、なんだってやってみせるから！
+  EN: You should too, Mikhail.
+idx=35  spk=Mikhail(110)  auto_gline=628
+  JP: わかりました。では、お嬢さまにさがしてもらいたい物があります。
+  EN: ......
+idx=20  spk=Alice(100)  auto_gline=629
+  JP: なにをさがせばいいの？
+  EN: Oh, what's wrong?
+idx=88  spk=Mikhail(110)  auto_gline=630
+  JP: 博士を助けるためには、{NL}聖なるアイテムが二つ、{NL}必要になります。
+  EN: Ah, nothing is.  For safety's sake I'll be standing by in the sanctuary.  Who can say what's going to happen from here on out.
+idx=36  spk=Alice(105)  auto_gline=632
+  JP: 聖なるアイテム？{NL}それって一体なんなの？
+  EN: Okay.  I appreciate it.
+idx=60  spk=Mikhail(112)  auto_gline=753
+  JP: わかりません。{NL}邪悪なモノを破る聖なるアイテムだとしか……。
+  EN: Milady you must be tired.  Would you take a short break here?
+idx=44  spk=Alice(100)  auto_gline=754
+  JP: わかったわ。{NL}それで？{NL}それはどこにあるの？
+  EN: Nah, I'm hurrying ahead.
+idx=79  spk=Mikhail(112)  auto_gline=755
+  JP: おそらく、迷宮のどこかにあるのではないかと思うのですが、くわしくは……。
+  EN: I see.  You sure are pushing yourself hard, milady.
+idx=42  spk=Alice(105)  auto_gline=756
+  JP: どこにあるのか、全くわからない。
+  EN: Aw, no backseat adventuring, please.
+idx=72  spk=Alice(105)  auto_gline=756
+  JP: それどころか……一体、どんな物なのさえも、わからない。{NL}確かに面倒ね。
+  EN: Unless you're asking to take over for me?
+idx=122  spk=Alice(102)  auto_gline=759
+  JP: でも、やるしかないわ！
+  EN: Dodging the issue, are we?
+idx=3  spk=Mikhail(110)  auto_gline=760
+  JP: 行かれますか？
+  EN: W-well...
+idx=26  spk=Alice(102)  auto_gline=761
+  JP: ええ、絶対に見つけ出してみせるわ！
+  EN: No matter.  Continue.
+idx=71  spk=Mikhail(110)  auto_gline=762
+  JP: もし、お見つけになられたら、一度こちらにお戻りくださいませ。
+  EN: Certainly.  I had a thought: Your late mother used to be skilled in dressmaking.  There's a pattern that might still be in her room.
+idx=132  spk=Alice(100)  auto_gline=877
+  JP: わかったわ。
+  EN: Awww, she left.
+idx=164  spk=Alice(105)  auto_gline=878
+  JP: とは言ったものの。{NL}手がかりがないんじゃ、さすがにねえ。{NL}とりあえず、情報をあつめなきゃ。
+  EN: So it was Father's research, huh.  Racking my brain doesn't help; that just makes it clear how little I really know about him and his work. Guess I should try to do some investigating.  Let's see...  There might be something about this in our study.  Let's head back to the manor.
+idx=9  spk=Alice(100)  auto_gline=886
+  JP: ヴァンパイアにでも聞いてみる？{WAIT}物知りそうだし。
+  EN: All righty.  Wonder if there'll be anything here.
+idx=82  spk=Alice(101)  auto_gline=892
+  JP: ミヒャエル、見つけたわ！{NL}{FE02}聖書{FE00}と{FE02}聖水{FE00}！
+  EN: Nope, nothing relevant in here...
+idx=50  spk=Alice(101)  auto_gline=1205
+  JP: ほら、見て！{NL}聖なるアイテムって、これでいいんでしょ？
+  EN: Do you know anything about something called a genomroid?
+idx=113  spk=Mikhail(110)  auto_gline=1206
+  JP: おおっ！{NL}それです！{NL}それでございます！
+  EN: !  N-no, unfortunately I don't.
+idx=53  spk=Alice(101)  auto_gline=1207
+  JP: よかった！{NL}これさえあれば、お父さまを助けられるんでしょ？
+  EN: Eh?  Are you sure?
+idx=41  spk=Mikhail(110)  auto_gline=1208
+  JP: いえ、それだけでは、まだ不十分です。これをお持ちください。
+  EN: Y-yes.  I completely, absolutely, know not even a smidgen.
+idx=107  spk=Alice(105)  auto_gline=1209
+  JP: なにこれ、型紙？{NL}なに？{WAIT}これでドレスを作れって言うの？
+  EN: That's odd.  Genomroid was Father's research project.  Being his assistant, there's no way you couldn't know.
+idx=68  spk=Mikhail(110)  auto_gline=1211
+  JP: さようでございます。
+  EN: Although you say that, I, er...
+idx=85  spk=Mikhail(110)  auto_gline=1363
+  JP: それらが全てそろった時、きっと、なにかがおこるはずです。
+  EN: Ah, you're back with us.
+idx=149  spk=Alice(105)  auto_gline=1364
+  JP: なにかって、なによ？
+  EN: Mikhail?  Huh?  Wait, why am I in my room?
+idx=143  spk=Mikhail(110)  auto_gline=1365
+  JP: その時になれば、全てがわかります。今は、わたくしを信じてくださいませ。
+  EN: Ah, do you not remember what happened?  How you blacked out all of a sudden?
+idx=76  spk=Alice(100)  auto_gline=1367
+  JP: わかったわ、ミヒャエル。{NL}あなたを信じる。
+  EN: Now that you mention it, that does sound familiar.
+idx=134  spk=Mikhail(110)  auto_gline=1368
+  JP: ありがとうございます。{NL}では、お嬢さま。ミシン部屋へお急ぎを！
+  EN: Goodness.  Well, you ought to allow yourself to rest here for a time I think.
+idx=31  spk=Alice(100)  auto_gline=1370
+  JP: ええ！
+  EN: Nah, I'm all good now.
+idx=90  spk=None(None)  auto_gline=1371
+  JP: 魔法のドレス{NL}{FE02}アーガス{FE00}の型紙{NL}を手に入れた
+  EN: Whatever are you saying!  You've only just now awoken!
+idx=56  spk=Alice(100)  auto_gline=1372
+  JP: {FE02}聖水{FE00}はゲットしたわ。{NL}もう一つの方も、早く見つけなきゃ。
+  EN: But, I really am fine.  Look at this.  See how energetic I am?
+idx=97  spk=Alice(100)  auto_gline=1375
+  JP: {FE02}聖書{FE00}はゲットしたわ。{NL}もう一つの方も、早く見つけなきゃ。
+  EN: But, Father needs....
+idx=5  spk=Alice(101)  auto_gline=1378
+  JP: 聖なるアイテムが、二つそろったわ。
+  EN: You're being such a worrywart, Mikhail.  I truly do feel right as rain.
+idx=93  spk=Alice(101)  auto_gline=1383
+  JP: さっ、ミヒャエルに見せに行きましょ。
+  EN: There, you see?
+idx=62  spk=Mikhail(110)  auto_gline=1384
+  JP: {FE02}アーガス{FE00}のドレス{NL}を作るためには……。
+  EN: P-please stop that!  Do you have a death wish?!
+idx=4  spk=Mikhail(110)  auto_gline=1386
+  JP: {FE02}アクバル{FE00}、{FE02}テューヌ{FE00}、{NL}{FE02}フォモル{FE00}、{FE02}オレウス{FE00}{NL}が必要になります。
+  EN: You were finally able to sustain life through the harvesting of outside energy!
+idx=148  spk=Mikhail(110)  auto_gline=1386
+  JP: これらの材料は地下30階のモンスターたちが、よく持っているそうです。
+  EN: Those magic dresses you've been using are bound to that selfsame life force. If you carelessly overuse them then...!
+idx=155  spk=Mikhail(110)  auto_gline=1389
+  JP: がんばって下さい。{NL}お嬢さま。
+  EN: Haa, haa.. (breathing heavily)
+idx=28  spk=Alice(105)  auto_gline=1390
+  JP: でもドレスなんて、どこで作ればいいの？
+  EN: Tell me, what did you mean by all that?
+idx=131  spk=Mikhail(110)  auto_gline=1391
+  JP: この迷宮内には、どうやら無数のミシン部屋があるようです。
+  EN: Sorry, I got carried away.  Please forget I said anything.
+idx=51  spk=Alice(104)  auto_gline=1636
+  JP: え？{WAIT}そうなの？{NL}それで？{WAIT}使えるの、そのミシン？
+  EN: I found father being held inside one.
+idx=1  spk=Mikhail(110)  auto_gline=1637
+  JP: はい。先ほど調べてみましたが、あれでしたら……。
+  EN: Is that so.  Hmm..  That presents quite the problem.
+idx=30  spk=Alice(101)  auto_gline=1638
+  JP: わかったわ。{NL}じゃあ、行って来る！
+  EN: Well, Mikhail.  Isn't there some way to break it?  Well?  Well?
+idx=14  spk=Mikhail(110)  auto_gline=1639
+  JP: お嬢さま。{NL}聖なるアイテムはそろいましたか？
+  EN: It's not as though we have zero options, but...
+idx=135  spk=Alice(100)  auto_gline=1640
+  JP: {FE02}聖水{FE00}は手に入れたけど、{NL}もう一つは、まだよ。
+  EN: Okay, please tell me what needs to be done.
+idx=74  spk=Mikhail(112)  auto_gline=1641
+  JP: お急ぎください！{NL}あまり時間がありません！
+  EN: This is going to be rather troublesome.
+idx=45  spk=Alice(103)  auto_gline=1642
+  JP: わかってるわよ！{NL}でも、なにも手がかりがないんじゃ……。
+  EN: Oh sheesh.  Stop beating around the bush and spill it, would you! I'm willing to try anything I have to if it means being able to save Father.
+idx=34  spk=Mikhail(112)  auto_gline=1645
+  JP: そ、そうですか。
+  EN: Very well.  In that case there are some things I must ask you to find.
+idx=64  spk=Alice(103)  auto_gline=1647
+  JP: ささいな事でもいいわ。{NL}なにか思いつかないの？{NL}ミヒャエル？
+  EN: What should I be looking for?
+idx=33  spk=Mikhail(112)  auto_gline=1648
+  JP: そう言われましても……。
+  EN: Two sacred items are required to free the professor.
+idx=159  spk=Mikhail(110)  auto_gline=1650
+  JP: もしかすると……。
+  EN: I do not know.
+idx=65  spk=Mikhail(110)  auto_gline=1650
+  JP: 魔法使いならば、なにか知っているかもしれません。
+  EN: I suppose they'd have to be ones that could wear down evil power...
+idx=52  spk=Alice(100)  auto_gline=1652
+  JP: なんで？
+  EN: All right.  And?  Where are those going to be?
+idx=57  spk=Mikhail(110)  auto_gline=1653
+  JP: 聖なるアイテムとは、魔法に関係するものだと聞いております。{NL}ですから、きっと彼らならば……。
+  EN: Most likely somewhere inside the labyrinth.  I'm a bit lacking in particulars....
+idx=32  spk=Alice(101)  auto_gline=1655
+  JP: わかったわ、ミヒャエル！{NL}魔法使いをさがしてみる！
+  EN: Great.  I'm clueless as to where I should start looking, and I don't know much about what I'm looking for.  I agree, that certainly is a pain.  But I've got to go through with it!
+idx=141  spk=Mikhail(110)  auto_gline=1658
+  JP: 行ってらっしゃいませ。{NL}お気をつけて。
+  EN: Can you handle it?
+idx=125  spk=Mikhail(110)  auto_gline=1660
+  JP: さあ、お嬢さま！{NL}その{FE02}聖剣{FE00}で博士を助け出すのです！
+  EN: If you should locate anything, please bring it here at once.
+idx=23  spk=Alice(100)  auto_gline=1661
+  JP: ええ、わかってるわ！{NL}私に任せて！
+  EN: All right.
+idx=77  spk=None(None)  auto_gline=1663
+  JP: 神よ。{NL}あわれみたまえ。
+  EN: Alice begins walking away
+idx=156  spk=None(None)  auto_gline=1697
+  JP: 神よ。{NL}いま一度、この娘に生きる力をあたえたまえ。
+  EN: Flashes
+idx=163  spk=None(None)  auto_gline=1702
+  JP: 神よ。{NL}大いなる天より来たりて、その力を現したまえ。
+  EN: Obtained holy water
+idx=142  spk=Alice(104)  auto_gline=1707
+  JP: ハッ！？
+  EN: I've got myself some holy water.
+idx=46  spk=Alice(106)  auto_gline=1707
+  JP: な、なに？{NL}なにがおきたの！？
+  EN: Better find the other one fast.
+idx=63  spk=Mikhail(110)  auto_gline=1711
+  JP: よかった。{NL}お目覚めになったようですね。
+  EN: Milady.  Have you gathered the sacred items?
+idx=102  spk=Alice(104)  auto_gline=1712
+  JP: ミヒャエル！？
+  EN: I found holy water, but I'm still working on the other one.
+idx=116  spk=Alice(103)  auto_gline=1712
+  JP: あ、そうか。{NL}私ったら、あの時……。
+  EN: -
+idx=49  spk=Mikhail(111)  auto_gline=1713
+  JP: 今回は、復活の儀式が間にあいましたから、よいようなものを……。
+  EN: Please try to hurry!  We don't have much more time!
+idx=55  spk=Mikhail(111)  auto_gline=1715
+  JP: 次もこのように上手く行くとは限りませんよ！？
+  EN: I-I see.
+idx=12  spk=Alice(103)  auto_gline=1716
+  JP: ご、ごめんなさい。
+  EN: Anything at all no matter how small would help.  Can you think of anything, Mikhail?
+idx=13  spk=Mikhail(111)  auto_gline=1718
+  JP: お止めはいたしませんが、{NL}これからは、もっと気をつけてください！
+  EN: I wish I could, but...  Actually, I wonder.
+idx=48  spk=Alice(103)  auto_gline=1719
+  JP: わ、わかったわ。
+  EN: Eh?
+idx=73  spk=Mikhail(110)  auto_gline=1720
+  JP: それでは、行ってらっしゃいませ。今度こそ、お気をつけて。
+  EN: The wizards might know something useful.
+idx=101  spk=None(None)  auto_gline=None
+  JP: 神よ。天よ。{NL}いま一度、この娘に生きる力をあたえたまえ。
+  EN: -
+idx=119  spk=None(None)  auto_gline=None
+  JP: 神よ。大地よ。{NL}無限なるその力を、今こそここに現したまえ。
+  EN: -
+idx=153  spk=Alice(105)  auto_gline=1721
+  JP: はっ！？
+  EN: Why's that?
+idx=92  spk=Mikhail(110)  auto_gline=1722
+  JP: よかった。{NL}無事にお目覚めになられたようですね。
+  EN: Sacred items and magic are related, or so I've heard.  Thus it stands to reason they ought to...
+idx=94  spk=Alice(104)  auto_gline=1724
+  JP: あっ！{WAIT}ここは礼拝堂？
+  EN: Makes sense, Mikhail!
+idx=8  spk=Alice(103)  auto_gline=1724
+  JP: ああ、私ったら、またやっちゃったのね。
+  EN: I'll try looking for a wizard!
+idx=91  spk=Mikhail(111)  auto_gline=1725
+  JP: あれほど気をつけてくださいと言いましたのに、あなたときたら！
+  EN: Good luck.  And take care.
+idx=104  spk=Alice(101)  auto_gline=1730
+  JP: エヘッ。
+  EN: Hey, got a sec?
+idx=19  spk=Mikhail(111)  auto_gline=1776
+  JP: 「エヘッ」{NL}じゃ、ありません！{NL}まったく、あなたは！
+  EN: No, collecting those was just step one.  Please take this.
+idx=139  spk=Alice(105)  auto_gline=1777
+  JP: 大きな声を出さないでよ。{NL}次からは気をつけるから、もういいでしょ？
+  EN: What's this, a pattern?  Hm?  Does that mean step two is sewing a dress from this?
+idx=130  spk=Mikhail(110)  auto_gline=1779
+  JP: ふう、仕方ありませんね。今度こそ、気をつけてください。
+  EN: You are correct, milady.  And, once you've finished everything, something ought to happen.
+idx=136  spk=Alice(100)  auto_gline=1781
+  JP: わかってるって！{NL}じゃあ、行ってくるわね。
+  EN: And what is that something?
+idx=112  spk=Mikhail(110)  auto_gline=1782
+  JP: 行ってらっしゃいませ。
+  EN: You'll see when the time comes.  For now please just trust me.
+idx=40  spk=Alice(101)  auto_gline=1783
+  JP: エ、エヘッ。
+  EN: Fair enough, Mikhail.  I'll take your word for it.
+idx=126  spk=Mikhail(112)  auto_gline=1784
+  JP: はぁ……。{NL}もう、なにも言いません。
+  EN: You have my thanks.  Now, milady.  Hurry to a sewing room!
+idx=43  spk=Mikhail(110)  auto_gline=2086
+  JP: 行ってらっしゃいませ。{NL}お嬢さま。
+  EN: Milady.  Good morning.
+idx=150  spk=Alice(100)  auto_gline=2087
+  JP: ミヒャエル。{NL}おつかれさま。
+  EN: Oh, 'morning.  Nice day, isn't it.
+idx=124  spk=Mikhail(110)  auto_gline=2088
+  JP: お嬢さま、おつかれでしょう。少しだけ、休んでいかれますか？
+  EN: I have finished preparing breakfast, so if you would please make your way to the dining room.
+idx=111  spk=Alice(100)  auto_gline=2090
+  JP: ううん。先を急ぐから。
+  EN: Okay, I will.  What about Father?
+idx=160  spk=Mikhail(110)  auto_gline=2091
+  JP: そうですか。{NL}お嬢さまも大変でございますね。
+  EN: He is still asleep.
+idx=100  spk=Alice(105)  auto_gline=2092
+  JP: はあ、ひと事のように言ってくれちゃってぇ。{NL}じゃあ、代わってくれる？
+  EN: That figures.  Sheesh.  He's turned into such a lazy bum since he got back.
+idx=80  spk=Mikhail(113)  auto_gline=2094
+  JP: えっ！？
+  EN: That's certainly an exaggeration.  It must be his research work that exhausts him so.
+idx=78  spk=Mikhail(112)  auto_gline=2094
+  JP: いや、その……。{NL}それは、その……。
+  EN: -
+idx=16  spk=Mikhail(113)  auto_gline=2094
+  JP: あ、そう言えば！
+  EN: -
+idx=115  spk=Alice(105)  auto_gline=2096
+  JP: ごまかそうとしてるわね？
+  EN: Well, either way.  All righty, I'll go wake him up myself.
+idx=21  spk=Mikhail(112)  auto_gline=2097
+  JP: そ、それは……。
+  EN: Gently, please, if you would.
+idx=11  spk=Alice(105)  auto_gline=2098
+  JP: ま、いいわ。{NL}つづけて。
+  EN: Huhu, I know.
+idx=25  spk=Mikhail(110)  auto_gline=None
+  JP: はあ。{NL}あの、今、思い出した事なのですが……。
+  EN: -
+idx=129  spk=Mikhail(110)  auto_gline=None
+  JP: 亡くなられた奥さまも、よくドレスを作っておられました。{NL}もしかすると、その型紙が今も奥さまのお部屋に残っているかもしれません。
+  EN: -
+idx=75  spk=Alice(100)  auto_gline=None
+  JP: へえ。おかあさまが……。
+  EN: -
+idx=95  spk=Mikhail(110)  auto_gline=None
+  JP: 一度、おさがしになってはいかがでしょうか？
+  EN: -
+idx=86  spk=Alice(101)  auto_gline=None
+  JP: わかったわ。{NL}ありがとう、ミヒャエル。
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  373| 
+  374| Alice:   So Father's down here?
+  375| Mikhail: Yes.  Ghoulish creatures crawled up through that fissure and abducted
+  376|          the professor.
+  377| Alice:   Monsters grabbed Father?  But why would they?
+  378| Mikhail: Who can say?
+  379| Alice:   Well, Mikhail, what should we do about it?
+  380| Mikhail: How do you believe we ought to proceed?
+  381| Alice:   Bleh, you're useless.
+  382| Mikhail: Huh?  Might you have just said something?
+  383| Alice:   Nope, not a thing.  All right, Mikhail, I've made up my mind.
+  384| Mikhail: Yes, about what?
+  385| Alice:   I'm going to go rescue Father!
+  386| Mikhail: Y-you shan't!  That's too dangerous!
+  387| Alice:   Well, what else would you have me do?  Leave him there to rot?
+  388| Mikhail: Bestill my heart no!  I wouldn't dream of it.
+  389| Alice:   Then I guess our only option is for me to go.
+  390| Mikhail: But yet!  Milady, I can't allow you to place yourself in harm's way.
+  391| Alice:   Oh, I'll be fine.  After all, I've got this dress you made for me,
+  392|          don't I. *spin*  This magic dress I'm wearing!
+  393| Mikhail: To be sure, with that dress' powers you do at least stand a chance.
+  394| Alice:   Right?!
+  395| Mikhail: Though that doesn't change the fact that it's hardly safe.  I'm not
+  396|          certain I could allow it in good conscience...
+  397| Alice:   "It has to be me!"
+  398| Mikhail: !
+  399| Alice:   Father must be down there, waiting for me to come help him!  I can't
+  400|          let his hopes be in vain.
+  401| Mikhail: I..see.  I understand how you feel.  And yet I worry...
+  402| Alice:   Well then, how about you come along with me?
+  403| Mikhail: This is a task you are uniquely qualified for, milady.  Very well.
+  404|          I'll entrust his fate to you.
+  405| Alice:   Whoa, instant flip-flop o_O.
+  406| Mikhail: What have we here?  You're not already on your way?
+  407| Alice:   You'd have me set off just like this?  Empty-handed?
+  408| Mikhail: What would you want to bring, aside from the magic dress?
+  409| Alice:   Food, for starters, would be nice.  And perhaps a lantern and
+  410|          matches...
+  411| Mikhail: Understood.  I'll ask our maid to prepare those items for you.
+  412|          Milady, please wait in your room.  Now if you'll excuse me.
+  413| 
+  414|   /Transistion to Alice's Bedroom/
+  415|   /Knock, knock, knock/
+  416| 
+  417| Lucille: Excuse me, I'm coming in.  Miss, I brought the items you requested.
+  418| Alice:   Thank you, Lucille.  And with that, I should be all set to go.  Let
+  419|          me do one last check to be sure I'm ready.  Let's see...  Food,
+  420|          water, lantern, matches...
+  421| Lucille: Heheh, Miss, why not quit now while you're ahead?
+  422| Alice:   Huh, what?  You're saying there's no point in double-checking my
+  423|          provisions?  It wouldn't do to forget anything important.
+  424| Lucille: Nah, that's not it.
+   ...
+  460| Lucille: Oh?  Miss, what are you doing wandering about out here?  Surely you're
+  461|          not, l-lost, in your own manor?!  No cause for alarm, right?  If
+  462|          you're looking for the basement it's over this way.  Ohh, but you
+  463|          didn't need me to tell you that did you.  Fefefe.
+  464| 
+  465| ---------> (Optional) Talk to her a second time in the same spot (either one).
+  466| 
+  467| Lucille: For heaven's sake why are you dawdling about?  Get on with it already.
+  468| 
+  469| ---------> Down to the basement and to the next story section.
+  470| 
+  471| 
+  472| [02].Basement Laboratory:
+  473| -------------------------
+  474| Alice:   Sorry I kept you waiting, Mikhail.
+  475| Mikhail: Milady.  Have you packed all you need?  Do you have your
+  476|          handkerchief?  And some tissues?
+  477| Alice:   Aw give it a rest.  I'm not a kid anymore!
+  478| Mikhail: I know, but I am still concerned for your well-being.
+  479| Alice:   I'll be fine.  As long as I have this magic dress, I needn't worry no
+  480|          matter how perilous the going gets.  Isn't that right?
+  481| Mikhail: ......
+  482| Alice:   What's with that reaction?
+  483| Mikhail: Ah, pardon me.  I meant no offense.
+  484| Alice:   Mikhail, don't tell me you lack confidence in your own handiwork.
+  485| Mikhail: N, nothing of the sort!  Surely everything will be fine.
+  486| Alice:   Suuuurely?
+  487| Mikhail: Ah, no, I mean, everything shall be fine.  I daresay.
+  488| Alice:   You daaaaresay?
+  489| Mikhail: I e-expect.
+  490| Alice:   Oh come on!  Mikhail!
+  491| Mikhail: That being the conclusion I've reached --
+  492| 
+  493|   /Alice gets "encouraged" down into the hole/
+  494| 
+  495| Alice:   Kyaa!  H-hey, no pushing!
+  496| Mikhail: Take care, and safe journeys.
+  497| 
+  498| -------> Gameplay starts for real in Labyrinth B1F, now and until the end of
+  499|          this first level.  Get acquainted with your dress power and the game
+  500|          systems in general, and see the level map in section V if desired.
+  501|          The next story trigger will be when you reach the bordermoon orb in
+  502|          the final room of this level.
+  503| 
+  504| 
+  505| [03].Labyrinth B1F Bordermoon Room:
+  506| -----------------------------------
+  507| Alice: What on Earth is this..?  It's horribly creepy.
+  508| 
+  509|   /Flashes/
+  510| 
+  511| Alice: Eh?  Eh?
+  512| 
+  513|   /Flashes/
+  514| 
+  515| Alice: What's happening?
+  516| 
+  517|   /Alice reaches towards the bordermoon and it collapses/
+  518| 
+  519| Alice: .......
+  520| Alice: I-it broke?!  o_O  But, I never even touched it, right?  Right?
+  521| Alice: Erm, well...  I had nooooothing to do with it!
+  522| Voice: ....Alice.
+   ...
+  551|         game.  Before going to B2F, go back through all the rooms of B1F and
+  552|         stomp each monster.  You'll get your first new dress pattern and some
+  553|         items in the process.  You can't craft the dress just yet, but it's
+  554|         good to go ahead and pick it up.  The next story trigger is when you
+  555|         enter B2F.
+  556| 
+  557| 
+  558| [04]. B2F Entry:
+  559| ----------------
+  560| Alice: Oh?
+  561| Alice: Whaaat's that thing?  An arch?
+  562| 
+  563|   /Alice reaches for the arch/
+  564| 
+  565| Alice: Does this lead anywhere?  How about I take a little look-see.
+  566| 
+  567|   /Alice enters/
+  568| 
+  569| Alice:   ?  A sanctuary?  Why would something like this be inside a labyrinth?
+  570| Alice:   Eh?  Mikhail?!
+  571| Mikhail: Yes, milady.  I'm so pleased to see you doing well.
+  572| Alice:   What on Earth are you doing here?  Weren't you waiting back at the
+  573|          manor?!
+  574| Mikhail: I waited here figuring that I might be of some assistance to you.
+  575| Alice:   You did, huh.  Hmmmmmm?
+  576| Mikhail: What is it.  Why might you be looking at me like that?
+  577| Alice:   No-rea-son.
+  578| Mikhail: ......
+  579| Alice:   So, what are you here to help me with?
+  580| Mikhail: Ahem.  Well then, milady.  First, please look over there.
+  581| Alice:   ?  What is that thing?
+  582| Mikhail: For now, please go stand there.
+  583| Alice:   Huh?  Why should I?
+  584| Mikhail: Just go do it!
+  585| Alice:   Okay, okay, I'm going.  No need to shout.
+  586| 
+  587|   /Alice walks over and stands on it/
+  588| 
+  589| Alice:   How's this?
+  590| 
+  591|   /Flashes/
+  592| 
+  593| Alice:   Huh?  W-wait, what is this?
+  594| 
+  595|   /Alice spins/
+  596| 
+  597| Alice:   Kyaaaaaaaaaaa!
+  598| 
+  599|   /Alice emerges in another room/
+  600| 
+  601| Alice:   Eh?  Ehh?!  What just happened and where am I?
+  602| Alice:   This room sure does feel familiar somehow...
+  603| 
+  604|   /Alice exits/
+  605| 
+  606| Alice:   I'm in the manor!?  Was I just transported back home?
+  607| 
+  608|   /Mikhail follows/
+  609| 
+  610| Mikhail: Yes, that is precisely correct.
+  611| Alice:   Mikhail, what's the meaning of this?
+  612| Mikhail: In short, this is what I can do to assist you.
+  613| Alice:   Wha..?
+  614| Mikhail: I have created magic gates that link the manor and the sanctuaries
+  615|          together.  Being able to come and go from the labyrinth as you
+  616|          please should ease your journey, I think.
+  617| Alice:   Wow, that's quite something, Mikhail.
+  618| Mikhail: Huhuhu.  That isn't the only feature of the sanctuaries, either.  Have
+  619|          you noticed, milady?
+  620| Alice:   Noticed what?
+  621| Mikhail: Your lives and DP have all been restored.
+  622| Alice:   Oh!  Now that you mention it, I do feel...  but, how?
+  623| Mikhail: The holy power of the sanctuary has rejuvinated your body, milady.
+  624| Alice:   So I see.  Thank you, Mikhail.  This will help a ton.
+  625| Mikhail: You're welcome.  It was the least I could do.
+  626| Alice:   It will be good to pace myself so I don't run out of steam.  You
+  627|          should too, Mikhail.
+  628| Mikhail: ......
+  629| Alice:   Oh, what's wrong?
+  630| Mikhail: Ah, nothing is.  For safety's sake I'll be standing by in the
+  631|          sanctuary.  Who can say what's going to happen from here on out.
+  632| Alice:   Okay.  I appreciate it.
+  633| 
+  634|   /Mikhail leaves/
+  635| 
+  636| Alice:   So, what next?  Hurry back down to the labyrinth? Or perhaps rest for
+  637|          a bit?
+  638| 
+  639| -------> (Optional) Visit Lucille in the Maid's Room.
+  640| 
+  641| Lucille: Miss, what have you come here for?
+  642| Alice:   Just visiting.
+  643| Lucille: Since you've apparently got the time to dawdle about in my humble
+  644|          little room, how about you take your leave?  If you don't hurry up the
+  645|          professor's surely going to.... kekekeke.
+  646| Alice:   D-don't say frightening things like that!  And speaking of, that laugh
+  647|          creeps me out so it'd be great if you could put the kibosh on it.
+   ...
+  739|         have in inventory, then go monster stomping for more items.  You can
+  740|         make Bekiradin with kuahha + borodi; Scuart with tyuunu + osubiya +
+  741|         awizu; and Litense with roadesu + lisufa + radokuya.  I wasn't able to
+  742|         make Manaclis yet at this point.  Each dress is optional and they can
+  743|         be made in any order, so it's up to you how you want to manage your
+  744|         inventory.  I wanted the full array of powers at my disposal so I made
+  745|         every dress as soon as practical after coming across its pattern.  But
+  746|         you could choose differently.  When ready, continue on with the
+  747|         labyrinth.  The next story trigger is on B5F.
+  748| 
+  749| 
+  750| [06].B5F Sanctuary:
+  751| -------------------
+  752| Alice:   Hi there.
+  753| Mikhail: Milady you must be tired.  Would you take a short break here?
+  754| Alice:   Nah, I'm hurrying ahead.
+  755| Mikhail: I see.  You sure are pushing yourself hard, milady.
+  756| Alice:   Aw, no backseat adventuring, please.  Unless you're asking to take
+  757|          over for me?
+  758| Mikhail: Eh?!  No, I mean..  that is..  well..  Oh, speaking of!
+  759| Alice:   Dodging the issue, are we?
+  760| Mikhail: W-well...
+  761| Alice:   No matter.  Continue.
+  762| Mikhail: Certainly.  I had a thought: Your late mother used to be skilled in
+  763|          dressmaking.  There's a pattern that might still be in her room.
+  764| Alice:   Ohh, my mom was...?
+  765| Mikhail: How about searching for it?
+  766| Alice:   Sure will.  Thank you, Mikhail!
+  767| 
+  768| -------> Go to mother's room in the upper right corner of Manor 2F.
+  769| 
+  770| Alice: Come to think of it, Mikhail mentioned this didn't he.  That there
+  771|        might be a dress pattern in this room.
+  772| 
+  773| -------> Examine the dresser next to the bed.
+  774| 
+  775|   /rustle rustle/
+  776| 
+  777| Alice: Ah!
+   ...
+  863| Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+  864|        grabbed him so that he couldn't do it any more.
+  865| Alice: Do you know where Father is being kept?
+  866| Fairy: I don't know.
+  867| Alice: Ah.  Well how about Father's research topic, then?  Was it really
+  868|        something bad enough to be kidnapped over?
+  869| Fairy: I'd like you to find that out on your own.  You rely on others a bit
+  870|        too much, sister.
+  871| Alice: (I've just been rebuked by a half-pint.)
+  872| Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+  873| Alice: Ah, hey, wait up!
+  874| 
+  875|   /Fairy laughs and leaves/
+  876| 
+  877| Alice: Awww, she left.
+  878| Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+  879|        just makes it clear how little I really know about him and his work.
+  880|        Guess I should try to do some investigating.  Let's see...  There might
+  881|        be something about this in our study.  Let's head back to the manor.
+  882| 
+  883| --------> Go through the sanctuary here on B7F, back to the library/study on
+  884|           the left side of Manor 2F.
+  885| 
+  886| Alice: All righty.  Wonder if there'll be anything here.
+  887| 
+  888| --------> Walk to the desk and touch it.
+  889| 
+  890|   /rummage, rummage/
+  891| 
+  892| Alice: Nope, nothing relevant in here...
+  893| 
+  894|   /rummage, rummage/
+  895| 
+  896| Alice: Oh, what's this?  Father's diary?
+  897| Alice: Indeed it is.  Invading his privacy would be uncouth, but, should I
+  898|        read a little of it?  Well, I want any kind of clue I can find, so
+  899|        Father, I'm sorry about this.
+  900| Alice: Although if I'm being honest it's exciting to find out what someone else
+  901|        writes in their private diary.  Hehe.  Let's dive in!  Lessee here...
+  902| 
+  903| April 5th:  Today I took my daughter on an outing.  How long has it been since
+  904|             I've seen her so pleased?
+  905| April 13th: Today I played games with my daughter.  Watching her expressions
+  906|             ebb and flow like the tide made me feel happy for some reason.
+  907| April 21st: These enjoyable days quietly pass one after the next.  I hope life
+   ...
+ 1191|          In any case it's sure to be something essential. It would be worth
+ 1192|          looking into further.
+ 1193| Alice:   You're right.  I will.  Thank you!
+ 1194| Vampire: Kukkukku...  I'm so pleased to have been helpful.  Farewell.
+ 1195| 
+ 1196|   /Vampire leaves/
+ 1197| 
+ 1198| Alice: Genomroid...  I wonder what that actually is?  Mikhail might know
+ 1199|        something about it!  All right.  Let's try asking him.
+ 1200| 
+ 1201| -------> Go to the sanctuary on the right side of this room.
+ 1202| 
+ 1203| Alice:   Mikhail!
+ 1204| Mikhail: W-what is it, all of the sudden?
+ 1205| Alice:   Do you know anything about something called a genomroid?
+ 1206| Mikhail: !  N-no, unfortunately I don't.
+ 1207| Alice:   Eh?  Are you sure?
+ 1208| Mikhail: Y-yes.  I completely, absolutely, know not even a smidgen.
+ 1209| Alice:   That's odd.  Genomroid was Father's research project.  Being his
+ 1210|          assistant, there's no way you couldn't know.
+ 1211| Mikhail: Although you say that, I, er...
+ 1212| Alice:   Suspicious.
+ 1213| Mikhail: .......
+ 1214| Alice:   ...okay, I get it.
+ 1215| Mikhail: Huh?
+ 1216| Alice:   It's fine!  I'll look into it on my own!
+ 1217| Mikhail: M-milady?!
+ 1218| Alice:   Mikhail, don't try to stop me!  You don't have to tell me yourself 
+ 1219|          but I am going to find out.
+ 1220| Mikhail: .....understood.
+ 1221| Alice:   Welp, where should I start looking?  The basement laboratory seems
+ 1222|          the most obvious place for clues.  Right!  I'll head straight there.
+ 1223| 
+ 1224| ---------> Warp back to the manor, then walk downstairs to the basement lab.
+ 1225| 
+ 1226| Alice: I hope I can find some sort of clue down here.  Let's hurry and
+   ...
+ 1349|          for a time?
+ 1350| Alice:   Don't make too big of a deal out of it.  I'm fine.  Just need to take
+ 1351|          a little break...
+ 1352| Alice:   Aaaaaaah!
+ 1353| Mikhail: Lady Alice?!
+ 1354| 
+ 1355|   /Alice collapses/
+ 1356| 
+ 1357| Mikhail: Milady! Lady Alice!!
+ 1358| 
+ 1359|   /Alice wakes up in her own room/
+ 1360| 
+ 1361| Alice:   ......
+ 1362| Alice:   Urrrr.
+ 1363| Mikhail: Ah, you're back with us.
+ 1364| Alice:   Mikhail?  Huh?  Wait, why am I in my room?
+ 1365| Mikhail: Ah, do you not remember what happened?  How you blacked out all of
+ 1366|          a sudden?
+ 1367| Alice:   Now that you mention it, that does sound familiar.
+ 1368| Mikhail: Goodness.  Well, you ought to allow yourself to rest here for a
+ 1369|          time I think.
+ 1370| Alice:   Nah, I'm all good now.
+ 1371| Mikhail: Whatever are you saying!  You've only just now awoken!
+ 1372| Alice:   But, I really am fine.  Look at this.  See how energetic I am?
+ 1373| Mikhail: Please desist, Lady Alice!  Your body is in precarious condition
+ 1374|          right now!
+ 1375| Alice:   But, Father needs....
+ 1376| Mikhail: I understand how you feel, but I implore you to give yourself more
+ 1377|          rest.
+ 1378| Alice:   You're being such a worrywart, Mikhail.  I truly do feel right as
+ 1379|          rain.
+ 1380| 
+ 1381|   /Alice spins/
+ 1382| 
+ 1383| Alice:   There, you see?
+ 1384| Mikhail: P-please stop that!  Do you have a death wish?!
+ 1385| Alice:   Eh?!
+ 1386| Mikhail: You were finally able to sustain life through the harvesting of
+ 1387|          outside energy!  Those magic dresses you've been using are bound to
+ 1388|          that selfsame life force.  If you carelessly overuse them then...!
+ 1389| Mikhail: Haa, haa.. (breathing heavily)
+ 1390| Alice:   Tell me, what did you mean by all that?
+ 1391| Mikhail: Sorry, I got carried away.  Please forget I said anything.
+ 1392| Alice:   Mikhail!!
+ 1393| Mikhail: .......
+ 1394| Alice:   (He said I live by absorbing energy from outside?  My magic dresses
+ 1395|          are linked to my life force?  Absurd nonsense!  He makes it sound as
+ 1396|          if I'm just like a genomroid!) N-no way?!
+ 1397| Mikhail: Milady? What happened?
+ 1398| Alice:   You've got to be kidding me!  That can't be right!!
+ 1399| Mikhail: W-where might you be going?
+ 1400| Alice:   I'm going to make certain!  About everything!
+ 1401| 
+ 1402|   /Alice leaves and goes to the basement lab/
+ 1403|   /rustle, rustle/
+ 1404| 
+ 1405| Alice:  Here it is.  Father's research report!  I hope reading the rest will
+ 1406|         clear up all doubt.
+   ...
+ 1622|          something, anything, we can try?
+ 1623| Nabokov: Oh all right.  In that case check with Mikhail.  He might have some
+ 1624|          thoughts.
+ 1625| Alice:   Ah, Mikhail, huh...  Understood, Father.  Let me go ask!
+ 1626| 
+ 1627|   /Alice departs/
+ 1628| 
+ 1629| Nabokov: Alice, don't wear yourself out...
+ 1630| 
+ 1631| --------> Go see Mikhail in any sanctuary (one is two rooms to the left of
+ 1632|           the bordermoon, on B30F).
+ 1633| 
+ 1634| Alice:   Mikhail!  Do you know how to break a gordalis?
+ 1635| Mikhail: Gordalis!  Milady where did you hear that word?
+ 1636| Alice:   I found father being held inside one.
+ 1637| Mikhail: Is that so.  Hmm..  That presents quite the problem.
+ 1638| Alice:   Well, Mikhail.  Isn't there some way to break it?  Well?  Well?
+ 1639| Mikhail: It's not as though we have zero options, but...
+ 1640| Alice:   Okay, please tell me what needs to be done.
+ 1641| Mikhail: This is going to be rather troublesome.
+ 1642| Alice:   Oh sheesh.  Stop beating around the bush and spill it, would you!
+ 1643|          I'm willing to try anything I have to if it means being able to save
+ 1644|          Father.
+ 1645| Mikhail: Very well.  In that case there are some things I must ask you to
+ 1646|          find.
+ 1647| Alice:   What should I be looking for?
+ 1648| Mikhail: Two sacred items are required to free the professor.
+ 1649| Alice:   Sacred items?  Well which ones for heaven's sake?
+ 1650| Mikhail: I do not know.  I suppose they'd have to be ones that could wear down
+ 1651|          evil power...
+ 1652| Alice:   All right.  And?  Where are those going to be?
+ 1653| Mikhail: Most likely somewhere inside the labyrinth.  I'm a bit lacking in
+ 1654|          particulars....
+ 1655| Alice:   Great.  I'm clueless as to where I should start looking, and I don't
+ 1656|          know much about what I'm looking for.  I agree, that certainly is a
+ 1657|          pain.  But I've got to go through with it!
+ 1658| Mikhail: Can you handle it?
+ 1659| Alice:   Yep, I'm absolutely going to come back with them!
+ 1660| Mikhail: If you should locate anything, please bring it here at once.
+ 1661| Alice:   All right.
+ 1662| 
+ 1663|   /Alice begins walking away/
+ 1664| 
+ 1665| Alice: It's just like me to talk big even though I've nary a clue to go on.
+ 1666|        Better start by gathering some intel.  How about I try asking the
+ 1667|        vampire?  He seems like he might know something about sacred items.
+ 1668| 
+ 1669| -------> Go to the vampire in the B30F bordermoon room, two rooms to the
+ 1670|          right of Alice's current position.
+ 1671| 
+ 1672| Alice:   Hey.
+ 1673| Vampire: Oh?  Mademoiselle.  Kukuku...  Have you some business with me?
+ 1674| Alice:   Do you know anything about sacred items?
+ 1675| Vampire: Hm.  Now that you mention it I do recall hearing that phrase
+ 1676|          somewhere.
+ 1677| Alice:   Oh?  You know something?  Say, tell me!  Where are they?!
+ 1678| Vampire: I couldn't give you a specific location.  But, what I heard went a
+   ...
+ 1683| Vampire: There must be a place matching that description somewhere in the
+ 1684|          labyrinth.
+ 1685| Alice:   Then, if I can make it there?!
+ 1686| Vampire: Sacred water...  In other words, holy water, is what you'll acquire.
+ 1687| Alice:   Thank you.  I'm going to check it out!
+ 1688| Vampire: Right.  Best of luck to you.  Kukuku....
+ 1689| 
+ 1690| --------> Go to (((SPOILER ALERT))) the safe room on B29F and stand in the
+ 1691|           center of the cross as instructed.  The story will continue when you
+ 1692|           find the right square.
+ 1693| 
+ 1694| Alice: The heart of a cross inscribed upon an underworld lake... I think this
+ 1695|        must be it.
+ 1696| 
+ 1697|   /Flashes/
+ 1698| 
+ 1699| Alice: W-what is this?!  Such beautiful water....  Surely this must be holy
+ 1700|        water right?!  Let's scoop some up.
+ 1701| 
+ 1702|   /Obtained holy water/
+ 1703| 
+ 1704| --------> Go to Mikhail in any sanctuary, like B29F's which is one screen down
+ 1705|           then one right, to report in as instructed.
+ 1706| 
+ 1707| Alice: I've got myself some holy water.  Better find the other one fast.
+ 1708| 
+ 1709|   /Alice walks forward/
+ 1710| 
+ 1711| Mikhail: Milady.  Have you gathered the sacred items?
+ 1712| Alice:   I found holy water, but I'm still working on the other one.
+ 1713| Mikhail: Please try to hurry!  We don't have much more time!
+ 1714| Alice:   I know that already!  But I don't have any other leads...
+ 1715| Mikhail: I-I see.
+ 1716| Alice:   Anything at all no matter how small would help.  Can you think of
+ 1717|          anything, Mikhail?
+ 1718| Mikhail: I wish I could, but...  Actually, I wonder.
+ 1719| Alice:   Eh?
+ 1720| Mikhail: The wizards might know something useful.
+ 1721| Alice:   Why's that?
+ 1722| Mikhail: Sacred items and magic are related, or so I've heard.  Thus it stands
+ 1723|          to reason they ought to...
+ 1724| Alice:   Makes sense, Mikhail!  I'll try looking for a wizard!
+ 1725| Mikhail: Good luck.  And take care.
+ 1726| 
+ 1727| --------> Go to B29F's bordermoon room (exit the sanctuary) and talk to the
+ 1728|           wizard there.
+ 1729| 
+ 1730| Alice:  Hey, got a sec?
+ 1731| Wizard: Do you need something?
+ 1732| Alice:  Do you know anything about sacred items?
+ 1733| Wizard: I'm unfamiliar.
+ 1734| Alice:  Hey hold on!  Put a little more thought into it than that.  We're
+ 1735|         talking a matter of life and death here.
+ 1736| Wizard: When I'm not familiar with something all I can say is "I'm
+ 1737|         unfamiliar".
+ 1738| Alice:  Oh please don't leave it at that.  Any scrap of info would be great.
+ 1739|         Anything you've overheard?
+ 1740| Wizard: .....Now that you mention it.  I recall hearing that someone has added
+ 1741|         an unusual book to their shop inventory.
+ 1742| Alice:  An unusual book?
+ 1743| Wizard: Probably meaning a holy book, a bible.
+ 1744| Alice:  A holy book?!  Could that be one of the sacred items I need?!
+ 1745| Wizard: Most likely.
+   ...
+ 1762| ---------> Buy the bible for L2000. If you don't have enough money, some
+ 1763|            monsters that frequently drop pounds are marked in the section V
+ 1764|            maps, or perhaps you already have your favorite earning spot.
+ 1765|            Once you've made the purchase, go report again to Mikhail now that
+ 1766|            you have both items.
+ 1767| 
+ 1768| Alice: I've collected both sacred items.  Now, let's show them to Mikhail.
+ 1769| 
+ 1770|   /Walk to mikhail/
+ 1771| 
+ 1772| Alice:   Mikhail, I found them!  A bible and holy water!  Look!  These should
+ 1773|          work for sacred items right?
+ 1774| Mikhail: Oh!  That's it!  Those shall do nicely!
+ 1775| Alice:   Oh thank goodness!  Now that we have these, we can help Father right?
+ 1776| Mikhail: No, collecting those was just step one.  Please take this.
+ 1777| Alice:   What's this, a pattern?  Hm?  Does that mean step two is sewing a
+ 1778|          dress from this?
+ 1779| Mikhail: You are correct, milady.  And, once you've finished everything,
+ 1780|          something ought to happen.
+ 1781| Alice:   And what is that something?
+ 1782| Mikhail: You'll see when the time comes.  For now please just trust me.
+ 1783| Alice:   Fair enough, Mikhail.  I'll take your word for it.
+ 1784| Mikhail: You have my thanks.  Now, milady.  Hurry to a sewing room!
+ 1785| Alice:   Right!
+ 1786| 
+ 1787|   /Obtained the pattern for the magic dress Argus/
+ 1788| 
+ 1789| --------> Talk to Mikhail again.
+ 1790| 
+ 1791| Mikhail: In order to craft the dress Argus, you'll need akubaru, tyuunu,
+ 1792|          fomoru, and oreusu.  These items are frequently carried by monsters
+ 1793|          on B30F.  Good luck, milady.
+ 1794| 
+ 1795| --------> Go back to B30F, hunt items as needed, then sew the dress in the
+ 1796|           sewing room directly south of the bordermoon room.  The story will
+ 1797|           continue when the dress is complete.  Note that you won't be able
+ 1798|           to change into Argus on your own even when it's done, as that dress
+ 1799|           is locked to specific story scenes where it's automatically used.
+   ...
+ 2072| 
+ 2073|   /Eventually the boss goes down!/
+ 2074| 
+ 2075| Alice: Haah, haah.  T-take that!  But.... My body's.. giving out.. and it's
+ 2076|        really the end of the line for me too, it seems...
+ 2077| 
+ 2078|   /Alice collapses, fade to black/
+ 2079|   /segue to the epilogue/
+ 2080| 
+ 2081| 
+ 2082| [25].Epilogue:
+ 2083| --------------
+ 2084|   /Knock knock knock/
+ 2085| 
+ 2086| Mikhail: Milady.  Good morning.
+ 2087| Alice:   Oh, 'morning.  Nice day, isn't it.
+ 2088| Mikhail: I have finished preparing breakfast, so if you would please make your
+ 2089|          way to the dining room.
+ 2090| Alice:   Okay, I will.  What about Father?
+ 2091| Mikhail: He is still asleep.
+ 2092| Alice:   That figures.  Sheesh.  He's turned into such a lazy bum since he got
+ 2093|          back.
+ 2094| Mikhail: That's certainly an exaggeration.  It must be his research work that
+ 2095|          exhausts him so.
+ 2096| Alice:   Well, either way.  All righty, I'll go wake him up myself.
+ 2097| Mikhail: Gently, please, if you would.
+ 2098| Alice:   Huhu, I know.
+ 2099| 
+ 2100|   /Alice walks out of her room, starting towards Nabokov's room/
+ 2101| 
+ 2102| Alice: One month has already passed since the incident.
+ 2103| 
+ 2104|   /Alice walks/
+ 2105| 
+ 2106| Alice: A lot has happened.
+ 2107| 
+ 2108|   /Alice walks/
+ 2109| 
+ 2110| Alice: Back then, I was....
+ 2111| 
+ 2112|   /Flashback start/
+ 2113| 

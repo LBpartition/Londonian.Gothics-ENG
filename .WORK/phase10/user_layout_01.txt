@@ -1,0 +1,495 @@
+London, capital of the British Empire, 
+late 1800s.
+
+Awash in outlandish tales, dastardly deeds by
+unseen foes, citizens vanishing abruptly, and
+rumbling deep within the earth, a dark
+malaise permeates throughout this city.
+
+Now, under the silent cloak of darkness in a
+corner of this misty capital, those who crawl
+the earth begin their clandestine wriggling
+once again...
+
+Nabokov, an ingenious scientist, fled from
+the collapsing Russian Empire and resettled
+with his family here in London.
+
+He soon noticed London's troubles and
+determined the source that tied all these
+turbulent trends in the dead of night
+together.
+
+Bringing his intellect and talents to bear,
+along with the help of Mikhail's sorcery, he
+set out to put right what he found wrong in
+the world.
+
+Alas....
+
+
+============================================================
+DRESSES (DRESS MODE)
+============================================================
+
+01. Hystulle
+    Shoot lightning 1 square
+    ahead. 
+    Pushback and stun the enemy.
+
+02. Tranquille
+    Make all enemies turn tail
+    and run for a short time.
+
+03. Stradia
+    Walk over top of blue water.
+
+04. Domudia
+    Slow all enemy movements 
+    for a fixed time.
+
+05. Riffcowl
+    Create a temporary barrier
+    against projectile attacks.
+
+06. Dewlit
+    Knock back enemy a random
+    distance over walls via
+    bazooka.
+
+07. Ferminio
+    Teleport a few feet away in
+    a random direction.
+
+08. Blizzariel
+    Walk over top of lava and
+    underworld water of various
+    colors.
+
+09. Proteus
+    DP gauge refills faster.
+
+10. Cannelle
+    Knock enemy completely off
+    the map via bazooka.
+    (Lethal)
+
+11. Twincavia
+    Shoot lightning out all 3
+    squares ahead. 
+    Stuns anything hit.
+
+12. Survey
+    Pause action and survey the
+    map as desired.
+
+13. Manaclis
+    Shrink to fit through 
+    small cracks in walls.
+
+14. Epinephre
+    Move in straight line at high
+    speed until you hit a wall.
+
+15. Litense
+    Jump over 1 square of
+    distance.
+
+16. Iscarpe
+    Auto-warp somewhere on map
+    upon enemy touch instead of
+    dying. Drains all DP.
+
+17. Argus
+    Usable only in the endgame
+    scenario.
+
+18. Satiend
+    Teleport a long distance
+    away in a random direction.
+
+19. Shrake
+    Pause all enemy movements
+    for a fixed time.
+
+20. Scuart
+    Knock back enemy a random
+    distance in a straight line
+    via bazooka.
+
+21. Torpedone
+    Shoot lightning on all
+    squares immediately
+    surrounding Alice.
+
+22. Bekiradin
+    Show location of remaining
+    magic circles in the room
+
+
+============================================================
+ITEMS
+============================================================
+
+01. Awizu
+    Orange spool of 
+    shimmering black silk
+
+02. Akubaru
+    Shiny light gold thread with
+    sparkles on jade spindle
+
+03. Rewiza
+    Light brown spindle 
+    with white thread
+
+04. Dareifu
+    Blue spindle 
+    with silver thread
+
+05. Wariyagu
+    White yarnball
+
+06. Roadesu
+    Spindle of magic blonde
+    thread
+
+07. Tyuunu
+    Fabric of brown monster hide
+
+08. Rudorin
+    Silver roll of cloth
+
+09. Gurasuto
+    Silver sheer cloth
+
+10. Irumari
+    Red and black checkered 
+    roll of cloth
+
+11. Kuahha
+    Fluffy comfy yellow wool
+
+12. Lisufa
+    Magic silver lace 
+    floral pattern
+
+13. Borodi
+    Button with emerald gem
+
+14. Fomoru
+    Silver crest with 
+    yellow gem
+
+15. Tuuka
+    White crest with
+    large yellow orb
+
+16. Aigizu
+    Gold coin-shape button 
+    with goat head
+
+17. Osubiya
+    Spider-like 
+    heart-shaped crest
+
+18. Nyukusu
+    Blue-green rose and leaves
+    on silver vine circle
+
+19. Zoriano
+    Silver needle with
+    green swoosh at tip
+
+20. Reshiefu
+    Golden sparkling long needle
+
+21. Seitse
+    Glowing scissors with
+    brown feathers on handle
+
+22. Masaeru
+    Silver disc with maze-like
+    pattern engraved
+
+23. Oreusu
+    White measuring tape with
+    red button in center
+
+24. Yeun
+    Dark purple tongs-like
+    clothespin with red glow
+
+25. Seruti
+    Gold tiara
+
+26. Sarissa
+    Translucent veil with
+    small red bow
+
+27. Eushu
+    Angel wings cape
+
+28. Maanesu
+    Red rose and leaves choker
+    ribbon
+
+29. Tareosu
+    Red ribbon bow with 
+    gold leaf on ends
+
+30. Radokuya
+    Black rockinghorse shoes
+    with purple ribbon
+
+31. Bergen
+    A sword-shaped accessory.
+
+32. Bible
+    One of the items necessary
+    for rescuing the professor.
+
+33. Holy Water
+    One of the items necessary
+    for rescuing the professor.
+
+
+============================================================
+DIALOGUE
+============================================================
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+(narration)
+    Knock, Knock, Knock
+
+Mikhail:
+    Lady Alice!!
+
+Alice:
+    Good morning, Mikhail. 
+    What brings you here so 
+    bright and early?
+
+Mikhail:
+    W-we've got a problem! 
+    It's the professor; 
+    it's Nabokov!
+
+Alice:
+    Oh, what has Father done 
+    this time?
+
+Mikhail:
+    He's been spirited away by
+    monsters.
+
+Alice:
+    Wait, what?!
+
+
+--- Laboratory  (sp_home010.sp) ---
+
+Alice:
+    So Father's down here?
+
+Mikhail:
+    Yes.
+
+Mikhail:
+    Ghoulish creatures crawled
+    up through that fissure and
+    abducted the professor.
+
+Alice:
+    Monsters grabbed Father?
+    But why would they?
+
+Mikhail:
+    Who can say?
+
+Alice:
+    Well, Mikhail, what should 
+    we do about it?
+
+Mikhail:
+    How do you believe we ought
+    to proceed?
+
+Alice:
+    Bleh, you're useless.
+
+Mikhail:
+    Huh? Might you have just said
+    something?
+
+Alice:
+    Nope, not a thing.
+
+Alice:
+    All right, Mikhail, 
+    I've made up my mind.
+
+Mikhail:
+    Yes, about what?
+
+Alice:
+    I'm going to go rescue Father!
+
+Mikhail:
+    Y-you shan't! 
+    That's too dangerous!
+
+Alice:
+    Well, what else would you
+    have me do?
+
+Alice:
+    Leave him there to rot?
+
+Mikhail:
+    Bestill my heart no! 
+    I wouldn't dream of it.
+
+Alice:
+    Then I guess our only option
+    is for me to go.
+
+Mikhail:
+    But yet! Milady, I can't allow
+    you to place yourself in
+    harm's way.
+
+Alice:
+    Oh, I'll be fine. After all,
+    I've got this dress you made
+    for me, don't I.
+
+Alice:
+    *spin* This magic dress I'm
+    wearing!
+
+Mikhail:
+    To be sure, with that dress'
+    powers you do at least stand
+    a chance.
+
+Alice:
+    Right?!
+
+Mikhail:
+    Though that doesn't change
+    the fact that it's hardly
+    safe. I'm not certain I could
+    ---
+    allow it in good conscience...
+
+Alice:
+    It has to be me!
+
+Mikhail:
+    !
+
+Alice:
+    Father must be down there,
+    waiting for me to 
+    come help him!
+
+Alice:
+    I can't let his hopes 
+    be in vain.
+
+Mikhail:
+    I..see. I understand how you
+    feel. And yet I worry...
+
+Alice:
+    Well then, how about you
+    come along with me?
+
+Mikhail:
+    This is a task you are
+    uniquely qualified for,
+    milady.
+
+Mikhail:
+    I'll entrust his fate to you.
+
+Alice:
+    Whoa, instant flip-flop o_O.
+
+Mikhail:
+    What have we here? 
+    You're not already on your way?
+
+Alice:
+    You'd have me set off just
+    like this? Empty-handed?
+
+Mikhail:
+    What would you want to bring,
+    aside from the magic dress?
+
+Alice:
+    Food, for starters, would be
+    nice. And perhaps a lantern
+    and matches...
+
+Mikhail:
+    Understood. I'll ask our maid
+    to prepare those items for
+    you. Milady, please wait in
+    ---
+    your room. Now, if you'll
+    excuse me...
+
+
+--- Alice's Bedroom  (sp_home005.sp) ---
+
+Lucille:
+    Excuse me, I'm coming in.
+
+Lucille:
+    Miss, I brought the items 
+    you requested.
+
+Alice:
+    Thank you, Lucille. 
+    And with that, I should be 
+    all set to go.
+
+Alice:
+    Let me do one last check to
+    be sure I'm ready.
+
+Alice:
+    Let's see... Food, water,
+    lantern, matches...
+
+Lucille:
+    Heheh, Miss, why not quit now
+    while you're ahead?
+
+Alice:
+    Huh, what? You're saying
+    there's no point in
+    double-checking my
+    ---
+    provisions? It wouldn't do to
+    forget anything important.
+
+Lucille:
+    Nah, that's not it.
+
+Alice:
+    What, then, are you trying to
+    say?
+
+Lucille:
+    It's already too late for the
+    professor.
+
+Alice:
+    Oh geez, talk about blunt! 
+    You didn't have to say that.

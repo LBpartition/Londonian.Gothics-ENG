@@ -1,0 +1,6 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_oam\dress_f000694.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_oam\dress2_f000754.png
+dump ARM9 System Bus 0x07000400 1024 -> oam_sub.bin
+dump ARM9 System Bus 0x07000000 1024 -> oam_main.bin
+dump ARM9 System Bus 0x021BDD00 128 -> ctx.bin
+exit at frame 754

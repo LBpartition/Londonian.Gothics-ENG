@@ -1,0 +1,75 @@
+FILE sp062.sp  (6 strings, dialogue order)
+
+idx=5  spk=Alice(103)  auto_gline=873
+  JP: はぁはぁ。
+  EN: Ah, hey, wait up!
+idx=2  spk=Alice(103)  auto_gline=877
+  JP: ハァハァ。
+  EN: Awww, she left.
+idx=1  spk=Alice(103)  auto_gline=878
+  JP: まだ先があるの？{NL}ここまで、かなり降りて来たのにぃ。
+  EN: So it was Father's research, huh.  Racking my brain doesn't help; that just makes it clear how little I really know about him and his work. Guess I should try to do some investigating.  Let's see...  There might be something about this in our study.  Let's head back to the manor.
+idx=3  spk=Alice(103)  auto_gline=886
+  JP: い、いいかげん、くたびれてきたわよぉ。
+  EN: All righty.  Wonder if there'll be anything here.
+idx=0  spk=Alice(105)  auto_gline=892
+  JP: はぁ。{NL}ここでゴチャゴチャ言っていても仕方ないか。
+  EN: Nope, nothing relevant in here...
+idx=4  spk=Alice(100)  auto_gline=896
+  JP: あともう少しだけ、がんばりましょ。
+  EN: Oh, what's this?  Father's diary?
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  859| Fairy: What is it?
+  860| Alice: Why did the monsters abduct my father?  I've been wondering about it
+  861|        this whole time and I haven't come up with any reason why they'd want
+  862|        to.
+  863| Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+  864|        grabbed him so that he couldn't do it any more.
+  865| Alice: Do you know where Father is being kept?
+  866| Fairy: I don't know.
+  867| Alice: Ah.  Well how about Father's research topic, then?  Was it really
+  868|        something bad enough to be kidnapped over?
+  869| Fairy: I'd like you to find that out on your own.  You rely on others a bit
+  870|        too much, sister.
+  871| Alice: (I've just been rebuked by a half-pint.)
+  872| Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+  873| Alice: Ah, hey, wait up!
+  874| 
+  875|   /Fairy laughs and leaves/
+  876| 
+  877| Alice: Awww, she left.
+  878| Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+  879|        just makes it clear how little I really know about him and his work.
+  880|        Guess I should try to do some investigating.  Let's see...  There might
+  881|        be something about this in our study.  Let's head back to the manor.
+  882| 
+  883| --------> Go through the sanctuary here on B7F, back to the library/study on
+  884|           the left side of Manor 2F.
+  885| 
+  886| Alice: All righty.  Wonder if there'll be anything here.
+  887| 
+  888| --------> Walk to the desk and touch it.
+  889| 
+  890|   /rummage, rummage/
+  891| 
+  892| Alice: Nope, nothing relevant in here...
+  893| 
+  894|   /rummage, rummage/
+  895| 
+  896| Alice: Oh, what's this?  Father's diary?
+  897| Alice: Indeed it is.  Invading his privacy would be uncouth, but, should I
+  898|        read a little of it?  Well, I want any kind of clue I can find, so
+  899|        Father, I'm sorry about this.
+  900| Alice: Although if I'm being honest it's exciting to find out what someone else
+  901|        writes in their private diary.  Hehe.  Let's dive in!  Lessee here...
+  902| 
+  903| April 5th:  Today I took my daughter on an outing.  How long has it been since
+  904|             I've seen her so pleased?
+  905| April 13th: Today I played games with my daughter.  Watching her expressions
+  906|             ebb and flow like the tide made me feel happy for some reason.
+  907| April 21st: These enjoyable days quietly pass one after the next.  I hope life
+  908|             can continue to be like this....
+  909| 
+  910| Alice: Oh Father, you had me in your thoughts that much?  I feel tears coming
+  911|        on... *sniff*

@@ -1,0 +1,2 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_s\s1_f009564.png
+exit at frame 9564

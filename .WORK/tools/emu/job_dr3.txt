@@ -1,0 +1,38 @@
+wait 150
+press Start 3
+wait 150
+press Start 3
+wait 100
+press Start 3
+wait 150
+wait 20
+press A 3
+wait 90
+shot l1
+press A 3
+wait 60
+shot l2
+press A 3
+wait 300
+shot l3
+wait 200
+shot l4
+press X 3
+wait 60
+shot x1
+touch 225 22 10
+wait 120
+shot d1
+wait 120
+shot d2
+press B 5
+wait 60
+press B 5
+wait 120
+shot c1
+regs
+wait 7
+regs
+wait 13
+regs
+exit

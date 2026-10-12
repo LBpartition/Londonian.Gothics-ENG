@@ -1,0 +1,533 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 120
+press Start
+wait 120
+press A
+wait 200
+press A 3
+wait 27
+shot d001
+press A 3
+wait 27
+shot d002
+press A 3
+wait 27
+shot d003
+press A 3
+wait 27
+shot d004
+press A 3
+wait 27
+shot d005
+press A 3
+wait 27
+shot d006
+press A 3
+wait 27
+shot d007
+press A 3
+wait 27
+shot d008
+press A 3
+wait 27
+shot d009
+press A 3
+wait 27
+shot d010
+press A 3
+wait 27
+shot d011
+press A 3
+wait 27
+shot d012
+press A 3
+wait 27
+shot d013
+press A 3
+wait 27
+shot d014
+press A 3
+wait 27
+shot d015
+press A 3
+wait 27
+shot d016
+press A 3
+wait 27
+shot d017
+press A 3
+wait 27
+shot d018
+press A 3
+wait 27
+shot d019
+press A 3
+wait 27
+shot d020
+press A 3
+wait 27
+shot d021
+press A 3
+wait 27
+shot d022
+press A 3
+wait 27
+shot d023
+press A 3
+wait 27
+shot d024
+press A 3
+wait 27
+shot d025
+press A 3
+wait 27
+shot d026
+press A 3
+wait 27
+shot d027
+press A 3
+wait 27
+shot d028
+press A 3
+wait 27
+shot d029
+press A 3
+wait 27
+shot d030
+press A 3
+wait 27
+shot d031
+press A 3
+wait 27
+shot d032
+press A 3
+wait 27
+shot d033
+press A 3
+wait 27
+shot d034
+press A 3
+wait 27
+shot d035
+press A 3
+wait 27
+shot d036
+press A 3
+wait 27
+shot d037
+press A 3
+wait 27
+shot d038
+press A 3
+wait 27
+shot d039
+press A 3
+wait 27
+shot d040
+press A 3
+wait 27
+shot d041
+press A 3
+wait 27
+shot d042
+press A 3
+wait 27
+shot d043
+press A 3
+wait 27
+shot d044
+press A 3
+wait 27
+shot d045
+press A 3
+wait 27
+shot d046
+press A 3
+wait 27
+shot d047
+press A 3
+wait 27
+shot d048
+press A 3
+wait 27
+shot d049
+press A 3
+wait 27
+shot d050
+press A 3
+wait 27
+shot d051
+press A 3
+wait 27
+shot d052
+press A 3
+wait 27
+shot d053
+press A 3
+wait 27
+shot d054
+press A 3
+wait 27
+shot d055
+press A 3
+wait 27
+shot d056
+press A 3
+wait 27
+shot d057
+press A 3
+wait 27
+shot d058
+press A 3
+wait 27
+shot d059
+press A 3
+wait 27
+shot d060
+press A 3
+wait 27
+shot d061
+press A 3
+wait 27
+shot d062
+press A 3
+wait 27
+shot d063
+press A 3
+wait 27
+shot d064
+press A 3
+wait 27
+shot d065
+press A 3
+wait 27
+shot d066
+press A 3
+wait 27
+shot d067
+press A 3
+wait 27
+shot d068
+press A 3
+wait 27
+shot d069
+press A 3
+wait 27
+shot d070
+press A 3
+wait 27
+shot d071
+press A 3
+wait 27
+shot d072
+press A 3
+wait 27
+shot d073
+press A 3
+wait 27
+shot d074
+press A 3
+wait 27
+shot d075
+press A 3
+wait 27
+shot d076
+press A 3
+wait 27
+shot d077
+press A 3
+wait 27
+shot d078
+press A 3
+wait 27
+shot d079
+press A 3
+wait 27
+shot d080
+press A 3
+wait 27
+shot d081
+press A 3
+wait 27
+shot d082
+press A 3
+wait 27
+shot d083
+press A 3
+wait 27
+shot d084
+press A 3
+wait 27
+shot d085
+press A 3
+wait 27
+shot d086
+press A 3
+wait 27
+shot d087
+press A 3
+wait 27
+shot d088
+press A 3
+wait 27
+shot d089
+press A 3
+wait 27
+shot d090
+press A 3
+wait 27
+shot d091
+press A 3
+wait 27
+shot d092
+press A 3
+wait 27
+shot d093
+press A 3
+wait 27
+shot d094
+press A 3
+wait 27
+shot d095
+press A 3
+wait 27
+shot d096
+press A 3
+wait 27
+shot d097
+press A 3
+wait 27
+shot d098
+press A 3
+wait 27
+shot d099
+press A 3
+wait 27
+shot d100
+press A 3
+wait 27
+shot d101
+press A 3
+wait 27
+shot d102
+press A 3
+wait 27
+shot d103
+press A 3
+wait 27
+shot d104
+press A 3
+wait 27
+shot d105
+press A 3
+wait 27
+shot d106
+press A 3
+wait 27
+shot d107
+press A 3
+wait 27
+shot d108
+press A 3
+wait 27
+shot d109
+press A 3
+wait 27
+shot d110
+press A 3
+wait 27
+shot d111
+press A 3
+wait 27
+shot d112
+press A 3
+wait 27
+shot d113
+press A 3
+wait 27
+shot d114
+press A 3
+wait 27
+shot d115
+press A 3
+wait 27
+shot d116
+press A 3
+wait 27
+shot d117
+press A 3
+wait 27
+shot d118
+press A 3
+wait 27
+shot d119
+press A 3
+wait 27
+shot d120
+press A 3
+wait 27
+shot d121
+press A 3
+wait 27
+shot d122
+press A 3
+wait 27
+shot d123
+press A 3
+wait 27
+shot d124
+press A 3
+wait 27
+shot d125
+press A 3
+wait 27
+shot d126
+press A 3
+wait 27
+shot d127
+press A 3
+wait 27
+shot d128
+press A 3
+wait 27
+shot d129
+press A 3
+wait 27
+shot d130
+press A 3
+wait 27
+shot d131
+press A 3
+wait 27
+shot d132
+press A 3
+wait 27
+shot d133
+press A 3
+wait 27
+shot d134
+press A 3
+wait 27
+shot d135
+press A 3
+wait 27
+shot d136
+press A 3
+wait 27
+shot d137
+press A 3
+wait 27
+shot d138
+press A 3
+wait 27
+shot d139
+press A 3
+wait 27
+shot d140
+press A 3
+wait 27
+shot d141
+press A 3
+wait 27
+shot d142
+press A 3
+wait 27
+shot d143
+press A 3
+wait 27
+shot d144
+press A 3
+wait 27
+shot d145
+press A 3
+wait 27
+shot d146
+press A 3
+wait 27
+shot d147
+press A 3
+wait 27
+shot d148
+press A 3
+wait 27
+shot d149
+press A 3
+wait 27
+shot d150
+press A 3
+wait 27
+shot d151
+press A 3
+wait 27
+shot d152
+press A 3
+wait 27
+shot d153
+press A 3
+wait 27
+shot d154
+press A 3
+wait 27
+shot d155
+press A 3
+wait 27
+shot d156
+press A 3
+wait 27
+shot d157
+press A 3
+wait 27
+shot d158
+press A 3
+wait 27
+shot d159
+press A 3
+wait 27
+shot d160
+press A 3
+wait 27
+shot d161
+press A 3
+wait 27
+shot d162
+press A 3
+wait 27
+shot d163
+press A 3
+wait 27
+shot d164
+press A 3
+wait 27
+shot d165
+press A 3
+wait 27
+shot d166
+press A 3
+wait 27
+shot d167
+press A 3
+wait 27
+shot d168
+press A 3
+wait 27
+shot d169
+press A 3
+wait 27
+shot d170
+exit

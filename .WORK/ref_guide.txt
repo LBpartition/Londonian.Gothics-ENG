@@ -1,0 +1,3053 @@
+Guide and Walkthrough (DS) by ShadowRisae
+
+Version: 1.0 | Updated: 05/28/2018
+Highest Rated Guide
+
+                                                                              |
+LONDONIAN GOTHICS: A Lolita in the Labyrinth             ~Notes by SakuraSylph~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               v.27 May 2018
+
+Released as Megacyber's debut title for the Nintendo DS in 2005, Londonian
+Gothics describes itself on the case as a gothic-lolita action-RPG.  The former
+half refers to an elegant fashion style based upon Victorian (England) and
+Rococo (France) era garments full of lace and frills, with gothic-lolita
+dresses plus crafting culture being featured prominently as part of the
+gameplay.  The latter half refers to the dungeon-crawling main structure of
+the game.  In sum, Londonian Gothics' gameplay could be described as a
+combination of Blizzard's PC title Diablo and the classic game Pac-Man.  The
+details will become clearer later on, but for now that's the basic idea of what
+you can expect.
+
+Some folks seem to get confused by this game's subtitle, because one of its
+words has an unrelated, and unfortunate, connotation in US English.  To
+explain, someone who wears gothic-lolita fashion, as this game's protagonist
+does, is called a Lolita.  And that is what the subtitle refers to.  Nothing
+else.
+
+Londonian Gothics was never released outside of Japan, so there's not a lot of
+information about it available online.  Even within Japan physical copies are
+a bit rare but can be obtained on the second-hand market inexpensively when
+found.  This guide includes a translated script so even if you don't know
+Japanese you can still enjoy the plot as it unfolds.
+
+Megacyber was purchased by Konami only a few months after Londonian Gothics
+came out, so L.G. ended up being Megacyber's last and only DS game too, not
+just its first.  A planned sequel to Londonian Gothics on the DS never
+materialized, but a doujin spin-off eventually did in 2011.  It's called
+Lolita of Labyrinth, and while it's a different type of game and has all
+new characters, it was very clearly intended to be in the same universe as
+Londonian Gothics.  The spinoff is available on the Japanese Xbox Live Indies
+store for 309 yen.
+
+That concludes the short history lesson on what Londonian Gothics: A Lolita
+in the Labyrinth is all about and where it came from.  On with the show!
+
+
+
+Table of Contents
+-----------------
+I.   Background Information
+II.  Controls and Gameplay
+III. Dress Crafting and Item Identification
+IV.  Story Summary and Game Walkthrough (spoiler-full)
+V.   Level Maps and Item Drops (spoiler-full)
+VI.  Credits
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+I. BACKGROUND INFORMATION
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Story Setting:
+--------------
+Alice's father has been kidnapped by creatures of the night, and it is unknown
+whether he's alive or dead.  You, as Alice, insist on following down into the
+labyrinth via a hole in the basement to find and rescue him.  Your lolita
+dresses contain the powers needed to protect you from the dangers that lurk
+within.  (Game's tagline: "It has to be me!" / watashi ja nakya dame na noo!)
+
+
+Title Screen:
+-------------
+ -New Game
+ -Load
+ -Dress Mode : Admire lolita dresses collected, cumulative across saves.
+ -Options
+
+
+Options Screen:
+---------------
+ -Music Volume   : 1=mute, 2-5 higher is louder.
+ -Effects Volume : 1=mute, 2-5 higher is louder.
+ -Text Speed     : 1=(slow + manual advance); 2=(slow + autoadvance);
+                   3=(fast + autoadvance).
+ -Backlight : on / off (warning: "off" blanks the screen on 3DS).
+
+
+Characters:
+-----------
+ -Alice   : You, the player.  Comfortably raised in a high-class family that
+            valued inquisitiveness, Alice is gifted with crimsonlake eyes and
+            long blonde hair down to her waist.  However her behavior isn't
+            as refined as one might expect, as she's headstrong and charges
+            into things without thinking them through first.
+
+ -Mikhail : The manor's butler.  Also a sorcerer hailing from the Scottish
+            highlands.  Always level-headed, polite, and deferential, it's
+            hard to read the difference between his serious statements and his
+            jesting ones.
+
+ -Lucille : The manor's talented maid, who singlehandedly manages the affairs
+            of the large residence.  However, toxicity lurks within.  Her ego
+            makes her prideful, and she is known to say snarky and callous
+            things.  Nicknamed the toxi-maid.
+
+ -Nabokov : Alice's father.  A grieving scientific genius who is no fan of war
+            or malice, he was driven out of his native Russia by civil unrest
+            in the declining years of that empire.  Now in London performing
+            experiments combining science with sorcery, he was kidnapped by
+            disciples of "the old gods who wander eternity" and taken to the
+            deepest part of the underworld labyrinth.  He burns with a strong
+            sense of justice and frequently gets absorbed in his research,
+            making him easily misunderstood by those around him.
+
+ -Additionally you can interact with certain monsters within the labyrinth to
+  obtain hints or purchase items.
+
+
+Japanese Fandom Memes Trivia:
+-----------------------------
+* "Kyaa, be be boh!" - Alice's scream followed by the three notes of the death
+  fanfare.  You'll probably hear this a lot.  It became a meme.  People would
+  race to complete the phrase on forums, one poster writing "Kyaa!", while
+  the next poster would try to slip in "Be be boh!" before anyone else wrote
+  another message.  Also, fan doujin books were titled "Be Be Bon" after this
+  meme, with the alternate reading of hon (book), bon, replacing boh since
+  the fanbook was of course a book.
+* "xxx ja nakya dame na noo" - Riffing on the game's tagline in Londonian
+  Gothics related online areas.  For instance, the 2ch board changed its usual
+  "Anonymous" usernames to "nanashi ja nakya dame na noo" ("I've got to be
+  Nameless!").
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+II. CONTROLS AND GAMEPLAY
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Controls:
+---------
+ L : Rotate Alice to her Left by 90 degrees, without moving any squares.
+ R : Rotate Alice to her Right by 90 degrees, without moving any squares.
+ D-Pad : Move in the direction pressed, one square. (or hold to walk.)
+ Start : Confirm choice on any menu screen.
+ A : Confirm choice on any menu screen; trample upon monsters;
+      Hold to manually speed up text display as desired if on setting 1 or 2.
+ B : Cancel out of any menu; hold to dash with the d-pad.
+ X : Pause game and enter the menu.
+ Y : Use the power of the currently-equipped lolita dress.
+ L+R+Start+Select : Soft reset.
+
+
+Basic Gameplay Flow:
+--------------------
+On each floor of the labyrinth, the monsters are invulnerable at first and will
+one-hit-kill Alice.  Alice must:
+ 1. Avoid the monsters via any available method, while searching for the exit
+    to the current room.
+ 2. Some rooms lock upon entry; step on all magic circles in the room in order
+    to unlock the doors and make the room exitable.
+ 3. One room will have different music, and this room houses a huge pulsing red
+    and black orb called a Bordermoon; destroy this by touching it.
+ 4. The music changes and Alice becomes the one invulnerable.  Step on each
+    monster's back and once it falls to the floor, repeatedly kick (A) to
+    defeat it, earning an item, money, or dress pattern.
+ 5. Take appropriate patterns and items into a sewing room, found throughout
+    the levels, and craft new lolita dresses in order to increase the variety
+    of powers (e.g. shrink, teleport, scouting) available for use.
+ 6. While the music is still changed, go through the exit down to the next
+    level of the labyrinth.
+
+That is the basic outline on how to handle a level, but in practice how you
+play is up to you.  You can beat up all the monsters, or just some of them, or
+even the same ones repeatedly as they respawn upon reentering a room.  If a
+monster drops a dress pattern, then it will always be the first thing they
+drop, so I would recommend defeating each monster on every floor at least once
+in order to find all the dresses.  If you run out of time while monster
+stomping then the Bordermoon orb and all magic circles in the level respawn.
+No problem; just go destroy the Bordermoon again and resume.
+
+There are two main types of safe rooms throughout the labyrinth: sanctuaries
+(marked by silver arches) and sewing rooms (marked by silver columns).  The
+former will replenish your stock of lives, refill your DP meter, and allow
+you to warp back to the manor.  The latter lets you craft dresses.
+
+
+Lower Screen:
+-------------
+* Roses : Number of Lives remaining.  Starts at 5.
+* Magic Circles : Number of active Magic Circles remaining in current room.
+* RGB heartbeats show each enemy's distance from Alice.  Higher = closer.
+* Red meter is time remaining until Bordermoon orb returns & resets the level.
+* Purple meter is your DP.  Your stamina for running & using dress powers.
+   -This refills automatically over time.
+   -If it hits 0, the bar turns silver and you can't run or use powers until
+    the meter refills far enough to turn purple again.
+* Dress : Change to a different outfit and power.  For uncrafted dresses, view
+          which items are needed in order to make it.
+* Item : View money and currently-held inventory items.  Can discard items.
+* Save : Save game.  Available anytime.
+
+
+Gameover Consequences:
+----------------------
+ Restart at the most recent sanctuary visited.  All Bordermoons and magic
+ circles respawn.  However, you keep all items, dresses, and money obtained.
+
+
+Further Factoids:
+-----------------
+* Be sure to enter all sanctuaries at least once in order to unlock those
+   floors for warping.
+* Time is paused during outfit changes, so they can be done in emergencies.
+* Inventory is capped at only six (6) items.  Picking up a seventh will ask you
+   whether you want to discard one existing item or cancel the pickup.
+* Monsters nearby where a dress pattern is found are more likely to carry the
+   items needed to craft it.
+* Enemies respawn every time you reenter a room.
+* Magic Circles don't reset once the room unlocks for the first time though;
+   they stay unlocked until the Bordermoon respawns after being destroyed.
+* Bordermoon state on current level is retained upon loadgame as long as the
+   save was created within the level.  Loads from saves within a sanctuary or
+   sewing room will not retain any Bordermoon or magic circle data (all will
+   be reset).
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+III. DRESS CRAFTING AND ITEM IDENTIFICATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Alice's Dresses:
+----------------
+01. Hystulle   : Shoot lightning 1 square ahead.  Pushback and stun the enemy.
+02. Bekiradin  : Show where the remaining magic circles in the room are.
+03. Scuart     : Knock back enemy a random distance in a straight line via
+                  bazooka. (Nonlethal shells)
+04. Litense    : Jump over 1 square of distance. (including post-Bordermoon
+                  conversational monsters if they stop in the way)
+05. Manaclis   : Shrink in order to fit through small cracks in walls.
+
+06. Survey     : Pause action and survey the map as desired.
+07. Ferminio   : Teleport a few feet away in a random direction.
+08. Riffcowl   : Create a temporary barrier against projectile attacks.
+09. Domudia    : Slow-mo all enemy movements for a fixed time.
+10. Stradia    : Walk over top of blue water.
+
+11. Proteus    : DP gauge refills faster. (Great for monster stomping)
+12. Blizzariel : Walk over top of lava and underworld water of various colors.
+13. Twincavia  : Shoot lightning out all 3 squares ahead.  Stuns anything hit.
+14. Epinephre  : Zoom in straight line at high speed until you hit a wall.
+15. Tranquille : Make all enemies turn tail and run for a short time.
+
+16. Dewlit     : Knock back enemy a random distance in a random direction over
+                  walls, via bazooka.
+17. Iscarpe    : Auto-warp somewhere on map upon enemy touch instead of dying,
+                  as long as DP gauge is at least 50%.  Drains all DP.
+18. Satiend    : Teleport a long distance away in a random direction.
+19. Shrake     : Pause all enemy movements for a fixed time.
+20. Cannelle   : Knock enemy completely off the map via bazooka. (Lethal)
+
+21. Torpedone  : Shoot lightning on all squares immediately surrounding Alice.
+22. Argus      : Usable only in the endgame scenario.
+
+
+Crafting the Dresses:
+---------------------
+ Certain monsters will drop a dress pattern instead of their normal item upon
+ their first death.  Thankfully that means patterns aren't random and need not
+ be farmed by luck.  Just trample every monster in every level at least once
+ to find them all.
+
+01. Default equipment
+02. B1F drop; item (kuahha) + (borodi)
+03. B4F drop; item (awizu) + (tyuunu) + (osubiya)
+04. B4F in sewing room; item (roadesu) + (lisufa) + (radokuya)
+05. B2F drop; item (tyuunu) + (borodi) + (masaeru)
+
+06. Manor 2F Mother's desk, after B5F Sanctuary; item (wariyagu) + (tyuunu)
+07. B5F drop; item (wariyagu) + (irumari) + (tuuka)
+08. B8F drop; item (lisufa) + (zoriano) + (seruti)
+09. B8F drop; item (irumari) + (osubiya) + (zoriano)
+10. B9F drop; item (dareifu) + (rudorin) + (osubiya)
+
+11. B11F drop; item (rewiza) + (kuahha) + (aigizu)
+12. B14F drop; item (roadesu) + (kuahha) + (masaeru)
+13. B14F gift from Vampire; item (gurasuto) + (fomoru) + (zoriano)
+14. B16F gift from Fairy; item (rudorin) + (nyukusu) + (seitse) + (radokuya)
+15. B18F drop; item (akubaru) + (lisufa) + (fomoru) + (seruti)
+
+16. B20F drop; item (akubaru) + (tyuunu) + (nyukusu) + (seitse)
+17. B20F drop; item (dareifu) + (irumari) + (fomoru) + (reshiefu)
+18. B21F drop; item (irumari) + (tuuka) + (sarissa) + (eushu)
+19. B23F drop; item (rewiza) + (gurasuto) + (maanesu)
+20. B25F drop; item (awizu) + (irumari) + (nyukusu) + (yeun) + (tareosu)
+
+21. B26F drop; item (roadesu) + (lisufa) + (aigizu) + (oreusu) + (tareosu)
+22. Story gift from Mikhail; item (akubaru) + (tyuunu) + (fomoru) + (oreusu)
+
+
+Item Descriptions (first place I found each):
+---------------------------------------------
+-aigizu   : Gold coin-shape button with goat head (B9F)
+-akubaru  : Shiny light gold thread with sparkles on jade spindle (B18F)
+-awizu    : Orange spool of shimmering black silk (B4F)
+-borodi   : Button holding an emerald gem (B2F)
+-dareifu  : Blue spindle w/ silver thread (B9F)
+-eushu    : Angel wings cape (B21F)
+-fomoru   : Silver crest with 3 dots at points and yellow gem at bottom (B9F)
+-gurasuto : Silver sheer cloth (B10F)
+-irumari  : Red and black checkered roll of cloth (B5F)
+-kuahha   : Fluffy comfy yellow wool (B2F)
+-lisufa   : Magic silver lace floral pattern (B3F)
+-maanesu  : Red rose and leaves choker ribbon (B23F)
+-masaeru  : Silver disc with maze-like pattern engraved (B5F)
+-nyukusu  : Blue-green rose and leaves on silver vine circle (B15F)
+-oreusu   : White measuring tape w/ red button in center (B25F)
+-osubiya  : Spider-like heart-shaped crest (B4F)
+-radokuya : Black rockinghorse shoes with purple ribbon (B2F)
+-reshiefu : Golden sparkling long needle (B8F)
+-rewiza   : Light brown spindle with white thread (B9F)
+-roadesu  : Spindle of magic blonde thread (B1F)
+-rudorin  : Silver roll of cloth (B9F)
+-sarissa  : Translucent veil w/ small red bow (B20F)
+-seitse   : Glowing scissors w brown feathers on handle (B15F)
+-seruti   : Gold tiara (B9F)
+-tareosu  : Red ribbon bow with gold leaf on ends (B25F)
+-tuuka    : White crest holding large yellow orb inside (B5F)
+-tyuunu   : Fabric of brown monster hide (B4F)
+-wariyagu : White yarnball (B7F)
+-yeun     : Dark purple tongs-like clothespin w/ red glow (B26F)
+-zoriano  : Silver needle w/ green swoosh at tip (B10F)
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+IV. STORY SUMMARY AND GAME WALKTHROUGH (spoiler-full)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[00].Prologue Story Roll (on bootup):
+-------------------------------------
+London, capital of the British Empire, late 1800s.  Awash in outlandish tales,
+dastardly deeds by unseen foes, citizens vanishing abruptly, and rumbling deep
+within the earth, a dark malaise permeates throughout this city.
+
+Now, under the silent cloak of darkness in a corner of this misty capital,
+those who crawl the earth begin their clandestine wriggling once again...
+
+Nabokov, an ingenious scientist, fled from the collapsing Russian Empire and
+resettled with his family here in London.
+
+He soon noticed London's troubles and determined the source that tied all
+these turbulent trends in the dead of night together.
+
+Bringing his intellect and talents to bear, along with the help of Mikhail's
+sorcery, he set out to put right what he found wrong in the world.  Alas....
+
+
+------>*New Game*
+
+[01].Manor 2F Alice's Bedroom:
+------------------------------
+  /Knock, Knock, Knock/
+
+Mikhail: Lady Alice!!
+Alice:   Good morning, Mikhail.  What brings you here so bright and early?
+Mikhail: W-we've got a problem!  It's the professor; it's Nabokov!
+Alice:   Oh, what has Father done this time?
+Mikhail: He's been spirited away by monsters.
+Alice:   Wait, what?!
+
+  /Transition to the Basement Lab/
+
+Alice:   So Father's down here?
+Mikhail: Yes.  Ghoulish creatures crawled up through that fissure and abducted
+         the professor.
+Alice:   Monsters grabbed Father?  But why would they?
+Mikhail: Who can say?
+Alice:   Well, Mikhail, what should we do about it?
+Mikhail: How do you believe we ought to proceed?
+Alice:   Bleh, you're useless.
+Mikhail: Huh?  Might you have just said something?
+Alice:   Nope, not a thing.  All right, Mikhail, I've made up my mind.
+Mikhail: Yes, about what?
+Alice:   I'm going to go rescue Father!
+Mikhail: Y-you shan't!  That's too dangerous!
+Alice:   Well, what else would you have me do?  Leave him there to rot?
+Mikhail: Bestill my heart no!  I wouldn't dream of it.
+Alice:   Then I guess our only option is for me to go.
+Mikhail: But yet!  Milady, I can't allow you to place yourself in harm's way.
+Alice:   Oh, I'll be fine.  After all, I've got this dress you made for me,
+         don't I. *spin*  This magic dress I'm wearing!
+Mikhail: To be sure, with that dress' powers you do at least stand a chance.
+Alice:   Right?!
+Mikhail: Though that doesn't change the fact that it's hardly safe.  I'm not
+         certain I could allow it in good conscience...
+Alice:   "It has to be me!"
+Mikhail: !
+Alice:   Father must be down there, waiting for me to come help him!  I can't
+         let his hopes be in vain.
+Mikhail: I..see.  I understand how you feel.  And yet I worry...
+Alice:   Well then, how about you come along with me?
+Mikhail: This is a task you are uniquely qualified for, milady.  Very well.
+         I'll entrust his fate to you.
+Alice:   Whoa, instant flip-flop o_O.
+Mikhail: What have we here?  You're not already on your way?
+Alice:   You'd have me set off just like this?  Empty-handed?
+Mikhail: What would you want to bring, aside from the magic dress?
+Alice:   Food, for starters, would be nice.  And perhaps a lantern and
+         matches...
+Mikhail: Understood.  I'll ask our maid to prepare those items for you.
+         Milady, please wait in your room.  Now if you'll excuse me.
+
+  /Transistion to Alice's Bedroom/
+  /Knock, knock, knock/
+
+Lucille: Excuse me, I'm coming in.  Miss, I brought the items you requested.
+Alice:   Thank you, Lucille.  And with that, I should be all set to go.  Let
+         me do one last check to be sure I'm ready.  Let's see...  Food,
+         water, lantern, matches...
+Lucille: Heheh, Miss, why not quit now while you're ahead?
+Alice:   Huh, what?  You're saying there's no point in double-checking my
+         provisions?  It wouldn't do to forget anything important.
+Lucille: Nah, that's not it.
+Alice:   What, then, are you trying to say?
+Lucille: It's already too late for the professor.
+Alice:   Oh geez, talk about blunt!  You didn't have to say that.
+Lucille: Think about it.  What do monsters usually do to someone they take?  I
+         can't fathom that he'd still be unharmed.  The professor's probably
+         being greedily devoured right about now, with the monsters leaving
+         nary a trace of him for you to find.
+Alice:   Cut it out; don't say such things!  Father is surely still alive!
+Lucille: If you ran off to rescue a dead person and then met that same fate
+         yourself, it would be pretty idiotic, no?
+Alice:   Out! Get out of here now, Lucille!
+Lucille: Yeah, yeah, I hear you.  Very well, mademoiselle.  Father and
+         daughter, just a pair of roadkills for the vultures.  Ah, I do so
+         hope such a terrrrrrible thing doesn't happen.  huhuhu, huhuhuhu,
+         kekekekeke.
+
+  /Lucille leaves/
+
+Alice: What the hell!  Stupid Lucille, you're such an inconsiderate jerk!
+Alice: Well, setting her aside for now, I better hurry back down to the 
+       basement.  You might not think it, but Mikhail sure can be scary when
+       he gets upset!
+
+--------> Explore the manor if you want in order to learn its layout (see the
+          maps in section V).  There aren't any items to find for now
+          otherwise.
+
+--------> (Optional) Find Lucille in the left hallway of Manor 2F.
+
+Lucille: How are things, Miss?  Could you be looking for Mikhail?  If so he
+         just now hurried off somewhere.  Maybe he had a date with some young
+         debutante.  Keeekkekeke.
+
+--------> (Optional) You can run into Lucille near the basement stairs.
+
+Lucille: Oh?  Miss, what are you doing wandering about out here?  Surely you're
+         not, l-lost, in your own manor?!  No cause for alarm, right?  If
+         you're looking for the basement it's over this way.  Ohh, but you
+         didn't need me to tell you that did you.  Fefefe.
+
+---------> (Optional) Talk to her a second time in the same spot (either one).
+
+Lucille: For heaven's sake why are you dawdling about?  Get on with it already.
+
+---------> Down to the basement and to the next story section.
+
+
+[02].Basement Laboratory:
+-------------------------
+Alice:   Sorry I kept you waiting, Mikhail.
+Mikhail: Milady.  Have you packed all you need?  Do you have your
+         handkerchief?  And some tissues?
+Alice:   Aw give it a rest.  I'm not a kid anymore!
+Mikhail: I know, but I am still concerned for your well-being.
+Alice:   I'll be fine.  As long as I have this magic dress, I needn't worry no
+         matter how perilous the going gets.  Isn't that right?
+Mikhail: ......
+Alice:   What's with that reaction?
+Mikhail: Ah, pardon me.  I meant no offense.
+Alice:   Mikhail, don't tell me you lack confidence in your own handiwork.
+Mikhail: N, nothing of the sort!  Surely everything will be fine.
+Alice:   Suuuurely?
+Mikhail: Ah, no, I mean, everything shall be fine.  I daresay.
+Alice:   You daaaaresay?
+Mikhail: I e-expect.
+Alice:   Oh come on!  Mikhail!
+Mikhail: That being the conclusion I've reached --
+
+  /Alice gets "encouraged" down into the hole/
+
+Alice:   Kyaa!  H-hey, no pushing!
+Mikhail: Take care, and safe journeys.
+
+-------> Gameplay starts for real in Labyrinth B1F, now and until the end of
+         this first level.  Get acquainted with your dress power and the game
+         systems in general, and see the level map in section V if desired.
+         The next story trigger will be when you reach the bordermoon orb in
+         the final room of this level.
+
+
+[03].Labyrinth B1F Bordermoon Room:
+-----------------------------------
+Alice: What on Earth is this..?  It's horribly creepy.
+
+  /Flashes/
+
+Alice: Eh?  Eh?
+
+  /Flashes/
+
+Alice: What's happening?
+
+  /Alice reaches towards the bordermoon and it collapses/
+
+Alice: .......
+Alice: I-it broke?!  o_O  But, I never even touched it, right?  Right?
+Alice: Erm, well...  I had nooooothing to do with it!
+Voice: ....Alice.
+Alice: Eh?!
+Voice: Alice!
+Alice: That voice.  Father?!
+Voice: Alice, Alice!
+Alice: Father, that's you is it not?!
+Voice: Oh, Alice.  Has my voice reached you?
+Alice: Yes, Father!  It really is him!
+Voice: Alice, listen closely to what I'm about to say.  There's something you
+       need to know.
+Alice: Say, Father, where are you now?!  How are you doing?
+Voice: Pipe down and listen!  I don't have much time!
+Alice: O-okay, Father.
+Voice: That thing you just destroyed is known as a bordermoon.
+Alice: Bordermoon?
+Voice: It creates a miasma that makes the labyrinth a hospitable environment
+       for the monsters.  If you can destroy it, that should make the monsters
+       vulnerable enough for you to defeat.
+Alice: Oh goodness!  I could never do that.
+Voice: Yes, you can.  Don't worry, since you... after all.
+Alice: Huh?  What?  Father, I couldn't hear you clearly!
+Voice: .......
+Alice: Father?!  Hey, Father!  Say something!  Hey!
+Alice: Father..  Father!  Fatheeeeer!
+Alice: ...... Father, I'm going to do this.  Hang in there.
+
+  /When the bordermoon collapses, the nearby miasma is purified./
+
+------> Now you get your first practice at the monster stomping portion of the
+        game.  Before going to B2F, go back through all the rooms of B1F and
+        stomp each monster.  You'll get your first new dress pattern and some
+        items in the process.  You can't craft the dress just yet, but it's
+        good to go ahead and pick it up.  The next story trigger is when you
+        enter B2F.
+
+
+[04]. B2F Entry:
+----------------
+Alice: Oh?
+Alice: Whaaat's that thing?  An arch?
+
+  /Alice reaches for the arch/
+
+Alice: Does this lead anywhere?  How about I take a little look-see.
+
+  /Alice enters/
+
+Alice:   ?  A sanctuary?  Why would something like this be inside a labyrinth?
+Alice:   Eh?  Mikhail?!
+Mikhail: Yes, milady.  I'm so pleased to see you doing well.
+Alice:   What on Earth are you doing here?  Weren't you waiting back at the
+         manor?!
+Mikhail: I waited here figuring that I might be of some assistance to you.
+Alice:   You did, huh.  Hmmmmmm?
+Mikhail: What is it.  Why might you be looking at me like that?
+Alice:   No-rea-son.
+Mikhail: ......
+Alice:   So, what are you here to help me with?
+Mikhail: Ahem.  Well then, milady.  First, please look over there.
+Alice:   ?  What is that thing?
+Mikhail: For now, please go stand there.
+Alice:   Huh?  Why should I?
+Mikhail: Just go do it!
+Alice:   Okay, okay, I'm going.  No need to shout.
+
+  /Alice walks over and stands on it/
+
+Alice:   How's this?
+
+  /Flashes/
+
+Alice:   Huh?  W-wait, what is this?
+
+  /Alice spins/
+
+Alice:   Kyaaaaaaaaaaa!
+
+  /Alice emerges in another room/
+
+Alice:   Eh?  Ehh?!  What just happened and where am I?
+Alice:   This room sure does feel familiar somehow...
+
+  /Alice exits/
+
+Alice:   I'm in the manor!?  Was I just transported back home?
+
+  /Mikhail follows/
+
+Mikhail: Yes, that is precisely correct.
+Alice:   Mikhail, what's the meaning of this?
+Mikhail: In short, this is what I can do to assist you.
+Alice:   Wha..?
+Mikhail: I have created magic gates that link the manor and the sanctuaries
+         together.  Being able to come and go from the labyrinth as you
+         please should ease your journey, I think.
+Alice:   Wow, that's quite something, Mikhail.
+Mikhail: Huhuhu.  That isn't the only feature of the sanctuaries, either.  Have
+         you noticed, milady?
+Alice:   Noticed what?
+Mikhail: Your lives and DP have all been restored.
+Alice:   Oh!  Now that you mention it, I do feel...  but, how?
+Mikhail: The holy power of the sanctuary has rejuvinated your body, milady.
+Alice:   So I see.  Thank you, Mikhail.  This will help a ton.
+Mikhail: You're welcome.  It was the least I could do.
+Alice:   It will be good to pace myself so I don't run out of steam.  You
+         should too, Mikhail.
+Mikhail: ......
+Alice:   Oh, what's wrong?
+Mikhail: Ah, nothing is.  For safety's sake I'll be standing by in the
+         sanctuary.  Who can say what's going to happen from here on out.
+Alice:   Okay.  I appreciate it.
+
+  /Mikhail leaves/
+
+Alice:   So, what next?  Hurry back down to the labyrinth? Or perhaps rest for
+         a bit?
+
+-------> (Optional) Visit Lucille in the Maid's Room.
+
+Lucille: Miss, what have you come here for?
+Alice:   Just visiting.
+Lucille: Since you've apparently got the time to dawdle about in my humble
+         little room, how about you take your leave?  If you don't hurry up the
+         professor's surely going to.... kekekeke.
+Alice:   D-don't say frightening things like that!  And speaking of, that laugh
+         creeps me out so it'd be great if you could put the kibosh on it.
+Lucille: Goodness, how rude.  What is the matter with you?
+Alice:   Ah, er, well. I'm sorry.
+Lucille: See here!  Please stop idling about and make haste to go.  The
+         professor's waiting for you, no?
+Alice:   O-okay I will.
+
+  /Alice leaves/
+
+------> (Optional) Go back in.  This will be the text you get the majority of
+        the times you check Lucille's room throughout the game.
+
+Lucille: Oh my, Miss?  What do you want?  Don't tell me you've elected to
+         abandon the professor after all.  Huhuhu!  I knew it, protecting your
+         own life is more important than saving his.  Oh, am I wrong?  If so,
+         how about you get going on the double?  Before it's too late?  Can't
+         say I'd mind if you gave up on him though.  Keeekkekekekeke.
+
+  /Alice leaves/
+
+--------> Warp back down into the labyrinth via the new gate that just opened
+          up in the pantry.  The question it asks (and will always ask) is
+          what floor you want to warp to, but of course as of right now the
+          only choice is B2F. Continue learning to play the labyrinth, as the
+          next story trigger isn't until B4F.
+
+-------> (Optional) Talk to Mikhail in the sanctuary.  This will be the text
+         you get the majority of the times you talk to him throughout the game.
+
+Mikhail: Welcome back.  I am so pleased to see you safe.  Fear not, for the
+         warp gate is fully operational.  Take care on your journey.
+
+
+[05].B4F Bordermoon Room:
+-------------------------
+Alice: Ick!  The stench of that miasma is on a whole other level around here.
+
+  /Alice walks/
+
+Alice: Huh?  What's this door?  Rrrr, it's stuck fast.
+Alice: Nope, doesn't look like I can open it.  I wonder what I have to do?
+       Hmmmm; hmmmm; hmmmm.....
+Alice: Maybe the stench has something to do with it.  If that's true, the door
+       could open when I destroy the bordermoon!
+
+-----> Go bust the bordermoon.
+
+Alice: Let's see what happens.
+
+  /The miasma dissipates, allowing the locked door to open./
+
+Alice: It worked!
+
+------> Go investigate the previously-locked room through the silver columns.
+
+Alice:   What's this room?
+Alice:   Oh my, is this a sewing machine?  What's this doing inside the
+         labyrinth of all places?  And not just that...
+
+  /rustle, rustle/
+
+Alice:   This is a pattern, isn't it, for another magic dress?
+Alice:   Ah, I know!
+
+  /Alice fetches Mikhail/
+
+Alice:   What do you think, Mikhail?
+Mikhail: Yes, indeed.  This sewing machine will do just fine for making magic
+         dresses.
+Alice:   Really?  Huzzah!
+Mikhail: But do you believe you can handle this?  Dressmaking is fairly
+         complicated.
+Alice:   Are you patronizing me?  Of course I know how to make a dress.. I am
+         a proper lady, don't you know!
+Mikhail: Begging your pardon, ma'am.
+Alice:   Sheesh, I'm going to lose my temper at this rate!  Anyway, Mikhail,
+         how long do you plan on hanging out here?
+Mikhail: Huh?
+Alice:   You can go back now.
+Mikhail: Eh?  You mean that was all you wanted to see me about?
+Alice:   Indeed.
+Mikhail: .....
+Alice:   Okay, 'tis time for all good sorcerers to return home. :)
+
+  /Mikhail leaves/
+
+Alice: Whew, let's get down to business.  So, self, shall we try crafting from
+       this pattern?
+
+  /Obtained the pattern for the magic dress Litense/
+
+------> Use the machine to make whatever dresses you can with the items you
+        have in inventory, then go monster stomping for more items.  You can
+        make Bekiradin with kuahha + borodi; Scuart with tyuunu + osubiya +
+        awizu; and Litense with roadesu + lisufa + radokuya.  I wasn't able to
+        make Manaclis yet at this point.  Each dress is optional and they can
+        be made in any order, so it's up to you how you want to manage your
+        inventory.  I wanted the full array of powers at my disposal so I made
+        every dress as soon as practical after coming across its pattern.  But
+        you could choose differently.  When ready, continue on with the
+        labyrinth.  The next story trigger is on B5F.
+
+
+[06].B5F Sanctuary:
+-------------------
+Alice:   Hi there.
+Mikhail: Milady you must be tired.  Would you take a short break here?
+Alice:   Nah, I'm hurrying ahead.
+Mikhail: I see.  You sure are pushing yourself hard, milady.
+Alice:   Aw, no backseat adventuring, please.  Unless you're asking to take
+         over for me?
+Mikhail: Eh?!  No, I mean..  that is..  well..  Oh, speaking of!
+Alice:   Dodging the issue, are we?
+Mikhail: W-well...
+Alice:   No matter.  Continue.
+Mikhail: Certainly.  I had a thought: Your late mother used to be skilled in
+         dressmaking.  There's a pattern that might still be in her room.
+Alice:   Ohh, my mom was...?
+Mikhail: How about searching for it?
+Alice:   Sure will.  Thank you, Mikhail!
+
+-------> Go to mother's room in the upper right corner of Manor 2F.
+
+Alice: Come to think of it, Mikhail mentioned this didn't he.  That there
+       might be a dress pattern in this room.
+
+-------> Examine the dresser next to the bed.
+
+  /rustle rustle/
+
+Alice: Ah!
+Alice: It was still here.  This is it!  Think I'll just take this with me.
+
+  /Obtained the pattern for the magic dress Survey/
+
+-------> Warp back down to B5F and continue on with the level.  Possibly go
+         up to the sewing room on B4F to make Manaclis, Survey, and Ferminio
+         after collecting the appropriate items.  The next story trigger is
+         later in B5F.
+
+
+[07].B5F Vampire in Bordermoon Room:
+------------------------------------
+This is the first monster in the game that Alice can talk to, once the level's
+bordermoon is destroyed.
+
+Alice:   En garde, you monster!
+Vampire: W-wait.  Hold your horses there.
+Alice:   Eh?!
+Vampire: Please don't trample me.  Let us discuss for a while.
+Alice:   Talk this out, you say?  With you, a monster?
+Vampire: Oh I can understand your skepticism.  But being able to resolve
+         differences through parley is important.  I'm not so quick to settle
+         things by force as you seem to be.
+Alice:   *grump*!  Oh, like I have a choice!  It's attack or BE attacked out
+         here.
+Vampire: There are friendly folks even amongst monsters.  Like myself for
+         example.
+Alice:   How can you say that when you were chasing me mere moments ago?
+Vampire: I was a bit out of sorts on account of the miasma.  I couldn't help
+         it, could I.
+Alice:   Well then, you returned to normal when I destroyed the bordermoon?
+Vampire: Exactly.  When the miasma isn't around, some of us are decent folk.
+Alice:   Hmmm.
+Vampire: Once you destroy a bordermoon, if you see anyone who stands still,
+         you should try talking to them.  Surely they'll lend you a hand.
+Alice:   Will do!
+Vampire: Kukuku...  Then shall you allow me to take my leave?  Farewell, young
+         lady.
+
+------> Talk to him again.
+
+Vampire: Kukuku...  I'll tell you something useful.  Are you finding all the
+         materials you need for your dresses?  The monsters who drop patterns
+         often also carry the materials required to sew them.  I can
+         understand your desire to rush ahead, but it would be worthwhile to
+         take time out to collect materials every now and again, don't you
+         think?
+
+------> Talk to him again.
+
+Vampire: Apologies.  I'm fresh out of hints.  Kuku, kukuku....
+
+------> Continue exploring the labyrinth as desired until you reach the next
+        story trigger on B7F.
+
+
+[08].B7F Safe Area:
+-------------------
+Alice: Whew, I'm a bit worn out.
+
+  /Alice walks to the center of the room/
+
+Alice: Why not, this looks like a decent enough spot for a break.
+Voice: Kyahaha (laughs)
+Alice: ?! Who's there?
+
+  /Alice looks around and hears the laughter again/
+
+Alice: !!  Eeek!
+Alice: Ah, there you are, you monster!
+Fairy: *sniffle* That's mean.  Calling me, adorable little me, a monster, of
+       all things.
+Alice: Eh?  Eh?  Eh?
+Fairy: *sniffle* Even though I just wanted to talk to you.
+Alice: Oh I'm so sorry.
+Fairy: Okay, I'll forgive you!
+Alice: (somehow, she seems awfully full of herself...)
+Fairy: What's the matter?
+Alice: Oh, nothing's wrong.
+Fairy: ?
+Alice: Say, can I ask you something?
+Fairy: What is it?
+Alice: Why did the monsters abduct my father?  I've been wondering about it
+       this whole time and I haven't come up with any reason why they'd want
+       to.
+Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+       grabbed him so that he couldn't do it any more.
+Alice: Do you know where Father is being kept?
+Fairy: I don't know.
+Alice: Ah.  Well how about Father's research topic, then?  Was it really
+       something bad enough to be kidnapped over?
+Fairy: I'd like you to find that out on your own.  You rely on others a bit
+       too much, sister.
+Alice: (I've just been rebuked by a half-pint.)
+Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+Alice: Ah, hey, wait up!
+
+  /Fairy laughs and leaves/
+
+Alice: Awww, she left.
+Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+       just makes it clear how little I really know about him and his work.
+       Guess I should try to do some investigating.  Let's see...  There might
+       be something about this in our study.  Let's head back to the manor.
+
+--------> Go through the sanctuary here on B7F, back to the library/study on
+          the left side of Manor 2F.
+
+Alice: All righty.  Wonder if there'll be anything here.
+
+--------> Walk to the desk and touch it.
+
+  /rummage, rummage/
+
+Alice: Nope, nothing relevant in here...
+
+  /rummage, rummage/
+
+Alice: Oh, what's this?  Father's diary?
+Alice: Indeed it is.  Invading his privacy would be uncouth, but, should I
+       read a little of it?  Well, I want any kind of clue I can find, so
+       Father, I'm sorry about this.
+Alice: Although if I'm being honest it's exciting to find out what someone else
+       writes in their private diary.  Hehe.  Let's dive in!  Lessee here...
+
+April 5th:  Today I took my daughter on an outing.  How long has it been since
+            I've seen her so pleased?
+April 13th: Today I played games with my daughter.  Watching her expressions
+            ebb and flow like the tide made me feel happy for some reason.
+April 21st: These enjoyable days quietly pass one after the next.  I hope life
+            can continue to be like this....
+
+Alice: Oh Father, you had me in your thoughts that much?  I feel tears coming
+       on... *sniff*
+Alice: Ahem.  Shall we continue reading?
+
+August 19th:  Even after the exile, civil unrest in Russia has not been
+              quelled.  We remain safe for the time being, but I wonder how
+              long that can last...
+October 23rd: The flowing sands of time can't be stopped, nor can the rise and
+              fall of the eras.  Something serious is bound to happen before
+              long.
+December 2nd: A great many more people were killed today.  If this keeps up I
+              fear that we will be in serious danger.  I've got to think of
+              some way....
+
+Alice: ......
+Alice: Huh?  It ends there?!  Oh phooey, just when it was getting to the good
+       part.  Sheesh.  Isn't there any more?
+
+  /rummage, rummage/
+
+Alice: Nope, it looks like that's it for the desk.  If there were more pages,
+       where would they be?  Maybe in Father's own room..  Worth a shot,
+       right?
+Alice: But hold on, it said Father was Russian, no?  How can that be?  I don't
+       have any memories of life in Russia myself.  Did I just forget?  Hmm, 
+       hmmm...  Not happening.  I can't pull a single one.
+Alice: Oh well.  I'll have to worry about that later.  Now back to the task at
+       hand.  I need to find out more about Father.
+
+--------> Go up into Nabokov's bedroom.
+
+Alice: All right.  It'd be nice to find a continuation of that diary.
+
+--------> Go touch the bed.
+
+Alice: Huh?  There's something under the bed.
+
+  /rummage, rummage/
+
+Alice: What's this?  This is it!  The diary!  Let's go ahead and read it.
+
+January 15th: I wonder how much time has passed since we fled from Russia.  I
+              don't regret having fled in and of itself.  And yet....
+January 21st: My wife and daughter are suffering in bed again today.  The
+              wounds inflicted upon them by monsters during our escape aren't
+              healing properly.
+January 27th: Oh, my dearest wife!  And Anya!  My adorable daughter!  Why did
+              you two have to die?  Just when we had finally arrived in our
+              safe haven at last.
+
+Alice: Eh?  What is this all about?  What are you talking about, Father?!
+       Anya?  Who's that?  And, what do you mean, dead?  Oh come on!  This
+       baloney isn't making any sense!
+Alice: Hmph.  Well.  I won't learn anything by whining about it.  I gotta try
+       reading further.
+
+Jan 27th (cont): I can never forgive the monsters for what they've taken from
+                 me.  Their days are numbered and I will bring them down.  To
+                 that end, I must complete this research!
+
+Alice: F-father....
+
+February 21st: Is my research something that defies the gods?  Will the serial
+               failures keep piling up one after the next?
+March 7th:     This latest experiment was another failure.  But I won't give
+               up.  Like hell I would!  I don't want there to be any more
+               bereaved people like me out there.  I cannot quit here.
+March 29th:    The state of the city just keeps on deteriorating.  I mustn't
+               let things continue this way!  I've got to hurry up and finish
+               the genomroid, even one day sooner!
+
+Alice: Genomroid?!  So that's what he was researching?
+Alice: Okay, Father, what on Earth did you do?
+Alice: .......
+
+  /Lucille enters/
+
+Lucille: Oh?
+Alice:   Gyah!!
+Lucille: Miss.  You've been in here?
+Alice:   Lu-lucille?!
+Lucille: Myyy, my.  What a well-mannered young lady we have here.  While the
+         professor's life hangs in the balance, you mean to tell me that young
+         Miss is up here goofing off?
+Alice:   In no way am I goofing off!
+Lucille: Ohhh, the poor professor, abandoned by his beloved daughter...
+Alice:   Hey!  Listen to what I'm saying!
+Lucille: All alone in his final hours, needlessly falling prey to hungry
+         monsters...  Ohhh, how cruel life can be.
+Alice:   Fine!  I get it.  I'm going back down right now!  That good enough
+         for you?!
+Lucille: I didn't say you had to.  Forsaking the professor and living out life
+         on your own is also an option.
+Alice:   I wouldn't do something like that!  I'm definitely going to save
+         Father; you'll see!
+Lucille: In that case you had best make haste.  Although you're probably
+         already too late.  Fufufu, fufufufu. Keekkekekeke.
+
+  /Lucille leaves/
+
+Alice: Sheesh!  Lucille, you are such an unpleasant louse!  In fact, you go
+       beyond just being mean; you're truly toxic.  A toxi-maid!
+Alice: However, she does have a point that I needn't be so carefree.  I gotta
+       get back to the labyrinth.
+
+-------> (Optional) Go talk to Lucille in the Maid's Room.
+
+Lucille: Ah, young Miss.  You look bored.
+Alice:   I'm not bored.
+Lucille: If you've got time, could you help me out a little with the chores?
+Alice:   As I said I'm not bored!
+Lucille: A lot of housework has piled up so I'm a bit overwhelmed.
+Alice:   Hey!  Pay attention when someone's talking to you!
+Lucille: Fuffuffu.  You'd really be helping me out, young Miss.
+Alice:   As-I-said, listen to what I'm saying!!
+...........
+Alice:   *huff puff*
+Lucille: Huhun.  Thank you very much.  That was a big help.
+Alice:   *pant pant* T-that's all of it right?
+Lucille: Huhuhu, Not a chance I'm afraid.  Look, there's still plenty left.
+Alice:   Gack!
+Lucille: Come on, Miss.  Naturally, you're going to keep helping until we've
+         finished it all aren't you?
+Alice:   You've got to be kidding!
+
+  /Alice turns to walk away/
+
+Lucille: Aw, that's too bad.  Putting off housework is nothing but a temporary
+         reprieve, and it'll only make things harder later.  Keeekkekekeke.
+Alice:   !
+
+  /Alice leaves/
+
+-------> Go back to the labyrinth B7F via the warp gate and continue on.  By
+         this point the bordermoon will have respawned, so go bust it again to
+         open the door down to B8F.  Continue exploring as desired until the
+         next story trigger on B11F.
+
+
+[09]. B9F Sales Fairy:
+----------------------
+Fairy: Welcome in, to you!
+Alice: Eh?  What the heck is 'welcome in' for?
+Fairy: I've opened up a shop.  Please buy yourself something!
+(selling wariyagu, irumari, borodi, masaeru, seruti; bottom right is exit)
+Fairy: Please come again.
+
+
+[10]. B11F Upon Entry:
+----------------------
+Alice: ......
+Alice: *tummy rumble*
+Alice: I'm famished.....  But I already ate the food I brought with me.
+       *big tummy rumble*
+Alice: .......
+Alice: No getting around it I guess.  Shall I go ask Lucille to make me
+       something?  She should be in the dining room around this hour.
+
+-------> Go to the sanctuary along the south wall of this room to return to
+         the manor, then proceed to the dining room on the right side of 1F.
+
+Alice: Ah, smells good!
+
+-------> Walk over to Lucille.
+
+Alice:   Lucille, have you finished preparing tonight's meal?
+Lucille: Hello, Miss.  Why are you in here?  The food isn't ready yet.  In
+         fact, you're getting underfoot, so would you mind taking your leave?
+Alice:   Oh this looks tasty.  Think I'll take a sample.  *nab*
+Lucille: My!  Mind your manners, young lady!
+Alice:   No biggie, no biggie.
+Lucille: Huhu.  Shameful.  You're scavenging like a hyena.
+Alice:   Huhu, whatever you say. *munch munch*....
+Alice:   *G, gack.* What is this?!  My body's going numb.
+
+  /Alice screams and collapses/
+
+Alice:   Uggh....
+Alice:   Huh?!  I'm in my own room?  Why?  What happened?
+Lucille: Oh, so you're finally awake.
+Alice:   Lucille?!
+Lucille: You gave me quite the shock, suddenly collapsing like that.
+Alice:   Eh, I did?  It's true that while I was eating I did feel sick all of
+         a sudden.
+Lucille: ........
+Alice:   Lucille?
+Lucille: The truth is that, mistaking it for seasonings, cockroach bait went
+         into the food...
+Alice:   Whaaaaaat?
+Lucille: Huhuhu.  Anyone at all could have made that mistake.  Similar
+         bottles.
+Alice:   I don't want to suffer through that on account of an error!
+Lucille: Huhu.  Well pardon me, madame.
+Alice:   Hey!  Trying to dodge responsibility?!
+Lucille: Huhu.  Huhuhuhuhu.
+
+  /Lucille leaves/
+
+Alice:   ........
+Alice:   Oh, Lucille.  Surely that couldn't have been on purpose, right?
+
+----------> Return to B11F via the warp gate and continue adventuring.  There
+            are a couple monsters to talk to along the way, but the next major
+            story trigger isn't until B15F.
+
+
+B13F sales of rudorin, kuahha, tuuka, aigizu, osubiya.
+
+
+[11].B14F Vampire:
+------------------
+Vampire: Kukuku.  I'm impressed you made it down this far.  I think that's
+         deserving of a reward.  Here, take this.
+
+  /Obtained the pattern for magic dress Twincavia/
+
+Vampire: Keep going as far as you can.  Kukuku......
+
+------> (Optional) Talk to him again.
+
+Vampire: I don't have any more rewards for you.  Kukuku..  Too bad, isn't it.
+
+------> Continue on adventuring.
+
+
+[12].B14F Wizard:
+-----------------
+Wizard: Yo, Alice.  Huhhuhhuhhu.
+Alice:  Eep!  Disgusting!  Don't get too close.
+Wizard: Oh, dear Alice.  One shouldn't judge others by their appearance.
+Alice:  Sure.  (The disconnect between how he looks and how he acts frightens
+        me though).
+Wizard: Now, I'm not going to do anything, so come over here.
+Alice:  I'm fine where I am. (Who knows whether something would happen if I
+        were to carelessly approach.)
+Wizard: I see.  That's too bad.
+
+------> (Optional) Talk to the wizard again.
+
+Wizard: Yo, Alice.  Hello.
+Alice:  H-hello.
+Wizard: Come, let's have a leisurely chat this time.
+Alice:  I-I'm in a bit of a hurry, so maybe next time.
+Wizard: Why's that?  You're refusing again?  Good grief.  Young ladies these
+        days simply have no manners.  *mumble mumble....*
+Alice:  (As I thought, scary!)
+
+--------> Continue on adventuring.
+
+
+[13].B15F Safe Room:
+--------------------
+Alice: Whew.
+
+  /Alice walks to the central grove/
+
+Alice: I think I've made it to the depths of the forest....  Whew. I'm feeling
+       a bit worn out.
+Alice: All right. The miasma seems light in this room.  Just what I needed!
+       Let me rest for a while.
+
+  /Clunk/
+
+Alice:   Holy..!  Who's there?
+Vampire: Hi, young lady.  Kukkukku.  Doing well?
+Alice:   What, do you need something?
+Vampire: My goodness, how unfriendly.  And after I took all this trouble to
+         bring you information.
+Alice:   Information? What is it?
+Vampire: Perhaps it is closer to gossip than information, but...
+Alice:   Lose the pompous act and spit it out already!
+Vampire: Dear me, so impatient.
+Vampire: It seems that in order to rescue the professor, the power of
+         genomroid is required.  Without it, even if you find the professor,
+         you won't be able to free him.
+Alice:   Genomroid?!
+Vampire: Yes.  That's what I overheard just now at any rate.
+Alice:   As I recall, that word was mentioned in Father's diary too, wasn't
+         it.
+Vampire: I see.  I'm afraid I could not say what a genomroid is, however...
+
+         In any case it's sure to be something essential. It would be worth
+         looking into further.
+Alice:   You're right.  I will.  Thank you!
+Vampire: Kukkukku...  I'm so pleased to have been helpful.  Farewell.
+
+  /Vampire leaves/
+
+Alice: Genomroid...  I wonder what that actually is?  Mikhail might know
+       something about it!  All right.  Let's try asking him.
+
+-------> Go to the sanctuary on the right side of this room.
+
+Alice:   Mikhail!
+Mikhail: W-what is it, all of the sudden?
+Alice:   Do you know anything about something called a genomroid?
+Mikhail: !  N-no, unfortunately I don't.
+Alice:   Eh?  Are you sure?
+Mikhail: Y-yes.  I completely, absolutely, know not even a smidgen.
+Alice:   That's odd.  Genomroid was Father's research project.  Being his
+         assistant, there's no way you couldn't know.
+Mikhail: Although you say that, I, er...
+Alice:   Suspicious.
+Mikhail: .......
+Alice:   ...okay, I get it.
+Mikhail: Huh?
+Alice:   It's fine!  I'll look into it on my own!
+Mikhail: M-milady?!
+Alice:   Mikhail, don't try to stop me!  You don't have to tell me yourself 
+         but I am going to find out.
+Mikhail: .....understood.
+Alice:   Welp, where should I start looking?  The basement laboratory seems
+         the most obvious place for clues.  Right!  I'll head straight there.
+
+---------> Warp back to the manor, then walk downstairs to the basement lab.
+
+Alice: I hope I can find some sort of clue down here.  Let's hurry and
+       investigate.
+
+---------> Walk to the table in the bottom left corner.
+
+Alice:  Hm?  What do we have here?  It's Father's research report!  Let's
+        see..  I wonder if there'll be anything in here about it?
+Report: Genomroid.  That is...
+Alice:  Ah!  Here it is, right here!  He did write about genomroid!  All
+        right then, again from the top.
+Report: Genomroid.  That is a brand new being, one brought to life not by the
+        gods but created through the striving of ordinary man. As such, it is
+        imperfect as a life form.  It must harvest supplemental energy from
+        the outside in order to survive.  Calling the results so far a flop
+        wouldn't be an exaggeration. And yet, it is so close to the ideal that
+        it would be regrettable to discard. It will be necessary to develop a
+        means to...
+Alice:  *gulp* That's some weighty stuff.  An artificial human.  So that's
+        what a genomroid is, isn't it.
+Alice:  Looks like there's more.  Let's read on.  Lessee here...
+
+  /Lucille enters/
+
+Lucille: Why hello there, Miss.
+Alice:   Eep!?
+Alice:   Oh, it's you Lucille.  You gave me quite the fright.
+Lucille: My, my, are you at it again?  Goofing off again, and in a place like
+         this no less?
+Alice:   As I told you, I. am. not. goofing off!
+Lucille: *sigh* Good grief.  Are you sure you actually feel like rescuing the
+         professor?
+Alice:   What are you talking about?!  It should be obvious that I do!
+Lucille: Could've fooled me.  If you cared, no way would you be wasting time
+         here in the manor, right?
+Alice:   Rrr!  F-fine then!  I'm going back down right now!
+Lucille: Oh, but if you'd rather not bother, how about quitting?
+Alice:   No way could I drop it; don't be absurd!
+Lucille: Huhu, is that so?  Well then, do as you please.  I couldn't care less
+         which you choose.  Huhuhuhu.  Keekekekeke.
+
+  /Lucille leaves/
+
+Alice: I've had it with you, Lucille!  You've gone beyond sarcastic teasing
+       straight into obnoxious jerk territory!  You're lower than a snake's
+       belly in a wagon rut.
+Alice: Ah well, standing here grumbling about her sure won't solve anything.
+       Back to the labyrinth it is!  I'll get another earful from Lucille if
+       I don't get a move on.
+
+--------> Go back to B15F and continue adventuring.
+
+
+[14].B16F Fairy:
+----------------
+Fairy: Hey sister, have you found that guy you were looking for?  Not yet?
+       I'm worried about him.  Oh, that's right! I've got something good I
+       can give you.  It'll surely come in handy.
+
+  /Obtained the pattern for magic dress Epinephre./
+
+Fairy: Best of luck, y'know.
+
+---------> Talk to her again.
+
+Fairy: I don't have any more presents to give out.  Sorry about that, y'know.
+
+---------> Continue on adventuring.
+
+
+B17F sales of roadesu, lisufa, nyukusu, zoriano, seruti.
+
+
+[15].B18F Entry:
+----------------
+Alice: *pant, pant*.  *pant, pant*
+Alice: You mean there's still more?  I've already come such a long way.  Oh
+       cut it out, I'm exhausted.
+Alice: Hmph.  No use standing here bellyaching though.  Let's keep going just
+       a bit further.
+
+-------> Continue on adventuring.
+
+
+[16].B19F Wizard:
+-----------------
+Wizard: .......
+Alice:  ?  What are you doing?
+Wizard: I'm setting up my products.
+Alice:  Products?
+Wizard: I started up a shop.  Buy something, will you?
+(selling akubaru, rewiza, tyuunu, kuahha, seruti)
+Wizard: I see, come again.
+
+
+[17].B20F Entry:
+----------------
+Alice: *pant, pant*.  *pant,pant*.
+Alice: W-what's going on?  Why do my feet feel so stubbornly heavy?
+Alice: Something's weird!  My body hurts so much all of a sudden.  It wasn't
+       like this at all before.
+Alice: *pant, pant*.  *pant, pant*. 
+Alice: .......
+Alice: Okay, I've calmed down some.  Let's hurry on now.
+
+--------> Continue on adventuring.
+
+
+[18].B22F 3rd Room Entry:
+-------------------------
+Alice: Ur!  Urgh.  H-head spinning...  Something's seriously wrong now...
+Alice: A sanctuary?  Perfect timing.  I'll rest up a bit inside.
+
+  /Alice walks toward the sanctuary, but stops/
+
+Alice: Urk...!  My strength is failing me...  Please, at least reach the
+       sanctuary.
+
+  /Alice enters/
+
+Alice:   Uggh....
+Mikhail: Lady Alice?  Has something happened?
+Alice:   Not much.  I'm just feeling dizzy...
+Mikhail: A-are you all right?  To be safe, should you not rest up in the manor
+         for a time?
+Alice:   Don't make too big of a deal out of it.  I'm fine.  Just need to take
+         a little break...
+Alice:   Aaaaaaah!
+Mikhail: Lady Alice?!
+
+  /Alice collapses/
+
+Mikhail: Milady! Lady Alice!!
+
+  /Alice wakes up in her own room/
+
+Alice:   ......
+Alice:   Urrrr.
+Mikhail: Ah, you're back with us.
+Alice:   Mikhail?  Huh?  Wait, why am I in my room?
+Mikhail: Ah, do you not remember what happened?  How you blacked out all of
+         a sudden?
+Alice:   Now that you mention it, that does sound familiar.
+Mikhail: Goodness.  Well, you ought to allow yourself to rest here for a
+         time I think.
+Alice:   Nah, I'm all good now.
+Mikhail: Whatever are you saying!  You've only just now awoken!
+Alice:   But, I really am fine.  Look at this.  See how energetic I am?
+Mikhail: Please desist, Lady Alice!  Your body is in precarious condition
+         right now!
+Alice:   But, Father needs....
+Mikhail: I understand how you feel, but I implore you to give yourself more
+         rest.
+Alice:   You're being such a worrywart, Mikhail.  I truly do feel right as
+         rain.
+
+  /Alice spins/
+
+Alice:   There, you see?
+Mikhail: P-please stop that!  Do you have a death wish?!
+Alice:   Eh?!
+Mikhail: You were finally able to sustain life through the harvesting of
+         outside energy!  Those magic dresses you've been using are bound to
+         that selfsame life force.  If you carelessly overuse them then...!
+Mikhail: Haa, haa.. (breathing heavily)
+Alice:   Tell me, what did you mean by all that?
+Mikhail: Sorry, I got carried away.  Please forget I said anything.
+Alice:   Mikhail!!
+Mikhail: .......
+Alice:   (He said I live by absorbing energy from outside?  My magic dresses
+         are linked to my life force?  Absurd nonsense!  He makes it sound as
+         if I'm just like a genomroid!) N-no way?!
+Mikhail: Milady? What happened?
+Alice:   You've got to be kidding me!  That can't be right!!
+Mikhail: W-where might you be going?
+Alice:   I'm going to make certain!  About everything!
+
+  /Alice leaves and goes to the basement lab/
+  /rustle, rustle/
+
+Alice:  Here it is.  Father's research report!  I hope reading the rest will
+        clear up all doubt.
+
+Report: I used sometic cells from Anya to create the genomroid base body. One
+        can never truly bring back someone they've lost, and I understand that
+        full well.  However, just being able to see Anya's visage again would
+        be enough.  The base body that was born was indeed the spitting image
+        of my Anya, my daughter, at least on the outside.  Seeing her filled
+        me with joy, as if my daughter had actually been reborn.  Alas, when I
+        think of what came next that joy turns to depression.  I had to
+        incorporate a certain ability into this girl, the ability to destroy
+        bordermoon orbs.  Though it had to be done, it pained me to do it.  I
+        had to take such a lovely girl and tailor-make her into something akin
+        to a weapon.  Despite my grief I cannot afford to quit now.  And that
+        being the case, at least I can treat this girl just as I would any
+        daughter of mine, with fatherly devotion and sincere affection.  With
+        those feelings in mind I chose to name the girl, and call her Alice.
+
+Alice:   ..... O_O
+Alice:   N-no way!  That can't be!  Me being the genomroid.  I won't believe
+         it.  I'm a person!
+Lucille: Awww, that's disappointing.  So you finally found out, huh.
+Alice:   L-lucille?!
+Lucille: Huhhuhhu.  How does it feel to know that you're an imitation, nothing
+         more than a mere figurine?
+Alice:   Stop it!  Don't call me a figurine!  I am a person!
+Lucille: Awww, good grief, how unsightly of you.  You read the report, did you
+         not?
+Alice:   It's fake!  The whole thing is full of downright lies!
+Lucille: Huhun.  What you just said is the real fib.  You know good and well
+         that what's written in that memo is all factual.  I suppose you're at
+         that point where you comprehend what it says but don't want to
+         believe it?
+Alice:   Th-that is.....
+Lucille: Accept it.  The fact that you're inhuman, you know?
+Alice:   No! I am a person, an ordinary human I tell you!
+Lucille: Huhun.  Can an ordinary person destroy a bordermoon, hmm?  Can an
+         ordinary person make use of the magic in your dresses?  Would an
+         ordinary person be able to survive being hunted by monsters?
+Alice:   .......
+Lucille: Well?  Do you still feel like insisting that you're human in spite of
+         those points?
+Alice:   .......
+Lucille: Huhun.  Alice, the little genomroid given new life simply to stomp
+         dark monsters.  That's what you are.
+Alice:   Tsk!!
+
+  /Alice walks to the stairs/
+
+Lucille: Running away are we, pitiful miss puppet?  Huhu, huhuhuhu.
+Alice:   ---Tsk!!
+
+  /Alice walks upstairs/
+
+Lucille: Huhu, huhuhuhu.  Aah, hahahahahaha.  Keekkekekeke.
+
+  /Fade to black/
+  /Knock, knock/
+  /Knock, knock, knock/
+
+Mikhail: Lady Alice.
+
+  /Mikhail enters Alice's room/
+
+Mikhail: Milady.
+Alice:   Cut that out!  You probably knew too, didn't you?  That I'm not a
+         human.
+Mikhail: Yes, given that I served as the professor's research assistant.
+Alice:   Well then, don't bother being so kind to a nobody, to a fashion doll
+         like me!
+Mikhail: I won't hear of such things.  As far as I'm concerned, to me you are
+         none other than Lady Alice!  I do not think of you as a doll.  And 
+         I'm quite certain the professor feels the same.
+Alice:   Lay off the consoling.  It doesn't much matter what happens to me
+         anymore.
+Mikhail: Whatever are you talking about!  What do expect to accomplish with
+         an attitude like that!  Just who was it that said they'd rescue the
+         professor!?
+Alice:   !
+Mikhail: The professor must be down there waiting.  Waiting for milady to
+         come and help break him out!  Do you intend to leave him be?!
+Alice:   !!
+Mikhail: The professor treasured you as a daughter.  Will you forsake him
+         in return, milady?!
+Alice:   ......
+Alice:   You're right.  I'm the only one who can break Father out, huh?  All
+         right, Mikhail.  I'm going back down!  I'll let myself feel
+         depressed, but only after I bring Father back!
+Mikhail: Agreed, milady!  See you soon!
+
+  /Mikhail walks off/
+
+-------> (Optional) Talk to him.
+
+Mikhail: Milady, please take care out there.
+
+-------> (Optional) Go check the Maid's Room.
+
+Alice: Huh?  Lucille's not here?  Where could she have gotten to now?
+Alice: Oh?  Could this be Lucille's diary?  Obviously, I have no choice but to
+       look through it.  Uhuhuhu.  Well then I think I'll open it right up
+       posthaste.
+Diary: The world doesn't always go exactly as one hopes.  That girl is somehow
+       interfering with my plans.  Truly an eyesore she is.  I must remove
+       this obstacle, and preferably by my own hand...  There are any number
+       of ways to accomplish it.  For instance, if I were to poison the food,
+       that would take the obstacle right out.  That girl...
+Alice: W-what is this?!  Poison the food?!  It can't be!  She was targeting
+       me?
+
+  /Alice looks around/
+
+Alice: Lucille!  Lucille!!  Where'd you go?  Could she have run away?
+Alice: Fine!  I'm definitely going to find you and drag the truth out of you
+       if I have to!
+
+--------> Continue on adventuring.  Lucille never does show back up in any
+          room of the manor for the rest of the game that I could find. There
+          are a few monsters to talk to along the way but the next major
+          story trigger isn't until B30F.
+
+
+B24F sales of [awizu, fomoru, sarissa, irumari, nyukusu]
+
+
+[19].B26F Vampire:
+------------------
+Vampire: Kukuku.  Welcome in.
+Alice:   Welcome in?  You started up a shop?
+Vampire: Exactly right.  Today's opening day.
+Alice:   By any chance are you hurting for money?
+Vampire: ......
+Vampire: Anyway please take a look at my wares.
+(selling dareifu, lisufa, maanesu, tareosu)
+Vampire: Come on back anytime you feel like it.  Kukkukku....
+
+
+[20].B27F Wizard:
+-----------------
+Wizard: .......
+Alice:  .......
+Wizard: .......
+Alice:  .......
+Wizard: Say something already.
+Alice:  You first.
+Wizard: I don't have anything to talk about.
+Alice:  Me either.
+Wizard: I see.
+Alice:  Yup.
+
+
+[21].B28F Vampire:
+------------------
+Vampire: Yo, Mademoiselle.  Kukuku.  How are things with you?
+Alice:   They just took a turn for the worse.
+Vampire: What?  Because of me?
+Alice:   Bingo.
+Vampire: Hold on, what about me is bad?  Which part specifically don't you
+         like?  Is it this, this wine, that doesn't work for you?  Or is it
+         the way I adorn my behavior with pomp and circumstance?  Or, do I
+         have an ugly mug?  Perhaps I'm just innately repulsive?  Ah, I bet
+         that's it.  That just has to be it!
+Alice:   Whoa, I didn't say all that now!
+Vampire: No problem, it's all good.  This is worthless me we're talking
+         about after all.
+Alice:   Hellooo.  Hold up.
+Vampire: *mutter mutter*
+Alice:   I give up.  This guy needs professional help.
+
+------> (Optional) Talk to him again.
+
+Vampire: *mutter mutter*
+Alice:   Ah, he's still depressed.
+Vampire: *grumble grumble*
+Alice:   Think I'll just let him be alone.
+
+
+[22].B29F Wizard:
+-----------------
+Wizard: Need something from me?
+Alice:  No, I don't.
+Wizard: ........
+Wizard: Oh that's unfortunate.  I was hoping for company to help pass the
+        time.
+Alice:  That's great and all, but I still don't need anything.
+
+
+[23].B30F Vampire:
+------------------
+Vampire: Yo, Mademoiselle.  Nice weather we're having today.
+Alice:   Nice weather?  You know we're underground, right.
+Vampire: ......
+Alice:   ......
+Vampire: And on that note...
+Alice:   I'm so confused.
+Vampire: Kukuku.  I bid you farewell!
+Alice:   H-hey, hold up!
+
+
+[24].B30F Safe Room:
+--------------------
+Alice: Oh, what is that?!
+
+  /Alice walks forward/
+
+Alice:   Father!
+Nabokov: A-alice?  Ohh, Alice, you made it?!
+Alice:   Oh I'm so thankful you're okay.  Let me get you out of there right
+         now.
+Nabokov: Don't bother.  No matter how much you beat on it, the gordalis will
+         not break.
+Alice:   Gordalis?  You mean this thing you're trapped inside?
+Nabokov: Yes.  This cage was created from formidable magic, powerful enough
+         that I daresay I won't be able to get out of it.
+Alice:   Father!  Don't give up before we've even tried!
+Nabokov: Alice, leave me.  Get out of here and save yourself.
+Alice:   I can't, Father!  Are you really sure it's hopeless?  Isn't there
+         something, anything, we can try?
+Nabokov: Oh all right.  In that case check with Mikhail.  He might have some
+         thoughts.
+Alice:   Ah, Mikhail, huh...  Understood, Father.  Let me go ask!
+
+  /Alice departs/
+
+Nabokov: Alice, don't wear yourself out...
+
+--------> Go see Mikhail in any sanctuary (one is two rooms to the left of
+          the bordermoon, on B30F).
+
+Alice:   Mikhail!  Do you know how to break a gordalis?
+Mikhail: Gordalis!  Milady where did you hear that word?
+Alice:   I found father being held inside one.
+Mikhail: Is that so.  Hmm..  That presents quite the problem.
+Alice:   Well, Mikhail.  Isn't there some way to break it?  Well?  Well?
+Mikhail: It's not as though we have zero options, but...
+Alice:   Okay, please tell me what needs to be done.
+Mikhail: This is going to be rather troublesome.
+Alice:   Oh sheesh.  Stop beating around the bush and spill it, would you!
+         I'm willing to try anything I have to if it means being able to save
+         Father.
+Mikhail: Very well.  In that case there are some things I must ask you to
+         find.
+Alice:   What should I be looking for?
+Mikhail: Two sacred items are required to free the professor.
+Alice:   Sacred items?  Well which ones for heaven's sake?
+Mikhail: I do not know.  I suppose they'd have to be ones that could wear down
+         evil power...
+Alice:   All right.  And?  Where are those going to be?
+Mikhail: Most likely somewhere inside the labyrinth.  I'm a bit lacking in
+         particulars....
+Alice:   Great.  I'm clueless as to where I should start looking, and I don't
+         know much about what I'm looking for.  I agree, that certainly is a
+         pain.  But I've got to go through with it!
+Mikhail: Can you handle it?
+Alice:   Yep, I'm absolutely going to come back with them!
+Mikhail: If you should locate anything, please bring it here at once.
+Alice:   All right.
+
+  /Alice begins walking away/
+
+Alice: It's just like me to talk big even though I've nary a clue to go on.
+       Better start by gathering some intel.  How about I try asking the
+       vampire?  He seems like he might know something about sacred items.
+
+-------> Go to the vampire in the B30F bordermoon room, two rooms to the
+         right of Alice's current position.
+
+Alice:   Hey.
+Vampire: Oh?  Mademoiselle.  Kukuku...  Have you some business with me?
+Alice:   Do you know anything about sacred items?
+Vampire: Hm.  Now that you mention it I do recall hearing that phrase
+         somewhere.
+Alice:   Oh?  You know something?  Say, tell me!  Where are they?!
+Vampire: I couldn't give you a specific location.  But, what I heard went a
+         little something like this: "Stand in the heart of a cross inscribed
+         upon an underworld lake and sacred water shall gush forth."
+Alice:   The heart of a cross inscribed upon an underworld lake?  What's that
+         all about?
+Vampire: There must be a place matching that description somewhere in the
+         labyrinth.
+Alice:   Then, if I can make it there?!
+Vampire: Sacred water...  In other words, holy water, is what you'll acquire.
+Alice:   Thank you.  I'm going to check it out!
+Vampire: Right.  Best of luck to you.  Kukuku....
+
+--------> Go to (((SPOILER ALERT))) the safe room on B29F and stand in the
+          center of the cross as instructed.  The story will continue when you
+          find the right square.
+
+Alice: The heart of a cross inscribed upon an underworld lake... I think this
+       must be it.
+
+  /Flashes/
+
+Alice: W-what is this?!  Such beautiful water....  Surely this must be holy
+       water right?!  Let's scoop some up.
+
+  /Obtained holy water/
+
+--------> Go to Mikhail in any sanctuary, like B29F's which is one screen down
+          then one right, to report in as instructed.
+
+Alice: I've got myself some holy water.  Better find the other one fast.
+
+  /Alice walks forward/
+
+Mikhail: Milady.  Have you gathered the sacred items?
+Alice:   I found holy water, but I'm still working on the other one.
+Mikhail: Please try to hurry!  We don't have much more time!
+Alice:   I know that already!  But I don't have any other leads...
+Mikhail: I-I see.
+Alice:   Anything at all no matter how small would help.  Can you think of
+         anything, Mikhail?
+Mikhail: I wish I could, but...  Actually, I wonder.
+Alice:   Eh?
+Mikhail: The wizards might know something useful.
+Alice:   Why's that?
+Mikhail: Sacred items and magic are related, or so I've heard.  Thus it stands
+         to reason they ought to...
+Alice:   Makes sense, Mikhail!  I'll try looking for a wizard!
+Mikhail: Good luck.  And take care.
+
+--------> Go to B29F's bordermoon room (exit the sanctuary) and talk to the
+          wizard there.
+
+Alice:  Hey, got a sec?
+Wizard: Do you need something?
+Alice:  Do you know anything about sacred items?
+Wizard: I'm unfamiliar.
+Alice:  Hey hold on!  Put a little more thought into it than that.  We're
+        talking a matter of life and death here.
+Wizard: When I'm not familiar with something all I can say is "I'm
+        unfamiliar".
+Alice:  Oh please don't leave it at that.  Any scrap of info would be great.
+        Anything you've overheard?
+Wizard: .....Now that you mention it.  I recall hearing that someone has added
+        an unusual book to their shop inventory.
+Alice:  An unusual book?
+Wizard: Probably meaning a holy book, a bible.
+Alice:  A holy book?!  Could that be one of the sacred items I need?!
+Wizard: Most likely.
+Alice:  So who is it then?  Who's selling it?
+Wizard: If I'm not mistaken it was on B26F....
+Alice:  On B26F right?  Got it!
+Wizard: ....I'm not exactly certain about that though.
+Alice:  Hey now!  Don't do that!
+Wizard: How about you go find out?
+Alice:  A-all right.
+
+---------> Go to the bordermoon room on B26F. Talk to the vampire.
+
+Vampire: Yo, mademoiselle.  Kukuku.  Welcome in.  Oh, by the way, I've placed
+         an unusual item up for sale.  Take a look.
+          -Bible, L2000. One of the items necessary for rescuing the
+           professor.  Will you buy it?  (yes)(no)
+Vampire: If you feel the urge, come on back again.  Kukkukku.
+
+---------> Buy the bible for L2000. If you don't have enough money, some
+           monsters that frequently drop pounds are marked in the section V
+           maps, or perhaps you already have your favorite earning spot.
+           Once you've made the purchase, go report again to Mikhail now that
+           you have both items.
+
+Alice: I've collected both sacred items.  Now, let's show them to Mikhail.
+
+  /Walk to mikhail/
+
+Alice:   Mikhail, I found them!  A bible and holy water!  Look!  These should
+         work for sacred items right?
+Mikhail: Oh!  That's it!  Those shall do nicely!
+Alice:   Oh thank goodness!  Now that we have these, we can help Father right?
+Mikhail: No, collecting those was just step one.  Please take this.
+Alice:   What's this, a pattern?  Hm?  Does that mean step two is sewing a
+         dress from this?
+Mikhail: You are correct, milady.  And, once you've finished everything,
+         something ought to happen.
+Alice:   And what is that something?
+Mikhail: You'll see when the time comes.  For now please just trust me.
+Alice:   Fair enough, Mikhail.  I'll take your word for it.
+Mikhail: You have my thanks.  Now, milady.  Hurry to a sewing room!
+Alice:   Right!
+
+  /Obtained the pattern for the magic dress Argus/
+
+--------> Talk to Mikhail again.
+
+Mikhail: In order to craft the dress Argus, you'll need akubaru, tyuunu,
+         fomoru, and oreusu.  These items are frequently carried by monsters
+         on B30F.  Good luck, milady.
+
+--------> Go back to B30F, hunt items as needed, then sew the dress in the
+          sewing room directly south of the bordermoon room.  The story will
+          continue when the dress is complete.  Note that you won't be able
+          to change into Argus on your own even when it's done, as that dress
+          is locked to specific story scenes where it's automatically used.
+
+Alice: A bible and holy water.  And the dress.  Now I've gathered up
+       everything.
+Alice: ......
+Alice: ......
+Alice: What's up!  Nothing special is happening here!  Mikhail, you're touched
+       in the head!  "Just trust me on this"?  Oh come on.  "Something's going
+       to happen"?  Yeah right.  Oh for heaven's sake what the heck am I
+       supposed to do now.  I won't be able to save Father like this!  Oh,
+       Father....
+
+  /Flashes of light/
+
+Alice: Eh?  W-what?!
+
+  /Alice looks around/
+
+Alice: Ah!  The bible and holy water are glowing?!  Kyaaa!
+
+  /Flashes, and the background blanks/
+
+Alice: Wait, what?  What just happened?
+Voice: Daughter.
+Alice: Eh?!
+Voice: Daughter.  Your feelings towards your Father, your wish...  I have
+       heard your plea.
+Alice: Wait, who?  Who are you?
+Voice: I bestow power onto you.  Onto your soul and into your dress, the power
+       necessary for your task.  It is the power to protect someone important
+       to you.  Hallowed power to purify the wicked.  This holy sword!!
+Alice: Kyaaaaa?!
+
+  /Back to reality/
+
+Alice: Oof.  Sheesh, what the devil was that!
+Alice: Oh, what's this?  Such a beautiful blade...  This must be the holy
+       sword.  So this is what Mikhail meant.
+Alice: Now that I have this sacred sword, I should be able to help Father.
+       Surely!
+
+  /Obtained the holy sword/
+
+Alice: Now, let's hurry on to where Father is!
+Alice: But, that voice, I wonder whose it was?  Surely not God's?!  Yeah, like
+       that could happen.
+
+--------> Go stand in front of the door to where Nabokov is being held, two
+          rooms north.  If you want, SAVE before you go inside, because it's
+          the LAST TIME in the game you'll be able to do so.  Enter when
+          ready.
+
+  /Alice auto-changes clothes into Argus/
+
+Alice:   This should do it.  I have to be wearing this dress in order to use
+         the holy sword.  All right, let's go.
+
+  /Alice walks to Nabokov/
+
+Alice:   Father!
+Nabokov: Ha ha ha ha. Oh, ohhh, Alice!
+Alice:   Father, are you okay?  Still with us?
+Nabokov: I'm fine.  I can't die yet.  I still have work to do after all.
+Alice:   Hang on!  I'm getting you out of there!
+Nabokov: Is that even possible?  Can you?
+Alice:   With this holy sword I sure ought to be able to!
+
+  /Alice chops him free/
+
+Nabokov: Oh, ohh!
+Alice:   Father!
+Nabokov: Thanks.  Sorry to have worried you, Alice.
+Alice:   It's no problem.  I'm just glad you're all right.
+Nabokov: Now, let's head home.  Mikhail will be waiting for us.
+Alice:   Right!
+
+  /The ground shakes/
+
+Alice:   Kyaa!?
+Nabokov: That's not good!  Now that the gordalis was destroyed, the labyrinth
+         itself has begun to collapse!  Alice, let's move.  We've got to get
+         out of here fast.
+Alice:   Understood!
+
+  /They make it back to the manor's basement/
+
+Nabokov: Whew.  Looks like we somehow made it back in one piece.
+Mikhail: Dr. Nabokov!
+Nabokov: Oh, Mikhail.  Sorry I made you worry, too.
+Mikhail: I'm so pleased you're unharmed!
+Nabokov: Yes, we narrowly escaped being crushed.  That, and everything else
+         too, was all thanks to you, Alice.
+Nabokov: Alice, what's wrong?
+
+  /Alice collapses/
+
+Nabokov: W-what?  Oh no!  Mikhail!  Start the preparations!
+Mikhail: F-for that?
+Nabokov: Indeed.  For Astulla!  Quickly now!
+Mikhail: A-As you wish!
+
+  /Alice wakes up in a sanctuary/
+
+Alice:   Uuurrrrrgh....
+Nabokov: Oh, Alice. You've awoken.
+Alice:   Father? What happened?
+Nabokov: I'll explain later.  Right now we're going to perform a ceremony.
+Alice:   Eh?!
+Nabokov: Your body has been pushed to its limits.  Now you're on Death's
+         doorstep, reaching out to knock.
+Alice:   I see.  So I really was nothing more than a mere doll.
+Nabokov: Don't be ridiculous!  You're nothing of the sort!  To me you are a
+         treasured daughter and I, I, do not want to lose you!
+Mikhail: Exactly!  I feel that same way too.  So please, do not say such sad
+         things.
+Alice:   Father... Mikhail....
+Nabokov: I would like for you to live life as a human.  For you to find
+         happiness as a human!
+Alice:   As a person?  Father.  What are you talking about?
+Mikhail: The purpose of Astulla, the ceremony we're about to perform, is to
+         turn you into a human being, milady.
+Alice:   !
+Alice:   F-father....
+Nabokov: Alice.  You are simply my daughter.  And that is why we're holding
+         this ceremony.  All right?
+Alice:   Y-yes!
+Nabokov: Good.  Mikhail!  Let's begin the rite!
+Mikhail: As you wish.  Leave it to me.
+
+  /The Astulla ceremony begins/
+
+Mikhail: Hear our prayer.
+Nabokov: We command you.
+Mikhail: Mother of all life, oh endless land.
+Nabokov: How beautiful your flows, wavering water.
+Mikhail: Time passing and time lost, we now call for your return!
+Nabokov: Now show yourself here.  In that righteous form, utopia!
+
+  /Flashes/
+
+Mikhail: Urk, uuugggh?!
+Nabokov: Hrm? What's wrong, Mikhail?
+Mikhail: Uuggh, gugugugu.
+Alice:   Hey, are you okay?  Are you in pain?  Hey?
+Mikhail: .........
+Nabokov: Earth to Mikhail, get ahold of yourself man!
+Mikhail: Huhhuhhu.....
+Alice:   Mikhail?  What happened to you?!
+
+  /Flashes/
+
+Alice:   Kyaa!
+
+  /Mikhail transforms into Lucille/
+
+Lucille: Huhhuhhu.
+Alice:   Eh?!  Wha?  Wha?  Whaaaaaaaaaaaaat?!!  Mikhail became Lucille?!
+Lucille: At last, at last I've done it!  Huhuhu, huhuhuhuhu.
+         Keeeeekkekekekeke!
+Alice:   What the heck is this?  What just happened?
+Nabokov: Thought so.  Thought that was the case.
+Alice:   Huh?
+Nabokov: Alice.  The two of them live within a single body, as two sides of
+         the same coin.  Although Mikhail himself is likely unaware of that
+         fact.
+Lucille: Oh my.  Professor, you realized it?
+Nabokov: I suspected but wasn't certain of it.
+Alice:   F-father!  Explain it to me!  Whatever do you mean?
+Nabokov: Mikhail was originally an acolyte in the service of the dark lord
+         Varuudanu.  However, he loved humanity.  And so he backstabbed the
+         dark lord and saved us all!
+Lucille: Huhun.  But that complete idiot failed to realize something.  That
+         he had been posessed by "me", living deep inside.
+Alice:   Then that would mean..  No way?!
+Lucille: Huhhuhhuhhu.  Right.  As of now I've fully subverted this vessel and
+         it is mine.
+Alice:   You gotta be kidding!?
+Lucille: And with that, my mission is nearly complete.
+Nabokov: A mission, you say?  To do what?
+Lucille: We are resurrecting Lord Varuudanu, our god.  Obviously.
+Alice:   What did you say?!
+Lucille: Now that Mikhail is no longer in the way...  Huhhuhhuhhu.
+Nabokov: S-stop!  Stop at once!  Why unleash a disaster?!  If Varuudanu is
+         reborn, the world will be demolished.  Mankind will go extinct!
+Alice:   N-not that!  Don't do it, Lucille!
+Lucille: Keekkekekekeke!  Oh I had nooo idea such a thing would happen.
+Lucille: Now, Lord Varuudanu, our god!  It is the hour of your rebirth!
+         Obliterate this world with your absolute power!  Wipe out all of the
+         people!  Keeeeekkekekekeke!  In fact, how about you start with the
+         pesky brat there and give her an especially brutal demise!
+Alice:   !? O_O
+
+  /Shaking begins/
+
+Alice:   Kyaaa!
+Nabokov: Watch out!  Varuudanu is arising!
+Lucille: Huhu, huhuhu.  Ahhhaha, aahahahahaha.  Keeekkekekeke.
+
+  /Screen transforms to a dungeon level/
+
+Alice:     Ugghhh....
+Alice:     Where am I?
+Varuudanu: Rrooooooooooar!
+
+  /Alice walks up to the huge creature/
+
+Alice:     !!  I can't believe it!  This is Varuudanu?!  Then, I'm inside a
+           Varuudanu-made dimensional pocket?!
+Varuudanu: Rroooooooooar!
+Alice:     Eep!
+
+  /Alice slowly walks away/
+
+Alice:     I-I can't.  I don't stand a chance against that thing!
+Alice:     I-I've got to get out of here!
+Alice:     Eh?  The holy sword is glowing?!
+Varuudanu: Roar!  Ro-roaaaaaaaaaaaaaar!?
+Alice:     Wait, is this light affecting it?
+Varuudanu: Gu, guooooo?!
+Alice:     Varuudanu's recoiling!  It is!  The light is having an effect!
+           Well now, this fight might just be winnable after all.  This holy
+           sword might be enough to topple that abomination.  To end
+           Varuudanu!
+Varuudanu: RoooooooOOoooOOoaaar!!
+Alice:     That's right, Alice!  Running away from this won't do!  If that's
+           all I do then Father and Mikhail are going to die!  Everyone I care
+           about will be gone!  Unacceptable!  So, I'm going in.  I've got to
+           do this.
+Alice:     "It has to be me!"
+
+  /Boss fight (yes, fight) begins immediately/
+
+
+Varuudanu Fight:
+----------------
+The boss has a repeating attack pattern.  You can tell it's about to launch
+one of the below-mentioned volleys when it raises its arms.  It does these
+three attacks, usually in order, with pauses to walk around in between.
+Successfully hurting it with the holy sword will make it start over from the
+first attack type.
+
+A: Fires about 4 beams in straight lines from its belly, toward wherever
+   Alice is standing.
+B: Breathes cloud-like projectiles that spiral outward toward Alice.
+C: Punches with its arms three times.
+
+Just like in the game, one hit means death.  As you must wear Argus, the
+teleportation-on-touch dress Iscarpe is not available.
+
+Alice slashes with the sword via the Y button.  Fortunately, you can run and
+attack at will without draining any DP.  Damage the boss by chopping it in the
+shoulder, from the side.  Eleven (11) hits in a row will kill the boss and
+finish the game.
+
+The basic strategy is to hang out near the boss and dodge its projectiles,
+while trying to get around the side of it (without it immediately turning to
+face you).  The boss will change directions only when it is standing still,
+so once it starts moving in a particular direction, that's when you quickly
+flank it.  It moves only about three squares forward before stopping again
+to unleash an attack and then turn, so you have to either be fast, or once
+you get used to its movement, predict where Alice is going to need to stand
+and go straight there.
+
+Slash with the sword when you can, and run when you hear the sound effects
+that indicate it fired its beams.  Make good use of L/R to turn quickly
+without taking steps, as this is a big help getting in position to attack the
+shoulder without accidentally touching the boss and dying.
+
+This fight is challenging at first because it's a new dress and the general
+game controls make it difficult to stay in melee range without getting hurt
+yourself.  But the boss becomes doable, and eventually even pretty easy, once
+you get the hang of it.  Gameovers restart you from the boss fight, so you
+essentially have infinite tries to get it right.
+
+  /Eventually the boss goes down!/
+
+Alice: Haah, haah.  T-take that!  But.... My body's.. giving out.. and it's
+       really the end of the line for me too, it seems...
+
+  /Alice collapses, fade to black/
+  /segue to the epilogue/
+
+
+[25].Epilogue:
+--------------
+  /Knock knock knock/
+
+Mikhail: Milady.  Good morning.
+Alice:   Oh, 'morning.  Nice day, isn't it.
+Mikhail: I have finished preparing breakfast, so if you would please make your
+         way to the dining room.
+Alice:   Okay, I will.  What about Father?
+Mikhail: He is still asleep.
+Alice:   That figures.  Sheesh.  He's turned into such a lazy bum since he got
+         back.
+Mikhail: That's certainly an exaggeration.  It must be his research work that
+         exhausts him so.
+Alice:   Well, either way.  All righty, I'll go wake him up myself.
+Mikhail: Gently, please, if you would.
+Alice:   Huhu, I know.
+
+  /Alice walks out of her room, starting towards Nabokov's room/
+
+Alice: One month has already passed since the incident.
+
+  /Alice walks/
+
+Alice: A lot has happened.
+
+  /Alice walks/
+
+Alice: Back then, I was....
+
+  /Flashback start/
+
+Voice:   Alice!  Alice!  Open your eyes, Alice!
+Alice:   Mmrmmmnng......
+Nabokov: Oh, Alice!  You're awake!
+Alice:   F-father....
+Nabokov: Well done, Alice.  Varuudanu's resurrection has been halted, and we
+         have you to thank for it.
+
+  /Alice looks around/
+
+Nabokov: What is it, Alice?
+Alice:   Where's Mikhail?
+Nabokov: ......
+Alice:   D-don't tell me he?!
+
+  /Slam/
+
+Alice:   W-who's there?
+Alice:   Lucille?!  You survived?!
+Lucille: .......
+Nabokov: Lucille, Varuudanu is no more.  What you hoped for shall not come to
+         pass!
+Lucille: .......
+Alice:   Hold on, Father.  Something's off here, wouldn't you say?
+
+  /Flashes/
+
+Alice:   Kyaa!?
+
+  /Lucille changes into Mikhail/
+
+Mikhail: .......
+Alice:   Mikhail!  Is it really you, Mikhail?!
+Mikhail: Huh?  Where on Earth have I been all this time?
+Alice:   Ehhh?  You don't remember a thing?
+Nabokov: Varuudanu's defeat has broken the hold that a dark power had on you.
+Alice:   Then did Lucille die?
+Nabokov: I told you, right?  Mikhail and Lucille are two sides of the same
+         coin.  She likely still lives on, deep within him.  Not that she'll
+         be able to assert herself again, though.
+Alice:   Hmmmm.  I wonder if it's okay to leave things that way?
+Nabokov: Who can say.
+Mikhail: Excuse me.  What are you two talking about?
+Alice:   S-e-cret!
+Nabokov: Indeed, it's private.
+Mikhail: O-oh, you two....
+Alice:   Huhuhu.
+Nabokov: Well then.  How about we get started?
+Mikhail: Oh?  Started on what?
+Nabokov: It's obvious.  Astulla.
+Mikhail: Ah!
+Nabokov: Alice has been pushing the limits of her endurance, putting up a
+         brave front so that she wouldn't cause us to worry.  The strain has
+         caught up to her, and her body really has run out of time.
+Alice:   Father, so you noticed that, huh.
+Nabokov: Of course I did.  Alice, you're my daughter.  You needn't hold back
+         your troubles.
+Alice:   ......  Okay!
+Nabokov: Good.  Then, let's begin.
+
+  /Astulla ceremony starts/
+
+Mikhail: Hear our prayer.
+Nabokov: We command you.
+Mikhail: Mother of all life, oh endless land.
+Nabokov: How beautiful your flows, wavering water.
+Mikhail: Time passing and time lost, we now call for your return!
+Nabokov: Now show yourself here.  In that righteous form, utopia!
+
+  /Flashback ends/
+
+Alice: The environment around us has changed completely.
+
+  /Alice walks/
+
+Alice: However, Mikhail is serving as our butler just as before.
+
+  /Alice walks/
+
+Alice: Father, as usual, is doing nothing but research, research, research.
+       I wish he would spend a bit more time with me.  It's just a smidge,
+       but some days I can feel a little lonely.
+
+  /Alice walks/
+
+Alice: But, that's okay.  Because no matter what, now I am.....
+
+  /Alice enters the library/
+
+Alice: I have been reborn, now as a regular everyday human being.
+
+  /Alice walks/
+
+Alice: I am no longer a doll.  No longer a genomroid!
+
+  /Alice walks to the bedroom door/
+
+Alice: I will live on as a person, surrounded by those I love....
+
+  /Knock knock, knock knock knock/
+
+Alice: Good morning, Father! It's time to wake up!
+
+  {roll credits}
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+V. LEVEL MAPS AND ITEM DROPS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* It is important to understand that the item drops noted below are valid, but
+   not necessarily a complete list of what each given monster can drop.
+* Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
+   third item, e)money, or f)nothing at all when defeated. Drops I got are in
+   the maps below, but you might get additional drops not listed. The monster
+   abbreviations used are explained at the very end of this section.
+* Doors to the rooms are shown in their relative positions so you know about
+   where to look for the exits.
+* Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
+* You will need at least 2000L by the end of the game, but otherwise money is
+   optional throughout since the things you can buy are the same items that
+   monsters drop. 9999L is the cap.
+* The sewing room on B7F is a good place to go if you're near a sanctuary but
+   not a sewing room on your floor.  It's quick to go north and destroy the
+   bordermoon that's just inside the door, which then opens up the sewing
+   room to the south.
+
+Legend:
+/// = Bordermoon orb room
+vvv = Exit to next floor down
+;;; = Entry from previous floor up
+~~~ = Safe room
+#   = number of magic circles to step on in that room (upper right corner)
+
+*Manor 2F
+
+   -----------------------------------------------------
+   | Scientist's |   | Guest  | Guest  |   |  late     |
+   | Bedroom     |   | Room   | Room   |   _  Madame's |
+   ----------| |--   ----| |------| | --   |  Bedroom  |
+   |             |                         -------------
+   |  Library    -   -------------------   _  Vacant   |
+   ---------------   |                 |   -------------
+   |             _   _   Stairs to 1F  _   -           |
+   |  Vacant     |   |                 |   |  Vacant   |
+   ---------------| |-                 -| |-------------
+   |                 |                 |    Alice's    |
+   | Piano Room      |     2F Hall     |    Bedroom    |
+   -----------------------------------------------------
+
+*Manor 1F
+(warp into labyrinth opens in Pantry, after B2F)
+
+   -----------------------------------------------------
+   | Butler's| Maid's |    Kitchen   | Pantry   |      |
+   | Room    | Room   |              |  *       |------|
+   |         || |-------| |------| |--------| |-|Stairs|
+   |         -                                  -to B1F|
+   ---------------   -------------------   -------------
+   | Bathroom    |   |     Interior    |   |           |
+   |             -   |     Garden      |   _   Dining  |
+   ---------------   |-| |---------| |-|   |   Room    |
+   |             _   _                 _   _           |
+   | Vacant      |   |   Stairs to 2F  |   |           |
+   ---------------| |-                 -| |-------------
+   |                 |                 |               |
+   | Guest Room      -   Genkan Hall   -   Guest Room  |
+   -----------------------------------------------------
+
+*Manor B1F
+(hole to labyrinth B1F)
+
+   -----------------
+   |  *            |
+   | Laboratory    |
+   |            /up/
+   -----------------
+
+
+*Labyrinth B1F                       [dungeon-style rooms]
+(story upon touching bordermoon orb)
+(pattern for Bekiradin)
+
+         ;;;
+    --------------
+    | ZO:roadesu |
+    | ZO:roadesu |
+    --------------
+          |
+   --------------6
+   | BB:radokuya |   *Bekiradin
+   | BB:radokuya |
+   ---------------
+           |
+        ///////////////
+        / ZO:radokuya /
+        / WP:roadesu  /
+        ///////////////
+          vvv
+
+*B2F
+(story upon entry)
+(pattern for Manaclis)
+
+                     ;;;
+   ~~~~~~~~~~~~~    --------------
+   ~ Sanctuary ~ -- | WP:roadesu |
+   ~~~~~~~~~~~~~    | WP:roadesu |
+                    --------------
+                          |
+                    ------------5
+                    | BB:borodi |
+                    | BB:borodi |
+                    -------------
+                          |
+                        ////////////////////////
+                        / ZO:radokuya / kuahha /   *Manaclis
+                        / ZO:kuahha            /
+                        ////////////////////////
+                                           vvv
+
+*B3F
+    ;;;
+   -------------7
+   | SA:roadesu |
+   | SP:lisufa  |
+   --------------
+    |
+   /////////////    --------------
+   / BB:lisufa / -- | SA:roadesu |vvv
+   / BB:lisufa /    | SA:roadesu |
+   /////////////    --------------
+
+
+*B4F
+(patterns for Scuart & Litense)
+(story upon entering bordermoon room)
+
+      -----------------------
+   ;;;| WP:roadesu / lisufa |
+      | WP:roadesu          |
+      -----------------------
+                           |
+                    --------------6
+                    | SA:radokuya |
+                    | SA:kuahha   |
+                    ---------------
+                            |
+                 -------------
+                 | ZP:kuahha |
+                 | ZP:tyuunu |
+                 -------------
+                   |
+    ~~~~~~~~~~    /////////////////////////
+    ~ Sewing ~ -- / ZP:radokuya / osubiya /  *Scuart
+    ~~~~~~~~~~    / WP:awizu / borodi     /
+    *Litense      /////////////////////////
+                                       vvv
+
+
+*B5F
+(story upon entering sanctuary)
+(pattern for Ferminio)
+                                      ;;;
+                                ---------------
+                                | BR:wariyagu |
+                                | BR:masaeru  |
+                                ---------------
+                                        |
+   ~~~~~~~~~~~~~    -----------------------6    ----------------------
+   ~ Sanctuary ~ -- | SA:wariyagu / tyuunu | -- | WA:awizu / osubiya |
+   ~~~~~~~~~~~~~    | AX:tuuka / tyuunu    |    | FG:awizu           |
+                    ------------------------    ----------------------
+                        |
+             ///////////////////////
+          vvv/ BR:irumari / tyuunu /
+             / BR:tyuunu / borodi  / *Ferminio
+             / Vampire             /
+             ///////////////////////
+
+
+*B6F
+
+   -----------------------6
+   | SA:osubiya           |;;;
+   | ZB:tyuunu / wariyagu |
+   ------------------------
+                       |
+           -------------6
+           | PO:tuuka   |
+           | ZO:irumari |
+           --------------
+            |
+         ///////////////////////
+         / FG:tyuunu / irumari /
+         / BR:tuuka            /vvv
+         ///////////////////////
+
+
+*B7F                                        [prison-style rooms]
+(story in safe area)
+
+      ------------------------7    //////////////////////
+   ;;;| SP:wariyagu / masaeru | -- / OG:irumari / awizu /
+      | SP:wariyagu / masaeru |    / OG:irumari / awizu /
+      -------------------------    //////////////////////
+                                                     |
+                               ~~~~~~~~~~~~~    ~~~~~~~~~~
+                               ~ Sanctuary ~ -- ~        ~vvv
+                               ~~~~~~~~~~~~~    ~~~~~~~~~~
+                                                     |
+                                                ~~~~~~~~~~
+                                                ~ Sewing ~
+                                                ~~~~~~~~~~
+
+
+*B8F
+(patterns for Riffcowl & Domudia)
+
+      ---------------
+   ;;;| KR:wariyagu | *Domudia
+      | KR:reshiefu |
+      ---------------
+                   |
+            -------------7    -----------------------
+            | YO:osubiya | -- | IM:awizu / wariyagu |
+            | YO:borodi  |    | OG:tyuunu / borodi  |
+            --------------    -----------------------
+              *Riffcowl                         |
+                                  ///////////////////////
+                                  / SP:wariyagu / awizu /    ~~~~~~~~~~
+                                  / BB:tyuunu           / -- ~ Sewing ~
+                                  ///////////////////////    ~~~~~~~~~~
+                                             vvv
+
+
+*B9F
+(pattern for Stradia)
+(sales of wariyagu, borodi, seruti, irumari, masaeru)
+
+    ;;;
+   ----------------------           
+   | BB:osubiya / awizu |              ~~~~~~~~~~~~~
+   | xx:seruti / aigizu |              ~ Sanctuary ~
+   ----------------------              ~~~~~~~~~~~~~
+                      |                      |
+                -------------7    ////////////////////////
+        *Stradia| SP:rewiza  |    / BB:osubiya / rudorin /
+                | OR:dareifu | -- / Fairy                /vvv
+                --------------    ////////////////////////
+                 |
+                ------------------------
+                | YO:osubiya / formoru |
+                | BB:osubiya / rudorin |
+                ------------------------
+
+
+*B10F
+
+      --------------
+   ;;;| KB:zoriano |    --------------
+      | IM:seruti  | -- | SR:dareifu |
+      --------------    | SR:lisufa  |
+                        --------------
+                                    |
+                -----------------------8
+                | OR:rudorin / osubiya |
+                | BR:rudorin / borodi  |
+                ------------------------
+                                      |
+                     /////////////////////////////////
+                  vvv/ YO:gurasuto / fomoru / kuahha /
+                     / YO:aigizu / gurasuto / fomoru /
+                     /////////////////////////////////
+
+
+*B11F
+(story upon entry)
+(pattern for Proteus)
+
+              ---------------    -----------------------
+           vvv| KB:gurasuto | -- | SR:rewiza / dareifu |;;;
+              | MG:kuahha   |    | IM:aigizu           | *Proteus
+              ---------------    -----------------------
+                    |                        |
+   ///////////////////////              ~~~~~~~~~~~~~
+   / BR:fomoru           /              ~ Sanctuary ~
+   / BR:lisufa           /              ~~~~~~~~~~~~~
+   / SH:masaeru / fomoru /
+   ///////////////////////
+                     |
+                ~~~~~~~~~~
+                ~ Sewing ~
+                ~~~~~~~~~~
+
+
+*B12F
+
+    --------------6
+    | SH: irumari |    -----------------------7
+    | SR: rudorin | -- | YO:rewiza / kuahha   |
+    | BR: irumari |    | IM:osubiya / irumari |;;;
+    ---------------    ------------------------
+                                  |
+            -----------------------7
+            | KB:reshiefu / aigizu |
+            | SR:rewiza / dareifu  |
+
+            ------------------------
+               |
+   ////////////////////////
+   / IM:tyuunu / masaeru  /
+   / BR:tyuunu / borodi   /
+   / OR:aigizu / reshiefu /
+   ////////////////////////
+             vvv
+
+
+*B13F                                             [forest cave rooms]
+(sales of rudorin, kuahha, tuuka, aigizu, osubiya)
+
+                       ;;;
+                 -------------8
+                 | OC:osubiya |
+                 | OC:dareifu |
+                 | OC:formoru |
+                 --------------
+                             |
+      ~~~~~~~~~~    --------------    ~~~~~~~~~~~~~
+      ~ Sewing ~ -- | SH:dareifu | -- ~ Sanctuary ~
+      ~~~~~~~~~~    | SH:zoriano |    ~~~~~~~~~~~~~
+                    --------------
+                             |
+               ------------------------8
+               | LG:gurasuto / roadesu |
+               | LP:dareifu / zoriano  |
+               -------------------------
+                           |
+      ////////////////////////
+   vvv/ FG:rudorin / osubiya /
+      / Fairy                /
+      ////////////////////////
+
+
+*B14F
+(patterns for Blizzariel and Twincavia)
+
+                            -------------8
+                            | WA:dareifu |;;;
+                            | OC:kuahha  | *Blizzariel
+                            | OC:tyuunu  |
+                            --------------
+                                 |               ------------------------
+   ---------------    ///////////////////////    | FG:aigizu            |
+   | FG:wariyagu | -- / WA:dareifu / rewiza / -- | OC:gurasuto / kuahha |
+   | WA:roadesu  |    / Vampire             /    ------------------------
+   | Wizard      |    ///////////////////////
+   ---------------       *Twincavia
+        vvv
+
+
+*B15F
+(story upon entering safe room)
+
+                           ;;;
+                  ---------------
+                  | SH:reshiefu |
+                  | SH:masaeru  |
+                  ---------------  ~~~~~~~~~~
+                   |               ~ Sewing ~
+   -----------------------8        ~~~~~~~~~~
+   | WA:rewiza            |         |
+   | WA:dareifu           |    ~~~~~~~~~~    ~~~~~~~~~~~~~
+   | SH:fomoru / radokuya | -- ~        ~ -- ~ Sanctuary ~
+   ------------------------    ~~~~~~~~~~    ~~~~~~~~~~~~~
+                                    |
+                                -------------7 
+                                | OP:nyukusu |
+                                | OP:aigizu  |
+                                | OP:seitse  |
+                                --------------
+                                          |
+                                       //////////////
+                                       / AX:dareifu /
+                                       / OP:zoriano /
+                                    vvv/ WA:roadesu /
+                                       //////////////
+
+
+*B16F
+(pattern for Epinephre)
+                                     ----------------------9
+                                     | AX:tuuka            |;;;
+                   //////////////    | FG:reshiefu         |
+                   / SH:zoriano / -- | FP:fomoru / nyukusu |
+        *Epinephre / Fairy      /    -----------------------
+                   //////////////
+                           |
+   --------------    -----------------------8
+   | OC:borodi  | -- | WA:roadesu           |
+   | OP:roadesu |    | WA:roadesu           |
+   --------------    | SH:radokuya / fomoru |
+        vvv          ------------------------
+
+
+*B17F
+(sales of roadesu, lisufa, nyukusu, zoriano, seruti)
+
+      ;;;
+   ------------------------6
+   | SH:nyukusu / reshiefu |    ---------------    /////////////
+   | FP:kuahha / tuuka     | -- | SH:radokuya | -- / SB:fomoru /
+   -------------------------    | OP:irumari  |    / Fairy     /
+                                ---------------    /////////////
+                                   vvv
+
+
+*B18F                                               [volcano caves rooms]
+(pattern for Tranquille)
+(story upon entry)
+                                       ;;;
+                ~~~~~~~~~~~~~    --------------
+                ~ Sanctuary ~ -- | PO:zoriano |
+                ~~~~~~~~~~~~~    | PO:lisufa  |
+                                 --------------
+                                        |
+                     ---------------------9    ------------------------
+   -------------8    | SA:lisufa / zoriano|    | CA:zoriano           |
+   | YO:lisufa  |    | GA:rewiza          | -- | CA:akubaru           |
+   | GR:nyukusu | -- | SA:kuahha / lisufa |    | AX:gurasuto / fomoru |
+   --------------    ----------------------    ------------------------
+                                   |
+                  /////////////////////////    ~~~~~~~~~~
+                  / DG:irumari / wariyagu / -- ~ Sewing ~
+                  / DG:seruti             /    ~~~~~~~~~~
+                  /////////////////////////
+                     vvv  *Tranquille
+
+
+*B19F
+(sales of akubaru, rewiza, tyuunu, kuahha, seruti)
+
+                      ;;;
+                -------------
+                | DG:lisufa |
+                | GA:seruti |
+                -------------
+                  |
+              -------------9
+              | PO:seruti  |
+              | CA:zoriano |
+              | CA:lisufa  |
+              --------------
+                        |
+      ----------------------
+      | DG:seruti / fomoru |
+      | SA:tyuunu          |
+   vvv| SA:zoriano         |
+      ----------------------
+                   |
+        //////////////
+        / SA:akubaru /
+        / SA:rudorin /
+        / Wizard     /
+        //////////////
+
+
+*B20F
+(patterns for Dewlit & Iscarpe)
+(story upon entry)
+
+                                    --------------
+                                    | SA:irumari |
+                                    | CA:lisufa  |
+                                    --------------
+                                           |
+                -------------8    //////////////////////    --------------
+                | DR:rudorin |    / GR:aigizu / seitse /    | CA:seitse  |
+                | DR:nyukusu | -- / CA:seitse          / -- | CA:seitse  |;;;
+                --------------    / CA:nyukusu         /    | PI:akubaru |
+                       |          //////////////////////    --------------
+                       |                          *Dewlit
+      ------------------------    ~~~~~~~~~~~~~
+      | CA:fomoru / akubaru  | -- ~ Sanctuary ~
+   vvv| PI:sarissa / formoru |    ~~~~~~~~~~~~~
+      ------------------------
+              *Iscarpe
+
+
+*B21F
+(pattern for Satiend)
+                                   ----------------------
+                                   | GR:seitse / tyuunu |;;;
+                                   | DR:tuuka           |
+           ~~~~~~~~~~              ----------------------
+           ~ Sewing ~                    |
+           ~~~~~~~~~~           -----------------------9    -------------9
+               |                | CA:sarissa / rudorin | -- | CA:seitse  |
+       /////////////////////    | CA:seitse / irumari  |    | CA:nyukusu |
+       / CA:nyukusu        / -- | PO:seitse / irumari  |    | PI:eushu   |
+       / GA:tuuka / seitse /    ------------------------    --------------
+       / PI:radokuya       /             *Satiend
+       /////////////////////
+         |
+   -------------
+   | DR:seruti |
+   | DG:lisufa |
+   -------------
+            vvv
+
+     
+*B22F                                   [stonewall tunnel rooms]
+(story upon entering 3rd room)
+
+                              ;;;
+                      -------------9
+                      | ST:tuuka   |
+                      | ST:irumari |
+                      | FP:tuuka   |
+                      --------------
+                                |
+                      -----------------------9
+                      | MG:akubaru / dareifu |
+                      | MG:akubaru           |
+                      ------------------------
+                                  |
+                     ---------------    ~~~~~~~~~~~~~
+                     | ST:roadesu/L| -- ~ Sanctuary ~
+   --------------    | ST:reshiefu |    ~~~~~~~~~~~~~
+   | LG:dareifu | -- | WB:seitse/L |
+   | LG:irumari |    ---------------
+   --------------       |
+      vvv        ////////////////////////
+                 / ST:tuuka             /
+                 / BB:irumari / akubaru /
+                 / MG:akubaru / dareifu /
+                 ////////////////////////
+
+
+*B23F
+(pattern for Shrake)
+
+                               ;;;
+                         --------------9
+        *Shrake          | SW:dareifu  |    --------------
+      ///////////////    | ST:gurasuto |    | WB:lisufa  |    ~~~~~~~~~~
+      / AX:nyukusu  / -- | WB:lisufa   | -- | WB:akubaru | -- ~ Sewing ~
+      / LG:gurasuto /    ---------------    --------------    ~~~~~~~~~~
+      / IM:tuuka    /
+      ///////////////
+            |
+   -----------------------
+   | IM:aigizu           |
+   | CE:akubaru / aigizu |
+   | ST:fomoru / aigizu  |vvv
+   -----------------------
+
+
+*B24F
+(sales of awizu, irumari, fomoru, nyukusu, sarissa)
+
+      ~~~~~~~~~~~~~
+      ~ Sanctuary ~
+      ~~~~~~~~~~~~~
+            |
+      ------------10
+   ;;;| SW:irumari |
+      | SW:irumari |    ------------------------
+      | WG:dareifu | -- | MG:sarissa / dareifu |
+      --------------    | MG:irumari           |
+                |       ------------------------
+             --------------9         |
+             | ST:dareifu  |  ///////////////
+             | LB:gurasuto |  / IM:reshiefu /
+             | LB:rewiza   |  / Wizard      /
+             ---------------  ///////////////
+                        |              vvv
+                 ---------------
+                 | IM:reshiefu |
+                 | WG:irumari  |
+                 ---------------
+
+
+*B25F
+(pattern for Cannelle)
+                            ;;;
+                          --------------    -----------------------8
+                          | SW:yeun    | -- | MG:lisufa / irumari  |
+        -------------9    | SW:oreusu  |    | WG:maanesu / osubiya |
+        | MG:nyukusu | -- | FP:irumari |    ------------------------
+        | MG:tareosu |    --------------
+        | MG:tareosu |
+        --------------
+          |
+   ---------------------
+   | IM:awizu          |
+   | FP:irumari / yeun |                 ~~~~~~~~~~~~~
+   | SW:irumari        |                 ~ Sanctuary ~
+   ---------------------                 ~~~~~~~~~~~~~
+            |                                  |         *Cannelle
+         ------------------------9    ////////////////////////
+         | LB:tareosu            |    / WG:maanesu / nyukusu /
+         | LG:osubiya / reshiefu | -- / WB:irumari / aigizu  /
+         -------------------------    / SW:oreusu / tuuka    /vvv
+                                      ////////////////////////
+
+
+*B26F                                          [fancy blue temple rooms]
+(pattern for Torpedone)
+(sales of dareifu, lisufa, maanesu, tareosu)
+
+            -------------------8    ------------
+         ;;;| AW:tareosu       |    | AX:tuuka |
+            | ST:yeun / aigizu | -- | AX:awizu |
+            --------------------    | ST:tuuka |
+                       |            ------------
+                      ------------8
+   ~~~~~~~~~~         | AR:eushu  |
+   ~ Sewing ~         | WZ:rewiza | *Torpedone
+   ~~~~~~~~~~         -------------
+      |                          |
+   ///////////////    ---------------------
+   / AW:reshiefu /    | CH:rewiza / awizu |    ------------------------
+   / Vampire     / -- | KB:aigizu         | -- | SA:roadesu / irumari |
+   ///////////////    | ST:yeun / irumari |    | AX:aigizu / nyukusu  |
+                      ---------------------    | CH:nyukusu / tareosu |
+                               |               ------------------------
+                        ~~~~~~~~~~~~~                              vvv
+                        ~ Sanctuary ~
+                        ~~~~~~~~~~~~~
+
+*B27F
+                                             ;;;
+                                 ---------------------
+                                 | ZO:lisufa         |
+                                 | CH:awizu          |
+                                 | LB:oreusu / awizu |
+                                 ---------------------
+                                     |
+   ----------------------8    --------------9    -------------8
+   | YB:tuuka            | -- | YB:gurasuto |    | YB:maanesu |
+   | AX:roadesu / rewiza |    | AX:irumari  | -- | AX:irumari |
+   -----------------------    | ST:aigizu   |    --------------
+                              ---------------
+                                |
+                              /////////////
+                              / ST:aigizu /
+                              / ST:aigizu /
+                              / Wizard    /
+                              /////////////
+                                        |
+   ~~~~~~~~~~~~~    -----------------------    ~~~~~~~~~~
+   ~ Sanctuary ~ -- | IM:lisufa           | -- ~ Sewing ~
+   ~~~~~~~~~~~~~    | AW:eushu / tuuka    |    ~~~~~~~~~~ 
+                    | KR:lisufa / nyukusu |
+                    -----------------------
+                                        vvv
+
+*B28F
+            ;;;
+   -----------------------
+   | CH:akubaru / oreusu |
+   | CH:lisufa           |
+   -----------------------
+                      |
+   ----------------------
+   | CE:fomoru / akubaru|
+   | KR:aigizu          |
+   ----------------------
+     |
+   ----------------------8
+   | CA:rewiza / nyukusu |
+   | IM:lisufa / yeun    |
+   | AX:irumari          |
+   -----------------------
+       |
+      ////////////
+      / AR:eushu /
+      / Vampire  /
+      ////////////
+                |
+    -------------------------    ~~~~~~~~~~~~~
+    | CH:gurasuto / rewiza  | -- ~ Sanctuary ~
+    | AX:awizu / nyukusu    |    ~~~~~~~~~~~~~
+    | YB:maanesu / gurasuto |
+    -------------------------
+                         vvv
+
+
+*B29F                                        [purple cave rooms]
+
+                              ;;;
+   -------------9    ---------------------9    ---------------------8
+   | HO:fomoru  | -- | YO:aigizu / lisufa |    | GO:tyuunu / oreusu |
+   | WA:akubaru |    | GO:oreusu          |    | WA:awizu           |
+   | WA:awizu   |    | BR:akubaru         | -- | WA:awizu           |
+   --------------    ----------------------    ----------------------
+                        |
+                     --------------
+                     | HO:fomoru  |
+                     | HO:(money) |
+                     --------------
+                                 |
+                                ~~~~~~~~
+                                ~      ~
+                                ~~~~~~~~
+                                      |
+                               /////////////    ~~~~~~~~~~~~~
+                               / GS:oreusu / -- ~ Sanctuary ~
+                               / Wizard    /    ~~~~~~~~~~~~~
+                               /////////////
+                                        vvv
+
+
+*B30F
+(sales of akubaru, roadesu, gurasuto, reshiefu, yeun)
+(story upon entry of safe room)
+
+                     ;;;
+               --------------
+               | YO:fomoru  |
+               | VA:aigizu  |
+               --------------
+                      |
+   ------------8    --------------    -------------8
+   | GS:tyuunu |    | CY:akubaru |    | DR:oreusu  |    ~~~~~~~~
+   | GO:tyuunu | -- | CY:tyuunu  | -- | HO:fomoru  |    ~      ~
+   -------------    --------------    --------------    ~~~~~~~~
+       |                                         |        |
+   --------------                     -------------    /////////////
+   | WA:oreusu  |    ~~~~~~~~~~~~~    | WZ:fomoru |    / CY:tyuunu /
+   | WA:akubaru |    ~ Sanctuary ~ -- | Fairy     | -- / Vampire   /
+   | HO:fomoru  |    ~~~~~~~~~~~~~    -------------    /////////////
+   --------------                                                 | 
+                                                          ~~~~~~~~~~
+                                                          ~ Sewing ~
+                                                          ~~~~~~~~~~
+
+
+Monster Abbreviations
+-------------
+AR = red angel
+AW = white angel
+AX = axe-wielding nightcap
+BB = black bat
+BR = red bat
+CA = cannon
+CE = cerberus, white & red
+CY = cerberus, yellow & gray
+CH = chicken
+DG = green dragon
+DR = red dragon
+FG = green frog
+FP = purple frog
+GA = gargoyle
+GO = gorilla and baby, orange
+GR = red gargoyle
+GS = gorilla and baby, silver
+HO = horse
+IM = iron maiden
+KB = blue lance knight
+KR = red lance knight
+LB = blue lamia
+LG = green lamia
+LP = purple lamia
+MG = ghost maid
+OC = octopus
+OP = purple octopus
+OG = green ogre
+OR = red ogre
+PI = ice phoenix
+PO = orange phoenix
+SA = sack
+SB = blue sahagin
+SH = sahagin
+SP = spider
+SR = red spider
+ST = stone golem
+SW = blue stone golem
+VA = vampire
+WA = azure blue worm
+WB = blue wolf
+WG = gray wolf
+WP = purple worm
+WZ = wizard
+YB = blue fairy (yousei)
+YG = green fairy (yousei)
+YO = yokai
+ZO = zombie
+ZP = purple zombie
+
+
+
+~~~~~~~~~~~
+VI. Credits
+~~~~~~~~~~~
+This guide is (C) 2018.  Personal use is encouraged, but commercial use is
+prohibited.  To send corrections, suggestions, or general information,
+please write to azalingchan.at.gmail.com.
+
+
+Londonian Gothics is (C) 2005, Megacyber Inc. Now part of Konami Corp.
+
+Programming    Imai Shintarou
+               Yamaguchi Yuuki
+
+Graphics       Ichikawa Kouji
+               Hiruma Jun
+               Tamura Kanako
+               Ohki Hisako
+               Kinjou Takamitsu
+               Kosugi Ryouhei
+               Watanabe Shigeki
+               Aoyama Takanori
+               Konagai Yuuji
+
+Music          MIKI
+
+Script         Sonobe Isao
+
+Q.A. Testers   Ichikawa Yuuki
+               Matsuura Yumi
+               Akama Yuka
+
+Director       Miyawaki Tatsuya
+
+Producer       Imazawa Tomoya
+
+
+[Kyaa! Be be boh!]
+
+View in: Text Mode
+GameFAQsfacebook.com/GFAQstwitter.com/GameFAQsHelp / Contact UsChange Colors
+
+gamespot.commetacritic.comfandom.comfanatical.com
+
+SitemapPartnershipsCareersTerms of UseDigital Services Act
+
+Privacy PolicyCookies SettingsReport Ad
+
+© 2026 FANDOM, INC. ALL RIGHTS RESERVED.

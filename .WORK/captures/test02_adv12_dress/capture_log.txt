@@ -1,0 +1,2 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test02_adv12_dress\dress_f000634.png
+exit at frame 634

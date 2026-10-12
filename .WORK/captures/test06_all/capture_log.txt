@@ -1,0 +1,25 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\dress_f000694.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\dress2_f000754.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\01_hystulle_f000794.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\02_bekiradin_f000839.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\03_scuart_f000884.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\04_litense_f000929.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\05_manaclis_f000974.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\06_survey_f001019.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\07_ferminio_f001064.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\08_riffcowl_f001109.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\09_domudia_f001154.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\10_stradia_f001199.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\11_proteus_f001244.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\12_blizzariel_f001289.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\13_twincavia_f001334.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\14_epinephre_f001379.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\15_tranquille_f001424.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\16_dewlit_f001469.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\17_iscarpe_f001514.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\18_satiend_f001559.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\19_shrake_f001604.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\20_cannelle_f001649.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\21_torpedone_f001694.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06_all\22_argus_f001739.png
+exit at frame 1739

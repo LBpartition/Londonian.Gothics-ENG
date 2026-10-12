@@ -1,0 +1,17 @@
+# Copyrighted game data - never commit
+*.nds
+*.state
+*.sav
+*.dsv
+*.sdat
+.REFS/
+.WORK/extracted/
+.WORK/captures/**/*.bin
+.WORK/rom/
+
+# Build/temp output
+__pycache__/
+*.pyc
+.WORK/tmp_*/
+.WORK/tmp_*
+OUTPUTS/

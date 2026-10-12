@@ -1,0 +1,37 @@
+FILE sp019.sp  (1 strings, dialogue order)
+
+idx=0  spk=None(None)  auto_gline=372
+  JP: 周囲の邪気が浄化された
+  EN: Transition to the Basement Lab
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  358| 
+  359| ------>*New Game*
+  360| 
+  361| [01].Manor 2F Alice's Bedroom:
+  362| ------------------------------
+  363|   /Knock, Knock, Knock/
+  364| 
+  365| Mikhail: Lady Alice!!
+  366| Alice:   Good morning, Mikhail.  What brings you here so bright and early?
+  367| Mikhail: W-we've got a problem!  It's the professor; it's Nabokov!
+  368| Alice:   Oh, what has Father done this time?
+  369| Mikhail: He's been spirited away by monsters.
+  370| Alice:   Wait, what?!
+  371| 
+  372|   /Transition to the Basement Lab/
+  373| 
+  374| Alice:   So Father's down here?
+  375| Mikhail: Yes.  Ghoulish creatures crawled up through that fissure and abducted
+  376|          the professor.
+  377| Alice:   Monsters grabbed Father?  But why would they?
+  378| Mikhail: Who can say?
+  379| Alice:   Well, Mikhail, what should we do about it?
+  380| Mikhail: How do you believe we ought to proceed?
+  381| Alice:   Bleh, you're useless.
+  382| Mikhail: Huh?  Might you have just said something?
+  383| Alice:   Nope, not a thing.  All right, Mikhail, I've made up my mind.
+  384| Mikhail: Yes, about what?
+  385| Alice:   I'm going to go rescue Father!
+  386| Mikhail: Y-you shan't!  That's too dangerous!
+  387| Alice:   Well, what else would you have me do?  Leave him there to rot?

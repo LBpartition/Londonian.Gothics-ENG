@@ -1,0 +1,26 @@
+wait 60
+wait 500
+shot t1
+wait 500
+shot t2
+wait 500
+shot t3
+wait 500
+shot t4
+wait 500
+shot t5
+wait 500
+shot t6
+wait 500
+shot t7
+wait 500
+shot t8
+wait 500
+shot t9
+wait 500
+shot t10
+wait 500
+shot t11
+wait 500
+shot t12
+exit

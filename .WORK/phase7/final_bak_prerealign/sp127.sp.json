@@ -1,0 +1,42 @@
+[
+ {
+  "idx": 5,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 1,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 0,
+  "en": null,
+  "note": "not in guide"
+ },
+ {
+  "idx": 6,
+  "gline": 1051,
+  "en": "Welcome in, to you!"
+ },
+ {
+  "idx": 2,
+  "gline": 1052,
+  "en": "Eh?  What the heck is 'welcome in' for?"
+ },
+ {
+  "idx": 4,
+  "gline": 1053,
+  "en": "I've opened up a shop."
+ },
+ {
+  "idx": 7,
+  "gline": 1053,
+  "en": "Please buy yourself something!"
+ },
+ {
+  "idx": 3,
+  "gline": 1055,
+  "en": "Please come again."
+ }
+]

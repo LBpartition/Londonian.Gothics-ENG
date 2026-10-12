@@ -1,0 +1,14 @@
+wait 200
+shot t0
+press Start 15
+wait 120
+shot t1
+press A 15
+wait 120
+shot t2
+press A 15
+wait 400
+shot t3
+press A 15
+wait 200
+shot t4

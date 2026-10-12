@@ -1,0 +1,10 @@
+loadstate C:\GIT\Londonian.Gothics-ENG\.WORK\captures\ingame3.state
+press Down 90
+shot w_Down
+press Left 90
+shot w_Left
+press Up 90
+shot w_Up
+press Right 90
+shot w_Right
+exit

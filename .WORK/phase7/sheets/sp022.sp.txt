@@ -1,0 +1,410 @@
+FILE sp022.sp  (56 strings, dialogue order)
+
+idx=42  spk=Alice(100)  auto_gline=836
+  JP: ふう。{NL}ちょっと、つかれたかな。
+  EN: Whew, I'm a bit worn out.
+idx=8  spk=Alice(101)  auto_gline=840
+  JP: そうね。{NL}このあたりで、少し休んでいきましょ。
+  EN: Why not, this looks like a decent enough spot for a break.
+idx=10  spk=None(None)  auto_gline=841
+  JP: きゃははっ。
+  EN: Kyahaha (laughs)
+idx=21  spk=Alice(104)  auto_gline=842
+  JP: ！？{NL}だ、だれっ？
+  EN: ?!
+idx=33  spk=Alice(104)  auto_gline=842
+  JP: ！！
+  EN: Who's there?
+idx=38  spk=Alice(104)  auto_gline=846
+  JP: きゃあっ！
+  EN: !!  Eeek!
+idx=30  spk=Alice(102)  auto_gline=847
+  JP: で、出たわね！？{NL}この化け物！
+  EN: Ah, there you are, you monster!
+idx=45  spk=Fairy(6)  auto_gline=848
+  JP: くすん。ひどいですの。{NL}こんなに可愛らしいアタシを、化け物だなんて。
+  EN: *sniffle* That's mean.  Calling me, adorable little me, a monster, of all things.
+idx=34  spk=Alice(106)  auto_gline=850
+  JP: え？{WAIT}えっ？{WAIT}えっ？
+  EN: Eh?  Eh?  Eh?
+idx=53  spk=Fairy(6)  auto_gline=851
+  JP: くすん。アタシはお話しがしたいだけですのに。
+  EN: *sniffle* Even though I just wanted to talk to you.
+idx=48  spk=Alice(103)  auto_gline=852
+  JP: ご、ごめんなさい。
+  EN: Oh I'm so sorry.
+idx=20  spk=Fairy(6)  auto_gline=853
+  JP: うん。ゆるしてあげるですの。
+  EN: Okay, I'll forgive you!
+idx=35  spk=Alice(105)  auto_gline=854
+  JP: （なんか、すっごくエラそ{NL}{WAIT}うねえ……）
+  EN: (somehow, she seems awfully full of herself...)
+idx=3  spk=Fairy(6)  auto_gline=855
+  JP: どうしましたの？
+  EN: What's the matter?
+idx=49  spk=Alice(100)  auto_gline=856
+  JP: ううん。なんでもないわ。
+  EN: Oh, nothing's wrong.
+idx=29  spk=Fairy(6)  auto_gline=857
+  JP: ？
+  EN: ?
+idx=7  spk=Alice(100)  auto_gline=858
+  JP: あ、そうだ。{NL}一つ聞いていい？
+  EN: Say, can I ask you something?
+idx=22  spk=Fairy(6)  auto_gline=859
+  JP: なんですの？
+  EN: What is it?
+idx=43  spk=Alice(105)  auto_gline=860
+  JP: 化け物たちは、どうしてお父さまをさらったりなんかしたの？
+  EN: Why did the monsters abduct my father?
+idx=24  spk=Alice(105)  auto_gline=860
+  JP: ずっとナゾだったんだけど{NL}お父さまがさらわれる理由なんて思いつかないし。
+  EN: I've been wondering about it this whole time and I haven't come up with any reason why they'd want to.
+idx=15  spk=Fairy(6)  auto_gline=863
+  JP: 悪いヤツらにとって、おじさまの研究はすっごく邪魔でしたの。{NL}だから、なにも出来ないようにって、つかまえちゃったですの。
+  EN: The mister's research was a huge inconvenience to some bad guys.  They grabbed him so that he couldn't do it any more.
+idx=18  spk=Alice(105)  auto_gline=865
+  JP: ねえ、あなたは知ってる？{NL}お父さまは、どこにつかまってるの？
+  EN: Do you know where Father is being kept?
+idx=28  spk=Fairy(6)  auto_gline=866
+  JP: 知らないですの。
+  EN: I don't know.
+idx=25  spk=Alice(105)  auto_gline=867
+  JP: そう。
+  EN: Ah.
+idx=14  spk=Alice(100)  auto_gline=867
+  JP: じゃあ、お父さまの研究って、一体なんなの？
+  EN: Well how about Father's research topic, then?
+idx=6  spk=Alice(105)  auto_gline=867
+  JP: さらわれちゃうくらいに、ヤバい物なの？
+  EN: Was it really something bad enough to be kidnapped over?
+idx=31  spk=Fairy(6)  auto_gline=869
+  JP: 少しくらい、自分で調べてほしいですの。
+  EN: I'd like you to find that out on your own.
+idx=27  spk=Fairy(6)  auto_gline=869
+  JP: おねえちゃんは、ちょっと人にたよりすぎですの。
+  EN: You rely on others a bit too much, sister.
+idx=44  spk=Alice(106)  auto_gline=871
+  JP: （こんな小さいコにたしな{NL}{WAIT}められちゃった。）
+  EN: (I've just been rebuked by a half-pint.)
+idx=17  spk=Fairy(6)  auto_gline=872
+  JP: それじゃあ、アタシは帰りますの。バイバイですの。
+  EN: Well then, I'll be on my way now.  That's bye-bye to you!
+idx=51  spk=Alice(104)  auto_gline=873
+  JP: あっ！？{NL}ちょ、ちょっと待って！
+  EN: Ah, hey, wait up!
+idx=12  spk=Alice(100)  auto_gline=877
+  JP: あーあ、行っちゃった。
+  EN: Awww, she left.
+idx=36  spk=Alice(100)  auto_gline=886
+  JP: お父さまの研究、かあ。
+  EN: All righty.  Wonder if there'll be anything here.
+idx=41  spk=Alice(103)  auto_gline=892
+  JP: よく考えてみたら、私ったらお父さまの事、あまり知らないわ。
+  EN: Nope, nothing relevant in here...
+idx=11  spk=Alice(100)  auto_gline=896
+  JP: そうね。{NL}調べてみよっか。
+  EN: Oh, what's this?  Father's diary?
+idx=13  spk=Alice(100)  auto_gline=897
+  JP: えーと、そうねえ。書斎になら、なにかあるかも。{NL}一度、屋敷に戻りましょ。
+  EN: Indeed it is.  Invading his privacy would be uncouth, but, should I read a little of it?  Well, I want any kind of clue I can find, so Father, I'm sorry about this.
+idx=5  spk=Fairy(6)  auto_gline=1055
+  JP: わすれてましたの。
+  EN: Please come again.
+idx=52  spk=Alice(106)  auto_gline=1061
+  JP: きゃっ！
+  EN: *tummy rumble*
+idx=9  spk=Fairy(6)  auto_gline=None
+  JP: 迷宮の中にいるのは、敵だけではないですの。
+  EN: -
+idx=47  spk=Alice(105)  auto_gline=1062
+  JP: なによ、いきなり？{NL}敵じゃなければ、なぁに？{NL}味方だって言うのぉ？
+  EN: I'm famished.....  But I already ate the food I brought with me. *big tummy rumble*
+idx=1  spk=Fairy(6)  auto_gline=1286
+  JP: はいですの。{NL}ヴァンパイアさんと{NL}魔法使いさん。{NL}それとアタシのトモダチは敵じゃないですの。
+  EN: Best of luck, y'know.
+idx=0  spk=Fairy(6)  auto_gline=1290
+  JP: 邪気さえなければ、みんないいヒトたちですの。
+  EN: I don't have any more presents to give out.  Sorry about that, y'know.
+idx=40  spk=Alice(100)  auto_gline=1300
+  JP: じゃあ、{FE02}ボアダムン{FE00}を破壊すれば？
+  EN: *pant, pant*.  *pant, pant*
+idx=23  spk=Fairy(6)  auto_gline=None
+  JP: 力になってくれるかもしれないですの。
+  EN: -
+idx=55  spk=Alice(100)  auto_gline=1301
+  JP: ふーん。{NL}なにをしてくれるって言うの？
+  EN: You mean there's still more?  I've already come such a long way.  Oh cut it out, I'm exhausted.
+idx=4  spk=Fairy(6)  auto_gline=None
+  JP: ヒントをくれたり、ドレスの材料を売ってくれたりしてくれるですの。
+  EN: -
+idx=26  spk=Alice(101)  auto_gline=1303
+  JP: へえ。助かるわね。
+  EN: Hmph.  No use standing here bellyaching though.  Let's keep going just a bit further.
+idx=19  spk=Fairy(6)  auto_gline=None
+  JP: お話はそれだけですの。{NL}バイバイですの。
+  EN: -
+idx=16  spk=Alice(105)  auto_gline=2184
+  JP: 友好的なモンスターねえ。
+  EN: The environment around us has changed completely.
+idx=50  spk=Alice(100)  auto_gline=2188
+  JP: でも、今はお父さまの研究の方が気になるわ。
+  EN: However, Mikhail is serving as our butler just as before.
+idx=2  spk=Alice(100)  auto_gline=2192
+  JP: えーと、そうねえ。{NL}書斎かな？{WAIT}あそこなら、なにかあるかも。{NL}一度、屋敷に戻りましょ。
+  EN: Father, as usual, is doing nothing but research, research, research. I wish he would spend a bit more time with me.  It's just a smidge, but some days I can feel a little lonely.
+idx=37  spk=Alice(105)  auto_gline=2198
+  JP: このまま、先に進んじゃってもいいんだけど……。
+  EN: But, that's okay.  Because no matter what, now I am.....
+idx=32  spk=Alice(100)  auto_gline=2202
+  JP: ダメダメ。{NL}やっぱり気になるわ。{NL}書斎に行きましょ。
+  EN: I have been reborn, now as a regular everyday human being.
+idx=54  spk=Alice(105)  auto_gline=2206
+  JP: ダメよ。急がば回れって、よく言うでしょ？
+  EN: I am no longer a doll.  No longer a genomroid!
+idx=39  spk=Alice(100)  auto_gline=2210
+  JP: あせっちゃダメよ。{NL}もっと、よく調べなきゃ。
+  EN: I will live on as a person, surrounded by those I love....
+idx=46  spk=Alice(100)  auto_gline=2214
+  JP: さっ、お父さまの寝室に行きましょ。
+  EN: Good morning, Father! It's time to wake up!
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+  822|          understand your desire to rush ahead, but it would be worthwhile to
+  823|          take time out to collect materials every now and again, don't you
+  824|          think?
+  825| 
+  826| ------> Talk to him again.
+  827| 
+  828| Vampire: Apologies.  I'm fresh out of hints.  Kuku, kukuku....
+  829| 
+  830| ------> Continue exploring the labyrinth as desired until you reach the next
+  831|         story trigger on B7F.
+  832| 
+  833| 
+  834| [08].B7F Safe Area:
+  835| -------------------
+  836| Alice: Whew, I'm a bit worn out.
+  837| 
+  838|   /Alice walks to the center of the room/
+  839| 
+  840| Alice: Why not, this looks like a decent enough spot for a break.
+  841| Voice: Kyahaha (laughs)
+  842| Alice: ?! Who's there?
+  843| 
+  844|   /Alice looks around and hears the laughter again/
+  845| 
+  846| Alice: !!  Eeek!
+  847| Alice: Ah, there you are, you monster!
+  848| Fairy: *sniffle* That's mean.  Calling me, adorable little me, a monster, of
+  849|        all things.
+  850| Alice: Eh?  Eh?  Eh?
+  851| Fairy: *sniffle* Even though I just wanted to talk to you.
+  852| Alice: Oh I'm so sorry.
+  853| Fairy: Okay, I'll forgive you!
+  854| Alice: (somehow, she seems awfully full of herself...)
+  855| Fairy: What's the matter?
+  856| Alice: Oh, nothing's wrong.
+  857| Fairy: ?
+  858| Alice: Say, can I ask you something?
+  859| Fairy: What is it?
+  860| Alice: Why did the monsters abduct my father?  I've been wondering about it
+  861|        this whole time and I haven't come up with any reason why they'd want
+  862|        to.
+  863| Fairy: The mister's research was a huge inconvenience to some bad guys.  They
+  864|        grabbed him so that he couldn't do it any more.
+  865| Alice: Do you know where Father is being kept?
+  866| Fairy: I don't know.
+  867| Alice: Ah.  Well how about Father's research topic, then?  Was it really
+  868|        something bad enough to be kidnapped over?
+  869| Fairy: I'd like you to find that out on your own.  You rely on others a bit
+  870|        too much, sister.
+  871| Alice: (I've just been rebuked by a half-pint.)
+  872| Fairy: Well then, I'll be on my way now.  That's bye-bye to you!
+  873| Alice: Ah, hey, wait up!
+  874| 
+  875|   /Fairy laughs and leaves/
+  876| 
+  877| Alice: Awww, she left.
+  878| Alice: So it was Father's research, huh.  Racking my brain doesn't help; that
+  879|        just makes it clear how little I really know about him and his work.
+  880|        Guess I should try to do some investigating.  Let's see...  There might
+  881|        be something about this in our study.  Let's head back to the manor.
+  882| 
+  883| --------> Go through the sanctuary here on B7F, back to the library/study on
+  884|           the left side of Manor 2F.
+  885| 
+  886| Alice: All righty.  Wonder if there'll be anything here.
+  887| 
+  888| --------> Walk to the desk and touch it.
+  889| 
+  890|   /rummage, rummage/
+  891| 
+  892| Alice: Nope, nothing relevant in here...
+  893| 
+  894|   /rummage, rummage/
+  895| 
+  896| Alice: Oh, what's this?  Father's diary?
+  897| Alice: Indeed it is.  Invading his privacy would be uncouth, but, should I
+  898|        read a little of it?  Well, I want any kind of clue I can find, so
+  899|        Father, I'm sorry about this.
+  900| Alice: Although if I'm being honest it's exciting to find out what someone else
+  901|        writes in their private diary.  Hehe.  Let's dive in!  Lessee here...
+  902| 
+  903| April 5th:  Today I took my daughter on an outing.  How long has it been since
+  904|             I've seen her so pleased?
+  905| April 13th: Today I played games with my daughter.  Watching her expressions
+  906|             ebb and flow like the tide made me feel happy for some reason.
+  907| April 21st: These enjoyable days quietly pass one after the next.  I hope life
+  908|             can continue to be like this....
+  909| 
+  910| Alice: Oh Father, you had me in your thoughts that much?  I feel tears coming
+  911|        on... *sniff*
+  912| Alice: Ahem.  Shall we continue reading?
+   ...
+ 1041|   /Alice leaves/
+ 1042| 
+ 1043| -------> Go back to the labyrinth B7F via the warp gate and continue on.  By
+ 1044|          this point the bordermoon will have respawned, so go bust it again to
+ 1045|          open the door down to B8F.  Continue exploring as desired until the
+ 1046|          next story trigger on B11F.
+ 1047| 
+ 1048| 
+ 1049| [09]. B9F Sales Fairy:
+ 1050| ----------------------
+ 1051| Fairy: Welcome in, to you!
+ 1052| Alice: Eh?  What the heck is 'welcome in' for?
+ 1053| Fairy: I've opened up a shop.  Please buy yourself something!
+ 1054| (selling wariyagu, irumari, borodi, masaeru, seruti; bottom right is exit)
+ 1055| Fairy: Please come again.
+ 1056| 
+ 1057| 
+ 1058| [10]. B11F Upon Entry:
+ 1059| ----------------------
+ 1060| Alice: ......
+ 1061| Alice: *tummy rumble*
+ 1062| Alice: I'm famished.....  But I already ate the food I brought with me.
+ 1063|        *big tummy rumble*
+ 1064| Alice: .......
+ 1065| Alice: No getting around it I guess.  Shall I go ask Lucille to make me
+ 1066|        something?  She should be in the dining room around this hour.
+ 1067| 
+ 1068| -------> Go to the sanctuary along the south wall of this room to return to
+ 1069|          the manor, then proceed to the dining room on the right side of 1F.
+ 1070| 
+ 1071| Alice: Ah, smells good!
+ 1072| 
+ 1073| -------> Walk over to Lucille.
+ 1074| 
+ 1075| Alice:   Lucille, have you finished preparing tonight's meal?
+ 1076| Lucille: Hello, Miss.  Why are you in here?  The food isn't ready yet.  In
+ 1077|          fact, you're getting underfoot, so would you mind taking your leave?
+   ...
+ 1272|        Back to the labyrinth it is!  I'll get another earful from Lucille if
+ 1273|        I don't get a move on.
+ 1274| 
+ 1275| --------> Go back to B15F and continue adventuring.
+ 1276| 
+ 1277| 
+ 1278| [14].B16F Fairy:
+ 1279| ----------------
+ 1280| Fairy: Hey sister, have you found that guy you were looking for?  Not yet?
+ 1281|        I'm worried about him.  Oh, that's right! I've got something good I
+ 1282|        can give you.  It'll surely come in handy.
+ 1283| 
+ 1284|   /Obtained the pattern for magic dress Epinephre./
+ 1285| 
+ 1286| Fairy: Best of luck, y'know.
+ 1287| 
+ 1288| ---------> Talk to her again.
+ 1289| 
+ 1290| Fairy: I don't have any more presents to give out.  Sorry about that, y'know.
+ 1291| 
+ 1292| ---------> Continue on adventuring.
+ 1293| 
+ 1294| 
+ 1295| B17F sales of roadesu, lisufa, nyukusu, zoriano, seruti.
+ 1296| 
+ 1297| 
+ 1298| [15].B18F Entry:
+ 1299| ----------------
+ 1300| Alice: *pant, pant*.  *pant, pant*
+ 1301| Alice: You mean there's still more?  I've already come such a long way.  Oh
+ 1302|        cut it out, I'm exhausted.
+ 1303| Alice: Hmph.  No use standing here bellyaching though.  Let's keep going just
+ 1304|        a bit further.
+ 1305| 
+ 1306| -------> Continue on adventuring.
+ 1307| 
+ 1308| 
+ 1309| [16].B19F Wizard:
+ 1310| -----------------
+ 1311| Wizard: .......
+ 1312| Alice:  ?  What are you doing?
+ 1313| Wizard: I'm setting up my products.
+ 1314| Alice:  Products?
+ 1315| Wizard: I started up a shop.  Buy something, will you?
+ 1316| (selling akubaru, rewiza, tyuunu, kuahha, seruti)
+ 1317| Wizard: I see, come again.
+ 1318| 
+   ...
+ 2170| Alice:   ......  Okay!
+ 2171| Nabokov: Good.  Then, let's begin.
+ 2172| 
+ 2173|   /Astulla ceremony starts/
+ 2174| 
+ 2175| Mikhail: Hear our prayer.
+ 2176| Nabokov: We command you.
+ 2177| Mikhail: Mother of all life, oh endless land.
+ 2178| Nabokov: How beautiful your flows, wavering water.
+ 2179| Mikhail: Time passing and time lost, we now call for your return!
+ 2180| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 2181| 
+ 2182|   /Flashback ends/
+ 2183| 
+ 2184| Alice: The environment around us has changed completely.
+ 2185| 
+ 2186|   /Alice walks/
+ 2187| 
+ 2188| Alice: However, Mikhail is serving as our butler just as before.
+ 2189| 
+ 2190|   /Alice walks/
+ 2191| 
+ 2192| Alice: Father, as usual, is doing nothing but research, research, research.
+ 2193|        I wish he would spend a bit more time with me.  It's just a smidge,
+ 2194|        but some days I can feel a little lonely.
+ 2195| 
+ 2196|   /Alice walks/
+ 2197| 
+ 2198| Alice: But, that's okay.  Because no matter what, now I am.....
+ 2199| 
+ 2200|   /Alice enters the library/
+ 2201| 
+ 2202| Alice: I have been reborn, now as a regular everyday human being.
+ 2203| 
+ 2204|   /Alice walks/
+ 2205| 
+ 2206| Alice: I am no longer a doll.  No longer a genomroid!
+ 2207| 
+ 2208|   /Alice walks to the bedroom door/
+ 2209| 
+ 2210| Alice: I will live on as a person, surrounded by those I love....
+ 2211| 
+ 2212|   /Knock knock, knock knock knock/
+ 2213| 
+ 2214| Alice: Good morning, Father! It's time to wake up!
+ 2215| 
+ 2216|   {roll credits}
+ 2217| 
+ 2218| 
+ 2219| 
+ 2220| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2221| V. LEVEL MAPS AND ITEM DROPS
+ 2222| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2223| * It is important to understand that the item drops noted below are valid, but
+ 2224|    not necessarily a complete list of what each given monster can drop.
+ 2225| * Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
+ 2226|    third item, e)money, or f)nothing at all when defeated. Drops I got are in
+ 2227|    the maps below, but you might get additional drops not listed. The monster
+ 2228|    abbreviations used are explained at the very end of this section.
+ 2229| * Doors to the rooms are shown in their relative positions so you know about

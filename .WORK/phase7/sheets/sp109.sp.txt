@@ -1,0 +1,202 @@
+FILE sp109.sp  (28 strings, dialogue order)
+
+idx=4  spk=None(None)  auto_gline=None
+  JP: 周囲の邪気が浄化された
+  EN: -
+idx=26  spk=Vampire(5)  auto_gline=None
+  JP: ……。
+  EN: -
+idx=8  spk=Vampire(5)  auto_gline=1174
+  JP: なにか、言え。
+  EN: Hi, young lady.  Kukkukku.  Doing well?
+idx=27  spk=Alice(105)  auto_gline=1175
+  JP: そっちこそ。
+  EN: What, do you need something?
+idx=18  spk=Vampire(5)  auto_gline=1176
+  JP: 言う事は、なにも無い。
+  EN: My goodness, how unfriendly.  And after I took all this trouble to bring you information.
+idx=10  spk=Alice(105)  auto_gline=1178
+  JP: こっちもよ。
+  EN: Information? What is it?
+idx=15  spk=Vampire(5)  auto_gline=1179
+  JP: そうか。
+  EN: Perhaps it is closer to gossip than information, but...
+idx=7  spk=Alice(105)  auto_gline=1180
+  JP: そうよ。
+  EN: Lose the pompous act and spit it out already!
+idx=1  spk=Alice(100)  auto_gline=1180
+  JP: ねえ、ちょっと。
+  EN: -
+idx=24  spk=Vampire(5)  auto_gline=1181
+  JP: なにか用か？
+  EN: Dear me, so impatient.
+idx=25  spk=Alice(100)  auto_gline=1185
+  JP: あなた、聖なるアイテムの事、なにか知らない？
+  EN: Genomroid?!
+idx=3  spk=Vampire(5)  auto_gline=1186
+  JP: 知らぬ。
+  EN: Yes.  That's what I overheard just now at any rate.
+idx=6  spk=Alice(106)  auto_gline=1187
+  JP: ちょ、ちょっと！{NL}もっとよく考えてよ。{NL}こっちは必死なんだから。
+  EN: As I recall, that word was mentioned in Father's diary too, wasn't it.
+idx=13  spk=Vampire(5)  auto_gline=1189
+  JP: 知らぬものは知らぬとしか言えぬ。
+  EN: I see.  I'm afraid I could not say what a genomroid is, however...
+idx=2  spk=Alice(103)  auto_gline=1193
+  JP: そんな事を言わないでよ。ねえ、どんな話でもいいから、なにか聞いてない？
+  EN: You're right.  I will.  Thank you!
+idx=23  spk=Vampire(5)  auto_gline=1194
+  JP: ……そう言えば。
+  EN: Kukkukku...  I'm so pleased to have been helpful.  Farewell.
+idx=22  spk=Vampire(5)  auto_gline=1568
+  JP: だれかがめずらしい書物を商品としてあつかっていると聞いた覚えがあるが。
+  EN: No problem, it's all good.  This is worthless me we're talking about after all.
+idx=9  spk=Alice(105)  auto_gline=1570
+  JP: めずらしい書物？
+  EN: Hellooo.  Hold up.
+idx=17  spk=Vampire(5)  auto_gline=1571
+  JP: {FE02}聖書{FE00}の事だろう。
+  EN: *mutter mutter*
+idx=16  spk=Alice(104)  auto_gline=1572
+  JP: {FE02}聖書{FE00}！？{NL}もしかして、それが聖なるアイテムなの！？
+  EN: I give up.  This guy needs professional help.
+idx=14  spk=Vampire(5)  auto_gline=1576
+  JP: おそらく、な。
+  EN: *mutter mutter*
+idx=0  spk=Alice(102)  auto_gline=1577
+  JP: ねえ、だれなの？{NL}だれが売ってたの！？
+  EN: Ah, he's still depressed.
+idx=11  spk=Vampire(5)  auto_gline=1578
+  JP: あれは確か、{NL}地下26階……。
+  EN: *grumble grumble*
+idx=21  spk=Alice(101)  auto_gline=1579
+  JP: 地下26階ね？{NL}わかったわ！
+  EN: Think I'll just let him be alone.
+idx=20  spk=Vampire(5)  auto_gline=1598
+  JP: ……あまり自信はないが。
+  EN: And on that note...
+idx=19  spk=Alice(106)  auto_gline=1599
+  JP: ちょっと、ちょっとぉ！
+  EN: I'm so confused.
+idx=5  spk=Vampire(5)  auto_gline=1600
+  JP: とりあえず、行ってみたらどうだ？
+  EN: Kukuku.  I bid you farewell!
+idx=12  spk=Alice(100)  auto_gline=1601
+  JP: わ、わかったわよ。
+  EN: H-hey, hold up!
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 1160| [13].B15F Safe Room:
+ 1161| --------------------
+ 1162| Alice: Whew.
+ 1163| 
+ 1164|   /Alice walks to the central grove/
+ 1165| 
+ 1166| Alice: I think I've made it to the depths of the forest....  Whew. I'm feeling
+ 1167|        a bit worn out.
+ 1168| Alice: All right. The miasma seems light in this room.  Just what I needed!
+ 1169|        Let me rest for a while.
+ 1170| 
+ 1171|   /Clunk/
+ 1172| 
+ 1173| Alice:   Holy..!  Who's there?
+ 1174| Vampire: Hi, young lady.  Kukkukku.  Doing well?
+ 1175| Alice:   What, do you need something?
+ 1176| Vampire: My goodness, how unfriendly.  And after I took all this trouble to
+ 1177|          bring you information.
+ 1178| Alice:   Information? What is it?
+ 1179| Vampire: Perhaps it is closer to gossip than information, but...
+ 1180| Alice:   Lose the pompous act and spit it out already!
+ 1181| Vampire: Dear me, so impatient.
+ 1182| Vampire: It seems that in order to rescue the professor, the power of
+ 1183|          genomroid is required.  Without it, even if you find the professor,
+ 1184|          you won't be able to free him.
+ 1185| Alice:   Genomroid?!
+ 1186| Vampire: Yes.  That's what I overheard just now at any rate.
+ 1187| Alice:   As I recall, that word was mentioned in Father's diary too, wasn't
+ 1188|          it.
+ 1189| Vampire: I see.  I'm afraid I could not say what a genomroid is, however...
+ 1190| 
+ 1191|          In any case it's sure to be something essential. It would be worth
+ 1192|          looking into further.
+ 1193| Alice:   You're right.  I will.  Thank you!
+ 1194| Vampire: Kukkukku...  I'm so pleased to have been helpful.  Farewell.
+ 1195| 
+ 1196|   /Vampire leaves/
+ 1197| 
+ 1198| Alice: Genomroid...  I wonder what that actually is?  Mikhail might know
+ 1199|        something about it!  All right.  Let's try asking him.
+ 1200| 
+ 1201| -------> Go to the sanctuary on the right side of this room.
+ 1202| 
+ 1203| Alice:   Mikhail!
+ 1204| Mikhail: W-what is it, all of the sudden?
+ 1205| Alice:   Do you know anything about something called a genomroid?
+ 1206| Mikhail: !  N-no, unfortunately I don't.
+ 1207| Alice:   Eh?  Are you sure?
+ 1208| Mikhail: Y-yes.  I completely, absolutely, know not even a smidgen.
+ 1209| Alice:   That's odd.  Genomroid was Father's research project.  Being his
+   ...
+ 1554| 
+ 1555| 
+ 1556| [21].B28F Vampire:
+ 1557| ------------------
+ 1558| Vampire: Yo, Mademoiselle.  Kukuku.  How are things with you?
+ 1559| Alice:   They just took a turn for the worse.
+ 1560| Vampire: What?  Because of me?
+ 1561| Alice:   Bingo.
+ 1562| Vampire: Hold on, what about me is bad?  Which part specifically don't you
+ 1563|          like?  Is it this, this wine, that doesn't work for you?  Or is it
+ 1564|          the way I adorn my behavior with pomp and circumstance?  Or, do I
+ 1565|          have an ugly mug?  Perhaps I'm just innately repulsive?  Ah, I bet
+ 1566|          that's it.  That just has to be it!
+ 1567| Alice:   Whoa, I didn't say all that now!
+ 1568| Vampire: No problem, it's all good.  This is worthless me we're talking
+ 1569|          about after all.
+ 1570| Alice:   Hellooo.  Hold up.
+ 1571| Vampire: *mutter mutter*
+ 1572| Alice:   I give up.  This guy needs professional help.
+ 1573| 
+ 1574| ------> (Optional) Talk to him again.
+ 1575| 
+ 1576| Vampire: *mutter mutter*
+ 1577| Alice:   Ah, he's still depressed.
+ 1578| Vampire: *grumble grumble*
+ 1579| Alice:   Think I'll just let him be alone.
+ 1580| 
+ 1581| 
+ 1582| [22].B29F Wizard:
+ 1583| -----------------
+ 1584| Wizard: Need something from me?
+ 1585| Alice:  No, I don't.
+ 1586| Wizard: ........
+ 1587| Wizard: Oh that's unfortunate.  I was hoping for company to help pass the
+ 1588|         time.
+ 1589| Alice:  That's great and all, but I still don't need anything.
+ 1590| 
+ 1591| 
+ 1592| [23].B30F Vampire:
+ 1593| ------------------
+ 1594| Vampire: Yo, Mademoiselle.  Nice weather we're having today.
+ 1595| Alice:   Nice weather?  You know we're underground, right.
+ 1596| Vampire: ......
+ 1597| Alice:   ......
+ 1598| Vampire: And on that note...
+ 1599| Alice:   I'm so confused.
+ 1600| Vampire: Kukuku.  I bid you farewell!
+ 1601| Alice:   H-hey, hold up!
+ 1602| 
+ 1603| 
+ 1604| [24].B30F Safe Room:
+ 1605| --------------------
+ 1606| Alice: Oh, what is that?!
+ 1607| 
+ 1608|   /Alice walks forward/
+ 1609| 
+ 1610| Alice:   Father!
+ 1611| Nabokov: A-alice?  Ohh, Alice, you made it?!
+ 1612| Alice:   Oh I'm so thankful you're okay.  Let me get you out of there right
+ 1613|          now.
+ 1614| Nabokov: Don't bother.  No matter how much you beat on it, the gordalis will
+ 1615|          not break.
+ 1616| Alice:   Gordalis?  You mean this thing you're trapped inside?

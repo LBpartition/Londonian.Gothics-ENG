@@ -1,0 +1,42 @@
+[
+ {
+  "idx": 6,
+  "en": null,
+  "note": "not in guide (shop greeting)"
+ },
+ {
+  "idx": 5,
+  "gline": 1317,
+  "en": "I see, come again."
+ },
+ {
+  "idx": 4,
+  "gline": 1311,
+  "en": "......."
+ },
+ {
+  "idx": 1,
+  "gline": 1312,
+  "en": "? What are you doing?"
+ },
+ {
+  "idx": 3,
+  "gline": 1313,
+  "en": "I'm setting up my products."
+ },
+ {
+  "idx": 2,
+  "gline": 1314,
+  "en": "Products?"
+ },
+ {
+  "idx": 7,
+  "gline": 1315,
+  "en": "I started up a shop. Buy something, will you?"
+ },
+ {
+  "idx": 0,
+  "en": "When the bordermoon collapses, the nearby miasma is purified.",
+  "note": "guide (realigned)"
+ }
+]

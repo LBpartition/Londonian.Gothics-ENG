@@ -1,0 +1,14 @@
+wait 30
+wait 40
+shot t1 wait 40
+shot t2 wait 40
+shot t3 wait 40
+shot t4 wait 40
+shot t5 wait 40
+shot t6 wait 40
+shot t7 wait 40
+shot t8 wait 40
+shot t9 wait 40
+shot t10 wait 40
+shot t11 wait 40
+shot t12

@@ -1,0 +1,413 @@
+FILE sp_home004.sp  (45 strings, dialogue order)
+
+idx=22  spk=Alice(100)  auto_gline=2184
+  JP: さて、と。{NL}なにか見つかるかな。
+  EN: The environment around us has changed completely.
+idx=18  spk=None(None)  auto_gline=2186
+  JP: ガサゴソ{WAIT}ガサゴソ
+  EN: Alice walks
+idx=11  spk=Alice(105)  auto_gline=2188
+  JP: うーん。{NL}なにもないわねえ。
+  EN: However, Mikhail is serving as our butler just as before.
+idx=16  spk=Alice(100)  auto_gline=2198
+  JP: あら？{WAIT}これは？{NL}お父さまの日記？
+  EN: But, that's okay.  Because no matter what, now I am.....
+idx=43  spk=Alice(100)  auto_gline=2202
+  JP: そうね。お父さまには悪いけど、ちょっとだけ読ませてもらおうかしら？
+  EN: I have been reborn, now as a regular everyday human being.
+idx=24  spk=Alice(100)  auto_gline=2206
+  JP: 今は、少しでも手がかりがほしいの。お父さま、ごめんなさいね。
+  EN: I am no longer a doll.  No longer a genomroid!
+idx=23  spk=Alice(101)  auto_gline=2210
+  JP: でも、本音を言うと、自分以外の人の日記を読むのって、楽しいのよね。
+  EN: I will live on as a person, surrounded by those I love....
+idx=38  spk=Alice(101)  auto_gline=2214
+  JP: ふふふ。{NL}それじゃ、早速。{NL}ええと、なになに……。
+  EN: Good morning, Father! It's time to wake up!
+idx=34  spk=None(None)  auto_gline=2307
+  JP: 4月5日。
+  EN: /////////////
+idx=0  spk=None(None)  auto_gline=2328
+  JP: 今日は娘と外出した。
+  EN: //////////////////////
+idx=31  spk=None(None)  auto_gline=2331
+  JP: あれほど楽しそうな娘を見たのは、一体いつ以来だろうか？
+  EN: //////////////////////
+idx=5  spk=None(None)  auto_gline=2387
+  JP: 4月13日。
+  EN: /////////////////////
+idx=36  spk=None(None)  auto_gline=2391
+  JP: 今日は娘と遊んでやった。
+  EN: /////////////////////
+idx=3  spk=None(None)  auto_gline=2406
+  JP: コロコロ変わる娘の表情を見ながら、私はなんとなく幸せだった。
+  EN: /////////////////////
+idx=30  spk=None(None)  auto_gline=2407
+  JP: 4月21日。
+  EN: FG:tyuunu / irumari
+idx=2  spk=None(None)  auto_gline=2409
+  JP: 楽しい月日は、おだやかに過ぎていく。{NL}願わくは、このまま……。
+  EN: /////////////////////
+idx=14  spk=Alice(103)  auto_gline=None
+  JP: お父さま。そんなに私を思っていてくれたの？
+  EN: -
+idx=40  spk=Alice(103)  auto_gline=None
+  JP: やだ、なみだが……。{NL}ぐすっ。
+  EN: -
+idx=25  spk=Alice(100)  auto_gline=None
+  JP: さ、さてと。
+  EN: -
+idx=39  spk=Alice(101)  auto_gline=None
+  JP: つづき、読みましょっか？
+  EN: -
+idx=20  spk=None(None)  auto_gline=2442
+  JP: 8月19日。
+  EN: /////////////////////
+idx=4  spk=None(None)  auto_gline=2483
+  JP: 我がロシアにおいても、動乱がおこりつつある。
+  EN: ///////////////////////////////
+idx=19  spk=None(None)  auto_gline=2486
+  JP: 私たちの身はまだ安全だが{NL}やがていずれは……。
+  EN: ///////////////////////////////
+idx=15  spk=None(None)  auto_gline=2501
+  JP: 10月23日。
+  EN: SH:masaeru / fomoru
+idx=17  spk=None(None)  auto_gline=2502
+  JP: 時代のながれは止められそうにもない。
+  EN: /////////////////////
+idx=41  spk=None(None)  auto_gline=2523
+  JP: 遠からず、きっと大変な事がおこるだろう。
+  EN: //////////////////////
+idx=29  spk=None(None)  auto_gline=2525
+  JP: 12月2日。
+  EN: BR:tyuunu / borodi
+idx=1  spk=None(None)  auto_gline=2526
+  JP: 今日も多くの人があらそい{NL}そして、死んだ。
+  EN: OR:aigizu / reshiefu
+idx=42  spk=None(None)  auto_gline=2527
+  JP: このままでは、私たちも危険だ。なにか、手段を考えなくては……。
+  EN: //////////////////////
+idx=6  spk=Alice(100)  auto_gline=None
+  JP: ……。
+  EN: -
+idx=27  spk=Alice(106)  auto_gline=None
+  JP: えっ！？{NL}ここで終わり！？
+  EN: -
+idx=7  spk=Alice(105)  auto_gline=None
+  JP: なによぉ。これからがいい所なのにぃ。
+  EN: -
+idx=10  spk=Alice(105)  auto_gline=None
+  JP: もうっ。{NL}つづきはないのぉ？
+  EN: -
+idx=44  spk=Alice(105)  auto_gline=None
+  JP: うーん。{NL}ここには、なさそうねえ。
+  EN: -
+idx=21  spk=Alice(100)  auto_gline=None
+  JP: あるとすれば、お父さまの寝室かな？{NL}とりあえず、行ってみる？
+  EN: -
+idx=9  spk=Alice(100)  auto_gline=None
+  JP: それにしても、お父さまってロシアの人だったのね。
+  EN: -
+idx=8  spk=Alice(105)  auto_gline=None
+  JP: でも、あれれ？{NL}私、ロシアにいたころの事って全然覚えてないわよ？
+  EN: -
+idx=12  spk=Alice(100)  auto_gline=None
+  JP: うーん。
+  EN: -
+idx=33  spk=Alice(105)  auto_gline=None
+  JP: ダメ。{NL}やっぱり思い出せないわ。
+  EN: -
+idx=13  spk=Alice(100)  auto_gline=None
+  JP: ふぅ。{NL}ま、いいわ。{NL}あと回しにしましょ。
+  EN: -
+idx=35  spk=Alice(100)  auto_gline=None
+  JP: 今はこっち。{NL}お父さまの事、もっと調べなくっちゃ。
+  EN: -
+idx=37  spk=Alice(100)  auto_gline=None
+  JP: 私は生まれ変わったわ。{NL}ごく普通の人間として。
+  EN: -
+idx=32  spk=Alice(100)  auto_gline=None
+  JP: だからもう、私は人形なんかじゃない。{FE02}ゲノムロイド{FE00}なんかじゃないの！
+  EN: -
+idx=28  spk=Alice(101)  auto_gline=None
+  JP: 私は、生きていくわ。{NL}ごく普通の人間として。
+  EN: -
+idx=26  spk=Alice(101)  auto_gline=None
+  JP: 愛する人たちに、囲まれながら……。
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 2170| Alice:   ......  Okay!
+ 2171| Nabokov: Good.  Then, let's begin.
+ 2172| 
+ 2173|   /Astulla ceremony starts/
+ 2174| 
+ 2175| Mikhail: Hear our prayer.
+ 2176| Nabokov: We command you.
+ 2177| Mikhail: Mother of all life, oh endless land.
+ 2178| Nabokov: How beautiful your flows, wavering water.
+ 2179| Mikhail: Time passing and time lost, we now call for your return!
+ 2180| Nabokov: Now show yourself here.  In that righteous form, utopia!
+ 2181| 
+ 2182|   /Flashback ends/
+ 2183| 
+ 2184| Alice: The environment around us has changed completely.
+ 2185| 
+ 2186|   /Alice walks/
+ 2187| 
+ 2188| Alice: However, Mikhail is serving as our butler just as before.
+ 2189| 
+ 2190|   /Alice walks/
+ 2191| 
+ 2192| Alice: Father, as usual, is doing nothing but research, research, research.
+ 2193|        I wish he would spend a bit more time with me.  It's just a smidge,
+ 2194|        but some days I can feel a little lonely.
+ 2195| 
+ 2196|   /Alice walks/
+ 2197| 
+ 2198| Alice: But, that's okay.  Because no matter what, now I am.....
+ 2199| 
+ 2200|   /Alice enters the library/
+ 2201| 
+ 2202| Alice: I have been reborn, now as a regular everyday human being.
+ 2203| 
+ 2204|   /Alice walks/
+ 2205| 
+ 2206| Alice: I am no longer a doll.  No longer a genomroid!
+ 2207| 
+ 2208|   /Alice walks to the bedroom door/
+ 2209| 
+ 2210| Alice: I will live on as a person, surrounded by those I love....
+ 2211| 
+ 2212|   /Knock knock, knock knock knock/
+ 2213| 
+ 2214| Alice: Good morning, Father! It's time to wake up!
+ 2215| 
+ 2216|   {roll credits}
+ 2217| 
+ 2218| 
+ 2219| 
+ 2220| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2221| V. LEVEL MAPS AND ITEM DROPS
+ 2222| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2223| * It is important to understand that the item drops noted below are valid, but
+ 2224|    not necessarily a complete list of what each given monster can drop.
+ 2225| * Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
+ 2226|    third item, e)money, or f)nothing at all when defeated. Drops I got are in
+ 2227|    the maps below, but you might get additional drops not listed. The monster
+ 2228|    abbreviations used are explained at the very end of this section.
+ 2229| * Doors to the rooms are shown in their relative positions so you know about
+   ...
+ 2293| (story upon touching bordermoon orb)
+ 2294| (pattern for Bekiradin)
+ 2295| 
+ 2296|          ;;;
+ 2297|     --------------
+ 2298|     | ZO:roadesu |
+ 2299|     | ZO:roadesu |
+ 2300|     --------------
+ 2301|           |
+ 2302|    --------------6
+ 2303|    | BB:radokuya |   *Bekiradin
+ 2304|    | BB:radokuya |
+ 2305|    ---------------
+ 2306|            |
+ 2307|         ///////////////
+ 2308|         / ZO:radokuya /
+ 2309|         / WP:roadesu  /
+ 2310|         ///////////////
+ 2311|           vvv
+ 2312| 
+ 2313| *B2F
+ 2314| (story upon entry)
+ 2315| (pattern for Manaclis)
+ 2316| 
+ 2317|                      ;;;
+ 2318|    ~~~~~~~~~~~~~    --------------
+ 2319|    ~ Sanctuary ~ -- | WP:roadesu |
+ 2320|    ~~~~~~~~~~~~~    | WP:roadesu |
+ 2321|                     --------------
+ 2322|                           |
+ 2323|                     ------------5
+ 2324|                     | BB:borodi |
+ 2325|                     | BB:borodi |
+ 2326|                     -------------
+ 2327|                           |
+ 2328|                         ////////////////////////
+ 2329|                         / ZO:radokuya / kuahha /   *Manaclis
+ 2330|                         / ZO:kuahha            /
+ 2331|                         ////////////////////////
+ 2332|                                            vvv
+ 2333| 
+ 2334| *B3F
+ 2335|     ;;;
+ 2336|    -------------7
+ 2337|    | SA:roadesu |
+ 2338|    | SP:lisufa  |
+ 2339|    --------------
+ 2340|     |
+ 2341|    /////////////    --------------
+ 2342|    / BB:lisufa / -- | SA:roadesu |vvv
+ 2343|    / BB:lisufa /    | SA:roadesu |
+ 2344|    /////////////    --------------
+ 2345| 
+ 2346| 
+   ...
+ 2373| *B5F
+ 2374| (story upon entering sanctuary)
+ 2375| (pattern for Ferminio)
+ 2376|                                       ;;;
+ 2377|                                 ---------------
+ 2378|                                 | BR:wariyagu |
+ 2379|                                 | BR:masaeru  |
+ 2380|                                 ---------------
+ 2381|                                         |
+ 2382|    ~~~~~~~~~~~~~    -----------------------6    ----------------------
+ 2383|    ~ Sanctuary ~ -- | SA:wariyagu / tyuunu | -- | WA:awizu / osubiya |
+ 2384|    ~~~~~~~~~~~~~    | AX:tuuka / tyuunu    |    | FG:awizu           |
+ 2385|                     ------------------------    ----------------------
+ 2386|                         |
+ 2387|              ///////////////////////
+ 2388|           vvv/ BR:irumari / tyuunu /
+ 2389|              / BR:tyuunu / borodi  / *Ferminio
+ 2390|              / Vampire             /
+ 2391|              ///////////////////////
+ 2392| 
+ 2393| 
+ 2394| *B6F
+ 2395| 
+ 2396|    -----------------------6
+ 2397|    | SA:osubiya           |;;;
+ 2398|    | ZB:tyuunu / wariyagu |
+ 2399|    ------------------------
+ 2400|                        |
+ 2401|            -------------6
+ 2402|            | PO:tuuka   |
+ 2403|            | ZO:irumari |
+ 2404|            --------------
+ 2405|             |
+ 2406|          ///////////////////////
+ 2407|          / FG:tyuunu / irumari /
+ 2408|          / BR:tuuka            /vvv
+ 2409|          ///////////////////////
+ 2410| 
+ 2411| 
+ 2412| *B7F                                        [prison-style rooms]
+ 2413| (story in safe area)
+ 2414| 
+ 2415|       ------------------------7    //////////////////////
+ 2416|    ;;;| SP:wariyagu / masaeru | -- / OG:irumari / awizu /
+ 2417|       | SP:wariyagu / masaeru |    / OG:irumari / awizu /
+ 2418|       -------------------------    //////////////////////
+ 2419|                                                      |
+ 2420|                                ~~~~~~~~~~~~~    ~~~~~~~~~~
+ 2421|                                ~ Sanctuary ~ -- ~        ~vvv
+ 2422|                                ~~~~~~~~~~~~~    ~~~~~~~~~~
+ 2423|                                                      |
+ 2424|                                                 ~~~~~~~~~~
+   ...
+ 2428| 
+ 2429| *B8F
+ 2430| (patterns for Riffcowl & Domudia)
+ 2431| 
+ 2432|       ---------------
+ 2433|    ;;;| KR:wariyagu | *Domudia
+ 2434|       | KR:reshiefu |
+ 2435|       ---------------
+ 2436|                    |
+ 2437|             -------------7    -----------------------
+ 2438|             | YO:osubiya | -- | IM:awizu / wariyagu |
+ 2439|             | YO:borodi  |    | OG:tyuunu / borodi  |
+ 2440|             --------------    -----------------------
+ 2441|               *Riffcowl                         |
+ 2442|                                   ///////////////////////
+ 2443|                                   / SP:wariyagu / awizu /    ~~~~~~~~~~
+ 2444|                                   / BB:tyuunu           / -- ~ Sewing ~
+ 2445|                                   ///////////////////////    ~~~~~~~~~~
+ 2446|                                              vvv
+ 2447| 
+ 2448| 
+ 2449| *B9F
+ 2450| (pattern for Stradia)
+ 2451| (sales of wariyagu, borodi, seruti, irumari, masaeru)
+ 2452| 
+ 2453|     ;;;
+ 2454|    ----------------------           
+ 2455|    | BB:osubiya / awizu |              ~~~~~~~~~~~~~
+ 2456|    | xx:seruti / aigizu |              ~ Sanctuary ~
+ 2457|    ----------------------              ~~~~~~~~~~~~~
+   ...
+ 2469| 
+ 2470| *B10F
+ 2471| 
+ 2472|       --------------
+ 2473|    ;;;| KB:zoriano |    --------------
+ 2474|       | IM:seruti  | -- | SR:dareifu |
+ 2475|       --------------    | SR:lisufa  |
+ 2476|                         --------------
+ 2477|                                     |
+ 2478|                 -----------------------8
+ 2479|                 | OR:rudorin / osubiya |
+ 2480|                 | BR:rudorin / borodi  |
+ 2481|                 ------------------------
+ 2482|                                       |
+ 2483|                      /////////////////////////////////
+ 2484|                   vvv/ YO:gurasuto / fomoru / kuahha /
+ 2485|                      / YO:aigizu / gurasuto / fomoru /
+ 2486|                      /////////////////////////////////
+ 2487| 
+ 2488| 
+ 2489| *B11F
+ 2490| (story upon entry)
+ 2491| (pattern for Proteus)
+ 2492| 
+ 2493|               ---------------    -----------------------
+ 2494|            vvv| KB:gurasuto | -- | SR:rewiza / dareifu |;;;
+ 2495|               | MG:kuahha   |    | IM:aigizu           | *Proteus
+ 2496|               ---------------    -----------------------
+ 2497|                     |                        |
+ 2498|    ///////////////////////              ~~~~~~~~~~~~~
+ 2499|    / BR:fomoru           /              ~ Sanctuary ~
+ 2500|    / BR:lisufa           /              ~~~~~~~~~~~~~
+ 2501|    / SH:masaeru / fomoru /
+ 2502|    ///////////////////////
+ 2503|                      |
+ 2504|                 ~~~~~~~~~~
+ 2505|                 ~ Sewing ~
+ 2506|                 ~~~~~~~~~~
+ 2507| 
+ 2508| 
+ 2509| *B12F
+ 2510| 
+ 2511|     --------------6
+ 2512|     | SH: irumari |    -----------------------7
+ 2513|     | SR: rudorin | -- | YO:rewiza / kuahha   |
+ 2514|     | BR: irumari |    | IM:osubiya / irumari |;;;
+ 2515|     ---------------    ------------------------
+ 2516|                                   |
+ 2517|             -----------------------7
+ 2518|             | KB:reshiefu / aigizu |
+ 2519|             | SR:rewiza / dareifu  |
+ 2520| 
+ 2521|             ------------------------
+ 2522|                |
+ 2523|    ////////////////////////
+ 2524|    / IM:tyuunu / masaeru  /
+ 2525|    / BR:tyuunu / borodi   /
+ 2526|    / OR:aigizu / reshiefu /
+ 2527|    ////////////////////////
+ 2528|              vvv
+ 2529| 
+ 2530| 
+ 2531| *B13F                                             [forest cave rooms]
+ 2532| (sales of rudorin, kuahha, tuuka, aigizu, osubiya)
+ 2533| 
+ 2534|                        ;;;
+ 2535|                  -------------8
+ 2536|                  | OC:osubiya |
+ 2537|                  | OC:dareifu |
+ 2538|                  | OC:formoru |
+ 2539|                  --------------
+ 2540|                              |
+ 2541|       ~~~~~~~~~~    --------------    ~~~~~~~~~~~~~
+ 2542|       ~ Sewing ~ -- | SH:dareifu | -- ~ Sanctuary ~

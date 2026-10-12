@@ -1,0 +1,38 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 60
+shot title
+press Start
+wait 90
+shot menu
+press A
+wait 240
+press A
+wait 120
+press A
+wait 120
+press A
+wait 120
+shot dlg1
+press A
+wait 120
+shot dlg2
+press A
+wait 120
+shot dlg3
+exit

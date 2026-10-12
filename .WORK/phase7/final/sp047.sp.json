@@ -1,0 +1,107 @@
+[
+{
+"idx": 2,
+"en": null,
+"note": "sfx: When the bordermoon collapses, the nearby miasma is purified."
+},
+{
+"idx": 9,
+"gline": 1130,
+"en": "I don't have any more rewards for you."
+},
+{
+"idx": 20,
+"gline": 1130,
+"en": "Kukuku..  Too bad, isn't it."
+},
+{
+"idx": 12,
+"gline": 1121,
+"en": "Kukuku.  I'm impressed you made it down this far."
+},
+{
+"idx": 15,
+"gline": 1121,
+"en": "I think that's deserving of a reward.  Here, take this."
+},
+{
+"idx": 6,
+"en": null,
+"note": "sfx: Obtained the pattern for magic dress Twincavia"
+},
+{
+"idx": 17,
+"gline": 1126,
+"en": "Keep going as far as you can.  Kukuku......"
+},
+{
+"idx": 0,
+"gline": 1672,
+"en": "Hey."
+},
+{
+"idx": 8,
+"gline": 1673,
+"en": "Oh?  Mademoiselle.  Kukuku...  Have you some business with me?"
+},
+{
+"idx": 16,
+"gline": 1674,
+"en": "Do you know anything about sacred items?"
+},
+{
+"idx": 3,
+"gline": 1675,
+"en": "Hm.  Now that you mention it I do recall hearing that phrase somewhere."
+},
+{
+"idx": 11,
+"gline": 1677,
+"en": "Oh?  You know something?"
+},
+{
+"idx": 1,
+"gline": 1677,
+"en": "Say, tell me!  Where are they?!"
+},
+{
+"idx": 5,
+"gline": 1678,
+"en": "I couldn't give you a specific location.  But, what I heard went a little something like this:"
+},
+{
+"idx": 18,
+"gline": 1678,
+"en": "\"Stand in the heart of a cross inscribed upon an underworld lake and sacred water shall gush forth.\""
+},
+{
+"idx": 10,
+"gline": 1681,
+"en": "The heart of a cross inscribed upon an underworld lake?  What's that all about?"
+},
+{
+"idx": 7,
+"gline": 1683,
+"en": "There must be a place matching that description somewhere in the labyrinth."
+},
+{
+"idx": 14,
+"gline": 1685,
+"en": "Then, if I can make it there?!"
+},
+{
+"idx": 4,
+"gline": 1686,
+"en": "Sacred water...  In other words, holy water, is what you'll acquire."
+},
+{
+"idx": 19,
+"gline": 1687,
+"en": "Thank you.  I'm going to check it out!"
+},
+{
+"idx": 13,
+"gline": 1688,
+"en": "Right.  Best of luck to you.  Kukuku...."
+}
+]

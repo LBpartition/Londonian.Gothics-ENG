@@ -1,0 +1,84 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 120
+press Start
+wait 120
+press A
+wait 200
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+press A 3
+wait 27
+shot d018
+press A 3
+wait 27
+shot d019
+press A 3
+wait 27
+shot d020
+press A 3
+wait 27
+shot d021
+press A 3
+wait 27
+shot d022
+press A 3
+wait 27
+shot d023
+press A 3
+wait 27
+shot d024
+press A 3
+wait 27
+shot d025
+press A 3
+wait 27
+shot d026
+exit

@@ -1,0 +1,231 @@
+FILE sp129.sp  (36 strings, dialogue order)
+
+idx=29  spk=Alice(104)  auto_gline=1606
+  JP: あっ！{WAIT}あれは！？
+  EN: Oh, what is that?!
+idx=2  spk=Alice(100)  auto_gline=1610
+  JP: お、お父さま！
+  EN: Father!
+idx=25  spk=Nabokov(3)  auto_gline=1611
+  JP: ア、アリス！？{NL}おお、アリスか！？
+  EN: A-alice?  Ohh, Alice, you made it?!
+idx=4  spk=Alice(101)  auto_gline=1612
+  JP: ああ、無事でよかった。{NL}今、そこから出してあげるわ！
+  EN: Oh I'm so thankful you're okay.  Let me get you out of there right now.
+idx=34  spk=Nabokov(3)  auto_gline=1614
+  JP: ムダだ。{NL}いくらお前でも、{FE02}ゴアダリス{FE00}は壊せはしまい。
+  EN: Don't bother.  No matter how much you beat on it, the gordalis will not break.
+idx=3  spk=Alice(105)  auto_gline=1616
+  JP: {FE02}ゴアダリス{FE00}？{NL}お父さまを閉じこめているコレのこと？
+  EN: Gordalis?  You mean this thing you're trapped inside?
+idx=22  spk=Nabokov(3)  auto_gline=1617
+  JP: そうだ。{NL}これは、強大な魔力で作られている。
+  EN: Yes.
+idx=14  spk=Nabokov(3)  auto_gline=1617
+  JP: おそらく、もう私はここから出る事は出来まい。
+  EN: This cage was created from formidable magic, powerful enough that I daresay I won't be able to get out of it.
+idx=15  spk=Alice(103)  auto_gline=1619
+  JP: お父さま！{NL}弱気になっちゃダメよ！
+  EN: Father!  Don't give up before we've even tried!
+idx=12  spk=Nabokov(3)  auto_gline=1620
+  JP: アリスよ。私の事はよい。せめて、お前だけは逃げてくれ。
+  EN: Alice, leave me.  Get out of here and save yourself.
+idx=1  spk=Alice(103)  auto_gline=1621
+  JP: そんな、お父さま！{NL}どうにもならないの？{NL}なにか、手段はないの？
+  EN: I can't, Father!  Are you really sure it's hopeless?  Isn't there something, anything, we can try?
+idx=6  spk=Nabokov(3)  auto_gline=1623
+  JP: むぅ、そうだな。{NL}ミヒャエルなら、なにかを知ってるかもしれないが。
+  EN: Oh all right.  In that case check with Mikhail.  He might have some thoughts.
+idx=19  spk=Alice(105)  auto_gline=1625
+  JP: そう。{NL}ミヒャエルが……。
+  EN: Ah, Mikhail, huh...
+idx=18  spk=Alice(100)  auto_gline=1625
+  JP: わかったわ、お父さま。{NL}すぐ、聞いて来るわ！
+  EN: Understood, Father. Let me go ask!
+idx=8  spk=Nabokov(3)  auto_gline=1629
+  JP: アリス。{NL}あまり無理はするなよ。
+  EN: Alice, don't wear yourself out...
+idx=10  spk=Alice(100)  auto_gline=1634
+  JP: お父さま。大丈夫？
+  EN: Mikhail!  Do you know how to break a gordalis?
+idx=5  spk=Nabokov(3)  auto_gline=None
+  JP: ハァハァ、ハァハァ。{NL}おお、アリスか。
+  EN: -
+idx=21  spk=Alice(102)  auto_gline=1636
+  JP: もう少しだけ待ってて！{NL}必ず、助けるから！
+  EN: I found father being held inside one.
+idx=20  spk=Alice(101)  auto_gline=1853
+  JP: これでいいわ。このドレスじゃなきゃ、{FE02}聖剣{FE00}は使えないもんね。
+  EN: This should do it. I have to be wearing this dress in order to use the holy sword.
+idx=7  spk=Alice(100)  auto_gline=1853
+  JP: さ、行きましょ。
+  EN: All right, let's go.
+idx=31  spk=Alice(102)  auto_gline=1858
+  JP: お父さまっ！！
+  EN: Father!
+idx=32  spk=Nabokov(3)  auto_gline=1859
+  JP: ハァハァハァ。{NL}お、おお、アリス。
+  EN: Ha ha ha ha. Oh, ohhh, Alice!
+idx=27  spk=Alice(102)  auto_gline=1860
+  JP: お父さま！{NL}大丈夫？{NL}生きてますか？
+  EN: Father, are you okay?  Still with us?
+idx=16  spk=Nabokov(3)  auto_gline=1861
+  JP: だ、大丈夫だ。私はまだ死なぬ。やるべきことが残っているからな。
+  EN: I'm fine.  I can't die yet.  I still have work to do after all.
+idx=11  spk=Alice(102)  auto_gline=1862
+  JP: 待ってて！{NL}今、そこから出してあげるわ！
+  EN: Hang on!  I'm getting you out of there!
+idx=0  spk=Nabokov(3)  auto_gline=1863
+  JP: そんな事が出来るのか？{NL}お前に？
+  EN: Is that even possible?  Can you?
+idx=24  spk=Alice(101)  auto_gline=1864
+  JP: この{FE02}聖剣{FE00}ならば！{NL}きっと出来るはずよ！
+  EN: With this holy sword I sure ought to be able to!
+idx=28  spk=Nabokov(3)  auto_gline=1868
+  JP: お、おおっ！
+  EN: Oh, ohh!
+idx=30  spk=Alice(101)  auto_gline=1869
+  JP: お父さまっ！
+  EN: Father!
+idx=17  spk=Nabokov(3)  auto_gline=1870
+  JP: ありがとう。心配をかけたな、アリス。
+  EN: Thanks.  Sorry to have worried you, Alice.
+idx=33  spk=Alice(101)  auto_gline=1871
+  JP: ううん、いいの。お父さまが無事なら。
+  EN: It's no problem.  I'm just glad you're all right.
+idx=35  spk=Nabokov(3)  auto_gline=1872
+  JP: さあ、帰ろう。ミヒャエルが待っている。
+  EN: Now, let's head home.  Mikhail will be waiting for us.
+idx=9  spk=Alice(101)  auto_gline=1873
+  JP: うんっ！
+  EN: Right!
+idx=23  spk=Alice(103)  auto_gline=1877
+  JP: きゃっ！？
+  EN: Kyaa!?
+idx=26  spk=Nabokov(3)  auto_gline=1878
+  JP: むっ、いかん！{WAIT}{FE02}ゴアダリス{FE00}が破壊された事で、迷宮までくずれはじめている！{NL}アリスよ、急ごう！{NL}早くここから逃げるのだ！
+  EN: That's not good!  Now that the gordalis was destroyed, the labyrinth itself has begun to collapse!  Alice, let's move.  We've got to get out of here fast.
+idx=13  spk=Alice(102)  auto_gline=1881
+  JP: わ、わかったわ！
+  EN: Understood!
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 1592| [23].B30F Vampire:
+ 1593| ------------------
+ 1594| Vampire: Yo, Mademoiselle.  Nice weather we're having today.
+ 1595| Alice:   Nice weather?  You know we're underground, right.
+ 1596| Vampire: ......
+ 1597| Alice:   ......
+ 1598| Vampire: And on that note...
+ 1599| Alice:   I'm so confused.
+ 1600| Vampire: Kukuku.  I bid you farewell!
+ 1601| Alice:   H-hey, hold up!
+ 1602| 
+ 1603| 
+ 1604| [24].B30F Safe Room:
+ 1605| --------------------
+ 1606| Alice: Oh, what is that?!
+ 1607| 
+ 1608|   /Alice walks forward/
+ 1609| 
+ 1610| Alice:   Father!
+ 1611| Nabokov: A-alice?  Ohh, Alice, you made it?!
+ 1612| Alice:   Oh I'm so thankful you're okay.  Let me get you out of there right
+ 1613|          now.
+ 1614| Nabokov: Don't bother.  No matter how much you beat on it, the gordalis will
+ 1615|          not break.
+ 1616| Alice:   Gordalis?  You mean this thing you're trapped inside?
+ 1617| Nabokov: Yes.  This cage was created from formidable magic, powerful enough
+ 1618|          that I daresay I won't be able to get out of it.
+ 1619| Alice:   Father!  Don't give up before we've even tried!
+ 1620| Nabokov: Alice, leave me.  Get out of here and save yourself.
+ 1621| Alice:   I can't, Father!  Are you really sure it's hopeless?  Isn't there
+ 1622|          something, anything, we can try?
+ 1623| Nabokov: Oh all right.  In that case check with Mikhail.  He might have some
+ 1624|          thoughts.
+ 1625| Alice:   Ah, Mikhail, huh...  Understood, Father.  Let me go ask!
+ 1626| 
+ 1627|   /Alice departs/
+ 1628| 
+ 1629| Nabokov: Alice, don't wear yourself out...
+ 1630| 
+ 1631| --------> Go see Mikhail in any sanctuary (one is two rooms to the left of
+ 1632|           the bordermoon, on B30F).
+ 1633| 
+ 1634| Alice:   Mikhail!  Do you know how to break a gordalis?
+ 1635| Mikhail: Gordalis!  Milady where did you hear that word?
+ 1636| Alice:   I found father being held inside one.
+ 1637| Mikhail: Is that so.  Hmm..  That presents quite the problem.
+ 1638| Alice:   Well, Mikhail.  Isn't there some way to break it?  Well?  Well?
+ 1639| Mikhail: It's not as though we have zero options, but...
+ 1640| Alice:   Okay, please tell me what needs to be done.
+ 1641| Mikhail: This is going to be rather troublesome.
+ 1642| Alice:   Oh sheesh.  Stop beating around the bush and spill it, would you!
+ 1643|          I'm willing to try anything I have to if it means being able to save
+ 1644|          Father.
+ 1645| Mikhail: Very well.  In that case there are some things I must ask you to
+ 1646|          find.
+ 1647| Alice:   What should I be looking for?
+ 1648| Mikhail: Two sacred items are required to free the professor.
+ 1649| Alice:   Sacred items?  Well which ones for heaven's sake?
+ 1650| Mikhail: I do not know.  I suppose they'd have to be ones that could wear down
+ 1651|          evil power...
+   ...
+ 1839| 
+ 1840|   /Obtained the holy sword/
+ 1841| 
+ 1842| Alice: Now, let's hurry on to where Father is!
+ 1843| Alice: But, that voice, I wonder whose it was?  Surely not God's?!  Yeah, like
+ 1844|        that could happen.
+ 1845| 
+ 1846| --------> Go stand in front of the door to where Nabokov is being held, two
+ 1847|           rooms north.  If you want, SAVE before you go inside, because it's
+ 1848|           the LAST TIME in the game you'll be able to do so.  Enter when
+ 1849|           ready.
+ 1850| 
+ 1851|   /Alice auto-changes clothes into Argus/
+ 1852| 
+ 1853| Alice:   This should do it.  I have to be wearing this dress in order to use
+ 1854|          the holy sword.  All right, let's go.
+ 1855| 
+ 1856|   /Alice walks to Nabokov/
+ 1857| 
+ 1858| Alice:   Father!
+ 1859| Nabokov: Ha ha ha ha. Oh, ohhh, Alice!
+ 1860| Alice:   Father, are you okay?  Still with us?
+ 1861| Nabokov: I'm fine.  I can't die yet.  I still have work to do after all.
+ 1862| Alice:   Hang on!  I'm getting you out of there!
+ 1863| Nabokov: Is that even possible?  Can you?
+ 1864| Alice:   With this holy sword I sure ought to be able to!
+ 1865| 
+ 1866|   /Alice chops him free/
+ 1867| 
+ 1868| Nabokov: Oh, ohh!
+ 1869| Alice:   Father!
+ 1870| Nabokov: Thanks.  Sorry to have worried you, Alice.
+ 1871| Alice:   It's no problem.  I'm just glad you're all right.
+ 1872| Nabokov: Now, let's head home.  Mikhail will be waiting for us.
+ 1873| Alice:   Right!
+ 1874| 
+ 1875|   /The ground shakes/
+ 1876| 
+ 1877| Alice:   Kyaa!?
+ 1878| Nabokov: That's not good!  Now that the gordalis was destroyed, the labyrinth
+ 1879|          itself has begun to collapse!  Alice, let's move.  We've got to get
+ 1880|          out of here fast.
+ 1881| Alice:   Understood!
+ 1882| 
+ 1883|   /They make it back to the manor's basement/
+ 1884| 
+ 1885| Nabokov: Whew.  Looks like we somehow made it back in one piece.
+ 1886| Mikhail: Dr. Nabokov!
+ 1887| Nabokov: Oh, Mikhail.  Sorry I made you worry, too.
+ 1888| Mikhail: I'm so pleased you're unharmed!
+ 1889| Nabokov: Yes, we narrowly escaped being crushed.  That, and everything else
+ 1890|          too, was all thanks to you, Alice.
+ 1891| Nabokov: Alice, what's wrong?
+ 1892| 
+ 1893|   /Alice collapses/
+ 1894| 
+ 1895| Nabokov: W-what?  Oh no!  Mikhail!  Start the preparations!
+ 1896| Mikhail: F-for that?

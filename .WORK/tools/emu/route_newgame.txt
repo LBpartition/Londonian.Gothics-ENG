@@ -1,0 +1,33 @@
+wait 30
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+press Start 3
+wait 20
+wait 60
+savestate C:\GIT\Londonian.Gothics-ENG\.WORK\states\title.State
+press Start
+wait 120
+savestate C:\GIT\Londonian.Gothics-ENG\.WORK\states\menu.State
+press A
+wait 240
+press A
+wait 120
+press A
+wait 120
+press A
+wait 120
+savestate C:\GIT\Londonian.Gothics-ENG\.WORK\states\dialogue1.State
+shot dlg1
+exit

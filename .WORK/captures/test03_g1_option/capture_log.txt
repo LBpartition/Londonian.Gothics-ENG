@@ -1,0 +1,3 @@
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test03_g1_option\option_f000719.png
+shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test03_g1_option\option2_f000779.png
+exit at frame 779

@@ -1,0 +1,13 @@
+wait 150
+press Start 3
+wait 150
+press Start 3
+wait 100
+press Start 3
+wait 150
+press A 3
+wait 90
+press A 3
+wait 60
+shot lp
+exit

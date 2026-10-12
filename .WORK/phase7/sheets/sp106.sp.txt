@@ -1,0 +1,81 @@
+FILE sp106.sp  (11 strings, dialogue order)
+
+idx=3  spk=Wizard(4)  auto_gline=None
+  JP: やあ、お嬢さん。{NL}いらっしゃいませ。{NL}くくく……。
+  EN: -
+idx=4  spk=Wizard(4)  auto_gline=1137
+  JP: 気がむいたら、また来てくれ。{NL}くっくっく……。
+  EN: Yo, Alice.  Huhhuhhuhhu.
+idx=0  spk=Wizard(4)  auto_gline=1139
+  JP: くくく……。{NL}いらっしゃいませ。
+  EN: Oh, dear Alice.  One shouldn't judge others by their appearance.
+idx=7  spk=Alice(105)  auto_gline=1140
+  JP: いらっしゃいませぇ？{NL}お店でもはじめたの？
+  EN: Sure.  (The disconnect between how he looks and how he acts frightens me though).
+idx=5  spk=Wizard(4)  auto_gline=1142
+  JP: その通り。本日開店だ。
+  EN: Now, I'm not going to do anything, so come over here.
+idx=8  spk=Alice(105)  auto_gline=1143
+  JP: ひょっとして、お金にこまってるの？
+  EN: I'm fine where I am. (Who knows whether something would happen if I were to carelessly approach.)
+idx=1  spk=Wizard(4)  auto_gline=1145
+  JP: ……。
+  EN: I see.  That's too bad.
+idx=6  spk=Wizard(4)  auto_gline=1149
+  JP: ともかく、商品を見ていってくれ。
+  EN: Yo, Alice.  Hello.
+idx=10  spk=Wizard(4)  auto_gline=1151
+  JP: めずらしい商品も仕入れている。ぜひ、買っていってくれ。
+  EN: Come, let's have a leisurely chat this time.
+idx=2  spk=Wizard(4)  auto_gline=None
+  JP: おお、そうだ。めずらしい商品を仕入れた。見ていってくれ。
+  EN: -
+idx=9  spk=None(None)  auto_gline=None
+  JP: 周囲の邪気が浄化された
+  EN: -
+
+============================== GUIDE EXCERPT (line numbers) ==============================
+ 1123| 
+ 1124|   /Obtained the pattern for magic dress Twincavia/
+ 1125| 
+ 1126| Vampire: Keep going as far as you can.  Kukuku......
+ 1127| 
+ 1128| ------> (Optional) Talk to him again.
+ 1129| 
+ 1130| Vampire: I don't have any more rewards for you.  Kukuku..  Too bad, isn't it.
+ 1131| 
+ 1132| ------> Continue on adventuring.
+ 1133| 
+ 1134| 
+ 1135| [12].B14F Wizard:
+ 1136| -----------------
+ 1137| Wizard: Yo, Alice.  Huhhuhhuhhu.
+ 1138| Alice:  Eep!  Disgusting!  Don't get too close.
+ 1139| Wizard: Oh, dear Alice.  One shouldn't judge others by their appearance.
+ 1140| Alice:  Sure.  (The disconnect between how he looks and how he acts frightens
+ 1141|         me though).
+ 1142| Wizard: Now, I'm not going to do anything, so come over here.
+ 1143| Alice:  I'm fine where I am. (Who knows whether something would happen if I
+ 1144|         were to carelessly approach.)
+ 1145| Wizard: I see.  That's too bad.
+ 1146| 
+ 1147| ------> (Optional) Talk to the wizard again.
+ 1148| 
+ 1149| Wizard: Yo, Alice.  Hello.
+ 1150| Alice:  H-hello.
+ 1151| Wizard: Come, let's have a leisurely chat this time.
+ 1152| Alice:  I-I'm in a bit of a hurry, so maybe next time.
+ 1153| Wizard: Why's that?  You're refusing again?  Good grief.  Young ladies these
+ 1154|         days simply have no manners.  *mumble mumble....*
+ 1155| Alice:  (As I thought, scary!)
+ 1156| 
+ 1157| --------> Continue on adventuring.
+ 1158| 
+ 1159| 
+ 1160| [13].B15F Safe Room:
+ 1161| --------------------
+ 1162| Alice: Whew.
+ 1163| 
+ 1164|   /Alice walks to the central grove/
+ 1165| 
+ 1166| Alice: I think I've made it to the depths of the forest....  Whew. I'm feeling
