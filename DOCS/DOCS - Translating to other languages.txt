@@ -5,6 +5,7 @@ You need: Windows, Python 3, and these Python packages:
     pip install pillow keystone-engine ndspy
 
 All commands below are run from the .WORK folder.
+The files to edit are in .WORK\tools-resources\.
 
 
 1. ADD YOUR ROM
