@@ -75,3 +75,29 @@ line breaks, or after editing the JSON):
 - The intro and SAVE/LOAD prompts are drawn as images with the Windows Georgia
   font (tools\intro_patch.py, tools\save_load_patch.py); they use the text from
   script_en.json but may need a different font for non-Latin scripts.
+
+5. WHAT EACH FILE IN .WORK\tools DOES
+-------------------------------------
+You only run the 4 scripts named above. The rest are loaded by them
+automatically and must stay in the folder.
+
+Run by you:
+  phase1_baseline.py   one-time setup: extracts the ROM into .WORK\extracted\
+  full_build.py        builds the patched ROM + fit_report.tsv
+  script_import.py     SCRIPT - FULL.txt -> script_en.json
+  script_dump.py       script_en.json -> SCRIPT - FULL.txt
+
+Used by the build:
+  master.py            loads script_en.json / script_jp.json
+  font_patch.py        adds the CUSTOM glyphs from glyph_table.tsv to the font
+  glyph_table.py       the original Japanese glyph list (glyph_table.tsv)
+  font_tools.py        font pixel helpers; location of the Japanese ROM
+  vwf_patch.py         variable-width text (letters drawn at their own width)
+  textfit.py           line wrapping / fit checking
+  sp_tool.py           reads/writes the game's dialogue script files (.sp)
+  ui_patch.py          dress, item and menu text
+  intro_patch.py       draws the intro story text (it is an image)
+  save_load_patch.py   draws the SAVE/LOAD prompts (also an image)
+  title_text.py        title screen credit lines
+  ndsbuild.py          rebuilds the ROM
+  repack_contig.py     ROM file layout that runs on 3DS (nds-bootstrap)

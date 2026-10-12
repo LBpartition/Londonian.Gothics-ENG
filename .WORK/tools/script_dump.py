@@ -15,8 +15,8 @@ HL = lambda s: s.replace("{H}", "{").replace("{/H}", "}")   # {red highlighted t
 
 
 def main():
-    rpt = sorted(glob.glob(str(ROOT / "OUTPUTS" / "*" / "fit_report.tsv")))[-1]
-    rc = Path(rpt).parent.name
+    rpt = sorted(glob.glob(str(ROOT / "OUTPUTS" / "*" / "fit_report.tsv")))
+    rc = Path(rpt[-1]).parent.name if rpt else "script_en.json"
     seq = master.EN["dialogue"]   # already in playthrough order
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     rom = t1.ORIG.read_bytes()
