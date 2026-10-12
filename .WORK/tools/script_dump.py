@@ -1,4 +1,4 @@
-"""Write RELEASE\\SCRIPT - FULL.txt from the newest OUTPUTS fit_report
+"""Write DOCS\\SCRIPT - FULL.txt from the newest OUTPUTS fit_report
 (exact in-game line breaks) plus item/dress/intro text laid out with the build's own wrapping."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
@@ -112,7 +112,7 @@ def main():
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
     (W / "phase10" / "doc_index.tsv").write_text("\n".join(idx_out) + "\n", encoding="utf-8")
-    out = ROOT / "RELEASE" / "SCRIPT - FULL.txt"
+    out = ROOT / "DOCS" / "SCRIPT - FULL.txt"
     out.parent.mkdir(exist_ok=True)
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines of", len(rep))
@@ -134,7 +134,7 @@ def main():
     mm = head("Script - MTL text (lines missing from the guide)", "Source: machine translation drafts, each reviewed and approved by the user.", "m") \
         + ["", "=" * 60, f"DIALOGUE ({cnt('m')} lines)", "=" * 60, ""] + sub["m"]
     for nm, body in (("SCRIPT - ShadowRisae.txt", g), ("SCRIPT - MTL.txt", mm)):
-        (ROOT / "RELEASE" / nm).write_text("\n".join(body) + "\n", encoding="utf-8")
+        (ROOT / "DOCS" / nm).write_text("\n".join(body) + "\n", encoding="utf-8")
     print("gamefaqs", cnt("g"), "mtl", cnt("m"))
 
 

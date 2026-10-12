@@ -19,11 +19,65 @@ V. LEVEL MAPS AND ITEM DROPS
    room to the south.
 
 Legend:
+-------------
 /// = Bordermoon orb room
 vvv = Exit to next floor down
 ;;; = Entry from previous floor up
 ~~~ = Safe room
 #   = number of magic circles to step on in that room (upper right corner)
+
+Monster Abbreviations
+-------------
+AR = red angel
+AW = white angel
+AX = axe-wielding nightcap
+BB = black bat
+BR = red bat
+CA = cannon
+CE = cerberus, white & red
+CY = cerberus, yellow & gray
+CH = chicken
+DG = green dragon
+DR = red dragon
+FG = green frog
+FP = purple frog
+GA = gargoyle
+GO = gorilla and baby, orange
+GR = red gargoyle
+GS = gorilla and baby, silver
+HO = horse
+IM = iron maiden
+KB = blue lance knight
+KR = red lance knight
+LB = blue lamia
+LG = green lamia
+LP = purple lamia
+MG = ghost maid
+OC = octopus
+OP = purple octopus
+OG = green ogre
+OR = red ogre
+PI = ice phoenix
+PO = orange phoenix
+SA = sack
+SB = blue sahagin
+SH = sahagin
+SP = spider
+SR = red spider
+ST = stone golem
+SW = blue stone golem
+VA = vampire
+WA = azure blue worm
+WB = blue wolf
+WG = gray wolf
+WP = purple worm
+WZ = wizard
+YB = blue fairy (yousei)
+YG = green fairy (yousei)
+YO = yokai
+ZO = zombie
+ZP = purple zombie
+
 
 *Manor 2F
 
@@ -729,55 +783,3 @@ vvv = Exit to next floor down
                                                           ~ Sewing ~
                                                           ~~~~~~~~~~
 
-
-Monster Abbreviations
--------------
-AR = red angel
-AW = white angel
-AX = axe-wielding nightcap
-BB = black bat
-BR = red bat
-CA = cannon
-CE = cerberus, white & red
-CY = cerberus, yellow & gray
-CH = chicken
-DG = green dragon
-DR = red dragon
-FG = green frog
-FP = purple frog
-GA = gargoyle
-GO = gorilla and baby, orange
-GR = red gargoyle
-GS = gorilla and baby, silver
-HO = horse
-IM = iron maiden
-KB = blue lance knight
-KR = red lance knight
-LB = blue lamia
-LG = green lamia
-LP = purple lamia
-MG = ghost maid
-OC = octopus
-OP = purple octopus
-OG = green ogre
-OR = red ogre
-PI = ice phoenix
-PO = orange phoenix
-SA = sack
-SB = blue sahagin
-SH = sahagin
-SP = spider
-SR = red spider
-ST = stone golem
-SW = blue stone golem
-VA = vampire
-WA = azure blue worm
-WB = blue wolf
-WG = gray wolf
-WP = purple worm
-WZ = wizard
-YB = blue fairy (yousei)
-YG = green fairy (yousei)
-YO = yokai
-ZO = zombie
-ZP = purple zombie

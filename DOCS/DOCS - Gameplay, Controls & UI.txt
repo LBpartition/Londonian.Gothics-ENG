@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I. NEW GAME ROUTE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Start new game, get through all dialogue until the player has control
-go to basement and enter dungeon to begin real gameplay loop
+Start a new game, get through all dialogue until the player has control
+go to the Basement Laboratory (Stairs to B1F) and enter the labyrinth
 
 refer to guides as needed: 
 https://gamefaqs.gamespot.com/ds/925559-londonian-gothics-meikyuu-no-lolita/faqs/75947

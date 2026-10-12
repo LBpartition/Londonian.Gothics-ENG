@@ -3,7 +3,7 @@ Every entry whose text/line breaks differ from the current doc becomes an exact-
 import json, re, sys
 from pathlib import Path
 W = Path(__file__).resolve().parents[1]
-DOC = W.parent / "RELEASE" / "SCRIPT - FULL.txt"
+DOC = W.parent / "DOCS" / "SCRIPT - FULL.txt"
 
 
 def sections(txt):

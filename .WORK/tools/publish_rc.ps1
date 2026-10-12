@@ -24,7 +24,7 @@ foreach ($p in @($rom, (Join-Path $new 'fit_report.tsv'), $new)) {
 $old | ForEach-Object { Remove-Item -LiteralPath $_.FullName -Recurse -Force }
 Push-Location (Join-Path $root '.WORK'); $env:PYTHONIOENCODING = 'utf-8'; python tools\script_dump.py; Pop-Location
 $h = (Get-FileHash -LiteralPath $rom).Hash
-$n = Join-Path $root 'RELEASE\!~HARDWARE TEST NOTES.txt'
+$n = Join-Path $root 'DOCS\!~HARDWARE TEST NOTES.txt'
 $t = [IO.File]::ReadAllText($n) -replace '\d{4}\.\d\d\.\d\d-\d\d\.\d\d\.\d\d-RC1', "$ts-RC1" -replace '\(SHA256 [0-9A-F]{8}\.\.\.\)', "(SHA256 $($h.Substring(0,8))...)"
 [IO.File]::WriteAllText($n, $t)
 Add-Content (Join-Path $root 'pipeline.txt') "`r`n[$ts] $Note Published $ts-RC1 SHA256 $h"

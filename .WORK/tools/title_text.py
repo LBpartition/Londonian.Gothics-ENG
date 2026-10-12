@@ -18,7 +18,7 @@ TOP_ROW, PITCH = 16, 16  # tile row 16 = y 128 (lower half, over the dark emblem
 def default_lines(rc):
     pct = {}
     for k, f in (("g", "ShadowRisae"), ("m", "MTL")):
-        t = (ROOT / "RELEASE" / f"SCRIPT - {f}.txt").read_text(encoding="utf-8")
+        t = (ROOT / "DOCS" / f"SCRIPT - {f}.txt").read_text(encoding="utf-8")
         pct[k] = round(float(re.search(r"Share of the translation: ([\d.]+)%", t).group(1)))
     return [f"ENG-RC{rc}", f"{pct['g']}% Human translation by ShadowRisae",
             f"{pct['m']}% Machine translation", "Patch by LBpartition"]
