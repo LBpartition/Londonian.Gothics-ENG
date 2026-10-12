@@ -7,19 +7,23 @@
 
 ## Download & Patch
 
-This repository contains **NO ROMs**. 
+1: Download the latest **Londonian Gothics ENG [RC#].xdelta** patch file from here: [latest release](../../releases/latest)
 
-1: **You need your own clean copy of Londonian Gothics** 
+2: Patch your legally acquired Japanese Londonian Gothics ROM: https://kotcrab.github.io/xdelta-wasm/
 
-2: Download the latest **Londonian Gothics ENG.xdelta** patch file from here: [latest release](../../releases/latest)
+## **This repo contains no ROMs!**. 
 
-3: Patch your ROM: https://kotcrab.github.io/xdelta-wasm/
+**You need your own clean copy of Londonian Gothics** 
 
 | Base ROM | Value |
 |---|---|
 | Game | Londonian Gothics - Meikyuu no Lolita (Japan), rev 1.0 [`NTR-ALGJ-JPN`] |
 | CRC32 | `8622a134` |
 | SHA-1 | `5ebeea532dd92ee060a3ec6ebd121260c706c44b` |
+
+## Translating to other languages
+
+[Download the repo](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip) and check out [Translating to other languages.md](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/Translating%20to%20other%20languages.md)
 
 ## Credits
 
