@@ -6,7 +6,7 @@ import re, struct, sys, hashlib
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild, vwf_patch, textfit, font_patch
-import test01_build as t1
+import font_tools as t1
 import master
 
 W = Path(__file__).resolve().parent.parent

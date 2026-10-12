@@ -9,7 +9,7 @@ import sys, io, json, glob, os, re, hashlib, contextlib
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild, sp_tool, textfit
-import test06_build as t6
+import ui_patch as t6
 
 W = Path(__file__).resolve().parent.parent
 BOX = textfit.Box("dialogue", 166, 99, 0xFFFE)  # x44 w170; 3 lines/page, game auto-pages
@@ -102,7 +102,7 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     sl = ids[save_load_patch.FILE]
     changes[sl] = save_load_patch.patch(ndsbuild.get_file(rom, sl))
     out = ndsbuild.build(rom, changes, log=lambda *_: None)
-    import repack_contig; out = repack_contig.repack((Path(__file__).resolve().parents[2] / '.REFS/JPN-original.nds').read_bytes(), out)   # keep arm7 right after arm9: arm7-at-ROM-end crashes nds-bootstrap (3DS)
+    import repack_contig; out = repack_contig.repack(t6.t1.ORIG.read_bytes(), out)   # keep arm7 right after arm9: arm7-at-ROM-end crashes nds-bootstrap (3DS)
     rp = out_dir / f"{name}.nds"
     rp.write_bytes(out)
     (out_dir / "fit_report.tsv").write_text("\n".join(rep) + "\n", encoding="utf-8")

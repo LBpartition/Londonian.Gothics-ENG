@@ -3,8 +3,8 @@ import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild, textfit, font_patch, intro_patch
-import test06_build as t6
-import test01_build as t1
+import ui_patch as t6
+import font_tools as t1
 import master
 
 W = Path(__file__).resolve().parents[1]

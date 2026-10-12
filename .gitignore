@@ -32,3 +32,9 @@ pipeline.txt
 .WORK/tools/test07_build.py
 .WORK/tools/emu/
 .WORK/legacy/
+.WORK/tools/armdis.py
+.WORK/tools/decode_region.py
+.WORK/tools/render_font.py
+.WORK/tools/render_glyph_review.py
+.WORK/tools/glyph_sheet.py
+.WORK/tools/publish_rc.ps1
