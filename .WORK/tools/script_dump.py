@@ -94,7 +94,7 @@ def main():
     out = W / "tools-resources" / "SCRIPT - FULL.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")
-    import title_text; print("shares %.1f%% / %.1f%%" % title_text.shares())
+    import add_patch_credits; print("shares %.1f%% / %.1f%%" % add_patch_credits.shares())
 
 if __name__ == "__main__":
     main()

@@ -14,7 +14,7 @@ Put the untranslated Japanese ROM (game code ALGJ) here, with this exact name:
     .WORK\rom\JPN-original.nds
 
 Then run once:
-    python tools\phase1_baseline.py
+    python tools\extract_rom.py
 This extracts the ROM into .WORK\extracted\ (needed by the build).
 
 
@@ -69,7 +69,7 @@ line breaks, or after editing the JSON):
 
 4. NOT IN script_en.json
 ------------------------
-- Title screen credit lines: tools\title_text.py (default_lines). Pass a
+- Title screen credit lines: tools\add_patch_credits.py (default_lines). Pass a
   third argument to full_build.py (e.g. "python tools\full_build.py out MyTranslation 1")
   to show them.
 - The intro and SAVE/LOAD prompts are drawn as images with the Windows Georgia
@@ -82,7 +82,7 @@ You only run the 4 scripts named above. The rest are loaded by them
 automatically and must stay in the folder.
 
 Run by you:
-  phase1_baseline.py   one-time setup: extracts the ROM into .WORK\extracted\
+  extract_rom.py       one-time setup: extracts the ROM into .WORK\extracted\
   full_build.py        builds the patched ROM + fit_report.tsv
   script_import.py     SCRIPT - FULL.txt -> script_en.json
   script_dump.py       script_en.json -> SCRIPT - FULL.txt
@@ -98,6 +98,6 @@ Used by the build:
   ui_patch.py          dress, item and menu text
   intro_patch.py       draws the intro story text (it is an image)
   save_load_patch.py   draws the SAVE/LOAD prompts (also an image)
-  title_text.py        title screen credit lines
+  add_patch_credits.py title screen credit lines
   ndsbuild.py          rebuilds the ROM
   repack_contig.py     ROM file layout that runs on 3DS (nds-bootstrap)

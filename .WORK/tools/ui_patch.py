@@ -103,10 +103,10 @@ def main(out_dir, diag=False):
         struct.pack_into("<I", arm9, 0x2E430, idesc_addr)
         descs += inames + idescs
     if TITLE:
-        import title_text
-        blob = title_text.blob(desc_addr + len(descs))
+        import add_patch_credits
+        blob = add_patch_credits.blob(desc_addr + len(descs))
         assert struct.unpack_from("<I", arm9, 0x385E8)[0] == 0xE3A00001   # mov r0,#1: main-menu phase end, after bottom brightness set to -16
-        struct.pack_into("<I", arm9, 0x385E8, title_text.bl(0x020385E8, desc_addr + len(descs)))
+        struct.pack_into("<I", arm9, 0x385E8, add_patch_credits.bl(0x020385E8, desc_addr + len(descs)))
         descs += blob
     # In-game Dress/Item description buffer (0x02058078) is only 0x50 bytes and is followed by
     # the game-state pointer 0x020580C8; long English descriptions overwrote it (freeze on close).

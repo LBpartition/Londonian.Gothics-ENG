@@ -35,10 +35,10 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     t6.DIALOGUE_VWF = True
     t6.ITEMS = True
     if rc:
-        import title_text
+        import add_patch_credits
         t6.TITLE = True
-        title_text.LINES = title_text.default_lines(rc)
-        print("title text", title_text.LINES)
+        add_patch_credits.LINES = add_patch_credits.default_lines(rc)
+        print("title text", add_patch_credits.LINES)
     with contextlib.redirect_stdout(io.StringIO()) as so:
         t6.main(tmp)
     print(so.getvalue().split("fit-gate rejected", 1)[-1].strip())

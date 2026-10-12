@@ -126,4 +126,4 @@ if __name__ == "__main__":
     l = default_lines(sys.argv[1] if len(sys.argv) > 1 else 1)
     t, m, p, img = render(l)
     print(l, "tiles", len(t) // 32, "blob", len(blob(0x01FFC000, l)))
-    img.save(ROOT / ".WORK" / "tmp_title_text.png")
+    img.save(ROOT / ".WORK" / "tmp_add_patch_credits.png")
