@@ -1,4 +1,4 @@
-"""Write DOCS\\SCRIPT - FULL/ShadowRisae/MTL.txt from tools-resources/script_en.json (exact in-game lines)."""
+"""Write tools-resources\\SCRIPT - FULL.txt from tools-resources/script_en.json (exact in-game lines)."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -91,31 +91,10 @@ def main():
         if sl[s] != f:
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
-    out = ROOT / "DOCS" / "SCRIPT - FULL.txt"
-    out.parent.mkdir(exist_ok=True)
+    out = W / "tools-resources" / "SCRIPT - FULL.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")
-    cnt = lambda s: sum(1 for l in sub[s] if not l.startswith(" ") and (l.endswith(":") or l == "(narration)"))
-    nitems = sum(1 for i in range(34) if t6.item_name(i))
-    extra = {"g": len(blocks) + 2 * len(t6.ORDER) + 2 * (nitems - 1) + len(seen) + len(chars) + 3 + 6 + 2, "m": 0}   # +2: Holy Sword name+desc (guide)
-    tc = lambda s: cnt(s) + extra[s]
-    tot = tc("g") + tc("m")
-    pct = lambda s: (f"Share of the translation: {100 * tc(s) / tot:.1f}% ({tc(s)} of {tot} translated text entries: "
-                     f"dialogue lines, names, descriptions, locations, intro paragraphs, menu labels).")
-    head = lambda title, src, s: [
-        "LONDONIAN GOTHICS - LOLITA IN THE LABYRINTH", title, f"Generated from build: {rc}", "", pct(s), "",
-        src, "Line breaks are exactly as the game wraps them; '---' = next text box.",
-        "{word} = shown in red in-game. Same order/scene headers as the Full Script doc.",
-        "Regenerated from the same data as SCRIPT - FULL.txt."]
-    i0 = nondlg.index("INTRO (PROLOGUE STORY ROLL)") - 2
-    g = head("Script - GameFAQs-sourced text", "Source: ShadowRisae's GameFAQs guide (incl. user line-break/wording edits).", "g") \
-        + nondlg[i0:] + ["", "=" * 60, f"DIALOGUE ({cnt('g')} lines)", "=" * 60, ""] + sub["g"]
-    mm = head("Script - MTL text (lines missing from the guide)", "Source: machine translation drafts, each reviewed and approved by the user.", "m") \
-        + ["", "=" * 60, f"DIALOGUE ({cnt('m')} lines)", "=" * 60, ""] + sub["m"]
-    for nm, body in (("SCRIPT - ShadowRisae.txt", g), ("SCRIPT - MTL.txt", mm)):
-        (ROOT / "DOCS" / nm).write_text("\n".join(body) + "\n", encoding="utf-8")
-    print("gamefaqs", cnt("g"), "mtl", cnt("m"))
-
+    import title_text; print("shares %.1f%% / %.1f%%" % title_text.shares())
 
 if __name__ == "__main__":
     main()

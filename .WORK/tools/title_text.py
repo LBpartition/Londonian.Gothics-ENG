@@ -15,13 +15,22 @@ LINES = None          # set by full_build: list of 4 strings
 TOP_ROW, PITCH = 16, 16  # tile row 16 = y 128 (lower half, over the dark emblem)
 
 
+def shares():
+    """% of translated text entries by source (dialogue lines, names, descriptions, locations,
+    intro paragraphs, character names, menu labels); everything but MTL dialogue is ShadowRisae."""
+    import master
+    E = master.EN
+    m = sum(1 for e in E["dialogue"] if e["source"] == "mtl")
+    g = (sum(1 for e in E["dialogue"] if e["source"] == "shadowrisae") + len(E["intro"])
+         + sum((e["name"] is not None) + (e["desc"] is not None) for e in E["dresses"] + E["items"])
+         + len({e["en"] for e in E["locations"]}) + 7 + len(E["menu"]))
+    return 100 * g / (g + m), 100 * m / (g + m)
+
+
 def default_lines(rc):
-    pct = {}
-    for k, f in (("g", "ShadowRisae"), ("m", "MTL")):
-        t = (ROOT / "DOCS" / f"SCRIPT - {f}.txt").read_text(encoding="utf-8")
-        pct[k] = round(float(re.search(r"Share of the translation: ([\d.]+)%", t).group(1)))
-    return [f"ENG-RC{rc}", f"{pct['g']}% Human translation by ShadowRisae",
-            f"{pct['m']}% Machine translation", "Patch by LBpartition"]
+    g, m = shares()
+    return [f"ENG-RC{rc}", f"{round(g)}% Human translation by ShadowRisae",
+            f"{round(m)}% Machine translation", "Patch by LBpartition"]
 
 
 def render(lines):

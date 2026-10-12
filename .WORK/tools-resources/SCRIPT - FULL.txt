@@ -1,13 +1,12 @@
 LONDONIAN GOTHICS - LOLITA IN THE LABYRINTH
-Script - GameFAQs-sourced text
-Generated from build: 2026.10.11-17.13.41-RC1
+Full Script + Descriptions (English patch)
+Generated from build: 2026.10.12-22.29.22-RC1-test
 
-Share of the translation: 91.2% (1432 of 1571 translated text entries: dialogue lines, names, descriptions, locations, intro paragraphs, menu labels).
-
-Source: ShadowRisae's GameFAQs guide (incl. user line-break/wording edits).
-Line breaks are exactly as the game wraps them; '---' = next text box.
-{word} = shown in red in-game. Same order/scene headers as the Full Script doc.
-Regenerated from the same data as SCRIPT - FULL.txt.
+Line breaks are exactly as the game wraps them. Dialogue boxes show 3
+lines at a time; '---' marks where the game pages to the next box.
+{word} = shown in red in-game (keyword highlight). *word* = literal asterisks, as shown.
+Dialogue is in approximate playthrough order (following the guide);
+a new --- Location --- header starts whenever the scene changes.
 
 ============================================================
 INTRO (PROLOGUE STORY ROLL)
@@ -367,11 +366,6 @@ SAVED
 
 ============================================================
 DIALOGUE
-============================================================
-
-
-============================================================
-DIALOGUE (1240 lines)
 ============================================================
 
 
@@ -1345,6 +1339,9 @@ Alice:
     So, self, shall we try
     crafting from this pattern?
 
+Alice:
+    You mean this one, right?
+
 (narration)
     Obtained the pattern for the
     magic dress {Litense}
@@ -1409,6 +1406,143 @@ Mikhail:
 
 Alice:
     Sure will. Thank you, Mikhail!
+
+(narration)
+    O Lord, have mercy.
+
+(narration)
+    O Lord, grant this girl the
+    strength to live once more.
+
+(narration)
+    O Lord, descend from the
+    heavens and reveal Thy power.
+
+(narration)
+    O Lord, O Heaven, grant this
+    girl the strength to live once
+    more.
+
+(narration)
+    O Lord, O Earth, reveal Thy
+    boundless power here and now.
+
+Alice:
+    But where am I supposed to
+    make a dress?
+
+Mikhail:
+    It seems there are countless
+    sewing rooms throughout the
+    labyrinth.
+
+Alice:
+    Huh? Really? And those sewing
+    machines actually work?
+
+Mikhail:
+    Yes. I checked earlier, they
+    should work just fine...
+
+Alice:
+    Got it. Well, I'm off!
+
+Mikhail:
+    Hurry, milady! Use the
+    {holy sword} to rescue
+    the professor!
+
+Alice:
+    Right, I know!
+    Leave it to me!
+
+Alice:
+    Huh?!
+
+Alice:
+    W-what? What happened?!
+
+Mikhail:
+    Thank goodness. You've come
+    to.
+
+Alice:
+    Mikhail?!
+
+Alice:
+    Wait, did I just...?
+
+Mikhail:
+    I was prepared for the
+    revival ritual this time, but...
+
+Mikhail:
+    There's no guarantee it'll go
+    so well next time!
+
+Alice:
+    I-I'm sorry.
+
+Mikhail:
+    I won't stop you, but please
+    be more careful from now on!
+
+Alice:
+    O-okay.
+
+Mikhail:
+    Now then, take care, milady.
+    And do be careful this time.
+
+Alice:
+    Huh?!
+
+Mikhail:
+    Thank goodness you're awake.
+    You're safe.
+
+Alice:
+    Ah! Is this a sanctuary?
+
+Alice:
+    Oh, I went and did it again,
+    didn't I?
+
+Mikhail:
+    I've told you over and over to
+    be careful, but you still...!
+
+Alice:
+    Ehehe.
+
+Mikhail:
+    Don't you "ehehe" me!
+    Honestly, you!
+
+Alice:
+    Don't shout. I'll be careful
+    next time, so let's drop it,
+    shall we?
+
+Mikhail:
+    Sigh. There's no helping it.
+    Please be careful this time.
+
+Alice:
+    I know, I know!
+    Well, I'm off.
+
+Mikhail:
+    Take care, milady.
+
+Alice:
+    E-ehehe.
+
+Mikhail:
+    Sigh... I give up.
+
+Mikhail:
+    Take care, milady.
 
 
 --- Late Madame's Bedroom  (sp_home002.sp) ---
@@ -1714,6 +1848,89 @@ Alice:
     ---
     Let's head back to the manor.
 
+Fairy:
+    Oh, I almost forgot!
+
+Alice:
+    Eek!
+
+Fairy:
+    You know, not everyone in the
+    labyrinth is an enemy.
+
+Alice:
+    Huh? Not enemies? Are you
+    trying to tell me these
+    monsters are on our side?
+
+Fairy:
+    Yup! Mr. Vampire and Mr.
+    Wizard aren't enemies.
+    And neither are my friends!
+
+Fairy:
+    Once the miasma's gone,
+    they're all really nice
+    people!
+
+Alice:
+    So if I destroy the
+    {bordermoons}...?
+
+Fairy:
+    Then they should calm down
+    and might be willing to help
+    you out.
+
+Alice:
+    Hmm. Help me out how?
+
+Fairy:
+    They'll give you hints and
+    sell you dress materials.
+
+Alice:
+    Oh, that would be handy.
+
+Fairy:
+    That's all I came to say.
+    Bye-bye!
+
+Alice:
+    Friendly monsters, huh?
+
+Alice:
+    But right now, I'm more
+    curious about Father's
+    research.
+
+Alice:
+    Let's see... The study, maybe?
+    I might find something there.
+    I'd better head back to the
+    ---
+    manor.
+
+Alice:
+    I could just keep going, but...
+
+Alice:
+    No, no. It's still bothering
+    me.
+    To the study!
+
+Alice:
+    No. Haste makes waste, as
+    they say.
+
+Alice:
+    Rushing won't help.
+    I should look around more
+    carefully first.
+
+Alice:
+    Right. On to Father's bedroom.
+
 
 --- Labyrinth B8F  (sp026.sp) ---
 
@@ -1996,6 +2213,9 @@ Alice:
     As-I-said, listen to what I'm
     saying!!
 
+(narration)
+    ......
+
 Alice:
     *huff puff*
 
@@ -2046,6 +2266,16 @@ Alice:
 --- Labyrinth B9F  (sp029.sp) ---
 
 Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
     Welcome in, to you!
 
 Alice:
@@ -2069,6 +2299,16 @@ Fairy:
 
 
 --- Labyrinth B13F  (sp045.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
 
 Fairy:
     Welcome in, to you!
@@ -2096,6 +2336,16 @@ Fairy:
 --- Labyrinth B17F  (sp061.sp) ---
 
 Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
+
+Fairy:
     Welcome in, to you!
 
 Alice:
@@ -2119,6 +2369,16 @@ Fairy:
 
 
 --- Labyrinth B30F  (sp127.sp) ---
+
+Fairy:
+    Thanks for stopping by!
+    Make yourself at home.
+
+Fairy:
+    Leaving already?
+
+Fairy:
+    Okay! Come back soon!
 
 Fairy:
     Welcome in, to you!
@@ -2212,6 +2472,9 @@ Alice:
     Oh this looks tasty.
     Think I'll take a sample.
     *nab*
+
+(narration)
+    *Whoosh*
 
 Lucille:
     My!
@@ -2506,6 +2769,19 @@ Alice:
 Alice:
     All right. Let's try asking
     him.
+
+Alice:
+    No. I have to find out what it
+    is.
+    The {genomroid}!
+
+Alice:
+    Right. Let's hurry down to the
+    basement laboratory.
+
+Alice:
+    No. I need to ask Mikhail about
+    the {genomroid}!
 
 
 --- Labyrinth B15F  (sp054.sp) ---
@@ -2870,6 +3146,9 @@ Wizard:
 Wizard:
     I see, come again.
 
+Wizard:
+    Welcome. Buy something.
+
 (narration)
     When the bordermoon
     collapses, the nearby miasma
@@ -2887,10 +3166,16 @@ Wizard:
 --- Labyrinth B19F  (sp070.sp) ---
 
 Wizard:
+    Welcome. Buy something.
+
+Wizard:
     I see, come again.
 
 
 --- Labyrinth B20F  (sp071.sp) ---
+
+Alice:
+    Haah, haah.
 
 Alice:
     *pant, pant*. *pant,pant*.
@@ -3096,6 +3381,9 @@ Mikhail:
     ---
     If you carelessly overuse
     them then...!
+
+Mikhail:
+    Huh?!
 
 Alice:
     Tell me, what did you mean by
@@ -3925,11 +4213,11 @@ Vampire:
     little something like this:
 
 Vampire:
-    Stand in the heart of a cross
+    "Stand in the heart of a cross
     inscribed upon an underworld
     lake and sacred water shall
     ---
-    gush forth.
+    gush forth."
 
 Alice:
     The heart of a cross inscribed
@@ -3992,11 +4280,11 @@ Vampire:
     little something like this:
 
 Vampire:
-    Stand in the heart of a cross
+    "Stand in the heart of a cross
     inscribed upon an underworld
     lake and sacred water shall
     ---
-    gush forth.
+    gush forth."
 
 Alice:
     The heart of a cross inscribed
@@ -4059,11 +4347,11 @@ Vampire:
     little something like this:
 
 Vampire:
-    Stand in the heart of a cross
+    "Stand in the heart of a cross
     inscribed upon an underworld
     lake and sacred water shall
     ---
-    gush forth.
+    gush forth."
 
 Alice:
     The heart of a cross inscribed
@@ -4131,11 +4419,11 @@ Vampire:
     little something like this:
 
 Vampire:
-    Stand in the heart of a cross
+    "Stand in the heart of a cross
     inscribed upon an underworld
     lake and sacred water shall
     ---
-    gush forth.
+    gush forth."
 
 Alice:
     The heart of a cross inscribed
@@ -4208,6 +4496,11 @@ Alice:
     I've got myself some
     {holy water}. I better find
     the other sacred item fast.
+
+Alice:
+    I've got the {bible}.
+    Better find the other sacred
+    item fast.
 
 Mikhail:
     Milady. Have you gathered the
@@ -4585,6 +4878,11 @@ Vampire:
     unusual item up for sale.
     Take a look.
 
+Vampire:
+    I've got some rare goods in
+    stock, too.
+    Do have a look.
+
 (narration)
     When the bordermoon
     collapses, the nearby miasma
@@ -4695,12 +4993,12 @@ Alice:
     head!
 
 Alice:
-    Just trust me on this?
+    "Just trust me on this"?
     Oh come on.
 
 Alice:
-    Something's going to
-    happen?
+    "Something's going to
+    happen"?
     Yeah right.
 
 Alice:
@@ -4924,8 +5222,201 @@ Nabokov:
 Mikhail:
     A-As you wish!
 
+(narration)
+    Milady.
+
+(narration)
+    Please wake up, Lady Alice.
+
+Alice:
+    Huh?! W-what? What happened?
+
+Mikhail:
+    Phew. You're finally awake.
+
+Alice:
+    Mikhail?!
+
+Mikhail:
+    Milady, please don't do be so
+    reckless.
+
+Alice:
+    Oh, that's right.
+    I was attacked by a monster
+    in the labyrinth...
+
+Mikhail:
+    Please don't worry me like
+    that...
+
+Alice:
+    I'm sorry.
+
+Mikhail:
+    Please be more careful from
+    now on.
+
+Alice:
+    I will. By the way, Mikhail...
+
+Mikhail:
+    Yes? What is it?
+
+Alice:
+    Did you just smack me awake?
+
+Mikhail:
+    *gulp*
+
+Alice:
+    I knew it!
+
+Mikhail:
+    W-well, er... You just
+    wouldn't wake up, so...
+
+Alice:
+    Honestly! What a hopeless
+    butler.
+
+Alice:
+    Whatever, I don't have time
+    for this now, But you'll
+    regret it later.
+
+Alice:
+    Well, I'm heading back out.
+
+Mikhail:
+    Very good. Take care, milady.
+
+Alice:
+    Huh!
+
+Mikhail:
+    You're finally awake.
+
+Alice:
+    Huh? Mikhail?! Where am I?
+
+Alice:
+    Oh, right. I got careless
+    again, didn't I?
+
+Mikhail:
+    I told you over and over to be
+    careful, and you still...!
+
+Alice:
+    Ehehe.
+
+Mikhail:
+    Don't you "ehehe" me!
+
+Alice:
+    I-I know, okay?
+    I'll be careful next time, so
+    can you drop it?
+
+Mikhail:
+    Good grief, there's no helping
+    you sometimes.
+    Please try to be careful.
+
+Alice:
+    I know. Well, I'm off.
+
+Mikhail:
+    Take care, milady.
+
 
 --- Sanctuary  (sp_home027.sp) ---
+
+(narration)
+    ......!
+
+(narration)
+    ...Alice!
+
+(narration)
+    Pull yourself together!
+    Alice!
+
+Alice:
+    Ugh... uuh...
+
+Nabokov:
+    Alice!
+
+Alice:
+    F-Father... I...
+
+Nabokov:
+    Don't say a word.
+    I'm just glad you're safe.
+
+Nabokov:
+    This place is dangerous Alice,
+    let's get out of here.
+
+Nabokov:
+    Huh? Where are you going,
+    Alice?
+
+Alice:
+    I'm going to go defeat
+    {Varuudanu} again!
+
+Nabokov:
+    What? You've done enough.
+    There's no need to push
+    yourself any further!
+
+Alice:
+    It has to be me!
+
+Nabokov:
+    !
+
+Alice:
+    Even if we run, we'll never
+    get away! So I'm going!
+    I have to go and beat him!
+
+Nabokov:
+    I see, I cant't stop you.
+    Very well, go Alice.
+
+Alice:
+    Right!
+
+Nabokov:
+    Alice. Wait.
+
+Alice:
+    What is it, Father?
+
+Nabokov:
+    Even with the {holy sword}, a
+    head-on attack won't leave a
+    scratch on him.
+
+Nabokov:
+    His shoulder! Aim for its
+    shoulder!
+    There, surely...!
+
+Alice:
+    His shoulder...?
+
+Alice:
+    Got it Father!
+    I'll remember that!
+
+Nabokov:
+    Don't die on me...
+    Alice...
 
 Alice:
     Uuurrrrrgh....
@@ -5222,6 +5713,21 @@ Lucille:
 Alice:
     Ugghhh....
 
+Nabokov:
+    Are you all right, Alice?
+
+Nabokov:
+    So you're going after all?
+    To face him once more?
+
+Alice:
+    Yes!
+
+Nabokov:
+    I see. Then go.
+    Just be sure you make it back
+    safely.
+
 
 --- Another World  (sp132.sp) ---
 
@@ -5315,7 +5821,7 @@ Alice:
     I've got to do this.
 
 Alice:
-    It has to be me!
+    "It has to be me!"
 
 Alice:
     Haah, haah.
