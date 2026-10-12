@@ -1,4 +1,4 @@
-"""Build phase2/glyph_table.tsv from transcription of the font sheet (0x000-0x246).
+"""Build tools-resources/glyph_table.tsv from transcription of the font sheet (0x000-0x246).
 
 Every row was read from the rendered sheets in phase2/. Special glyphs use {TAGS}.
 """
@@ -57,7 +57,7 @@ def build():
 
 if __name__ == "__main__":
     t = build()
-    out = Path(__file__).resolve().parents[1] / "phase2" / "glyph_table.tsv"
+    out = Path(__file__).resolve().parents[1] / "tools-resources" / "glyph_table.tsv"
     with open(out, "w", encoding="utf-8") as f:
         f.write("id\tchar\tnote\n")
         for k in sorted(t):

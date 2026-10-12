@@ -20,3 +20,14 @@ OUTPUTS/
 DOCS/!~HARDWARE TEST NOTES.txt
 Glyph-table.png
 pipeline.txt
+
+# Only tools, tools-resources and the guide are published from .WORK
+.WORK/*
+!.WORK/tools/
+!.WORK/tools-resources/
+!.WORK/ShadowRisae-Guide.txt
+.WORK/tools/scratch_*
+.WORK/tools/test02_build.py
+.WORK/tools/test03_build.py
+.WORK/tools/test05_build.py
+.WORK/tools/test07_build.py

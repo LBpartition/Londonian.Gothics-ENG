@@ -28,7 +28,7 @@ ITEM_EXTRA_DESCS = {31: "A holy sword-shaped accessory.",   # user-approved
 
 
 def guide_items():
-    L = (W / "ref_guide.txt").read_text(encoding="utf-8").split("\n")
+    L = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8").split("\n")
     out = {}
     for ln in L[295:340]:
         mm = re.match(r"^-(\w+)\s*: (.*?)(?:\s*\([^)]*\))?\s*$", ln)
@@ -74,7 +74,7 @@ TRIM = {
 
 
 def guide_dresses():
-    L = (W / "ref_guide.txt").read_text(encoding="utf-8").split("\n")[233:264]
+    L = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8").split("\n")[233:264]
     it = re.findall(r'^\d\d\. (\w+)\s*: (.*?)(?=\n\s*\n|\n\d\d\.|\Z)', "\n".join(L), re.S | re.M)
     return {n: " ".join(d.split()) for n, d in it}
 

@@ -1,3 +1,0 @@
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test05_dress\dress_f000694.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test05_dress\dress2_f000754.png
-exit at frame 754

@@ -6,7 +6,7 @@ W = Path(__file__).resolve().parent.parent
 R = W.parent
 OLD = R / ".WORK/phase10/fit_report_pre_diary.tsv"   # last build before diary/items fixes
 NEW = sorted((R / "OUTPUTS").glob("*/fit_report.tsv"))[-1]
-jp = {(r['file'], r['idx']): r['jp'] for r in json.load(open(W / 'phase6/jp_master.json', encoding='utf-8'))}
+jp = {(r['file'], r['idx']): r['jp'] for r in json.load(open(W / 'tools-resources/jp_master.json', encoding='utf-8'))}
 
 
 def rd(p):
@@ -20,7 +20,7 @@ done = [k for k in rows if not new[k]['status'].startswith('jp')]
 still = [k for k in rows if new[k]['status'].startswith('jp')]
 mtl = [k for k in rows if new[k]['status'] == 'mtl']
 APPR = {(l.split('\t')[0], int(l.split('\t')[1])): l.rstrip('\n').split('\t', 2)[2]
-        for l in open(W / 'phase10/approved.tsv', encoding='utf-8')}
+        for l in open(W / 'tools-resources/approved.tsv', encoding='utf-8')}
 
 H = lambda t: ["", "=" * 78, t, "=" * 78]
 L = ["LONDONIAN GOTHICS - TRANSLATIONS MISSING FROM THE GUIDE",

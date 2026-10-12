@@ -22,7 +22,7 @@ TERMS = {  # JP highlighted term -> English regex (guide terms)
     "フォモル": r"fomoru",
     "オレウス": r"oreusu",
 }
-JPM = {(r["file"], r["idx"]): r["jp"] for r in json.load(open(W / "phase6/jp_master.json", encoding="utf-8"))}
+JPM = {(r["file"], r["idx"]): r["jp"] for r in json.load(open(W / "tools-resources/jp_master.json", encoding="utf-8"))}
 
 
 def highlight(en, jp):

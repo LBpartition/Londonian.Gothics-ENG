@@ -1,5 +1,0 @@
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_walk\w_Down_f009524.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_walk\w_Left_f009615.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_walk\w_Up_f009706.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\probe_walk\w_Right_f009797.png
-exit at frame 9797

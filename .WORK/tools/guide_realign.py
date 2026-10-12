@@ -1,8 +1,8 @@
-"""Apply guide text that the original matcher missed (verbatim from ref_guide.txt, split to JP line order)."""
+"""Apply guide text that the original matcher missed (verbatim from ShadowRisae-Guide.txt, split to JP line order)."""
 import json, sys
 from pathlib import Path
 W = Path(__file__).resolve().parents[1]
-F = W / "phase7" / "final"
+F = W / "tools-resources" / "final"
 
 PURIFY = "When the bordermoon collapses, the nearby miasma is purified."
 M = {

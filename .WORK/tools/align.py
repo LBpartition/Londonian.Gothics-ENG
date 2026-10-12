@@ -1,4 +1,4 @@
-﻿"""Phase 7: align guide English (ref_guide.txt) to JP strings (phase6/jp_master.json).
+﻿"""Phase 7: align guide English (ShadowRisae-Guide.txt) to JP strings (tools-resources/jp_master.json).
 
 Per .sp file, local DP alignment against the whole guide line sequence.
 A guide line may cover 1..3 consecutive JP strings of the same speaker (its
@@ -7,7 +7,7 @@ Output: phase7/alignment.json + alignment.tsv (with confidence for review).
 """
 import json, math, re, sys, collections
 
-GUIDE = 'ref_guide.txt'
+GUIDE = 'ShadowRisae-Guide.txt'
 SPK = {**{b: 'Alice' for b in range(100, 107)}, **{b: 'Mikhail' for b in range(110, 114)},
        **{b: 'Lucille' for b in range(120, 124)}, 1: 'Mikhail', 3: 'Nabokov', 4: 'Wizard',
        5: 'Vampire', 6: 'Fairy', None: None}
@@ -159,7 +159,7 @@ def split_en(en, js):
 
 
 def main():
-    j = json.load(open('phase6/jp_master.json', encoding='utf-8'))
+    j = json.load(open('tools-resources/jp_master.json', encoding='utf-8'))
     G = guide_units()
     files = collections.OrderedDict()
     for x in j:

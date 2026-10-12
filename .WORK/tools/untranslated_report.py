@@ -7,7 +7,7 @@ import sp_tool
 W = Path(__file__).resolve().parent.parent
 report, out = Path(sys.argv[1]), Path(sys.argv[2])
 g = sp_tool.load_glyphs()
-jp = {(r["file"], r["idx"]): r for r in json.load(open(W / "phase6/jp_master.json", encoding="utf-8"))}
+jp = {(r["file"], r["idx"]): r for r in json.load(open(W / "tools-resources/jp_master.json", encoding="utf-8"))}
 rows = [r for r in csv.DictReader(open(report, encoding="utf-8"), delimiter="\t") if r["status"].startswith("jp")]
 by = collections.defaultdict(list)
 for r in rows:

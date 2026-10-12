@@ -1,13 +1,13 @@
-﻿"""Harvest review marks from ../mtl-draft.txt.
-[Y] -> phase10/approved.tsv (file, idx, en); [N] -> phase10/rejected.tsv (for redraft).
+"""Harvest review marks from ../mtl-draft.txt.
+[Y] -> tools-resources/approved.tsv (file, idx, en); [N] -> tools-resources/rejected.tsv (for redraft).
 A user-written line under an entry (not JP:/EN:) replaces the EN text when marked Y."""
 import re
 from pathlib import Path
 W = Path(__file__).resolve().parent.parent
-P = W / "phase10"
+P = W / "phase10"; TR = W / "tools-resources"
 def load(p):
     return {tuple(l.split("\t")[:2]): l.rstrip("\n").split("\t", 2)[2] for l in open(p, encoding="utf-8")} if p.exists() else {}
-appr, rej = load(P / "approved.tsv"), load(P / "rejected.tsv")
+appr, rej = load(TR / "approved.tsv"), load(TR / "rejected.tsv")
 cur = None; blocks = []
 for l in (W.parent / "mtl-draft.txt").read_text(encoding="utf-8-sig").split("\n"):
     m = re.match(r"^\[(.)\] (\S+) #(\d+)", l)
@@ -34,6 +34,6 @@ for mk, f, i, en, own in blocks:
         appr[k] = txt; rej.pop(k, None); ny += 1
     elif mk == "N": rej[k] = en; nn += 1
 for name, d in (("approved.tsv", appr), ("rejected.tsv", rej)):
-    (P / name).write_text("".join(f"{f}\t{i}\t{e}\n" for (f, i), e in sorted(d.items())), encoding="utf-8")
+    (TR / name).write_text("".join(f"{f}\t{i}\t{e}\n" for (f, i), e in sorted(d.items())), encoding="utf-8")
 for b in bad: print("NOT APPROVED (does not fit / bad character):", b)
 print("approved now", len(appr), "(+%d)" % ny, "rejected", len(rej))

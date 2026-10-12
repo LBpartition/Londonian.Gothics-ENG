@@ -1,5 +1,5 @@
 r"""Full dialogue build: TEST06 base (UI VWF + DRESS MODE) + dialogue VWF +
-every reviewed guide line from phase7\final\*.json inserted into the .sp scripts.
+every reviewed guide line from tools-resources\final\*.json inserted into the .sp scripts.
 
   python tools\full_build.py <out_dir> [name]
 
@@ -26,7 +26,7 @@ def norm(s):
     return re.sub(r'[^\S\n]+', ' ', s).strip()
 
 
-GUIDE = (W / "ref_guide.txt").read_text(encoding="utf-8", errors="replace")
+GUIDE = (W / "ShadowRisae-Guide.txt").read_text(encoding="utf-8", errors="replace")
 GUIDE_WS = " ".join(GUIDE.split())
 # Bottom-screen location plate (header name). JP longest = 7 glyphs x 12px; plate ~130px wide.
 LOC_BOX = textfit.Box("location", 140, 1, 0xFFFE)
@@ -51,10 +51,10 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     ids = ndsbuild.file_ids_by_path(rom)
     m = textfit.Metrics(ndsbuild.get_file(rom, ids["data/font.NCGR"]), t6.GAP, t6.SPACE)
     APPROVED = {tuple(l.split("\t")[:2]): l.rstrip("\n").split("\t", 2)[2]
-                for l in open(W / "phase10" / "approved.tsv", encoding="utf-8")}   # user-approved MTL
+                for l in open(W / "tools-resources" / "approved.tsv", encoding="utf-8")}   # user-approved MTL
     rep = ["file\tidx\tstatus\tlines\ten"]
     changes, n_en, n_jp, n_fail = {}, 0, 0, 0
-    for p in sorted(glob.glob(str(W / "phase7" / "final" / "*.json"))):
+    for p in sorted(glob.glob(str(W / "tools-resources" / "final" / "*.json"))):
         fname = os.path.basename(p)[:-5]
         sid = ids["data/" + fname]
         d = ndsbuild.get_file(rom, sid)
@@ -102,7 +102,7 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     import intro_patch
     import font_patch as FP, glyph_table
     gt = glyph_table.build()
-    locs = json.load(open(W / "phase7" / "locations.json", encoding="utf-8"))
+    locs = json.load(open(W / "tools-resources" / "locations.json", encoding="utf-8"))
     n_loc = 0
     for path, sid in ids.items():
         if not path.endswith(".sp"):

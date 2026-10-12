@@ -1,7 +1,0 @@
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\dress_f000694.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\dress2_f000754.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\scuart_f000834.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\litense_f000879.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\dewlit_f001309.png
-shot C:\GIT\Londonian.Gothics-ENG\.WORK\captures\test06f\iscarpe_f001354.png
-exit at frame 1354

@@ -1,4 +1,4 @@
-"""Parse a user-edited excerpt of the Full Script doc into phase10/layout_overrides.json.
+"""Parse a user-edited excerpt of the Full Script doc into tools-resources/layout_overrides.json.
 Every entry whose text/line breaks differ from the current doc becomes an exact-layout override."""
 import json, re, sys
 from pathlib import Path
@@ -39,7 +39,7 @@ def intro_blocks(lines):
 
 def main(user_path):
     u, d = sections(Path(user_path).read_text(encoding="utf-8")), sections(DOC.read_text(encoding="utf-8"))
-    ov_path = W / "phase10" / "layout_overrides.json"
+    ov_path = W / "tools-resources" / "layout_overrides.json"
     ov = json.loads(ov_path.read_text(encoding="utf-8")) if ov_path.exists() else {"intro": {}, "dress": {}, "item": {}, "dialogue": {}}
     n = 0
     ui, di = intro_blocks(u.get("INTRO", [])), intro_blocks(d["INTRO"])
@@ -50,7 +50,7 @@ def main(user_path):
         dd = dict(entries(d.get(sec, []), num))
         for h, body in entries(u.get(sec, []), num):
             if body and dd.get(h) != body: ov[key][h[4:]] = "\n".join(body); n += 1
-    idx = (W / "phase10" / "doc_index.tsv").read_text(encoding="utf-8").split()
+    idx = (W / "tools-resources" / "doc_index.tsv").read_text(encoding="utf-8").split()
     idx = list(zip(idx[0::2], idx[1::2]))
     who = lambda l: l == "(narration)" or bool(re.match(r"^[A-Za-z?][\w ?]*:$", l))
     de, ue = entries(d["DIALOGUE"], who), entries(u.get("DIALOGUE", []), who)

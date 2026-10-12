@@ -1,7 +1,7 @@
 ﻿r"""Phase 7 review helpers.
 
   python tools\review.py sheets          -> phase7\sheets\<file>.txt (for reviewers)
-  python tools\review.py validate        -> checks phase7\final\*.json
+  python tools\review.py validate        -> checks tools-resources\final\*.json
   python tools\review.py merge           -> phase7\final_all.json
 
 final\<file>.json = [{"idx": n, "gline": L, "en": "..."} or {"idx": n, "en": null, "note": "..."}]
@@ -61,7 +61,7 @@ def validate(verbose=True):
     for r in rows:
         idxs[r['file']].add(r['idx'])
     errs, stats = [], collections.Counter()
-    for p in sorted(glob.glob('phase7/final/*.json')):
+    for p in sorted(glob.glob('tools-resources/final/*.json')):
         f = os.path.basename(p)[:-5]
         try:
             data = json.load(open(p, encoding='utf-8'))
@@ -92,7 +92,7 @@ def validate(verbose=True):
     if verbose:
         for e in errs:
             print('ERR', e)
-        print(dict(stats), 'files:', len(glob.glob('phase7/final/*.json')), 'errors:', len(errs))
+        print(dict(stats), 'files:', len(glob.glob('tools-resources/final/*.json')), 'errors:', len(errs))
     return errs
 
 
@@ -100,7 +100,7 @@ def merge():
     if validate(False):
         sys.exit('validate first')
     out = {}
-    for p in sorted(glob.glob('phase7/final/*.json')):
+    for p in sorted(glob.glob('tools-resources/final/*.json')):
         out[os.path.basename(p)[:-5]] = json.load(open(p, encoding='utf-8'))
     json.dump(out, open('phase7/final_all.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('merged', len(out))

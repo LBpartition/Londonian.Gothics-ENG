@@ -18,11 +18,11 @@ def main():
     rpt = sorted(glob.glob(str(ROOT / "OUTPUTS" / "*" / "fit_report.tsv")))[-1]
     rc = Path(rpt).parent.name
     rows = [r for r in csv.reader(open(rpt, encoding="utf-8"), delimiter="\t") if len(r) > 4][1:]
-    jpm = {(r["file"], r["idx"]): r for r in json.load(open(W / "phase6/jp_master.json", encoding="utf-8"))}
+    jpm = {(r["file"], r["idx"]): r for r in json.load(open(W / "tools-resources/jp_master.json", encoding="utf-8"))}
     rep = {(r[0], int(r[1])): (r[2], r[4]) for r in rows if r[1] != "name"}
     locs = {r[0]: r[4] for r in rows if r[1] == "name" and r[2] == "ok"}
     seq = []   # scenes: runs of a file's lines with no big jump in guide line; sorted by first guide line
-    for p in sorted(glob.glob(str(W / "phase7/final/*.json"))):
+    for p in sorted(glob.glob(str(W / "tools-resources/final/*.json"))):
         f = os.path.basename(p)[:-5]
         es = [e for e in json.load(open(p, encoding="utf-8")) if (f, e["idx"]) in rep]
         run, last = [], None
@@ -111,7 +111,7 @@ def main():
         if sl[s] != f:
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
-    (W / "phase10" / "doc_index.tsv").write_text("\n".join(idx_out) + "\n", encoding="utf-8")
+    (W / "tools-resources" / "doc_index.tsv").write_text("\n".join(idx_out) + "\n", encoding="utf-8")
     out = ROOT / "DOCS" / "SCRIPT - FULL.txt"
     out.parent.mkdir(exist_ok=True)
     out.write_text("\n".join(o) + "\n", encoding="utf-8")

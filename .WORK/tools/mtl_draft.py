@@ -1,11 +1,11 @@
-﻿"""Write mtl-draft.txt: v2 localisation draft (+ FuguMT raw MT for comparison if present)."""
+"""Write mtl-draft.txt: v2 localisation draft (+ FuguMT raw MT for comparison if present)."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import full_build as fb, textfit, ndsbuild, test06_build as t6
 
 W = Path(__file__).resolve().parent.parent
-P = W / "phase10"
+P = W / "phase10"; TR = W / "tools-resources"
 rom = (W / "rom/JPN-original.nds").read_bytes(); ids = ndsbuild.file_ids_by_path(rom)
 m = textfit.Metrics(ndsbuild.get_file(rom, ids["data/font.NCGR"]), t6.GAP, t6.SPACE)
 SPK = {3: "Nabokov", 4: "Vampire", 5: "Wizard", 6: "Fairy", None: "(narration/voice)"}
@@ -15,7 +15,7 @@ rd = lambda p: dict(l.rstrip("\n").split("\t", 1) for l in open(p, encoding="utf
 mt = rd(P / "mt_draft.tsv")
 fg = rd(P / "fugumt.tsv") if (P / "fugumt.tsv").exists() else {}
 ld = lambda p: {tuple(l.split("\t")[:2]) for l in open(p, encoding="utf-8")} if p.exists() else set()
-appr, rej = ld(P / "approved.tsv"), ld(P / "rejected.tsv")
+appr, rej = ld(TR / "approved.tsv"), ld(TR / "rejected.tsv")
 src = [r for r in src if (r[1], r[2]) not in appr]
 
 H = lambda t: ["", "=" * 78, t, "=" * 78]

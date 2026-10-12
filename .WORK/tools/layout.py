@@ -1,11 +1,11 @@
 ﻿"""Line-layout rules shared by the build and the script doc.
-- phase10/layout_overrides.json: exact user layouts ("\n" = forced line break).
+- tools-resources/layout_overrides.json: exact user layouts ("\n" = forced line break).
 - auto_break(): start each new sentence on a new line when that adds no extra 3-line box."""
 import json, math, re
 from pathlib import Path
 import textfit
 W = Path(__file__).resolve().parents[1]
-_p = W / "phase10" / "layout_overrides.json"
+_p = W / "tools-resources" / "layout_overrides.json"
 OV = json.loads(_p.read_text(encoding="utf-8")) if _p.exists() else {"intro": {}, "dress": {}, "item": {}, "dialogue": {}}
 SENT = re.compile(r'(?<=[.!?])(?<!\bMr\.)(?<!\bMrs\.)(?<!\bDr\.)(?<!\bSt\.) (?=["\'(*]?[A-Z])')
 
