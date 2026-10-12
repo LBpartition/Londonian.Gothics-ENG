@@ -1,4 +1,4 @@
-﻿# Translating Londonian Gothics to other languages
+# Translating Londonian Gothics to other languages
 
 You need Windows, Python 3, and these Python packages:
 
@@ -27,21 +27,22 @@ This extracts the ROM into `.WORK\extracted\` (needed by the build).
 
 ## 2. Files to edit (all in `.WORK\tools-resources\`)
 
+### `SCRIPT - FULL.txt`
+The same text as `script_en.json` as a plain readable script.
+You can edit this instead of script_en.json (see step 3).
+
 ### `script_en.json`
 ALL text in the game. Replace the English with your language.
+**Change text only; do not add, remove or reorder entries.**
+
+In `SCRIPT - FULL.txt` you *can* add or remove `---` lines inside a dialogue entry to add or remove text boxes: `---` starts a new box (a box with fewer than 3 lines is padded with blank lines). This only changes how that entry's text is split into boxes, not the entries themselves. Run `full_build.py` afterwards to check the fit.
+
 Sections: intro, dialogue (in playthrough order), locations, dresses, items, menu.
 
 - Text is stored as a list of the exact lines shown in-game.
 - `{H}word{/H}` = word shown in red.
 - Dialogue boxes show 3 lines; a blank line `""` pads a box so the next line starts in a new box.
 - `"source"` only records where the English came from; you can ignore it.
-
-### `script_jp.json`
-The original Japanese, in the same order. Reference only.
-
-### `SCRIPT - FULL.txt`
-The same text as `script_en.json` as a plain readable script.
-You can edit this instead of the JSON (see step 3).
 
 ### `glyph_table.tsv`
 The font. Each character your text uses must be listed in the `en` column.
@@ -57,20 +58,21 @@ Accented capitals (e.g. É, Ü) are not in the font yet - add them as new CUSTOM
 
 Copy an existing CUSTOM row (e.g. letter A) as a template.
 
+### `script_jp.json`
+Reference only. The original Japanese script, in the same order as the english script.
+
 ### `ShadowRisae-Guide.txt`
-The English GameFAQs guide the translation is based on. Reference only.
+Reference only. The English GameFAQs guide the translation is based on.
 
 ## 3. Scripts to run
 
-If you edited `SCRIPT - FULL.txt`, copy the edits into `script_en.json`:
+If you edited `SCRIPT - FULL.txt`, run script_import.py to import your edits to `script_en.json`:
 
 ```
 python tools\script_import.py
 ```
 
-(Change text only; do not add, remove or reorder entries.)
-
-Build the patched ROM and check that all text fits:
+After importing your edits, or if you edited the json directly; Build the patched ROM and check that all text fits:
 
 ```
 python tools\full_build.py out MyTranslation
