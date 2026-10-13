@@ -360,9 +360,21 @@ Fairy
 MENU TEXT (OPTION screen)
 ============================================================
 
+OPTION
+BGM
 SFX
 TEXT SPEED
 BACKLIGHT
+BACK
+1
+2
+3
+4
+5
+ON
+OFF
+<
+>
 
 ============================================================
 MENU TEXT (SAVE / LOAD screens)

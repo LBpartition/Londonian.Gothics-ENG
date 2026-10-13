@@ -122,16 +122,17 @@ def main(out_dir, diag=False):
     struct.pack_into("<I", arm9, 0x2DF10, 0xE3A0308A)
     print(f"ITCM extra end {name_addr + len(names) + len(descs):#x}")
     assert name_addr + len(names) + len(descs) < 0x02000000, "extra tables overflow ITCM"
-    # OPTION screen + YES/NO/END/SAVED: A-Z use the original full-width caps (0xD4..,
-    # like BGM/SE/BACK), FFFE = space; any other character uses its _glyph_table.tsv glyph.
+    # OPTION screen + YES/NO/END/SAVED: A-Z and 0-9 use the original full-width glyphs (0xD4.., 0xC0..),
+    # FFFE = space; any other character uses its _glyph_table.tsv glyph.
     def fw(t):
-        return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else font_patch.ASCII[c]
-                for c in t.upper()]
-    # fixed 24-byte slots
-    for off, txt in ((0x4C420, master.MENU["option_sfx"]), (0x4C438, master.MENU["option_text_speed"]), (0x4C450, master.MENU["option_backlight"])):
+        return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else 0xC0 + ord(c) - 48 if "0" <= c <= "9"
+                else font_patch.ASCII[c] for c in t.upper()]
+    # OPTION table: 15 fixed 24-byte slots from 0x4C3F0 (max 11 characters each)
+    for i, k in enumerate(master.OPTION_KEYS):
+        txt = master.MENU[k]
         u = fw(txt)
         assert len(u) < 12, txt
-        struct.pack_into("<12H", arm9, off, *(u + [0] * (12 - len(u))))
+        struct.pack_into("<12H", arm9, 0x4C3F0 + 24 * i, *(u + [0] * (12 - len(u))))
     # Yes/No prompts (save/load/shop etc.): 8-byte slots (max 4 characters)
     yn = {(0x1A, 0x02, 0, 0): master.MENU["yes"], (0x02, 0x02, 0x04, 0): master.MENU["no"], (0x24, 0x22, 0x29, 0): master.MENU["end"]}
     for off in range(0x4B000, 0x4C800, 8):

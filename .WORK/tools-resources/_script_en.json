@@ -16614,6 +16614,16 @@
  ],
  "menu": [
   {
+   "key": "option_title",
+   "source": "original",
+   "en": "OPTION"
+  },
+  {
+   "key": "option_bgm",
+   "source": "original",
+   "en": "BGM"
+  },
+  {
    "key": "option_sfx",
    "source": "shadowrisae",
    "en": "SFX"
@@ -16627,6 +16637,56 @@
    "key": "option_backlight",
    "source": "shadowrisae",
    "en": "BACKLIGHT"
+  },
+  {
+   "key": "option_back",
+   "source": "original",
+   "en": "BACK"
+  },
+  {
+   "key": "option_1",
+   "source": "original",
+   "en": "1"
+  },
+  {
+   "key": "option_2",
+   "source": "original",
+   "en": "2"
+  },
+  {
+   "key": "option_3",
+   "source": "original",
+   "en": "3"
+  },
+  {
+   "key": "option_4",
+   "source": "original",
+   "en": "4"
+  },
+  {
+   "key": "option_5",
+   "source": "original",
+   "en": "5"
+  },
+  {
+   "key": "option_on",
+   "source": "original",
+   "en": "ON"
+  },
+  {
+   "key": "option_off",
+   "source": "original",
+   "en": "OFF"
+  },
+  {
+   "key": "option_left",
+   "source": "original",
+   "en": "<"
+  },
+  {
+   "key": "option_right",
+   "source": "original",
+   "en": ">"
   },
   {
    "key": "save_prompt",

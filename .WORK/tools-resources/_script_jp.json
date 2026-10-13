@@ -13387,6 +13387,14 @@
  ],
  "menu": [
   {
+   "key": "option_title",
+   "jp": "OPTION"
+  },
+  {
+   "key": "option_bgm",
+   "jp": "BGM"
+  },
+  {
    "key": "option_sfx",
    "jp": "SE"
   },
@@ -13397,6 +13405,46 @@
   {
    "key": "option_backlight",
    "jp": "バックライト"
+  },
+  {
+   "key": "option_back",
+   "jp": "BACK"
+  },
+  {
+   "key": "option_1",
+   "jp": "1"
+  },
+  {
+   "key": "option_2",
+   "jp": "2"
+  },
+  {
+   "key": "option_3",
+   "jp": "3"
+  },
+  {
+   "key": "option_4",
+   "jp": "4"
+  },
+  {
+   "key": "option_5",
+   "jp": "5"
+  },
+  {
+   "key": "option_on",
+   "jp": "ON"
+  },
+  {
+   "key": "option_off",
+   "jp": "OFF"
+  },
+  {
+   "key": "option_left",
+   "jp": "<"
+  },
+  {
+   "key": "option_right",
+   "jp": ">"
   },
   {
    "key": "save_prompt",

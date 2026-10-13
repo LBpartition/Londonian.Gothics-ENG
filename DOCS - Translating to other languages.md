@@ -184,7 +184,7 @@ If one of the game's original glyphs (`0x000`-`0x246`) already looks like the ch
 
 - The game has room for glyph ids up to `0x2FF`, so you can add about 140 more glyphs.
 - The game draws all text in capitals: `é` and `É` both become your `É` glyph.
-- The **OPTION** labels (max 11 characters) and **YES / NO / END** (max 4 characters) use the game's original wide A-Z letters. Other characters there use your CUSTOM glyphs.
+- The **OPTION** screen text (max 11 characters per line) and **YES / NO / END** (max 4 characters) use the game's original wide A-Z and 0-9 letters. Other characters there use your CUSTOM glyphs.
 - The intro story, SAVE/LOAD prompts and title screen credits don't use these glyphs (see [Text drawn with a different font](#text-drawn-with-a-different-font)).
 
 ---
@@ -223,6 +223,7 @@ Each line must fit the width of its box. Letters are drawn at their own width (a
 - **Check before testing:** every build writes `out\Patched_ROM_fit_report.tsv`, listing every line with **ok** / **FAIL**. Fix every **FAIL** line.
 - **Dialogue too long?** Move words to the next line. If the box is full (3 lines), add a `---` line to continue in a new box. There's no limit on the number of boxes in an entry.
 - **Names, dresses, items, locations and menus** can't get extra boxes, so use shorter wording or abbreviations.
+- **OPTION screen:** every line of `MENU TEXT (OPTION screen)` is on that screen, including the text the Japanese game already showed in English (OPTION, BGM, BACK, ON, OFF). The volume levels `1`-`5` and the arrows `<` `>` are placed one by one by the game, so keep them to a single character.
 - Lines are never wrapped automatically: what you see in the file is what appears on screen.
 
 ### Title screen credits
@@ -238,7 +239,7 @@ The first section, `TITLE SCREEN CREDITS`, is the text shown on the title screen
 | `<HUMAN>` | % of entries whose `"source"` is not `mtl` |
 | `<MTL>` | % of entries whose `"source"` is `mtl` |
 
-Every entry in `_script_en.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries. If they don't make sense for your translation, either change the `"source"` values in `_script_en.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
+Every entry in `_script_en.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation, `original` = already in English in the Japanese game). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries (`original` entries are not counted). If they don't make sense for your translation, either change the `"source"` values in `_script_en.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
 
 ---
 

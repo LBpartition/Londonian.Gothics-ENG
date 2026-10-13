@@ -23,7 +23,7 @@ def shares():
     m = sum(1 for e in E["dialogue"] if e["source"] == "mtl")
     g = (sum(1 for e in E["dialogue"] if e["source"] == "shadowrisae") + len(E["intro"])
          + sum((e["name"] is not None) + (e["desc"] is not None) for e in E["dresses"] + E["items"])
-         + len({e["en"] for e in E["locations"]}) + 7 + len(E["menu"]))
+         + len({e["en"] for e in E["locations"]}) + 7 + sum(e["source"] != "original" for e in E["menu"]))
     return 100 * g / (g + m), 100 * m / (g + m)
 
 

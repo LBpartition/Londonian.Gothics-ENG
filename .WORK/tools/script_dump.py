@@ -68,7 +68,7 @@ def main():
     o += chars
 
     hr("MENU TEXT (OPTION screen)")
-    o += [master.MENU[k] for k in ("option_sfx", "option_text_speed", "option_backlight")]
+    o += [master.MENU[k] for k in master.OPTION_KEYS]
 
     hr("MENU TEXT (SAVE / LOAD screens)")
     o += [master.MENU[k] for k in ("save_prompt", "load_prompt", "yes", "no", "end", "saved")]
