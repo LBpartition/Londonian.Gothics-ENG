@@ -178,7 +178,7 @@ def main():
         "extensions": dict(ext_count.most_common()), "magics": dict(magic_count.most_common(30)),
         "ndspy_crosscheck": xcheck, "roundtrip": rt,
     }
-    (OUT / "phase1_report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
+    (OUT / "JPN_Extracted_ROM_Report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({k: report[k] for k in report if k not in ("overlays",)}, indent=2, ensure_ascii=False))
 
 if __name__ == "__main__":
