@@ -111,19 +111,19 @@ python tools\script_import.py
 **Step 2 - build the ROM:**
 
 ```
-python tools\full_build.py out MyTranslation
+python tools\full_build.py out Patched_ROM
 ```
 
 To include the title screen credits, add a build number as a third argument (it replaces `<RC>`):
 
 ```
-python tools\full_build.py out MyTranslation 1
+python tools\full_build.py out Patched_ROM 1
 ```
 
 This creates:
 
-- `out\MyTranslation.nds` - your patched ROM
-- `out\fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, then build again. If a character is missing from the font, the build stops and names it (see [section 5](#5-the-font-adding-your-own-letters-glyph_tabletsv)).
+- `out\Patched_ROM.nds` - your patched ROM
+- `out\Patched_ROM_fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, then build again. If a character is missing from the font, the build stops and names it (see [section 5](#5-the-font-adding-your-own-letters-glyph_tabletsv)).
 
 **Step 3 - only if you edited `script_en.json` directly:** update `SCRIPT - FULL.txt` to match:
 
@@ -182,7 +182,7 @@ That's all. **You don't need to change any of the Python scripts.** The build au
 
 - draws your new glyphs into the game's font,
 - works out each glyph's width from its pixels (so letters sit next to each other naturally),
-- uses that width when checking whether lines fit (`fit_report.tsv`),
+- uses that width when checking whether lines fit (`Patched_ROM_fit_report.tsv`),
 - uses your glyph wherever its character appears, including dialogue, locations, dresses, items and menus.
 
 ### Reusing an original glyph instead of drawing one
@@ -213,7 +213,7 @@ You only run the **4 scripts** at the top. The rest are used by them automatical
 |---|---|
 | `extract_rom.py` | One-time setup: extracts the ROM into `.WORK\extracted\` |
 | `script_import.py` | `SCRIPT - FULL.txt` -> `script_en.json` |
-| `full_build.py` | Builds the patched ROM and `fit_report.tsv` |
+| `full_build.py` | Builds the patched ROM and `Patched_ROM_fit_report.tsv` |
 | `script_dump.py` | `script_en.json` -> `SCRIPT - FULL.txt` |
 
 **Used by the build:**

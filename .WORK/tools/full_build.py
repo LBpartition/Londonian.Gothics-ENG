@@ -3,7 +3,7 @@ all English text from tools-resources\script_en.json (exact in-game lines) inser
 
   python tools\full_build.py <out_dir> [name]
 
-Strings without reviewed English stay Japanese. Writes <out_dir>\fit_report.tsv.
+Strings without reviewed English stay Japanese. Writes <out_dir>\<name>.nds and <out_dir>\<name>_fit_report.tsv.
 """
 import sys, io, json, glob, os, re, hashlib, contextlib
 from pathlib import Path
@@ -29,7 +29,7 @@ def norm(s):
 LOC_BOX = textfit.Box("location", 140, 1, 0xFFFE)
 
 
-def main(out_dir, name="FULL-Dialogue", rc=None):
+def main(out_dir, name="Patched_ROM", rc=None):
     out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
     tmp = out_dir / "_t06"
     t6.DIALOGUE_VWF = True
@@ -105,7 +105,7 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
     import repack_contig; out = repack_contig.repack(t6.t1.ORIG.read_bytes(), out)   # keep arm7 right after arm9: arm7-at-ROM-end crashes nds-bootstrap (3DS)
     rp = out_dir / f"{name}.nds"
     rp.write_bytes(out)
-    (out_dir / "fit_report.tsv").write_text("\n".join(rep) + "\n", encoding="utf-8")
+    (out_dir / f"{name}_fit_report.tsv").write_text("\n".join(rep) + "\n", encoding="utf-8")
     h = hashlib.sha256(out).hexdigest().upper()
     print(rp, h)
     print(f"english {n_en}, kept japanese {n_jp}, fit failures {n_fail}, files {len(changes)}")
