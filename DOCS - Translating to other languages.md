@@ -16,7 +16,16 @@ This guide explains how to make your own translation patch from the files in thi
 
 ## 1. Setup
 
-You need **Windows** and **Python 3**, plus these Python packages:
+First, get a copy of this repository. Either:
+
+- **Download it:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip), then unzip it, or
+- **Clone it with Git:**
+
+  ```
+  git clone https://github.com/LBpartition/Londonian.Gothics-ENG.git
+  ```
+
+You also need **Windows** and **Python 3**, plus these Python packages:
 
 ```
 pip install pillow keystone-engine ndspy
