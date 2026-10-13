@@ -1,4 +1,4 @@
-﻿"""Phase 1: ROM baseline - header, NitroFS manifest, extraction, round-trip test.
+"""Phase 1: ROM baseline - header, NitroFS manifest, extraction, round-trip test.
 
 Reads the header/FNT/FAT directly from bytes (independent of any library),
 then cross-checks against ndspy and tests ndspy's rebuild.
