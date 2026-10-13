@@ -1,4 +1,4 @@
-"""Phase 1: ROM baseline - header, NitroFS manifest, extraction, round-trip test.
+﻿"""Phase 1: ROM baseline - header, NitroFS manifest, extraction, round-trip test.
 
 Reads the header/FNT/FAT directly from bytes (independent of any library),
 then cross-checks against ndspy and tests ndspy's rebuild.
@@ -134,7 +134,7 @@ def main():
     tail = rom[used_end:]
     tail_ff = len(tail) - len(tail.rstrip(b"\xFF"))
 
-    with open(OUT / "manifest.csv", "w", newline="", encoding="utf-8") as f:
+    with open(OUT / "JPN_Extracted_ROM_manifest.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=rows[0].keys()); w.writeheader(); w.writerows(rows)
 
     # Magic summary
