@@ -24,7 +24,7 @@ CTRL = {0xFFFF: '{NL}', 0xFFFE: '{WAIT}', 0xFD00: '{NAME}'}
 
 def load_glyphs():
     g = {}
-    with open(os.path.join(ROOT, 'tools-resources', '_glyph_table.tsv'), encoding='utf-8') as f:
+    with open(os.path.join(ROOT, 'tools-resources', '_import_glyph_table.tsv'), encoding='utf-8') as f:
         next(f)
         for line in f:
             p = line.rstrip('\n').split('\t')

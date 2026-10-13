@@ -6,15 +6,15 @@ This guide explains how to make your own translation patch from the files in thi
 
 1. [Download or clone the repository](#1-download-or-clone-the-repository)
 2. [Install the requirements and add the ROM](#2-install-the-requirements-and-add-the-rom)
-3. [(Optional) Add your own letters: `GLYPHS - EDIT and IMPORT.txt`](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)
-4. [Translate the script: `SCRIPT - EDIT and IMPORT.txt`](#4-translate-the-script-script---edit-and-importtxt)
+3. [(Optional) Add your own letters: `EDIT and IMPORT - GLYPHS.txt`](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)
+4. [Translate the script: `EDIT and IMPORT - SCRIPT.txt`](#4-translate-the-script-script---edit-and-importtxt)
 5. [Build and test your patched ROM](#5-build-and-test-your-patched-rom)
 
 **Reference**
 
 - [The files in `tools-resources`](#the-files-in-tools-resources)
 - [Text drawn with a different font](#text-drawn-with-a-different-font)
-- [Editing `_script_import.json` / `_glyph_table.tsv` directly (advanced)](#editing-_script_importjson--_glyph_tabletsv-directly-advanced)
+- [Editing `_import_script.json` / `_import_glyph_table.tsv` directly (advanced)](#editing-_script_importjson--_glyph_tabletsv-directly-advanced)
 - [What each tool does](#what-each-tool-does)
 
 > All commands in this guide are run from the `.WORK` folder.
@@ -55,11 +55,11 @@ Then, from the `.WORK` folder, run this **once**:
 python tools\extract_rom.py
 ```
 
-This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also writes a list of the ROM's files and a short report to `.WORK\out\Extracted-ROM-Report\` (for information only).
+This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also writes `.WORK\tools-resources\.script_jpn.json` (the original Japanese text, for reference; it isn't stored in the repository), and a list of the ROM's files and a short report to `.WORK\out\Extracted-ROM-Report\` (for information only).
 
 ---
 
-## 3. (Optional) Add your own letters: `GLYPHS - EDIT and IMPORT.txt`
+## 3. (Optional) Add your own letters: `EDIT and IMPORT - GLYPHS.txt`
 
 Skip this step if your language only needs the letters that are already there:
 
@@ -76,11 +76,11 @@ The game draws text with a font of small pictures called **glyphs**. Each glyph 
 - **`0x000`-`0x246`** are the game's **ORIGINAL** Japanese glyphs. You can't redraw these, but you can reuse them (see below).
 - **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits and the narrow A-Z capitals. You can redraw these and add more.
 
-Every glyph is in **`GLYPHS - EDIT and IMPORT.txt`**, drawn as a picture made of characters. Edit it, then import it (step 5 below).
+Every glyph is in **`EDIT and IMPORT - GLYPHS.txt`**, drawn as a picture made of characters. Edit it, then import it (step 5 below).
 
-### The preview: `GLYPHS - PREVIEW.png`
+### The preview: `EDIT and IMPORT - GLYPHS - PREVIEW.png`
 
-To find a glyph quickly, open **`GLYPHS - PREVIEW.png`**. It is a sheet of every glyph:
+To find a glyph quickly, open **`EDIT and IMPORT - GLYPHS - PREVIEW.png`**. It is a sheet of every glyph:
 
 - the **id** under each glyph (ORIGINAL in grey, CUSTOM in red boxes),
 - the character you type to get it, in **blue** (or, if it can't be typed, what it shows, in black).
@@ -169,8 +169,8 @@ The picture is the whole 16 × 16 cell:
    python tools\glyph_import.py
    ```
 
-   It lists the glyphs you changed and redraws `GLYPHS - PREVIEW.png`. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
-6. **Use it** in your script: type `É` (or `é`) anywhere in `SCRIPT - EDIT and IMPORT.txt`.
+   It lists the glyphs you changed and redraws `EDIT and IMPORT - GLYPHS - PREVIEW.png`. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
+6. **Use it** in your script: type `É` (or `é`) anywhere in `EDIT and IMPORT - SCRIPT.txt`.
 
 To **redraw an existing CUSTOM letter** (e.g. to change the style of `A`), just edit its picture and import.
 
@@ -189,15 +189,15 @@ If one of the game's original glyphs (`0x000`-`0x246`) already looks like the ch
 
 ---
 
-## 4. Translate the script: `SCRIPT - EDIT and IMPORT.txt`
+## 4. Translate the script: `EDIT and IMPORT - SCRIPT.txt`
 
-**`SCRIPT - EDIT and IMPORT.txt`** contains **all** text in the game, in playthrough order: title screen credits, intro, dialogue, locations, dresses, items and menus. Replace the English with your translation, then import it:
+**`EDIT and IMPORT - SCRIPT.txt`** contains **all** text in the game, in playthrough order: title screen credits, intro, dialogue, locations, dresses, items and menus. Replace the English with your translation, then import it:
 
 ```
 python tools\script_import.py
 ```
 
-It reports how many entries changed. For reference, the original Japanese is in `_script_jp.json` (same order), and the GameFAQs guide the English is based on is in `.ShadowRisae_Guide.txt`.
+It reports how many entries changed. For reference, the original Japanese is in `.script_jpn.json` (same order), and the GameFAQs guide the English is based on is in `.script_ShadowRisae_Guide.txt`.
 
 ### The golden rule
 
@@ -240,7 +240,7 @@ The first section, `TITLE SCREEN CREDITS`, is the text shown on the title screen
 | `<HUMAN>` | % of entries whose `"source"` is not `mtl` |
 | `<MTL>` | % of entries whose `"source"` is `mtl` |
 
-Every entry in `_script_import.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation, `original` = already in English in the Japanese game). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries (`original` entries are not counted). If they don't make sense for your translation, either change the `"source"` values in `_script_import.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
+Every entry in `_import_script.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation, `original` = already in English in the Japanese game). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries (`original` entries are not counted). If they don't make sense for your translation, either change the `"source"` values in `_import_script.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
 
 ---
 
@@ -265,7 +265,7 @@ This creates:
 
 If a character in your script isn't in the font, the build stops and names it: add it in [step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt).
 
-**Typical loop:** edit `SCRIPT - EDIT and IMPORT.txt` → `python tools\script_import.py` → `python tools\full_build.py out Patched_ROM 1` → test → repeat.
+**Typical loop:** edit `EDIT and IMPORT - SCRIPT.txt` → `python tools\script_import.py` → `python tools\full_build.py out Patched_ROM 1` → test → repeat.
 
 ---
 
@@ -273,29 +273,29 @@ If a character in your script isn't in the font, the build stops and names it: a
 
 | File | What it is | Edit it? |
 |---|---|---|
-| `SCRIPT - EDIT and IMPORT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-script---edit-and-importtxt)) |
-| `GLYPHS - EDIT and IMPORT.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)) |
-| `GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
-| `_script_import.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
-| `_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
-| `_script_jp.json` | The original Japanese text, in the same order as `_script_import.json`. | No, reference only |
-| `.ShadowRisae_Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
+| `EDIT and IMPORT - SCRIPT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-script---edit-and-importtxt)) |
+| `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)) |
+| `EDIT and IMPORT - GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
+| `_import_script.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
+| `_import_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
+| `.script_jpn.json` | The original Japanese text, in the same order as `_import_script.json`. Created by `extract_rom.py` (not in the repository). | No, reference only |
+| `.script_ShadowRisae_Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
 | `.ROM_JPN.nds` | The Japanese ROM you add in step 2 (not included in the repository). | No |
 
 ---
 
 ## Text drawn with a different font
 
-**The intro story, the SAVE/LOAD prompts and the title screen credits** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`, `tools\add_patch_credits.py`). You still translate them in `SCRIPT - EDIT and IMPORT.txt` like everything else, but the glyphs from step 3 don't apply to them: any letter Georgia has works without adding glyphs. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those files.
+**The intro story, the SAVE/LOAD prompts and the title screen credits** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`, `tools\add_patch_credits.py`). You still translate them in `EDIT and IMPORT - SCRIPT.txt` like everything else, but the glyphs from step 3 don't apply to them: any letter Georgia has works without adding glyphs. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those files.
 
 ---
 
-## Editing `_script_import.json` / `_glyph_table.tsv` directly (advanced)
+## Editing `_import_script.json` / `_import_glyph_table.tsv` directly (advanced)
 
-You can edit the files the build reads instead of the `EDIT and IMPORT` files, but **don't edit both at once**: importing overwrites `_script_import.json` / `_glyph_table.tsv`, and the dump scripts overwrite the `EDIT and IMPORT` files.
+You can edit the files the build reads instead of the `EDIT and IMPORT` files, but **don't edit both at once**: importing overwrites `_import_script.json` / `_import_glyph_table.tsv`, and the dump scripts overwrite the `EDIT and IMPORT` files.
 
-- **`_script_import.json`** has the sections **credits**, **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**. Highlights are written `{H}word{/H}`, and in dialogue every 3 lines is one box (add blank `""` lines to pad a box). Afterwards, run `python tools\script_dump.py` to update `SCRIPT - EDIT and IMPORT.txt`.
-- **`_glyph_table.tsv`** is tab-separated, one row per glyph: `id`, `char`, `en`, `note`, and for CUSTOM glyphs only, `top` (the first picture row, 0 = very top) and `pixels` (the picture, cropped to the inked rows, rows separated by `/`, `.` = empty). Afterwards, run `python tools\glyph_dump.py` to update `GLYPHS - EDIT and IMPORT.txt` and `GLYPHS - PREVIEW.png`.
+- **`_import_script.json`** has the sections **credits**, **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**. Highlights are written `{H}word{/H}`, and in dialogue every 3 lines is one box (add blank `""` lines to pad a box). Afterwards, run `python tools\script_dump.py` to update `EDIT and IMPORT - SCRIPT.txt`.
+- **`_import_glyph_table.tsv`** is tab-separated, one row per glyph: `id`, `char`, `en`, `note`, and for CUSTOM glyphs only, `top` (the first picture row, 0 = very top) and `pixels` (the picture, cropped to the inked rows, rows separated by `/`, `.` = empty). Afterwards, run `python tools\glyph_dump.py` to update `EDIT and IMPORT - GLYPHS.txt` and `EDIT and IMPORT - GLYPHS - PREVIEW.png`.
 
 ---
 
@@ -307,20 +307,21 @@ You only run the **scripts** at the top. The rest are used by them automatically
 
 | File | Purpose |
 |---|---|
-| `extract_rom.py` | One-time setup: extracts the ROM into `.WORK\extracted\` |
-| `glyph_import.py` | `GLYPHS - EDIT and IMPORT.txt` -> `_glyph_table.tsv` (and redraws `GLYPHS - PREVIEW.png`) |
-| `script_import.py` | `SCRIPT - EDIT and IMPORT.txt` -> `_script_import.json` |
+| `extract_rom.py` | One-time setup: extracts the ROM into `.WORK\extracted\` and writes `.script_jpn.json` |
+| `glyph_import.py` | `EDIT and IMPORT - GLYPHS.txt` -> `_import_glyph_table.tsv` (and redraws `EDIT and IMPORT - GLYPHS - PREVIEW.png`) |
+| `script_import.py` | `EDIT and IMPORT - SCRIPT.txt` -> `_import_script.json` |
 | `full_build.py` | Builds the patched ROM and `Patched_ROM_fit_report.tsv` |
-| `glyph_dump.py` | `_glyph_table.tsv` -> `GLYPHS - EDIT and IMPORT.txt` and `GLYPHS - PREVIEW.png` (advanced) |
-| `script_dump.py` | `_script_import.json` -> `SCRIPT - EDIT and IMPORT.txt` (advanced) |
+| `glyph_dump.py` | `_import_glyph_table.tsv` -> `EDIT and IMPORT - GLYPHS.txt` and `EDIT and IMPORT - GLYPHS - PREVIEW.png` (advanced) |
+| `script_dump.py` | `_import_script.json` -> `EDIT and IMPORT - SCRIPT.txt` (advanced) |
 
 **Used by the build:**
 
 | File | Purpose |
 |---|---|
-| `master.py` | Loads `_script_import.json` / `_script_jp.json` |
-| `font_patch.py` | Draws the CUSTOM glyphs from `_glyph_table.tsv` into the font; maps your characters to glyphs |
-| `font_tools.py` | Font helpers; reads the original glyph list from `_glyph_table.tsv`; location of the Japanese ROM |
+| `master.py` | Loads `_import_script.json` / `.script_jpn.json` |
+| `jpn_script.py` | Writes `.script_jpn.json` from the extracted ROM (run by `extract_rom.py`) |
+| `font_patch.py` | Draws the CUSTOM glyphs from `_import_glyph_table.tsv` into the font; maps your characters to glyphs |
+| `font_tools.py` | Font helpers; reads the original glyph list from `_import_glyph_table.tsv`; location of the Japanese ROM |
 | `vwf_patch.py` | Variable-width text (each letter drawn at its own width) |
 | `textfit.py` | Line width / fit checking |
 | `sp_tool.py` | Reads and writes the game's dialogue script files (`.sp`) |

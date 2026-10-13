@@ -1,4 +1,4 @@
-"""Write tools-resources\\SCRIPT - EDIT and IMPORT.txt from tools-resources/_script_import.json (exact in-game lines)."""
+"""Write tools-resources\\EDIT and IMPORT - SCRIPT.txt from tools-resources/_import_script.json (exact in-game lines)."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -15,7 +15,7 @@ HL = lambda s: s.replace("{H}", "{").replace("{/H}", "}")   # {red highlighted t
 
 
 def main():
-    rc = "_script_import.json"
+    rc = "_import_script.json"
     seq = master.EN["dialogue"]   # already in playthrough order
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     rom = t1.ORIG.read_bytes()
@@ -99,7 +99,7 @@ def main():
         if sl[s] != f:
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
-    out = W / "tools-resources" / "SCRIPT - EDIT and IMPORT.txt"
+    out = W / "tools-resources" / "EDIT and IMPORT - SCRIPT.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")
     import add_patch_credits; print("shares %.1f%% / %.1f%%" % add_patch_credits.shares())

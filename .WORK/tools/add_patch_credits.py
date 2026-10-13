@@ -28,7 +28,7 @@ def shares():
 
 
 def default_lines(rc):
-    """Credit lines from the "credits" section of _script_import.json (max 4 lines).
+    """Credit lines from the "credits" section of _import_script.json (max 4 lines).
     <RC> = build number (3rd argument of full_build.py), <HUMAN> / <MTL> = shares() in %."""
     import master
     g, m = shares()

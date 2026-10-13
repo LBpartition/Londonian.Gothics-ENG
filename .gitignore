@@ -46,3 +46,6 @@ pipeline.txt
 # local reference only
 .WORK-LEGACY-RESEARCH/
 .WORK/out/
+
+# Japanese script: generated from the ROM by extract_rom.py
+.WORK/tools-resources/.script_jpn.json

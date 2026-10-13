@@ -1,12 +1,12 @@
 """Font additions (appended after the original 583 glyphs; originals untouched)
-and the English character -> glyph code map, both read from tools-resources/_glyph_table.tsv."""
+and the English character -> glyph code map, both read from tools-resources/_import_glyph_table.tsv."""
 import struct
 from pathlib import Path
 from font_tools import glyph_tiles, pack_glyph, build_table
 
 ORIG_GLYPHS = 583
-TSV = Path(__file__).resolve().parents[1] / "tools-resources" / "_glyph_table.tsv"
-# _glyph_table.tsv: id, char, en (English character typed in _script_import.json -> this glyph),
+TSV = Path(__file__).resolve().parents[1] / "tools-resources" / "_import_glyph_table.tsv"
+# _import_glyph_table.tsv: id, char, en (English character typed in _import_script.json -> this glyph),
 # top + pixels (CUSTOM glyphs only: rows split by "/", "." = empty, 1-3 = palette shade)
 ROWS = [dict(zip(["id", "char", "en", "top", "pixels", "note"], l.rstrip("\n").split("\t")))
         for l in list(open(TSV, encoding="utf-8"))[1:] if l.strip()]

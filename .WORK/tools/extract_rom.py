@@ -180,6 +180,8 @@ def main():
     }
     (OUT / "JPN_Extracted_ROM_Report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps({k: report[k] for k in report if k not in ("overlays",)}, indent=2, ensure_ascii=False))
+    import jpn_script
+    jpn_script.main()
 
 if __name__ == "__main__":
     main()

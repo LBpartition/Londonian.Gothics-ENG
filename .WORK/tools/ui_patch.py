@@ -1,6 +1,6 @@
 import os
 """TEST06: narrow A-Z, gap 1/space 4, UI line step 12, DRESS MODE names+descriptions
-from tools-resources/_script_import.json, tables repointed into ITCM.
+from tools-resources/_import_script.json, tables repointed into ITCM.
 Descriptions that fail the fit gate are left in Japanese and listed."""
 import re, struct, sys, hashlib
 from pathlib import Path
@@ -123,7 +123,7 @@ def main(out_dir, diag=False):
     print(f"ITCM extra end {name_addr + len(names) + len(descs):#x}")
     assert name_addr + len(names) + len(descs) < 0x02000000, "extra tables overflow ITCM"
     # OPTION screen + YES/NO/END/SAVED: A-Z and 0-9 use the original full-width glyphs (0xD4.., 0xC0..),
-    # FFFE = space; any other character uses its _glyph_table.tsv glyph.
+    # FFFE = space; any other character uses its _import_glyph_table.tsv glyph.
     def fw(t):
         return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else 0xC0 + ord(c) - 48 if "0" <= c <= "9"
                 else font_patch.ASCII[c] for c in t.upper()]
