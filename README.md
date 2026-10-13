@@ -11,7 +11,7 @@
 
 2: Patch your legally acquired Japanese Londonian Gothics ROM: https://kotcrab.github.io/xdelta-wasm/
 
-## **This repo contains no ROMs!**. 
+## **This repo contains no ROMs!**
 
 **You need your own clean copy of Londonian Gothics** 
 
