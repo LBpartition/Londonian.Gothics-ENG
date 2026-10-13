@@ -25,7 +25,7 @@ pip install pillow keystone-engine ndspy
 Put the untranslated Japanese ROM (game code **ALGJ**) here, with this exact name:
 
 ```
-.WORK\rom\JPN-original.nds
+.WORK\tools-resources\JPN_ROM.nds
 ```
 
 Then, from the `.WORK` folder, run this **once**:
