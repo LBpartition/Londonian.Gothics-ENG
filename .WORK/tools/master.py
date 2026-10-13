@@ -8,3 +8,4 @@ JP = json.load(open(TR / "_script_jp.json", encoding="utf-8"))
 join = lambda lines: "\n".join(lines) if isinstance(lines, list) else lines
 MENU = {e["key"]: e["en"] for e in EN["menu"]}
 OPTION_KEYS = [e["key"] for e in EN["menu"] if e["key"].startswith("option_")]
+DEBUG_KEYS = [e["key"] for e in EN["menu"] if e["key"].startswith("debug_")]

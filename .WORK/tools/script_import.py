@@ -88,7 +88,8 @@ def main():
     for e in EN["locations"]:
         if e["en"] in ren: put(e, "en", ren[e["en"]], f"location {e['file']}")
 
-    menu = [l.strip() for l in S["MENU TEXT (OPTION screen)"] + S["MENU TEXT (SAVE / LOAD screens)"] if l.strip()]
+    dbg = [l.strip() for l in S["DEBUG TEXT (save test - likely never shown in game)"] if l.strip() and not l.lstrip().startswith("(") and not l.rstrip().endswith(")")]
+    menu = [l.strip() for l in S["MENU TEXT (OPTION screen)"] + S["MENU TEXT (SAVE / LOAD screens)"] if l.strip()] + dbg
     assert len(menu) == len(EN["menu"]), "menu count changed"
     for e, t in zip(EN["menu"], menu):
         put(e, "en", t, f"menu {e['key']}")

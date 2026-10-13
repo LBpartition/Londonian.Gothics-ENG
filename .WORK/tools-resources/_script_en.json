@@ -16717,6 +16717,61 @@
    "key": "saved",
    "source": "shadowrisae",
    "en": "SAVED"
+  },
+  {
+   "key": "debug_save",
+   "source": "original",
+   "en": "SAVE"
+  },
+  {
+   "key": "debug_load",
+   "source": "original",
+   "en": "LOAD"
+  },
+  {
+   "key": "debug_success",
+   "source": "original",
+   "en": "SUCCESS"
+  },
+  {
+   "key": "debug_error",
+   "source": "original",
+   "en": "ERROR"
+  },
+  {
+   "key": "debug_type",
+   "source": "original",
+   "en": "TYPE"
+  },
+  {
+   "key": "debug_page",
+   "source": "original",
+   "en": "PAGE"
+  },
+  {
+   "key": "debug_total",
+   "source": "original",
+   "en": "TOTAL"
+  },
+  {
+   "key": "debug_testing",
+   "source": "original",
+   "en": "TESTING"
+  },
+  {
+   "key": "debug_address",
+   "source": "original",
+   "en": "ADDRESS"
+  },
+  {
+   "key": "debug_pos",
+   "source": "original",
+   "en": "POS"
+  },
+  {
+   "key": "debug_no_data",
+   "source": "original",
+   "en": "NO_DATA"
   }
  ]
 }

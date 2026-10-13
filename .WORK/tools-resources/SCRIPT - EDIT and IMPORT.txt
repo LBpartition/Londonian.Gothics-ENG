@@ -388,6 +388,25 @@ END
 SAVED
 
 ============================================================
+DEBUG TEXT (save test - likely never shown in game)
+============================================================
+
+(Already English in the Japanese game; probably an unused save-memory test
+ screen. Max 11 characters per line. Translating it is optional.)
+
+SAVE
+LOAD
+SUCCESS
+ERROR
+TYPE
+PAGE
+TOTAL
+TESTING
+ADDRESS
+POS
+NO_DATA
+
+============================================================
 DIALOGUE
 ============================================================
 

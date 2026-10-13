@@ -13469,6 +13469,50 @@
   {
    "key": "saved",
    "jp": "セーブしました"
+  },
+  {
+   "key": "debug_save",
+   "jp": "SAVE"
+  },
+  {
+   "key": "debug_load",
+   "jp": "LOAD"
+  },
+  {
+   "key": "debug_success",
+   "jp": "SUCCESS"
+  },
+  {
+   "key": "debug_error",
+   "jp": "ERROR"
+  },
+  {
+   "key": "debug_type",
+   "jp": "TYPE"
+  },
+  {
+   "key": "debug_page",
+   "jp": "PAGE"
+  },
+  {
+   "key": "debug_total",
+   "jp": "TOTAL"
+  },
+  {
+   "key": "debug_testing",
+   "jp": "TESTING"
+  },
+  {
+   "key": "debug_address",
+   "jp": "ADDRESS"
+  },
+  {
+   "key": "debug_pos",
+   "jp": "POS"
+  },
+  {
+   "key": "debug_no_data",
+   "jp": "NO_DATA"
   }
  ]
 }

@@ -133,6 +133,12 @@ def main(out_dir, diag=False):
         u = fw(txt)
         assert len(u) < 12, txt
         struct.pack_into("<12H", arm9, 0x4C3F0 + 24 * i, *(u + [0] * (12 - len(u))))
+    # save-memory test text (likely unused debug screen): two identical 11-slot tables
+    for base in (0x4B6C8, 0x4C038):
+        for i, k in enumerate(master.DEBUG_KEYS):
+            u = fw(master.MENU[k])
+            assert len(u) < 12, master.MENU[k]
+            struct.pack_into("<12H", arm9, base + 24 * i, *(u + [0] * (12 - len(u))))
     # Yes/No prompts (save/load/shop etc.): 8-byte slots (max 4 characters)
     yn = {(0x1A, 0x02, 0, 0): master.MENU["yes"], (0x02, 0x02, 0x04, 0): master.MENU["no"], (0x24, 0x22, 0x29, 0): master.MENU["end"]}
     for off in range(0x4B000, 0x4C800, 8):
