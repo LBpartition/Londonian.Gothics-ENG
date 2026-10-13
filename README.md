@@ -23,7 +23,7 @@
 
 ## Translating to other languages
 
-[Download the repo](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip) and check out [DOCS - Translating to other languages.md](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/DOCS%20-%20Translating%20to%20other%20languages.md)
+Refer to [DOCS - Translating to other languages.md](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/DOCS%20-%20Translating%20to%20other%20languages.md)
 
 ## Credits
 
