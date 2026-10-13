@@ -1,7 +1,7 @@
 """Prologue story roll (bottom screen intro): repaint data/title_roll_full_16.NCGR.
 
 The JP text is a pre-drawn 256x688 4bpp bitmap (tiles stored linearly, 32 per row),
-NOT glyph text. English = _script_en.json "intro" (guide "[00].Prologue Story Roll"), split into the same 7
+NOT glyph text. English = _script_import.json "intro" (guide "[00].Prologue Story Roll"), split into the same 7
 blocks as the JP; each block starts on the same pixel row as the original so the
 paragraph spacing/scroll timing is preserved. Tile count and palette are unchanged.
 """
@@ -15,7 +15,7 @@ W, H, X0, X1 = 256, 688, 8, 249
 BLOCK_Y = [1, 93, 209, 324, 440, 555, 671]   # first text row of each JP block
 sys.path.insert(0, str(Path(__file__).parent))
 import master
-BLOCKS = [master.join(e["en"]) for e in master.EN["intro"]]   # tools-resources/_script_en.json "intro"
+BLOCKS = [master.join(e["en"]) for e in master.EN["intro"]]   # tools-resources/_script_import.json "intro"
 SIZE, PITCH = 12, 16
 LIGHT, DARK = (224, 200, 192), (48, 40, 32)
 
@@ -25,7 +25,7 @@ class FitError(Exception):
 
 
 def wrap(text, font):
-    if "\n" in text:   # exact lines from _script_en.json
+    if "\n" in text:   # exact lines from _script_import.json
         return [l for p in text.split("\n") for l in wrap(p, font)]
     lines, cur = [], ""
     for w in text.split():

@@ -1,6 +1,6 @@
 import os
 """TEST06: narrow A-Z, gap 1/space 4, UI line step 12, DRESS MODE names+descriptions
-from tools-resources/_script_en.json, tables repointed into ITCM.
+from tools-resources/_script_import.json, tables repointed into ITCM.
 Descriptions that fail the fit gate are left in Japanese and listed."""
 import re, struct, sys, hashlib
 from pathlib import Path

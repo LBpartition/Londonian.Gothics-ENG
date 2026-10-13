@@ -1,4 +1,4 @@
-"""Write tools-resources\\SCRIPT - EDIT and IMPORT.txt from tools-resources/_script_en.json (exact in-game lines)."""
+"""Write tools-resources\\SCRIPT - EDIT and IMPORT.txt from tools-resources/_script_import.json (exact in-game lines)."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -15,7 +15,7 @@ HL = lambda s: s.replace("{H}", "{").replace("{/H}", "}")   # {red highlighted t
 
 
 def main():
-    rc = "_script_en.json"
+    rc = "_script_import.json"
     seq = master.EN["dialogue"]   # already in playthrough order
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     rom = t1.ORIG.read_bytes()
