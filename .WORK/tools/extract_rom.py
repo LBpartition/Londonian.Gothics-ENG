@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROM = ROOT / "rom" / "JPN-original.nds"
-OUT = ROOT / "-Extracted-ROM-Report"
+OUT = ROOT / "out" / "Extracted-ROM-Report"
 EXT = ROOT / "extracted"
 EXPECTED_SHA = "3DC0FAF62B3922078532B587C6823A97CA9CE0A893F55CF17F94B3B3FCD861B6"
 
@@ -72,7 +72,7 @@ def parse_fnt(rom, off):
 def main():
     rom = ROM.read_bytes()
     assert sha(rom) == EXPECTED_SHA, "ROM hash mismatch!"
-    OUT.mkdir(exist_ok=True); EXT.mkdir(exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True); EXT.mkdir(exist_ok=True)
     h = parse_header(rom)
     paths, ndirs = parse_fnt(rom, h["fnt_offset"])
     nfiles = h["fat_size"] // 8

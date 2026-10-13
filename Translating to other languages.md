@@ -34,7 +34,7 @@ Then, from the `.WORK` folder, run this **once**:
 python tools\extract_rom.py
 ```
 
-This unpacks the ROM into `.WORK\extracted\`, which the build needs.
+This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also writes a list of the ROM's files and a short report to `.WORK\out\Extracted-ROM-Report\` (for information only).
 
 > All commands in this guide are run from the `.WORK` folder.
 > All files you edit are in `.WORK\tools-resources\`.
