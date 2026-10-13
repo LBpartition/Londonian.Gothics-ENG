@@ -38,3 +38,4 @@ pipeline.txt
 .WORK/tools/render_glyph_review.py
 .WORK/tools/glyph_sheet.py
 .WORK/tools/publish_rc.ps1
+.WORK/tools/glyph_table.py

@@ -122,19 +122,23 @@ def main(out_dir, diag=False):
     struct.pack_into("<I", arm9, 0x2DF10, 0xE3A0308A)
     print(f"ITCM extra end {name_addr + len(names) + len(descs):#x}")
     assert name_addr + len(names) + len(descs) < 0x02000000, "extra tables overflow ITCM"
-    # OPTION screen: guide line 83/85 "Text Speed", "Backlight"; original full-width caps
-    # (A=0xD4.., like BGM/SE/BACK), FFFE = space; fixed 24-byte slots.
+    # OPTION screen + YES/NO/END/SAVED: A-Z use the original full-width caps (0xD4..,
+    # like BGM/SE/BACK), FFFE = space; any other character uses its glyph_table.tsv glyph.
+    def fw(t):
+        return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else font_patch.ASCII[c]
+                for c in t.upper()]
+    # fixed 24-byte slots
     for off, txt in ((0x4C420, master.MENU["option_sfx"]), (0x4C438, master.MENU["option_text_speed"]), (0x4C450, master.MENU["option_backlight"])):
-        u = [0xFFFE if c == " " else 0xD4 + ord(c) - 65 for c in txt]
-        assert len(u) < 12
+        u = fw(txt)
+        assert len(u) < 12, txt
         struct.pack_into("<12H", arm9, off, *(u + [0] * (12 - len(u))))
-    # Yes/No prompts (save/load/shop etc.): 8-byte slots, full-width caps
-    fw = lambda t: [0xD4 + ord(c) - 65 for c in t]
+    # Yes/No prompts (save/load/shop etc.): 8-byte slots (max 4 characters)
     yn = {(0x1A, 0x02, 0, 0): master.MENU["yes"], (0x02, 0x02, 0x04, 0): master.MENU["no"], (0x24, 0x22, 0x29, 0): master.MENU["end"]}
     for off in range(0x4B000, 0x4C800, 8):
         t = yn.get(struct.unpack_from("<4H", arm9, off))
         if t and struct.unpack_from("<H", arm9, off - 2)[0] in (0, 0xFF):
             u = fw(t)
+            assert len(u) <= 4, t
             struct.pack_into("<4H", arm9, off, *(u + [0] * (4 - len(u))))
     # Save/Load YES/NO: NO x 0x70 -> 0x7C (English YES is wider than hai)
     for o, w in ((0x3E7E0, 0xE3A05070), (0x37510, 0xE3A02070), (0x37554, 0xE3A02070),
@@ -146,7 +150,7 @@ def main(out_dir, diag=False):
         assert struct.unpack_from("<I", arm9, o)[0] == 0xE1A03002
         struct.pack_into("<I", arm9, o, 0xE3A03070)
     assert struct.unpack_from("<8H", arm9, 0x4BF68) == (0x5E, 0xA1, 0x99, 0x0C, 0x1F, 0x0C, 0x10, 0)
-    u = fw(master.MENU["saved"]); struct.pack_into("<8H", arm9, 0x4BF68, *(u + [0] * (8 - len(u))))
+    u = fw(master.MENU["saved"]); assert len(u) <= 8, master.MENU["saved"]; struct.pack_into("<8H", arm9, 0x4BF68, *(u + [0] * (8 - len(u))))
     # repoint dress tables (getName / getDesc ids 0x23..0x3A)
     struct.pack_into("<I", arm9, 0x2E47C, name_addr)
     assert struct.unpack_from("<I", arm9, 0x2E468)[0] == 0xB3A0000E

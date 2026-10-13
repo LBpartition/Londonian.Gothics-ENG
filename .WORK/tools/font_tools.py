@@ -7,10 +7,15 @@ import struct, sys, hashlib
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild
-from glyph_table import build as build_table
 
 W = Path(__file__).resolve().parent.parent
 ORIG = W / "rom" / "JPN-original.nds"
+def build_table():
+    """Original glyphs (0x000-0x246): id -> character, read from tools-resources/glyph_table.tsv."""
+    rows = [l.rstrip("\n").split("\t") for l in open(W / "tools-resources" / "glyph_table.tsv", encoding="utf-8")][1:]
+    return {int(r[0], 16): r[1] for r in rows if r[0] and int(r[0], 16) < 0x247}
+
+
 T = build_table()
 C2G = {v: k for k, v in T.items() if len(v) == 1}
 SPACE, APOS, NL = 0x247, 0x248, 0xFFFF

@@ -2,8 +2,7 @@
 and the English character -> glyph code map, both read from tools-resources/glyph_table.tsv."""
 import struct
 from pathlib import Path
-from font_tools import glyph_tiles, pack_glyph
-from glyph_table import build as build_table
+from font_tools import glyph_tiles, pack_glyph, build_table
 
 ORIG_GLYPHS = 583
 TSV = Path(__file__).resolve().parents[1] / "tools-resources" / "glyph_table.tsv"

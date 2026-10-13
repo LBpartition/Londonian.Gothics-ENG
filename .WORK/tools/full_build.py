@@ -75,8 +75,8 @@ def main(out_dir, name="FULL-Dialogue", rc=None):
                 n_fail += 1; rep.append(f"{fname}\t{i}\tFAIL:{ex}\t\t{en}")
         changes[sid] = sp_tool.rebuild(d, info, new)
     import intro_patch
-    import font_patch as FP, glyph_table
-    gt = glyph_table.build()
+    import font_patch as FP, font_tools
+    gt = font_tools.build_table()
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     n_loc = 0
     for path, sid in ids.items():
