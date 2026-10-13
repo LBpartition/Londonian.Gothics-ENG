@@ -83,8 +83,8 @@ DRESSES (DRESS MODE)
     bazooka.
 
 07. Ferminio
-    Teleport a few feet away in
-    a random direction.
+    Teleport a few feet away 
+    in a random direction.
 
 08. Blizzariel
     Walk over top of lava and
@@ -95,18 +95,18 @@ DRESSES (DRESS MODE)
     DP gauge refills faster.
 
 10. Cannelle
-    Knock enemy completely off
-    the map via bazooka.
+    Knock enemy off the map 
+    completely via bazooka.
     (Lethal)
 
 11. Twincavia
-    Shoot lightning out all 3
-    squares ahead.
+    Shoot lightning 
+    Forward by 3 squares.
     Stuns anything hit.
 
 12. Survey
-    Pause action and survey the
-    map as desired.
+    Pause action and survey
+    the map as desired.
 
 13. Manaclis
     Shrink to fit through
@@ -126,8 +126,8 @@ DRESSES (DRESS MODE)
     dying. Drains all DP.
 
 17. Argus
-    Usable only in the endgame
-    scenario.
+    Usable only in the 
+    endgame scenario.
 
 18. Satiend
     Teleport a long distance
@@ -143,8 +143,8 @@ DRESSES (DRESS MODE)
     via bazooka.
 
 21. Torpedone
-    Shoot lightning on all
-    squares immediately
+    Shoot lightning
+    All squares immediately
     surrounding Alice.
 
 22. Bekiradin
@@ -176,8 +176,8 @@ ITEMS
     White yarnball
 
 06. Roadesu
-    Spindle of magic blonde
-    thread
+    Spindle of magic
+    blonde thread
 
 07. Tyuunu
     Fabric of brown monster hide
@@ -234,8 +234,8 @@ ITEMS
     brown feathers on handle
 
 22. Masaeru
-    Silver disc with maze-like
-    pattern engraved
+    Silver disc with engraved
+    maze-like pattern 
 
 23. Oreusu
     White measuring tape with
@@ -256,8 +256,8 @@ ITEMS
     Angel wings cape
 
 28. Maanesu
-    Red rose and leaves choker
-    ribbon
+    Red rose and leaves 
+    choker ribbon
 
 29. Tareosu
     Red ribbon bow with
@@ -434,8 +434,8 @@ Alice:
     this time?
 
 Mikhail:
-    He's been spirited away by
-    monsters.
+    He's been spirited away
+    by monsters.
 
 Alice:
     Wait, what?!
@@ -570,7 +570,7 @@ Mikhail:
     I'll entrust his fate to you.
 
 Alice:
-    Whoa, instant flip-flop o_O.
+    Whoa, instant flip-flop o_O
 
 Mikhail:
     What have we here?
