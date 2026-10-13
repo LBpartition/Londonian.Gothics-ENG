@@ -59,6 +59,11 @@ def main():
         if e[key] != new:
             changed.append(f"{label}: {e[key]!r} -> {new!r}"); e[key] = new
 
+    cr = [l.strip() for l in S["TITLE SCREEN CREDITS"] if l.strip() and not l.startswith("(<RC>")]
+    if [e["en"] for e in EN["credits"]] != cr:
+        changed.append(f"credits: {[e['en'] for e in EN['credits']]!r} -> {cr!r}")
+        EN["credits"] = [{"en": t} for t in cr]
+
     intro = blocks(S["INTRO (PROLOGUE STORY ROLL)"])
     assert len(intro) == len(EN["intro"]), "intro block count changed"
     for e, b in zip(EN["intro"], intro):

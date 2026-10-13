@@ -1,4 +1,4 @@
-﻿# Translating Londonian Gothics to other languages
+# Translating Londonian Gothics to other languages
 
 This guide explains how to make your own translation patch from the files in this repository.
 
@@ -9,7 +9,7 @@ This guide explains how to make your own translation patch from the files in thi
 3. [Editing the text](#3-editing-the-text)
 4. [Building and checking your patch](#4-building-and-checking-your-patch)
 5. [The font: adding your own letters (`glyph_table.tsv`)](#5-the-font-adding-your-own-letters-glyph_tabletsv)
-6. [Text that is not in the script](#6-text-that-is-not-in-the-script)
+6. [Text drawn with a different font](#6-text-drawn-with-a-different-font)
 7. [What each tool does](#7-what-each-tool-does)
 
 ---
@@ -51,7 +51,7 @@ This unpacks the ROM into `.WORK\extracted\`, which the build needs.
 | `script_jp.json` | The original Japanese text, in the same order as `script_en.json`. | No, reference only |
 | `ShadowRisae-Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
 
-`script_en.json` has these sections: **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**.
+`script_en.json` has these sections: **credits** (title screen), **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**.
 
 ---
 
@@ -79,9 +79,24 @@ A dialogue box shows **3 lines**.
 - **In `SCRIPT - FULL.txt`:** a `---` line starts a new box. You *can* add or remove `---` lines inside a dialogue entry to split its text over more or fewer boxes. A box with fewer than 3 lines is padded with blank lines automatically. This only changes how that entry's text is split into boxes, not the entries themselves.
 - **In `script_en.json`:** every 3 lines is one box. Add blank lines `""` to pad a box so the next line starts in a new box.
 
-### Things you can ignore
+### Title screen credits
 
-- `"source"` in `script_en.json` only records where the English came from (`shadowrisae` = the guide, `mtl` = machine translation). It does not affect the build.
+The first section (`TITLE SCREEN CREDITS` in `SCRIPT - FULL.txt`, `credits` in `script_en.json`) is the text shown on the title screen's bottom screen. It is only added to the ROM when you pass a build number to the build (see [section 4](#4-building-and-checking-your-patch)).
+
+- Up to **4 lines**, each must fit the screen width (the build stops if a line is too wide).
+- These placeholders are filled in by the build:
+
+| Placeholder | Replaced with |
+|---|---|
+| `<RC>` | The build number you pass to `full_build.py` (e.g. `1`) |
+| `<HUMAN>` | % of entries whose `"source"` is not `mtl` |
+| `<MTL>` | % of entries whose `"source"` is `mtl` |
+
+### `"source"`
+
+Every entry in `script_en.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages** in the credits. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries.
+
+If the percentages don't make sense for your translation, either change the `"source"` values in `script_en.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
 
 ---
 
@@ -97,6 +112,12 @@ python tools\script_import.py
 
 ```
 python tools\full_build.py out MyTranslation
+```
+
+To include the title screen credits, add a build number as a third argument (it replaces `<RC>`):
+
+```
+python tools\full_build.py out MyTranslation 1
 ```
 
 This creates:
@@ -176,15 +197,9 @@ If one of the game's original glyphs (`0x000`-`0x246`) already looks like the ch
 
 ---
 
-## 6. Text that is not in the script
+## 6. Text drawn with a different font
 
-- **Title screen credit lines** are in `tools\add_patch_credits.py` (the `default_lines` function). Edit them there. To show them on the title screen, add a third argument to the build command:
-
-  ```
-  python tools\full_build.py out MyTranslation 1
-  ```
-
-- **The intro story and the SAVE/LOAD prompts** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`). They still take their text from `script_en.json`, and `glyph_table.tsv` does not apply to them. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those two files.
+- **The intro story, the SAVE/LOAD prompts and the title screen credits** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`, `tools\add_patch_credits.py`). They still take their text from `script_en.json`, and `glyph_table.tsv` does not apply to them. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those files.
 
 ---
 
@@ -214,6 +229,6 @@ You only run the **4 scripts** at the top. The rest are used by them automatical
 | `ui_patch.py` | Dress, item and menu text |
 | `intro_patch.py` | Draws the intro story text (a picture) |
 | `save_load_patch.py` | Draws the SAVE/LOAD prompts (also a picture) |
-| `add_patch_credits.py` | Title screen credit lines |
+| `add_patch_credits.py` | Draws the title screen credits; works out the `<HUMAN>` / `<MTL>` percentages |
 | `ndsbuild.py` | Rebuilds the ROM |
 | `repack_contig.py` | ROM file layout that also runs on 3DS (nds-bootstrap) |

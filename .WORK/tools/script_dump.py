@@ -36,6 +36,10 @@ def main():
           "Dialogue is in approximate playthrough order (following the guide);",
           "a new --- Location --- header starts whenever the scene changes."]
 
+    hr("TITLE SCREEN CREDITS")
+    o += ["(<RC> = build number, <HUMAN> / <MTL> = % of entries by source; max 4 lines)", ""]
+    o += [e["en"] for e in master.EN["credits"]]
+
     hr("INTRO (PROLOGUE STORY ROLL)")
     _, blocks = intro_patch.layout()
     for _, lines in blocks:

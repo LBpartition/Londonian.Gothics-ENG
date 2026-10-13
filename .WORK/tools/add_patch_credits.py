@@ -28,9 +28,14 @@ def shares():
 
 
 def default_lines(rc):
+    """Credit lines from the "credits" section of script_en.json (max 4 lines).
+    <RC> = build number (3rd argument of full_build.py), <HUMAN> / <MTL> = shares() in %."""
+    import master
     g, m = shares()
-    return [f"ENG-RC{rc}", f"{round(g)}% Human translation by ShadowRisae",
-            f"{round(m)}% Machine translation", "Patch by LBpartition"]
+    lines = [e["en"].replace("<RC>", str(rc)).replace("<HUMAN>", str(round(g))).replace("<MTL>", str(round(m)))
+             for e in master.EN["credits"]]
+    assert len(lines) <= 4, "max 4 credit lines"
+    return lines
 
 
 def render(lines):

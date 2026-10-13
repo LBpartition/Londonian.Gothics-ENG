@@ -1,4 +1,18 @@
 {
+ "credits": [
+  {
+   "en": "ENG-RC<RC>"
+  },
+  {
+   "en": "<HUMAN>% Human translation by ShadowRisae"
+  },
+  {
+   "en": "<MTL>% Machine translation"
+  },
+  {
+   "en": "Patch by LBpartition"
+  }
+ ],
  "intro": [
   {
    "block": 1,
