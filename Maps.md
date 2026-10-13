@@ -1,87 +1,83 @@
-Credit - ShadowRisae
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-V. LEVEL MAPS AND ITEM DROPS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* It is important to understand that the item drops noted below are valid, but
-   not necessarily a complete list of what each given monster can drop.
-* Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes
-   third item, e)money, or f)nothing at all when defeated. Drops I got are in
-   the maps below, but you might get additional drops not listed. The monster
-   abbreviations used are explained at the very end of this section.
-* Doors to the rooms are shown in their relative positions so you know about
-   where to look for the exits.
-* Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
-* You will need at least 2000L by the end of the game, but otherwise money is
-   optional throughout since the things you can buy are the same items that
-   monsters drop. 9999L is the cap.
-* The sewing room on B7F is a good place to go if you're near a sanctuary but
-   not a sewing room on your floor.  It's quick to go north and destroy the
-   bordermoon that's just inside the door, which then opens up the sewing
-   room to the south.
+# Maps
 
-Legend:
--------------
-/// = Bordermoon orb room
-vvv = Exit to next floor down
-;;; = Entry from previous floor up
-~~~ = Safe room
-#   = number of magic circles to step on in that room (upper right corner)
+*Credit - ShadowRisae*
 
-Monster Abbreviations
--------------
-AR = red angel
-AW = white angel
-AX = axe-wielding nightcap
-BB = black bat
-BR = red bat
-CA = cannon
-CE = cerberus, white & red
-CY = cerberus, yellow & gray
-CH = chicken
-DG = green dragon
-DR = red dragon
-FG = green frog
-FP = purple frog
-GA = gargoyle
-GO = gorilla and baby, orange
-GR = red gargoyle
-GS = gorilla and baby, silver
-HO = horse
-IM = iron maiden
-KB = blue lance knight
-KR = red lance knight
-LB = blue lamia
-LG = green lamia
-LP = purple lamia
-MG = ghost maid
-OC = octopus
-OP = purple octopus
-OG = green ogre
-OR = red ogre
-PI = ice phoenix
-PO = orange phoenix
-SA = sack
-SB = blue sahagin
-SH = sahagin
-SP = spider
-SR = red spider
-ST = stone golem
-SW = blue stone golem
-VA = vampire
-WA = azure blue worm
-WB = blue wolf
-WG = gray wolf
-WP = purple worm
-WZ = wizard
-YB = blue fairy (yousei)
-YG = green fairy (yousei)
-YO = yokai
-ZO = zombie
-ZP = purple zombie
+## V. LEVEL MAPS AND ITEM DROPS
 
+- It is important to understand that the item drops noted below are valid, but not necessarily a complete list of what each given monster can drop.
+- Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes third item, e)money, or f)nothing at all when defeated. Drops I got are in the maps below, but you might get additional drops not listed. The monster abbreviations used are explained at the very end of this section.
+- Doors to the rooms are shown in their relative positions so you know about where to look for the exits.
+- Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
+- You will need at least 2000L by the end of the game, but otherwise money is optional throughout since the things you can buy are the same items that monsters drop. 9999L is the cap.
+- The sewing room on B7F is a good place to go if you're near a sanctuary but not a sewing room on your floor.  It's quick to go north and destroy the bordermoon that's just inside the door, which then opens up the sewing room to the south.
 
-*Manor 2F
+### Legend
 
+| Symbol | Meaning |
+|---|---|
+| `///` | Bordermoon orb room |
+| `vvv` | Exit to next floor down |
+| `;;;` | Entry from previous floor up |
+| `~~~` | Safe room |
+| `#` | number of magic circles to step on in that room (upper right corner) |
+
+### Monster Abbreviations
+
+| Code | Monster |
+|---|---|
+| `AR` | red angel |
+| `AW` | white angel |
+| `AX` | axe-wielding nightcap |
+| `BB` | black bat |
+| `BR` | red bat |
+| `CA` | cannon |
+| `CE` | cerberus, white & red |
+| `CY` | cerberus, yellow & gray |
+| `CH` | chicken |
+| `DG` | green dragon |
+| `DR` | red dragon |
+| `FG` | green frog |
+| `FP` | purple frog |
+| `GA` | gargoyle |
+| `GO` | gorilla and baby, orange |
+| `GR` | red gargoyle |
+| `GS` | gorilla and baby, silver |
+| `HO` | horse |
+| `IM` | iron maiden |
+| `KB` | blue lance knight |
+| `KR` | red lance knight |
+| `LB` | blue lamia |
+| `LG` | green lamia |
+| `LP` | purple lamia |
+| `MG` | ghost maid |
+| `OC` | octopus |
+| `OP` | purple octopus |
+| `OG` | green ogre |
+| `OR` | red ogre |
+| `PI` | ice phoenix |
+| `PO` | orange phoenix |
+| `SA` | sack |
+| `SB` | blue sahagin |
+| `SH` | sahagin |
+| `SP` | spider |
+| `SR` | red spider |
+| `ST` | stone golem |
+| `SW` | blue stone golem |
+| `VA` | vampire |
+| `WA` | azure blue worm |
+| `WB` | blue wolf |
+| `WG` | gray wolf |
+| `WP` | purple worm |
+| `WZ` | wizard |
+| `YB` | blue fairy (yousei) |
+| `YG` | green fairy (yousei) |
+| `YO` | yokai |
+| `ZO` | zombie |
+| `ZP` | purple zombie |
+
+### Manor 2F
+
+```
    -----------------------------------------------------
    |Nabokov's|   |     Guest  | Guest  |   |  late     |
    | Bedroom     |   | Room   | Room   |   _  Madame's |
@@ -95,10 +91,13 @@ ZP = purple zombie
    |                 |                 |    Alice's    |
    | Piano Room      |     2F Hall     |    Bedroom    |
    -----------------------------------------------------
+```
 
-*Manor 1F
-(warp into labyrinth opens in Pantry, after B2F)
+### Manor 1F
 
+- (warp into labyrinth opens in Pantry, after B2F)
+
+```
    -----------------------------------------------------
    | Butler's| Maid's |    Kitchen   | Pantry   |      |
    | Room    | Room   |              |  *       |------|
@@ -114,21 +113,26 @@ ZP = purple zombie
    |                 |                 |               |
    | Guest Room      -   Genkan Hall   -   Guest Room  |
    -----------------------------------------------------
+```
 
-*Manor B1F
-(hole to labyrinth B1F)
+### Manor B1F
 
+- (hole to labyrinth B1F)
+
+```
    -----------------
    |  *            |
    | Laboratory    |
    |            /up/
    -----------------
+```
 
+### Labyrinth B1F [dungeon-style rooms]
 
-*Labyrinth B1F                       [dungeon-style rooms]
-(story upon touching bordermoon orb)
-(pattern for Bekiradin)
+- (story upon touching bordermoon orb)
+- (pattern for Bekiradin)
 
+```
          ;;;
     --------------
     | ZO:roadesu |
@@ -145,11 +149,14 @@ ZP = purple zombie
         / WP:roadesu  /
         ///////////////
           vvv
+```
 
-*B2F
-(story upon entry)
-(pattern for Manaclis)
+### B2F
 
+- (story upon entry)
+- (pattern for Manaclis)
+
+```
                      ;;;
    ~~~~~~~~~~~~~    --------------
    ~ Sanctuary ~ -- | WP:roadesu |
@@ -166,8 +173,11 @@ ZP = purple zombie
                         / ZO:kuahha            /
                         ////////////////////////
                                            vvv
+```
 
-*B3F
+### B3F
+
+```
     ;;;
    -------------7
    | SA:roadesu |
@@ -178,12 +188,14 @@ ZP = purple zombie
    / BB:lisufa / -- | SA:roadesu |vvv
    / BB:lisufa /    | SA:roadesu |
    /////////////    --------------
+```
 
+### B4F
 
-*B4F
-(patterns for Scuart & Litense)
-(story upon entering bordermoon room)
+- (patterns for Scuart & Litense)
+- (story upon entering bordermoon room)
 
+```
       -----------------------
    ;;;| WP:roadesu / lisufa |
       | WP:roadesu          |
@@ -204,11 +216,13 @@ ZP = purple zombie
     ~~~~~~~~~~    / WP:awizu / borodi     /
     *Litense      /////////////////////////
                                        vvv
+```
 
+### B5F
 
-*B5F
-(story upon entering sanctuary)
-(pattern for Ferminio)
+- (story upon entering sanctuary)
+- (pattern for Ferminio)
+```
                                       ;;;
                                 ---------------
                                 | BR:wariyagu |
@@ -225,10 +239,11 @@ ZP = purple zombie
              / BR:tyuunu / borodi  / *Ferminio
              / Vampire             /
              ///////////////////////
+```
 
+### B6F
 
-*B6F
-
+```
    -----------------------6
    | SA:osubiya           |;;;
    | ZB:tyuunu / wariyagu |
@@ -243,11 +258,13 @@ ZP = purple zombie
          / FG:tyuunu / irumari /
          / BR:tuuka            /vvv
          ///////////////////////
+```
 
+### B7F [prison-style rooms]
 
-*B7F                                        [prison-style rooms]
-(story in safe area)
+- (story in safe area)
 
+```
       ------------------------7    //////////////////////
    ;;;| SP:wariyagu / masaeru | -- / OG:irumari / awizu /
       | SP:wariyagu / masaeru |    / OG:irumari / awizu /
@@ -260,11 +277,13 @@ ZP = purple zombie
                                                 ~~~~~~~~~~
                                                 ~ Sewing ~
                                                 ~~~~~~~~~~
+```
 
+### B8F
 
-*B8F
-(patterns for Riffcowl & Domudia)
+- (patterns for Riffcowl & Domudia)
 
+```
       ---------------
    ;;;| KR:wariyagu | *Domudia
       | KR:reshiefu |
@@ -280,14 +299,16 @@ ZP = purple zombie
                                   / BB:tyuunu           / -- ~ Sewing ~
                                   ///////////////////////    ~~~~~~~~~~
                                              vvv
+```
 
+### B9F
 
-*B9F
-(pattern for Stradia)
-(sales of wariyagu, borodi, seruti, irumari, masaeru)
+- (pattern for Stradia)
+- (sales of wariyagu, borodi, seruti, irumari, masaeru)
 
+```
     ;;;
-   ----------------------           
+   ----------------------
    | BB:osubiya / awizu |              ~~~~~~~~~~~~~
    | xx:seruti / aigizu |              ~ Sanctuary ~
    ----------------------              ~~~~~~~~~~~~~
@@ -301,10 +322,11 @@ ZP = purple zombie
                 | YO:osubiya / formoru |
                 | BB:osubiya / rudorin |
                 ------------------------
+```
 
+### B10F
 
-*B10F
-
+```
       --------------
    ;;;| KB:zoriano |    --------------
       | IM:seruti  | -- | SR:dareifu |
@@ -320,12 +342,14 @@ ZP = purple zombie
                   vvv/ YO:gurasuto / fomoru / kuahha /
                      / YO:aigizu / gurasuto / fomoru /
                      /////////////////////////////////
+```
 
+### B11F
 
-*B11F
-(story upon entry)
-(pattern for Proteus)
+- (story upon entry)
+- (pattern for Proteus)
 
+```
               ---------------    -----------------------
            vvv| KB:gurasuto | -- | SR:rewiza / dareifu |;;;
               | MG:kuahha   |    | IM:aigizu           | *Proteus
@@ -340,10 +364,11 @@ ZP = purple zombie
                 ~~~~~~~~~~
                 ~ Sewing ~
                 ~~~~~~~~~~
+```
 
+### B12F
 
-*B12F
-
+```
     --------------6
     | SH: irumari |    -----------------------7
     | SR: rudorin | -- | YO:rewiza / kuahha   |
@@ -353,7 +378,9 @@ ZP = purple zombie
             -----------------------7
             | KB:reshiefu / aigizu |
             | SR:rewiza / dareifu  |
+```
 
+```
             ------------------------
                |
    ////////////////////////
@@ -362,11 +389,13 @@ ZP = purple zombie
    / OR:aigizu / reshiefu /
    ////////////////////////
              vvv
+```
 
+### B13F [forest cave rooms]
 
-*B13F                                             [forest cave rooms]
-(sales of rudorin, kuahha, tuuka, aigizu, osubiya)
+- (sales of rudorin, kuahha, tuuka, aigizu, osubiya)
 
+```
                        ;;;
                  -------------8
                  | OC:osubiya |
@@ -388,11 +417,13 @@ ZP = purple zombie
    vvv/ FG:rudorin / osubiya /
       / Fairy                /
       ////////////////////////
+```
 
+### B14F
 
-*B14F
-(patterns for Blizzariel and Twincavia)
+- (patterns for Blizzariel and Twincavia)
 
+```
                             -------------8
                             | WA:dareifu |;;;
                             | OC:kuahha  | *Blizzariel
@@ -405,11 +436,13 @@ ZP = purple zombie
    | Wizard      |    ///////////////////////
    ---------------       *Twincavia
         vvv
+```
 
+### B15F
 
-*B15F
-(story upon entering safe room)
+- (story upon entering safe room)
 
+```
                            ;;;
                   ---------------
                   | SH:reshiefu |
@@ -422,7 +455,7 @@ ZP = purple zombie
    | SH:fomoru / radokuya | -- ~        ~ -- ~ Sanctuary ~
    ------------------------    ~~~~~~~~~~    ~~~~~~~~~~~~~
                                     |
-                                -------------7 
+                                -------------7
                                 | OP:nyukusu |
                                 | OP:aigizu  |
                                 | OP:seitse  |
@@ -433,10 +466,12 @@ ZP = purple zombie
                                        / OP:zoriano /
                                     vvv/ WA:roadesu /
                                        //////////////
+```
 
+### B16F
 
-*B16F
-(pattern for Epinephre)
+- (pattern for Epinephre)
+```
                                      ----------------------9
                                      | AX:tuuka            |;;;
                    //////////////    | FG:reshiefu         |
@@ -449,11 +484,13 @@ ZP = purple zombie
    | OP:roadesu |    | WA:roadesu           |
    --------------    | SH:radokuya / fomoru |
         vvv          ------------------------
+```
 
+### B17F
 
-*B17F
-(sales of roadesu, lisufa, nyukusu, zoriano, seruti)
+- (sales of roadesu, lisufa, nyukusu, zoriano, seruti)
 
+```
       ;;;
    ------------------------6
    | SH:nyukusu / reshiefu |    ---------------    /////////////
@@ -461,11 +498,13 @@ ZP = purple zombie
    -------------------------    | OP:irumari  |    / Fairy     /
                                 ---------------    /////////////
                                    vvv
+```
 
+### B18F [volcano caves rooms]
 
-*B18F                                               [volcano caves rooms]
-(pattern for Tranquille)
-(story upon entry)
+- (pattern for Tranquille)
+- (story upon entry)
+```
                                        ;;;
                 ~~~~~~~~~~~~~    --------------
                 ~ Sanctuary ~ -- | PO:zoriano |
@@ -483,11 +522,13 @@ ZP = purple zombie
                   / DG:seruti             /    ~~~~~~~~~~
                   /////////////////////////
                      vvv  *Tranquille
+```
 
+### B19F
 
-*B19F
-(sales of akubaru, rewiza, tyuunu, kuahha, seruti)
+- (sales of akubaru, rewiza, tyuunu, kuahha, seruti)
 
+```
                       ;;;
                 -------------
                 | DG:lisufa |
@@ -511,12 +552,14 @@ ZP = purple zombie
         / SA:rudorin /
         / Wizard     /
         //////////////
+```
 
+### B20F
 
-*B20F
-(patterns for Dewlit & Iscarpe)
-(story upon entry)
+- (patterns for Dewlit & Iscarpe)
+- (story upon entry)
 
+```
                                     --------------
                                     | SA:irumari |
                                     | CA:lisufa  |
@@ -533,10 +576,12 @@ ZP = purple zombie
    vvv| PI:sarissa / formoru |    ~~~~~~~~~~~~~
       ------------------------
               *Iscarpe
+```
 
+### B21F
 
-*B21F
-(pattern for Satiend)
+- (pattern for Satiend)
+```
                                    ----------------------
                                    | GR:seitse / tyuunu |;;;
                                    | DR:tuuka           |
@@ -555,11 +600,13 @@ ZP = purple zombie
    | DG:lisufa |
    -------------
             vvv
+```
 
-     
-*B22F                                   [stonewall tunnel rooms]
-(story upon entering 3rd room)
+### B22F [stonewall tunnel rooms]
 
+- (story upon entering 3rd room)
+
+```
                               ;;;
                       -------------9
                       | ST:tuuka   |
@@ -583,11 +630,13 @@ ZP = purple zombie
                  / BB:irumari / akubaru /
                  / MG:akubaru / dareifu /
                  ////////////////////////
+```
 
+### B23F
 
-*B23F
-(pattern for Shrake)
+- (pattern for Shrake)
 
+```
                                ;;;
                          --------------9
         *Shrake          | SW:dareifu  |    --------------
@@ -602,11 +651,13 @@ ZP = purple zombie
    | CE:akubaru / aigizu |
    | ST:fomoru / aigizu  |vvv
    -----------------------
+```
 
+### B24F
 
-*B24F
-(sales of awizu, irumari, fomoru, nyukusu, sarissa)
+- (sales of awizu, irumari, fomoru, nyukusu, sarissa)
 
+```
       ~~~~~~~~~~~~~
       ~ Sanctuary ~
       ~~~~~~~~~~~~~
@@ -627,10 +678,12 @@ ZP = purple zombie
                  | IM:reshiefu |
                  | WG:irumari  |
                  ---------------
+```
 
+### B25F
 
-*B25F
-(pattern for Cannelle)
+- (pattern for Cannelle)
+```
                             ;;;
                           --------------    -----------------------8
                           | SW:yeun    | -- | MG:lisufa / irumari  |
@@ -651,12 +704,14 @@ ZP = purple zombie
          | LG:osubiya / reshiefu | -- / WB:irumari / aigizu  /
          -------------------------    / SW:oreusu / tuuka    /vvv
                                       ////////////////////////
+```
 
+### B26F [fancy blue temple rooms]
 
-*B26F                                          [fancy blue temple rooms]
-(pattern for Torpedone)
-(sales of dareifu, lisufa, maanesu, tareosu)
+- (pattern for Torpedone)
+- (sales of dareifu, lisufa, maanesu, tareosu)
 
+```
             -------------------8    ------------
          ;;;| AW:tareosu       |    | AX:tuuka |
             | ST:yeun / aigizu | -- | AX:awizu |
@@ -676,8 +731,11 @@ ZP = purple zombie
                         ~~~~~~~~~~~~~                              vvv
                         ~ Sanctuary ~
                         ~~~~~~~~~~~~~
+```
 
-*B27F
+### B27F
+
+```
                                              ;;;
                                  ---------------------
                                  | ZO:lisufa         |
@@ -699,12 +757,15 @@ ZP = purple zombie
                                         |
    ~~~~~~~~~~~~~    -----------------------    ~~~~~~~~~~
    ~ Sanctuary ~ -- | IM:lisufa           | -- ~ Sewing ~
-   ~~~~~~~~~~~~~    | AW:eushu / tuuka    |    ~~~~~~~~~~ 
+   ~~~~~~~~~~~~~    | AW:eushu / tuuka    |    ~~~~~~~~~~
                     | KR:lisufa / nyukusu |
                     -----------------------
                                         vvv
+```
 
-*B28F
+### B28F
+
+```
             ;;;
    -----------------------
    | CH:akubaru / oreusu |
@@ -733,10 +794,11 @@ ZP = purple zombie
     | YB:maanesu / gurasuto |
     -------------------------
                          vvv
+```
 
+### B29F [purple cave rooms]
 
-*B29F                                        [purple cave rooms]
-
+```
                               ;;;
    -------------9    ---------------------9    ---------------------8
    | HO:fomoru  | -- | YO:aigizu / lisufa |    | GO:tyuunu / oreusu |
@@ -758,12 +820,14 @@ ZP = purple zombie
                                / Wizard    /    ~~~~~~~~~~~~~
                                /////////////
                                         vvv
+```
 
+### B30F
 
-*B30F
-(sales of akubaru, roadesu, gurasuto, reshiefu, yeun)
-(story upon entry of safe room)
+- (sales of akubaru, roadesu, gurasuto, reshiefu, yeun)
+- (story upon entry of safe room)
 
+```
                      ;;;
                --------------
                | YO:fomoru  |
@@ -779,8 +843,8 @@ ZP = purple zombie
    | WA:oreusu  |    ~~~~~~~~~~~~~    | WZ:fomoru |    / CY:tyuunu /
    | WA:akubaru |    ~ Sanctuary ~ -- | Fairy     | -- / Vampire   /
    | HO:fomoru  |    ~~~~~~~~~~~~~    -------------    /////////////
-   --------------                                                 | 
+   --------------                                                 |
                                                           ~~~~~~~~~~
                                                           ~ Sewing ~
                                                           ~~~~~~~~~~
-
+```
