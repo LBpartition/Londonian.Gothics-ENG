@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ROM = ROOT / "rom" / "JPN-original.nds"
-OUT = ROOT / "phase1"
+OUT = ROOT / "-Extracted-ROM-Report"
 EXT = ROOT / "extracted"
 EXPECTED_SHA = "3DC0FAF62B3922078532B587C6823A97CA9CE0A893F55CF17F94B3B3FCD861B6"
 
@@ -166,7 +166,6 @@ def main():
         nr2 = ndspy.rom.NintendoDSRom(rebuilt)
         rt["all_files_identical_after_rebuild"] = all(nr2.files[i] == nr.files[i] for i in range(nfiles))
         rt["arm9_identical_after_rebuild"] = nr2.arm9 == nr.arm9
-        (ROOT / "rom" / "roundtrip_ndspy.nds").write_bytes(rebuilt)
 
     report = {
         "rom_sha256": sha(rom), "rom_crc32": f"{zlib.crc32(rom):08X}", "rom_size": len(rom),
