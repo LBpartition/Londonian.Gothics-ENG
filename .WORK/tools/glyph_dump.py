@@ -102,7 +102,7 @@ def main():
         out.append(f"note: {r['note']}")
         out += ["", SEP]
         out += [row.replace(".", " ").rstrip() for row in grid]
-        out += ["", SEP, ""]
+        out += [SEP, ""]
     TXT.write_text("\n".join(out), encoding="utf-8")
     print(f"wrote {TXT} ({len(out)} lines)")
     draw_sheet(sheet)
