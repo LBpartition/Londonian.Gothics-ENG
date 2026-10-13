@@ -1,10 +1,10 @@
-"""Export tools-resources/glyph_table.tsv to tools-resources/GLYPHS - FULL.txt,
+"""Export tools-resources/_glyph_table.tsv to tools-resources/GLYPHS - EDIT and IMPORT.txt,
 an easy-to-edit text file with every glyph drawn as a 16x16 grid of characters,
-plus GLYPHS - FULL.png, a picture of every glyph (for reference only).
+plus GLYPHS - PREVIEW.png, a picture of every glyph (for reference only).
 
 Original glyphs (0x000-0x246) are drawn from the game font (extracted/data/data/font.NCGR,
-created by extract_rom.py). CUSTOM glyphs (0x247 onwards) are drawn from glyph_table.tsv.
-Edit the text file, then run glyph_import.py to write the changes back into glyph_table.tsv.
+created by extract_rom.py). CUSTOM glyphs (0x247 onwards) are drawn from _glyph_table.tsv.
+Edit the text file, then run glyph_import.py to write the changes back into _glyph_table.tsv.
 
 Usage (from .WORK):  python tools\\glyph_dump.py
 """
@@ -15,9 +15,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from font_tools import glyph_tiles
 
 W = Path(__file__).resolve().parents[1]
-TSV = W / "tools-resources" / "glyph_table.tsv"
-TXT = W / "tools-resources" / "GLYPHS - FULL.txt"
-PNG = W / "tools-resources" / "GLYPHS - FULL.png"
+TSV = W / "tools-resources" / "_glyph_table.tsv"
+TXT = W / "tools-resources" / "GLYPHS - EDIT and IMPORT.txt"
+PNG = W / "tools-resources" / "GLYPHS - PREVIEW.png"
 FONT = W / "extracted" / "data" / "data" / "font.NCGR"
 ORIG_GLYPHS = 0x247
 SIZE = 16
@@ -25,11 +25,11 @@ SHADES = ".123456789ABCDEF"
 SEP = "-" * 41
 
 HEADER = """\
-GLYPHS - FULL.txt
+GLYPHS - EDIT and IMPORT.txt
 =================
-Every glyph in glyph_table.tsv, drawn as a 16 x 16 grid.
+Every glyph in _glyph_table.tsv, drawn as a 16 x 16 grid.
 Edit this file, then run:   python tools\\glyph_import.py
-(that writes your changes back into glyph_table.tsv; then build as usual).
+(that writes your changes back into _glyph_table.tsv; then build as usual).
 
 Each glyph is one block:
 
@@ -109,7 +109,7 @@ def main():
 
 
 def draw_sheet(glyphs):
-    """Picture of every glyph (id, char and en labels) -> GLYPHS - FULL.png."""
+    """Picture of every glyph (id, char and en labels) -> GLYPHS - PREVIEW.png."""
     from PIL import Image, ImageDraw, ImageFont
 
     def ttf(size):
@@ -123,11 +123,11 @@ def draw_sheet(glyphs):
     img = Image.new("RGB", (cols * cw + 20, top + (n + cols - 1) // cols * ch + 20), "white")
     d = ImageDraw.Draw(img)
     last = glyphs[-1][0]
-    d.text((10, 10), "Londonian Gothics - glyph table (GLYPHS - FULL.txt / glyph_table.tsv)", fill=0, font=f_hd)
+    d.text((10, 10), "Londonian Gothics - glyph table (GLYPHS - EDIT and IMPORT.txt / _glyph_table.tsv)", fill=0, font=f_hd)
     d.text((10, 44), f"{n} glyphs, 16x16 px. 0x000-0x{ORIG_GLYPHS - 1:03X} ORIGINAL Japanese font (grey); "
                      f"0x{ORIG_GLYPHS:03X}-0x{last:03X} CUSTOM (red).", fill=0, font=f_sm)
     d.text((10, 66), "Label under the id: the 'en' character you type in the script (blue), or the glyph's char if none (black).", fill=0, font=f_sm)
-    d.text((10, 88), "Made by glyph_dump.py / glyph_import.py - do not edit; edit GLYPHS - FULL.txt instead.", fill=0, font=f_sm)
+    d.text((10, 88), "Made by glyph_dump.py / glyph_import.py - do not edit; edit GLYPHS - EDIT and IMPORT.txt instead.", fill=0, font=f_sm)
     shade = {1: (0, 0, 0), 2: (110, 110, 110), 3: (190, 190, 190)}
     for k, (gid, r, grid) in enumerate(glyphs):
         x0, y0 = 10 + (k % cols) * cw, top + (k // cols) * ch

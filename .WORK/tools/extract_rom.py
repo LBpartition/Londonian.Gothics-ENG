@@ -7,7 +7,7 @@ import csv, hashlib, json, os, struct, sys, zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ROM = ROOT / "tools-resources" / "JPN_ROM.nds"
+ROM = ROOT / "tools-resources" / ".ROM_JPN.nds"
 OUT = ROOT / "out" / "Extracted-ROM-Report"
 EXT = ROOT / "extracted"
 EXPECTED_SHA = "3DC0FAF62B3922078532B587C6823A97CA9CE0A893F55CF17F94B3B3FCD861B6"

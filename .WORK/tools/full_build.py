@@ -1,5 +1,5 @@
 r"""Full dialogue build: TEST06 base (UI VWF + DRESS MODE) + dialogue VWF +
-all English text from tools-resources\script_en.json (exact in-game lines) inserted into the ROM.
+all English text from tools-resources\_script_en.json (exact in-game lines) inserted into the ROM.
 
   python tools\full_build.py <out_dir> [name]
 

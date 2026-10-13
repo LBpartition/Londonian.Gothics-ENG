@@ -9,10 +9,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 import ndsbuild
 
 W = Path(__file__).resolve().parent.parent
-ORIG = W / "tools-resources" / "JPN_ROM.nds"
+ORIG = W / "tools-resources" / ".ROM_JPN.nds"
 def build_table():
-    """Original glyphs (0x000-0x246): id -> character, read from tools-resources/glyph_table.tsv."""
-    rows = [l.rstrip("\n").split("\t") for l in open(W / "tools-resources" / "glyph_table.tsv", encoding="utf-8")][1:]
+    """Original glyphs (0x000-0x246): id -> character, read from tools-resources/_glyph_table.tsv."""
+    rows = [l.rstrip("\n").split("\t") for l in open(W / "tools-resources" / "_glyph_table.tsv", encoding="utf-8")][1:]
     return {int(r[0], 16): r[1] for r in rows if r[0] and int(r[0], 16) < 0x247}
 
 

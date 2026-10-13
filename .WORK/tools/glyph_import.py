@@ -1,5 +1,5 @@
-"""Import tools-resources/GLYPHS - FULL.txt (made by glyph_dump.py) back into
-tools-resources/glyph_table.tsv. See the header of GLYPHS - FULL.txt for the format.
+"""Import tools-resources/GLYPHS - EDIT and IMPORT.txt (made by glyph_dump.py) back into
+tools-resources/_glyph_table.tsv. See the header of GLYPHS - EDIT and IMPORT.txt for the format.
 
 Usage (from .WORK):  python tools\\glyph_import.py
 """
@@ -62,7 +62,7 @@ def _is_sep(line):
 
 
 def compact(grid):
-    """16x16 grid -> (top, pixels) in glyph_table.tsv form."""
+    """16x16 grid -> (top, pixels) in _glyph_table.tsv form."""
     ink = [y for y, row in enumerate(grid) if row.strip(".")]
     if not ink:
         return "0", ""

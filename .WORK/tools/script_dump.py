@@ -1,4 +1,4 @@
-"""Write tools-resources\\SCRIPT - FULL.txt from tools-resources/script_en.json (exact in-game lines)."""
+"""Write tools-resources\\SCRIPT - EDIT and IMPORT.txt from tools-resources/_script_en.json (exact in-game lines)."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -15,8 +15,7 @@ HL = lambda s: s.replace("{H}", "{").replace("{/H}", "}")   # {red highlighted t
 
 
 def main():
-    rpt = sorted(glob.glob(str(ROOT / "OUTPUTS" / "*" / "*fit_report.tsv")))
-    rc = Path(rpt[-1]).parent.name if rpt else "script_en.json"
+    rc = "_script_en.json"
     seq = master.EN["dialogue"]   # already in playthrough order
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     rom = t1.ORIG.read_bytes()
@@ -28,7 +27,7 @@ def main():
     hr = lambda t: o.extend(["", "=" * 60, t, "=" * 60, ""])
     o += ["LONDONIAN GOTHICS - LOLITA IN THE LABYRINTH",
           "Full Script + Descriptions (English patch)",
-          f"Generated from build: {rc}",
+          f"Generated from: {rc}",
           "",
           "Line breaks are exactly as the game wraps them. Dialogue boxes show 3",
           "lines at a time; '---' marks where the game pages to the next box.",
@@ -95,7 +94,7 @@ def main():
         if sl[s] != f:
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
-    out = W / "tools-resources" / "SCRIPT - FULL.txt"
+    out = W / "tools-resources" / "SCRIPT - EDIT and IMPORT.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")
     import add_patch_credits; print("shares %.1f%% / %.1f%%" % add_patch_credits.shares())

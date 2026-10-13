@@ -1,8 +1,8 @@
-GLYPHS - FULL.txt
+GLYPHS - EDIT and IMPORT.txt
 =================
-Every glyph in glyph_table.tsv, drawn as a 16 x 16 grid.
+Every glyph in _glyph_table.tsv, drawn as a 16 x 16 grid.
 Edit this file, then run:   python tools\glyph_import.py
-(that writes your changes back into glyph_table.tsv; then build as usual).
+(that writes your changes back into _glyph_table.tsv; then build as usual).
 
 Each glyph is one block:
 

@@ -2,21 +2,29 @@
 
 This guide explains how to make your own translation patch from the files in this repository.
 
-**Contents**
+**Steps**
 
-1. [Setup](#1-setup)
-2. [The text files](#2-the-text-files)
-3. [Editing the text](#3-editing-the-text)
-4. [Building and checking your patch](#4-building-and-checking-your-patch)
-5. [The font: adding your own letters (`GLYPHS - FULL.txt`)](#5-the-font-adding-your-own-letters-glyphs---fulltxt)
-6. [Text drawn with a different font](#6-text-drawn-with-a-different-font)
-7. [What each tool does](#7-what-each-tool-does)
+1. [Download or clone the repository](#1-download-or-clone-the-repository)
+2. [Install the requirements and add the ROM](#2-install-the-requirements-and-add-the-rom)
+3. [(Optional) Add your own letters: `GLYPHS - EDIT and IMPORT.txt`](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)
+4. [Translate the script: `SCRIPT - EDIT and IMPORT.txt`](#4-translate-the-script-script---edit-and-importtxt)
+5. [Build and test your patched ROM](#5-build-and-test-your-patched-rom)
+
+**Reference**
+
+- [The files in `tools-resources`](#the-files-in-tools-resources)
+- [Text drawn with a different font](#text-drawn-with-a-different-font)
+- [Editing `_script_en.json` / `_glyph_table.tsv` directly (advanced)](#editing-_script_enjson--_glyph_tabletsv-directly-advanced)
+- [What each tool does](#what-each-tool-does)
+
+> All commands in this guide are run from the `.WORK` folder.
+> All files you edit are in `.WORK\tools-resources\`.
 
 ---
 
-## 1. Setup
+## 1. Download or clone the repository
 
-First, get a copy of this repository. Either:
+Either:
 
 - **Download it:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip), then unzip it, or
 - **Clone it with Git:**
@@ -25,16 +33,20 @@ First, get a copy of this repository. Either:
   git clone https://github.com/LBpartition/Londonian.Gothics-ENG.git
   ```
 
-You also need **Windows** and **Python 3**, plus these Python packages:
+---
+
+## 2. Install the requirements and add the ROM
+
+You need **Windows** and **[Python 3](https://www.python.org/downloads/)**. Then, from the repository folder (the one containing `requirements.txt`), install the Python packages:
 
 ```
-pip install pillow keystone-engine ndspy
+pip install -r requirements.txt
 ```
 
 Put the untranslated Japanese ROM (game code **ALGJ**) here, with this exact name:
 
 ```
-.WORK\tools-resources\JPN_ROM.nds
+.WORK\tools-resources\.ROM_JPN.nds
 ```
 
 Then, from the `.WORK` folder, run this **once**:
@@ -45,131 +57,37 @@ python tools\extract_rom.py
 
 This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also writes a list of the ROM's files and a short report to `.WORK\out\Extracted-ROM-Report\` (for information only).
 
-> All commands in this guide are run from the `.WORK` folder.
-> All files you edit are in `.WORK\tools-resources\`.
-
 ---
 
-## 2. The text files
+## 3. (Optional) Add your own letters: `GLYPHS - EDIT and IMPORT.txt`
 
-| File | What it is | Edit it? |
-|---|---|---|
-| `script_en.json` | **All** text in the game, in playthrough order. This is what the build reads. | Yes (or edit `SCRIPT - FULL.txt` instead) |
-| `SCRIPT - FULL.txt` | The same text as `script_en.json`, laid out as an easy-to-read script. | Yes |
-| `glyph_table.tsv` | The font: which letters exist and what they look like. See [section 5](#5-the-font-adding-your-own-letters-glyphs---fulltxt). This is what the build reads. | Only to add letters (or edit `GLYPHS - FULL.txt` instead) |
-| `GLYPHS - FULL.txt` | The same font as `glyph_table.tsv`, with every glyph drawn as an easy-to-edit 16 × 16 picture. | Yes, to add or redraw letters |
-| `GLYPHS - FULL.png` | A picture of every glyph with its id and character, to quickly find a glyph. Updated by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
-| `script_jp.json` | The original Japanese text, in the same order as `script_en.json`. | No, reference only |
-| `ShadowRisae-Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
-
-`script_en.json` has these sections: **credits** (title screen), **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**.
-
----
-
-## 3. Editing the text
-
-Edit **either** `SCRIPT - FULL.txt` **or** `script_en.json`. Don't edit both at once: one overwrites the other (see [section 4](#4-building-and-checking-your-patch)).
-
-### The golden rule
-
-**Change the text only. Do not add, remove or reorder entries.**
-Each entry is matched to its place in the game by its position.
-
-### Formatting
-
-| You write | In-game result |
-|---|---|
-| `{H}word{/H}` in `script_en.json`, `{word}` in `SCRIPT - FULL.txt` | *word* shown in red (highlighted) |
-| Each separate line | A separate line on screen. Text is not re-wrapped for you. |
-| lower or UPPER case | Always shown in CAPITALS (the game's font is capitals only) |
-
-### Dialogue boxes
-
-A dialogue box shows **3 lines**.
-
-- **In `SCRIPT - FULL.txt`:** a `---` line starts a new box. You *can* add or remove `---` lines inside a dialogue entry to split its text over more or fewer boxes. A box with fewer than 3 lines is padded with blank lines automatically. This only changes how that entry's text is split into boxes, not the entries themselves.
-- **In `script_en.json`:** every 3 lines is one box. Add blank lines `""` to pad a box so the next line starts in a new box.
-
-### Title screen credits
-
-The first section (`TITLE SCREEN CREDITS` in `SCRIPT - FULL.txt`, `credits` in `script_en.json`) is the text shown on the title screen's bottom screen. It is only added to the ROM when you pass a build number to the build (see [section 4](#4-building-and-checking-your-patch)).
-
-- Up to **4 lines**, each must fit the screen width (the build stops if a line is too wide).
-- These placeholders are filled in by the build:
-
-| Placeholder | Replaced with |
-|---|---|
-| `<RC>` | The build number you pass to `full_build.py` (e.g. `1`) |
-| `<HUMAN>` | % of entries whose `"source"` is not `mtl` |
-| `<MTL>` | % of entries whose `"source"` is `mtl` |
-
-### `"source"`
-
-Every entry in `script_en.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages** in the credits. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries.
-
-If the percentages don't make sense for your translation, either change the `"source"` values in `script_en.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
-
----
-
-## 4. Building and checking your patch
-
-**Step 1 - only if you edited `SCRIPT - FULL.txt`:** copy your edits into `script_en.json`:
+Skip this step if your language only needs the letters that are already there:
 
 ```
-python tools\script_import.py
+A-Z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
 ```
 
-**Also only if you edited `GLYPHS - FULL.txt`:** copy your glyphs into `glyph_table.tsv`:
-
-```
-python tools\glyph_import.py
-```
-
-**Step 2 - build the ROM:**
-
-```
-python tools\full_build.py out Patched_ROM
-```
-
-To include the title screen credits, add a build number as a third argument (it replaces `<RC>`):
-
-```
-python tools\full_build.py out Patched_ROM 1
-```
-
-This creates:
-
-- `out\Patched_ROM.nds` - your patched ROM
-- `out\Patched_ROM_fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, then build again. If a character is missing from the font, the build stops and names it (see [section 5](#5-the-font-adding-your-own-letters-glyphs---fulltxt)).
-
-**Step 3 - only if you edited `script_en.json` directly:** update `SCRIPT - FULL.txt` to match:
-
-```
-python tools\script_dump.py
-```
-
-(Likewise, if you edited `glyph_table.tsv` directly, run `python tools\glyph_dump.py` to update `GLYPHS - FULL.txt`.)
-
-> **Warning:** `script_dump.py` overwrites `SCRIPT - FULL.txt`, and `script_import.py` overwrites `script_en.json`. The same goes for `glyph_dump.py` (`GLYPHS - FULL.txt`) and `glyph_import.py` (`glyph_table.tsv`). Run the one that matches the file you edited.
-
----
-
-## 5. The font: adding your own letters (`GLYPHS - FULL.txt`)
+Lower-case letters are not needed: everything is shown in capitals.
 
 ### How the font works
 
 The game draws text with a font of small pictures called **glyphs**. Each glyph is 16 × 16 pixels and has a number (its **id**, in hexadecimal):
 
 - **`0x000`-`0x246`** are the game's **ORIGINAL** Japanese glyphs. You can't redraw these, but you can reuse them (see below).
-- **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits and the narrow A-Z capitals. The build draws them into the game's font. You can redraw these and add more.
+- **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits and the narrow A-Z capitals. You can redraw these and add more.
 
-The font is stored in `glyph_table.tsv` (what the build reads). To make it easy to edit, the same font is also in **`GLYPHS - FULL.txt`**, with every glyph drawn as a picture. Edit `GLYPHS - FULL.txt`, then run `python tools\glyph_import.py` to copy your changes into `glyph_table.tsv`.
+Every glyph is in **`GLYPHS - EDIT and IMPORT.txt`**, drawn as a picture made of characters. Edit it, then import it (step 5 below).
 
-To find a glyph quickly, open **`GLYPHS - FULL.png`**: a sheet of every glyph with its id (ORIGINAL in grey, CUSTOM in red) and the character typed to get it. `glyph_import.py` redraws it each time, so it always matches the font.
+### The preview: `GLYPHS - PREVIEW.png`
 
-> `GLYPHS - FULL.txt` comes with the repository. If you ever need to recreate it from `glyph_table.tsv`, run `python tools\glyph_dump.py` (this overwrites `GLYPHS - FULL.txt`).
+To find a glyph quickly, open **`GLYPHS - PREVIEW.png`**. It is a sheet of every glyph:
 
-### What a glyph looks like in `GLYPHS - FULL.txt`
+- the **id** under each glyph (ORIGINAL in grey, CUSTOM in red boxes),
+- the character you type to get it, in **blue** (or, if it can't be typed, what it shows, in black).
+
+It is redrawn every time you import, so after importing you can open it to check your new letters.
+
+### What a glyph looks like
 
 Each glyph is one block. Here is the CUSTOM digit `9`:
 
@@ -213,17 +131,9 @@ The picture is the whole 16 × 16 cell:
 - **Up/down position matters.** The capitals and digits start on the 4th row (3 empty rows above) and are 11 rows tall, so keep new letters on the same rows. Accents can go in the empty rows above.
 - **Left/right position doesn't matter.** The build measures the inked columns of each glyph and spaces letters automatically. Just start at the left edge, like the existing letters.
 
-### Letters that are already available
-
-```
-A-Z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
-```
-
-Lower-case letters are not needed: everything is converted to capitals.
-
 ### Adding a new letter (e.g. `É`)
 
-1. **Copy a similar CUSTOM block** and paste it at the very **end** of `GLYPHS - FULL.txt`. For `É`, copy the block for `E` (`0x24F`).
+1. **Copy a similar CUSTOM block** and paste it at the very **end** of the file. For `É`, copy the block for `E` (`0x24F`).
 2. **Change the id** to the next number after the last glyph. The last glyph is `0x272`, so your first new glyph is `0x273`, then `0x274`, and so on. CUSTOM ids must count up **without gaps**.
 3. **Set `char:` and `en:`** to your character (`É`), and change the `note:`.
 4. **Draw it.** For `É`, the `E` already starts on row 4, so just add the accent in the two rows above it:
@@ -233,7 +143,7 @@ Lower-case letters are not needed: everything is converted to capitals.
    char: É
    en: É
    note: CUSTOM: E acute
-   
+
    -----------------------------------------
 
       11
@@ -251,52 +161,136 @@ Lower-case letters are not needed: everything is converted to capitals.
    11111
 
 
-   
+
    -----------------------------------------
    ```
 
-5. **Import it** into `glyph_table.tsv`:
+5. **Import it:**
 
    ```
    python tools\glyph_import.py
    ```
 
-   It lists the glyphs you changed. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
-6. **Use it** in your script: type `É` (or `é`) anywhere in `script_en.json` or `SCRIPT - FULL.txt`.
-7. **Build** (section 4) and check the letter in-game.
+   It lists the glyphs you changed and redraws `GLYPHS - PREVIEW.png`. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
+6. **Use it** in your script: type `É` (or `é`) anywhere in `SCRIPT - EDIT and IMPORT.txt`.
 
-To **redraw an existing CUSTOM letter** (e.g. to change the style of `A`), just edit its picture and run step 5.
+To **redraw an existing CUSTOM letter** (e.g. to change the style of `A`), just edit its picture and import.
 
-That's all. **You don't need to change any of the Python scripts.** The build automatically:
-
-- draws your new glyphs into the game's font,
-- works out each glyph's width from its pixels (so letters sit next to each other naturally),
-- uses that width when checking whether lines fit (`Patched_ROM_fit_report.tsv`),
-- uses your glyph wherever its character appears, including dialogue, locations, dresses, items and menus.
-
-### Editing `glyph_table.tsv` directly (advanced)
-
-`glyph_table.tsv` is tab-separated, with one row per glyph: `id`, `char`, `en`, `note`, and for CUSTOM glyphs only, `top` (the first picture row, 0 = very top) and `pixels` (the picture, cropped to the inked rows, rows separated by `/`). `glyph_import.py` writes this format for you. If you edit the TSV directly, run `python tools\glyph_dump.py` afterwards to update `GLYPHS - FULL.txt`.
+**You don't need to change any of the Python scripts.** The build automatically draws your glyphs into the game's font, works out each glyph's width from its pixels, uses that width when checking whether lines fit, and uses your glyph wherever its character appears (dialogue, locations, dresses, items and menus).
 
 ### Reusing an original glyph instead of drawing one
 
-If one of the game's original glyphs (`0x000`-`0x246`) already looks like the character you need, type your character on that glyph's `en:` line in `GLYPHS - FULL.txt` instead of drawing a new one (then run `glyph_import.py`). For example, the original `0x0EE` (`…`) is used this way. Each `en` character may only appear once in the whole file.
+If one of the game's original glyphs (`0x000`-`0x246`) already looks like the character you need, type your character on that glyph's `en:` line instead of drawing a new one, then import. For example, the original `0x0EE` (`…`) is used this way.
 
 ### Limits
 
 - The game has room for glyph ids up to `0x2FF`, so you can add about 140 more glyphs.
 - The game draws all text in capitals: `é` and `É` both become your `É` glyph.
 - The **OPTION** labels (max 11 characters) and **YES / NO / END** (max 4 characters) use the game's original wide A-Z letters. Other characters there use your CUSTOM glyphs.
+- The intro story, SAVE/LOAD prompts and title screen credits don't use these glyphs (see [Text drawn with a different font](#text-drawn-with-a-different-font)).
 
 ---
 
-## 6. Text drawn with a different font
+## 4. Translate the script: `SCRIPT - EDIT and IMPORT.txt`
 
-- **The intro story, the SAVE/LOAD prompts and the title screen credits** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`, `tools\add_patch_credits.py`). They still take their text from `script_en.json`, and `glyph_table.tsv` does not apply to them. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those files.
+**`SCRIPT - EDIT and IMPORT.txt`** contains **all** text in the game, in playthrough order: title screen credits, intro, dialogue, locations, dresses, items and menus. Replace the English with your translation, then import it:
+
+```
+python tools\script_import.py
+```
+
+It reports how many entries changed. For reference, the original Japanese is in `_script_jp.json` (same order), and the GameFAQs guide the English is based on is in `.ShadowRisae_Guide.txt`.
+
+### The golden rule
+
+**Change the text only. Do not add, remove or reorder entries, and leave the section headings alone.**
+Each entry is matched to its place in the game by its position.
+
+### Formatting
+
+| You write | In-game result |
+|---|---|
+| `{word}` | *word* shown in red (highlighted) |
+| Each separate line | A separate line on screen. Text is not re-wrapped for you. |
+| lower or UPPER case | Always shown in CAPITALS (the game's font is capitals only) |
+
+### Dialogue boxes
+
+A dialogue box shows **3 lines**. A `---` line starts a new box. You *can* add or remove `---` lines inside a dialogue entry to split its text over more or fewer boxes. A box with fewer than 3 lines is padded with blank lines automatically. This only changes how that entry's text is split into boxes, not the entries themselves.
+
+### Title screen credits
+
+The first section, `TITLE SCREEN CREDITS`, is the text shown on the title screen's bottom screen. It is only added to the ROM when you pass a build number to the build (see [step 5](#5-build-and-test-your-patched-rom)).
+
+- Up to **4 lines**, each must fit the screen width (the build stops if a line is too wide).
+- These placeholders are filled in by the build:
+
+| Placeholder | Replaced with |
+|---|---|
+| `<RC>` | The build number you pass to `full_build.py` (e.g. `1`) |
+| `<HUMAN>` | % of entries whose `"source"` is not `mtl` |
+| `<MTL>` | % of entries whose `"source"` is `mtl` |
+
+Every entry in `_script_en.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries. If they don't make sense for your translation, either change the `"source"` values in `_script_en.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
 
 ---
 
-## 7. What each tool does
+## 5. Build and test your patched ROM
+
+First make sure you've imported your edits (`glyph_import.py` if you changed the glyphs, `script_import.py` for the script). Then build:
+
+```
+python tools\full_build.py out Patched_ROM
+```
+
+To include the title screen credits, add a build number as a third argument (it replaces `<RC>`):
+
+```
+python tools\full_build.py out Patched_ROM 1
+```
+
+This creates:
+
+- `out\Patched_ROM.nds` - your patched ROM. Test it in an emulator (e.g. melonDS or DeSmuME) or on hardware.
+- `out\Patched_ROM_fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, import and build again.
+
+If a character in your script isn't in the font, the build stops and names it: add it in [step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt).
+
+**Typical loop:** edit `SCRIPT - EDIT and IMPORT.txt` → `python tools\script_import.py` → `python tools\full_build.py out Patched_ROM 1` → test → repeat.
+
+---
+
+## The files in `tools-resources`
+
+| File | What it is | Edit it? |
+|---|---|---|
+| `SCRIPT - EDIT and IMPORT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-script---edit-and-importtxt)) |
+| `GLYPHS - EDIT and IMPORT.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)) |
+| `GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
+| `_script_en.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
+| `_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
+| `_script_jp.json` | The original Japanese text, in the same order as `_script_en.json`. | No, reference only |
+| `.ShadowRisae_Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
+| `.ROM_JPN.nds` | The Japanese ROM you add in step 2 (not included in the repository). | No |
+
+---
+
+## Text drawn with a different font
+
+**The intro story, the SAVE/LOAD prompts and the title screen credits** are drawn as pictures with the Windows *Georgia* font, not the game font (`tools\intro_patch.py`, `tools\save_load_patch.py`, `tools\add_patch_credits.py`). You still translate them in `SCRIPT - EDIT and IMPORT.txt` like everything else, but the glyphs from step 3 don't apply to them: any letter Georgia has works without adding glyphs. Georgia covers Latin, Greek and Cyrillic letters. Other scripts need a different font set in those files.
+
+---
+
+## Editing `_script_en.json` / `_glyph_table.tsv` directly (advanced)
+
+You can edit the files the build reads instead of the `EDIT and IMPORT` files, but **don't edit both at once**: importing overwrites `_script_en.json` / `_glyph_table.tsv`, and the dump scripts overwrite the `EDIT and IMPORT` files.
+
+- **`_script_en.json`** has the sections **credits**, **intro**, **dialogue**, **locations**, **dresses**, **items** and **menu**. Highlights are written `{H}word{/H}`, and in dialogue every 3 lines is one box (add blank `""` lines to pad a box). Afterwards, run `python tools\script_dump.py` to update `SCRIPT - EDIT and IMPORT.txt`.
+- **`_glyph_table.tsv`** is tab-separated, one row per glyph: `id`, `char`, `en`, `note`, and for CUSTOM glyphs only, `top` (the first picture row, 0 = very top) and `pixels` (the picture, cropped to the inked rows, rows separated by `/`, `.` = empty). Afterwards, run `python tools\glyph_dump.py` to update `GLYPHS - EDIT and IMPORT.txt` and `GLYPHS - PREVIEW.png`.
+
+---
+
+## What each tool does
 
 You only run the **scripts** at the top. The rest are used by them automatically and must stay in the `tools` folder.
 
@@ -305,19 +299,19 @@ You only run the **scripts** at the top. The rest are used by them automatically
 | File | Purpose |
 |---|---|
 | `extract_rom.py` | One-time setup: extracts the ROM into `.WORK\extracted\` |
-| `script_import.py` | `SCRIPT - FULL.txt` -> `script_en.json` |
-| `glyph_import.py` | `GLYPHS - FULL.txt` -> `glyph_table.tsv` (and redraws `GLYPHS - FULL.png`) |
+| `glyph_import.py` | `GLYPHS - EDIT and IMPORT.txt` -> `_glyph_table.tsv` (and redraws `GLYPHS - PREVIEW.png`) |
+| `script_import.py` | `SCRIPT - EDIT and IMPORT.txt` -> `_script_en.json` |
 | `full_build.py` | Builds the patched ROM and `Patched_ROM_fit_report.tsv` |
-| `script_dump.py` | `script_en.json` -> `SCRIPT - FULL.txt` |
-| `glyph_dump.py` | `glyph_table.tsv` -> `GLYPHS - FULL.txt` and `GLYPHS - FULL.png` |
+| `glyph_dump.py` | `_glyph_table.tsv` -> `GLYPHS - EDIT and IMPORT.txt` and `GLYPHS - PREVIEW.png` (advanced) |
+| `script_dump.py` | `_script_en.json` -> `SCRIPT - EDIT and IMPORT.txt` (advanced) |
 
 **Used by the build:**
 
 | File | Purpose |
 |---|---|
-| `master.py` | Loads `script_en.json` / `script_jp.json` |
-| `font_patch.py` | Draws the CUSTOM glyphs from `glyph_table.tsv` into the font; maps your characters to glyphs |
-| `font_tools.py` | Font helpers; reads the original glyph list from `glyph_table.tsv`; location of the Japanese ROM |
+| `master.py` | Loads `_script_en.json` / `_script_jp.json` |
+| `font_patch.py` | Draws the CUSTOM glyphs from `_glyph_table.tsv` into the font; maps your characters to glyphs |
+| `font_tools.py` | Font helpers; reads the original glyph list from `_glyph_table.tsv`; location of the Japanese ROM |
 | `vwf_patch.py` | Variable-width text (each letter drawn at its own width) |
 | `textfit.py` | Line width / fit checking |
 | `sp_tool.py` | Reads and writes the game's dialogue script files (`.sp`) |

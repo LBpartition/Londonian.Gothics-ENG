@@ -1,6 +1,6 @@
 LONDONIAN GOTHICS - LOLITA IN THE LABYRINTH
 Full Script + Descriptions (English patch)
-Generated from build: 2026.10.12-22.29.22-RC1-test
+Generated from: _script_en.json
 
 Line breaks are exactly as the game wraps them. Dialogue boxes show 3
 lines at a time; '---' marks where the game pages to the next box.
