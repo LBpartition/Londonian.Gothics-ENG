@@ -6,15 +6,15 @@ This guide explains how to make your own translation patch from the files in thi
 
 1. [Download or clone the repository](#1-download-or-clone-the-repository)
 2. [Install the requirements and add the ROM](#2-install-the-requirements-and-add-the-rom)
-3. [(Optional) Add your own letters: `EDIT and IMPORT - GLYPHS.txt`](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)
-4. [Translate the script: `EDIT and IMPORT - SCRIPT.txt`](#4-translate-the-script-script---edit-and-importtxt)
+3. [(Optional) Add your own letters: `EDIT and IMPORT - GLYPHS.txt`](#3-optional-add-your-own-letters-edit-and-import---glyphstxt)
+4. [Translate the script: `EDIT and IMPORT - SCRIPT.txt`](#4-translate-the-script-edit-and-import---scripttxt)
 5. [Build and test your patched ROM](#5-build-and-test-your-patched-rom)
 
 **Reference**
 
 - [The files in `tools-resources`](#the-files-in-tools-resources)
 - [Text drawn with a different font](#text-drawn-with-a-different-font)
-- [Editing `_import_script.json` / `_import_glyph_table.tsv` directly (advanced)](#editing-_script_importjson--_glyph_tabletsv-directly-advanced)
+- [Editing `_import_script.json` / `_import_glyph_table.tsv` directly (advanced)](#editing-_import_scriptjson--_import_glyph_tabletsv-directly-advanced)
 - [What each tool does](#what-each-tool-does)
 
 > All commands in this guide are run from the `.WORK` folder.
@@ -263,7 +263,7 @@ This creates:
 - `out\Patched_ROM.nds` - your patched ROM. Test it in an emulator (e.g. melonDS or DeSmuME) or on hardware.
 - `out\Patched_ROM_fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, import and build again.
 
-If a character in your script isn't in the font, the build stops and names it: add it in [step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt).
+If a character in your script isn't in the font, the build stops and names it: add it in [step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt).
 
 **Typical loop:** edit `EDIT and IMPORT - SCRIPT.txt` → `python tools\script_import.py` → `python tools\full_build.py out Patched_ROM 1` → test → repeat.
 
@@ -271,10 +271,16 @@ If a character in your script isn't in the font, the build stops and names it: a
 
 ## The files in `tools-resources`
 
+File names tell you what each file is for:
+
+- **`EDIT and IMPORT - ...`**: the files you edit.
+- **`_import_...`**: what the build reads; written by the import scripts.
+- **`.`** at the start: reference files and your ROM (`.script_jpn.json` and `.ROM_JPN.nds` are not in the repository).
+
 | File | What it is | Edit it? |
 |---|---|---|
-| `EDIT and IMPORT - SCRIPT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-script---edit-and-importtxt)) |
-| `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-glyphs---edit-and-importtxt)) |
+| `EDIT and IMPORT - SCRIPT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-edit-and-import---scripttxt)) |
+| `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt)) |
 | `EDIT and IMPORT - GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
 | `_import_script.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
 | `_import_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
