@@ -42,3 +42,7 @@ pipeline.txt
 
 # never publish the game ROM
 *.nds
+
+# local reference only
+.WORK-LEGACY-RESEARCH/
+.WORK/out/
