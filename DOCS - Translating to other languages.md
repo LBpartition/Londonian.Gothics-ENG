@@ -218,6 +218,15 @@ Each entry is matched to its place in the game by its position.
 
 A dialogue box shows **3 lines**. A `---` line starts a new box. You *can* add or remove `---` lines inside a dialogue entry to split its text over more or fewer boxes. A box with fewer than 3 lines is padded with blank lines automatically. This only changes how that entry's text is split into boxes, not the entries themselves.
 
+### Making text fit
+
+Each line must fit the width of its box. Letters are drawn at their own width (an `I` is narrower than an `M`), so the limit is in pixels, not characters.
+
+- **Check before testing:** every build writes `out\Patched_ROM_fit_report.tsv`, listing every line with **ok** / **FAIL**. Fix every **FAIL** line.
+- **Dialogue too long?** Move words to the next line. If the box is full (3 lines), add a `---` line to continue in a new box. There's no limit on the number of boxes in an entry.
+- **Names, dresses, items, locations and menus** can't get extra boxes, so use shorter wording or abbreviations.
+- Lines are never wrapped automatically: what you see in the file is what appears on screen.
+
 ### Title screen credits
 
 The first section, `TITLE SCREEN CREDITS`, is the text shown on the title screen's bottom screen. It is only added to the ROM when you pass a build number to the build (see [step 5](#5-build-and-test-your-patched-rom)).
