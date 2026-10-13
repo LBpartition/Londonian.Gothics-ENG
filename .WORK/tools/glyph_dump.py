@@ -1,5 +1,6 @@
 """Export tools-resources/glyph_table.tsv to tools-resources/GLYPHS - FULL.txt,
-an easy-to-edit text file with every glyph drawn as a 16x16 grid of characters.
+an easy-to-edit text file with every glyph drawn as a 16x16 grid of characters,
+plus GLYPHS - FULL.png, a picture of every glyph (for reference only).
 
 Original glyphs (0x000-0x246) are drawn from the game font (extracted/data/data/font.NCGR,
 created by extract_rom.py). CUSTOM glyphs (0x247 onwards) are drawn from glyph_table.tsv.
@@ -16,10 +17,12 @@ from font_tools import glyph_tiles
 W = Path(__file__).resolve().parents[1]
 TSV = W / "tools-resources" / "glyph_table.tsv"
 TXT = W / "tools-resources" / "GLYPHS - FULL.txt"
+PNG = W / "tools-resources" / "GLYPHS - FULL.png"
 FONT = W / "extracted" / "data" / "data" / "font.NCGR"
 ORIG_GLYPHS = 0x247
 SIZE = 16
 SHADES = ".123456789ABCDEF"
+SEP = "-" * 41
 
 HEADER = """\
 GLYPHS - FULL.txt
@@ -35,10 +38,13 @@ Each glyph is one block:
   en: A                    the character you type in the script to get this glyph
                            (leave empty if it is not used; type <space> for the space)
   note: CUSTOM: letter A   free text
-  16 rows of 16 characters: the picture
+
+  -----------------------------------------
+  the picture: 16 rows, up to 16 characters wide
+  -----------------------------------------
 
 Picture characters:
-  .        empty (transparent)
+  space    empty (transparent)   ("." also works)
   1 2 3    ink: 1 = full ink, 2 and 3 = lighter shades used to smooth edges
   4-9 A-F  other palette shades (only seen in some original Japanese glyphs)
 
@@ -84,19 +90,62 @@ def main():
     if not FONT.exists():
         sys.exit(f"{FONT} not found - run python tools\\extract_rom.py first")
     font = FONT.read_bytes()
-    out = [HEADER]
+    out, sheet = [HEADER], []
     for r in read_rows():
         gid = int(r["id"], 16)
         grid = original_grid(font, gid) if gid < ORIG_GLYPHS else custom_grid(r)
+        sheet.append((gid, r, grid))
         kind = "ORIGINAL" if gid < ORIG_GLYPHS else "CUSTOM"
         out.append(f"==== 0x{gid:03X} ==== ({kind})")
         out.append(f"char: {r['char']}")
         out.append(f"en: {r['en']}")
         out.append(f"note: {r['note']}")
-        out += grid
-        out.append("")
+        out += ["", SEP]
+        out += [row.replace(".", " ").rstrip() for row in grid]
+        out += ["", SEP, ""]
     TXT.write_text("\n".join(out), encoding="utf-8")
     print(f"wrote {TXT} ({len(out)} lines)")
+    draw_sheet(sheet)
+
+
+def draw_sheet(glyphs):
+    """Picture of every glyph (id, char and en labels) -> GLYPHS - FULL.png."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    def ttf(size):
+        try:
+            return ImageFont.truetype("C:/Windows/Fonts/msgothic.ttc", size)
+        except OSError:
+            return ImageFont.load_default()
+    f_sm, f_hd = ttf(15), ttf(22)
+    cols, cw, ch, top = 16, 64, 92, 120
+    n = len(glyphs)
+    img = Image.new("RGB", (cols * cw + 20, top + (n + cols - 1) // cols * ch + 20), "white")
+    d = ImageDraw.Draw(img)
+    last = glyphs[-1][0]
+    d.text((10, 10), "Londonian Gothics - glyph table (GLYPHS - FULL.txt / glyph_table.tsv)", fill=0, font=f_hd)
+    d.text((10, 44), f"{n} glyphs, 16x16 px. 0x000-0x{ORIG_GLYPHS - 1:03X} ORIGINAL Japanese font (grey); "
+                     f"0x{ORIG_GLYPHS:03X}-0x{last:03X} CUSTOM (red).", fill=0, font=f_sm)
+    d.text((10, 66), "Label under the id: the 'en' character you type in the script (blue), or the glyph's char if none (black).", fill=0, font=f_sm)
+    d.text((10, 88), "Made by glyph_dump.py / glyph_import.py - do not edit; edit GLYPHS - FULL.txt instead.", fill=0, font=f_sm)
+    shade = {1: (0, 0, 0), 2: (110, 110, 110), 3: (190, 190, 190)}
+    for k, (gid, r, grid) in enumerate(glyphs):
+        x0, y0 = 10 + (k % cols) * cw, top + (k // cols) * ch
+        new = gid >= ORIG_GLYPHS
+        d.rectangle([x0, y0, x0 + cw - 2, y0 + ch - 2], outline=(220, 0, 0) if new else (200, 200, 200), width=2 if new else 1)
+        gi = Image.new("RGB", (SIZE, SIZE), (245, 245, 235))
+        for y, row in enumerate(grid):
+            for x, c in enumerate(row):
+                if c != ".":
+                    gi.putpixel((x, y), shade.get(SHADES.index(c) & 3 or 3, (0, 0, 0)))
+        img.paste(gi.resize((48, 48), Image.NEAREST), (x0 + 7, y0 + 4))
+        d.text((x0 + 4, y0 + 55), f"{gid:03X}", fill=(220, 0, 0) if new else (90, 90, 90), font=f_sm)
+        if r["en"]:
+            d.text((x0 + 4, y0 + 72), r["en"][:7], fill=(0, 70, 200), font=f_sm)
+        else:
+            d.text((x0 + 4, y0 + 72), r["char"][:7], fill=0, font=f_sm)
+    img.save(PNG)
+    print(f"wrote {PNG}")
 
 
 if __name__ == "__main__":

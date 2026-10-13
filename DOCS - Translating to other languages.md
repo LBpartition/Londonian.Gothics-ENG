@@ -58,6 +58,7 @@ This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also wri
 | `SCRIPT - FULL.txt` | The same text as `script_en.json`, laid out as an easy-to-read script. | Yes |
 | `glyph_table.tsv` | The font: which letters exist and what they look like. See [section 5](#5-the-font-adding-your-own-letters-glyphs---fulltxt). This is what the build reads. | Only to add letters (or edit `GLYPHS - FULL.txt` instead) |
 | `GLYPHS - FULL.txt` | The same font as `glyph_table.tsv`, with every glyph drawn as an easy-to-edit 16 × 16 picture. | Yes, to add or redraw letters |
+| `GLYPHS - FULL.png` | A picture of every glyph with its id and character, to quickly find a glyph. Updated by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
 | `script_jp.json` | The original Japanese text, in the same order as `script_en.json`. | No, reference only |
 | `ShadowRisae-Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
 
@@ -157,12 +158,14 @@ python tools\script_dump.py
 
 ### How the font works
 
-The game draws text with a font of small pictures called **glyphs**. Each glyph is 16 ? 16 pixels and has a number (its **id**, in hexadecimal):
+The game draws text with a font of small pictures called **glyphs**. Each glyph is 16 × 16 pixels and has a number (its **id**, in hexadecimal):
 
 - **`0x000`-`0x246`** are the game's **ORIGINAL** Japanese glyphs. You can't redraw these, but you can reuse them (see below).
 - **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits and the narrow A-Z capitals. The build draws them into the game's font. You can redraw these and add more.
 
 The font is stored in `glyph_table.tsv` (what the build reads). To make it easy to edit, the same font is also in **`GLYPHS - FULL.txt`**, with every glyph drawn as a picture. Edit `GLYPHS - FULL.txt`, then run `python tools\glyph_import.py` to copy your changes into `glyph_table.tsv`.
+
+To find a glyph quickly, open **`GLYPHS - FULL.png`**: a sheet of every glyph with its id (ORIGINAL in grey, CUSTOM in red) and the character typed to get it. `glyph_import.py` redraws it each time, so it always matches the font.
 
 > `GLYPHS - FULL.txt` comes with the repository. If you ever need to recreate it from `glyph_table.tsv`, run `python tools\glyph_dump.py` (this overwrites `GLYPHS - FULL.txt`).
 
@@ -175,22 +178,26 @@ Each glyph is one block. Here is the CUSTOM digit `9`:
 char: 9
 en: 9
 note: CUSTOM: digit 9
-................
-................
-................
-.111............
-1...1...........
-1...1...........
-1...1...........
-1...1...........
-1...1...........
-.1111...........
-....1...........
-....1...........
-1...1...........
-.111............
-................
-................
+
+-----------------------------------------
+
+
+
+ 111
+1   1
+1   1
+1   1
+1   1
+1   1
+ 1111
+    1
+    1
+1   1
+ 111
+
+
+
+-----------------------------------------
 ```
 
 | Line | Meaning |
@@ -199,9 +206,9 @@ note: CUSTOM: digit 9
 | `char:` | What the glyph shows (for your reference). |
 | `en:` | The character you type in the script to get this glyph. Leave empty if it should not be typed. `<space>` = the space character. Each character may only be used once in the whole file. |
 | `note:` | A comment; ignored by the build. |
-| 16 rows of 16 | The picture. `.` = empty. `1` = full ink, `2` and `3` = lighter shades used to smooth edges. (Some original glyphs also use `4`-`9` and `A`-`E`.) |
+| Between the `-----` lines | The picture: 16 rows, up to 16 characters wide. A space = empty (`.` also works). `1` = full ink, `2` and `3` = lighter shades used to smooth edges. (Some original glyphs also use `4`-`9` and `A`-`E`.) |
 
-The picture is the whole 16 ? 16 cell:
+The picture is the whole 16 × 16 cell:
 
 - **Up/down position matters.** The capitals and digits start on the 4th row (3 empty rows above) and are 11 rows tall, so keep new letters on the same rows. Accents can go in the empty rows above.
 - **Left/right position doesn't matter.** The build measures the inked columns of each glyph and spaces letters automatically. Just start at the left edge, like the existing letters.
@@ -209,39 +216,43 @@ The picture is the whole 16 ? 16 cell:
 ### Letters that are already available
 
 ```
-A-Z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > ? ?
+A-Z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
 ```
 
 Lower-case letters are not needed: everything is converted to capitals.
 
-### Adding a new letter (e.g. `?`)
+### Adding a new letter (e.g. `É`)
 
-1. **Copy a similar CUSTOM block** and paste it at the very **end** of `GLYPHS - FULL.txt`. For `?`, copy the block for `E` (`0x24F`).
+1. **Copy a similar CUSTOM block** and paste it at the very **end** of `GLYPHS - FULL.txt`. For `É`, copy the block for `E` (`0x24F`).
 2. **Change the id** to the next number after the last glyph. The last glyph is `0x272`, so your first new glyph is `0x273`, then `0x274`, and so on. CUSTOM ids must count up **without gaps**.
-3. **Set `char:` and `en:`** to your character (`?`), and change the `note:`.
-4. **Draw it.** For `?`, the `E` already starts on row 4, so just add the accent in the two rows above it:
+3. **Set `char:` and `en:`** to your character (`É`), and change the `note:`.
+4. **Draw it.** For `É`, the `E` already starts on row 4, so just add the accent in the two rows above it:
 
    ```
    ==== 0x273 ==== (CUSTOM)
-   char: ?
-   en: ?
+   char: É
+   en: É
    note: CUSTOM: E acute
-   ................
-   ...11...........
-   ..11............
-   11111...........
-   1...............
-   1...............
-   1...............
-   1...............
-   1111............
-   1...............
-   1...............
-   1...............
-   1...............
-   11111...........
-   ................
-   ................
+   
+   -----------------------------------------
+
+      11
+     11
+   11111
+   1
+   1
+   1
+   1
+   1111
+   1
+   1
+   1
+   1
+   11111
+
+
+   
+   -----------------------------------------
    ```
 
 5. **Import it** into `glyph_table.tsv`:
@@ -251,7 +262,7 @@ Lower-case letters are not needed: everything is converted to capitals.
    ```
 
    It lists the glyphs you changed. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
-6. **Use it** in your script: type `?` (or `?`) anywhere in `script_en.json` or `SCRIPT - FULL.txt`.
+6. **Use it** in your script: type `É` (or `é`) anywhere in `script_en.json` or `SCRIPT - FULL.txt`.
 7. **Build** (section 4) and check the letter in-game.
 
 To **redraw an existing CUSTOM letter** (e.g. to change the style of `A`), just edit its picture and run step 5.
@@ -295,10 +306,10 @@ You only run the **scripts** at the top. The rest are used by them automatically
 |---|---|
 | `extract_rom.py` | One-time setup: extracts the ROM into `.WORK\extracted\` |
 | `script_import.py` | `SCRIPT - FULL.txt` -> `script_en.json` |
-| `glyph_import.py` | `GLYPHS - FULL.txt` -> `glyph_table.tsv` |
+| `glyph_import.py` | `GLYPHS - FULL.txt` -> `glyph_table.tsv` (and redraws `GLYPHS - FULL.png`) |
 | `full_build.py` | Builds the patched ROM and `Patched_ROM_fit_report.tsv` |
 | `script_dump.py` | `script_en.json` -> `SCRIPT - FULL.txt` |
-| `glyph_dump.py` | `glyph_table.tsv` -> `GLYPHS - FULL.txt` |
+| `glyph_dump.py` | `glyph_table.tsv` -> `GLYPHS - FULL.txt` and `GLYPHS - FULL.png` |
 
 **Used by the build:**
 
