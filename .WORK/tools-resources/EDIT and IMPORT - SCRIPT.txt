@@ -83,7 +83,7 @@ DRESSES (DRESS MODE)
     bazooka.
 
 07. Ferminio
-    Teleport a few feet away 
+    Teleport a few feet away
     in a random direction.
 
 08. Blizzariel
@@ -95,12 +95,12 @@ DRESSES (DRESS MODE)
     DP gauge refills faster.
 
 10. Cannelle
-    Knock enemy off the map 
+    Knock enemy off the map
     completely via bazooka.
     (Lethal)
 
 11. Twincavia
-    Shoot lightning 
+    Shoot lightning
     Forward by 3 squares.
     Stuns anything hit.
 
@@ -126,7 +126,7 @@ DRESSES (DRESS MODE)
     dying. Drains all DP.
 
 17. Argus
-    Usable only in the 
+    Usable only in the
     endgame scenario.
 
 18. Satiend
@@ -235,7 +235,7 @@ ITEMS
 
 22. Masaeru
     Silver disc with engraved
-    maze-like pattern 
+    maze-like pattern
 
 23. Oreusu
     White measuring tape with
@@ -256,7 +256,7 @@ ITEMS
     Angel wings cape
 
 28. Maanesu
-    Red rose and leaves 
+    Red rose and leaves
     choker ribbon
 
 29. Tareosu
@@ -386,14 +386,6 @@ YES
 NO
 END
 SAVED
-
-============================================================
-DEBUG TEXT (save test - likely never shown in game)
-============================================================
-
-(Already English in the Japanese game; probably an unused save-memory test
- screen. Max 11 characters per line. Translating it is optional.)
-
 SAVE
 LOAD
 SUCCESS
@@ -516,7 +508,7 @@ Mikhail:
 Alice:
     Oh, I'll be fine. After all,
     I've got this dress you made
-    for me, don't I.
+    for me, don't I?
 
 Alice:
     *spin*
@@ -546,8 +538,8 @@ Mikhail:
 
 Alice:
     Father must be down there,
-    waiting for me to
-    come help him!
+    waiting for me to come
+    help him!
 
 Alice:
     I can't let his hopes
@@ -601,6 +593,9 @@ Mikhail:
 
 
 --- Alice's Bedroom  (sp_home005.sp) ---
+
+(narration)
+    Knock, Knock, Knock
 
 Lucille:
     Excuse me, I'm coming in.
@@ -967,6 +962,9 @@ Alice:
     Huh? What? Father, I couldn't
     hear you clearly!
 
+(narration)
+    .......
+
 Alice:
     Father?! Hey, Father!
     Say something!
@@ -977,6 +975,9 @@ Alice:
 
 Alice:
     Fatheeeeer!
+
+Alice:
+    .......
 
 Alice:
     Father, I'm going to do this.
@@ -1284,6 +1285,11 @@ Alice:
     Let's see what happens.
 
 (narration)
+    When the bordermoon
+    collapses, the nearby miasma
+    is purified.
+
+(narration)
     The miasma dissipates,
     allowing the locked door to
     open.
@@ -1461,6 +1467,9 @@ Alice:
     heavens and reveal Thy power.
 
 (narration)
+    O Lord, have mercy.
+
+(narration)
     O Lord, O Heaven, grant this
     girl the strength to live once
     more.
@@ -1544,6 +1553,9 @@ Mikhail:
     You're safe.
 
 Alice:
+    Mikhail?!
+
+Alice:
     Ah! Is this a sanctuary?
 
 Alice:
@@ -1576,6 +1588,21 @@ Alice:
 
 Mikhail:
     Take care, milady.
+
+(narration)
+    O Lord, have mercy.
+
+(narration)
+    O Lord, O Heaven, grant this
+    girl the strength to live once
+    more.
+
+(narration)
+    O Lord, O Earth, reveal Thy
+    boundless power here and now.
+
+Mikhail:
+    ......
 
 Alice:
     E-ehehe.
@@ -1945,6 +1972,17 @@ Alice:
     But right now, I'm more
     curious about Father's
     research.
+
+Alice:
+    Racking my brain doesn't help;
+    that just makes it clear how
+    little I really know about
+    ---
+    him and his work.
+
+Alice:
+    Guess I should try to do some
+    investigating.
 
 Alice:
     Let's see... The study, maybe?
@@ -2467,6 +2505,9 @@ Alice:
     *big tummy rumble*
 
 Alice:
+    ......
+
+Alice:
     No getting around it I guess.
     Shall I go ask Lucille to make
     me something?
@@ -2549,6 +2590,9 @@ Alice:
     Uggh....
 
 Alice:
+    Huh?!
+
+Alice:
     Huh?! I'm in my own room?
 
 Alice:
@@ -2571,6 +2615,9 @@ Alice:
     It's true that while I was
     eating I did feel sick all of a
     sudden.
+
+Lucille:
+    ......
 
 Alice:
     Lucille?
@@ -2601,6 +2648,9 @@ Alice:
 
 Lucille:
     Huhu. Huhuhuhuhu.
+
+Alice:
+    ......
 
 Alice:
     Oh, Lucille. Surely that
@@ -2874,6 +2924,9 @@ Mikhail:
 
 Alice:
     Suspicious.
+
+Mikhail:
+    ......
 
 Alice:
     ...okay, I get it.
@@ -3161,6 +3214,9 @@ Wizard:
     I started up a shop.
     Buy something, will you?
 
+Wizard:
+    I see, come again.
+
 (narration)
     When the bordermoon
     collapses, the nearby miasma
@@ -3190,6 +3246,9 @@ Wizard:
 
 Wizard:
     Welcome. Buy something.
+
+Wizard:
+    I see, come again.
 
 (narration)
     When the bordermoon
@@ -3233,6 +3292,9 @@ Alice:
     It wasn't like this at all
     ---
     before.
+
+Alice:
+    *pant, pant*. *pant,pant*.
 
 Alice:
     *pant, pant*. *pant, pant*.
@@ -3438,6 +3500,9 @@ Mikhail:
 Alice:
     Mikhail!!
 
+Mikhail:
+    ......
+
 Alice:
     (He said I live by absorbing
     energy from outside?
@@ -3555,6 +3620,9 @@ Alice:
     call her Alice.
 
 Alice:
+    ......
+
+Alice:
     N-no way! That can't be!
     Me being the {genomroid}. I
     won't believe it. I'm a person!
@@ -3628,10 +3696,16 @@ Lucille:
     able to survive being hunted
     by monsters?
 
+Alice:
+    ......
+
 Lucille:
     Well? Do you still feel like
     insisting that you're human in
     spite of those points?
+
+Alice:
+    ......
 
 Lucille:
     Huhun.
@@ -3661,6 +3735,9 @@ Lucille:
 
 
 --- Alice's Bedroom  (sp_home005.sp) ---
+
+(narration)
+    Knock, Knock, Knock
 
 Mikhail:
     Lady Alice.
@@ -3732,6 +3809,9 @@ Mikhail:
 Mikhail:
     Will you forsake him in
     return, milady?!
+
+Alice:
+    ......
 
 Alice:
     You're right. I'm the only one
@@ -3978,8 +4058,14 @@ Alice:
     This guy needs professional
     help.
 
+Vampire:
+    *mutter mutter*
+
 Alice:
     Ah, he's still depressed.
+
+Vampire:
+    *mutter mutter*
 
 Alice:
     Think I'll just let him be
@@ -4002,6 +4088,9 @@ Alice:
     underground, right.
 
 Vampire:
+    ......
+
+Alice:
     ......
 
 Vampire:
@@ -4544,6 +4633,10 @@ Alice:
     Better find the other sacred
     item fast.
 
+(narration)
+    Obtained the pattern for the
+    magic dress {Argus}
+
 Mikhail:
     Milady. Have you gathered the
     sacred items?
@@ -4575,6 +4668,9 @@ Mikhail:
 
 Mikhail:
     Actually, I wonder.
+
+Alice:
+    Huh?
 
 Mikhail:
     The wizards might know
@@ -4692,6 +4788,15 @@ Alice:
     is purified.
 
 Wizard:
+    .......
+
+Alice:
+    .......
+
+Wizard:
+    .......
+
+Alice:
     .......
 
 Wizard:
@@ -4916,14 +5021,33 @@ Vampire:
     Kukkukku.
 
 Vampire:
+    If you feel the urge, come on
+    back again.
+    Kukkukku.
+
+Vampire:
+    Yo, mademoiselle. Kukuku.
+    Welcome in.
+
+Vampire:
     Oh, by the way, I've placed an
     unusual item up for sale.
     Take a look.
 
 Vampire:
+    If you feel the urge, come on
+    back again.
+    Kukkukku.
+
+Vampire:
     I've got some rare goods in
     stock, too.
     Do have a look.
+
+Vampire:
+    If you feel the urge, come on
+    back again.
+    Kukkukku.
 
 (narration)
     When the bordermoon
@@ -5025,6 +5149,12 @@ Alice:
 Alice:
     Now I've gathered up
     everything.
+
+Alice:
+    .....
+
+Alice:
+    .....
 
 Alice:
     What's up! Nothing special is
@@ -5333,6 +5463,12 @@ Alice:
 Mikhail:
     Very good. Take care, milady.
 
+(narration)
+    Milady.
+
+(narration)
+    Please wake up, Lady Alice.
+
 Alice:
     Huh!
 
@@ -5528,6 +5664,9 @@ Mikhail:
     human being, milady.
 
 Alice:
+    !
+
+Alice:
     F-father....
 
 Nabokov:
@@ -5604,6 +5743,9 @@ Alice:
 
 Lucille:
     Huhhuhhu.
+
+Alice:
+    Eh?!
 
 Alice:
     Eh?! Wha? Wha?
@@ -5758,6 +5900,9 @@ Alice:
 Nabokov:
     Are you all right, Alice?
 
+Alice:
+    .........
+
 Nabokov:
     So you're going after all?
     To face him once more?
@@ -5879,6 +6024,9 @@ Alice:
 
 --- Alice's Bedroom  (sp_home005.sp) ---
 
+(narration)
+    Knock, Knock, Knock
+
 ?:
     Milady. Good morning.
 
@@ -5943,6 +6091,9 @@ Alice:
 
 --- Sanctuary  (sp_home027.sp) ---
 
+Alice:
+    Right!
+
 (narration)
     Alice!
 
@@ -5958,6 +6109,9 @@ Alice:
 Nabokov:
     Oh, Alice! You're awake!
 
+Alice:
+    F-father....
+
 Nabokov:
     Well done, Alice.
 
@@ -5972,6 +6126,12 @@ Nabokov:
 Alice:
     Where's Mikhail?
 
+Nabokov:
+    .........
+
+Alice:
+    You gotta be kidding!?
+
 (narration)
     Slam
 
@@ -5981,12 +6141,18 @@ Alice:
 Alice:
     Lucille?! You survived?!
 
+Lucille:
+    .........
+
 Nabokov:
     Lucille, {Varuudanu} is no more.
 
 Nabokov:
     What you hoped for shall not
     come to pass!
+
+Lucille:
+    .........
 
 Alice:
     Hold on, Father.
@@ -5995,6 +6161,9 @@ Alice:
 
 Alice:
     Kyaa!?
+
+Mikhail:
+    .........
 
 Alice:
     Mikhail! Is it really you,
@@ -6085,10 +6254,36 @@ Nabokov:
     back your troubles.
 
 Alice:
+    .........
+
+Alice:
     ...... Okay!
 
 Nabokov:
     Good. Then, let's begin.
+
+Mikhail:
+    Hear our prayer.
+
+Nabokov:
+    We command you.
+
+Mikhail:
+    Mother of all life,
+    oh endless land.
+
+Nabokov:
+    How beautiful your flows,
+    wavering water.
+
+Mikhail:
+    Time passing and time lost,
+    we now call for your return!
+
+Nabokov:
+    Now show yourself here.
+    In that righteous form,
+    utopia!
 
 
 --- 2F Hall  (sp_home006.sp) ---
@@ -6132,6 +6327,9 @@ Alice:
 Alice:
     Nope, nothing relevant in
     here...
+
+(narration)
+    *rummage, rummage*
 
 Alice:
     Oh, what's this?
@@ -6262,6 +6460,9 @@ Alice:
 Alice:
     Sheesh. Isn't there any more?
 
+(narration)
+    *rummage, rummage*
+
 Alice:
     Nope, it looks like that's it
     for the desk.
@@ -6281,6 +6482,10 @@ Alice:
     How can that be?
     I don't have any memories of
     life in Russia myself.
+
+Alice:
+    Did I just forget?
+    Hmm, hmmm...
 
 Alice:
     Did I just forget?

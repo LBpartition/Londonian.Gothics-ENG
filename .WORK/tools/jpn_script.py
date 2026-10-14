@@ -39,16 +39,18 @@ def main():
         name = os.path.basename(p)
         rec, done = {}, set()
         for order, (f, spk, t) in enumerate(info["ops"]):
+            r = {"file": name, "idx": idx[t], "off": t, "order": order, "op_at": f, "speaker": spk,
+                 "jp": sp_tool.decode(info["strings"][idx[t]][1], g)}
             if t in done:
+                rec[(idx[t], f)] = dict(r, op=f)   # repeated use of the same string
                 continue
             done.add(t)
-            rec[idx[t]] = {"file": name, "idx": idx[t], "off": t, "order": order, "op_at": f, "speaker": spk,
-                           "jp": sp_tool.decode(info["strings"][idx[t]][1], g)}
+            rec[idx[t]] = r
         sp[name] = (rec, "".join(g.get(v, "?") for v in sp_tool.get_name(d)))
 
     J = {}
     J["intro"] = [{"block": e["block"], "jp": "(pre-drawn image: data/title_roll_full_16.NCGR)"} for e in EN["intro"]]
-    J["dialogue"] = [sp[e["file"]][0][e["idx"]] for e in EN["dialogue"]]
+    J["dialogue"] = [sp[e["file"]][0][(e["idx"], e["op"]) if "op" in e else e["idx"]] for e in EN["dialogue"]]
     J["locations"] = [{"file": e["file"], "jp": sp[e["file"]][1]} for e in EN["locations"]]
     J["dresses"] = [{"id": k + 1, "name": tbl(0x48000 + 14 * k, 7), "desc": tbl(0x48290 + 48 * k, 24)} for k in range(23)]
     J["items"] = [{"id": i + 1, "name": tbl(0x48144 + 10 * i, 5), "desc": tbl(0x486E0 + 0x2E * i, 23)} for i in range(34)]

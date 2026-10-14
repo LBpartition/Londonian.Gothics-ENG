@@ -224,7 +224,8 @@ Each line must fit the width of its box. Letters are drawn at their own width (a
 - **Dialogue too long?** Move words to the next line. If the box is full (3 lines), add a `---` line to continue in a new box. There's no limit on the number of boxes in an entry.
 - **Names, dresses, items, locations and menus** can't get extra boxes, so use shorter wording or abbreviations.
 - **OPTION screen:** every line of `MENU TEXT (OPTION screen)` is on that screen, including the text the Japanese game already showed in English (OPTION, BGM, BACK, ON, OFF). The volume levels `1`-`5` and the arrows `<` `>` are placed one by one by the game, so keep them to a single character.
-- **DEBUG TEXT:** the last section is a save-memory test screen that was already in English and is most likely never shown in the game. Translating it is optional (max 11 characters per line).
+- **SAVE / LOAD screens:** the words after `SAVED` (`SAVE`, `LOAD`, `SUCCESS`, `ERROR`, …) were already English in the Japanese game and appear on the save screen. Max 11 characters per line.
+- **Repeated lines:** if a line (e.g. *Knock, Knock, Knock*) is shown more than once in a scene, each time it's shown has its own entry, so you can translate each one separately.
 - Lines are never wrapped automatically: what you see in the file is what appears on screen.
 
 ### Title screen credits

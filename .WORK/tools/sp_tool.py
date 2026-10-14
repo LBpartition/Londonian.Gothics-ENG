@@ -185,8 +185,9 @@ def set_name(d, codes):
     return bytes(out)
 
 
-def rebuild(d, info, new_strings):
-    """new_strings: list of u16 lists, same count/order as info['strings']."""
+def rebuild(d, info, new_strings, extra=None):
+    """new_strings: list of u16 lists, same count/order as info['strings'].
+    extra: {field_off: u16 list} - give that (repeated) pointer use its own string."""
     if info['pool'] is None:
         return bytes(d)
     assert len(new_strings) == len(info['strings'])
@@ -195,10 +196,15 @@ def rebuild(d, info, new_strings):
     for (old, _), s in zip(info['strings'], new_strings):
         remap[old] = len(out)
         out += struct.pack('<%dH' % (len(s) + 1), *s, 0)
+    own = {}
+    for f, s in sorted((extra or {}).items()):
+        assert f in info['fields'], f
+        own[f] = len(out)
+        out += struct.pack('<%dH' % (len(s) + 1), *s, 0)
     if len(out) > 0xFFFF:
         raise ValueError('file exceeds u16 pointer range')
     for f, t in info['fields'].items():
-        struct.pack_into('<H', out, f, remap[t])
+        struct.pack_into('<H', out, f, own.get(f, remap[t]))
     return bytes(out)
 
 

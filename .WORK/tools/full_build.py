@@ -56,6 +56,7 @@ def main(out_dir, name="Patched_ROM", rc=None):
         d = ndsbuild.get_file(rom, sid)
         info = sp_tool.parse(d)
         new = [s for _, s in info["strings"]]
+        extra = {}   # repeated pointer uses with their own entry ("op" = field offset)
         for e in files[fname]:
             i, mtl = e["idx"], e["source"] == "mtl"
             en = norm(master.join(e["en"])) if e["en"] else None
@@ -68,12 +69,13 @@ def main(out_dir, name="Patched_ROM", rc=None):
                 n_jp += 1; rep.append(f"{fname}\t{i}\tjp:has-insert-code\t\t{en}"); continue
             try:
                 lines = textfit.wrap(en, BOX, m)
-                new[i] = textfit.fit(en, BOX, m)
+                if "op" in e: extra[e["op"]] = textfit.fit(en, BOX, m)
+                else: new[i] = textfit.fit(en, BOX, m)
                 n_en += 1
                 rep.append(f"{fname}\t{i}\t{'mtl' if mtl else 'ok' if len(lines) <= 3 else 'ok-multipage'}\t{len(lines)}\t{' / '.join(lines)}")
             except (textfit.FitError, KeyError) as ex:
                 n_fail += 1; rep.append(f"{fname}\t{i}\tFAIL:{ex}\t\t{en}")
-        changes[sid] = sp_tool.rebuild(d, info, new)
+        changes[sid] = sp_tool.rebuild(d, info, new, extra)
     import intro_patch
     import font_patch as FP, font_tools
     gt = font_tools.build_table()

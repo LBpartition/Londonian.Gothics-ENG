@@ -72,10 +72,6 @@ def main():
 
     hr("MENU TEXT (SAVE / LOAD screens)")
     o += [master.MENU[k] for k in ("save_prompt", "load_prompt", "yes", "no", "end", "saved")]
-
-    hr("DEBUG TEXT (save test - likely never shown in game)")
-    o += ["(Already English in the Japanese game; probably an unused save-memory test",
-          " screen. Max 11 characters per line. Translating it is optional.)", ""]
     o += [master.MENU[k] for k in master.DEBUG_KEYS]
 
     hr("DIALOGUE")

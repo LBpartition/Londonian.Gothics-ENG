@@ -368,7 +368,7 @@
    "en": [
     "Oh, I'll be fine. After all,",
     "I've got this dress you made",
-    "for me, don't I."
+    "for me, don't I?"
    ]
   },
   {
@@ -446,8 +446,8 @@
    "gline": 399,
    "en": [
     "Father must be down there,",
-    "waiting for me to",
-    "come help him!"
+    "waiting for me to come",
+    "help him!"
    ]
   },
   {
@@ -574,6 +574,17 @@
     "Milady, please wait in",
     "your room.",
     "Now, if you'll excuse me..."
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
+   "idx": 28,
+   "op": 221,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Knock, Knock, Knock"
    ]
   },
   {
@@ -1497,6 +1508,17 @@
   },
   {
    "file": "sp002.sp",
+   "idx": 30,
+   "op": 482,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......."
+   ]
+  },
+  {
+   "file": "sp002.sp",
    "idx": 14,
    "speaker": 104,
    "source": "shadowrisae",
@@ -1525,6 +1547,17 @@
    "gline": 545,
    "en": [
     "Fatheeeeer!"
+   ]
+  },
+  {
+   "file": "sp002.sp",
+   "idx": 30,
+   "op": 504,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......."
    ]
   },
   {
@@ -2303,6 +2336,19 @@
   },
   {
    "file": "sp012.sp",
+   "idx": 15,
+   "op": 481,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "When the bordermoon",
+    "collapses, the nearby miasma",
+    "is purified."
+   ]
+  },
+  {
+   "file": "sp012.sp",
    "idx": 2,
    "speaker": null,
    "source": "shadowrisae",
@@ -2794,6 +2840,17 @@
   },
   {
    "file": "sp_home041.sp",
+   "idx": 77,
+   "op": 1126,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, have mercy."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
    "idx": 101,
    "speaker": null,
    "source": "mtl",
@@ -3031,6 +3088,17 @@
   },
   {
    "file": "sp_home041.sp",
+   "idx": 102,
+   "op": 1155,
+   "speaker": 106,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "Mikhail?!"
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
    "idx": 94,
    "speaker": 104,
    "source": "mtl",
@@ -3124,6 +3192,53 @@
    "gline": null,
    "en": [
     "Take care, milady."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 77,
+   "op": 1222,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, have mercy."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 101,
+   "op": 1225,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, O Heaven, grant this",
+    "girl the strength to live once",
+    "more."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 119,
+   "op": 1228,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, O Earth, reveal Thy",
+    "boundless power here and now."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 98,
+   "op": 1239,
+   "speaker": 112,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -4093,6 +4208,32 @@
     "But right now, I'm more",
     "curious about Father's",
     "research."
+   ]
+  },
+  {
+   "file": "sp022.sp",
+   "idx": 41,
+   "op": 843,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Racking my brain doesn't help;",
+    "that just makes it clear how",
+    "little I really know about",
+    "him and his work."
+   ]
+  },
+  {
+   "file": "sp022.sp",
+   "idx": 11,
+   "op": 847,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Guess I should try to do some",
+    "investigating."
    ]
   },
   {
@@ -5418,6 +5559,17 @@
   },
   {
    "file": "sp035.sp",
+   "idx": 2,
+   "op": 525,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
+   ]
+  },
+  {
+   "file": "sp035.sp",
    "idx": 6,
    "speaker": 105,
    "source": "shadowrisae",
@@ -5606,6 +5758,17 @@
   },
   {
    "file": "sp_home005.sp",
+   "idx": 70,
+   "op": 746,
+   "speaker": 106,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "Huh?!"
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
    "idx": 44,
    "speaker": 105,
    "source": "shadowrisae",
@@ -5675,6 +5838,17 @@
     "It's true that while I was",
     "eating I did feel sick all of a",
     "sudden."
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
+   "idx": 41,
+   "op": 800,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -5761,6 +5935,17 @@
    "gline": 1104,
    "en": [
     "Huhu. Huhuhuhuhu."
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
+   "idx": 41,
+   "op": 851,
+   "speaker": 105,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -6464,6 +6649,17 @@
    "gline": 1212,
    "en": [
     "Suspicious."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 98,
+   "op": 411,
+   "speaker": 112,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -7189,6 +7385,17 @@
   },
   {
    "file": "sp070.sp",
+   "idx": 5,
+   "op": 647,
+   "speaker": 5,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "I see, come again."
+   ]
+  },
+  {
+   "file": "sp070.sp",
    "idx": 0,
    "speaker": null,
    "source": "shadowrisae",
@@ -7268,6 +7475,17 @@
    "gline": null,
    "en": [
     "Welcome. Buy something."
+   ]
+  },
+  {
+   "file": "sp092.sp",
+   "idx": 5,
+   "op": 531,
+   "speaker": 5,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "I see, come again."
    ]
   },
   {
@@ -7357,6 +7575,17 @@
     "hurts so much all of a sudden.",
     "It wasn't like this at all",
     "before."
+   ]
+  },
+  {
+   "file": "sp071.sp",
+   "idx": 6,
+   "op": 616,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "*pant, pant*. *pant,pant*."
    ]
   },
   {
@@ -7864,6 +8093,17 @@
   },
   {
    "file": "sp_home005.sp",
+   "idx": 41,
+   "op": 501,
+   "speaker": 112,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
    "idx": 98,
    "speaker": 105,
    "source": "shadowrisae",
@@ -8148,6 +8388,17 @@
   },
   {
    "file": "sp_home010.sp",
+   "idx": 106,
+   "op": 757,
+   "speaker": 104,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
+   ]
+  },
+  {
+   "file": "sp_home010.sp",
    "idx": 33,
    "speaker": 103,
    "source": "shadowrisae",
@@ -8332,6 +8583,17 @@
   },
   {
    "file": "sp_home010.sp",
+   "idx": 106,
+   "op": 860,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
+   ]
+  },
+  {
+   "file": "sp_home010.sp",
    "idx": 0,
    "speaker": 123,
    "source": "shadowrisae",
@@ -8340,6 +8602,17 @@
     "Well? Do you still feel like",
     "insisting that you're human in",
     "spite of those points?"
+   ]
+  },
+  {
+   "file": "sp_home010.sp",
+   "idx": 106,
+   "op": 868,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -8407,6 +8680,17 @@
     "Huhu, huhuhuhu. Aah,",
     "hahahahahaha.",
     "Keekkekekeke."
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
+   "idx": 28,
+   "op": 582,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Knock, Knock, Knock"
    ]
   },
   {
@@ -8573,6 +8857,17 @@
    "en": [
     "Will you forsake him in",
     "return, milady?!"
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
+   "idx": 41,
+   "op": 682,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......"
    ]
   },
   {
@@ -9177,12 +9472,34 @@
   },
   {
    "file": "sp116.sp",
+   "idx": 0,
+   "op": 593,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "*mutter mutter*"
+   ]
+  },
+  {
+   "file": "sp116.sp",
    "idx": 19,
    "speaker": 100,
    "source": "shadowrisae",
    "gline": 1577,
    "en": [
     "Ah, he's still depressed."
+   ]
+  },
+  {
+   "file": "sp116.sp",
+   "idx": 0,
+   "op": 601,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "*mutter mutter*"
    ]
   },
   {
@@ -9236,6 +9553,17 @@
    "speaker": 4,
    "source": "shadowrisae",
    "gline": 1596,
+   "en": [
+    "......"
+   ]
+  },
+  {
+   "file": "sp128.sp",
+   "idx": 21,
+   "op": 705,
+   "speaker": 105,
+   "source": "shadowrisae",
+   "gline": null,
    "en": [
     "......"
    ]
@@ -10546,6 +10874,18 @@
   },
   {
    "file": "sp_home041.sp",
+   "idx": 90,
+   "op": 897,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Obtained the pattern for the",
+    "magic dress {H}Argus{/H}"
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
    "idx": 14,
    "speaker": 110,
    "source": "shadowrisae",
@@ -10630,6 +10970,17 @@
    "gline": 1718,
    "en": [
     "Actually, I wonder."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 151,
+   "op": 949,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Huh?"
    ]
   },
   {
@@ -10924,6 +11275,39 @@
    "file": "sp109.sp",
    "idx": 26,
    "speaker": 5,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......."
+   ]
+  },
+  {
+   "file": "sp109.sp",
+   "idx": 26,
+   "op": 645,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......."
+   ]
+  },
+  {
+   "file": "sp109.sp",
+   "idx": 26,
+   "op": 649,
+   "speaker": 5,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "......."
+   ]
+  },
+  {
+   "file": "sp109.sp",
+   "idx": 26,
+   "op": 653,
+   "speaker": 105,
    "source": "shadowrisae",
    "gline": null,
    "en": [
@@ -11521,6 +11905,31 @@
   },
   {
    "file": "sp106.sp",
+   "idx": 4,
+   "op": 584,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "If you feel the urge, come on",
+    "back again.",
+    "Kukkukku."
+   ]
+  },
+  {
+   "file": "sp106.sp",
+   "idx": 3,
+   "op": 593,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Yo, mademoiselle. Kukuku.",
+    "Welcome in."
+   ]
+  },
+  {
+   "file": "sp106.sp",
    "idx": 2,
    "speaker": 4,
    "source": "shadowrisae",
@@ -11533,6 +11942,19 @@
   },
   {
    "file": "sp106.sp",
+   "idx": 4,
+   "op": 571,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "If you feel the urge, come on",
+    "back again.",
+    "Kukkukku."
+   ]
+  },
+  {
+   "file": "sp106.sp",
    "idx": 10,
    "speaker": 4,
    "source": "mtl",
@@ -11541,6 +11963,19 @@
     "I've got some rare goods in",
     "stock, too.",
     "Do have a look."
+   ]
+  },
+  {
+   "file": "sp106.sp",
+   "idx": 4,
+   "op": 603,
+   "speaker": 4,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "If you feel the urge, come on",
+    "back again.",
+    "Kukkukku."
    ]
   },
   {
@@ -11797,6 +12232,28 @@
    "en": [
     "Now I've gathered up",
     "everything."
+   ]
+  },
+  {
+   "file": "sp_home040.sp",
+   "idx": 4,
+   "op": 322,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "....."
+   ]
+  },
+  {
+   "file": "sp_home040.sp",
+   "idx": 4,
+   "op": 329,
+   "speaker": 105,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "....."
    ]
   },
   {
@@ -12653,6 +13110,28 @@
   },
   {
    "file": "sp_home010.sp",
+   "idx": 19,
+   "op": 1206,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "Milady."
+   ]
+  },
+  {
+   "file": "sp_home010.sp",
+   "idx": 141,
+   "op": 1209,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "Please wake up, Lady Alice."
+   ]
+  },
+  {
+   "file": "sp_home010.sp",
    "idx": 32,
    "speaker": 104,
    "source": "mtl",
@@ -13186,6 +13665,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 33,
+   "op": 391,
+   "speaker": 104,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "!"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 9,
    "speaker": 103,
    "source": "shadowrisae",
@@ -13407,6 +13897,17 @@
    "gline": 1954,
    "en": [
     "Huhhuhhu."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 25,
+   "op": 589,
+   "speaker": 104,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Eh?!"
    ]
   },
   {
@@ -13814,6 +14315,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 808,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 7,
    "speaker": 3,
    "source": "mtl",
@@ -14146,6 +14658,17 @@
   },
   {
    "file": "sp_home005.sp",
+   "idx": 28,
+   "op": 868,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Knock, Knock, Knock"
+   ]
+  },
+  {
+   "file": "sp_home005.sp",
    "idx": 58,
    "speaker": 1,
    "source": "shadowrisae",
@@ -14309,6 +14832,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 39,
+   "op": 834,
+   "speaker": 102,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "Right!"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 52,
    "speaker": null,
    "source": "shadowrisae",
@@ -14359,6 +14893,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 9,
+   "op": 889,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "F-father...."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 135,
    "speaker": 3,
    "source": "shadowrisae",
@@ -14401,6 +14946,28 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 940,
+   "speaker": 3,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 18,
+   "op": 947,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "You gotta be kidding!?"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 116,
    "speaker": null,
    "source": "shadowrisae",
@@ -14431,6 +14998,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 989,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 85,
    "speaker": 3,
    "source": "shadowrisae",
@@ -14448,6 +15026,17 @@
    "en": [
     "What you hoped for shall not",
     "come to pass!"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 1001,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
    ]
   },
   {
@@ -14470,6 +15059,17 @@
    "gline": 2140,
    "en": [
     "Kyaa!?"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 1047,
+   "speaker": 110,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
    ]
   },
   {
@@ -14700,6 +15300,17 @@
   },
   {
    "file": "sp_home027.sp",
+   "idx": 54,
+   "op": 1167,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "........."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
    "idx": 30,
    "speaker": 101,
    "source": "shadowrisae",
@@ -14716,6 +15327,77 @@
    "gline": 2171,
    "en": [
     "Good. Then, let's begin."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 57,
+   "op": 1202,
+   "speaker": 110,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Hear our prayer."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 0,
+   "op": 1207,
+   "speaker": 3,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "We command you."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 44,
+   "op": 1212,
+   "speaker": 110,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Mother of all life,",
+    "oh endless land."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 98,
+   "op": 1219,
+   "speaker": 3,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "How beautiful your flows,",
+    "wavering water."
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 103,
+   "op": 1226,
+   "speaker": 110,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Time passing and time lost,",
+    "we now call for your return!"
+   ]
+  },
+  {
+   "file": "sp_home027.sp",
+   "idx": 79,
+   "op": 1233,
+   "speaker": 3,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Now show yourself here.",
+    "In that righteous form,",
+    "utopia!"
    ]
   },
   {
@@ -14808,6 +15490,17 @@
    "en": [
     "Nope, nothing relevant in",
     "here..."
+   ]
+  },
+  {
+   "file": "sp_home004.sp",
+   "idx": 18,
+   "op": 158,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "*rummage, rummage*"
    ]
   },
   {
@@ -15149,6 +15842,17 @@
   },
   {
    "file": "sp_home004.sp",
+   "idx": 18,
+   "op": 285,
+   "speaker": null,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "*rummage, rummage*"
+   ]
+  },
+  {
+   "file": "sp_home004.sp",
    "idx": 44,
    "speaker": 105,
    "source": "shadowrisae",
@@ -15198,6 +15902,18 @@
    "file": "sp_home004.sp",
    "idx": 12,
    "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Did I just forget?",
+    "Hmm, hmmm..."
+   ]
+  },
+  {
+   "file": "sp_home004.sp",
+   "idx": 12,
+   "op": 321,
+   "speaker": 105,
    "source": "shadowrisae",
    "gline": null,
    "en": [
