@@ -406,7 +406,7 @@ DIALOGUE
 --- ALICE'S BEDROOM  (sp_home005.sp) ---
 
 (narration)
-    Knock, Knock, Knock
+    *KNOCK, KNOCK, KNOCK*
 
 Mikhail:
     Lady Alice!!
@@ -595,7 +595,7 @@ Mikhail:
 --- ALICE'S BEDROOM  (sp_home005.sp) ---
 
 (narration)
-    Knock, Knock, Knock
+    *KNOCK, KNOCK, KNOCK*
 
 Lucille:
     Excuse me, I'm coming in.
@@ -757,7 +757,7 @@ Lucille:
 
 Lucille:
     Ohh, but you didn't need me to
-    tell you that did you.
+    tell you that did you?
     Fefefe.
 
 Lucille:
@@ -2256,8 +2256,8 @@ Alice:
     labyrinth.
 
 (narration)
-    Knock knock, knock knock
-    knock
+    *KNOCK, KNOCK, KNOCK*
+
 
 
 --- MAID'S ROOM  (sp_home016.sp) ---
@@ -3536,7 +3536,7 @@ Alice:
     About everything!
 
 (narration)
-    Knock, knock
+    *KNOCK, KNOCK*
 
 
 --- LABORATORY  (sp_home010.sp) ---
@@ -3737,7 +3737,7 @@ Lucille:
 --- ALICE'S BEDROOM  (sp_home005.sp) ---
 
 (narration)
-    Knock, Knock, Knock
+    *KNOCK, KNOCK, KNOCK*
 
 Mikhail:
     Lady Alice.
@@ -6025,7 +6025,7 @@ Alice:
 --- ALICE'S BEDROOM  (sp_home005.sp) ---
 
 (narration)
-    Knock, Knock, Knock
+    *KNOCK, KNOCK, KNOCK*
 
 ?:
     Milady. Good morning.
