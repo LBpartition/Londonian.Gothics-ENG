@@ -5,7 +5,7 @@ import json, os, struct, sys
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import sp_tool
+import sp_tool, master
 
 W = Path(__file__).resolve().parent.parent
 TR = W / "tools-resources"
@@ -64,8 +64,8 @@ def main():
             t = fixed[k]
         elif k in yn:
             t = "".join(g[v] for v in yn[k] if v)
-        elif k == "door_opened":
-            t = tbl(0x4BE34, 10)
+        elif k in master.SYSMSG:
+            t = tbl(master.SYSMSG[k][0], 64).replace("{D00}", "{ITEM}").replace("{FD00}", "{ITEM}")
         elif k == "saved":
             t = tbl(0x4BF68, 8)
         elif k.startswith("option_"):

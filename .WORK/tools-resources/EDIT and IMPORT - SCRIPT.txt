@@ -1028,7 +1028,7 @@ Alice:
 --- SANCTUARY  (sp_home041.sp) ---
 
 Alice:
-    ? A sanctuary?
+    A sanctuary?
     Why would something like this
     be inside a labyrinth?
 
@@ -1059,7 +1059,7 @@ Mikhail:
     me like that?
 
 Alice:
-    No-rea-son.
+    No-reason...
 
 Mikhail:
     ......
@@ -1073,7 +1073,7 @@ Mikhail:
     First, please look over there.
 
 Alice:
-    ? What is that thing?
+    What is that thing?
 
 Mikhail:
     For now, please go stand
@@ -6526,4 +6526,56 @@ Alice:
 Alice:
     Good morning, Father!
     It's time to wake up!
+
+
+--- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name) ---
+
+(system message)
+    Not enough money.
+
+(system message)
+    Buy {ITEM}?
+
+(system message)
+    Your bag is full.
+
+(system message)
+    Could not read the data.
+    Please turn the power off
+    and reinsert the card.
+
+(system message)
+    Discard {ITEM}?
+
+(system message)
+    Make this dress?
+
+(system message)
+    Not enough materials.
+
+(system message)
+    Got the {ITEM}
+    dress pattern!
+
+(system message)
+    The dress is finished!
+
+(system message)
+    Choose a dress pattern.
+
+(system message)
+    Found {ITEM}!
+    Will you take it?
+
+(system message)
+    Your bag is full.
+    Choose an item to discard
+    from the item screen.
+
+(system message)
+    Which floor will you go to?
+
+(system message)
+    You can't change into
+    that dress right now.
 

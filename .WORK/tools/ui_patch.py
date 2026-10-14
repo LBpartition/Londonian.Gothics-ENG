@@ -114,13 +114,31 @@ def main(out_dir, diag=False):
     descs += bytes(-(desc_addr + len(descs)) % 4)
     dbuf = desc_addr + len(descs)
     descs += bytes(256)
-    # "A door opened somewhere." (arm9 0x4BE34 holds only 9 glyphs): store in ITCM extra and repoint
+    # arm9 system messages (master.SYSMSG): store English in ITCM extra and repoint every literal.
+    # Explicit lines only; {ITEM} (0xFD00) is measured as the widest item/dress name.
     if DIALOGUE_VWF:
-        assert struct.unpack_from("<I", arm9, 0x3C5FC)[0] == 0x0204BE34
-        u = textfit.fit(master.MENU["door_opened"], textfit.Box("system", 166, 1, 0xFFFE), m)
-        struct.pack_into("<I", arm9, 0x3C5FC, desc_addr + len(descs))
-        descs += struct.pack(f"<{len(u) + 1}H", *u, 0)
-        descs += bytes(-(desc_addr + len(descs)) % 4)
+        bx = textfit.Box("system", 190, 3, 0xFFFE)
+        nms = [e["name"] for e in master.EN["items"] + master.EN["dresses"] if e["name"]]
+        widest = max(nms, key=lambda n: m.width(n, bx))
+        for key, offs in master.SYSMSG.items():
+            lines = master.MENU[key].split("\n")
+            jl = struct.unpack_from("<64H", arm9, offs[0]); jl = jl[:jl.index(0)]
+            assert len(lines) <= max(2, jl.count(0xFFFF) + 1), (key, "too many lines")
+            u = []
+            for i, ln in enumerate(lines):
+                w = m.width(ln.replace("{ITEM}", widest), bx)
+                assert w <= bx.max_px, (key, ln, w)
+                if i: u.append(0xFFFF)
+                for j, part in enumerate(ln.split("{ITEM}")):
+                    if j: u.append(0xFD00)
+                    u += m.codes(part, bx)
+            addr = desc_addr + len(descs)
+            descs += struct.pack(f"<{len(u) + 1}H", *u, 0)
+            descs += bytes(-(desc_addr + len(descs)) % 4)
+            for o in offs:
+                refs = [j for j in range(0, 0x4B000, 4) if struct.unpack_from("<I", arm9, j)[0] == 0x02000000 + o]
+                assert refs, (key, hex(o))
+                for j in refs: struct.pack_into("<I", arm9, j, addr)
     for o in (0x2DFE0, 0x2E040):
         assert struct.unpack_from("<I", arm9, o)[0] == 0x02058078
         struct.pack_into("<I", arm9, o, dbuf)

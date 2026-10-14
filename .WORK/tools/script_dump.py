@@ -76,7 +76,7 @@ def main():
 
     hr("DIALOGUE")
     last = None
-    sysmsg = {"sp003.sp": "door_opened"}   # arm9 system messages, shown after this file's lines
+    sysmsg = {f: k for k, f in master.SYSMSG_LOC.items()}   # arm9 system messages, shown after this file's lines
     sub = {"g": [], "m": []}; sl = {"g": None, "m": None}   # per-source dialogue (GameFAQs / MTL)
     nondlg = o[:]
     for n, e in enumerate(seq):
@@ -97,7 +97,11 @@ def main():
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
         if f in sysmsg and (n + 1 == len(seq) or seq[n + 1]["file"] != f):
-            o += ["(system message)", "    " + master.MENU[sysmsg.pop(f)], ""]
+            o += ["(system message)"] + ["    " + l for l in master.MENU[sysmsg.pop(f)].split("\n")] + [""]
+    o += ["", "--- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name) ---", ""]
+    for k in master.SYSMSG:
+        if k not in master.SYSMSG_LOC:
+            o += ["(system message)"] + ["    " + l for l in master.MENU[k].split("\n")] + [""]
     out = W / "tools-resources" / "EDIT and IMPORT - SCRIPT.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")

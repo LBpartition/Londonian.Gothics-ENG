@@ -9,3 +9,12 @@ join = lambda lines: "\n".join(lines) if isinstance(lines, list) else lines
 MENU = {e["key"]: e["en"] for e in EN["menu"]}
 OPTION_KEYS = [e["key"] for e in EN["menu"] if e["key"].startswith("option_")]
 DEBUG_KEYS = [e["key"] for e in EN["menu"] if e["key"].startswith("debug_")]
+# arm9 system messages (popup boxes): key -> original string offsets in arm9.bin. The build stores
+# the English in ITCM and repoints every literal that referenced these. {ITEM} = 0xFD00, the
+# item/dress name the game inserts. Keys are listed in _import_script.json "menu" order.
+SYSMSG = {"door_opened": [0x4BE34], "sys_no_money": [0x4B48C], "sys_buy": [0x4B4A0],
+          "sys_shop_full": [0x4B4C8], "sys_read_error": [0x4B678, 0x4BFD8], "sys_discard": [0x4BA50, 0x4BEF8],
+          "sys_make_dress": [0x4BA78, 0x4BAA8], "sys_no_materials": [0x4BA90], "sys_got_pattern": [0x4BAC0],
+          "sys_dress_done": [0x4BADC], "sys_choose_pattern": [0x4BAF8], "sys_found_item": [0x4BB18],
+          "sys_bag_full": [0x4BB68], "sys_which_floor": [0x4BE48], "sys_cant_change": [0x4BF0C]}
+SYSMSG_LOC = {"door_opened": "sp003.sp"}   # shown in DIALOGUE after this file; others at the end

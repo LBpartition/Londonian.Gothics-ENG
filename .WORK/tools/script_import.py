@@ -92,7 +92,7 @@ def main():
     sysm = [b for b in dl if b[0] == "(system message)"]
     dl = [b for b in dl if b[0] != "(system message)"]
     menu = [l.strip() for l in S["MENU TEXT (OPTION screen)"] + S["MENU TEXT (SAVE / LOAD screens)"] if l.strip()]
-    menu += [" ".join(l.strip() for l in b[1:]) for b in sysm]
+    menu += ["\n".join(l.strip() for l in b[1:]) for b in sysm]
     assert len(menu) == len(EN["menu"]), "menu count changed"
     for e, t in zip(EN["menu"], menu):
         put(e, "en", t, f"menu {e['key']}")
