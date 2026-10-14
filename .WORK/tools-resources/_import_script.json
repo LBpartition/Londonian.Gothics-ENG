@@ -17562,6 +17562,11 @@
    "key": "sys_cant_change",
    "source": "mtl",
    "en": "You can't change into\nthat dress right now."
+  },
+  {
+   "key": "sys_game_over",
+   "source": "mtl",
+   "en": "Alice has fallen..."
   }
  ]
 }

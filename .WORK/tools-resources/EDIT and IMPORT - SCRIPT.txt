@@ -6579,3 +6579,6 @@ Alice:
     You can't change into
     that dress right now.
 
+(system message)
+    Alice has fallen...
+

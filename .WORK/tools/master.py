@@ -16,5 +16,6 @@ SYSMSG = {"door_opened": [0x4BE34], "sys_no_money": [0x4B48C], "sys_buy": [0x4B4
           "sys_shop_full": [0x4B4C8], "sys_read_error": [0x4B678, 0x4BFD8], "sys_discard": [0x4BA50, 0x4BEF8],
           "sys_make_dress": [0x4BA78, 0x4BAA8], "sys_no_materials": [0x4BA90], "sys_got_pattern": [0x4BAC0],
           "sys_dress_done": [0x4BADC], "sys_choose_pattern": [0x4BAF8], "sys_found_item": [0x4BB18],
-          "sys_bag_full": [0x4BB68], "sys_which_floor": [0x4BE48], "sys_cant_change": [0x4BF0C]}
+          "sys_bag_full": [0x4BB68], "sys_which_floor": [0x4BE48], "sys_cant_change": [0x4BF0C],
+          "sys_game_over": [0x48CE0]}
 SYSMSG_LOC = {"door_opened": "sp003.sp"}   # shown in DIALOGUE after this file; others at the end
