@@ -126,12 +126,18 @@ def main(out_dir, diag=False):
             assert len(lines) <= max(2, jl.count(0xFFFF) + 1), (key, "too many lines")
             u = []
             for i, ln in enumerate(lines):
-                w = m.width(ln.replace("{ITEM}", widest), bx)
+                w = m.width(ln.replace("{ITEM}", widest).replace("{NUM}", "9999"), bx)
                 assert w <= bx.max_px, (key, ln, w)
                 if i: u.append(0xFFFF)
-                for j, part in enumerate(ln.split("{ITEM}")):
-                    if j: u.append(0xFD00)
-                    u += m.codes(part, bx)
+                for j, part in enumerate(re.split(r"(\{ITEM\}|\{NUM\})", ln)):
+                    if part == "{ITEM}": u.append(0xFD00)
+                    elif part == "{NUM}": u.append(0xFC00)
+                    elif part: u += m.codes(part, bx)
+            if key == "sys_pattern_desc":   # dress table entry 23 (no pointer): rewrite its DESC_STRIDE slot
+                u = textfit.fit(master.MENU[key], textfit.DRESS_DESC_N, m)
+                o = 22 * DESC_STRIDE
+                descs = descs[:o] + struct.pack(f"<{DESC_STRIDE//2}H", *(u + [0] * (DESC_STRIDE // 2 - len(u)))) + descs[o + DESC_STRIDE:]
+                continue
             addr = desc_addr + len(descs)
             descs += struct.pack(f"<{len(u) + 1}H", *u, 0)
             descs += bytes(-(desc_addr + len(descs)) % 4)
@@ -168,7 +174,8 @@ def main(out_dir, diag=False):
     yn = {(0x1A, 0x02, 0, 0): master.MENU["yes"], (0x02, 0x02, 0x04, 0): master.MENU["no"], (0x24, 0x22, 0x29, 0): master.MENU["end"]}
     for off in range(0x4B000, 0x4C800, 8):
         t = yn.get(struct.unpack_from("<4H", arm9, off))
-        if t and struct.unpack_from("<H", arm9, off - 2)[0] in (0, 0xFF):
+        if t and struct.unpack_from("<H", arm9, off - 2)[0] in (0, 0xFF) or off == 0x4BEE8:   # 0x4BEE8: item-discard YES (after "\n\n")
+            t = t or master.MENU["yes"]
             u = fw(t)
             assert len(u) <= 4, t
             struct.pack_into("<4H", arm9, off, *(u + [0] * (4 - len(u))))

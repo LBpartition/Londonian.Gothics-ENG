@@ -1,4 +1,4 @@
-"""Write tools-resources\\EDIT and IMPORT - SCRIPT.txt from tools-resources/_import_script.json (exact in-game lines)."""
+﻿"""Write tools-resources\\EDIT and IMPORT - SCRIPT.txt from tools-resources/_import_script.json (exact in-game lines)."""
 import csv, glob, json, os, struct, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -98,7 +98,7 @@ def main():
         sub[s] += blk
         if f in sysmsg and (n + 1 == len(seq) or seq[n + 1]["file"] != f):
             o += ["(system message)"] + ["    " + l for l in master.MENU[sysmsg.pop(f)].split("\n")] + [""]
-    o += ["", "--- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name) ---", ""]
+    o += ["", "--- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name, {NUM} = number) ---", ""]
     for k in master.SYSMSG:
         if k not in master.SYSMSG_LOC:
             o += ["(system message)"] + ["    " + l for l in master.MENU[k].split("\n")] + [""]

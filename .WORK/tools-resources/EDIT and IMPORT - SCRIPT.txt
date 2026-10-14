@@ -1318,7 +1318,7 @@ Alice:
     And not just that...
 
 (narration)
-    rustle, rustle
+    *RUSTLE, RUSTLE*
 
 Alice:
     This is a pattern, isn't it, for
@@ -1391,7 +1391,7 @@ Alice:
     crafting from this pattern?
 
 Alice:
-    You mean this one, right?
+    Maybe this one?
 
 (narration)
     Obtained the pattern for the
@@ -1628,7 +1628,7 @@ Alice:
     pattern in this room.
 
 (narration)
-    rustle rustle
+    *RUSTLE, RUSTLE*
 
 Alice:
     Ah!
@@ -3125,7 +3125,7 @@ Alice:
     on.
 
 (narration)
-    rustle, rustle
+    *RUSTLE, RUSTLE*
 
 
 --- LABYRINTH B16F  (sp056.sp) ---
@@ -6528,7 +6528,7 @@ Alice:
     It's time to wake up!
 
 
---- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name) ---
+--- SYSTEM MESSAGES (pop-up boxes, any location; {ITEM} = item/dress name, {NUM} = number) ---
 
 (system message)
     Not enough money.
@@ -6548,7 +6548,7 @@ Alice:
     Discard {ITEM}?
 
 (system message)
-    Make this dress?
+    Make a dress?
 
 (system message)
     Not enough materials.
@@ -6581,4 +6581,14 @@ Alice:
 
 (system message)
     Alice has fallen...
+
+(system message)
+    Got {NUM}£.
+
+(system message)
+    B{NUM}F
+
+(system message)
+    A dress pattern.
+    Needed to make a dress.
 

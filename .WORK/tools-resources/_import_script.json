@@ -2418,7 +2418,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "rustle, rustle"
+    "*RUSTLE, RUSTLE*"
    ]
   },
   {
@@ -2623,7 +2623,7 @@
    "source": "mtl",
    "gline": null,
    "en": [
-    "You mean this one, right?"
+    "Maybe this one?"
    ]
   },
   {
@@ -3300,7 +3300,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "rustle rustle"
+    "*RUSTLE, RUSTLE*"
    ]
   },
   {
@@ -7162,7 +7162,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "rustle, rustle"
+    "*RUSTLE, RUSTLE*"
    ]
   },
   {
@@ -17521,7 +17521,7 @@
   {
    "key": "sys_make_dress",
    "source": "mtl",
-   "en": "Make this dress?"
+   "en": "Make a dress?"
   },
   {
    "key": "sys_no_materials",
@@ -17567,6 +17567,21 @@
    "key": "sys_game_over",
    "source": "mtl",
    "en": "Alice has fallen..."
+  },
+  {
+   "key": "sys_got_money",
+   "source": "mtl",
+   "en": "Got {NUM}£."
+  },
+  {
+   "key": "sys_floor",
+   "source": "mtl",
+   "en": "B{NUM}F"
+  },
+  {
+   "key": "sys_pattern_desc",
+   "source": "mtl",
+   "en": "A dress pattern.\nNeeded to make a dress."
   }
  ]
 }

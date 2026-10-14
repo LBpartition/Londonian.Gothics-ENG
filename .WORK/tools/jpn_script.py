@@ -65,7 +65,7 @@ def main():
         elif k in yn:
             t = "".join(g[v] for v in yn[k] if v)
         elif k in master.SYSMSG:
-            t = tbl(master.SYSMSG[k][0], 64).replace("{D00}", "{ITEM}").replace("{FD00}", "{ITEM}")
+            t = tbl(master.SYSMSG[k][0], 64).replace("{D00}", "{ITEM}").replace("{FD00}", "{ITEM}").replace("{C00}", "{NUM}").replace("{FC00}", "{NUM}")
         elif k == "saved":
             t = tbl(0x4BF68, 8)
         elif k.startswith("option_"):
