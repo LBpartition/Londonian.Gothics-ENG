@@ -88,12 +88,15 @@ def main():
     for e in EN["locations"]:
         if e["en"] in ren: put(e, "en", ren[e["en"]], f"location {e['file']}")
 
-    menu = [l.strip() for l in S["MENU TEXT (OPTION screen)"] + S["MENU TEXT (SAVE / LOAD screens)"] + S["SYSTEM MESSAGES"] if l.strip()]
+    dl = [b for b in blocks(S["DIALOGUE"]) if not b[0].startswith("--- ")]
+    sysm = [b for b in dl if b[0] == "(system message)"]
+    dl = [b for b in dl if b[0] != "(system message)"]
+    menu = [l.strip() for l in S["MENU TEXT (OPTION screen)"] + S["MENU TEXT (SAVE / LOAD screens)"] if l.strip()]
+    menu += [" ".join(l.strip() for l in b[1:]) for b in sysm]
     assert len(menu) == len(EN["menu"]), "menu count changed"
     for e, t in zip(EN["menu"], menu):
         put(e, "en", t, f"menu {e['key']}")
 
-    dl = [b for b in blocks(S["DIALOGUE"]) if not b[0].startswith("--- ")]
     assert len(dl) == len(EN["dialogue"]), f"dialogue count {len(dl)} != {len(EN['dialogue'])}"
     for e, b in zip(EN["dialogue"], dl):
         if "(untranslated" in b[0]: continue

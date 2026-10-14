@@ -74,14 +74,12 @@ def main():
     o += [master.MENU[k] for k in ("save_prompt", "load_prompt", "yes", "no", "end", "saved")]
     o += [master.MENU[k] for k in master.DEBUG_KEYS]
 
-    hr("SYSTEM MESSAGES")
-    o += [master.MENU[k] for k in master.SYSTEM_KEYS]
-
     hr("DIALOGUE")
     last = None
+    sysmsg = {"sp003.sp": "door_opened"}   # arm9 system messages, shown after this file's lines
     sub = {"g": [], "m": []}; sl = {"g": None, "m": None}   # per-source dialogue (GameFAQs / MTL)
     nondlg = o[:]
-    for e in seq:
+    for n, e in enumerate(seq):
         f, i, st = e["file"], e["idx"], e["source"]
         if f != last:
             o += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; last = f
@@ -98,6 +96,8 @@ def main():
         if sl[s] != f:
             sub[s] += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; sl[s] = f
         sub[s] += blk
+        if f in sysmsg and (n + 1 == len(seq) or seq[n + 1]["file"] != f):
+            o += ["(system message)", "    " + master.MENU[sysmsg.pop(f)], ""]
     out = W / "tools-resources" / "EDIT and IMPORT - SCRIPT.txt"
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")

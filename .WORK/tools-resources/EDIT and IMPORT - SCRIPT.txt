@@ -399,12 +399,6 @@ POS
 NO_DATA
 
 ============================================================
-SYSTEM MESSAGES
-============================================================
-
-A door opened somewhere.
-
-============================================================
 DIALOGUE
 ============================================================
 
@@ -1010,6 +1004,9 @@ Alice:
 Alice:
     How about I take a little
     look-see.
+
+(system message)
+    A door opened somewhere.
 
 
 --- LABYRINTH B2F  (sp005.sp) ---
