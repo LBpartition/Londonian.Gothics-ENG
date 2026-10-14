@@ -125,7 +125,7 @@ def main(out_dir, diag=False):
     # OPTION screen + YES/NO/END/SAVED: A-Z and 0-9 use the original full-width glyphs (0xD4.., 0xC0..),
     # FFFE = space; any other character uses its _import_glyph_table.tsv glyph.
     def fw(t):
-        return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else 0xC0 + ord(c) - 48 if "0" <= c <= "9"
+        return [0xFFFE if c == " " else 0xD4 + ord(c) - 65 if "A" <= c <= "Z" else 0xC0 + ord(c) - 48 if "0" <= c <= "9" else 0xB9 if c == "_"
                 else font_patch.ASCII[c] for c in t.upper()]
     # OPTION table: 15 fixed 24-byte slots from 0x4C3F0 (max 11 characters each)
     for i, k in enumerate(master.OPTION_KEYS):
