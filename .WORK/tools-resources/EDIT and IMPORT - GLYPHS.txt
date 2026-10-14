@@ -24,6 +24,9 @@ Picture characters:
   - The pixel grid is the full 16 x 16 cell. Where you draw it is where it appears:
     move the shape up/down to change its height on the line.
     English capitals start on row 4 (3 empty rows above) and are 11 rows tall.
+    Lower-case letters end on the same row 14: small ones (a c e ...) start on row 8,
+    tall ones (b d f ...) on row 4, and tails (g j p q y) use rows 15-16.
+    Menus always show capitals; elsewhere text is shown as typed.
   - Left/right position does not matter for dialogue: the game measures each glyph's
     inked columns and spaces letters automatically (variable width).
   - Glyphs 0x000-0x246 are the ORIGINAL game glyphs. Their pictures come from the ROM and
