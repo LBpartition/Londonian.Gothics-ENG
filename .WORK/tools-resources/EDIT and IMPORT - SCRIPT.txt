@@ -284,65 +284,65 @@ ITEMS
 LOCATION NAMES (top of map screen)
 ============================================================
 
-2F Guest Room A
-2F Guest Room B
-Late Madame's Bedroom
-Nabokov's Bedroom
-Library
-Alice's Bedroom
-2F Hall
-1F Hall
-1F Genkan Hall
-2F Genkan Hall
-Laboratory
-Stairs to B1F
-1F Guest Room A
-1F Guest Room B
-Vacant Room A
-Butler's Room
-Maid's Room
-Bathroom
-Dining Room
-Kitchen
-Pantry
-Piano Room
-Vacant Room B
-Vacant Room C
-Vacant Room D
-Interior Garden
-Sanctuary
-Sewing Room
-Labyrinth B1F
-Labyrinth B2F
-Labyrinth B3F
-Labyrinth B4F
-Labyrinth B5F
-Labyrinth B6F
-Labyrinth B7F
-Labyrinth B8F
-Labyrinth B9F
-Labyrinth B10F
-Labyrinth B11F
-Labyrinth B12F
-Labyrinth B13F
-Labyrinth B14F
-Labyrinth B15F
-Labyrinth B16F
-Labyrinth B17F
-Labyrinth B18F
-Labyrinth B19F
-Labyrinth B20F
-Labyrinth B21F
-Labyrinth B22F
-Labyrinth B23F
-Labyrinth B24F
-Labyrinth B25F
-Labyrinth B26F
-Labyrinth B27F
-Labyrinth B28F
-Labyrinth B29F
-Labyrinth B30F
-Another World
+2F GUEST ROOM A
+2F GUEST ROOM B
+LATE MADAME'S BEDROOM
+NABOKOV'S BEDROOM
+LIBRARY
+ALICE'S BEDROOM
+2F HALL
+1F HALL
+1F GENKAN HALL
+2F GENKAN HALL
+LABORATORY
+STAIRS TO B1F
+1F GUEST ROOM A
+1F GUEST ROOM B
+VACANT ROOM A
+BUTLER'S ROOM
+MAID'S ROOM
+BATHROOM
+DINING ROOM
+KITCHEN
+PANTRY
+PIANO ROOM
+VACANT ROOM B
+VACANT ROOM C
+VACANT ROOM D
+INTERIOR GARDEN
+SANCTUARY
+SEWING ROOM
+LABYRINTH B1F
+LABYRINTH B2F
+LABYRINTH B3F
+LABYRINTH B4F
+LABYRINTH B5F
+LABYRINTH B6F
+LABYRINTH B7F
+LABYRINTH B8F
+LABYRINTH B9F
+LABYRINTH B10F
+LABYRINTH B11F
+LABYRINTH B12F
+LABYRINTH B13F
+LABYRINTH B14F
+LABYRINTH B15F
+LABYRINTH B16F
+LABYRINTH B17F
+LABYRINTH B18F
+LABYRINTH B19F
+LABYRINTH B20F
+LABYRINTH B21F
+LABYRINTH B22F
+LABYRINTH B23F
+LABYRINTH B24F
+LABYRINTH B25F
+LABYRINTH B26F
+LABYRINTH B27F
+LABYRINTH B28F
+LABYRINTH B29F
+LABYRINTH B30F
+ANOTHER WORLD
 
 ============================================================
 CHARACTER NAMES
@@ -418,7 +418,7 @@ Alice:
 
 Mikhail:
     W-we've got a problem!
-    It's the professor;
+    It's the professor,
     it's Nabokov!
 
 Alice:
