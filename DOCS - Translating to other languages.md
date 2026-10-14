@@ -1,4 +1,4 @@
-# Translating Londonian Gothics to other languages
+﻿# Translating Londonian Gothics to other languages
 
 This guide explains how to make your own translation patch from the files in this repository.
 
@@ -133,12 +133,12 @@ The picture is the whole 16 × 16 cell:
 ### Adding a new letter (e.g. `É`)
 
 1. **Copy a similar CUSTOM block** and paste it at the very **end** of the file. For `É`, copy the block for `E` (`0x24F`).
-2. **Change the id** to the next number after the last glyph. The last glyph is `0x28D`, so your first new glyph is `0x28E`, then `0x28F`, and so on. CUSTOM ids must count up **without gaps**.
+2. **Change the id** to the next number after the last glyph. The last glyph is `0x28D`, so your first new glyph is `0x28F`, then `0x28F`, and so on. CUSTOM ids must count up **without gaps**.
 3. **Set `char:` and `en:`** to your character (`É`), and change the `note:`.
 4. **Draw it.** For `É`, the `E` already starts on row 4, so just add the accent in the two rows above it:
 
    ```
-   ==== 0x28E ==== (CUSTOM)
+   ==== 0x28F ==== (CUSTOM)
    char: É
    en: É
    note: CUSTOM: E acute

@@ -1,16 +1,13 @@
 {
  "credits": [
   {
-   "en": "ENG-RC<RC>"
+   "en": "ENG-RC<RC> Patch by LBpartition"
   },
   {
    "en": "<HUMAN>% Human translation by ShadowRisae"
   },
   {
    "en": "<MTL>% Machine translation"
-  },
-  {
-   "en": "Patch by LBpartition"
   }
  ],
  "intro": [
@@ -738,7 +735,7 @@
    "source": "shadowrisae",
    "gline": 432,
    "en": [
-    "Cut it out; don't say such",
+    "Cut it out; Don't say such",
     "things!",
     "Father is surely still alive!"
    ]

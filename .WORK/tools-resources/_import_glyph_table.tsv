@@ -170,7 +170,7 @@ id	char	en	top	pixels	note
 0x0A8	「				
 0x0A9	」				
 0x0AA	※				
-0x0AB	；	;			
+0x0AB	；				
 0x0AC	：	:			
 0x0AD	．	.			
 0x0AE	＾				
@@ -583,9 +583,9 @@ id	char	en	top	pixels	note
 0x245	傷				
 0x246	肩				
 0x247	<space>	<space>	0		CUSTOM: space
-0x248	'	'	3	..33./..214/..21./...2.	CUSTOM: apostrophe
+0x248	'	'	3	1/1/1	CUSTOM: apostrophe
 0x249	,	,	13	....21/....12/...2..	CUSTOM: comma
-0x24A	-	-	8	..1111/..3333	CUSTOM: hyphen
+0x24A	-	-	10	1111	CUSTOM: hyphen
 0x24B	A	A	3	.111./1...1/1...1/1...1/1...1/11111/1...1/1...1/1...1/1...1/1...1	CUSTOM: letter A
 0x24C	B	B	3	1111./1...1/1...1/1...1/1..1./1111./1...1/1...1/1...1/1...1/1111.	CUSTOM: letter B
 0x24D	C	C	3	.111./1...1/1..../1..../1..../1..../1..../1..../1..../1...1/.111.	CUSTOM: letter C
@@ -653,3 +653,4 @@ id	char	en	top	pixels	note
 0x28B	y	y	7	1...1/1...1/1...1/1...1/1...1/1..11/.11.1/....1/.111.	CUSTOM: lowercase y
 0x28C	z	z	7	11111/....1/...1./..1../.1.../1..../11111	CUSTOM: lowercase z
 0x28D	_	_	13	11111	CUSTOM: underscore
+0x28E	;	;	9	1/./././1/1/1.	CUSTOM: semicolon
