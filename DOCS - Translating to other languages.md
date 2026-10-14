@@ -64,17 +64,17 @@ This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also wri
 Skip this step if your language only needs the letters that are already there:
 
 ```
-A-Z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
+A-Z  a-z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
 ```
 
-Lower-case letters are not needed: everything is shown in capitals.
+Lower-case letters are shown in dialogue, locations, dresses and items. Menus are always shown in capitals.
 
 ### How the font works
 
 The game draws text with a font of small pictures called **glyphs**. Each glyph is 16 × 16 pixels and has a number (its **id**, in hexadecimal):
 
 - **`0x000`-`0x246`** are the game's **ORIGINAL** Japanese glyphs. You can't redraw these, but you can reuse them (see below).
-- **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits and the narrow A-Z capitals. You can redraw these and add more.
+- **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits, the narrow A-Z capitals and the a-z lower-case letters. You can redraw these and add more.
 
 Every glyph is in **`EDIT and IMPORT - GLYPHS.txt`**, drawn as a picture made of characters. Edit it, then import it (step 5 below).
 
@@ -127,18 +127,18 @@ note: CUSTOM: digit 9
 
 The picture is the whole 16 × 16 cell:
 
-- **Up/down position matters.** The capitals and digits start on the 4th row (3 empty rows above) and are 11 rows tall, so keep new letters on the same rows. Accents can go in the empty rows above.
+- **Up/down position matters.** The capitals and digits start on the 4th row (3 empty rows above) and are 11 rows tall, so keep new letters on the same rows. Accents can go in the empty rows above. Lower-case letters sit on the same bottom line (row 14): small letters like `a` start on row 8 (7 rows tall), tall ones like `b` start on row 4, and tails (`g j p q y`) use the last 2 rows.
 - **Left/right position doesn't matter.** The build measures the inked columns of each glyph and spaces letters automatically. Just start at the left edge, like the existing letters.
 
 ### Adding a new letter (e.g. `É`)
 
 1. **Copy a similar CUSTOM block** and paste it at the very **end** of the file. For `É`, copy the block for `E` (`0x24F`).
-2. **Change the id** to the next number after the last glyph. The last glyph is `0x272`, so your first new glyph is `0x273`, then `0x274`, and so on. CUSTOM ids must count up **without gaps**.
+2. **Change the id** to the next number after the last glyph. The last glyph is `0x28C`, so your first new glyph is `0x28D`, then `0x28E`, and so on. CUSTOM ids must count up **without gaps**.
 3. **Set `char:` and `en:`** to your character (`É`), and change the `note:`.
 4. **Draw it.** For `É`, the `E` already starts on row 4, so just add the accent in the two rows above it:
 
    ```
-   ==== 0x273 ==== (CUSTOM)
+   ==== 0x28D ==== (CUSTOM)
    char: É
    en: É
    note: CUSTOM: E acute
@@ -170,7 +170,7 @@ The picture is the whole 16 × 16 cell:
    ```
 
    It lists the glyphs you changed and redraws `EDIT and IMPORT - GLYPHS - PREVIEW.png`. If something is wrong (a gap in the ids, a character used twice, an unknown picture character, an ORIGINAL glyph redrawn) it stops with an error and changes nothing.
-6. **Use it** in your script: type `É` (or `é`) anywhere in `EDIT and IMPORT - SCRIPT.txt`.
+6. **Use it** in your script: type `É` anywhere in `EDIT and IMPORT - SCRIPT.txt`. (If you type `é` and there is no `é` glyph, the build uses `É` instead. Draw an `é` glyph too if you want a lower-case one.)
 
 To **redraw an existing CUSTOM letter** (e.g. to change the style of `A`), just edit its picture and import.
 
@@ -182,8 +182,8 @@ If one of the game's original glyphs (`0x000`-`0x246`) already looks like the ch
 
 ### Limits
 
-- The game has room for glyph ids up to `0x2FF`, so you can add about 140 more glyphs.
-- The game draws all text in capitals: `é` and `É` both become your `É` glyph.
+- The game has room for glyph ids up to `0x2FF`, so you can add about 115 more glyphs.
+- A lower-case letter with no glyph of its own is shown as its capital. Menus are always shown in capitals.
 - The **OPTION** screen text (max 11 characters per line) and **YES / NO / END** (max 4 characters) use the game's original wide A-Z and 0-9 letters. Other characters there use your CUSTOM glyphs.
 - The intro story, SAVE/LOAD prompts and title screen credits don't use these glyphs (see [Text drawn with a different font](#text-drawn-with-a-different-font)).
 
@@ -210,7 +210,7 @@ Each entry is matched to its place in the game by its position.
 |---|---|
 | `{word}` | *word* shown in red (highlighted) |
 | Each separate line | A separate line on screen. Text is not re-wrapped for you. |
-| lower or UPPER case | Always shown in CAPITALS (the game's font is capitals only) |
+| lower or UPPER case | Shown as typed (menus are always shown in CAPITALS) |
 
 ### Dialogue boxes
 

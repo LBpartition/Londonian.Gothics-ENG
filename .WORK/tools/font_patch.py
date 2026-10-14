@@ -49,9 +49,10 @@ _T = build_table()
 
 
 def enc_en(s, space_code=SPACE):
-    """Encode English text (uppercased). Newline -> 0xFFFF. Unknown chars raise."""
+    """Encode English text (letters without their own glyph are uppercased). Newline -> 0xFFFF. Unknown chars raise."""
     out = []
-    for ch in s.upper():
+    for ch in s:
+        if ch not in ASCII: ch = ch.upper()
         if ch == "\n": out.append(0xFFFF)
         elif ch == " ": out.append(space_code)
         elif ch in ASCII: out.append(ASCII[ch])
