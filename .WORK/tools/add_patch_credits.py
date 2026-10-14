@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 import intro_patch
 
 ROOT = Path(__file__).resolve().parents[2]
+DIGIT_FONT = r"C:\Windows\Fonts\times.ttf"   # lining figures
 LINES = None          # set by full_build: list of 4 strings
 TOP_ROW, PITCH = 16, 16  # tile row 16 = y 128 (lower half, over the dark emblem)
 
@@ -43,10 +44,19 @@ def render(lines):
     h = PITCH * len(lines)
     img = Image.new("L", (256, h), 0)
     d = ImageDraw.Draw(img)
+    dfont = ImageFont.truetype(DIGIT_FONT, intro_patch.SIZE)     # Georgia digits are old-style (small)
     for i, l in enumerate(lines):
-        w = font.getlength(l)
+        if l and set(l) <= {"-"}:                                 # hyphen-only line = solid full-width rule
+            d.line([(4, i * PITCH + 8), (251, i * PITCH + 8)], fill=255)
+            continue
+        runs = re.findall(r"\d+|\D+", l)
+        fonts = [dfont if r[0].isdigit() else font for r in runs]
+        w = sum(f.getlength(r) for f, r in zip(fonts, runs))
         assert w <= 248, (l, w)
-        d.text(((256 - w) / 2, i * PITCH + 1), l, font=font, fill=255)
+        x = (256 - w) / 2
+        for f, r in zip(fonts, runs):
+            d.text((x, i * PITCH + 1), r, font=f, fill=255)
+            x += f.getlength(r)
     tiles, idx, rows = [bytes(32)], {bytes(32): 0}, []
     for ty in range(h // 8):
         row = []

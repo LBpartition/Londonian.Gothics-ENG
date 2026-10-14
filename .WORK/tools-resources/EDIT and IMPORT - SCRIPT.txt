@@ -14,7 +14,8 @@ TITLE SCREEN CREDITS
 
 (<RC> = build number, <HUMAN> / <MTL> = % of entries by source; max 4 lines)
 
-ENG-RC<RC> Patch by LBpartition
+ENG-RC<RC> - Patch by LBpartition
+----------------------------------------------
 <HUMAN>% Human translation by ShadowRisae
 <MTL>% Machine translation
 
