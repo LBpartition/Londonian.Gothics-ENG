@@ -142,6 +142,10 @@ def dialogue_asm(base, tbl_left, tbl_adv, gap):
         ldr r0, [r10, #12]
         cmp r0, r11
         bne newcell
+        ldr r0, [r10, #20]
+        ldr r1, [r11, #0xc]
+        cmp r0, r1
+        bne newcell
         ldr r0, [r10]
         add r0, r0, #16
         add r1, r6, r8
@@ -247,6 +251,8 @@ def dialogue_asm(base, tbl_left, tbl_adv, gap):
         str r0, [r10]
         str r7, [r10, #4]
         str r11, [r10, #12]
+        ldr r3, [r11, #0xc]
+        str r3, [r10, #20]
         ldr r3, [r10, #16]
         ldr r1, lit_cache
         add r1, r1, r3, lsl #1
@@ -274,7 +280,7 @@ def dialogue_asm(base, tbl_left, tbl_adv, gap):
     lit_draw: .word {GLYPH_DRAW}
     lit_cache: .word {SLOT_CACHE_MAIN}
     lit_blank: .word {BLANK_GLYPH}
-    state: .word 0, 0, 0, 0, 0
+    state: .word 0, 0, 0, 0, 0, 0
     """
 
 

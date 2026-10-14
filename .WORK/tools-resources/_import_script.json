@@ -87,7 +87,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock, Knock, Knock"
+    "*KNOCK, KNOCK, KNOCK*"
    ]
   },
   {
@@ -584,7 +584,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock, Knock, Knock"
+    "*KNOCK, KNOCK, KNOCK*"
    ]
   },
   {
@@ -966,7 +966,7 @@
    "gline": 460,
    "en": [
     "Ohh, but you didn't need me to",
-    "tell you that did you.",
+    "tell you that did you?",
     "Fefefe."
    ]
   },
@@ -4904,8 +4904,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock knock, knock knock",
-    "knock"
+    "*KNOCK, KNOCK, KNOCK*"
    ]
   },
   {
@@ -8204,7 +8203,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock, knock"
+    "*KNOCK, KNOCK*"
    ]
   },
   {
@@ -8690,7 +8689,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock, Knock, Knock"
+    "*KNOCK, KNOCK, KNOCK*"
    ]
   },
   {
@@ -14664,7 +14663,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Knock, Knock, Knock"
+    "*KNOCK, KNOCK, KNOCK*"
    ]
   },
   {
@@ -17488,6 +17487,11 @@
    "key": "debug_no_data",
    "source": "original",
    "en": "NO_DATA"
+  },
+  {
+   "key": "door_opened",
+   "source": "mtl",
+   "en": "A door opened somewhere."
   }
  ]
 }

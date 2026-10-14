@@ -74,6 +74,9 @@ def main():
     o += [master.MENU[k] for k in ("save_prompt", "load_prompt", "yes", "no", "end", "saved")]
     o += [master.MENU[k] for k in master.DEBUG_KEYS]
 
+    hr("SYSTEM MESSAGES")
+    o += [master.MENU[k] for k in master.SYSTEM_KEYS]
+
     hr("DIALOGUE")
     last = None
     sub = {"g": [], "m": []}; sl = {"g": None, "m": None}   # per-source dialogue (GameFAQs / MTL)

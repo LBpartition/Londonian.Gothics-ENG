@@ -114,6 +114,13 @@ def main(out_dir, diag=False):
     descs += bytes(-(desc_addr + len(descs)) % 4)
     dbuf = desc_addr + len(descs)
     descs += bytes(256)
+    # "A door opened somewhere." (arm9 0x4BE34 holds only 9 glyphs): store in ITCM extra and repoint
+    if DIALOGUE_VWF:
+        assert struct.unpack_from("<I", arm9, 0x3C5FC)[0] == 0x0204BE34
+        u = textfit.fit(master.MENU["door_opened"], textfit.Box("system", 166, 1, 0xFFFE), m)
+        struct.pack_into("<I", arm9, 0x3C5FC, desc_addr + len(descs))
+        descs += struct.pack(f"<{len(u) + 1}H", *u, 0)
+        descs += bytes(-(desc_addr + len(descs)) % 4)
     for o in (0x2DFE0, 0x2E040):
         assert struct.unpack_from("<I", arm9, o)[0] == 0x02058078
         struct.pack_into("<I", arm9, o, dbuf)

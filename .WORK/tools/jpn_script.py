@@ -64,6 +64,8 @@ def main():
             t = fixed[k]
         elif k in yn:
             t = "".join(g[v] for v in yn[k] if v)
+        elif k == "door_opened":
+            t = tbl(0x4BE34, 10)
         elif k == "saved":
             t = tbl(0x4BF68, 8)
         elif k.startswith("option_"):
