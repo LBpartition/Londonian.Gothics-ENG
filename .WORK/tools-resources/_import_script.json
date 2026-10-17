@@ -2155,6 +2155,190 @@
    ]
   },
   {
+   "file": "sp_home016.sp",
+   "idx": 6,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Miss, what have you come here",
+    "for?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 37,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Just visiting."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 4,
+   "speaker": 120,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Since you've apparently got",
+    "the time to dawdle about in",
+    "my humble little room, how",
+    "about you take your leave?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 46,
+   "speaker": 121,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "If you don't hurry up the",
+    "professor's surely going to....",
+    "kekekeke."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 9,
+   "speaker": 106,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "D-don't say frightening things",
+    "like that!"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 24,
+   "speaker": 106,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "And speaking of, that laugh",
+    "creeps me out so it'd be great",
+    "if you could put the kibosh on",
+    "it."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 29,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Goodness, how rude.",
+    "What is the matter with you?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 18,
+   "speaker": 103,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Ah, er, well.",
+    "I'm sorry."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 7,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "See here! Please stop idling",
+    "about and make haste to go.",
+    "The professor's waiting for",
+    "you, no?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 51,
+   "speaker": 100,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "O-okay I will."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 47,
+   "speaker": 120,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Oh my, Miss?",
+    "What do you want?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 2,
+   "speaker": 122,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Don't tell me you've elected",
+    "to abandon the professor",
+    "after all."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 14,
+   "speaker": 121,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Huhuhu! I knew it, protecting",
+    "your own life is more",
+    "important than saving his."
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 45,
+   "speaker": 123,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Oh, am I wrong?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 30,
+   "speaker": 120,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "If so, how about you get going",
+    "on the double?",
+    "Before it's too late?"
+   ]
+  },
+  {
+   "file": "sp_home016.sp",
+   "idx": 13,
+   "speaker": 121,
+   "source": "shadowrisae",
+   "gline": null,
+   "en": [
+    "Can't say I'd mind if you gave",
+    "up on him though.",
+    "Keeekkekekekeke."
+   ]
+  },
+  {
    "file": "sp_home041.sp",
    "idx": 99,
    "speaker": 110,
@@ -9101,190 +9285,6 @@
     "Fine! I'm definitely going to",
     "find you and drag the truth",
     "out of you if I have to!"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 47,
-   "speaker": 120,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Oh my, Miss?",
-    "What do you want?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 2,
-   "speaker": 122,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Don't tell me you've elected",
-    "to abandon the professor",
-    "after all."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 14,
-   "speaker": 121,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Huhuhu! I knew it, protecting",
-    "your own life is more",
-    "important than saving his."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 45,
-   "speaker": 123,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Oh, am I wrong?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 30,
-   "speaker": 120,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "If so, how about you get going",
-    "on the double?",
-    "Before it's too late?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 13,
-   "speaker": 121,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Can't say I'd mind if you gave",
-    "up on him though.",
-    "Keeekkekekekeke."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 6,
-   "speaker": 123,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Miss, what have you come here",
-    "for?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 37,
-   "speaker": 100,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Just visiting."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 4,
-   "speaker": 120,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Since you've apparently got",
-    "the time to dawdle about in",
-    "my humble little room, how",
-    "about you take your leave?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 46,
-   "speaker": 121,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "If you don't hurry up the",
-    "professor's surely going to....",
-    "kekekeke."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 9,
-   "speaker": 106,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "D-don't say frightening things",
-    "like that!"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 24,
-   "speaker": 106,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "And speaking of, that laugh",
-    "creeps me out so it'd be great",
-    "if you could put the kibosh on",
-    "it."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 29,
-   "speaker": 123,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Goodness, how rude.",
-    "What is the matter with you?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 18,
-   "speaker": 103,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "Ah, er, well.",
-    "I'm sorry."
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 7,
-   "speaker": 123,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "See here! Please stop idling",
-    "about and make haste to go.",
-    "The professor's waiting for",
-    "you, no?"
-   ]
-  },
-  {
-   "file": "sp_home016.sp",
-   "idx": 51,
-   "speaker": 100,
-   "source": "shadowrisae",
-   "gline": null,
-   "en": [
-    "O-okay I will."
    ]
   },
   {

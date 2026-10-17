@@ -1221,6 +1221,84 @@ Alice:
     Or perhaps rest for a bit?
 
 
+--- MAID'S ROOM  (sp_home016.sp) ---
+
+Lucille:
+    Miss, what have you come here
+    for?
+
+Alice:
+    Just visiting.
+
+Lucille:
+    Since you've apparently got
+    the time to dawdle about in
+    my humble little room, how
+    ---
+    about you take your leave?
+
+Lucille:
+    If you don't hurry up the
+    professor's surely going to....
+    kekekeke.
+
+Alice:
+    D-don't say frightening things
+    like that!
+
+Alice:
+    And speaking of, that laugh
+    creeps me out so it'd be great
+    if you could put the kibosh on
+    ---
+    it.
+
+Lucille:
+    Goodness, how rude.
+    What is the matter with you?
+
+Alice:
+    Ah, er, well.
+    I'm sorry.
+
+Lucille:
+    See here! Please stop idling
+    about and make haste to go.
+    The professor's waiting for
+    ---
+    you, no?
+
+Alice:
+    O-okay I will.
+
+Lucille:
+    Oh my, Miss?
+    What do you want?
+
+Lucille:
+    Don't tell me you've elected
+    to abandon the professor
+    after all.
+
+Lucille:
+    Huhuhu! I knew it, protecting
+    your own life is more
+    important than saving his.
+
+Lucille:
+    Oh, am I wrong?
+
+Lucille:
+    If so, how about you get going
+    on the double?
+    Before it's too late?
+
+Lucille:
+    Can't say I'd mind if you gave
+    up on him though.
+    Keeekkekekekeke.
+
+
 --- SANCTUARY  (sp_home041.sp) ---
 
 Mikhail:
@@ -3905,81 +3983,6 @@ Alice:
     Fine! I'm definitely going to
     find you and drag the truth
     out of you if I have to!
-
-Lucille:
-    Oh my, Miss?
-    What do you want?
-
-Lucille:
-    Don't tell me you've elected
-    to abandon the professor
-    after all.
-
-Lucille:
-    Huhuhu! I knew it, protecting
-    your own life is more
-    important than saving his.
-
-Lucille:
-    Oh, am I wrong?
-
-Lucille:
-    If so, how about you get going
-    on the double?
-    Before it's too late?
-
-Lucille:
-    Can't say I'd mind if you gave
-    up on him though.
-    Keeekkekekekeke.
-
-Lucille:
-    Miss, what have you come here
-    for?
-
-Alice:
-    Just visiting.
-
-Lucille:
-    Since you've apparently got
-    the time to dawdle about in
-    my humble little room, how
-    ---
-    about you take your leave?
-
-Lucille:
-    If you don't hurry up the
-    professor's surely going to....
-    kekekeke.
-
-Alice:
-    D-don't say frightening things
-    like that!
-
-Alice:
-    And speaking of, that laugh
-    creeps me out so it'd be great
-    if you could put the kibosh on
-    ---
-    it.
-
-Lucille:
-    Goodness, how rude.
-    What is the matter with you?
-
-Alice:
-    Ah, er, well.
-    I'm sorry.
-
-Lucille:
-    See here! Please stop idling
-    about and make haste to go.
-    The professor's waiting for
-    ---
-    you, no?
-
-Alice:
-    O-okay I will.
 
 
 --- LABYRINTH B26F  (sp106.sp) ---
