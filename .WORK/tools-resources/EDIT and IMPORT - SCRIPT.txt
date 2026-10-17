@@ -1536,29 +1536,6 @@ Mikhail:
 Alice:
     Sure will. Thank you, Mikhail!
 
-(narration)
-    O Lord, have mercy.
-
-(narration)
-    O Lord, grant this girl the
-    strength to live once more.
-
-(narration)
-    O Lord, descend from the
-    heavens and reveal Thy power.
-
-(narration)
-    O Lord, have mercy.
-
-(narration)
-    O Lord, O Heaven, grant this
-    girl the strength to live once
-    more.
-
-(narration)
-    O Lord, O Earth, reveal Thy
-    boundless power here and now.
-
 Alice:
     But where am I supposed to
     make a dress?
@@ -1587,6 +1564,20 @@ Mikhail:
 Alice:
     Right, I know!
     Leave it to me!
+
+
+--- SANCTUARY  (sp_home041.sp) - after dying (1st time) ---
+
+(narration)
+    O Lord, have mercy.
+
+(narration)
+    O Lord, grant this girl the
+    strength to live once more.
+
+(narration)
+    O Lord, descend from the
+    heavens and reveal Thy power.
 
 Alice:
     Huh?!
@@ -1625,6 +1616,21 @@ Alice:
 Mikhail:
     Now then, take care, milady.
     And do be careful this time.
+
+
+--- SANCTUARY  (sp_home041.sp) - after dying (2nd time) ---
+
+(narration)
+    O Lord, have mercy.
+
+(narration)
+    O Lord, O Heaven, grant this
+    girl the strength to live once
+    more.
+
+(narration)
+    O Lord, O Earth, reveal Thy
+    boundless power here and now.
 
 Alice:
     Huh?!
@@ -1669,6 +1675,9 @@ Alice:
 
 Mikhail:
     Take care, milady.
+
+
+--- SANCTUARY  (sp_home041.sp) - after dying (3rd time onwards) ---
 
 (narration)
     O Lord, have mercy.

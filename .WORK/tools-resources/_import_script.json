@@ -2992,72 +2992,6 @@
   },
   {
    "file": "sp_home041.sp",
-   "idx": 77,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, have mercy."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
-   "idx": 156,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, grant this girl the",
-    "strength to live once more."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
-   "idx": 163,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, descend from the",
-    "heavens and reveal Thy power."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
-   "idx": 77,
-   "op": 1126,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, have mercy."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
-   "idx": 101,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, O Heaven, grant this",
-    "girl the strength to live once",
-    "more."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
-   "idx": 119,
-   "speaker": null,
-   "source": "mtl",
-   "gline": null,
-   "en": [
-    "O Lord, O Earth, reveal Thy",
-    "boundless power here and now."
-   ]
-  },
-  {
-   "file": "sp_home041.sp",
    "idx": 28,
    "speaker": 105,
    "source": "mtl",
@@ -3132,6 +3066,39 @@
    "en": [
     "Right, I know!",
     "Leave it to me!"
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 77,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, have mercy."
+   ],
+   "scene": "after dying (1st time)"
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 156,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, grant this girl the",
+    "strength to live once more."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 163,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, descend from the",
+    "heavens and reveal Thy power."
    ]
   },
   {
@@ -3247,6 +3214,41 @@
    "en": [
     "Now then, take care, milady.",
     "And do be careful this time."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 77,
+   "op": 1126,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, have mercy."
+   ],
+   "scene": "after dying (2nd time)"
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 101,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, O Heaven, grant this",
+    "girl the strength to live once",
+    "more."
+   ]
+  },
+  {
+   "file": "sp_home041.sp",
+   "idx": 119,
+   "speaker": null,
+   "source": "mtl",
+   "gline": null,
+   "en": [
+    "O Lord, O Earth, reveal Thy",
+    "boundless power here and now."
    ]
   },
   {
@@ -3387,7 +3389,8 @@
    "gline": null,
    "en": [
     "O Lord, have mercy."
-   ]
+   ],
+   "scene": "after dying (3rd time onwards)"
   },
   {
    "file": "sp_home041.sp",

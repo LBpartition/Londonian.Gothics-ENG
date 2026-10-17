@@ -81,8 +81,9 @@ def main():
     nondlg = o[:]
     for n, e in enumerate(seq):
         f, i, st = e["file"], e["idx"], e["source"]
-        if f != last:
-            o += ["", f"--- {locs.get(f, '?')}  ({f}) ---", ""]; last = f
+        if f != last or e.get("scene"):
+            sc = f" - {e['scene']}" if e.get("scene") else ""
+            o += ["", f"--- {locs.get(f, '?')}  ({f}){sc} ---", ""]; last = f
         who = spk(e["speaker"])
         if not e["en"]:
             o += [f"{who}: (untranslated)", ""]; continue
