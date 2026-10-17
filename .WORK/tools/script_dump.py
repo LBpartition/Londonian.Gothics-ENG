@@ -32,8 +32,11 @@ def main():
           "Line breaks are exactly as the game wraps them. Dialogue boxes show 3",
           "lines at a time; '---' marks where the game pages to the next box.",
           "{word} = shown in red in-game (keyword highlight). *word* = literal asterisks, as shown.",
-          "Dialogue is in approximate playthrough order (following the guide);",
-          "a new --- Location --- header starts whenever the scene changes."]
+          "Dialogue order is approximate: lines found in the GameFAQs guide follow the",
+          "guide's playthrough order; lines not in the guide (machine translated) are",
+          "placed by their position in the game's own script files, so optional, repeat",
+          "and conditional dialogue may not appear exactly where it does in-game.",
+          "A new --- Location --- header starts whenever the scene changes."]
 
     hr("TITLE SCREEN CREDITS")
     o += ["(<RC> = build number, <HUMAN> / <MTL> = % of entries by source; max 4 lines)", ""]
