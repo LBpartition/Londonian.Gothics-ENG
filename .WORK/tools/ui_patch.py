@@ -145,6 +145,21 @@ def main(out_dir, diag=False):
                 refs = [j for j in range(0, 0x4B000, 4) if struct.unpack_from("<I", arm9, j)[0] == 0x02000000 + o]
                 assert refs, (key, hex(o))
                 for j in refs: struct.pack_into("<I", arm9, j, addr)
+    # {NUM} digits (0x0202A740): full-width 0xC0+d -> narrow 0x266+d (same as location names).
+    # 0x266 is not an ARM immediate, so each `add #0xC0` becomes a bl to a 2-add stub in ITCM extra.
+    descs += bytes(-(desc_addr + len(descs)) % 4)
+    stub = desc_addr + len(descs)
+    descs += struct.pack("<6I", 0xE2800F98, 0xE2800006, 0xE12FFF1E,    # add r0,r0,#0x260; add r0,#6; bx lr
+                         0xE2801F98, 0xE2811006, 0xE12FFF1E)           # add r1,r0,#0x260; add r1,#6; bx lr
+    bl = lambda src, dst, cond: cond << 28 | 0x0B000000 | (((dst - (src + 8)) >> 2) & 0xFFFFFF)
+    for o, old, dst, cond in ((0x2A774, 0x128000C0, stub, 0x1), (0x2A7BC, 0xE28010C0, stub + 12, 0xE)):
+        assert struct.unpack_from("<I", arm9, o)[0] == old
+        struct.pack_into("<I", arm9, o, bl(0x02000000 + o, dst, cond))
+    # Warp floor selector: x for 1-digit (0x362AC) / 2-digit (0x362C8) floors, centred between the
+    # arrows (x 72..179) using the narrow widths "B2F" 17px, "B30F" 23px.
+    for o, old, x in ((0x362AC, 0xE3A02064, 117), (0x362C8, 0xE3A0205D, 114)):
+        assert struct.unpack_from("<I", arm9, o)[0] == old
+        struct.pack_into("<I", arm9, o, 0xE3A02000 | x)
     for o in (0x2DFE0, 0x2E040):
         assert struct.unpack_from("<I", arm9, o)[0] == 0x02058078
         struct.pack_into("<I", arm9, o, dbuf)
