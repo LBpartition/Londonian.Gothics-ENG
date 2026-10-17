@@ -191,7 +191,10 @@ If one of the game's original glyphs (`0x000`-`0x246`) already looks like the ch
 
 ## 4. Translate the script: `EDIT and IMPORT - SCRIPT.txt`
 
-**`EDIT and IMPORT - SCRIPT.txt`** contains **all** text in the game, in playthrough order: title screen credits, intro, dialogue, locations, dresses, items and menus. Replace the English with your translation, then import it:
+**`EDIT and IMPORT - SCRIPT.txt`** contains **all** text in the game. title screen credits, intro, dialogue, locations, dresses, items and menus. Replace the English with your translation, then import it:
+
+Note: Dialogue order is approximate: lines found in the GameFAQs guide follow the guide's playthrough order; lines not in the guide (machine translated) are placed by their position in the game's own script files. Meaning,  optional, repeat and conditional dialogue might not be organized exactly as it appears in-game.
+
 
 ```
 python tools\script_import.py
