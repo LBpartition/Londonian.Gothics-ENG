@@ -10,6 +10,7 @@
 - Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
 - You will need at least 2000£ by the end of the game, but otherwise money is optional throughout since the things you can buy are the same items that monsters drop. 9999L is the cap.
 
+
 ### Legend
 
 | Symbol | Meaning |
