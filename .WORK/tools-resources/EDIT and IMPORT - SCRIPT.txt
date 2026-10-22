@@ -935,7 +935,7 @@ Alice:
 
 (narration)
     That thing you just destroyed
-    is known as a {bordermoon}.
+    is known as a {Bordermoon}.
 
 Alice:
     {Bordermoon}?
@@ -1358,7 +1358,7 @@ Alice:
 Alice:
     If that's true, the door could
     open when I destroy the
-    {bordermoon}!
+    {Bordermoon}!
 
 (narration)
     The {Bordermoon} collapses.
@@ -1561,7 +1561,7 @@ Alice:
 
 Mikhail:
     Hurry, milady! Use the
-    {holy sword} to rescue
+    {Holy Sword} to rescue
     the professor!
 
 Alice:
@@ -1793,7 +1793,7 @@ Vampire:
 Alice:
     Well then, you returned to
     normal when I destroyed the
-    {bordermoon}?
+    {Bordermoon}?
 
 Vampire:
     Exactly. When the miasma
@@ -1805,7 +1805,7 @@ Alice:
 
 Vampire:
     Once you destroy a
-    {bordermoon} to purify the
+    {Bordermoon} to purify the
     miasma in the area,
 
 Vampire:
@@ -2038,7 +2038,7 @@ Fairy:
 
 Alice:
     So if I destroy the
-    {bordermoons}...?
+    {Bordermoons}...?
 
 Fairy:
     Then they should calm down
@@ -3680,7 +3680,7 @@ Alice:
 
 (narration)
     the ability to destroy
-    {bordermoon} orbs.
+    {Bordermoon} orbs.
 
 (narration)
     Though it had to be done, it
@@ -3776,7 +3776,7 @@ Alice:
 
 Lucille:
     Huhun. Can an ordinary person
-    destroy a {bordermoon}, hmm?
+    destroy a {Bordermoon}, hmm?
 
 Lucille:
     Can an ordinary person make
@@ -4143,7 +4143,7 @@ Alice:
 Nabokov:
     Don't bother. No matter how
     much you beat on it, the
-    {gordalis} will not break.
+    {Gordalis} will not break.
 
 Alice:
     {Gordalis}? You mean this thing
@@ -4208,7 +4208,7 @@ Alice:
 
 Alice:
     Mikhail! Do you know how to
-    break a {gordalis}?
+    break a {Gordalis}?
 
 Mikhail:
     {Gordalis}! Milady where did
@@ -4382,7 +4382,7 @@ Alice:
 
 Vampire:
     Sacred water... In other
-    words, {holy water}, is what
+    words, {Holy Water}, is what
     you'll acquire.
 
 Alice:
@@ -4449,7 +4449,7 @@ Alice:
 
 Vampire:
     Sacred water... In other
-    words, {holy water}, is what
+    words, {Holy Water}, is what
     you'll acquire.
 
 Alice:
@@ -4516,7 +4516,7 @@ Alice:
 
 Vampire:
     Sacred water... In other
-    words, {holy water}, is what
+    words, {Holy Water}, is what
     you'll acquire.
 
 Alice:
@@ -4588,7 +4588,7 @@ Alice:
 
 Vampire:
     Sacred water... In other
-    words, {holy water}, is what
+    words, {Holy Water}, is what
     you'll acquire.
 
 Alice:
@@ -4631,22 +4631,22 @@ Alice:
 
 Alice:
     Surely this must be
-    {holy water} right?!
+    {Holy Water} right?!
     Let's scoop some up.
 
 (narration)
-    Obtained {holy water}
+    Obtained {Holy Water}
 
 
 --- SANCTUARY  (sp_home041.sp) ---
 
 Alice:
     I've got myself some
-    {holy water}. I better find
+    {Holy Water}. I better find
     the other sacred item fast.
 
 Alice:
-    I've got the {bible}.
+    I've got the {Bible}.
     Better find the other sacred
     item fast.
 
@@ -4659,7 +4659,7 @@ Mikhail:
     sacred items?
 
 Alice:
-    I found {holy water},
+    I found {Holy Water},
     but I'm still working on
     the other one.
 
@@ -4760,11 +4760,11 @@ Alice:
     An unusual book?
 
 Wizard:
-    Probably meaning a {holy book},
-    a bible.
+    Probably meaning a holy book,
+    a {Bible}.
 
 Alice:
-    A {holy book}?!
+    A {Bible}?!
     Could that be one of the
     sacred items I need?!
 
@@ -4881,11 +4881,11 @@ Alice:
     An unusual book?
 
 Wizard:
-    Probably meaning a {holy book},
-    a bible.
+    Probably meaning a holy book,
+    a Bible.
 
 Alice:
-    A {holy book}?!
+    A {Bible}?!
     Could that be one of the
     sacred items I need?!
 
@@ -4989,11 +4989,11 @@ Alice:
     An unusual book?
 
 Wizard:
-    Probably meaning a {holy book},
-    a bible.
+    Probably meaning a holy book,
+    a {Bible}.
 
 Alice:
-    A {holy book}?!
+    A {Bible}?!
     Could that be one of the
     sacred items I need?!
 
@@ -5087,8 +5087,8 @@ Mikhail:
     {Argus},
 
 Mikhail:
-    you'll need {akubaru}, {tyuunu},
-    {fomoru}, and {oreusu}.
+    you'll need {Akubaru}, {Tyuunu},
+    {Fomoru}, and {Oreusu}.
 
 Mikhail:
     These items are frequently
@@ -5099,7 +5099,7 @@ Mikhail:
 
 Alice:
     Mikhail, I found them!
-    A {bible} and {holy water}!
+    A {Bible} and {Holy Water}!
 
 Alice:
     Look! These should work for
@@ -5160,7 +5160,7 @@ Alice:
 --- SEWING ROOM  (sp_home040.sp) ---
 
 Alice:
-    A {bible} and {holy water}.
+    A {Bible} and {Holy Water}.
     And the dress.
 
 Alice:
@@ -5206,7 +5206,7 @@ Alice:
 
 Alice:
     Ah!
-    The {bible} and {holy water}
+    The {Bible} and {Holy Water}
     are glowing?!
 
 Alice:
@@ -5246,7 +5246,7 @@ Alice:
     the wicked.
 
 (narration)
-    This {holy sword}!!
+    This {Holy Sword}!!
 
 Alice:
     Kyaaaaa?!
@@ -5265,18 +5265,18 @@ Alice:
     Such a beautiful blade...
 
 Alice:
-    This must be the {holy sword}.
+    This must be the {Holy Sword}.
 
 Alice:
     So this is what Mikhail meant.
 
 Alice:
     Now that I have this
-    {sacred sword}, I should be
+    {Holy Sword}, I should be
     able to help Father. Surely!
 
 (narration)
-    Obtained the {holy sword}
+    Obtained the {Holy Sword}
 
 Alice:
     Now, let's hurry on to where
@@ -5298,7 +5298,7 @@ Alice:
 Alice:
     This should do it. I have to be
     wearing this dress in order to
-    use the {holy sword}.
+    use the {Holy Sword}.
 
 Alice:
     All right, let's go.
@@ -5328,7 +5328,7 @@ Nabokov:
     Can you?
 
 Alice:
-    With this {holy sword} I sure
+    With this {Holy Sword} I sure
     ought to be able to!
 
 Nabokov:
@@ -5358,7 +5358,7 @@ Alice:
 
 Nabokov:
     That's not good! Now that the
-    {gordalis} was destroyed, the
+    {Gordalis} was destroyed, the
     labyrinth itself has begun to
     ---
     collapse! Alice, let's move.
@@ -5593,7 +5593,7 @@ Alice:
     What is it, Father?
 
 Nabokov:
-    Even with the {holy sword}, a
+    Even with the {Holy Sword}, a
     head-on attack won't leave a
     scratch on him.
 
@@ -5970,7 +5970,7 @@ Alice:
     I-I've got to get out of here!
 
 Alice:
-    Eh? The {holy sword} is
+    Eh? The {Holy Sword} is
     glowing?!
 
 (narration)
@@ -5994,7 +5994,7 @@ Alice:
     Well now, this fight might
     just be winnable after all.
     ---
-    This {holy sword} might be
+    This {Holy Sword} might be
     enough to topple that
     abomination.
 
@@ -6563,7 +6563,7 @@ Alice:
     Discard {ITEM}?
 
 (system message)
-    Make a dress?
+    Sew a dress?
 
 (system message)
     Not enough materials.

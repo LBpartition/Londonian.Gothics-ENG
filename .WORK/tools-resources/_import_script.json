@@ -1442,7 +1442,7 @@
    "gline": 535,
    "en": [
     "That thing you just destroyed",
-    "is known as a {H}bordermoon{/H}."
+    "is known as a {H}Bordermoon{/H}."
    ]
   },
   {
@@ -2493,7 +2493,7 @@
    "en": [
     "If that's true, the door could",
     "open when I destroy the",
-    "{H}bordermoon{/H}!"
+    "{H}Bordermoon{/H}!"
    ]
   },
   {
@@ -3053,7 +3053,7 @@
    "gline": null,
    "en": [
     "Hurry, milady! Use the",
-    "{H}holy sword{/H} to rescue",
+    "{H}Holy Sword{/H} to rescue",
     "the professor!"
    ]
   },
@@ -3678,7 +3678,7 @@
    "en": [
     "Well then, you returned to",
     "normal when I destroyed the",
-    "{H}bordermoon{/H}?"
+    "{H}Bordermoon{/H}?"
    ]
   },
   {
@@ -3711,7 +3711,7 @@
    "gline": 811,
    "en": [
     "Once you destroy a",
-    "{H}bordermoon{/H} to purify the",
+    "{H}Bordermoon{/H} to purify the",
     "miasma in the area,"
    ]
   },
@@ -4319,7 +4319,7 @@
    "gline": null,
    "en": [
     "So if I destroy the",
-    "{H}bordermoons{/H}...?"
+    "{H}Bordermoons{/H}...?"
    ]
   },
   {
@@ -8499,7 +8499,7 @@
    "gline": 1408,
    "en": [
     "the ability to destroy",
-    "{H}bordermoon{/H} orbs."
+    "{H}Bordermoon{/H} orbs."
    ]
   },
   {
@@ -8740,7 +8740,7 @@
    "gline": 1441,
    "en": [
     "Huhun. Can an ordinary person",
-    "destroy a {H}bordermoon{/H}, hmm?"
+    "destroy a {H}Bordermoon{/H}, hmm?"
    ]
   },
   {
@@ -9662,7 +9662,7 @@
    "en": [
     "Don't bother. No matter how",
     "much you beat on it, the",
-    "{H}gordalis{/H} will not break."
+    "{H}Gordalis{/H} will not break."
    ]
   },
   {
@@ -9821,7 +9821,7 @@
    "gline": 1634,
    "en": [
     "Mikhail! Do you know how to",
-    "break a {H}gordalis{/H}?"
+    "break a {H}Gordalis{/H}?"
    ]
   },
   {
@@ -10254,7 +10254,7 @@
    "gline": 1686,
    "en": [
     "Sacred water... In other",
-    "words, {H}holy water{/H}, is what",
+    "words, {H}Holy Water{/H}, is what",
     "you'll acquire."
    ]
   },
@@ -10414,7 +10414,7 @@
    "gline": 1686,
    "en": [
     "Sacred water... In other",
-    "words, {H}holy water{/H}, is what",
+    "words, {H}Holy Water{/H}, is what",
     "you'll acquire."
    ]
   },
@@ -10574,7 +10574,7 @@
    "gline": 1686,
    "en": [
     "Sacred water... In other",
-    "words, {H}holy water{/H}, is what",
+    "words, {H}Holy Water{/H}, is what",
     "you'll acquire."
    ]
   },
@@ -10746,7 +10746,7 @@
    "gline": 1686,
    "en": [
     "Sacred water... In other",
-    "words, {H}holy water{/H}, is what",
+    "words, {H}Holy Water{/H}, is what",
     "you'll acquire."
    ]
   },
@@ -10836,7 +10836,7 @@
    "gline": 1699,
    "en": [
     "Surely this must be",
-    "{H}holy water{/H} right?!",
+    "{H}Holy Water{/H} right?!",
     "Let's scoop some up."
    ]
   },
@@ -10847,7 +10847,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Obtained {H}holy water{/H}"
+    "Obtained {H}Holy Water{/H}"
    ]
   },
   {
@@ -10858,7 +10858,7 @@
    "gline": 1707,
    "en": [
     "I've got myself some",
-    "{H}holy water{/H}. I better find",
+    "{H}Holy Water{/H}. I better find",
     "the other sacred item fast."
    ]
   },
@@ -10869,7 +10869,7 @@
    "source": "mtl",
    "gline": null,
    "en": [
-    "I've got the {H}bible{/H}.",
+    "I've got the {H}Bible{/H}.",
     "Better find the other sacred",
     "item fast."
    ]
@@ -10904,7 +10904,7 @@
    "source": "shadowrisae",
    "gline": 1712,
    "en": [
-    "I found {H}holy water{/H},",
+    "I found {H}Holy Water{/H},",
     "but I'm still working on",
     "the other one."
    ]
@@ -11161,8 +11161,8 @@
    "source": "shadowrisae",
    "gline": 1743,
    "en": [
-    "Probably meaning a {H}holy book{/H},",
-    "a bible."
+    "Probably meaning a holy book,",
+    "a {H}Bible{/H}."
    ]
   },
   {
@@ -11172,7 +11172,7 @@
    "source": "shadowrisae",
    "gline": 1744,
    "en": [
-    "A {H}holy book{/H}?!",
+    "A {H}Bible{/H}?!",
     "Could that be one of the",
     "sacred items I need?!"
    ]
@@ -11497,8 +11497,8 @@
    "source": "shadowrisae",
    "gline": 1743,
    "en": [
-    "Probably meaning a {H}holy book{/H},",
-    "a bible."
+    "Probably meaning a holy book,",
+    "a Bible."
    ]
   },
   {
@@ -11508,7 +11508,7 @@
    "source": "shadowrisae",
    "gline": 1744,
    "en": [
-    "A {H}holy book{/H}?!",
+    "A {H}Bible{/H}?!",
     "Could that be one of the",
     "sacred items I need?!"
    ]
@@ -11782,8 +11782,8 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Probably meaning a {H}holy book{/H},",
-    "a bible."
+    "Probably meaning a holy book,",
+    "a {H}Bible{/H}."
    ]
   },
   {
@@ -11793,7 +11793,7 @@
    "source": "shadowrisae",
    "gline": 1744,
    "en": [
-    "A {H}holy book{/H}?!",
+    "A {H}Bible{/H}?!",
     "Could that be one of the",
     "sacred items I need?!"
    ]
@@ -12032,8 +12032,8 @@
    "source": "shadowrisae",
    "gline": 1791,
    "en": [
-    "you'll need {H}akubaru{/H}, {H}tyuunu{/H},",
-    "{H}fomoru{/H}, and {H}oreusu{/H}."
+    "you'll need {H}Akubaru{/H}, {H}Tyuunu{/H},",
+    "{H}Fomoru{/H}, and {H}Oreusu{/H}."
    ]
   },
   {
@@ -12065,7 +12065,7 @@
    "gline": 1772,
    "en": [
     "Mikhail, I found them!",
-    "A {H}bible{/H} and {H}holy water{/H}!"
+    "A {H}Bible{/H} and {H}Holy Water{/H}!"
    ]
   },
   {
@@ -12221,7 +12221,7 @@
    "source": "shadowrisae",
    "gline": 1801,
    "en": [
-    "A {H}bible{/H} and {H}holy water{/H}.",
+    "A {H}Bible{/H} and {H}Holy Water{/H}.",
     "And the dress."
    ]
   },
@@ -12353,7 +12353,7 @@
    "gline": 1817,
    "en": [
     "Ah!",
-    "The {H}bible{/H} and {H}holy water{/H}",
+    "The {H}Bible{/H} and {H}Holy Water{/H}",
     "are glowing?!"
    ]
   },
@@ -12455,7 +12455,7 @@
    "source": "shadowrisae",
    "gline": 1827,
    "en": [
-    "This {H}holy sword{/H}!!"
+    "This {H}Holy Sword{/H}!!"
    ]
   },
   {
@@ -12516,7 +12516,7 @@
    "source": "shadowrisae",
    "gline": 1835,
    "en": [
-    "This must be the {H}holy sword{/H}."
+    "This must be the {H}Holy Sword{/H}."
    ]
   },
   {
@@ -12537,7 +12537,7 @@
    "gline": 1837,
    "en": [
     "Now that I have this",
-    "{H}sacred sword{/H}, I should be",
+    "{H}Holy Sword{/H}, I should be",
     "able to help Father. Surely!"
    ]
   },
@@ -12548,7 +12548,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Obtained the {H}holy sword{/H}"
+    "Obtained the {H}Holy Sword{/H}"
    ]
   },
   {
@@ -12602,7 +12602,7 @@
    "en": [
     "This should do it. I have to be",
     "wearing this dress in order to",
-    "use the {H}holy sword{/H}."
+    "use the {H}Holy Sword{/H}."
    ]
   },
   {
@@ -12688,7 +12688,7 @@
    "source": "shadowrisae",
    "gline": 1864,
    "en": [
-    "With this {H}holy sword{/H} I sure",
+    "With this {H}Holy Sword{/H} I sure",
     "ought to be able to!"
    ]
   },
@@ -12774,7 +12774,7 @@
    "gline": 1878,
    "en": [
     "That's not good! Now that the",
-    "{H}gordalis{/H} was destroyed, the",
+    "{H}Gordalis{/H} was destroyed, the",
     "labyrinth itself has begun to",
     "collapse! Alice, let's move.",
     "We've got to get out of here",
@@ -13445,7 +13445,7 @@
    "source": "mtl",
    "gline": null,
    "en": [
-    "Even with the {H}holy sword{/H}, a",
+    "Even with the {H}Holy Sword{/H}, a",
     "head-on attack won't leave a",
     "scratch on him."
    ]
@@ -14470,7 +14470,7 @@
    "source": "shadowrisae",
    "gline": 2014,
    "en": [
-    "Eh? The {H}holy sword{/H} is",
+    "Eh? The {H}Holy Sword{/H} is",
     "glowing?!"
    ]
   },
@@ -14536,7 +14536,7 @@
     "Well now, this fight might",
     "just be winnable after all.",
     "",
-    "This {H}holy sword{/H} might be",
+    "This {H}Holy Sword{/H} might be",
     "enough to topple that",
     "abomination."
    ]
@@ -17524,7 +17524,7 @@
   {
    "key": "sys_make_dress",
    "source": "mtl",
-   "en": "Make a dress?"
+   "en": "Sew a dress?"
   },
   {
    "key": "sys_no_materials",
