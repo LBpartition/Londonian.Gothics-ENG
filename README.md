@@ -2,9 +2,10 @@
 
 * 91% human translation by [ShadowRisae](https://gamefaqs.gamespot.com/ds/925559-londonian-gothics-meikyuu-no-lolita/faqs/75947)
 *  9% machine translation (the guide was missing a few things)
+
+  
 <img width="256" height="384" alt="Patched ROM 2026-10-14 18 58 20" src="https://github.com/user-attachments/assets/cdc06f8b-8e7a-46e5-8349-f791b4e953d1" />
 <img width="256" height="384" alt="Londonian Gothics - Lolita in the Labyrinth 2026-10-23 02 22 27" src="https://github.com/user-attachments/assets/9328a2c6-4fe3-4e5f-bfd8-ca850ec912f1" />
-<img width="256" height="384" alt="Items" src="https://github.com/user-attachments/assets/98f4baa6-3b1b-4ecc-a61d-dc21d2604e2f" />
 <img width="256" height="384" alt="DressMode" src="https://github.com/user-attachments/assets/af1977eb-fb5a-44e1-a265-e20b56326e44" />
 
 
