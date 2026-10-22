@@ -748,7 +748,7 @@ Lucille:
     wandering about out here?
 
 Lucille:
-    Surely you're not, l-lost, in
+    Surely you're not lost in
     your own manor?!
 
 Lucille:
@@ -859,9 +859,9 @@ Mikhail:
 --- LABYRINTH B1F  (sp002.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Alice:
     What on Earth is this..?
@@ -987,9 +987,9 @@ Alice:
     Hang in there.
 
 (narration)
-    When the {bordermoon}
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B2F  (sp003.sp) ---
@@ -1015,17 +1015,17 @@ Alice:
 --- LABYRINTH B2F  (sp005.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B3F  (sp007.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- SANCTUARY  (sp_home041.sp) ---
@@ -1361,17 +1361,17 @@ Alice:
     {bordermoon}!
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Alice:
     Let's see what happens.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 (narration)
     The miasma dissipates,
@@ -1834,9 +1834,9 @@ Vampire:
     Kuku, kukuku....
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Vampire:
     Kukuku... I'll tell you
@@ -2109,9 +2109,9 @@ Alice:
 --- LABYRINTH B8F  (sp026.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- NABOKOV'S BEDROOM  (sp_home003.sp) ---
@@ -2468,9 +2468,9 @@ Fairy:
     Please come again.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B13F  (sp045.sp) ---
@@ -2502,9 +2502,9 @@ Fairy:
     Please come again.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B17F  (sp061.sp) ---
@@ -2536,9 +2536,9 @@ Fairy:
     Please come again.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B30F  (sp127.sp) ---
@@ -2573,9 +2573,9 @@ Fairy:
 --- LABYRINTH B10F  (sp034.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B11F  (sp035.sp) ---
@@ -2612,17 +2612,17 @@ Alice:
 --- LABYRINTH B11F  (sp037.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B12F  (sp040.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- DINING ROOM  (sp_home018.sp) ---
@@ -2770,9 +2770,9 @@ Vampire:
     Kukuku......
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Vampire:
     I don't have any more rewards
@@ -2971,9 +2971,9 @@ Alice:
 --- LABYRINTH B15F  (sp054.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- SANCTUARY  (sp_home041.sp) ---
@@ -3221,9 +3221,9 @@ Alice:
 --- LABYRINTH B16F  (sp056.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Fairy:
     Hey sister, have you found
@@ -3283,9 +3283,9 @@ Alice:
 --- LABYRINTH B18F  (sp064.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B19F  (sp070.sp) ---
@@ -3304,15 +3304,15 @@ Alice:
 
 Wizard:
     I started up a shop.
-    Buy something, will you?
+    Buy something, won't you?
 
 Wizard:
-    I see, come again.
+    I see... come again.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B24F  (sp092.sp) ---
@@ -3331,29 +3331,29 @@ Alice:
 
 Wizard:
     I started up a shop.
-    Buy something, will you?
+    Buy something, won't you?
 
 Wizard:
-    I see, come again.
+    I see... come again.
 
 Wizard:
     Welcome. Buy something.
 
 Wizard:
-    I see, come again.
+    I see... come again.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B25F  (sp099.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B19F  (sp070.sp) ---
@@ -3362,7 +3362,7 @@ Wizard:
     Welcome. Buy something.
 
 Wizard:
-    I see, come again.
+    I see... come again.
 
 
 --- LABYRINTH B20F  (sp071.sp) ---
@@ -3402,17 +3402,17 @@ Alice:
 --- LABYRINTH B20F  (sp072.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B21F  (sp078.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B22F  (sp083.sp) ---
@@ -3446,17 +3446,17 @@ Alice:
 --- LABYRINTH B22F  (sp085.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B23F  (sp087.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- SANCTUARY  (sp_home041.sp) ---
@@ -4092,9 +4092,9 @@ Alice:
 --- LABYRINTH B30F  (sp128.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Vampire:
     Yo, Mademoiselle. Nice
@@ -4528,9 +4528,9 @@ Vampire:
     Kukuku....
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B30F  (sp128.sp) ---
@@ -4603,17 +4603,17 @@ Vampire:
 --- LABYRINTH B6F  (sp019.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B7F  (sp021.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- LABYRINTH B29F  (sp120.sp) ---
@@ -4800,9 +4800,9 @@ Alice:
 --- LABYRINTH B27F  (sp109.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Wizard:
     .......
@@ -4921,9 +4921,9 @@ Alice:
 --- LABYRINTH B29F  (sp121.sp) ---
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 Wizard:
     Need something from me?
@@ -5067,9 +5067,9 @@ Vampire:
     Kukkukku.
 
 (narration)
-    When the bordermoon
-    collapses, the nearby miasma
-    is purified.
+    The {Bordermoon} collapses.
+    Nearby miasma is purified.
+    Enemies are vulnerable!
 
 
 --- SANCTUARY  (sp_home041.sp) ---
