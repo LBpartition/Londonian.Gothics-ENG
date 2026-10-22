@@ -1,7 +1,7 @@
 # Londonian Gothics: Lolita in the Labyrinth - ENG Patch
 
 * 91% human translation by [ShadowRisae](https://gamefaqs.gamespot.com/ds/925559-londonian-gothics-meikyuu-no-lolita/faqs/75947)
-*  9% machine translation (the guide was missing a few things)
+*  9% machine translation (the guide was missing a few optional and missable conversations.)
 
   
 <img width="256" height="384" alt="Patched ROM 2026-10-14 18 58 20" src="https://github.com/user-attachments/assets/cdc06f8b-8e7a-46e5-8349-f791b4e953d1" />
@@ -16,7 +16,7 @@
 
 2: Patch your legally acquired Japanese Londonian Gothics ROM with: **xdelta UI** / **Delta Patcher** / **xdelta3** / [**Kotcrabs xdelta patcher website**](https://kotcrab.github.io/xdelta-wasm/). 
 
-## **This repo contains no ROMs!**
+## **This Repo Contains No ROMs!**
 
 **You need your own clean copy of Londonian Gothics** 
 
@@ -26,10 +26,11 @@
 | CRC32 | `8622a134` |
 | SHA-1 | `5ebeea532dd92ee060a3ec6ebd121260c706c44b` |
 
-## Editing the script + Translating to other languages
+## Editing the Script + Improving the MTL lines + Translating to Other Languages
 
 Refer to [DOCS - Translating to other languages.md](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/DOCS%20-%20Translating%20to%20other%20languages.md)
 
+If any Japanese to English translators are interested in updating the 9% MTL translated lines, please refer to: [Improving the machine-translated lines + EDIT and IMPORT - SCRIPT - No MTL.txt](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/DOCS%20-%20Translating%20to%20other%20languages.md#41-optional-improve-the-machine-translated-lines-edit-and-import---script---no-mtltxt)
 ## Credits
 
 * **ShadowRisae** - for their incredible [English guide](https://gamefaqs.gamespot.com/ds/925559-londonian-gothics-meikyuu-no-lolita/faqs/75947)
