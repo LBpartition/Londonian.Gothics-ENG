@@ -92,7 +92,8 @@ def main(out_dir, name="Patched_ROM", rc=None):
             rep.append(f"{fname}\tname\tjp:location-untranslated\t\t{jp}"); continue
         if m.width(en, LOC_BOX) > LOC_BOX.max_px:
             n_fail += 1; rep.append(f"{fname}\tname\tFAIL:width {m.width(en, LOC_BOX)}px\t\t{en}"); continue
-        codes = m.codes(en, LOC_BOX)
+        # centred in the bar interior x 25..174 (ui_patch stub reads the 0xF000|x prefix)
+        codes = [0xF000 | (25 + (150 - m.width(en, LOC_BOX)) // 2)] + m.codes(en, LOC_BOX)
         changes[sid] = sp_tool.set_name(d, codes)
         n_loc += 1
         rep.append(f"{fname}\tname\tok\t\t{en}")

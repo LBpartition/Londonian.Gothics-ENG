@@ -155,6 +155,14 @@ def main(out_dir, diag=False):
     for o, old, dst, cond in ((0x2A774, 0x128000C0, stub, 0x1), (0x2A7BC, 0xE28010C0, stub + 12, 0xE)):
         assert struct.unpack_from("<I", arm9, o)[0] == old
         struct.pack_into("<I", arm9, o, bl(0x02000000 + o, dst, cond))
+    # Location name (map screen bar, 0x0202DD2C draws file+0x10 at x 40): full_build prefixes each
+    # name with 0xF000|x (centred x); the stub uses it as x and skips it, else keeps x 40.
+    stub = desc_addr + len(descs)
+    descs += struct.pack("<6I", 0xE1D120B0, 0xE352AA0F,            # ldrh r2,[r1]; cmp r2,#0xF000
+                         0x33A02028, 0x220220FF, 0x22811002,        # movlo r2,#40; andhs r2,#0xFF; addhs r1,#2
+                         0xEA000000 | (((0x0202A1C4 - (stub + 20 + 8)) >> 2) & 0xFFFFFF))   # b draw
+    assert struct.unpack_from("<I", arm9, 0x2DD2C)[0] == bl(0x0202DD2C, 0x0202A1C4, 0xE)
+    struct.pack_into("<I", arm9, 0x2DD2C, bl(0x0202DD2C, stub, 0xE))
     # Warp floor selector: x for 1-digit (0x362AC) / 2-digit (0x362C8) floors, centred between the
     # arrows (x 72..179) using the narrow widths "B2F" 17px, "B30F" 23px.
     for o, old, x in ((0x362AC, 0xE3A02064, 117), (0x362C8, 0xE3A0205D, 114)):
