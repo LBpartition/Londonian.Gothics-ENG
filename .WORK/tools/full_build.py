@@ -63,7 +63,7 @@ def main(out_dir, name="Patched_ROM", rc=None):
             _t = os.environ.get("LG_TEST_LINE", "").split("|", 2)   # diagnostic override: file|idx|text
             if len(_t) == 3 and _t[0] == fname and _t[1] == str(i):
                 en = norm(_t[2])
-            if en is None:
+            if en is None or master.has_jp(en):   # untranslated / --nomtl Japanese: keep original
                 n_jp += 1; rep.append(f"{fname}\t{i}\tjp:untranslated\t\t"); continue
             if any(c in KEEP_JP_CODES for c in new[i]):
                 n_jp += 1; rep.append(f"{fname}\t{i}\tjp:has-insert-code\t\t{en}"); continue

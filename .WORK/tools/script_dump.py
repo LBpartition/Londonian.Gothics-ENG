@@ -15,7 +15,7 @@ HL = lambda s: s.replace("{H}", "{").replace("{/H}", "}")   # {red highlighted t
 
 
 def main():
-    rc = "_import_script.json"
+    rc = master.SRC.name
     seq = master.EN["dialogue"]   # already in playthrough order
     locs = {e["file"]: e["en"] for e in master.EN["locations"]}
     rom = t1.ORIG.read_bytes()
@@ -37,6 +37,10 @@ def main():
           "placed by their position in the game's own script files, so optional, repeat",
           "and conditional dialogue may not appear exactly where it does in-game.",
           "A new --- Location --- header starts whenever the scene changes."]
+    if master.NOMTL:
+        o += ["", "NO MTL VERSION (translator resource): lines that were machine translated in the",
+              "English patch are shown in their original Japanese. Replace them with English;",
+              "everything else is ShadowRisae's translation. Import with: script_import.py --nomtl"]
 
     hr("TITLE SCREEN CREDITS")
     o += ["(<RC> = build number, <HUMAN> / <MTL> = % of entries by source; max 4 lines)", ""]
@@ -106,7 +110,7 @@ def main():
     for k in master.SYSMSG:
         if k not in master.SYSMSG_LOC:
             o += ["(system message)"] + ["    " + l for l in master.MENU[k].split("\n")] + [""]
-    out = W / "tools-resources" / "EDIT and IMPORT - SCRIPT.txt"
+    out = master.DOC
     out.write_text("\n".join(o) + "\n", encoding="utf-8")
     print(out, len(seq), "dialogue lines")
     import add_patch_credits; print("shares %.1f%% / %.1f%%" % add_patch_credits.shares())

@@ -123,6 +123,11 @@ def main(out_dir, diag=False):
         for key, offs in master.SYSMSG.items():
             lines = master.MENU[key].split("\n")
             jl = struct.unpack_from("<64H", arm9, offs[0]); jl = jl[:jl.index(0)]
+            if master.has_jp(master.MENU[key]):   # --nomtl: keep the original Japanese message
+                if key == "sys_pattern_desc":
+                    u = list(jl[:DESC_STRIDE // 2 - 1]); o = 22 * DESC_STRIDE
+                    descs = descs[:o] + struct.pack(f"<{DESC_STRIDE//2}H", *(u + [0] * (DESC_STRIDE // 2 - len(u)))) + descs[o + DESC_STRIDE:]
+                continue
             assert len(lines) <= max(2, jl.count(0xFFFF) + 1), (key, "too many lines")
             u = []
             for i, ln in enumerate(lines):
