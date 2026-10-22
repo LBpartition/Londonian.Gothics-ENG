@@ -4000,15 +4000,15 @@ Alice:
 --- LABYRINTH B26F  (sp106.sp) ---
 
 Vampire:
-    Kukuku. Welcome in.
+    Kukuku. Welcome!
 
 Alice:
-    Welcome in? You started up a
-    shop?
+    Welcome!? You started up a
+    shop too?
 
 Vampire:
-    Exactly right. Today's opening
-    day.
+    Exactly right Miss.
+    Today's opening day!
 
 Alice:
     By any chance are you hurting
@@ -4018,8 +4018,8 @@ Vampire:
     ......
 
 Vampire:
-    Anyway please take a look at
-    my wares.
+    Please take a look at
+    my wares...
 
 
 --- LABYRINTH B28F  (sp116.sp) ---
@@ -4060,7 +4060,7 @@ Alice:
     now!
 
 Vampire:
-    No problem, it's all good.
+    Don't worry, it's all good.
     This is worthless me we're
     talking about after all.
 
