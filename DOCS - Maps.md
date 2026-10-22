@@ -5,11 +5,10 @@
 ## V. LEVEL MAPS AND ITEM DROPS
 
 - It is important to understand that the item drops noted below are valid, but not necessarily a complete list of what each given monster can drop.
-- Monsters can drop a a)dress pattern, b)common item, c)rare item, d)sometimes third item, e)money, or f)nothing at all when defeated. Drops I got are in the maps below, but you might get additional drops not listed. The monster abbreviations used are explained at the very end of this section.
+- Monsters can drop a a: dress pattern, b: common item, c: rare item, d: sometimes a third item, e: money, or f: nothing at all when defeated. Drops I got are in the maps below, but you might get additional drops not listed. The monster abbreviations used are explained below.
 - Doors to the rooms are shown in their relative positions so you know about where to look for the exits.
 - Sanctuaries are on floors 2,5,7,9,11,13,15,18,20,22,24,25,26,27,28,29,30.
-- You will need at least 2000L by the end of the game, but otherwise money is optional throughout since the things you can buy are the same items that monsters drop. 9999L is the cap.
-- The sewing room on B7F is a good place to go if you're near a sanctuary but not a sewing room on your floor.  It's quick to go north and destroy the bordermoon that's just inside the door, which then opens up the sewing room to the south.
+- You will need at least 2000£ by the end of the game, but otherwise money is optional throughout since the things you can buy are the same items that monsters drop. 9999L is the cap.
 
 ### Legend
 
