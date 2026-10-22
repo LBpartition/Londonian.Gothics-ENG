@@ -246,6 +246,25 @@ The first section, `TITLE SCREEN CREDITS`, is the text shown on the title screen
 
 Every entry in `_import_script.json` has a `"source"`: where its English came from (`shadowrisae` = the GameFAQs guide, `mtl` = machine translation, `original` = already in English in the Japanese game). It doesn't change the game text, but it **is used for the `<HUMAN>` / `<MTL>` percentages**. The percentages count dialogue lines, intro paragraphs, dress and item names and descriptions, location names, character names and menu entries (`original` entries are not counted). If they don't make sense for your translation, either change the `"source"` values in `_import_script.json` to match your own work, or just remove `<HUMAN>` / `<MTL>` from your credit lines.
 
+### Improving the machine-translated lines: `EDIT and IMPORT - SCRIPT - No MTL.txt`
+
+* ShadowRisae's English Guide was missing a few optional/missable lines of dialogue - So about 9% of the English (149 dialogue lines and 19 system messages) is machine translated.
+ 
+**`EDIT and IMPORT - SCRIPT - No MTL.txt`** is the same script as the final patch, except MTL lines are left untranslated and are shown in their **original Japanese** instead, 
+
+This is  intended as a resource to allow Japanese-speaking translators to replace the MTL sections with the own translations. Everything else is ShadowRisae's English, as in the main script.
+
+- Translate the Japanese lines into English using the same formatting rules as above, then add `--nomtl` to the usual commands:
+
+```
+python tools\script_import.py --nomtl
+python tools\full_build.py out NoMTL_ROM 1 --nomtl
+```
+
+- `--nomtl` reads and writes `EDIT and IMPORT - SCRIPT - No MTL.txt` / `_import_script_nomtl.json` instead of the main files.
+- Lines still in Japanese stay as the original Japanese in the built ROM, so you can test a partly finished translation.
+- Running `script_import.py` **without** `--nomtl` (after editing the main script) copies every non-machine-translated change into the No MTL script automatically. The machine-translated entries in the No MTL script are never overwritten.
+
 ---
 
 ## 5. Build and test your patched ROM
@@ -284,9 +303,11 @@ File names tell you what each file is for:
 | File | What it is | Edit it? |
 |---|---|---|
 | `EDIT and IMPORT - SCRIPT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-edit-and-import---scripttxt)) |
+| `EDIT and IMPORT - SCRIPT - No MTL.txt` | The same script with the machine-translated lines in their original Japanese, for translators to redo. | **Yes**, with `--nomtl` ([see step 4](#improving-the-machine-translated-lines-edit-and-import---script---no-mtltxt)) |
 | `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt)) |
 | `EDIT and IMPORT - GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
 | `_import_script.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
+| `_import_script_nomtl.json` | The No MTL version, read by the build with `--nomtl`. Written by `script_import.py`. | No |
 | `_import_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
 | `.script_jpn.json` | The original Japanese text, in the same order as `_import_script.json`. Created by `extract_rom.py` (not in the repository). | No, reference only |
 | `.script_ShadowRisae_Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
