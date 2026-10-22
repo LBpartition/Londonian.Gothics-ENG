@@ -1747,11 +1747,11 @@ Alice:
 
 Vampire:
     Please don't trample me.
-    Let us discuss for a while.
+    Let us talk this out.
 
 Alice:
     Talk this out, you say?
-    With you, a monster?
+    With you, a monster!?
 
 Vampire:
     Oh I can understand your
@@ -1764,15 +1764,15 @@ Vampire:
 
 Vampire:
     I'm not so quick to settle
-    things by force as you seem
-    to be.
+    things by force, though you
+    seem to be...
 
 Alice:
     *GRUMP*!
 
 Alice:
     Oh, like I have a choice!
-    It's attack or BE attacked out
+    It's kill or BE KILLED out
     here.
 
 Vampire:
@@ -1788,7 +1788,7 @@ Alice:
 Vampire:
     I was a bit out of sorts on
     account of the miasma.
-    I couldn't help it, could I.
+    I couldn't help it.
 
 Alice:
     Well then, you returned to
@@ -1797,7 +1797,7 @@ Alice:
 
 Vampire:
     Exactly. When the miasma
-    isn't around, some of us are
+    is gone, some of us are
     decent folk.
 
 Alice:
@@ -1805,15 +1805,16 @@ Alice:
 
 Vampire:
     Once you destroy a
-    {bordermoon},
+    {bordermoon} to purify the
+    miasma in the area,
 
 Vampire:
-    if you see anyone who stands
-    still, you should try talking
-    to them.
+    if you find any monsters not
+    running for their life from
+    you, then you should try
     ---
-    Surely they'll lend you a
-    hand.
+    talking to them, Surely
+    they'll lend you a hand.
 
 Alice:
     Will do!
@@ -1842,9 +1843,9 @@ Vampire:
     something useful.
 
 Vampire:
-    Are you finding all the
-    materials you need for your
-    dresses?
+    Are you having trouble finding
+    all the materials you need
+    for your dresses?
 
 Vampire:
     The monsters who drop
@@ -1894,14 +1895,14 @@ Alice:
 Fairy:
     *SNIFFLE* That's mean.
     Calling me, adorable little
-    me, a monster, of all things.
+    me, a monster, of all things!
 
 Alice:
     Eh? Eh? Eh?
 
 Fairy:
     *SNIFFLE* Even though I just
-    wanted to talk to you.
+    wanted to talk to you!
 
 Alice:
     Oh I'm so sorry.
@@ -1942,7 +1943,7 @@ Alice:
 Fairy:
     The mister's research was a
     huge inconvenience to some
-    bad guys.
+    bad guys here.
     ---
     They grabbed him so that he
     couldn't do it any more.
@@ -1967,7 +1968,7 @@ Alice:
 
 Fairy:
     I'd like you to find that out
-    on your own.
+    on your own...
 
 Fairy:
     You rely on others a bit too
@@ -1990,7 +1991,7 @@ Alice:
 
 Alice:
     So it was Father's research,
-    huh.
+    huh...
 
 Alice:
     Racking my brain doesn't help;
@@ -2127,7 +2128,7 @@ Alice:
     bed.
 
 (narration)
-    rummage, rummage
+    *RUMMAGE, RUMMAGE*
 
 Alice:
     What's this?
@@ -2143,8 +2144,8 @@ Alice:
     January 15th:
 
 (narration)
-    I wonder how much time has
-    passed since we fled from
+    I've lost track of how much time
+    has passed since we fled from
     Russia.
     ---
     I don't regret having fled in
@@ -2160,10 +2161,10 @@ Alice:
 
 (narration)
     The wounds inflicted upon
-    them by monsters during our
-    escape aren't healing
+    them by those monsters during
+    our escape aren't healing
     ---
-    properly.
+    properly...
 
 (narration)
     January 27th:
@@ -2171,11 +2172,11 @@ Alice:
 (narration)
     Oh, my dearest wife! And Anya!
     My adorable daughter!
-    Why did you two have to die?
+    Why did you two have to die!?
     ---
     Just when we had finally
     arrived in our safe haven at
-    last.
+    last...
 
 Alice:
     Eh? What is this all about?
@@ -2203,7 +2204,7 @@ Alice:
     ---
     numbered and I will bring
     them down. To that end, I must
-    complete this research!
+    complete my research!
 
 Alice:
     F-father....
@@ -2216,8 +2217,8 @@ Alice:
     defies the gods?
 
 (narration)
-    Will the serial failures keep
-    piling up one after the next?
+    Will my failures keep piling
+    up?
 
 (narration)
     March 7th:
@@ -2247,7 +2248,7 @@ Alice:
 
 (narration)
     I've got to hurry up and finish
-    the {genomroid}, even one day
+    the {Genomroid}, even one day
     sooner!
 
 Alice:
@@ -2268,13 +2269,14 @@ Alice:
     Gyah!!
 
 Lucille:
-    Miss. You've been in here?
+    Miss. What are you doing
+    in here?
 
 Alice:
     Lu-lucille?!
 
 Lucille:
-    Myyy, my. What a
+    Myyy, my... What a
     well-mannered young lady we
     have here.
 
@@ -2305,7 +2307,7 @@ Lucille:
     Ohhh, how cruel life can be.
 
 Alice:
-    Fine! I get it.
+    Fine! I get it...
     I'm going back down right now!
     That good enough for you?!
 
@@ -2367,7 +2369,9 @@ Lucille:
     chores?
 
 Alice:
-    As I said I'm not bored!
+    As I said, I'm not bored!
+    I don't have time to do help
+    with your chores.
 
 Lucille:
     A lot of housework has piled
@@ -2382,8 +2386,8 @@ Lucille:
     helping me out, young Miss.
 
 Alice:
-    As-I-said, listen to what I'm
-    saying!!
+    You're not listening to me
+    at all Lucille!!
 
 (narration)
     ......
@@ -2392,8 +2396,8 @@ Alice:
     *HUFF PUFF*
 
 Lucille:
-    Huhun. Thank you very much.
-    That was a big help.
+    Huhun. Thank you very much
+    young Miss, That was a big help.
 
 Alice:
     *PANT PANT* T-that's all of it
@@ -2421,7 +2425,7 @@ Alice:
     You've got to be kidding!
 
 Lucille:
-    Aw, that's too bad.
+    Aw, that's too bad...
 
 Lucille:
     Putting off housework is
@@ -2448,18 +2452,17 @@ Fairy:
     Okay! Come back soon!
 
 Fairy:
-    Welcome in, to you!
+    Welcome!
 
 Alice:
-    Eh? What the heck is 'welcome
-    in' for?
+    Eh? What the heck do you
+    mean 'welcome'?
 
 Fairy:
     I've opened up a shop.
 
 Fairy:
-    Please buy yourself
-    something!
+    Please buy something!
 
 Fairy:
     Please come again.
@@ -2483,18 +2486,17 @@ Fairy:
     Okay! Come back soon!
 
 Fairy:
-    Welcome in, to you!
+    Welcome!
 
 Alice:
-    Eh? What the heck is 'welcome
-    in' for?
+    Eh? What the heck do you
+    mean 'welcome'?
 
 Fairy:
     I've opened up a shop.
 
 Fairy:
-    Please buy yourself
-    something!
+    Please buy something!
 
 Fairy:
     Please come again.
@@ -2518,18 +2520,17 @@ Fairy:
     Okay! Come back soon!
 
 Fairy:
-    Welcome in, to you!
+    Welcome!
 
 Alice:
-    Eh? What the heck is 'welcome
-    in' for?
+    Eh? What the heck do you
+    mean 'welcome'?
 
 Fairy:
     I've opened up a shop.
 
 Fairy:
-    Please buy yourself
-    something!
+    Please buy something!
 
 Fairy:
     Please come again.
@@ -2553,18 +2554,17 @@ Fairy:
     Okay! Come back soon!
 
 Fairy:
-    Welcome in, to you!
+    Welcome!
 
 Alice:
-    Eh? What the heck is 'welcome
-    in' for?
+    Eh? What the heck do you
+    mean 'welcome'?
 
 Fairy:
     I've opened up a shop.
 
 Fairy:
-    Please buy yourself
-    something!
+    Please buy something!
 
 Fairy:
     Please come again.
@@ -2905,7 +2905,7 @@ Vampire:
 Vampire:
     It seems that in order to
     rescue the professor, the
-    power of {genomroid} is
+    power of {Genomroid} is
     ---
     required.
 
@@ -2928,7 +2928,7 @@ Alice:
 
 Vampire:
     I see. I'm afraid I could not
-    say what a {genomroid} is,
+    say what a {Genomroid} is,
     however...
 
 Alice:
@@ -2957,7 +2957,7 @@ Alice:
 Alice:
     No. I have to find out what it
     is.
-    The {genomroid}!
+    The {Genomroid}!
 
 Alice:
     Right. Let's hurry down to the
@@ -2965,7 +2965,7 @@ Alice:
 
 Alice:
     No. I need to ask Mikhail about
-    the {genomroid}!
+    the {Genomroid}!
 
 
 --- LABYRINTH B15F  (sp054.sp) ---
@@ -2988,7 +2988,7 @@ Mikhail:
 Alice:
     Do you know anything about
     something called a
-    {genomroid}?
+    {Genomroid}?
 
 Mikhail:
     !
@@ -3081,7 +3081,7 @@ Alice:
 
 Alice:
     Ah! Here it is, right here!
-    He did write about {genomroid}!
+    He did write about {Genomroid}!
 
 Alice:
     All right then, again from the
@@ -3123,7 +3123,7 @@ Alice:
 
 Alice:
     An artificial human.
-    So that's what a {genomroid} is,
+    So that's what a {Genomroid} is,
     isn't it.
 
 Alice:
@@ -3608,7 +3608,7 @@ Alice:
 
 Alice:
     He makes it sound as if I'm
-    just like a {genomroid}!)
+    just like a {Genomroid}!)
 
 Alice:
     N-no way?!
@@ -3643,7 +3643,7 @@ Alice:
 
 (narration)
     I used sometic cells from
-    Anya to create the {genomroid}
+    Anya to create the {Genomroid}
     base body.
 
 (narration)
@@ -3716,7 +3716,7 @@ Alice:
 
 Alice:
     N-no way! That can't be!
-    Me being the {genomroid}. I
+    Me being the {Genomroid}. I
     won't believe it. I'm a person!
 
 Lucille:
@@ -3803,7 +3803,7 @@ Lucille:
     Huhun.
 
 Lucille:
-    Alice, the little genomroid
+    Alice, the little Genomroid
     given new life simply to
     stomp dark monsters.
     ---
@@ -6361,7 +6361,7 @@ Alice:
     of it?
 
 Alice:
-    Well, I want any kind of clue
+    Well, I need any kind of clue
     I can find, so Father, I'm
     sorry about this.
 
@@ -6527,7 +6527,7 @@ Alice:
 
 Alice:
     I am no longer a doll.
-    No longer a {genomroid}!
+    No longer a {Genomroid}!
 
 Alice:
     I will live on as a person,

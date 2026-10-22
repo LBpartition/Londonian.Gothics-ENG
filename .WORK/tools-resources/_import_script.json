@@ -3562,7 +3562,7 @@
    "gline": 796,
    "en": [
     "Please don't trample me.",
-    "Let us discuss for a while."
+    "Let us talk this out."
    ]
   },
   {
@@ -3573,7 +3573,7 @@
    "gline": 797,
    "en": [
     "Talk this out, you say?",
-    "With you, a monster?"
+    "With you, a monster!?"
    ]
   },
   {
@@ -3607,8 +3607,8 @@
    "gline": 798,
    "en": [
     "I'm not so quick to settle",
-    "things by force as you seem",
-    "to be."
+    "things by force, though you",
+    "seem to be..."
    ]
   },
   {
@@ -3629,7 +3629,7 @@
    "gline": 801,
    "en": [
     "Oh, like I have a choice!",
-    "It's attack or BE attacked out",
+    "It's kill or BE KILLED out",
     "here."
    ]
   },
@@ -3666,7 +3666,7 @@
    "en": [
     "I was a bit out of sorts on",
     "account of the miasma.",
-    "I couldn't help it, could I."
+    "I couldn't help it."
    ]
   },
   {
@@ -3689,7 +3689,7 @@
    "gline": 809,
    "en": [
     "Exactly. When the miasma",
-    "isn't around, some of us are",
+    "is gone, some of us are",
     "decent folk."
    ]
   },
@@ -3711,7 +3711,8 @@
    "gline": 811,
    "en": [
     "Once you destroy a",
-    "{H}bordermoon{/H},"
+    "{H}bordermoon{/H} to purify the",
+    "miasma in the area,"
    ]
   },
   {
@@ -3721,11 +3722,11 @@
    "source": "shadowrisae",
    "gline": 811,
    "en": [
-    "if you see anyone who stands",
-    "still, you should try talking",
-    "to them.",
-    "Surely they'll lend you a",
-    "hand."
+    "if you find any monsters not",
+    "running for their life from",
+    "you, then you should try",
+    "talking to them, Surely",
+    "they'll lend you a hand."
    ]
   },
   {
@@ -3810,9 +3811,9 @@
    "source": "shadowrisae",
    "gline": 819,
    "en": [
-    "Are you finding all the",
-    "materials you need for your",
-    "dresses?"
+    "Are you having trouble finding",
+    "all the materials you need",
+    "for your dresses?"
    ]
   },
   {
@@ -3934,7 +3935,7 @@
    "en": [
     "*SNIFFLE* That's mean.",
     "Calling me, adorable little",
-    "me, a monster, of all things."
+    "me, a monster, of all things!"
    ]
   },
   {
@@ -3955,7 +3956,7 @@
    "gline": 851,
    "en": [
     "*SNIFFLE* Even though I just",
-    "wanted to talk to you."
+    "wanted to talk to you!"
    ]
   },
   {
@@ -4072,7 +4073,7 @@
    "en": [
     "The mister's research was a",
     "huge inconvenience to some",
-    "bad guys.",
+    "bad guys here.",
     "They grabbed him so that he",
     "couldn't do it any more."
    ]
@@ -4138,7 +4139,7 @@
    "gline": 869,
    "en": [
     "I'd like you to find that out",
-    "on your own."
+    "on your own..."
    ]
   },
   {
@@ -4203,7 +4204,7 @@
    "gline": 878,
    "en": [
     "So it was Father's research,",
-    "huh."
+    "huh..."
    ]
   },
   {
@@ -4542,7 +4543,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "rummage, rummage"
+    "*RUMMAGE, RUMMAGE*"
    ]
   },
   {
@@ -4593,8 +4594,8 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "I wonder how much time has",
-    "passed since we fled from",
+    "I've lost track of how much time",
+    "has passed since we fled from",
     "Russia.",
     "I don't regret having fled in",
     "and of itself.",
@@ -4630,9 +4631,9 @@
    "gline": null,
    "en": [
     "The wounds inflicted upon",
-    "them by monsters during our",
-    "escape aren't healing",
-    "properly."
+    "them by those monsters during",
+    "our escape aren't healing",
+    "properly..."
    ]
   },
   {
@@ -4654,10 +4655,10 @@
    "en": [
     "Oh, my dearest wife! And Anya!",
     "My adorable daughter!",
-    "Why did you two have to die?",
+    "Why did you two have to die!?",
     "Just when we had finally",
     "arrived in our safe haven at",
-    "last."
+    "last..."
    ]
   },
   {
@@ -4719,7 +4720,7 @@
     "taken from me. Their days are",
     "numbered and I will bring",
     "them down. To that end, I must",
-    "complete this research!"
+    "complete my research!"
    ]
   },
   {
@@ -4760,8 +4761,8 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Will the serial failures keep",
-    "piling up one after the next?"
+    "Will my failures keep piling",
+    "up?"
    ]
   },
   {
@@ -4839,7 +4840,7 @@
    "gline": null,
    "en": [
     "I've got to hurry up and finish",
-    "the {H}genomroid{/H}, even one day",
+    "the {H}Genomroid{/H}, even one day",
     "sooner!"
    ]
   },
@@ -4902,7 +4903,8 @@
    "source": "shadowrisae",
    "gline": 989,
    "en": [
-    "Miss. You've been in here?"
+    "Miss. What are you doing",
+    "in here?"
    ]
   },
   {
@@ -4922,7 +4924,7 @@
    "source": "shadowrisae",
    "gline": 991,
    "en": [
-    "Myyy, my. What a",
+    "Myyy, my... What a",
     "well-mannered young lady we",
     "have here."
    ]
@@ -4993,7 +4995,7 @@
    "source": "shadowrisae",
    "gline": 999,
    "en": [
-    "Fine! I get it.",
+    "Fine! I get it...",
     "I'm going back down right now!",
     "That good enough for you?!"
    ]
@@ -5134,7 +5136,9 @@
    "source": "shadowrisae",
    "gline": 1020,
    "en": [
-    "As I said I'm not bored!"
+    "As I said, I'm not bored!",
+    "I don't have time to do help",
+    "with your chores."
    ]
   },
   {
@@ -5177,8 +5181,8 @@
    "source": "shadowrisae",
    "gline": 1024,
    "en": [
-    "As-I-said, listen to what I'm",
-    "saying!!"
+    "You're not listening to me",
+    "at all Lucille!!"
    ]
   },
   {
@@ -5208,8 +5212,8 @@
    "source": "shadowrisae",
    "gline": 1027,
    "en": [
-    "Huhun. Thank you very much.",
-    "That was a big help."
+    "Huhun. Thank you very much",
+    "young Miss, That was a big help."
    ]
   },
   {
@@ -5285,7 +5289,7 @@
    "source": "shadowrisae",
    "gline": 1037,
    "en": [
-    "Aw, that's too bad."
+    "Aw, that's too bad..."
    ]
   },
   {
@@ -5350,7 +5354,7 @@
    "source": "shadowrisae",
    "gline": 1051,
    "en": [
-    "Welcome in, to you!"
+    "Welcome!"
    ]
   },
   {
@@ -5360,8 +5364,8 @@
    "source": "shadowrisae",
    "gline": 1052,
    "en": [
-    "Eh? What the heck is 'welcome",
-    "in' for?"
+    "Eh? What the heck do you",
+    "mean 'welcome'?"
    ]
   },
   {
@@ -5381,8 +5385,7 @@
    "source": "shadowrisae",
    "gline": 1053,
    "en": [
-    "Please buy yourself",
-    "something!"
+    "Please buy something!"
    ]
   },
   {
@@ -5445,7 +5448,7 @@
    "source": "shadowrisae",
    "gline": 1051,
    "en": [
-    "Welcome in, to you!"
+    "Welcome!"
    ]
   },
   {
@@ -5455,8 +5458,8 @@
    "source": "shadowrisae",
    "gline": 1052,
    "en": [
-    "Eh? What the heck is 'welcome",
-    "in' for?"
+    "Eh? What the heck do you",
+    "mean 'welcome'?"
    ]
   },
   {
@@ -5476,8 +5479,7 @@
    "source": "shadowrisae",
    "gline": 1053,
    "en": [
-    "Please buy yourself",
-    "something!"
+    "Please buy something!"
    ]
   },
   {
@@ -5540,7 +5542,7 @@
    "source": "shadowrisae",
    "gline": 1051,
    "en": [
-    "Welcome in, to you!"
+    "Welcome!"
    ]
   },
   {
@@ -5550,8 +5552,8 @@
    "source": "shadowrisae",
    "gline": 1052,
    "en": [
-    "Eh? What the heck is 'welcome",
-    "in' for?"
+    "Eh? What the heck do you",
+    "mean 'welcome'?"
    ]
   },
   {
@@ -5571,8 +5573,7 @@
    "source": "shadowrisae",
    "gline": 1053,
    "en": [
-    "Please buy yourself",
-    "something!"
+    "Please buy something!"
    ]
   },
   {
@@ -5635,7 +5636,7 @@
    "source": "shadowrisae",
    "gline": 1051,
    "en": [
-    "Welcome in, to you!"
+    "Welcome!"
    ]
   },
   {
@@ -5645,8 +5646,8 @@
    "source": "shadowrisae",
    "gline": 1052,
    "en": [
-    "Eh? What the heck is 'welcome",
-    "in' for?"
+    "Eh? What the heck do you",
+    "mean 'welcome'?"
    ]
   },
   {
@@ -5666,8 +5667,7 @@
    "source": "shadowrisae",
    "gline": 1053,
    "en": [
-    "Please buy yourself",
-    "something!"
+    "Please buy something!"
    ]
   },
   {
@@ -6557,7 +6557,7 @@
    "en": [
     "It seems that in order to",
     "rescue the professor, the",
-    "power of {H}genomroid{/H} is",
+    "power of {H}Genomroid{/H} is",
     "required."
    ]
   },
@@ -6614,7 +6614,7 @@
    "gline": 1189,
    "en": [
     "I see. I'm afraid I could not",
-    "say what a {H}genomroid{/H} is,",
+    "say what a {H}Genomroid{/H} is,",
     "however..."
    ]
   },
@@ -6692,7 +6692,7 @@
    "en": [
     "No. I have to find out what it",
     "is.",
-    "The {H}genomroid{/H}!"
+    "The {H}Genomroid{/H}!"
    ]
   },
   {
@@ -6714,7 +6714,7 @@
    "gline": null,
    "en": [
     "No. I need to ask Mikhail about",
-    "the {H}genomroid{/H}!"
+    "the {H}Genomroid{/H}!"
    ]
   },
   {
@@ -6759,7 +6759,7 @@
    "en": [
     "Do you know anything about",
     "something called a",
-    "{H}genomroid{/H}?"
+    "{H}Genomroid{/H}?"
    ]
   },
   {
@@ -7017,7 +7017,7 @@
    "gline": 1234,
    "en": [
     "Ah! Here it is, right here!",
-    "He did write about {H}genomroid{/H}!"
+    "He did write about {H}Genomroid{/H}!"
    ]
   },
   {
@@ -7113,7 +7113,7 @@
    "gline": 1243,
    "en": [
     "An artificial human.",
-    "So that's what a {H}genomroid{/H} is,",
+    "So that's what a {H}Genomroid{/H} is,",
     "isn't it."
    ]
   },
@@ -8328,7 +8328,7 @@
    "gline": 1394,
    "en": [
     "He makes it sound as if I'm",
-    "just like a {H}genomroid{/H}!)"
+    "just like a {H}Genomroid{/H}!)"
    ]
   },
   {
@@ -8423,7 +8423,7 @@
    "gline": 1408,
    "en": [
     "I used sometic cells from",
-    "Anya to create the {H}genomroid{/H}",
+    "Anya to create the {H}Genomroid{/H}",
     "base body."
    ]
   },
@@ -8591,7 +8591,7 @@
    "gline": 1424,
    "en": [
     "N-no way! That can't be!",
-    "Me being the {H}genomroid{/H}. I",
+    "Me being the {H}Genomroid{/H}. I",
     "won't believe it. I'm a person!"
    ]
   },
@@ -8818,7 +8818,7 @@
    "source": "shadowrisae",
    "gline": 1448,
    "en": [
-    "Alice, the little genomroid",
+    "Alice, the little Genomroid",
     "given new life simply to",
     "stomp dark monsters.",
     "That's what you are."
@@ -15537,7 +15537,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Well, I want any kind of clue",
+    "Well, I need any kind of clue",
     "I can find, so Father, I'm",
     "sorry about this."
    ]
@@ -15976,7 +15976,7 @@
    "gline": 2206,
    "en": [
     "I am no longer a doll.",
-    "No longer a {H}genomroid{/H}!"
+    "No longer a {H}Genomroid{/H}!"
    ]
   },
   {
