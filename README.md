@@ -6,7 +6,6 @@
 <img width="256" height="384" alt="Londonian Gothics - Lolita in the Labyrinth 2026-10-23 02 22 27" src="https://github.com/user-attachments/assets/9328a2c6-4fe3-4e5f-bfd8-ca850ec912f1" />
 
 
-
 ## Download & Patch
 
 1: Download the latest **.xdelta** patch from: [latest release](../../releases/latest)
@@ -23,7 +22,7 @@
 | CRC32 | `8622a134` |
 | SHA-1 | `5ebeea532dd92ee060a3ec6ebd121260c706c44b` |
 
-## Translating to other languages
+## Editing the script + Translating to other languages
 
 Refer to [DOCS - Translating to other languages.md](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/DOCS%20-%20Translating%20to%20other%20languages.md)
 
