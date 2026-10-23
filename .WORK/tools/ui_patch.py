@@ -70,8 +70,10 @@ def main(out_dir, diag=False):
     names, descs, rejected = b"", b"", []
     for k, n in enumerate(ORDER):
         u = textfit.fit(n, textfit.DRESS_NAME_N, m)
-        assert len(u) < NAME_STRIDE // 2
-        names += struct.pack(f"<{NAME_STRIDE//2}H", *(u + [0] * (NAME_STRIDE // 2 - len(u))))
+        assert len(u) < NAME_STRIDE // 2 - 1
+        # last halfword of the slot = centred x for the DRESS MODE equipped-name box (interior x 9..111)
+        x = 9 + max(0, 103 - m.width(n, textfit.DRESS_NAME_N)) // 2
+        names += struct.pack(f"<{NAME_STRIDE//2}H", *(u + [0] * (NAME_STRIDE // 2 - 1 - len(u)) + [x]))
         try:
             u = textfit.fit(dress_desc(n, g), textfit.DRESS_DESC_N, m)
         except textfit.FitError as e:
@@ -168,6 +170,13 @@ def main(out_dir, diag=False):
                          0xEA000000 | (((0x0202A1C4 - (stub + 20 + 8)) >> 2) & 0xFFFFFF))   # b draw
     assert struct.unpack_from("<I", arm9, 0x2DD2C)[0] == bl(0x0202DD2C, 0x0202A1C4, 0xE)
     struct.pack_into("<I", arm9, 0x2DD2C, bl(0x0202DD2C, stub, 0xE))
+    # DRESS MODE equipped dress name (0x0203F710 draws at x 14): use the slot's precomputed centred x.
+    stub = desc_addr + len(descs)
+    descs += struct.pack("<4I", 0xE1D121B6 | 0, 0xE3520000,          # ldrh r2,[r1,#NAME_STRIDE-2]; cmp r2,#0
+                         0x03A0200E,                                 # moveq r2,#14
+                         0xEA000000 | (((0x0202A1C4 - (stub + 12 + 8)) >> 2) & 0xFFFFFF))   # b draw
+    assert struct.unpack_from("<I", arm9, 0x3F710)[0] == bl(0x0203F710, 0x0202A1C4, 0xE)
+    struct.pack_into("<I", arm9, 0x3F710, bl(0x0203F710, stub, 0xE))
     # Warp floor selector: x for 1-digit (0x362AC) / 2-digit (0x362C8) floors, centred between the
     # arrows (x 72..179) using the narrow widths "B2F" 17px, "B30F" 23px.
     for o, old, x in ((0x362AC, 0xE3A02064, 117), (0x362C8, 0xE3A0205D, 114)):
