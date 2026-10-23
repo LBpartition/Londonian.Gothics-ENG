@@ -170,6 +170,15 @@ def main(out_dir, diag=False):
                          0xEA000000 | (((0x0202A1C4 - (stub + 20 + 8)) >> 2) & 0xFFFFFF))   # b draw
     assert struct.unpack_from("<I", arm9, 0x2DD2C)[0] == bl(0x0202DD2C, 0x0202A1C4, 0xE)
     struct.pack_into("<I", arm9, 0x2DD2C, bl(0x0202DD2C, stub, 0xE))
+    # UI draw (0x0202A1C4) entry: skip a leading 0xF0xx centring prefix (location names stored in
+    # saves are drawn by the save/load screen without the map-bar stub; garbage glyph on hardware).
+    for fn in (0x0202A1C4, 0x02029F78):   # both UI draw functions: push {r4-r11,lr}; string in r1
+        stub = desc_addr + len(descs)
+        descs += struct.pack("<6I", 0xE92D4FF0, 0xE1D1C0B0, 0xE1A0C42C,   # push {r4-r11,lr}; ldrh ip,[r1]; lsr ip,#8
+                             0xE35C00F0, 0x02811002,                       # cmp ip,#0xF0; addeq r1,#2
+                             0xEA000000 | (((fn + 4 - (stub + 20 + 8)) >> 2) & 0xFFFFFF))   # b fn+4
+        assert struct.unpack_from("<I", arm9, fn - 0x02000000)[0] == 0xE92D4FF0
+        struct.pack_into("<I", arm9, fn - 0x02000000, 0xEA000000 | (((stub - (fn + 8)) >> 2) & 0xFFFFFF))
     # DRESS MODE equipped dress name (0x0203F710 draws at x 14): use the slot's precomputed centred x.
     stub = desc_addr + len(descs)
     descs += struct.pack("<4I", 0xE1D121B6 | 0, 0xE3520000,          # ldrh r2,[r1,#NAME_STRIDE-2]; cmp r2,#0
