@@ -12,7 +12,7 @@
 
 ## Download & Patch
 
-1: Download the latest **.xdelta** patch from: [latest release](../../releases/latest)
+1: Download the latest **.xdelta** patch from: [latest releases](../../releases/latest)
 
 2: Patch your legally acquired Japanese Londonian Gothics ROM with: **xdelta UI** / **Delta Patcher** / **xdelta3** / [**Kotcrabs xdelta patcher website**](https://kotcrab.github.io/xdelta-wasm/). 
 
