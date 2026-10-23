@@ -7,6 +7,7 @@ paragraph spacing/scroll timing is preserved. Tile count and palette are unchang
 """
 import struct, sys
 from pathlib import Path
+import re
 from PIL import Image, ImageDraw, ImageFont
 
 FILE = "data/title_roll_full_16.NCGR"
@@ -56,9 +57,13 @@ def render(pal):
     font, blocks = layout()
     cov = Image.new("L", (W, H), 0)
     d = ImageDraw.Draw(cov)
+    dfont = ImageFont.truetype(r"C:\Windows\Fonts\times.ttf", SIZE)   # Georgia digits are old-style (tiny 1/0)
     for y, lines in blocks:
         for i, ln in enumerate(lines):
-            d.text((X0, y + i * PITCH), ln, font=font, fill=255)
+            x = X0
+            for run in re.findall(r"\d+|\D+", ln):
+                f = dfont if run[0].isdigit() else font
+                d.text((x, y + i * PITCH), run, font=f, fill=255); x += f.getlength(run)
     a = cov.load()
     cand = [i for i in range(3, 15)] + [1]
     idx = [[0] * W for _ in range(H)]
