@@ -6,7 +6,8 @@
   
 <img width="256" height="384" alt="Londonian Gothics - Lolita in the Labyrinth - ENG v1 0__10649" src="https://github.com/user-attachments/assets/35b27b5d-2243-4508-9d25-c5e21a65ff75" />
 <img width="256" height="384" alt="Londonian Gothics - Lolita in the Labyrinth 2026-10-23 02 22 27" src="https://github.com/user-attachments/assets/9328a2c6-4fe3-4e5f-bfd8-ca850ec912f1" />
-<img width="256" height="384" alt="DressMode" src="https://github.com/user-attachments/assets/af1977eb-fb5a-44e1-a265-e20b56326e44" />
+<img width="256" height="384" alt="Dress Mode-(v1 1a)" src="https://github.com/user-attachments/assets/4a4291be-19b9-41f0-af9f-79589f453f63" />
+
 
 
 
