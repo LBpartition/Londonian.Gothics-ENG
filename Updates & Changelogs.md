@@ -13,7 +13,8 @@
 ## v1.21
 - Script - Minor changes to some dialogue in a missable conversation with Lucille.
 
-
-
+## v1.22
+- Script - Minor changes to some missable dialogue from Alice
+- Script - Adjusted "Sew dress?" prompts. 
 
 
