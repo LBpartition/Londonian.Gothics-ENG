@@ -10,6 +10,8 @@
 ## v1.2
 - Save & Load Menus - Fixed Save File Location text not rendering correctly.
 
+## v1.21
+- Script - Minor changes to some dialogue in a missable conversation with Lucille.
 
 
 
