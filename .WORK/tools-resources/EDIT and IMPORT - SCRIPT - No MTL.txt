@@ -1940,10 +1940,10 @@ Alice:
 
 Alice:
     I've been wondering about it
-    this whole time and I haven't
-    can't figure out any reason
+    this whole time and I can't
+    figure out any reason why
     ---
-    why they'd want to kidnap him.
+    they'd want to kidnap him.
 
 Fairy:
     The mister's research was a
