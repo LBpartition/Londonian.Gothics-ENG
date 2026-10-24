@@ -2370,7 +2370,7 @@ Lucille:
 
 Alice:
     As I said, I'm not bored!
-    I don't have time to do help
+    I don't have time to help
     with your chores.
 
 Lucille:
@@ -2379,7 +2379,7 @@ Lucille:
 
 Alice:
     Hey! Pay attention when
-    someone's talking to you!
+    I'm talking to you!
 
 Lucille:
     Fuffuffu. You'd really be
@@ -2436,7 +2436,7 @@ Lucille:
     Keeekkekekeke.
 
 Alice:
-    !
+    Hmph!
 
 
 --- LABYRINTH B9F  (sp029.sp) ---
