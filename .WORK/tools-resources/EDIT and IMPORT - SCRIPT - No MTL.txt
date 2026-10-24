@@ -825,7 +825,7 @@ Alice:
     handiwork.
 
 Mikhail:
-    N, nothing of the sort!
+    N-nothing of the sort!
 
 Mikhail:
     Surely everything will be
@@ -1755,8 +1755,8 @@ Vampire:
     Let us talk this out.
 
 Alice:
-    Talk this out, you say?
-    With you, a monster!?
+    Talk this out you say?
+    With you? A monster!?
 
 Vampire:
     Oh I can understand your
@@ -1885,10 +1885,10 @@ Alice:
     Kyahaha (laughs)
 
 Alice:
-    ?! Who's there?
+    What?! Who's there?
 
 Alice:
-    !!
+    Huh!!
 
 Alice:
     Eeek!
@@ -1926,7 +1926,7 @@ Alice:
     Oh, nothing's wrong.
 
 Fairy:
-    ?
+    Hmm?
 
 Alice:
     Say, can I ask you something?
@@ -1936,36 +1936,36 @@ Fairy:
 
 Alice:
     Why did the monsters abduct
-    my father?
+    my Father?
 
 Alice:
     I've been wondering about it
     this whole time and I haven't
-    come up with any reason why
+    can't figure out any reason
     ---
-    they'd want to.
+    why they'd want to kidnap him.
 
 Fairy:
     The mister's research was a
     huge inconvenience to some
-    bad guys here.
+    bad guys.
     ---
     They grabbed him so that he
     couldn't do it any more.
 
 Alice:
-    Do you know where Father is
-    being kept?
+    Do you know where my Father
+    is being kept?
 
 Fairy:
     I don't know.
 
 Alice:
-    Ah.
+    Ah...
 
 Alice:
-    Well how about Father's
-    research topic, then?
+    Well how about the topic of
+    my Father's research then?
 
 Alice:
     Was it really something bad
@@ -2204,7 +2204,7 @@ Alice:
     complete my research!
 
 Alice:
-    F-father....
+    F-Father....
 
 (narration)
     February 21st:
@@ -2653,14 +2653,14 @@ Alice:
     ヒョイッ
 
 Lucille:
-    My!
+    Oh my!
 
 Lucille:
     Mind your manners, young
     lady!
 
 Alice:
-    No biggie, no biggie.
+    No biggie, no biggie...
 
 Lucille:
     Huhu. Shameful. You're
@@ -2671,7 +2671,7 @@ Alice:
     *MUNCH MUNCH*....
 
 Alice:
-    *G, GACK* What is this?!
+    *G-, GACK* What is this?!
 
 Alice:
     My body's going numb.
@@ -4217,7 +4217,7 @@ Mikhail:
     you hear that word?
 
 Alice:
-    I found father being held
+    I found Father being held
     inside one.
 
 Mikhail:
@@ -5686,7 +5686,7 @@ Alice:
     ！
 
 Alice:
-    F-father....
+    F-Father....
 
 Nabokov:
     Alice. You are simply
@@ -5809,7 +5809,7 @@ Nabokov:
     certain of it.
 
 Alice:
-    F-father! Explain it to me!
+    F-Father! Explain it to me!
     Whatever do you mean?
 
 Nabokov:
@@ -6128,7 +6128,7 @@ Nabokov:
     Oh, Alice! You're awake!
 
 Alice:
-    F-father....
+    F-Father....
 
 Nabokov:
     Well done, Alice.
