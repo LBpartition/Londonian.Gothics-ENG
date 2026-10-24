@@ -62,13 +62,8 @@ This unpacks the ROM into `.WORK\extracted\`, which the build needs. It also wri
 
 ## 3. (Optional) Add your own letters: `EDIT and IMPORT - GLYPHS.txt`
 
-Skip this step if your language only needs the letters that are already there:
+**Only required if your translation needs additional Glyphs. - Refer to [This Preview.png](https://github.com/LBpartition/Londonian.Gothics-ENG/blob/main/.WORK/tools-resources/EDIT%20and%20IMPORT%20-%20GLYPHS%20-%20PREVIEW.png) to see all Glyphs in this patch.**
 
-```
-A-Z  a-z  0-9  space  . , ' - ! ? & * : ; ( ) / " # % _ < > … £
-```
-
-Lower-case letters are shown in dialogue, locations, dresses and items. Menus are always shown in capitals.
 
 ### How the font works
 
@@ -78,6 +73,8 @@ The game draws text with a font of small pictures called **glyphs**. Each glyph 
 - **From `0x247`** are the **CUSTOM** glyphs added for the English patch: the space, punctuation, digits, the narrow A-Z capitals and the a-z lower-case letters. You can redraw these and add more.
 
 Every glyph is in **`EDIT and IMPORT - GLYPHS.txt`**, drawn as a picture made of characters. Edit it, then import it (step 5 below).
+
+Note: Lower-case letters are shown in dialogue, locations, dresses and items. Menus are always shown in capitals.
 
 ### The preview: `EDIT and IMPORT - GLYPHS - PREVIEW.png`
 
