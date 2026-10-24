@@ -281,12 +281,12 @@ python tools\full_build.py out Patched_ROM 1
 
 This creates:
 
-- `out\Patched_ROM.nds` - your patched ROM. Test it in an emulator (e.g. melonDS or DeSmuME) or on hardware.
+- `out\Patched_ROM.nds` - your patched ROM. Test it on an emulator (e.g. Bizhawk, MelonDS or DeSmuME) And on your available consoles/hardware.
 - `out\Patched_ROM_fit_report.tsv` - a check of every line. Any line marked **FAIL** is too wide for its box: shorten it or move a word to the next line, import and build again.
 
 If a character in your script isn't in the font, the build stops and names it: add it in [step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt).
 
-**Typical loop:** edit `EDIT and IMPORT - SCRIPT.txt` → `python tools\script_import.py` → `python tools\full_build.py out Patched_ROM 1` → test → repeat.
+**Typical loop:** edit `EDIT and IMPORT - SCRIPT.txt` → run `python tools\script_import.py` → run `python tools\full_build.py out Patched_ROM 1` → test → repeat.
 
 ---
 
@@ -301,11 +301,11 @@ File names tell you what each file is for:
 | File | What it is | Edit it? |
 |---|---|---|
 | `EDIT and IMPORT - SCRIPT.txt` | All text in the game, laid out as an easy-to-read script. | **Yes** ([step 4](#4-translate-the-script-edit-and-import---scripttxt)) |
-| `EDIT and IMPORT - SCRIPT - No MTL.txt` | The same script with the machine-translated lines in their original Japanese, for translators to redo. | **Yes**, with `--nomtl` ([step 4.1](#41-optional-improve-the-machine-translated-lines-edit-and-import---script---no-mtltxt)) |
-| `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **Yes**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt)) |
+| `EDIT and IMPORT - SCRIPT - No MTL.txt` | The same script with the machine-translated lines in their original Japanese, for translators to redo. | **OPTIONAL**, with `--nomtl` ([step 4.1](#41-optional-improve-the-machine-translated-lines-edit-and-import---script---no-mtltxt)) |
+| `EDIT and IMPORT - GLYPHS.txt` | Every glyph of the font, drawn as an easy-to-edit 16 × 16 picture. | **OPTIONAL**, to add or redraw letters ([step 3](#3-optional-add-your-own-letters-edit-and-import---glyphstxt)) |
 | `EDIT and IMPORT - GLYPHS - PREVIEW.png` | A picture of every glyph with its id and character. Redrawn by `glyph_import.py` / `glyph_dump.py`. | No, reference only |
 | `_import_script.json` | The text the build actually reads. Written by `script_import.py`. | No (advanced: see below) |
-| `_import_script_nomtl.json` | The No MTL version, read by the build with `--nomtl`. Written by `script_import.py`. | No |
+| `_import_script_nomtl.json` | The No MTL version, read by the build with `--nomtl`. Written by `script_import.py`. | No (advanced: see below) |
 | `_import_glyph_table.tsv` | The font table the build actually reads. Written by `glyph_import.py`. | No (advanced: see below) |
 | `.script_jpn.json` | The original Japanese text, in the same order as `_import_script.json`. Created by `extract_rom.py` (not in the repository). | No, reference only |
 | `.script_ShadowRisae_Guide.txt` | The English GameFAQs guide the English translation is based on. | No, reference only |
