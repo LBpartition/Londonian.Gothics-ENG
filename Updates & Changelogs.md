@@ -18,4 +18,4 @@
 - Script - Adjusted "Sew dress?" prompts. 
 
 ## v1.25
-- Script - Changes to 19 lines of dialogue to sound more natural.
+- Script - Changes to 20 lines of dialogue to sound more natural.
