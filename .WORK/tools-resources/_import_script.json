@@ -15930,8 +15930,8 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Not happening. I can't pull a",
-    "single one."
+    "Not happening. I can't remember",
+    "anything..."
    ]
   },
   {
@@ -17524,7 +17524,7 @@
   {
    "key": "sys_make_dress",
    "source": "mtl",
-   "en": "Sew a dress?"
+   "en": "Sew dress?"
   },
   {
    "key": "sys_no_materials",
