@@ -1832,8 +1832,8 @@ Vampire:
     Farewell, young lady.
 
 Vampire:
-    Apologies. I'm fresh out of
-    hints.
+    My apologies. I'm fresh out
+    of hints.
 
 Vampire:
     Kuku, kukuku....
@@ -2270,7 +2270,7 @@ Lucille:
     in here?
 
 Alice:
-    Lu-lucille?!
+    L-Lucille?!
 
 Lucille:
     Myyy, my... What a
@@ -3726,7 +3726,7 @@ Lucille:
     So you finally found out, huh.
 
 Alice:
-    L-lucille?!
+    L-Lucille?!
 
 Lucille:
     Huhhuhhu. How does it feel to
@@ -4134,7 +4134,7 @@ Alice:
     Father!
 
 Nabokov:
-    A-alice? Ohh, Alice, you made
+    A-Alice? Ohh, Alice, you made
     it?!
 
 Alice:
@@ -4323,7 +4323,7 @@ Alice:
 
 Alice:
     How about I try asking the
-    vampire?
+    Vampire?
     ---
     He seems like he might know
     something about sacred items.
@@ -4691,7 +4691,7 @@ Alice:
     Huh?
 
 Mikhail:
-    The wizards might know
+    The Wizards might know
     something useful.
 
 Alice:
@@ -4707,7 +4707,7 @@ Mikhail:
 
 Alice:
     Makes sense, Mikhail!
-    I'll try looking for a wizard!
+    I'll try looking for a Wizard!
 
 Mikhail:
     Good luck. And take care.
@@ -6598,6 +6598,9 @@ Alice:
 
 (system message)
     アリスは力つきた……
+
+(system message)
+    周囲が邪気でつつまれた
 
 (system message)
     {NUM}£手に入れました

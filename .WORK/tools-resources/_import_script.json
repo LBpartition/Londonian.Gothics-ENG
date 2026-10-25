@@ -3767,8 +3767,8 @@
    "source": "shadowrisae",
    "gline": 828,
    "en": [
-    "Apologies. I'm fresh out of",
-    "hints."
+    "My apologies. I'm fresh out",
+    "of hints."
    ]
   },
   {
@@ -4914,7 +4914,7 @@
    "source": "shadowrisae",
    "gline": 990,
    "en": [
-    "Lu-lucille?!"
+    "L-Lucille?!"
    ]
   },
   {
@@ -8613,7 +8613,7 @@
    "source": "shadowrisae",
    "gline": 1427,
    "en": [
-    "L-lucille?!"
+    "L-Lucille?!"
    ]
   },
   {
@@ -9637,7 +9637,7 @@
    "source": "shadowrisae",
    "gline": 1611,
    "en": [
-    "A-alice? Ohh, Alice, you made",
+    "A-Alice? Ohh, Alice, you made",
     "it?!"
    ]
   },
@@ -10114,7 +10114,7 @@
    "gline": 1665,
    "en": [
     "How about I try asking the",
-    "vampire?",
+    "Vampire?",
     "",
     "He seems like he might know",
     "something about sacred items."
@@ -10992,7 +10992,7 @@
    "source": "shadowrisae",
    "gline": 1720,
    "en": [
-    "The wizards might know",
+    "The Wizards might know",
     "something useful."
    ]
   },
@@ -11028,7 +11028,7 @@
    "gline": 1724,
    "en": [
     "Makes sense, Mikhail!",
-    "I'll try looking for a wizard!"
+    "I'll try looking for a Wizard!"
    ]
   },
   {
@@ -17494,7 +17494,7 @@
   {
    "key": "door_opened",
    "source": "mtl",
-   "en": "A door opened somewhere."
+   "en": "Doors have been opened."
   },
   {
    "key": "sys_no_money",
@@ -17570,6 +17570,11 @@
    "key": "sys_game_over",
    "source": "mtl",
    "en": "Alice has fallen..."
+  },
+  {
+   "key": "sys_evil_aura",
+   "source": "mtl",
+   "en": "The area was engulfed in miasma."
   },
   {
    "key": "sys_got_money",
