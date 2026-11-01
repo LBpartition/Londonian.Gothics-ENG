@@ -4161,7 +4161,7 @@
    "gline": 871,
    "en": [
     "(I've just been rebuked by a",
-    "half-pint.)"
+    "half-pint...)"
    ]
   },
   {
@@ -8292,7 +8292,7 @@
    "source": "shadowrisae",
    "gline": 1394,
    "en": [
-    "(He said I live by absorbing",
+    "He said I live by absorbing",
     "energy from outside?"
    ]
   },
@@ -8325,7 +8325,7 @@
    "gline": 1394,
    "en": [
     "He makes it sound as if I'm",
-    "just like a {H}Genomroid{/H}!)"
+    "just like a {H}Genomroid{/H}!"
    ]
   },
   {
@@ -9403,7 +9403,7 @@
     "Hold on, what about me is",
     "bad? Which part specifically",
     "don't you like?",
-    "Is it this, this wine, that",
+    "Is it this... this wine, that",
     "doesn't work for you? Or is it",
     "the way I adorn my behavior",
     "with pomp and circumstance?",
@@ -16968,7 +16968,7 @@
    "desc": [
     "Auto-warp somewhere on map",
     "upon enemy touch instead of",
-    "dying. Drains all DP."
+    "dying."
    ]
   },
   {

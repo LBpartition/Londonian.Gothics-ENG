@@ -130,7 +130,7 @@ DRESSES (DRESS MODE)
 16. Iscarpe
     Auto-warp somewhere on map
     upon enemy touch instead of
-    dying. Drains all DP.
+    dying.
 
 17. Argus
     Usable only in the
@@ -1981,7 +1981,7 @@ Fairy:
 
 Alice:
     (I've just been rebuked by a
-    half-pint.)
+    half-pint...)
 
 Fairy:
     Well then, I'll be on my way
@@ -3595,7 +3595,7 @@ Mikhail:
     ......
 
 Alice:
-    (He said I live by absorbing
+    He said I live by absorbing
     energy from outside?
 
 Alice:
@@ -3607,7 +3607,7 @@ Alice:
 
 Alice:
     He makes it sound as if I'm
-    just like a {Genomroid}!)
+    just like a {Genomroid}!
 
 Alice:
     N-no way?!
@@ -4042,7 +4042,7 @@ Vampire:
     bad? Which part specifically
     don't you like?
     ---
-    Is it this, this wine, that
+    Is it this... this wine, that
     doesn't work for you? Or is it
     the way I adorn my behavior
     ---
