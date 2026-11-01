@@ -23,3 +23,6 @@
 ## v1.3
 - Script - Added a Machine Translation for the missed System Message: "The area was engulfed in miasma." / "周囲が邪気でつつまれた"
 - Script - Changes to a few lines to Dialogue to capitalize Character Names
+
+## v1.3
+- Script - Changes to 44 lines of dialogue.
