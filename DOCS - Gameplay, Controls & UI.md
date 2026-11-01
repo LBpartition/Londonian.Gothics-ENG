@@ -131,3 +131,47 @@ circles respawn.  However, you keep all items, dresses, and money obtained.
 - Enemies respawn every time you reenter a room.
 - Magic Circles don't reset once the room unlocks for the first time though; they stay unlocked until the Bordermoon respawns after being destroyed.
 - Bordermoon state on current level is retained upon loadgame as long as the save was created within the level.  Loads from saves within a sanctuary or sewing room will not retain any Bordermoon or magic circle data (all will be reset).
+
+
+## IV. Varuudanu Boss Fight:
+
+**Damage the boss by chopping it in the shoulder, from the side.  Eleven (11) 
+hits in a row will kill the boss and finish the game.**
+
+**Alice slashes with the sword via the Y button. Fortunately, you can run and
+attack at will without draining any DP.**
+
+The boss has a repeating attack pattern.  You can tell it's about to launch
+one of the below-mentioned volleys when it raises its arms.  It does these
+three attacks, usually in order, with pauses to walk around in between.
+Successfully hurting it with the holy sword will make it start over from the
+first attack type.
+
+A: Fires about 4 beams in straight lines from its belly, toward wherever
+   Alice is standing.
+B: Breathes cloud-like projectiles that spiral outward toward Alice.
+C: Punches with its arms three times.
+
+Just like in the game, one hit means death.  As you must wear Argus, the
+teleportation-on-touch dress Iscarpe is not available.
+
+The basic strategy is to hang out near the boss and dodge its projectiles,
+while trying to get around the side of it (without it immediately turning to
+face you).  The boss will change directions only when it is standing still,
+so once it starts moving in a particular direction, that's when you quickly
+flank it.  It moves only about three squares forward before stopping again
+to unleash an attack and then turn, so you have to either be fast, or once
+you get used to its movement, predict where Alice is going to need to stand
+and go straight there.
+
+Slash with the sword when you can, and run when you hear the sound effects
+that indicate it fired its beams.  Make good use of L/R to turn quickly
+without taking steps, as this is a big help getting in position to attack the
+shoulder without accidentally touching the boss and dying.
+
+This fight is challenging at first because it's a new dress and the general
+game controls make it difficult to stay in melee range without getting hurt
+yourself.  But the boss becomes doable, and eventually even pretty easy, once
+you get the hang of it.  Gameovers restart you from the boss fight, so you
+essentially have infinite tries to get it right.
+
