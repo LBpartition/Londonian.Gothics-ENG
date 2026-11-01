@@ -2868,7 +2868,7 @@ Alice:
     Let me rest for a while.
 
 (narration)
-    Clunk
+    *CLUNK*
 
 Alice:
     Holy..! Who's there?
@@ -2932,8 +2932,7 @@ Vampire:
     however...
 
 Alice:
-    You're right. I will.
-    Thank you!
+    All right, Thank you!
 
 Vampire:
     Kukkukku... I'm so pleased to
@@ -2991,7 +2990,7 @@ Alice:
     {Genomroid}?
 
 Mikhail:
-    !
+    Huh!
 
 Mikhail:
     N-no, unfortunately I don't.
@@ -3015,7 +3014,7 @@ Mikhail:
     Although you say that, I, er...
 
 Alice:
-    Suspicious.
+    Suspicious...
 
 Mikhail:
     ......
@@ -3042,7 +3041,7 @@ Alice:
     find out.
 
 Mikhail:
-    .....understood.
+    Understood...
 
 Alice:
     Welp, where should I start
@@ -3054,8 +3053,7 @@ Alice:
     for clues.
 
 Alice:
-    Right! I'll head straight
-    there.
+    I'll head straight there.
 
 
 --- LABORATORY  (sp_home010.sp) ---
@@ -3063,7 +3061,6 @@ Alice:
 Alice:
     I hope I can find some sort of
     clue down here.
-    Let's hurry and investigate.
 
 Alice:
     Hm? What do we have here?
@@ -3077,7 +3074,7 @@ Alice:
     about it?
 
 (narration)
-    {Genomroid}. That is...
+    The {Genomroid}. That is...
 
 Alice:
     Ah! Here it is, right here!
@@ -3177,7 +3174,7 @@ Lucille:
     bother, how about quitting?
 
 Alice:
-    No way could I drop it; don't
+    No way could I quit; don't
     be absurd!
 
 Lucille:
@@ -3200,7 +3197,7 @@ Alice:
     obnoxious jerk territory!
     ---
     You're lower than a snake's
-    belly in a wagon rut.
+    belly in a wagon rut!
 
 Alice:
     Ah well, standing here
@@ -3212,7 +3209,7 @@ Alice:
 Alice:
     I'll get another earful from
     Lucille if I don't get a move
-    on.
+    on...
 
 (narration)
     *RUSTLE, RUSTLE*
@@ -3231,11 +3228,11 @@ Fairy:
     for?
 
 Fairy:
-    Not yet? I'm worried about
-    him.
+    Not yet huh? I'm worried 
+    about him...
 
 Fairy:
-    Oh, that's right!
+    Oh, right!
     I've got something good I can
     give you.
 
@@ -3247,7 +3244,7 @@ Fairy:
     magic dress Epinephre.
 
 Fairy:
-    Best of luck, y'know.
+    Best of luck, y'know!
 
 Fairy:
     I don't have any more
@@ -3277,7 +3274,7 @@ Alice:
 
 Alice:
     Let's keep going just a bit
-    further.
+    further...
 
 
 --- LABYRINTH B18F  (sp064.sp) ---
@@ -3294,7 +3291,7 @@ Wizard:
     .......
 
 Alice:
-    ? What are you doing?
+    Huh? What are you doing?
 
 Wizard:
     I'm setting up my products.
@@ -3321,7 +3318,7 @@ Wizard:
     .......
 
 Alice:
-    ? What are you doing?
+    Huh? What are you doing?
 
 Wizard:
     I'm setting up my products.
@@ -3395,7 +3392,7 @@ Alice:
     .......
 
 Alice:
-    Okay, I've calmed down some.
+    Okay, I've calmed down...
     Let's hurry on now.
 
 
@@ -3498,7 +3495,7 @@ Mikhail:
 --- ALICE'S BEDROOM  (sp_home005.sp) ---
 
 Alice:
-    Urrrr.
+    Urrr...
 
 Mikhail:
     Ah, you're back with us.
@@ -3573,7 +3570,7 @@ Mikhail:
     ---
     Those magic dresses you've
     been using are bound to that
-    selfsame life force.
+    same life force.
     ---
     If you carelessly overuse
     them then...!
@@ -3639,7 +3636,7 @@ Alice:
 Alice:
     Father's research report!
     I hope reading the rest will
-    clear up all doubt.
+    clear up my doubts.
 
 (narration)
     I used sometic cells from
@@ -3764,7 +3761,7 @@ Lucille:
     believe it?
 
 Alice:
-    Th-that is.....
+    Th-that isn't.....
 
 Lucille:
     Accept it. The fact that
@@ -3803,7 +3800,7 @@ Lucille:
     Huhun.
 
 Lucille:
-    Alice, the little Genomroid
+    Alice, the little {Genomroid}
     given new life simply to
     stomp dark monsters.
     ---
@@ -4151,10 +4148,10 @@ Alice:
 
 Nabokov:
     Yes. This cage was created
-    from formidable magic,
+    from formidable magic.
 
 Nabokov:
-    powerful enough that I
+    Powerful enough that I
     daresay I won't be able to get
     out of it.
 
@@ -4354,8 +4351,8 @@ Alice:
     Where are they?!
 
 Vampire:
-    I couldn't give you a specific
-    location.
+    I can't give you a specific
+    location...
     But, what I heard went a
     ---
     little something like this:
@@ -4421,8 +4418,8 @@ Alice:
     Where are they?!
 
 Vampire:
-    I couldn't give you a specific
-    location.
+    I can't give you a specific
+    location...
     But, what I heard went a
     ---
     little something like this:
@@ -4488,8 +4485,8 @@ Alice:
     Where are they?!
 
 Vampire:
-    I couldn't give you a specific
-    location.
+    I can't give you a specific
+    location...
     But, what I heard went a
     ---
     little something like this:
@@ -4560,8 +4557,8 @@ Alice:
     Where are they?!
 
 Vampire:
-    I couldn't give you a specific
-    location.
+    I can't give you a specific
+    location...
     But, what I heard went a
     ---
     little something like this:
@@ -4702,7 +4699,7 @@ Mikhail:
     or so I've heard...
     ---
     Thus it stands to reason,
-    they ought to...
+    they ought to know...
 
 Alice:
     Makes sense, Mikhail!
@@ -4742,10 +4739,9 @@ Wizard:
 
 Alice:
     Oh please don't leave it at
-    that.
-    Any scrap of info would be
+    that. Any scrap of info would
+    be great.
     ---
-    great.
     Anything you've overheard?
 
 Wizard:
@@ -4863,10 +4859,9 @@ Wizard:
 
 Alice:
     Oh please don't leave it at
-    that.
-    Any scrap of info would be
+    that. Any scrap of info would
+    be great.
     ---
-    great.
     Anything you've overheard?
 
 Wizard:
@@ -4971,10 +4966,9 @@ Wizard:
 
 Alice:
     Oh please don't leave it at
-    that.
-    Any scrap of info would be
+    that. Any scrap of info would
+    be great.
     ---
-    great.
     Anything you've overheard?
 
 Wizard:
@@ -5290,7 +5284,7 @@ Alice:
     Surely not God's?!
 
 Alice:
-    Yeah, like that could happen.
+    Yeah, like that could happen...
 
 
 --- LABYRINTH B30F  (sp129.sp) ---
@@ -5561,7 +5555,7 @@ Nabokov:
 
 Alice:
     I'm going to go defeat
-    {Varuudanu} again!
+    {Varuudanu}!
 
 Nabokov:
     What? You've done enough.
@@ -5664,7 +5658,7 @@ Alice:
 
 Nabokov:
     I would like for you to live
-    life as a human. For you to
+    life as a person. For you to
     find happiness as a human!
 
 Alice:
@@ -5783,8 +5777,8 @@ Alice:
     What just happened?
 
 Nabokov:
-    Thought so. Thought that was
-    the case.
+    I thought that was the 
+    case...
 
 Alice:
     Huh?
@@ -5957,7 +5951,7 @@ Alice:
     pocket?!
 
 (narration)
-    Rroooooooooar!
+    *ROAR!*
 
 Alice:
     Eep!
@@ -5974,14 +5968,14 @@ Alice:
     glowing?!
 
 (narration)
-    Roar! Ro-roaaaaaaaaaaaaaar!?
+    *ROAR* *RO-ROAAAAAAAAAAR!?*
 
 Alice:
     Wait, is this light affecting
     it?
 
 (narration)
-    Gu, guooooo?!
+    *GU* *GUOOOOO?!*
 
 Alice:
     {Varuudanu}'s recoiling!
@@ -6002,7 +5996,7 @@ Alice:
     To end {Varuudanu}!
 
 (narration)
-    RoooooooOOoooOOoaaar!!
+    *ROOOOOOOOOAAAAR!!*
 
 Alice:
     That's right, Alice!
@@ -6067,7 +6061,7 @@ Mikhail:
     He is still asleep.
 
 Alice:
-    That figures. Sheesh.
+    That figures. Sheesh...
 
 Alice:
     He's turned into such a lazy
@@ -6225,7 +6219,7 @@ Mikhail:
     talking about?
 
 Alice:
-    S-e-cret!
+    Secret!
 
 Nabokov:
     Indeed, it's private.
@@ -6598,7 +6592,7 @@ Alice:
     Alice has fallen...
 
 (system message)
-    The area was engulfed in miasma.
+    Miasma engulfs the area...
 
 (system message)
     Got {NUM}£.

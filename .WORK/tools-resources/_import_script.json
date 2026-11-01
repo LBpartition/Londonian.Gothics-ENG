@@ -6458,7 +6458,7 @@
    "source": "shadowrisae",
    "gline": null,
    "en": [
-    "Clunk"
+    "*CLUNK*"
    ]
   },
   {
@@ -6625,8 +6625,7 @@
    "source": "shadowrisae",
    "gline": 1193,
    "en": [
-    "You're right. I will.",
-    "Thank you!"
+    "All right, Thank you!"
    ]
   },
   {
@@ -6769,7 +6768,7 @@
    "source": "shadowrisae",
    "gline": 1206,
    "en": [
-    "!"
+    "Huh!"
    ]
   },
   {
@@ -6834,7 +6833,7 @@
    "source": "shadowrisae",
    "gline": 1212,
    "en": [
-    "Suspicious."
+    "Suspicious..."
    ]
   },
   {
@@ -6918,7 +6917,7 @@
    "source": "shadowrisae",
    "gline": 1220,
    "en": [
-    ".....understood."
+    "Understood..."
    ]
   },
   {
@@ -6951,8 +6950,7 @@
    "source": "shadowrisae",
    "gline": 1221,
    "en": [
-    "Right! I'll head straight",
-    "there."
+    "I'll head straight there."
    ]
   },
   {
@@ -6963,8 +6961,7 @@
    "gline": 1226,
    "en": [
     "I hope I can find some sort of",
-    "clue down here.",
-    "Let's hurry and investigate."
+    "clue down here."
    ]
   },
   {
@@ -7006,7 +7003,7 @@
    "source": "shadowrisae",
    "gline": 1233,
    "en": [
-    "{H}Genomroid{/H}. That is..."
+    "The {H}Genomroid{/H}. That is..."
    ]
   },
   {
@@ -7257,7 +7254,7 @@
    "source": "shadowrisae",
    "gline": 1262,
    "en": [
-    "No way could I drop it; don't",
+    "No way could I quit; don't",
     "be absurd!"
    ]
   },
@@ -7314,7 +7311,7 @@
     "teasing straight into",
     "obnoxious jerk territory!",
     "You're lower than a snake's",
-    "belly in a wagon rut."
+    "belly in a wagon rut!"
    ]
   },
   {
@@ -7339,7 +7336,7 @@
    "en": [
     "I'll get another earful from",
     "Lucille if I don't get a move",
-    "on."
+    "on..."
    ]
   },
   {
@@ -7383,8 +7380,8 @@
    "source": "shadowrisae",
    "gline": 1280,
    "en": [
-    "Not yet? I'm worried about",
-    "him."
+    "Not yet huh? I'm worried",
+    "about him..."
    ]
   },
   {
@@ -7394,7 +7391,7 @@
    "source": "shadowrisae",
    "gline": 1280,
    "en": [
-    "Oh, that's right!",
+    "Oh, right!",
     "I've got something good I can",
     "give you."
    ]
@@ -7427,7 +7424,7 @@
    "source": "shadowrisae",
    "gline": 1286,
    "en": [
-    "Best of luck, y'know."
+    "Best of luck, y'know!"
    ]
   },
   {
@@ -7503,7 +7500,7 @@
    "gline": 1303,
    "en": [
     "Let's keep going just a bit",
-    "further."
+    "further..."
    ]
   },
   {
@@ -7535,7 +7532,7 @@
    "source": "shadowrisae",
    "gline": 1312,
    "en": [
-    "? What are you doing?"
+    "Huh? What are you doing?"
    ]
   },
   {
@@ -7609,7 +7606,7 @@
    "source": "shadowrisae",
    "gline": 1312,
    "en": [
-    "? What are you doing?"
+    "Huh? What are you doing?"
    ]
   },
   {
@@ -7801,7 +7798,7 @@
    "source": "shadowrisae",
    "gline": 1328,
    "en": [
-    "Okay, I've calmed down some.",
+    "Okay, I've calmed down...",
     "Let's hurry on now."
    ]
   },
@@ -8030,7 +8027,7 @@
    "source": "shadowrisae",
    "gline": 1362,
    "en": [
-    "Urrrr."
+    "Urrr..."
    ]
   },
   {
@@ -8230,7 +8227,7 @@
     "harvesting of outside energy!",
     "Those magic dresses you've",
     "been using are bound to that",
-    "selfsame life force.",
+    "same life force.",
     "If you carelessly overuse",
     "them then...!"
    ]
@@ -8412,7 +8409,7 @@
    "en": [
     "Father's research report!",
     "I hope reading the rest will",
-    "clear up all doubt."
+    "clear up my doubts."
    ]
   },
   {
@@ -8707,7 +8704,7 @@
    "source": "shadowrisae",
    "gline": 1438,
    "en": [
-    "Th-that is....."
+    "Th-that isn't....."
    ]
   },
   {
@@ -8818,7 +8815,7 @@
    "source": "shadowrisae",
    "gline": 1448,
    "en": [
-    "Alice, the little Genomroid",
+    "Alice, the little {H}Genomroid{/H}",
     "given new life simply to",
     "stomp dark monsters.",
     "That's what you are."
@@ -9684,7 +9681,7 @@
    "gline": 1617,
    "en": [
     "Yes. This cage was created",
-    "from formidable magic,"
+    "from formidable magic."
    ]
   },
   {
@@ -9694,7 +9691,7 @@
    "source": "shadowrisae",
    "gline": 1617,
    "en": [
-    "powerful enough that I",
+    "Powerful enough that I",
     "daresay I won't be able to get",
     "out of it."
    ]
@@ -10193,8 +10190,8 @@
    "source": "shadowrisae",
    "gline": 1678,
    "en": [
-    "I couldn't give you a specific",
-    "location.",
+    "I can't give you a specific",
+    "location...",
     "But, what I heard went a",
     "little something like this:"
    ]
@@ -10353,8 +10350,8 @@
    "source": "shadowrisae",
    "gline": 1678,
    "en": [
-    "I couldn't give you a specific",
-    "location.",
+    "I can't give you a specific",
+    "location...",
     "But, what I heard went a",
     "little something like this:"
    ]
@@ -10513,8 +10510,8 @@
    "source": "shadowrisae",
    "gline": 1678,
    "en": [
-    "I couldn't give you a specific",
-    "location.",
+    "I can't give you a specific",
+    "location...",
     "But, what I heard went a",
     "little something like this:"
    ]
@@ -10685,8 +10682,8 @@
    "source": "shadowrisae",
    "gline": 1678,
    "en": [
-    "I couldn't give you a specific",
-    "location.",
+    "I can't give you a specific",
+    "location...",
     "But, what I heard went a",
     "little something like this:"
    ]
@@ -11017,7 +11014,7 @@
     "are related,",
     "or so I've heard...",
     "Thus it stands to reason,",
-    "they ought to..."
+    "they ought to know..."
    ]
   },
   {
@@ -11116,9 +11113,8 @@
    "gline": 1738,
    "en": [
     "Oh please don't leave it at",
-    "that.",
-    "Any scrap of info would be",
-    "great.",
+    "that. Any scrap of info would",
+    "be great.",
     "Anything you've overheard?"
    ]
   },
@@ -11452,9 +11448,8 @@
    "gline": 1738,
    "en": [
     "Oh please don't leave it at",
-    "that.",
-    "Any scrap of info would be",
-    "great.",
+    "that. Any scrap of info would",
+    "be great.",
     "Anything you've overheard?"
    ]
   },
@@ -11737,9 +11732,8 @@
    "gline": 1738,
    "en": [
     "Oh please don't leave it at",
-    "that.",
-    "Any scrap of info would be",
-    "great.",
+    "that. Any scrap of info would",
+    "be great.",
     "Anything you've overheard?"
    ]
   },
@@ -12590,7 +12584,7 @@
    "source": "shadowrisae",
    "gline": 1843,
    "en": [
-    "Yeah, like that could happen."
+    "Yeah, like that could happen..."
    ]
   },
   {
@@ -13350,7 +13344,7 @@
    "gline": null,
    "en": [
     "I'm going to go defeat",
-    "{H}Varuudanu{/H} again!"
+    "{H}Varuudanu{/H}!"
    ]
   },
   {
@@ -13635,7 +13629,7 @@
    "gline": 1915,
    "en": [
     "I would like for you to live",
-    "life as a human. For you to",
+    "life as a person. For you to",
     "find happiness as a human!"
    ]
   },
@@ -13972,8 +13966,8 @@
    "source": "shadowrisae",
    "gline": 1959,
    "en": [
-    "Thought so. Thought that was",
-    "the case."
+    "I thought that was the",
+    "case..."
    ]
   },
   {
@@ -14429,7 +14423,7 @@
    "source": "shadowrisae",
    "gline": 2007,
    "en": [
-    "Rroooooooooar!"
+    "*ROAR!*"
    ]
   },
   {
@@ -14481,7 +14475,7 @@
    "source": "shadowrisae",
    "gline": 2015,
    "en": [
-    "Roar! Ro-roaaaaaaaaaaaaaar!?"
+    "*ROAR* *RO-ROAAAAAAAAAAR!?*"
    ]
   },
   {
@@ -14502,7 +14496,7 @@
    "source": "shadowrisae",
    "gline": 2017,
    "en": [
-    "Gu, guooooo?!"
+    "*GU* *GUOOOOO?!*"
    ]
   },
   {
@@ -14558,7 +14552,7 @@
    "source": "shadowrisae",
    "gline": 2022,
    "en": [
-    "RoooooooOOoooOOoaaar!!"
+    "*ROOOOOOOOOAAAAR!!*"
    ]
   },
   {
@@ -14733,7 +14727,7 @@
    "source": "shadowrisae",
    "gline": 2092,
    "en": [
-    "That figures. Sheesh."
+    "That figures. Sheesh..."
    ]
   },
   {
@@ -15185,7 +15179,7 @@
    "source": "shadowrisae",
    "gline": 2156,
    "en": [
-    "S-e-cret!"
+    "Secret!"
    ]
   },
   {
@@ -17574,7 +17568,7 @@
   {
    "key": "sys_evil_aura",
    "source": "mtl",
-   "en": "The area was engulfed in miasma."
+   "en": "Miasma engulfs the area..."
   },
   {
    "key": "sys_got_money",
