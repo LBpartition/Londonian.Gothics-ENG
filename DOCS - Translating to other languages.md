@@ -34,7 +34,7 @@ This guide explains how to make your own translation patch from the files in thi
    python tools\glyph_import.py
    ```
 6. In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game.
-7. from the `.WORK` folder, run this command to import your changes with this command:
+7. from the `.WORK` folder, run this command to import your changes:
    ```
    python tools\script_import.py
    ```
