@@ -24,25 +24,29 @@ This guide explains how to make your own translation patch from the files in thi
 ---
 ## 0. TLDR:
 1. **Download and unzip the repo:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip),
-2. Rename your Japanese Londonian Gothics ROM to `.ROM.JPN.nds` and put it here: `.WORK\tools-resources\.ROM_JPN.nds`
-3. From the `.WORK` folder, then run this command to extract your ROM:
+2. Run this command to install the requirements:
+   ```
+   `pip install -r requirements.txt`
+   ```
+5. Rename your Japanese Londonian Gothics ROM to `.ROM.JPN.nds` and put it here: `.WORK\tools-resources\.ROM_JPN.nds`
+6. From the `.WORK` folder, run this command to extract your ROM:
    ```
    python tools\extract_rom.py
    ```
-4. Optional: In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs - From the `.WORK` folder, run this command to import them:
+7. Optional: In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs - From the `.WORK` folder, run this command to import them:
    ```
    python tools\glyph_import.py
    ```
-6. In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game.
-7. from the `.WORK` folder, run this command to import your changes:
+8. In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game.
+9. from the `.WORK` folder, run this command to import your changes:
    ```
    python tools\script_import.py
    ```
-8. From the `.WORK` folder, run this command to build your patched ROM:
+10. From the `.WORK` folder, run this command to build your patched ROM:
    ```
    python tools\full_build.py out Patched_ROM 1
    ```
-9. Test your patched ROM, it's in the `.WORK\out` folder.
+11. Test your patched ROM, it's in the `.WORK\out` folder.
 
    Note: If needed, correct any Text Fit Failures by adjusting `EDIT and IMPORT - SCRIPT.txt` and rebuild again - refer to `out\Patched_ROM_fit_report.tsv` 
 
