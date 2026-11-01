@@ -26,3 +26,7 @@
 
 ## v1.31
 - Script - Changes to 44 lines of dialogue.
+
+## v1.32
+- Script - Fix Iscarpe dress description
+- Script - Changes to 4 lines of dialogue.
