@@ -24,7 +24,7 @@ This guide explains how to make your own translation patch from the files in thi
 ---
 ## 0. TLDR:
 1. **Download and unzip the repo:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip),
-2. Run this command to install the requirements:
+2. From the `Londonian.Gothics-ENG-main` folder, run this command to install the requirements:
    ```
    `pip install -r requirements.txt`
    ```
