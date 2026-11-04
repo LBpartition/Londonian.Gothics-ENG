@@ -18,7 +18,8 @@ This guide explains how to make your own translation patch from the files in thi
 - [Editing `_import_script.json` / `_import_glyph_table.tsv` directly (advanced)](#editing-_import_scriptjson--_import_glyph_tabletsv-directly-advanced)
 - [What each tool does](#what-each-tool-does)
 
-> All commands in this guide are run from the `.WORK` folder.
+> All commands in this guide are run from the `.WORK` folder. (except for installing the requirements)
+> 
 > All files you edit are in `.WORK\tools-resources\`.
 
 ---
