@@ -22,7 +22,7 @@ This guide explains how to make your own translation patch from the files in thi
 > All files you edit are in `.WORK\tools-resources\`.
 
 ---
-## 0. TLDR:
+## TLDR:
 
 - **Download and unzip the repo:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip),
 - From the `Londonian.Gothics-ENG-main` folder, run this command to install the requirements:
@@ -34,10 +34,13 @@ pip install -r requirements.txt
 ```
 python tools\extract_rom.py
 ```
-- Optional: In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs - Then from the `.WORK` folder, run this command to import them:
+- ***Optional: In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs - Then from the `.WORK` folder, run this command to import them:***
+
+   ***Note: `EDIT and IMPORT - GLYPHS - PREVIEW.png` is regenerated after importing.***
 ```
 python tools\glyph_import.py
-```   
+```
+   
 - In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game.
 - From the `.WORK` folder, run this command to import your changes:
 ```
@@ -275,6 +278,8 @@ Every entry in `_import_script.json` has a `"source"`: where its English came fr
 
 ## 4.1 (Optional) Improve the machine-translated lines: `EDIT and IMPORT - SCRIPT - No MTL.txt`
 
+#### **NOTE: **Onlyy edit one file**, `EDIT and IMPORT - SCRIPT - No MTL.txt` **OR** `EDIT and IMPORT - SCRIPT.txt` - The other file will be updated/regenerated after importing.
+ 
 ShadowRisae's English guide was missing a few optional and missable lines, so about 9% of the English (149 dialogue lines and 19 system messages) is machine translated (MTL).
 
 **`EDIT and IMPORT - SCRIPT - No MTL.txt`** is the same script as the finished patch, except the MTL lines are left untranslated and shown in their **original Japanese**. Everything else is ShadowRisae's English, as in the main script.
