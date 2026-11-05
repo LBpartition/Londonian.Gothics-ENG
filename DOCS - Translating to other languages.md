@@ -64,6 +64,7 @@ python tools\full_build.py out Patched_ROM 1
 
    **Note: If needed, correct any Text Fit Failures by adjusting `EDIT and IMPORT - SCRIPT.txt` and rebuild again - refer to `out\Patched_ROM_fit_report.tsv`**
 
+# Long Version / More Info
 
 ## 1. Download or clone the repository
 
