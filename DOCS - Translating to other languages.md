@@ -25,35 +25,44 @@ This guide explains how to make your own translation patch from the files in thi
 ---
 ## TLDR:
 
-- **Download and unzip the repo:** [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip),
-- From the `Londonian.Gothics-ENG-main` folder, run this command to install the requirements:
+### 1. **Download the Repo & Install the Requirements** 
+- Download and unzip the repo: [latest source code (ZIP)](https://github.com/LBpartition/Londonian.Gothics-ENG/archive/refs/heads/main.zip),
+- Run this command from the `Londonian.Gothics-ENG-main` folder:
 ```
 pip install -r requirements.txt
 ```
-- Rename your Japanese Londonian Gothics ROM to `.ROM.JPN.nds` and put it here: `.WORK\tools-resources\.ROM_JPN.nds`
-- From the `.WORK` folder, run this command to extract your ROM:
+### 2. **Extract the ROM**
+- Rename your Japanese Londonian Gothics ROM to `.ROM.JPN.nds` 
+- Put it here: `.WORK\tools-resources\.ROM_JPN.nds`
+- Run this command from the `.WORK` folder:
 ```
 python tools\extract_rom.py
 ```
-- ***Optional: In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs - Then from the `.WORK` folder, run this command to import them:***
+### 3. **Import the Glyphs** 
+- *Optional: Edit `EDIT and IMPORT - GLYPHS.txt` to add more Glyphs (In the `.WORK\tools-resources` folder)*
+- Run this command From the `.WORK` folder:
 
-   ***Note: `EDIT and IMPORT - GLYPHS - PREVIEW.png` is regenerated after importing.***
+   **IMPORTANT: This patch includes Custom Glyphs that need to be imported, run this command even if you skipped the optional step above.**
+   
 ```
 python tools\glyph_import.py
 ```
-   
-- In the `.WORK\tools-resources` folder, edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game.
-- From the `.WORK` folder, run this command to import your changes:
+ **Note: `EDIT and IMPORT - GLYPHS - PREVIEW.png` is regenerated after importing.** - You can use it to preview any glyphs you add.
+
+### 4. **Edit and Import the Script**    
+- Edit `EDIT and IMPORT - SCRIPT.txt` to change any text in the game. (In the `.WORK\tools-resources` folder)
+- Run this command from the `.WORK` folder:
 ```
 python tools\script_import.py
 ```
-- After importing your Glyph and Script changes - From the `.WORK` folder, run this command to build your patched ROM:
+### 5. **Build your Patched ROM** 
+- Run this command From the `.WORK` folder:
 ```
 python tools\full_build.py out Patched_ROM 1
 ```
 - Test your patched ROM, it's in the `.WORK\out` folder.
 
-   Note: If needed, correct any Text Fit Failures by adjusting `EDIT and IMPORT - SCRIPT.txt` and rebuild again - refer to `out\Patched_ROM_fit_report.tsv` 
+   **Note: If needed, correct any Text Fit Failures by adjusting `EDIT and IMPORT - SCRIPT.txt` and rebuild again - refer to `out\Patched_ROM_fit_report.tsv`**
 
 
 ## 1. Download or clone the repository
